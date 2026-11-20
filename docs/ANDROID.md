@@ -6,6 +6,13 @@
 - Node >= 22, pnpm, Android SDK (`~/Android/Sdk`, plataforma 36 y build-tools) y **JDK 17 o 21** (Gradle 8.14 no soporta JDK 25). El script usa `/usr/lib/jvm/java-21-openjdk` si `JAVA_HOME` no es válido.
 
 ## Compilar
+Atajo recomendado (comprueba requisitos, verifica la firma y deja `LibreBiblia-<versión>.apk/.aab` en `apps/mobile/dist/`):
+```sh
+scripts/build-apk.sh             # desde la copia de trabajo
+scripts/build-apk.sh --clean     # desde el último commit, en un worktree limpio
+scripts/build-apk.sh --install   # además instala y abre la app en el móvil conectado por USB
+```
+Paso a paso:
 ```sh
 pnpm --filter @bc/mobile build:android
 ```
