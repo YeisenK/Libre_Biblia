@@ -72,8 +72,13 @@ export interface SearchHitDto {
   snippet: string;
 }
 
+export type SearchMode = 'words' | 'exact' | 'fuzzy';
+
 export interface SearchResultDto {
   query: string;
+  mode: SearchMode;
+  /** Si la consulta es una referencia ("Jn 3,16"), se devuelve resuelta y hits vacío */
+  reference: import('./reference').BibleRef | null;
   total: number;
   byBook: { book: string; count: number }[];
   hits: SearchHitDto[];
@@ -109,4 +114,33 @@ export interface UserDto {
 export interface AuthResponseDto {
   accessToken: string;
   user: UserDto;
+  /** Solo para clientes nativos (cabecera `X-Client: native`); la web usa cookie httpOnly */
+  refreshToken?: string;
+}
+
+export interface UserSettingsDto {
+  theme: 'light' | 'dark' | 'sepia' | 'system';
+  fontScale: number;
+  lineHeight: number;
+  margin: 'narrow' | 'normal' | 'wide';
+  readingMode: 'chapter' | 'verse' | 'continuous';
+  defaultVersion: string | null;
+  parallelVersions: string[];
+}
+
+export interface PassageDto {
+  version: string;
+  reference: import('./reference').BibleRef;
+  display: string;
+  verses: { chapter: number; verse: number; text: string }[];
+}
+
+/**
+ * Exportación completa de una versión para lectura sin conexión.
+ * chapters[osis][capítulo] = [[versículo, texto], ...]
+ */
+export interface OfflineBibleDto {
+  version: BibleVersionDto;
+  generatedAt: string;
+  chapters: Record<string, Record<string, [number, string][]>>;
 }

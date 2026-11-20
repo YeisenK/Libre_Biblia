@@ -1,0 +1,55 @@
+{
+  "sources": [
+    {
+      "code": "VULG",
+      "key": "ebible:latVUC",
+      "name": "Vulgata Clementina",
+      "language": "la",
+      "edition": "Vulgata Clementina de 1598 (con Glossa Ordinaria, ed. Migne 1880); texto latino de eBible.org",
+      "format": "usfm",
+      "files": ["https://eBible.org/Scriptures/latVUC_usfm.zip"],
+      "license": "Public Domain",
+      "licenseUrl": "https://ebible.org/Bible/details.php?id=latVUC",
+      "provenanceUrl": "https://ebible.org/Bible/details.php?id=latVUC",
+      "versification": "vulgate",
+      "tsConfig": "simple",
+      "completeness": "complete",
+      "notes": "Las notas al pie (glosas) del USFM se descartan; solo se conserva el texto del versículo."
+    },
+    {
+      "code": "DRA",
+      "key": "ebible:engDRA",
+      "name": "Douay-Rheims",
+      "language": "en",
+      "edition": "Douay-Rheims 1899 American Edition (NO es la revisión de Challoner de 1752)",
+      "format": "usfm",
+      "files": ["https://eBible.org/Scriptures/engDRA_usfm.zip"],
+      "license": "Public Domain",
+      "licenseUrl": "https://ebible.org/Bible/details.php?id=engDRA",
+      "provenanceUrl": "https://ebible.org/Bible/details.php?id=engDRA",
+      "versification": "vulgate",
+      "tsConfig": "english",
+      "completeness": "complete",
+      "notes": "Edición americana de 1899 (Douay-Rheims, traducida de la Vulgata latina). Etiquetas Strong y notas se descartan."
+    },
+    {
+      "code": "SCIO",
+      "key": "sword:SpaScioNT",
+      "name": "Scío de San Miguel (Nuevo Testamento)",
+      "language": "es",
+      "edition": "Felipe Scío de San Miguel, 'La Biblia Vulgata Latina traducida en Español', 2.ª ed. 1797 (solo Nuevo Testamento)",
+      "format": "sword-ztext",
+      "files": [
+        "https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SpaScioNT.zip",
+        "https://crosswire.org/ftpmirror/pub/sword/raw/mods.d/spasciont.conf"
+      ],
+      "license": "Public Domain",
+      "licenseUrl": "https://crosswire.org/ftpmirror/pub/sword/raw/mods.d/spasciont.conf",
+      "provenanceUrl": "https://crosswire.org/ftpmirror/pub/sword/raw/mods.d/spasciont.conf",
+      "versification": "vulgate",
+      "tsConfig": "spanish",
+      "completeness": "partial",
+      "notes": "Módulo SWORD zText (ThML, compresión LZSS, índice KJV). Solo NT. El texto sigue la numeración tradicional; el índice KJV solo se usa para localizar versículos."
+    }
+  ]
+}
