@@ -34,7 +34,7 @@ packs/<id>.json.gz      un paquete por archivo (JSON compacto comprimido con gzi
 
 - `id` es único en el catálogo (`bible.<CODE>`, `doc.<slug>`). `url` es relativa al catálogo o absoluta.
 - `bytes` y `sha256` son del archivo `.json.gz`; la app verifica el sha256 antes de instalar.
-- `kind`: `bible` o `document`. `authority`: `scripture`, `magisterium`, `patristic`, `theological_opinion`, `academic_hypothesis`, `literary`, `personal`.
+- `kind`: `bible` o `document`. `authority`: `scripture`, `magisterium`, `patristic`, `spiritual_classic`, `devotional`, `theological_opinion`, `academic_hypothesis`, `literary`, `personal` (ver `packages/shared/src/packs.ts`).
 - Todo paquete debe declarar `source.license` (literal) y `source.provenanceUrl`. Publica solo contenido que tengas derecho a distribuir.
 
 ## Paquete bíblico (`kind: "bible"`)
