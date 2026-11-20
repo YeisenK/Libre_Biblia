@@ -14,7 +14,7 @@ export const PACK_FORMAT_VERSION = 1;
 export const OFFICIAL_CATALOG_URL =
   'https://cdn.jsdelivr.net/gh/YeisenK/Libre_Biblia@main/content/catalog.json';
 
-export type PackKind = 'bible' | 'document';
+export type PackKind = 'bible' | 'document' | 'daily';
 
 export type Authority =
   | 'scripture'
@@ -80,8 +80,17 @@ export interface BiblePack {
     name: string;
     language: string;
     edition: string | null;
-    versification: string; // "vulgate"
+    versification: string; // "vulgate" | "hebrew" (afecta sobre todo a la numeración de los Salmos)
     completeness: 'complete' | 'partial';
+    /**
+     * Estado de la traducción y su relación con la Iglesia. Se muestran siempre
+     * junto al nombre de la versión para no presentarla como lo que no es.
+     */
+    translationStatus?: 'final' | 'draft';
+    /** true solo si consta aprobación eclesiástica (imprimatur) de la edición */
+    ecclesiasticalApproval?: boolean;
+    /** Nota breve para el usuario (p. ej. "traducción libre moderna, sin aprobación eclesiástica") */
+    notice?: string;
     source: PackSource;
   };
   /** books[osis][capítulo] = [[versículo, texto], ...] */
@@ -125,7 +134,44 @@ export interface DocumentPack {
   sections: DocumentPackSection[];
 }
 
-export type ContentPack = BiblePack | DocumentPack;
+/**
+ * Ciclo de versículo diario. Las entradas se indexan por fecha civil `MM-DD`
+ * (366 entradas, incluido 02-29) en la zona horaria del usuario. El texto
+ * bíblico NO va en el paquete: se lee de la Biblia instalada.
+ */
+export interface DailyEntry {
+  date: string; // "MM-DD"
+  title: string;
+  theme: string;
+  /** Referencia en formato español, p. ej. "Jn 3,16-17" */
+  ref: string;
+  /** Numeración de Salmos usada en `ref`/`related` */
+  psalmNumbering: 'hebrew' | 'vulgate';
+  related: string[];
+  context: string;
+  reflection: string; // Markdown seguro
+  questions: string[];
+  prayer: string;
+}
+
+export interface DailyPack {
+  format: number;
+  kind: 'daily';
+  id: string;
+  version: string;
+  meta: {
+    title: string;
+    description?: string;
+    authority: Authority;
+    language: string;
+    /** 'draft' mientras no esté revisado por el responsable editorial */
+    status: 'draft' | 'reviewed';
+    source: PackSource;
+  };
+  entries: DailyEntry[];
+}
+
+export type ContentPack = BiblePack | DocumentPack | DailyPack;
 
 /** Validación estructural mínima de un paquete recién descargado. */
 export function assertPack(p: unknown): asserts p is ContentPack {
@@ -136,6 +182,8 @@ export function assertPack(p: unknown): asserts p is ContentPack {
     if (!o.meta || !(o as BiblePack).books) throw new Error('Paquete bíblico incompleto');
   } else if (o.kind === 'document') {
     if (!o.meta || !Array.isArray((o as DocumentPack).sections)) throw new Error('Paquete de documento incompleto');
+  } else if (o.kind === 'daily') {
+    if (!o.meta || !Array.isArray((o as DailyPack).entries)) throw new Error('Paquete de versículo diario incompleto');
   } else {
     throw new Error('Tipo de paquete desconocido');
   }

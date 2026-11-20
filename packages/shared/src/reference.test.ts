@@ -24,6 +24,11 @@ describe('canon', () => {
     expect(resolveBook('3 Regum')?.osis).toBe('1Kgs');
     expect(resolveBook('Hch')?.osis).toBe('Acts');
     expect(resolveBook('xyz')).toBeUndefined();
+    // Regresión: «Is» no es «I s» (1 Samuel)
+    expect(resolveBook('Is')?.osis).toBe('Isa');
+    expect(resolveBook('Isaías')?.osis).toBe('Isa');
+    expect(resolveBook('II Reyes')?.osis).toBe('2Kgs');
+    expect(resolveBook('III Regum')?.osis).toBe('1Kgs');
   });
 });
 
@@ -48,6 +53,9 @@ describe('parseReference', () => {
     expect(parseReference('1 Corintios 13,4')).toEqual({ book: '1Cor', chapter: 13, verseStart: 4 });
     expect(parseReference('Cantar de los Cantares 2')).toEqual({ book: 'Song', chapter: 2 });
   });
+  it('Isaías', () => {
+    expect(parseReference('Is 52,7-10')).toEqual({ book: 'Isa', chapter: 52, verseStart: 7, verseEnd: 10 });
+  });
   it('rechaza entradas inválidas', () => {
     expect(tryParseReference('hola')).toBeNull();
     expect(tryParseReference('Jn 99')).toBeNull();
@@ -60,5 +68,33 @@ describe('formatReference', () => {
     expect(formatReference({ book: 'John', chapter: 3, verseStart: 16, verseEnd: 18 })).toBe('Jn 3,16-18');
     expect(formatReference({ book: 'Rom', chapter: 8 }, { long: true })).toBe('Romanos 8');
     expect(formatReference({ book: 'Matt', chapter: 5, verseStart: 1, chapterEnd: 7, verseEnd: 29 })).toBe('Mt 5,1-7,29');
+  });
+});
+
+import { psalmHebrewToVulgate, psalmVulgateToHebrew, refToVulgate } from './psalms';
+
+describe('salmos hebreo ↔ Vulgata', () => {
+  it('casos conocidos', () => {
+    expect(psalmHebrewToVulgate(23, 1)).toEqual({ chapter: 22, verse: 1 }); // El Señor es mi pastor
+    expect(psalmHebrewToVulgate(51, 3)).toEqual({ chapter: 50, verse: 3 }); // Miserere
+    expect(psalmHebrewToVulgate(130, 1)).toEqual({ chapter: 129, verse: 1 }); // De profundis
+    expect(psalmHebrewToVulgate(10, 1)).toEqual({ chapter: 9, verse: 22 });
+    expect(psalmHebrewToVulgate(116, 10)).toEqual({ chapter: 115, verse: 1 });
+    expect(psalmHebrewToVulgate(147, 12)).toEqual({ chapter: 147, verse: 1 });
+    expect(psalmHebrewToVulgate(150, 6)).toEqual({ chapter: 150, verse: 6 });
+  });
+  it('ida y vuelta', () => {
+    for (let c = 1; c <= 150; c++)
+      for (const v of [1, 5, 9, 10, 11, 12, 18]) {
+        // Versículos que existen en el hebreo de los salmos que se unen/dividen
+        const max: Record<number, number> = { 9: 21, 114: 8, 116: 19, 147: 20 };
+        if (max[c] !== undefined && v > max[c]!) continue;
+        const h = psalmVulgateToHebrew(psalmHebrewToVulgate(c, v).chapter, psalmHebrewToVulgate(c, v).verse);
+        expect(h).toEqual({ chapter: c, verse: v });
+      }
+  });
+  it('refToVulgate solo toca Salmos', () => {
+    expect(refToVulgate({ book: 'Ps', chapter: 23, verseStart: 1, verseEnd: 4 })).toEqual({ book: 'Ps', chapter: 22, verseStart: 1, verseEnd: 4 });
+    expect(refToVulgate({ book: 'John', chapter: 3, verseStart: 16 })).toEqual({ book: 'John', chapter: 3, verseStart: 16 });
   });
 });

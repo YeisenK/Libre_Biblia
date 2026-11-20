@@ -166,8 +166,10 @@ export function normalizeBookToken(s: string): string {
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
-    .replace(/[\s.]/g, '')
-    .replace(/^(iii|ii|i)(?=[a-z])/, (m) => String(m.length));
+    .trim()
+    // Romanos como prefijo solo si van separados («I Cor», «II.Reyes»); así «Is» sigue siendo Isaías.
+    .replace(/^(iii|ii|i)[\s.]+(?=[a-z])/, (m) => String(m.replace(/[\s.]/g, '').length))
+    .replace(/[\s.]/g, '');
 }
 
 const aliasIndex: Map<string, string> = (() => {
