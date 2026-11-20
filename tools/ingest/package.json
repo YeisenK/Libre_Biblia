@@ -2,18 +2,17 @@
   "name": "@bc/ingest",
   "version": "0.1.0",
   "private": true,
-  "description": "Ingesta de textos bíblicos de dominio público: descarga, conversión, validación y carga en Postgres",
+  "description": "Ingesta de textos b\u00edblicos de dominio p\u00fablico: descarga, conversi\u00f3n, validaci\u00f3n y carga en Postgres",
   "scripts": {
     "download": "tsx src/cli.ts download",
     "convert": "tsx src/cli.ts convert",
     "validate": "tsx src/cli.ts validate",
-    "load": "tsx src/cli.ts load",
     "ingest": "tsx src/cli.ts ingest",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "pack": "tsx src/cli.ts pack"
   },
   "dependencies": {
-    "@bc/db": "workspace:*",
     "@bc/shared": "workspace:*"
   },
   "devDependencies": {

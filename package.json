@@ -1,20 +1,19 @@
 {
-  "name": "biblia-catolica",
+  "name": "libre-biblia",
   "private": true,
   "license": "AGPL-3.0-or-later",
   "packageManager": "pnpm@9.15.9",
-  "engines": { "node": ">=22" },
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test",
-    "db:up": "docker compose up -d postgres redis minio",
-    "db:migrate": "pnpm --filter @bc/db migrate:dev",
-    "db:deploy": "pnpm --filter @bc/db migrate:deploy",
-    "db:seed": "pnpm --filter @bc/db seed",
-    "ingest": "pnpm --filter @bc/ingest run ingest"
+    "ingest": "pnpm --filter @bc/ingest run ingest",
+    "content:serve": "npx -y serve@14 --cors -l 5000 content"
   },
   "devDependencies": {
     "turbo": "^2.3.3",

@@ -1,11 +1,37 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "globalEnv": ["NODE_ENV", "DATABASE_URL"],
+  "globalEnv": [
+    "NODE_ENV",
+    "NEXT_PUBLIC_DEFAULT_CATALOG_URL"
+  ],
   "tasks": {
-    "build": { "dependsOn": ["^build"], "outputs": ["dist/**", ".next/**", "!.next/cache/**"] },
-    "dev": { "cache": false, "persistent": true, "dependsOn": ["^build"] },
-    "typecheck": { "dependsOn": ["^build"] },
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "dist/**",
+        ".next/**",
+        "!.next/cache/**"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": [
+        "^build"
+      ]
+    },
     "lint": {},
-    "test": { "dependsOn": ["^build"] }
+    "test": {
+      "dependsOn": [
+        "^build"
+      ]
+    }
   }
 }

@@ -12,3 +12,8 @@ export const extractedDir = (code: string) => join(RAW_DIR, code, 'extracted');
 export const outFile = (code: string) => join(OUT_DIR, `${code}.json`);
 export const reportFile = (code: string) => join(OUT_DIR, `${code}.report.json`);
 export const convertLogFile = (code: string) => join(OUT_DIR, `${code}.convert.json`);
+
+/** Repositorio de contenido (carpeta `content/` en la raíz del monorepo). */
+export const CONTENT_DIR = join(PKG_ROOT, '..', '..', 'content');
+export const PACKS_DIR = join(CONTENT_DIR, 'packs');
+export const CATALOG_FILE = join(CONTENT_DIR, 'catalog.json');

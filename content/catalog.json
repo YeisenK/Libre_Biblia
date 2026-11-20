@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "name": "Libre Biblia — repositorio oficial",
+  "homepage": "https://github.com/YeisenK/Libre_Biblia",
+  "updatedAt": "2026-11-20T15:55:17.479Z",
+  "packs": [
+    {
+      "id": "bible.DRA",
+      "kind": "bible",
+      "version": "2026.11.20",
+      "title": "Douay-Rheims",
+      "description": "Douay-Rheims 1899 American Edition (NO es la revisión de Challoner de 1752)",
+      "language": "en",
+      "url": "packs/bible.DRA.json.gz",
+      "bytes": 1474872,
+      "sha256": "70e7d38122cafb4192efdb79a3f5185f7733dec13ae543c91ce3363abe82de8a",
+      "authority": "scripture",
+      "collection": "Biblias",
+      "source": {
+        "name": "Douay-Rheims",
+        "license": "Public Domain",
+        "licenseUrl": "https://ebible.org/Bible/details.php?id=engDRA",
+        "provenanceUrl": "https://ebible.org/Bible/details.php?id=engDRA",
+        "downloadUrl": "https://eBible.org/Scriptures/engDRA_usfm.zip",
+        "originalSha256": "28147740343e44cede8c86cffb91973f934ddd892a887f621f4df816ffc86834",
+        "retrievedAt": "2026-11-20T15:55:16.513Z",
+        "notes": "Edición americana de 1899 (Douay-Rheims, traducida de la Vulgata latina). Etiquetas Strong y notas se descartan."
+      }
+    },
+    {
+      "id": "bible.SCIO",
+      "kind": "bible",
+      "version": "2026.11.20",
+      "title": "Scío de San Miguel (Nuevo Testamento)",
+      "description": "Felipe Scío de San Miguel, 'La Biblia Vulgata Latina traducida en Español', 2.ª ed. 1797 (solo Nuevo Testamento)",
+      "language": "es",
+      "url": "packs/bible.SCIO.json.gz",
+      "bytes": 327289,
+      "sha256": "5b5a9136d2ede4f21756d215a5aad7ac013336e739963bf46d80cdd1e591afd7",
+      "authority": "scripture",
+      "collection": "Biblias",
+      "source": {
+        "name": "Scío de San Miguel (Nuevo Testamento)",
+        "license": "Public Domain",
+        "licenseUrl": "https://crosswire.org/ftpmirror/pub/sword/raw/mods.d/spasciont.conf",
+        "provenanceUrl": "https://crosswire.org/ftpmirror/pub/sword/raw/mods.d/spasciont.conf",
+        "downloadUrl": "https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SpaScioNT.zip",
+        "originalSha256": "63ef0741c2e731d5281145455c505c0f3f4399091e3f199c94d0abd2c9a5e9c3",
+        "retrievedAt": "2026-11-20T15:55:17.479Z",
+        "notes": "Módulo SWORD zText (ThML, compresión LZSS, índice KJV). Solo NT. El texto sigue la numeración tradicional; el índice KJV solo se usa para localizar versículos."
+      }
+    },
+    {
+      "id": "bible.VULG",
+      "kind": "bible",
+      "version": "2026.11.20",
+      "title": "Vulgata Clementina",
+      "description": "Vulgata Clementina de 1598 (con Glossa Ordinaria, ed. Migne 1880); texto latino de eBible.org",
+      "language": "la",
+      "url": "packs/bible.VULG.json.gz",
+      "bytes": 1455220,
+      "sha256": "329a7aad1612540e04b0a29118f348c504572e04f25e1e1f0964d8c12b5ec851",
+      "authority": "scripture",
+      "collection": "Biblias",
+      "source": {
+        "name": "Vulgata Clementina",
+        "license": "Public Domain",
+        "licenseUrl": "https://ebible.org/Bible/details.php?id=latVUC",
+        "provenanceUrl": "https://ebible.org/Bible/details.php?id=latVUC",
+        "downloadUrl": "https://eBible.org/Scriptures/latVUC_usfm.zip",
+        "originalSha256": "5d73ce3473e40b70cfcc976b967e0f259cbb031d6c0cd4f9798fbabf9f5b4e6c",
+        "retrievedAt": "2026-11-20T15:55:15.838Z",
+        "notes": "Las notas al pie (glosas) del USFM se descartan; solo se conserva el texto del versículo."
+      }
+    }
+  ]
+}

@@ -2,9 +2,9 @@ import { loadSources as readSources } from './sources';
 import { downloadSource } from './download';
 import { convertSource } from './convert';
 import { validateSource } from './validate';
-import { loadSources as loadToDb } from './load';
+import { packSources } from './pack';
 
-const USAGE = `Uso: tsx src/cli.ts <download|convert|validate|load|ingest> [--only VULG,DRA] [--force]`;
+const USAGE = `Uso: tsx src/cli.ts <download|convert|validate|pack|ingest> [--only VULG,DRA] [--force]`;
 
 async function main() {
   const args = process.argv.slice(2);
@@ -12,7 +12,7 @@ async function main() {
   const oi = args.indexOf('--only');
   const only = oi >= 0 ? (args[oi + 1] ?? '').split(',') : undefined;
   const force = args.includes('--force');
-  if (!cmd || !['download', 'convert', 'validate', 'load', 'ingest'].includes(cmd)) {
+  if (!cmd || !['download', 'convert', 'validate', 'pack', 'ingest'].includes(cmd)) {
     console.error(USAGE);
     process.exit(2);
   }
@@ -26,7 +26,7 @@ async function main() {
     console.error('Validación con errores: no se continúa.');
     process.exit(1);
   }
-  if (all || cmd === 'load') await loadToDb(sources);
+  if (all || cmd === 'pack') packSources(sources);
 }
 
 main().catch((e) => {
