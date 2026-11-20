@@ -5,19 +5,19 @@
 :root, :root[data-theme='light'] {
   --bg: 250 247 240; --surface: 255 254 251; --sunken: 241 236 225;
   --fg: 33 30 26; --muted: 98 91 80; --line: 222 214 198;
-  --accent: 31 58 95; --accent-fg: 255 255 255; --mark: 255 226 130; --danger: 164 38 38;
+  --accent: 31 58 95; --accent-fg: 255 255 255; --mark: 255 226 130; --danger: 164 38 38; --warn: 140 80 0;
   color-scheme: light;
 }
 :root[data-theme='dark'] {
   --bg: 20 22 26; --surface: 28 31 36; --sunken: 14 15 18;
   --fg: 232 228 219; --muted: 160 160 156; --line: 52 56 63;
-  --accent: 140 178 232; --accent-fg: 14 18 26; --mark: 120 96 20; --danger: 240 120 120;
+  --accent: 140 178 232; --accent-fg: 14 18 26; --mark: 120 96 20; --danger: 240 120 120; --warn: 240 190 100;
   color-scheme: dark;
 }
 :root[data-theme='sepia'] {
   --bg: 242 230 204; --surface: 248 239 218; --sunken: 232 218 187;
   --fg: 59 44 28; --muted: 107 90 66; --line: 211 193 157;
-  --accent: 110 56 24; --accent-fg: 255 248 232; --mark: 240 200 90; --danger: 150 30 30;
+  --accent: 110 56 24; --accent-fg: 255 248 232; --mark: 240 200 90; --danger: 150 30 30; --warn: 125 65 5;
   color-scheme: light;
 }
 

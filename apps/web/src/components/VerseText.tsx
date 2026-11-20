@@ -1,7 +1,7 @@
 'use client';
 import type { Verse as VerseDto } from '@/lib/types';
 
-export function VerseText({ verses, highlight, onPick }: { verses: VerseDto[]; highlight?: number | null; onPick: (v: VerseDto) => void }) {
+export function VerseText({ verses, highlight, highlightEnd, onPick }: { verses: VerseDto[]; highlight?: number | null; highlightEnd?: number | null; onPick: (v: VerseDto) => void }) {
   return (
     <div className="reading">
       {verses.map((v) => (
@@ -18,7 +18,7 @@ export function VerseText({ verses, highlight, onPick }: { verses: VerseDto[]; h
               onPick(v);
             }
           }}
-          className={`cursor-pointer scroll-mt-32 rounded transition-colors hover:bg-sunken ${highlight === v.verse ? 'verse-hl' : ''}`}
+          className={`cursor-pointer scroll-mt-32 rounded transition-colors hover:bg-sunken ${highlight && v.verse >= highlight && v.verse <= (highlightEnd ?? highlight) ? 'verse-hl' : ''}`}
         >
           <sup className="verse-num">{v.verse}</sup>
           {v.text}{' '}

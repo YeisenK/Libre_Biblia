@@ -2,6 +2,7 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useEffect, useState, type ReactNode } from 'react';
 import { SettingsProvider } from '@/hooks/useSettings';
+import { NotificationSync } from '@/components/NotificationSync';
 import { initNative } from '@/lib/native/init';
 import { isNative } from '@/lib/native/platform';
 
@@ -26,7 +27,10 @@ export function Providers({ children }: { children: ReactNode }) {
   }, []);
   return (
     <QueryClientProvider client={qc}>
-      <SettingsProvider>{children}</SettingsProvider>
+      <SettingsProvider>
+        <NotificationSync />
+        {children}
+      </SettingsProvider>
     </QueryClientProvider>
   );
 }

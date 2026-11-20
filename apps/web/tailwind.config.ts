@@ -17,6 +17,7 @@ const config: Config = {
         'accent-fg': c('accent-fg'),
         mark: c('mark'),
         danger: c('danger'),
+        warn: c('warn'),
       },
       fontFamily: {
         serif: ['var(--font-serif)', 'Georgia', 'serif'],

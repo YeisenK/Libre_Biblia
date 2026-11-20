@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { useQueryClient } from '@tanstack/react-query';
 import { useRef, useState } from 'react';
+import { DailySettings } from '@/components/DailySettings';
 import { Modal } from '@/components/Modal';
 import { StorageUsage } from '@/components/StorageUsage';
 import { useVersions } from '@/hooks/useBible';
@@ -57,7 +58,7 @@ export default function Page() {
       await qc.invalidateQueries();
       const stored = await getDb().settings.get('main');
       if (stored) update(stored.value);
-      setMsg({ ok: true, text: `Importado: ${r.bookmarks} marcadores, ${r.history} entradas de historial${r.position ? ', posición de lectura' : ''}${r.settings ? ', ajustes' : ''}${r.repositories ? `, ${r.repositories} repositorios` : ''}.` });
+      setMsg({ ok: true, text: `Importado: ${r.bookmarks} marcadores, ${r.history} entradas de historial${r.position ? ', posición de lectura' : ''}${r.settings ? ', ajustes' : ''}${r.repositories ? `, ${r.repositories} repositorios` : ''}${r.dailyFavorites || r.dailyHistory ? `, ${r.dailyFavorites} favoritos y ${r.dailyHistory} días del versículo` : ''}.` });
     } catch (e) {
       setMsg({ ok: false, text: e instanceof Error ? e.message : 'No se pudo importar' });
     } finally {
@@ -129,9 +130,11 @@ export default function Page() {
         )}
       </section>
 
+      <DailySettings />
+
       <section className="card mb-4" aria-labelledby="bk">
         <h2 id="bk" className="mb-1 font-serif text-lg font-semibold">Copia de seguridad</h2>
-        <p className="mb-3 text-sm text-muted">Marcadores, historial, posición de lectura y ajustes (no incluye el contenido descargado).</p>
+        <p className="mb-3 text-sm text-muted">Marcadores, historial, posición de lectura, ajustes y favoritos e historial del versículo del día (no incluye el contenido descargado).</p>
         <div className="flex flex-wrap gap-2">
           <button className="btn" onClick={() => void doExport()}>Exportar copia (JSON)</button>
           <label className="btn cursor-pointer">

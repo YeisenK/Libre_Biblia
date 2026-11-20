@@ -1,4 +1,4 @@
-import type { AppDb, BookmarkRow, HistoryRow, PositionRow } from './db';
+import type { AppDb, BookmarkRow, DailyFavoriteRow, DailyHistoryRow, HistoryRow, PositionRow } from './db';
 import type { UserSettings } from './settings';
 import { DEFAULT_SETTINGS, mergeSettings } from './settings';
 import { getPosition, getSettings } from './personal';
@@ -15,15 +15,20 @@ export interface Backup {
   position: PositionRow | null;
   settings: UserSettings | null;
   repositories: string[];
+  /** Opcionales: copias anteriores a la sección «Hoy» no los traen */
+  dailyFavorites?: DailyFavoriteRow[];
+  dailyHistory?: DailyHistoryRow[];
 }
 
 export async function exportBackup(db: AppDb): Promise<Backup> {
-  const [bookmarks, history, position, settings, repos] = await Promise.all([
+  const [bookmarks, history, position, settings, repos, dailyFavorites, dailyHistory] = await Promise.all([
     db.bookmarks.toArray(),
     db.history.toArray(),
     getPosition(db),
     getSettings(db),
     db.repositories.filter((r) => !r.builtin).toArray(),
+    db.dailyFavorites.toArray(),
+    db.dailyHistory.toArray(),
   ]);
   return {
     app: BACKUP_APP,
@@ -34,6 +39,8 @@ export async function exportBackup(db: AppDb): Promise<Backup> {
     position,
     settings,
     repositories: repos.map((r) => r.url),
+    dailyFavorites,
+    dailyHistory,
   };
 }
 
@@ -43,6 +50,8 @@ export interface ImportSummary {
   position: boolean;
   settings: boolean;
   repositories: number;
+  dailyFavorites: number;
+  dailyHistory: number;
 }
 
 const isStr = (x: unknown): x is string => typeof x === 'string' && x.length > 0;
@@ -84,7 +93,22 @@ export function parseBackup(text: string): Backup {
       : null;
   const settings = isObj(raw.settings) ? mergeSettings(DEFAULT_SETTINGS, raw.settings as Partial<UserSettings>) : null;
   const repositories = arr(raw.repositories).filter(isStr).filter((u) => /^https?:\/\//.test(u));
-  return { app: BACKUP_APP, format: BACKUP_FORMAT, exportedAt: isStr(raw.exportedAt) ? raw.exportedAt : '', bookmarks, history, position, settings, repositories };
+  const isDate = (x: unknown): x is string => typeof x === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(x);
+  const dailyFavorites: DailyFavoriteRow[] = arr(raw.dailyFavorites).filter((x): x is Record<string, unknown> => isObj(x) && isDate(x.date) && isStr(x.ref)).map((x) => ({
+    date: x.date as string,
+    ref: x.ref as string,
+    title: isStr(x.title) ? x.title : '',
+    packId: isStr(x.packId) ? x.packId : null,
+    savedAt: isStr(x.savedAt) ? x.savedAt : new Date().toISOString(),
+  }));
+  const dailyHistory: DailyHistoryRow[] = arr(raw.dailyHistory).filter((x): x is Record<string, unknown> => isObj(x) && isDate(x.date) && isStr(x.ref)).map((x) => ({
+    date: x.date as string,
+    ref: x.ref as string,
+    title: isStr(x.title) ? x.title : '',
+    packId: isStr(x.packId) ? x.packId : null,
+    seenAt: isStr(x.seenAt) ? x.seenAt : new Date().toISOString(),
+  }));
+  return { app: BACKUP_APP, format: BACKUP_FORMAT, exportedAt: isStr(raw.exportedAt) ? raw.exportedAt : '', bookmarks, history, position, settings, repositories, dailyFavorites, dailyHistory };
 }
 
 const bmKey = (b: { version: string | null; book: string; chapter: number; verse: number | null }) => `${b.version ?? ''}|${b.book}|${b.chapter}|${b.verse ?? ''}`;
@@ -92,7 +116,7 @@ const bmKey = (b: { version: string | null; book: string; chapter: number; verse
 /** Fusiona la copia con los datos actuales sin perder nada de lo existente. */
 export async function importBackup(db: AppDb, text: string): Promise<ImportSummary> {
   const b = parseBackup(text);
-  const sum: ImportSummary = { bookmarks: 0, history: 0, position: false, settings: false, repositories: 0 };
+  const sum: ImportSummary = { bookmarks: 0, history: 0, position: false, settings: false, repositories: 0, dailyFavorites: 0, dailyHistory: 0 };
 
   const existing = await db.bookmarks.toArray();
   const keys = new Set(existing.map(bmKey));
@@ -106,6 +130,15 @@ export async function importBackup(db: AppDb, text: string): Promise<ImportSumma
   const newH = b.history.filter((h) => !hk.has(`${h.readAt}|${h.version}|${h.book}|${h.chapter}`));
   await db.history.bulkAdd(newH);
   sum.history = newH.length;
+
+  const favs = new Set((await db.dailyFavorites.toArray()).map((x) => x.date));
+  const newF = (b.dailyFavorites ?? []).filter((x) => !favs.has(x.date));
+  await db.dailyFavorites.bulkPut(newF);
+  sum.dailyFavorites = newF.length;
+  const seen = new Set((await db.dailyHistory.toArray()).map((x) => x.date));
+  const newD = (b.dailyHistory ?? []).filter((x) => !seen.has(x.date));
+  await db.dailyHistory.bulkPut(newD);
+  sum.dailyHistory = newD.length;
 
   if (b.position) {
     const cur = await getPosition(db);

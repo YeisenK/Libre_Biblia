@@ -26,7 +26,7 @@ pnpm --filter @bc/mobile build:android
 ```
 
 ## Manifest y datos
-- Solo permiso `INTERNET`. `usesCleartextTraffic=false` (todo HTTPS; el WebView sirve la app desde `https://localhost`).
+- Permisos: `INTERNET` y los del plugin de notificaciones locales (`POST_NOTIFICATIONS`, `RECEIVE_BOOT_COMPLETED`, `WAKE_LOCK`). `SCHEDULE_EXACT_ALARM` se elimina explícitamente (`tools:node="remove"`): las notificaciones usan alarmas inexactas y pueden retrasarse unos minutos. `usesCleartextTraffic=false` (todo HTTPS; el WebView sirve la app desde `https://localhost`).
 - `allowBackup=true`: los datos (IndexedDB/localStorage del WebView) pueden entrar en la copia automática de Android y restaurarse al cambiar de móvil. Es opcional para el usuario y no sale a ningún servidor nuestro. Además existe exportar/importar copia manual en Ajustes.
 - Los paquetes de contenido se descargan por `fetch` desde jsDelivr (CORS `*`). El service worker no se registra en nativo.
 

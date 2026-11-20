@@ -1,5 +1,6 @@
 'use client';
 import type { BibleVersion } from '@/lib/types';
+import { statusSuffix } from './StatusBadges';
 
 export function VersionSelect({
   versions,
@@ -25,6 +26,7 @@ export function VersionSelect({
             <option key={v.code} value={v.code} disabled={missing}>
               {v.code} · {v.name}
               {v.completeness === 'partial' ? ' (parcial)' : ''}
+              {statusSuffix(v)}
               {missing ? ' — sin este libro' : ''}
             </option>
           );

@@ -4,12 +4,14 @@ import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
 import { CANON } from '@bc/shared';
 import { getParallel } from '@/lib/queries';
+import { needsConversion, schemeOf } from '@/lib/versify';
 import { compareHref } from '@/lib/links';
 import { useBooks, useDefaultVersion, useVersions } from '@/hooks/useBible';
 import { useSettings } from '@/hooks/useSettings';
 import { BookPicker } from './BookPicker';
 import { ChevronDown } from './Icons';
 import { NoBibles } from './NoBibles';
+import { Notice, StatusBadges, statusLabels } from './StatusBadges';
 
 export function Compare() {
   const { data, isLoading } = useVersions();
@@ -70,9 +72,10 @@ function CompareInner() {
             const has = v.books.includes(book);
             const on = selected.includes(v.code);
             return (
-              <label key={v.code} className={`btn cursor-pointer ${on ? '!border-accent !bg-sunken' : ''} ${!has ? 'opacity-50' : ''}`} title={has ? v.name : `${v.code} no contiene este libro`}>
+              <label key={v.code} className={`btn cursor-pointer ${on ? '!border-accent !bg-sunken' : ''} ${!has ? 'opacity-50' : ''}`} title={has ? `${v.name}${statusLabels(v).map((l) => ` · ${l}`).join('')}` : `${v.code} no contiene este libro`}>
                 <input type="checkbox" className="sr-only" checked={on} disabled={!has || (!on && selected.length >= 4)} onChange={() => toggle(v.code)} />
                 {v.code}
+                {statusLabels(v).length > 0 && <span className="text-xs font-semibold text-warn">{v.translationStatus === 'draft' ? 'Borrador' : 'Sin aprobación'}</span>}
                 {!has && <span className="text-xs text-muted">(sin este libro)</span>}
               </label>
             );
@@ -80,6 +83,22 @@ function CompareInner() {
         </div>
       </fieldset>
 
+      {selected.some((c) => {
+        const v = all.find((x) => x.code === c);
+        return !!v && (statusLabels(v).length > 0 || !!v.notice);
+      }) && (
+        <ul className="card mb-4 flex flex-col gap-2 text-sm" aria-label="Estado de las versiones" data-testid="compare-status">
+          {selected.map((c) => all.find((x) => x.code === c)).filter((v) => v && (statusLabels(v).length > 0 || v.notice)).map((v) => (
+            <li key={v!.code}>
+              <span className="font-semibold">{v!.code}</span> <StatusBadges meta={v!} />
+              <Notice text={v!.notice} />
+            </li>
+          ))}
+        </ul>
+      )}
+      {book === 'Ps' && selected.some((c) => needsConversion(schemeOf(all.find((x) => x.code === c)?.versification), schemeOf(all.find((x) => x.code === selected[0])?.versification))) && (
+        <p className="mb-4 text-sm text-muted" data-testid="psalm-note">Las versiones usan numeraciones distintas de los Salmos (hebrea y Vulgata). Se alinean verso a verso; el número de salmo de cada versión aparece en su columna.</p>
+      )}
       {selected.length < 2 && <p className="card text-muted">Elige al menos dos versiones que contengan este libro.</p>}
       {q.isLoading && <p className="text-muted">Cargando…</p>}
       {q.isError && (
@@ -94,6 +113,7 @@ function CompareInner() {
             {q.data.versions.map((v) => (
               <div key={v} className="p-2" role="columnheader">
                 {v}
+                {book === 'Ps' && <span className="block text-xs font-normal text-muted">{q.data.labels[v]}</span>}
               </div>
             ))}
           </div>
@@ -103,7 +123,7 @@ function CompareInner() {
                 <div className="px-3 pt-3 text-xs font-semibold text-muted md:p-2 md:text-sm">{r.verse}</div>
                 {q.data.versions.map((v) => (
                   <div key={v} className="reading !text-base px-3 py-1 md:p-2 md:!text-[0.95rem]">
-                    <span className="mr-2 font-sans text-xs font-semibold text-accent md:hidden">{v}</span>
+                    <span className="mr-2 font-sans text-xs font-semibold text-accent md:hidden">{book === 'Ps' ? `${v} · ${q.data.labels[v]}` : v}</span>
                     {r.texts[v] ?? <span className="text-muted" title="No disponible en esta versión">—</span>}
                   </div>
                 ))}

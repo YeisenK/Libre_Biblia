@@ -56,6 +56,12 @@ export interface CatalogEntry {
   /** Agrupación en la UI: "Biblias", "Cultura hispánica › Romancero"… */
   collection?: string;
   tags?: string[];
+  /** Opcionales: se copian de `meta` del paquete para mostrarlos antes de descargar */
+  translationStatus?: 'final' | 'draft';
+  ecclesiasticalApproval?: boolean;
+  notice?: string;
+  /** Solo paquetes `daily` */
+  status?: 'draft' | 'reviewed';
   source: PackSource;
 }
 

@@ -6,6 +6,21 @@ export interface UserSettings {
   readingMode: 'chapter' | 'verse' | 'continuous';
   defaultVersion: string | null;
   parallelVersions: string[];
+  /** Biblia con la que se muestra el versículo del día (null = la versión por defecto) */
+  dailyBible: string | null;
+  /** Zona horaria IANA opcional; null = la del dispositivo */
+  timeZone: string | null;
+  /** Opciones nacionales del calendario litúrgico */
+  epiphanySunday: boolean;
+  ascensionSunday: boolean;
+  corpusSunday: boolean;
+  /** Notificaciones locales */
+  notifyEnabled: boolean;
+  notifyVerseTime: string; // HH:MM
+  notifyReading: boolean;
+  notifyReadingTime: string;
+  notifyPrayer: boolean;
+  notifyPrayerTime: string;
 }
 
 export const DEFAULT_SETTINGS: UserSettings = {
@@ -16,6 +31,17 @@ export const DEFAULT_SETTINGS: UserSettings = {
   readingMode: 'chapter',
   defaultVersion: null,
   parallelVersions: [],
+  dailyBible: null,
+  timeZone: null,
+  epiphanySunday: false,
+  ascensionSunday: false,
+  corpusSunday: false,
+  notifyEnabled: false,
+  notifyVerseTime: '08:00',
+  notifyReading: false,
+  notifyReadingTime: '20:00',
+  notifyPrayer: false,
+  notifyPrayerTime: '07:00',
 };
 
 export const SETTINGS_KEY = 'bc.settings';

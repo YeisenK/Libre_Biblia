@@ -1,6 +1,7 @@
 'use client';
 import { useQuery } from '@tanstack/react-query';
 import { LicenseBadge, PackSourceInfo } from '@/components/PackSource';
+import { Notice, StatusBadges } from '@/components/StatusBadges';
 import { useInstalledPacks } from '@/hooks/useBible';
 import { getDb } from '@/lib/db';
 import { fetchCatalog, listRepositories } from '@/lib/repositories';
@@ -19,13 +20,15 @@ export default function Page() {
   const installedIds = new Set(packs.data?.map((p) => p.id));
   const available = catalog.data?.filter((e) => !installedIds.has(e.id)) ?? [];
 
-  const card = (key: string, title: string, sub: string, source: Parameters<typeof PackSourceInfo>[0]['source'], authority: Parameters<typeof LicenseBadge>[0]['authority'], edition?: string | null) => (
+  const card = (key: string, title: string, sub: string, source: Parameters<typeof PackSourceInfo>[0]['source'], authority: Parameters<typeof LicenseBadge>[0]['authority'], edition?: string | null, status?: Parameters<typeof StatusBadges>[0]['meta'], notice?: string) => (
     <li key={key} className="card border-l-4 !border-l-accent">
       <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
         <h3 className="font-serif text-xl font-semibold">{title} <span className="text-sm font-normal text-muted">{sub}</span></h3>
         <LicenseBadge license={source.license} authority={authority} />
       </div>
-      <PackSourceInfo source={source} edition={edition ?? null} />
+      {status && <div className="mb-2"><StatusBadges meta={status} /></div>}
+      <Notice text={notice} />
+      <div className="mt-2"><PackSourceInfo source={source} edition={edition ?? null} /></div>
     </li>
   );
 
@@ -36,12 +39,12 @@ export default function Page() {
 
       <h2 className="mb-3 font-serif text-lg font-semibold">Instalados en este dispositivo</h2>
       {packs.data?.length === 0 && <p className="card mb-6 text-muted">No hay contenido instalado.</p>}
-      <ul className="mb-8 flex flex-col gap-4">{packs.data?.map((p) => card(p.id, p.title, p.code ?? p.id, p.source, p.authority, p.kind === 'bible' ? (p.entry.description ?? null) : null))}</ul>
+      <ul className="mb-8 flex flex-col gap-4">{packs.data?.map((p) => card(p.id, p.title, p.code ?? p.id, p.source, p.authority, p.kind === 'bible' ? (p.entry.description ?? null) : null, p, p.notice))}</ul>
 
       {available.length > 0 && (
         <>
           <h2 className="mb-3 font-serif text-lg font-semibold">Disponibles en los catálogos</h2>
-          <ul className="flex flex-col gap-4">{available.map((e) => card(e.id, e.title, e.id, e.source, e.authority))}</ul>
+          <ul className="flex flex-col gap-4">{available.map((e) => card(e.id, e.title, e.id, e.source, e.authority, null, e, e.notice))}</ul>
         </>
       )}
     </div>

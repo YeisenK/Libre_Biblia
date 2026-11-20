@@ -71,3 +71,44 @@ export function refToVulgate(ref: BibleRef): BibleRef {
   }
   return out;
 }
+
+/** Convierte una referencia escrita con numeración de la Vulgata a la hebrea. Solo afecta a los Salmos. */
+export function refToHebrew(ref: BibleRef): BibleRef {
+  if (ref.book !== 'Ps') return ref;
+  if (ref.verseStart === undefined) {
+    const c = ref.chapter;
+    if (c <= 8 || c >= 148) return ref;
+    const whole = (chapter: number, a?: number, b?: number): BibleRef =>
+      a === undefined ? { book: 'Ps', chapter } : { book: 'Ps', chapter, verseStart: a, verseEnd: b! };
+    if (c === 9) return { book: 'Ps', chapter: 9, chapterEnd: 10 };
+    if (c === 113) return { book: 'Ps', chapter: 114, chapterEnd: 115 };
+    if (c === 114) return whole(116, 1, 9);
+    if (c === 115) return whole(116, 10, 19);
+    if (c === 146) return whole(147, 1, 11);
+    if (c === 147) return whole(147, 12, 20);
+    return { book: 'Ps', chapter: c + 1 };
+  }
+  const start = psalmVulgateToHebrew(ref.chapter, ref.verseStart);
+  const out: BibleRef = { book: 'Ps', chapter: start.chapter, verseStart: start.verse };
+  if (ref.verseEnd !== undefined) {
+    const end = psalmVulgateToHebrew(ref.chapterEnd ?? ref.chapter, ref.verseEnd);
+    out.verseEnd = end.verse;
+    if (end.chapter !== start.chapter) out.chapterEnd = end.chapter;
+  }
+  return out;
+}
+
+/** Convierte una posición (capítulo, versículo) de Salmos entre numeraciones. */
+export function convertPsalmPosition(from: PsalmNumbering, to: PsalmNumbering, chapter: number, verse = 1): PsalmPos {
+  if (from === to) return { chapter, verse };
+  return from === 'hebrew' ? psalmHebrewToVulgate(chapter, verse) : psalmVulgateToHebrew(chapter, verse);
+}
+
+/** Numeración de Salmos que usa una versificación de paquete (`vulgate` → Vulgata; el resto, hebrea). */
+export const psalmNumberingOf = (versification: string): PsalmNumbering => (versification === 'vulgate' ? 'vulgate' : 'hebrew');
+
+/** Adapta una referencia de Salmos de una numeración a otra (otros libros no cambian). */
+export function convertPsalmRef(ref: BibleRef, from: PsalmNumbering, to: PsalmNumbering): BibleRef {
+  if (ref.book !== 'Ps' || from === to) return ref;
+  return from === 'hebrew' ? refToVulgate(ref) : refToHebrew(ref);
+}

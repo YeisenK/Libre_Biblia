@@ -4,7 +4,8 @@ import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
 import { CANON } from '@bc/shared';
 import { GoToBox } from '@/components/GoToBox';
-import { BookIcon, BookmarkIcon, ColumnsIcon, DownloadIcon, InfoIcon, LibraryIcon, SearchIcon } from '@/components/Icons';
+import { TodayCard } from '@/components/TodayCard';
+import { SunIcon, BookIcon, BookmarkIcon, ColumnsIcon, DownloadIcon, InfoIcon, LibraryIcon, SearchIcon } from '@/components/Icons';
 import { useDefaultVersion, useVersions } from '@/hooks/useBible';
 import { usePersonal } from '@/hooks/usePersonal';
 import { readerHref } from '@/lib/links';
@@ -12,6 +13,7 @@ import { LAST_READ_KEY, type LastRead } from '@/lib/settings';
 import { lsGet } from '@/lib/storage';
 
 const QUICK = [
+  { href: '/hoy/', label: 'Hoy', Icon: SunIcon },
   { href: '/leer/', label: 'Leer', Icon: BookIcon },
   { href: '/comparar/', label: 'Comparar versiones', Icon: ColumnsIcon },
   { href: '/buscar/', label: 'Buscar', Icon: SearchIcon },
@@ -36,6 +38,8 @@ export default function Home() {
     <div className="mx-auto max-w-2xl">
       <h1 className="h-page mb-1">Libre Biblia</h1>
       <p className="mb-6 text-muted">Estudio bíblico: lee, compara versiones y busca en el texto. Todo funciona en tu dispositivo, sin cuenta.</p>
+
+      <TodayCard />
 
       {empty ? (
         <Link href="/descargas/" className="card mb-6 block border-accent transition-colors hover:bg-sunken">

@@ -39,6 +39,15 @@ Plataforma católica libre de lectura y estudio bíblico, con una sección de cu
 | ADR-012 | Búsqueda local con MiniSearch en Web Worker, índice serializado en IndexedDB | Sin servidor; búsqueda aproximada y por prefijo; frase exacta por filtrado. |
 | ADR-013 | Datos personales solo locales + copia de seguridad en archivo | No hay sincronización en la nube; exportar/importar JSON para cambiar de dispositivo. |
 
+## Hoy / versículo del día
+- `liturgy.ts` (en `@bc/shared`): calendario romano puro. `liturgicalDay('YYYY-MM-DD', opciones)` devuelve tiempo, semana, color, ciclo A/B/C, ciclo ferial I/II y la celebración de mayor rango (tabla de precedencia de las Normas universales, con traslados de San José, Anunciación e Inmaculada).
+- Paquete `kind: 'daily'` (`DailyPack`, entradas `MM-DD`, borrador/revisado): se instala en Dexie (`dailyEntries` [packId+date], `dailyMeta`). La selección es determinista (solo depende de la fecha en la zona horaria del usuario); el texto bíblico sale de la Biblia preferida instalada, con respaldo en otra si falta el libro.
+- Datos personales: `dailyFavorites` y `dailyHistory` (clave `YYYY-MM-DD`, sin límite), incluidos en la copia de seguridad.
+- Versificación: toda conversión pasa por `apps/web/src/lib/versify.ts` (`toVersion`, `toPosition`); hoy solo Salmos hebreo/inglés ⇄ Vulgata.
+- Notificaciones (`lib/notifications/`): `plan.ts` (puro) construye los próximos 7 días; `native.ts` usa el plugin en Android (`isExactNotification: false`, sin `SCHEDULE_EXACT_ALARM`) o temporizadores con la Notification API en la web (solo con la app abierta); `sync.ts` reprograma al abrir la app o cambiar ajustes. Tocar una notificación abre `/hoy`.
+- Estado de las versiones: `meta.translationStatus`, `ecclesiasticalApproval` y `notice` se guardan en `bibleMeta`/`installedPacks` y se muestran («Borrador», «Sin aprobación eclesiástica») en selector, lector, comparar, Contenido y Fuentes.
+- Pendiente: lectionary (Evangelio del día), ver `ROADMAP.md`.
+
 ## Paquetes del monorepo
 - `packages/shared` — canon de 73 libros, parser/formateador de referencias, tipos y validación de paquetes/catálogos.
 - `apps/web` — la aplicación (PWA).

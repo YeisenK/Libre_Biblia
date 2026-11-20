@@ -14,6 +14,9 @@ export interface BibleVersion {
   edition: string | null;
   versification: string;
   completeness: 'complete' | 'partial';
+  translationStatus?: 'final' | 'draft';
+  ecclesiasticalApproval?: boolean;
+  notice?: string;
   source: PackSource;
   /** OSIS de los libros presentes */
   books: string[];
@@ -47,5 +50,7 @@ export interface ParallelData {
   book: string;
   chapter: number;
   versions: string[];
+  /** Capítulo de cada versión, p. ej. «Sal 22» (puede diferir entre numeraciones de Salmos) */
+  labels: Record<string, string>;
   rows: { verse: number; texts: Record<string, string | null> }[];
 }

@@ -27,8 +27,13 @@ Importación local de PDF/EPUB/DOCX/HTML/MD/TXT/RTF/JSON/XML en el propio dispos
 ## Fase 6 — Herramientas personales ⏳
 Notas enlazadas, resaltados por color, etiquetas/carpetas, grafo de conocimiento, planes de lectura, estadísticas. Sincronización opcional entre dispositivos sin servidor propio (archivo, WebDAV o carpeta compartida).
 
-## Fase 7 — Vida espiritual ⏳
-Versículo diario por ciclos temáticos/litúrgicos con historial, calendario litúrgico (cálculo propio del calendario romano general), oraciones, notificaciones locales (Capacitor Local Notifications; en web, Notification API con la app abierta), diario espiritual.
+## Fase 7 — Vida espiritual 🟡
+- ✅ Calendario litúrgico del rito romano (`packages/shared/src/liturgy.ts`, puro, con tests): tiempo, semana, color, ciclos A/B/C y I/II, solemnidades, fiestas y memorias de la lista fija, fiestas móviles y traslados; opciones nacionales (Epifanía, Ascensión y Corpus en domingo).
+- ✅ Sección «Hoy» (`/hoy`) y tarjeta en Inicio: cabecera litúrgica y versículo del ciclo temático instalado (paquete `daily`: contexto, reflexión, preguntas, oración, relacionadas), Profundizar, compartir como imagen/texto, favoritos, historial permanente por fecha (`/hoy?d=`), zona horaria opcional; favoritos e historial van en la copia de seguridad.
+- ✅ Notificaciones locales: Android con `@capacitor/local-notifications` (próximos 7 días, sin alarmas exactas); web con la Notification API solo con la app abierta.
+- ⏳ **Evangelio del día: falta una fuente verificable y con licencia de las referencias del leccionario.** Mientras tanto, `/hoy` muestra la cabecera litúrgica y el ciclo temático, con la nota «Las lecturas de la Misa aún no están disponibles». El modo «litúrgico» del versículo no se ofrece en Ajustes hasta entonces.
+- ⏳ Conversión de versificación más allá de los Salmos (inglesa/hebrea/Vulgata): `apps/web/src/lib/versify.ts` es el único punto de conversión y debe conectarse al módulo de versificación (TVTMS) de `@bc/shared`.
+- ⏳ Oraciones, diario espiritual.
 
 ## Fase 8 — IA ⏳
 RAG local (índice léxico + embeddings en el dispositivo), proveedor y clave configurados por el usuario en el dispositivo o modelo local, citas verificables obligatorias, modo investigación.

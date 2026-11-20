@@ -22,3 +22,5 @@ export const CloseIcon = () => <Svg><path d="M6 6l12 12M18 6L6 18" /></Svg>;
 export const WifiOffIcon = () => <Svg width="16" height="16"><path d="M2 2l20 20M5 12.500a10 10 0 0 1 5-2.600M19 12.500a10 10 0 0 0-3-2M8.500 16a5 5 0 0 1 7 0M12 20h.01" /></Svg>;
 export const LibraryIcon = () => <Svg><path d="M4 4h4v16H4zM10 4h4v16h-4zM16.500 5l3.500 1-3.500 14-3.500-1z" /></Svg>;
 export const DownloadIcon = () => <Svg><path d="M12 3v12M7 11l5 5 5-5M4 20h16" /></Svg>;
+export const SunIcon = () => <Svg><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.900 4.900l1.400 1.400M17.700 17.700l1.400 1.400M4.900 19.100l1.400-1.400M17.700 6.300l1.400-1.400" /></Svg>;
+export const HeartIcon = () => <Svg><path d="M12 20s-7-4.400-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.600-9 9-9 9z" /></Svg>;

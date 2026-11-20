@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import type { ReactNode } from 'react';
-import { BookIcon, BookmarkIcon, ColumnsIcon, HomeIcon, InfoIcon, LibraryIcon, DownloadIcon, SearchIcon, SettingsIcon } from './Icons';
+import { SunIcon, BookIcon, BookmarkIcon, ColumnsIcon, HomeIcon, InfoIcon, LibraryIcon, DownloadIcon, SearchIcon, SettingsIcon } from './Icons';
 
 const MAIN = [
   { href: '/', label: 'Inicio', Icon: HomeIcon },
@@ -12,6 +12,7 @@ const MAIN = [
   { href: '/ajustes/', label: 'Ajustes', Icon: SettingsIcon },
 ];
 const EXTRA = [
+  { href: '/hoy/', label: 'Hoy', Icon: SunIcon },
   { href: '/comparar/', label: 'Comparar', Icon: ColumnsIcon },
   { href: '/biblioteca/', label: 'Biblioteca', Icon: LibraryIcon },
   { href: '/descargas/', label: 'Contenido', Icon: DownloadIcon },
@@ -42,11 +43,11 @@ export function AppShell({ children }: { children: ReactNode }) {
           Libre Biblia
         </Link>
         <nav aria-label="Principal" className="flex flex-1 flex-col gap-1">
-          {[...MAIN.slice(0, 3), EXTRA[0]!, EXTRA[1]!, EXTRA[2]!, MAIN[3]!, MAIN[4]!].map((i) =>
+          {[MAIN[0]!, EXTRA[0]!, ...MAIN.slice(1, 3), EXTRA[1]!, EXTRA[2]!, EXTRA[3]!, MAIN[3]!, MAIN[4]!].map((i) =>
             link(i, 'flex min-h-[44px] items-center gap-3 rounded-lg px-3 text-sm font-medium hover:bg-sunken', 'bg-sunken text-accent'),
           )}
           <div className="mt-auto flex flex-col gap-1">
-            {link(EXTRA[3]!, 'flex min-h-[44px] items-center gap-3 rounded-lg px-3 text-sm text-muted hover:bg-sunken', 'bg-sunken text-accent')}
+            {link(EXTRA[4]!, 'flex min-h-[44px] items-center gap-3 rounded-lg px-3 text-sm text-muted hover:bg-sunken', 'bg-sunken text-accent')}
           </div>
         </nav>
       </aside>

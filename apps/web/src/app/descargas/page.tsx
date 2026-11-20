@@ -3,6 +3,7 @@ import { useQueries, useQuery, useQueryClient } from '@tanstack/react-query';
 import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
 import type { Catalog, CatalogEntry } from '@bc/shared';
 import { LicenseBadge, PackSourceInfo } from '@/components/PackSource';
+import { Notice, StatusBadges } from '@/components/StatusBadges';
 import { StorageUsage } from '@/components/StorageUsage';
 import { useInstalledPacks } from '@/hooks/useBible';
 import { formatBytes } from '@/lib/chapters';
@@ -114,7 +115,7 @@ export default function Page() {
         </div>
       )}
       <h1 className="h-page mb-1">Contenido</h1>
-      <p className="mb-2 text-muted">Descarga Biblias y documentos desde los repositorios. Se guardan en este dispositivo y funcionan sin conexión.</p>
+      <p className="mb-2 text-muted">Descarga Biblias, documentos y el ciclo del versículo del día desde los repositorios. Se guardan en este dispositivo y funcionan sin conexión.</p>
       <div className="mb-6">
         <StorageUsage refreshKey={usageKey} />
       </div>
@@ -148,6 +149,8 @@ export default function Page() {
                         {outdated && ` · instalado v${inst.version}`}
                       </p>
                       {entry.description && <p className="mt-1 text-sm">{entry.description}</p>}
+                      <div className="mt-1"><StatusBadges meta={{ ...entry, ...(inst ?? {}) }} /></div>
+                      <Notice text={entry.notice ?? inst?.notice} />
                     </div>
                     <div className="flex gap-2">
                       {(!inst || outdated) && (
@@ -198,7 +201,7 @@ export default function Page() {
           <ul className="flex flex-col gap-2">
             {installed.data.filter((p) => !items.some((i) => i.entry.id === p.id)).map((p) => (
               <li key={p.id} className="card flex items-center justify-between gap-2">
-                <span>{p.title} <span className="text-sm text-muted">· v{p.version} · {formatBytes(p.bytes)}</span></span>
+                <span>{p.title} <span className="text-sm text-muted">· v{p.version} · {formatBytes(p.bytes)}</span> <StatusBadges meta={p} /><Notice text={p.notice} /></span>
                 <button className="btn" onClick={() => void run(p.id, () => uninstall(p.id))}>Eliminar</button>
               </li>
             ))}
@@ -208,7 +211,7 @@ export default function Page() {
 
       <section className="card mb-6" aria-labelledby="file-h">
         <h2 id="file-h" className="mb-1 font-serif text-lg font-semibold">Importar paquete desde archivo</h2>
-        <p className="mb-3 text-sm text-muted">Para usar sin red: elige un archivo .json.gz o .json de un paquete.</p>
+        <p className="mb-3 text-sm text-muted">Para usar sin red: elige un archivo .json.gz o .json de un paquete (Biblia, documento o ciclo del versículo del día).</p>
         <input
           ref={fileRef}
           type="file"

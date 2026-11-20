@@ -6,7 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState, type TouchEvent } fr
 import { CANON } from '@bc/shared';
 import { loadChapter } from '@/lib/queries';
 import type { ChapterData as ChapterDto, Verse as VerseDto } from '@/lib/types';
-import { compareHref, readerHref } from '@/lib/links';
+import { compareHref, readerHref, versionSwitchHref } from '@/lib/links';
 import { lsGet } from '@/lib/storage';
 import { LAST_READ_KEY, MARGIN_CLASS, type LastRead } from '@/lib/settings';
 import { useBooks, useDefaultVersion, useVersions } from '@/hooks/useBible';
@@ -19,6 +19,7 @@ import { VerseActions } from './VerseActions';
 import { VerseText } from './VerseText';
 import { VersionSelect } from './VersionSelect';
 import { NoBibles } from './NoBibles';
+import { Notice, StatusBadges, statusSuffix } from './StatusBadges';
 import { Modal } from './Modal';
 import { useHideOnScroll } from '@/hooks/useHideOnScroll';
 
@@ -47,6 +48,7 @@ function ReaderInner() {
   const book = sp.get('b');
   const chapter = Number(sp.get('c') ?? 1) || 1;
   const vsParam = sp.get('vs') ? Number(sp.get('vs')) : null;
+  const veParam = sp.get('ve') ? Number(sp.get('ve')) : null;
   const mode = settings.readingMode;
 
   const booksQ = useBooks(version);
@@ -177,7 +179,7 @@ function ReaderInner() {
             <ChevronRight />
           </button>
           {versionsQ.data && version && (
-            <VersionSelect versions={versionsQ.data} value={version} book={book ?? undefined} onChange={(code) => router.push(readerHref({ v: code, b: book ?? '', c: chapter, vs: vsParam }))} />
+            <VersionSelect versions={versionsQ.data} value={version} book={book ?? undefined} onChange={(code) => router.push(versionSwitchHref(versionsQ.data!, code, { from: version, b: book ?? '', c: chapter, vs: vsParam }))} />
           )}
           <button type="button" className="btn hidden md:inline-flex" onClick={() => setGotoOpen((o) => !o)} aria-expanded={gotoOpen}>
             Ir a…
@@ -211,7 +213,13 @@ function ReaderInner() {
       </header>
 
       <article className={`mx-auto mt-6 ${margin}`} aria-live="polite">
-        {book && <h1 className="h-page mb-4">{`${bookName} ${chapter}`}</h1>}
+        {book && <h1 className="h-page mb-2">{`${bookName} ${chapter}`}</h1>}
+        {versionMeta && (statusSuffix(versionMeta) || versionMeta.notice) && (
+          <div className="mb-4" data-testid="version-status">
+            <StatusBadges meta={versionMeta} />
+            <Notice text={versionMeta.notice} />
+          </div>
+        )}
         {bookMissing && (
           <p className="card text-muted">
             La versión {version} no contiene este libro
@@ -229,10 +237,10 @@ function ReaderInner() {
           </div>
         )}
 
-        {data && mode === 'chapter' && <VerseText verses={data.verses} highlight={vsParam} onPick={(v) => setPicked({ n: v.verse, text: v.text })} />}
+        {data && mode === 'chapter' && <VerseText verses={data.verses} highlight={vsParam} highlightEnd={veParam} onPick={(v) => setPicked({ n: v.verse, text: v.text })} />}
         {data && mode === 'verse' && <SingleVerse verses={verses} index={vIndex} onPick={(v) => setPicked({ n: v.verse, text: v.text })} onStep={stepVerse} canPrev={vIndex > 0 || !!prev} canNext={vIndex < verses.length - 1 || !!next} />}
         {data && mode === 'continuous' && version && book && (
-          <ContinuousView key={`${version}-${book}-${chapter}`} version={version} start={{ book, chapter }} first={data} highlight={vsParam} bookNames={booksQ.data ?? []} onPick={(v) => setPicked({ n: v.verse, text: v.text })} />
+          <ContinuousView key={`${version}-${book}-${chapter}`} version={version} start={{ book, chapter }} first={data} highlight={vsParam} highlightEnd={veParam} bookNames={booksQ.data ?? []} onPick={(v) => setPicked({ n: v.verse, text: v.text })} />
         )}
 
         {data && mode === 'chapter' && (
@@ -260,11 +268,11 @@ function ReaderInner() {
                   className={`btn w-full !justify-start !text-left ${v.code === version ? '!border-accent !bg-sunken' : ''}`}
                   onClick={() => {
                     setVersionOpen(false);
-                    router.push(readerHref({ v: v.code, b: book ?? '', c: chapter, vs: vsParam }));
+                    router.push(versionSwitchHref(versionsQ.data!, v.code, { from: version, b: book ?? '', c: chapter, vs: vsParam }));
                   }}
                 >
                   <span className="font-semibold">{v.code}</span>
-                  <span className="min-w-0 truncate text-muted">{v.name}{v.completeness === 'partial' ? ' (parcial)' : ''}{missing ? ' — sin este libro' : ''}</span>
+                  <span className="min-w-0 truncate text-muted">{v.name}{v.completeness === 'partial' ? ' (parcial)' : ''}{statusSuffix(v)}{missing ? ' — sin este libro' : ''}</span>
                 </button>
               </li>
             );
@@ -334,7 +342,7 @@ function SingleVerse({ verses, index, onPick, onStep, canPrev, canNext }: { vers
   );
 }
 
-function ContinuousView({ version, start, first, highlight, bookNames, onPick }: { version: string; start: { book: string; chapter: number }; first: ChapterDto; highlight: number | null; bookNames: { osis: string; name: string }[]; onPick: (v: VerseDto) => void }) {
+function ContinuousView({ version, start, first, highlight, highlightEnd, bookNames, onPick }: { version: string; start: { book: string; chapter: number }; first: ChapterDto; highlight: number | null; highlightEnd: number | null; bookNames: { osis: string; name: string }[]; onPick: (v: VerseDto) => void }) {
   const [chain, setChain] = useState<{ book: string; chapter: number }[]>([start]);
   const [tail, setTail] = useState<ChapterDto | null>(first);
   const sentinel = useRef<HTMLDivElement>(null);
@@ -360,7 +368,7 @@ function ContinuousView({ version, start, first, highlight, bookNames, onPick }:
   return (
     <div>
       {chain.map((c, i) => (
-        <ChapterBlock key={`${c.book}-${c.chapter}`} version={version} target={c} heading={i > 0} bookName={bookNames.find((b) => b.osis === c.book)?.name ?? CANON.find((b) => b.osis === c.book)?.names.es ?? c.book} highlight={i === 0 ? highlight : null} onPick={onPick} onLoaded={i === chain.length - 1 ? onLoaded : undefined} preload={i === 0 ? first : undefined} />
+        <ChapterBlock key={`${c.book}-${c.chapter}`} version={version} target={c} heading={i > 0} bookName={bookNames.find((b) => b.osis === c.book)?.name ?? CANON.find((b) => b.osis === c.book)?.names.es ?? c.book} highlight={i === 0 ? highlight : null} highlightEnd={i === 0 ? highlightEnd : null} onPick={onPick} onLoaded={i === chain.length - 1 ? onLoaded : undefined} preload={i === 0 ? first : undefined} />
       ))}
       <div ref={sentinel} aria-hidden="true" className="h-10" />
       {tail && !tail.next && <p className="mt-6 text-center text-sm text-muted">Fin del texto disponible en esta versión.</p>}
@@ -368,7 +376,7 @@ function ContinuousView({ version, start, first, highlight, bookNames, onPick }:
   );
 }
 
-function ChapterBlock({ version, target, heading, bookName, highlight, onPick, onLoaded, preload }: { version: string; target: { book: string; chapter: number }; heading: boolean; bookName: string; highlight: number | null; onPick: (v: VerseDto) => void; onLoaded?: (c: ChapterDto) => void; preload?: ChapterDto }) {
+function ChapterBlock({ version, target, heading, bookName, highlight, highlightEnd, onPick, onLoaded, preload }: { version: string; target: { book: string; chapter: number }; heading: boolean; bookName: string; highlight: number | null; highlightEnd: number | null; onPick: (v: VerseDto) => void; onLoaded?: (c: ChapterDto) => void; preload?: ChapterDto }) {
   const q = useQuery({ queryKey: ['chapter', version, target.book, target.chapter], queryFn: () => loadChapter(version, target.book, target.chapter), ...(preload ? { initialData: preload } : {}) });
   useEffect(() => {
     if (q.data && onLoaded) onLoaded(q.data);
@@ -378,7 +386,7 @@ function ChapterBlock({ version, target, heading, bookName, highlight, onPick, o
   return (
     <section className="mb-8" aria-label={`${bookName} ${target.chapter}`}>
       {heading && <h2 className="h-page mb-3 mt-8 border-t border-line pt-6 !text-xl">{`${bookName} ${target.chapter}`}</h2>}
-      <VerseText verses={q.data.verses} highlight={highlight} onPick={onPick} />
+      <VerseText verses={q.data.verses} highlight={highlight} highlightEnd={highlightEnd} onPick={onPick} />
     </section>
   );
 }
