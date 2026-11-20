@@ -1,0 +1,33 @@
+Libre Biblia es una aplicación para leer y estudiar la Biblia católica, con una pequeña biblioteca de cultura hispánica y textos espirituales. Es software libre, no tiene cuentas, no muestra anuncios y no recoge ningún dato tuyo.
+
+CONTENIDO QUE PUEDES DESCARGAR
+La aplicación no trae textos de terceros incrustados: tú eliges qué descargar desde la sección «Contenido», y todo queda guardado en tu dispositivo para leerlo sin conexión. El repositorio oficial incluye, entre otros:
+• Vulgata Clementina (latín)
+• Biblia Douay-Rheims, edición de 1899 (inglés)
+• Nuevo Testamento de Scío de San Miguel (español)
+• Cultura hispánica: Martín Fierro, Versos sencillos, Azul…, Comentarios reales de los incas, Tradiciones peruanas, Romancero viejo y poemas de sor Juana Inés de la Cruz
+• Devocionario católico
+• Clásicos espirituales, como las Confesiones de san Agustín
+
+Todo el contenido oficial procede de fuentes de dominio público; cada paquete muestra su fuente, su licencia y su procedencia en «Fuentes y licencias». Si lo deseas, también puedes añadir repositorios de contenido de terceros, que se marcan como tales.
+
+QUÉ PUEDES HACER
+• Leer por libro y capítulo, o ir directamente a una cita.
+• Comparar versiones en paralelo, verso a verso.
+• Buscar en todo el texto que hayas descargado, con búsqueda aproximada y por frase.
+• Guardar marcadores y retomar la lectura donde la dejaste.
+• Copiar o compartir un versículo como texto o como imagen.
+• Elegir tema claro, oscuro o sepia, y ajustar el tamaño de letra y el interlineado.
+• Leer los documentos de la biblioteca (poesía, prosa, devocionario).
+• Exportar e importar una copia de seguridad de tus marcadores y ajustes para cambiar de dispositivo.
+
+PRIVACIDAD Y LIBERTAD
+• Sin cuentas ni registro.
+• Sin anuncios.
+• Sin rastreo ni analítica.
+• Tus marcadores, historial y ajustes se guardan solo en tu dispositivo.
+• Una vez descargado el contenido, funciona sin conexión.
+• La única actividad de red es la descarga de paquetes de contenido que tú pides, desde repositorios públicos.
+• Software libre bajo licencia AGPL-3.0: puedes revisar y mejorar el código en https://github.com/YeisenK/Libre_Biblia
+
+Política de privacidad: https://github.com/YeisenK/Libre_Biblia/blob/main/PRIVACY.md

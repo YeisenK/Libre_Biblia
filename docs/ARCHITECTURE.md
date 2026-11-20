@@ -42,7 +42,7 @@ Plataforma católica libre de lectura y estudio bíblico, con una sección de cu
 ## Paquetes del monorepo
 - `packages/shared` — canon de 73 libros, parser/formateador de referencias, tipos y validación de paquetes/catálogos.
 - `apps/web` — la aplicación (PWA).
-- `apps/mobile` — envoltorio Capacitor Android de `apps/web/out`.
+- `apps/mobile` — envoltorio Capacitor Android de `apps/web/out` (ver `docs/ANDROID.md`; ficha de Play en `store/`).
 - `tools/ingest` — genera los paquetes del repositorio oficial (`content/`).
 - `content/` — repositorio oficial de contenido, servido desde GitHub vía jsDelivr.
 
