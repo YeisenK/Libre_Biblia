@@ -22,8 +22,10 @@ export type Authority =
   | 'patristic'
   | 'theological_opinion'
   | 'academic_hypothesis'
+  | 'spiritual_classic' // obras de santos y maestros espirituales (no magisterio)
+  | 'devotional' // oraciones y devocionarios (no texto litúrgico oficial)
   | 'literary'
-  | 'personal';
+  | 'personal'; // reservado a contenido del propio usuario
 
 export interface PackSource {
   name: string;
@@ -90,7 +92,12 @@ export interface DocumentPackSection {
   path: string; // "1", "1.2"
   depth: number;
   title?: string;
-  /** Texto plano; saltos de línea significativos (versos) con "\n" */
+  /**
+   * Texto de la sección. Según `meta.textFormat`:
+   * - 'plain' (por defecto): texto plano; saltos de línea significativos (versos) con "\n".
+   * - 'markdown': subconjunto seguro de Markdown (párrafos, **negrita**, *cursiva*,
+   *   listas, citas `>`, separadores). El HTML embebido NUNCA se interpreta.
+   */
   text: string;
 }
 
@@ -112,6 +119,7 @@ export interface DocumentPack {
     period?: string;
     edition?: string;
     collection?: string;
+    textFormat?: 'plain' | 'markdown';
     source: PackSource;
   };
   sections: DocumentPackSection[];

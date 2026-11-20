@@ -1,0 +1,1 @@
+{ "extends": ["next/core-web-vitals", "next/typescript"], "rules": { "@typescript-eslint/no-unused-expressions": "off", "@next/next/no-img-element": "off" }, "ignorePatterns": ["out", ".next", "public/sw.js"] }
