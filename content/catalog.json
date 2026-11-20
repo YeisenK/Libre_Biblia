@@ -2,7 +2,7 @@
   "format": 1,
   "name": "Libre Biblia — repositorio oficial",
   "homepage": "https://github.com/YeisenK/Libre_Biblia",
-  "updatedAt": "2026-11-20T15:55:17.479Z",
+  "updatedAt": "2026-11-20T16:30:02.375Z",
   "packs": [
     {
       "id": "bible.DRA",
@@ -71,6 +71,271 @@
         "originalSha256": "5d73ce3473e40b70cfcc976b967e0f259cbb031d6c0cd4f9798fbabf9f5b4e6c",
         "retrievedAt": "2026-11-20T15:55:15.838Z",
         "notes": "Las notas al pie (glosas) del USFM se descartan; solo se conserva el texto del versículo."
+      }
+    },
+    {
+      "id": "doc.azul",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Azul...",
+      "language": "es",
+      "url": "packs/doc.azul.json.gz",
+      "bytes": 76230,
+      "sha256": "017cc4003a642e4ac3f8e5af54a038c1d6463d591db7a5785df6727d9fb7ab11",
+      "authority": "literary",
+      "collection": "Cultura hispánica › Poesía hispanoamericana",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Azul...&oldid=1322730",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "8f668ee23301c2c96bdde4b19a31c9b8a6890e7eff9e601f342f3e798a441c10",
+        "retrievedAt": "2026-11-20T16:15:56.665Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Azul...&action=history). 97 de 216 páginas del escaneo sin revisar. Páginas en blanco (139, 179, 227) no existen en Wikisource y no contienen texto."
+      }
+    },
+    {
+      "id": "doc.comentarios-reales",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Comentarios reales de los incas",
+      "language": "es",
+      "url": "packs/doc.comentarios-reales.json.gz",
+      "bytes": 62106,
+      "sha256": "a0e607ff4d2fc41b593e3d3009fd30380870beb81c9ef7b47b0805f5d9c17632",
+      "authority": "literary",
+      "collection": "Cultura hispánica › Narrativa y crónica hispanoamericana",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Comentarios_reales_(Primera_parte)&oldid=1328823",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "cb72d9f3405ec6e9df0d944fe5d4fd953c2ee5979ea57e390ecd4fc02fdd8ae8",
+        "retrievedAt": "2026-11-20T16:20:05.979Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Comentarios_reales_(Primera_parte)&action=history). "
+      }
+    },
+    {
+      "id": "doc.confesiones-agustin",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Confessiones",
+      "language": "la",
+      "url": "packs/doc.confesiones-agustin.json.gz",
+      "bytes": 209686,
+      "sha256": "6c83dca774443327b90c2413ccd182d65d20ff31e9c97a91aa80867acceedae6",
+      "authority": "patristic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en latín (la.wikisource.org)",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://la.wikisource.org/w/index.php?title=Confessiones_(ed._Migne)&oldid=170613",
+        "downloadUrl": "https://la.wikisource.org/w/api.php",
+        "originalSha256": "fa05dfb220079f782ff465992a603d98e38cade25a8d46db1e299ceb342f66e7",
+        "retrievedAt": "2026-11-20T16:22:46.240Z",
+        "notes": "Autores de la transcripción: historial de la página (https://la.wikisource.org/w/index.php?title=Confessiones_(ed._Migne)&action=history). Se omite la «admonitio» editorial de Migne. Los números de capítulo del texto se conservan como líneas."
+      }
+    },
+    {
+      "id": "doc.devocionario-catolico",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Devocionario católico",
+      "description": "Oraciones, devociones y prácticas de piedad",
+      "language": "es",
+      "url": "packs/doc.devocionario-catolico.json.gz",
+      "bytes": 18496,
+      "sha256": "015d04bb8cc9e793ff0cabf1ccb9ea3eeb83a6e5be24bb7b11b079d6030a127a",
+      "authority": "devotional",
+      "collection": "Oración y devoción",
+      "source": {
+        "name": "Devocionario católico — recopilación del autor del proyecto Libre Biblia",
+        "license": "CC BY-SA 4.0 (recopilación); oraciones tradicionales de dominio público. Las respuestas y fórmulas de la Misa provienen de traducciones litúrgicas aprobadas y se incluyen como citas breves de referencia; para la celebración consúltese el Misal vigente.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/blob/main/tools/ingest/sources/devocionario-catolico.md",
+        "originalSha256": "ee6ddeabc2e4ae1ab5fe1e3b36dc62f08f6fa874a9e26741a642f7d11fdee799",
+        "retrievedAt": "2026-11-20T00:00:00.000Z",
+        "notes": "Idioma principal español, con fragmentos en latín. No es texto litúrgico oficial."
+      }
+    },
+    {
+      "id": "doc.libro-de-la-vida-teresa",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Libro de la vida",
+      "language": "es",
+      "url": "packs/doc.libro-de-la-vida-teresa.json.gz",
+      "bytes": 208782,
+      "sha256": "268685bbca1515e30642563493a495a61256253ebe9bbc205951817c2e16a45d",
+      "authority": "spiritual_classic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Su_vida_(Santa_Teresa_de_Jes%C3%BAs)&oldid=1486091",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "ad1a988fc4da1b5fb8d751bba9cded6c34d9d557117844784e3ad13d96a48d80",
+        "retrievedAt": "2026-11-20T16:24:52.570Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Su_vida_(Santa_Teresa_de_Jes%C3%BAs)&action=history). Pendiente verificar el editor de la edición de 1927 y el estado de derechos; los capítulos no transcritos del tomo II no existen en Wikisource."
+      }
+    },
+    {
+      "id": "doc.martin-fierro",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Martín Fierro",
+      "language": "es",
+      "url": "packs/doc.martin-fierro.json.gz",
+      "bytes": 88083,
+      "sha256": "d5bb4562e029f39a91ef03cff3f9887115ed0542dc1df7f25144b6dfdaac0456",
+      "authority": "literary",
+      "collection": "Cultura hispánica › Poesía hispanoamericana",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=El_Gaucho_Mart%C3%ADn_Fierro_(1894)&oldid=1456017",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "4af49f1bc13c3c25da7df55348e3b6b68166a40826663911e65ea9f90220c571",
+        "retrievedAt": "2026-11-20T16:19:16.376Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=El_Gaucho_Mart%C3%ADn_Fierro_(1894)&action=history). 3 de 126 páginas del escaneo sin revisar. "
+      }
+    },
+    {
+      "id": "doc.poesias-san-juan-de-la-cruz",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Poesías de san Juan de la Cruz",
+      "language": "es",
+      "url": "packs/doc.poesias-san-juan-de-la-cruz.json.gz",
+      "bytes": 11773,
+      "sha256": "994c274291910644c2fb54545efef01b50280fabf851d0dba0f8b43dcbd5eb8c",
+      "authority": "spiritual_classic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Autor%3AJuan_de_la_Cruz&oldid=1325627",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "6a5eb68bc15ae589e4ab2db9a955db0fd9bf83c5f0677049b803d9ea4a7c875a",
+        "retrievedAt": "2026-11-20T16:25:13.521Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Autor%3AJuan_de_la_Cruz&action=history). "
+      }
+    },
+    {
+      "id": "doc.poesias-santa-teresa",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Poesías de santa Teresa de Jesús",
+      "language": "es",
+      "url": "packs/doc.poesias-santa-teresa.json.gz",
+      "bytes": 3274,
+      "sha256": "b802ca77febeddba92ab3df1c1b5fa0b1e90b143c15f8fa28957789b768b9d3b",
+      "authority": "spiritual_classic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Autor%3ASanta_Teresa_de_Jes%C3%BAs&oldid=1486089",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "085886c77caeecc36f396030be234d80238def640c74341befb10c650158841a",
+        "retrievedAt": "2026-11-20T16:30:02.375Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Autor%3ASanta_Teresa_de_Jes%C3%BAs&action=history). Las páginas inexistentes (p. ej. «Soneto sin nombre») no se incluyen."
+      }
+    },
+    {
+      "id": "doc.poesias-sor-juana",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Poemas de sor Juana Inés de la Cruz",
+      "language": "es",
+      "url": "packs/doc.poesias-sor-juana.json.gz",
+      "bytes": 17253,
+      "sha256": "870693ac31472c1b1c26f989f6affac14b078eca4dd917c272706618dd713fb1",
+      "authority": "literary",
+      "collection": "Cultura hispánica › Poesía hispanoamericana",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Autor%3ASor_Juana_In%C3%A9s_de_la_Cruz&oldid=1559684",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "60bf286f6c73407c4b4cb54253a7aa817746fcb8b6b935c53f92bdc61ce90ec5",
+        "retrievedAt": "2026-11-20T16:16:40.030Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Autor%3ASor_Juana_In%C3%A9s_de_la_Cruz&action=history). "
+      }
+    },
+    {
+      "id": "doc.romancero-viejo",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Romancero viejo",
+      "description": "Selección de romances anónimos del Romancero viejo (doncella guerrera, Alhama, romances del Cid y otros).",
+      "language": "es",
+      "url": "packs/doc.romancero-viejo.json.gz",
+      "bytes": 29754,
+      "sha256": "a96bf94b033f0376f16f5d16245f5387004c9cac0e7acb4440e47ee12c8b32af",
+      "authority": "literary",
+      "collection": "Cultura hispánica › Romancero",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=El_romancero_viejo&oldid=1634244",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "8ed8ced57b16f994821e035fe54c664900e4593706de25d0c08c3b3dbaeb93af",
+        "retrievedAt": "2026-11-20T16:14:32.295Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=El_romancero_viejo&action=history). Cada romance es una página de Wikisource con su propio historial; revisar la edición base antes de redistribuir."
+      }
+    },
+    {
+      "id": "doc.tradiciones-peruanas-primera-serie",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Tradiciones peruanas (primera serie)",
+      "language": "es",
+      "url": "packs/doc.tradiciones-peruanas-primera-serie.json.gz",
+      "bytes": 74964,
+      "sha256": "7fe2a403b25d9b254d737ca75438377d3f9c9b23e248b78bc87309eb782238ea",
+      "authority": "literary",
+      "collection": "Cultura hispánica › Narrativa y crónica hispanoamericana",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Tradiciones_peruanas_-_Primera_serie&oldid=1344754",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "5ff87d5848d8f25ee2e8972d8c858d883bcfb7a45b80322ea6f4a8f52d23d358",
+        "retrievedAt": "2026-11-20T16:16:47.674Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Tradiciones_peruanas_-_Primera_serie&action=history). 80 de 91 páginas del escaneo sin revisar. "
+      }
+    },
+    {
+      "id": "doc.versos-sencillos",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Versos sencillos",
+      "language": "es",
+      "url": "packs/doc.versos-sencillos.json.gz",
+      "bytes": 12256,
+      "sha256": "d40531dbe157a88a7e72698f712af514420c16df6e8bcd56f8f9e66dd9149484",
+      "authority": "literary",
+      "collection": "Cultura hispánica › Poesía hispanoamericana",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Versos_sencillos&oldid=1506464",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "56aff91b2c960f079b31bce3ad5545307333aa69ffdf9a72135ed19e8e3a5248",
+        "retrievedAt": "2026-11-20T16:15:45.925Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Versos_sencillos&action=history). "
       }
     }
   ]

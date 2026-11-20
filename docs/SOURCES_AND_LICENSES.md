@@ -20,6 +20,54 @@ Los sha256 de cada archivo descargado y la fecha de obtención se guardan en `So
 - **VULG** conserva los corchetes editoriales `[ ]` de la fuente; las glosas se descartan.
 - Notas al pie, referencias cruzadas y títulos de sección de las fuentes no se importan.
 
+## Cultura hispánica (Wikisource en español)
+
+Paquetes `doc.*` generados con `pnpm --filter @bc/ingest run culture` (API de es.wikisource.org, caché en `tools/ingest/raw/culture/`, 1 petición cada 1,5 s). Licencia de todos: **obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0** ([texto](https://creativecommons.org/licenses/by-sa/4.0/deed.es)). Los autores de cada transcripción son el historial de la página (`?action=history`); cada paquete guarda en `source.provenanceUrl` el enlace con `oldid` (revisión exacta) y en `source.originalSha256` el hash del wikitexto de origen.
+
+| Paquete | Obra | Edición base (verificada en Wikisource) | Páginas con `oldid` | Notas |
+|---|---|---|---|---|
+| `doc.romancero-viejo` | Romances anónimos (31: doncella guerrera, Alhama, Abenámar, romances del Cid, Gerineldo, etc.) | Versiones modernizadas; las páginas **no declaran edición base** | una página por romance (ver `provenanceUrl` y el historial) | Excluidos: romances de autor conocido (p. ej. Quevedo, Lorca) y el «enamorado y la muerte» (recogido por Menéndez Pidal, protegido). Pendiente verificar la edición de cada romance. |
+| `doc.versos-sencillos` | José Martí, *Versos sencillos* (prólogo + I–XLVI) | Transcripción sin edición declarada (la página prevé la «Colección de libros cubanos», 1927) | https://es.wikisource.org/wiki/Versos_sencillos | Martí † 1895 |
+| `doc.azul` | Rubén Darío, *Azul...* | *Obras completas*, vol. IV, Mundo Latino, Madrid, 1917 (escaneo IA) | https://es.wikisource.org/wiki/Azul... | Darío † 1916. Hay páginas del escaneo sin revisar (ver notas del paquete). |
+| `doc.poesias-sor-juana` | Sor Juana Inés de la Cruz, 28 poemas (Redondillas «Hombres necios», sonetos, etc.) | Transcripciones modernizadas, edición no declarada | https://es.wikisource.org/wiki/Autor:Sor_Juana_Inés_de_la_Cruz | † 1695. **«Primero sueño» no se incluye**: la página de Wikisource es la edición de Antonio Alatorre († 2010, protegida). |
+| `doc.tradiciones-peruanas-primera-serie` | Ricardo Palma, *Tradiciones peruanas*, primera serie (14 tradiciones) | Tomo I, Montaner y Simón, Barcelona, 1893 (ortografía modernizada) | https://es.wikisource.org/wiki/Tradiciones_peruanas_-_Primera_serie | Palma † 1919. La mayoría de las páginas del escaneo están **sin revisar** (OCR de calidad 1): puede haber errores de OCR. |
+| `doc.martin-fierro` | José Hernández, *El gaucho Martín Fierro* (1894) y *La vuelta de Martín Fierro* (2.ª ed., Coni, 1879) | Ortografía original | https://es.wikisource.org/wiki/El_Gaucho_Martín_Fierro_(1894) | Hernández † 1886 |
+| `doc.comentarios-reales` | Inca Garcilaso, *Comentarios reales*, Primera parte (solo capítulos transcritos) | Transcripción modernizada, edición no declarada | https://es.wikisource.org/wiki/Comentarios_reales_(Primera_parte) | Garcilaso † 1616. Es una antología, no la obra completa. |
+
+### Pendientes y omisiones (cultura hispánica)
+- **Cantar de mio Cid**: omitido. Wikisource solo transcribe el prólogo de la edición de Sánchez (1779) (hasta la pág. 321 del escaneo) y no el poema; las ediciones de Bello (1881) y De la Barra (1900) solo tienen 12 páginas transcritas. La de Menéndez Pidal está protegida. Pendiente: transcribir Janer 1864/Bello 1881 o usar otra fuente.
+- **Primero sueño** (sor Juana): ver tabla; pendiente buscar una edición antigua (p. ej. Fama y obras póstumas, 1700).
+- **Romance del conde Arnaldos** y **del rey don Rodrigo**: no existen en Wikisource (los romances del Cid sí se incluyen).
+- **Popol Vuh**: no se incluye; la versión de Wikisource es la de Asturias (1927), protegida.
+- **Comentarios reales**: solo capítulos transcritos de la primera parte; falta la segunda parte (*Historia general del Perú*).
+- Ediciones sin base declarada (romances, sor Juana, Martí, Garcilaso): confirmar la edición de origen antes de redistribuir.
+
+## Oración y devoción
+
+| Paquete | Obra | Licencia | Procedencia |
+|---|---|---|---|
+| `doc.devocionario-catolico` | *Devocionario católico: oraciones, devociones y prácticas de piedad* (formato Markdown, `textFormat: 'markdown'`, autoridad `devotional`) | CC BY-SA 4.0 (recopilación); oraciones tradicionales de dominio público. Las respuestas y fórmulas de la Misa provienen de traducciones litúrgicas aprobadas y se incluyen como citas breves de referencia; para la celebración consúltese el Misal vigente | `tools/ingest/sources/devocionario-catolico.md` (recopilación del autor del proyecto) |
+
+Se genera con `pnpm --filter @bc/ingest run markdown sources/devocionario-catolico.md --id doc.devocionario-catolico ...` (el índice manual se omite; la app genera el suyo). No es texto litúrgico oficial.
+
+## Espiritualidad clásica
+
+Misma licencia y mecanismo que arriba (Wikisource en español, latín o francés; CC BY-SA 4.0 sobre la transcripción). Criterio: autor **y traductor** fallecidos hace más de 80 años; si el traductor no consta o es moderno, no se incluye.
+
+| Paquete | Obra | Edición base | Idioma | Notas |
+|---|---|---|---|---|
+| `doc.confesiones-agustin` | San Agustín, *Confessiones* (13 libros) | *Patrologia Latina* t. 32, ed. Migne, París, 1841 (vía la.wikisource.org) | la | Texto latino original (autoridad `patristic`): no se halló traducción española antigua con traductor de dominio público verificado. |
+| `doc.libro-de-la-vida-teresa` | Santa Teresa de Jesús, *Libro de la vida* (capítulos transcritos) | Espasa-Calpe, Colección Universal 1003-1005, Madrid, 1927 (ortografía modernizada) | es | Pendiente verificar el editor de la edición de 1927; el tomo II está sin transcribir. |
+| `doc.poesias-santa-teresa` | Poesías de santa Teresa (5) | Transcripciones sin edición declarada | es | |
+| `doc.poesias-san-juan-de-la-cruz` | San Juan de la Cruz: Cántico espiritual, Noche oscura, Llama de amor viva y otros 9 poemas | Transcripciones sin edición declarada | es | Los tratados en prosa no están transcritos en Wikisource. |
+
+### Pendientes y omisiones (espiritualidad clásica)
+- **Las moradas / Castillo interior** y **Camino de perfección** (santa Teresa): no existen transcritos en es.wikisource (solo escaneos o una única página). Pendiente: otra fuente de dominio público.
+- **Imitación de Cristo** (Kempis, trad. Nieremberg): no existe en es.wikisource. Pendiente.
+- **Subida del Monte Carmelo / Noche oscura (tratado)** de san Juan de la Cruz: no transcritos.
+- **Historia de un alma** (santa Teresa de Lisieux): omitida. La única transcripción útil es la de fr.wikisource (ed. 1912), pero sus letras capitales, epígrafes y títulos de capítulo están en imágenes o plantillas no convertibles sin perder texto; no se completa a mano. Pendiente: traducción española antigua de dominio público o transcripción completa.
+- Traducción española antigua de las *Confesiones*: no encontrada; se incluye el original latino.
+
 ## Pendientes
 
 | Recurso | Situación |

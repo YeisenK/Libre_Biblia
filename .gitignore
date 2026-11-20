@@ -12,3 +12,13 @@ tools/ingest/out/
 apps/mobile/android/app/build/
 playwright-report/
 test-results/
+apps/web/out/
+apps/web/next-env.d.ts
+*.tsbuildinfo
+*.jks
+*.keystore
+keystore.properties
+apps/mobile/android/keystore.properties
+apps/mobile/android/local.properties
+apps/mobile/dist/
+.idea/

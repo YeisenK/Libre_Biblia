@@ -60,3 +60,31 @@ Sin diferencias de capítulos respecto a `vulgateChapters` en ninguna versión.
 - Challoner estricto (Douay-Rheims revisión 1749-1752): DRA ingestada es la edición americana de 1899; falta una fuente de la revisión de Challoner si se quiere.
 - Las notas/glosas de la Vulgata (Glossa Ordinaria) se descartan; podrían ingestarse como capa aparte.
 - Correspondencias de versificación (hebreo ↔ Vulgata) no se generan aquí.
+
+## Paquetes de documentos (cultura, espiritualidad, devocionarios)
+
+Además de las Biblias, `@bc/ingest` genera `DocumentPack` (`kind: "document"`) y los fusiona en `content/catalog.json` con `upsertCatalogEntries` (no toca las entradas de otros ids).
+
+### `culture`: obras de Wikisource
+
+```bash
+pnpm --filter @bc/ingest run culture                        # todas las obras (src/culture/works.ts)
+pnpm --filter @bc/ingest run culture -- --only azul,martin-fierro
+```
+
+- Código en `src/culture/`: `wiki.ts` (cliente de la API con User-Agent genérico, 1 petición cada 1,5 s, reintentos con backoff ante 429/5xx y caché en `raw/culture/<slug>/`; lo ya pedido no se vuelve a pedir), `wikitext.ts` (wikitext → texto plano), `resolve.ts` (resuelve transclusiones `<pages index= from= to= fromsection= tosection= onlysection=/>` pidiendo las páginas `Página:<índice>/<n>`), `build.ts` (fuentes de secciones: lista de páginas, subpáginas por prefijo, rango de escaneo por encabezados `{{t2}}`/`{{t3}}` o por títulos del índice) y `works.ts` (especificaciones y metadatos de cada obra).
+- Conversión: se eliminan plantillas (las de contenido —`{{c|…}}`, `{{bc|…}}`, `{{gota|E}}`, `{{may|…}}`…— se desenvuelven, las desconocidas se descartan y se registran en `out/culture/<slug>.log.json`), refs, comentarios, tablas de navegación, categorías, enlaces y formato (`''`, `'''`); se conservan los saltos de verso de `<poem>`. No se inventa ni completa texto: una sección vacía se omite y se anota en el log.
+- `meta.source`: licencia «Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0», `provenanceUrl` con `oldid` de la página principal, `notes` con el historial de autores, `originalSha256` del wikitexto de origen y `retrievedAt` (fijado en la primera ejecución en `raw/culture/<slug>/meta.json` para que el sha256 del paquete sea reproducible).
+- Validación incluida en el build: al menos una sección con texto y ningún resto de wikitext (`{{`, `[[`, `<ref`, `'''`).
+- Los idiomas `la` y `fr` pueden usar la.wikisource.org / fr.wikisource.org (`wikiLang` en la especificación; hoy solo se usa `la`).
+- Obras omitidas y pendientes: ver `docs/SOURCES_AND_LICENSES.md`.
+
+### `markdown`: Markdown propio
+
+```bash
+pnpm --filter @bc/ingest run markdown sources/devocionario-catolico.md \
+  --id doc.devocionario-catolico --genre prayerbook --authority devotional --language es \
+  --collection "Oración y devoción" --source-name "…" --license "…" --provenance-url "…" [--title --subtitle --edition --license-url --retrieved --notes --description]
+```
+
+Secciones por encabezados (`#` profundidad 0, `##` 1, `###` 2; un encabezado sin padre sube de nivel; `#` consecutivos sin cuerpo se fusionan). El cuerpo se conserva como markdown (`meta.textFormat = "markdown"`). Se omite el bloque «Índice» (la app genera el suyo). `originalSha256` es el del `.md`.
