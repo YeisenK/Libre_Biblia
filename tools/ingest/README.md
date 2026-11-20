@@ -25,6 +25,10 @@ Flujo y directorios (`raw/` y `out/` están en `.gitignore`):
 
 Nunca se inventa ni se rellena texto: todo versículo sale del archivo fuente.
 
+## Versículo del día (ciclo temático)
+
+`tsx src/cli.ts daily check` coteja las 366 entradas de `sources/daily/*.md` con el texto de la Biblia SBLM (referencias inexistentes, fechas, preguntas, longitudes, citas duplicadas). `daily pack` une los .md en el `DailyPack` `daily.ciclo-tematico` (status `draft`) y lo escribe, de forma determinista, en `content/drafts/packs/` con su propio `content/drafts/catalog.json` (repositorio de borradores). Código en `src/daily.ts`, tests en `test/daily.test.ts`. Revisión y publicación: `sources/daily/README.md`.
+
 ## Fuentes y licencias (`sources.json`)
 
 | Código | Versión | Origen | Licencia declarada | tsConfig |

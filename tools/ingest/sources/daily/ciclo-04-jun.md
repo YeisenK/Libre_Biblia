@@ -3,7 +3,7 @@
 ## 04-01 · Él cargó con lo nuestro
 - Tema: La Cruz de Cristo
 - Cita: Is 53,4-6
-- Relacionadas: 1 P 2,24; Sal 22,2-3
+- Relacionadas: 1 P 2,24; Sal 22,1-2
 
 ### Contexto
 Es parte del cuarto canto del Siervo del Señor, en la segunda parte del libro de Isaías. Un grupo que habla en primera persona reconoce, con asombro, que aquel hombre despreciado sufría por ellos. La Iglesia ha leído desde siempre estas líneas a la luz de la pasión de Jesús.
@@ -18,46 +18,46 @@ Hay dolores que no elegimos y otros que causamos nosotros. El profeta describe a
 ### Oración
 Señor Jesús, tú cargaste con lo que yo no podía llevar. Enséñame a no esconderte mis heridas ni mis faltas. Que ante tu Cruz aprenda a descansar y también a acompañar a quien sufre a mi lado. Amén.
 
-## 04-02 · Se despojó de sí mismo
+## 04-02 · Cuando aún éramos débiles
 - Tema: La Cruz de Cristo
-- Cita: Flp 2,5-8
-- Relacionadas: 2 Co 8,9; Jn 13,3-5
+- Cita: Rm 5,6-8
+- Relacionadas: 1 P 3,18; Jn 15,13
 
 ### Contexto
-Pablo escribe a los cristianos de Filipos desde la prisión. Antes de este pasaje les ha pedido unidad y humildad. Para mostrarles cómo se vive eso, les presenta un himno antiguo sobre Cristo, que siendo Dios no se aferró a su rango y se hizo siervo hasta la muerte en cruz.
+Pablo explica a los romanos por qué la esperanza cristiana no defrauda. Para mostrarlo compara la muerte de Cristo con lo que haría alguien por una persona justa o por alguien muy bueno. El pasaje subraya cuándo y por quién murió Jesús.
 
 ### Reflexión
-Casi todos tenemos alguna forma de aferrarnos: a la razón, al prestigio, a la última palabra. Pablo propone mirar a Cristo, que tenía todo derecho a hacerlo y decidió bajar. No bajó por debilidad, sino por amor, y su descenso llegó hasta lo más oscuro. Esta es la lógica de la Cruz: el amor verdadero no calcula cuánto pierde. Quizá hoy se te pida algo mucho más pequeño que una cruz: ceder en una discusión, servir sin que lo noten, callar un reproche. Es la misma dirección, el mismo camino de bajada.
+Pablo hace una comparación humana: es raro que alguien dé la vida por un hombre justo, y quizá algún valiente lo haría por alguien muy bueno. Pero el amor de Dios no sigue esa lógica. Cristo murió cuando aún éramos débiles, cuando aún éramos pecadores, es decir, antes de que hiciéramos nada por merecerlo. La cruz no es la respuesta de Dios a un buen comportamiento tuyo, es su iniciativa. Mirarla así cambia el modo de rezar: no empiezas intentando mejorar para ser amado, empiezas sabiéndote amado y desde ahí cambias. Hoy deja que esa verdad ocupe un rato tu atención.
 
 ### Para meditar
-1. ¿A qué te aferras con más fuerza cuando alguien te contradice?
-2. ¿Qué pequeño gesto de servicio puedes hacer hoy sin esperar reconocimiento?
+1. ¿Te cuesta creer que Dios te ame tal como eres hoy?
+2. ¿A quién podrías amar hoy sin esperar nada a cambio, como hace él?
 
 ### Oración
-Señor Jesús, tú bajaste hasta el último lugar para encontrarme. Libera mi corazón de la necesidad de ganar siempre y de ser visto. Dame tu manera de mirar y de servir, humilde y alegre. Amén.
+Señor Jesús, moriste por mí cuando yo aún no sabía amarte. Gracias por tu amor, que se adelanta y no espera méritos. Mírame en mi debilidad, sana lo que está roto y haz que ame a otros con ese mismo desinterés. Amén.
 
-## 04-03 · Junto a la cruz estaba su madre
+## 04-03 · Todo está cumplido
 - Tema: La Cruz de Cristo
-- Cita: Jn 19,25-27
-- Relacionadas: Lc 2,34-35; Hch 1,14
+- Cita: Jn 19,28-30
+- Relacionadas: Jn 4,34; Jn 17,4
 
 ### Contexto
-Es el momento final de la pasión según san Juan. Junto a la cruz de Jesús permanecen su madre, otras mujeres y el discípulo amado. Desde la cruz, Jesús habla a su madre y a ese discípulo, y deja establecido un vínculo nuevo entre ellos antes de decir que todo está cumplido.
+Jesús está ya en la cruz y Juan cuenta sus últimas palabras. Poco antes ha confiado su madre al discípulo amado. El evangelista presenta la muerte como la culminación de algo que Jesús venía realizando.
 
 ### Reflexión
-Casi todos huyeron, pero ella se quedó de pie. No se nos cuenta que dijera nada, ni que resolviera nada; simplemente estuvo. A veces lo único que podemos ofrecer a alguien que sufre es esa presencia sin palabras. Jesús, en medio de su agonía, aún piensa en los demás: confía su madre a un amigo y un amigo a su madre. Nace así una familia a los pies de la Cruz. Quizá hoy alguien necesita que te quedes a su lado sin arreglarlo todo, y tú mismo necesitas dejarte acompañar por María.
+Las últimas palabras de Jesús en este evangelio son muy sobrias: tengo sed, y luego, se acabó. La sed es la de un hombre agotado, pero Juan la ve también como cumplimiento de la Escritura. Y ese «se acabó» no suena a derrota sino a tarea terminada: ha hecho lo que el Padre le encargó, hasta el final. Fíjate en que entrega el espíritu; no se le arrebata. Cuando sientas que algo en tu vida se acaba sin que tú lo hayas elegido, esa escena te invita a preguntarte no solo qué has perdido, sino qué has entregado y a quién.
 
 ### Para meditar
-1. ¿A quién podrías acompañar hoy sin tener nada brillante que decir?
-2. ¿Qué lugar ocupa María en tu vida cuando atraviesas momentos duros?
+1. ¿Qué tarea tuya podrías llevar hasta el final por amor, aunque cueste?
+2. ¿Qué estás viviendo que se acaba y necesitas entregar a Dios?
 
 ### Oración
-Señor Jesús, gracias por darnos a tu madre desde la cruz. Haz que sepa quedarme junto a quienes sufren y que acoja a María en mi casa, como lo hizo tu discípulo. Que tu Cruz nos haga familia. Amén.
+Jesús, en la cruz llevaste hasta el final lo que el Padre te había encargado. Quédate conmigo en mis cansancios y en lo que se acaba. Enséñame a entregar mi vida, no a perderla, y a confiar mis finales en tus manos. Amén.
 
 ## 04-04 · Hoy estarás conmigo
 - Tema: La Cruz de Cristo
 - Cita: Lc 23,39-43
-- Relacionadas: Sal 51,3-4; Lc 15,18-20
+- Relacionadas: Sal 51,1-2; Lc 15,18-20
 
 ### Contexto
 Jesús está crucificado entre dos malhechores. Uno de ellos lo insulta; el otro reconoce su culpa, defiende la inocencia de Jesús y le pide que se acuerde de él. Es un diálogo breve, al final de una vida, narrado solo por san Lucas.
@@ -306,23 +306,23 @@ El mendigo pedía dinero y recibió algo que ni había imaginado pedir. Pedro no
 ### Oración
 Señor Jesús, que sepa mirar a quien me pide ayuda y darle lo que tengo, que eres tú. No permitas que me excuse en mi pobreza para no servir. Amén.
 
-## 04-18 · Lo que hemos visto y oído
+## 04-18 · Es verdad: ha resucitado
 - Tema: Testigos del Resucitado
-- Cita: 1 Jn 1,1-4
-- Relacionadas: Jn 1,14; Hch 4,20
+- Cita: Lc 24,33-35
+- Relacionadas: Jn 20,19-20; 1 Jn 1,1-4
 
 ### Contexto
-Así comienza la primera carta de Juan, escrita por un testigo de Jesús. Con insistencia habla de lo que ha oído, visto y tocado acerca de la Palabra de vida. Lo anuncia para que los lectores entren en comunión con ellos y con el Padre y su Hijo, y para que la alegría sea completa.
+Los dos discípulos de Emaús acaban de reconocer a Jesús al partir el pan y vuelven de noche a Jerusalén. Allí los once ya tienen noticia: el Señor ha resucitado y se ha aparecido a Simón. Los recién llegados añaden su propio relato del camino.
 
 ### Reflexión
-Juan habla casi con las manos: lo que oímos, lo que vimos, lo que tocamos. La fe cristiana no empieza con una idea, sino con un encuentro real con alguien. Y quien lo ha vivido siente la necesidad de compartirlo, no para convencer, sino para que otros participen de esa alegría. Es un buen criterio: el anuncio del Evangelio no nace de la obligación, sino de un gozo que desborda. Quizá hoy convenga preguntarte cuándo fue la última vez que sentiste que tu fe era una alegría y no solo un deber.
+Los dos discípulos podrían haberse quedado en la mesa de Emaús saboreando lo vivido. Sin embargo, se levantan en aquella misma hora y recorren de noche el camino de vuelta: lo que han visto no es para guardarlo. Al llegar descubren que los demás ya lo saben, y entonces ocurre algo hermoso: cada uno pone su parte, unos la noticia de Simón y otros el relato del camino y del pan partido. La fe en el Resucitado se confirma compartiéndola. Hoy quizá te toque contar a alguien, sin discursos, qué ha cambiado en ti por haberte encontrado con Cristo, y escuchar con atención lo que otros han visto.
 
 ### Para meditar
-1. ¿Cuál fue tu primer encuentro vivo con Jesús, aunque sea modesto?
-2. ¿Tu fe hoy se parece más a un deber o a una alegría que compartir?
+1. ¿Qué experiencia de Dios has guardado para ti y podrías compartir con alguien?
+2. ¿Con quién puedes contrastar y confirmar tu fe, como hicieron estos discípulos?
 
 ### Oración
-Padre, que mi alegría sea completa en comunión contigo y con tu Hijo. Renueva en mí el asombro del primer encuentro y haz que pueda compartirlo con sencillez con quienes me rodean. Amén.
+Señor resucitado, tú sales al encuentro de quienes vuelven cansados del camino. Haz que tu presencia me ponga en marcha y no me deje a gusto en mi propio rincón. Dame palabras sencillas para contar lo que has hecho conmigo, y oídos para escuchar lo que haces en los demás. Amén.
 
 ## 04-19 · Hasta los confines de la tierra
 - Tema: Testigos del Resucitado
@@ -450,23 +450,23 @@ Marcos no pierde tiempo: va al grano, con ritmo rápido. Su primera palabra de J
 ### Oración
 Señor, que tu Evangelio sea hoy buena noticia para mí. Dame la valentía de convertirme y de creer, y la humildad de servir sin buscar protagonismo, como san Marcos. Amén.
 
-## 04-26 · La alegría del pastor
+## 04-26 · Como ovejas sin pastor
 - Tema: El Buen Pastor
-- Cita: Lc 15,3-7
-- Relacionadas: Ez 34,16; Mt 18,12-14
+- Cita: Mc 6,33-34
+- Relacionadas: Ez 34,5; Mt 9,36
 
 ### Contexto
-Jesús cuenta esta parábola a fariseos y escribas que murmuraban porque acogía a pecadores y comía con ellos. Un pastor que tiene cien ovejas deja las noventa y nueve para buscar la que se ha perdido, y cuando la encuentra la carga sobre los hombros y reúne a sus amigos para celebrarlo.
+Jesús y los discípulos han ido en barca a un lugar apartado para descansar. La gente los ve marchar y llega antes que ellos. En lugar de molestarse, Jesús se compadece y se pone a enseñar; después vendrá la multiplicación de los panes.
 
 ### Reflexión
-Desde una lógica económica, el pastor es imprudente: arriesga noventa y nueve por una. Desde la lógica del amor, es lo más natural. Y fíjate que no riñe a la oveja ni la hace caminar de vuelta: se la echa al hombro. Después hace fiesta. Dios no se resigna a perder a nadie, y su alegría al recuperarte es real. Eso desmonta la imagen de un Dios que mira de reojo nuestros fallos. Si alguna vez te has sentido la oveja perdida, esta parábola te dice cómo te mira él. Y si te toca acoger a alguien, aprende de su alegría.
+Jesús había planeado unos días de descanso con sus discípulos, y al desembarcar encuentra una multitud que se le ha adelantado. Podría haberse sentido invadido. En cambio, Marcos dice que se compadeció, porque eran como ovejas sin pastor. Y la primera respuesta del pastor no es dar comida, sino enseñar muchas cosas: devolver el sentido, la orientación. Una oveja sin pastor no solo tiene hambre; está desorientada. Reconocerlo ayuda a mirar a quienes te rodean: detrás de un gesto brusco o de mucho ruido puede haber alguien perdido. Hoy intenta ver a alguien con esa compasión y ofrécele primero escucha y después consejo.
 
 ### Para meditar
-1. ¿Te has sentido alguna vez buscado y cargado al hombro por Dios?
-2. ¿Quién necesita hoy tu alegría en lugar de tu reproche?
+1. ¿A quién ves desorientado a tu alrededor?
+2. ¿Cómo reaccionas cuando alguien interrumpe tu descanso?
 
 ### Oración
-Señor, gracias por no resignarte a perderme. Cárgame cuando no pueda caminar y enséñame a alegrarme sinceramente cuando alguien vuelva a ti. Quédate conmigo hoy y todos los días de mi vida. Amén.
+Buen Pastor, tú te compadeces de quienes andan sin rumbo. Dame un corazón como el tuyo, que no se cierre ante las interrupciones y sepa escuchar. Y cuando sea yo quien ande perdido, sal a buscarme y enséñame el camino. Amén.
 
 ## 04-27 · Como un pastor que apacienta
 - Tema: El Buen Pastor
@@ -507,7 +507,7 @@ Señor Jesús, quiero escuchar tu voz y seguirte. Gracias porque tu mano me sost
 ## 04-29 · Cultivar y cuidar
 - Tema: El trabajo y la dignidad humana
 - Cita: Gn 2,15
-- Relacionadas: Gn 1,28; Sal 8,6-7
+- Relacionadas: Gn 1,28; Sal 8,5-6
 
 ### Contexto
 Es el segundo relato de la creación. Dios ha formado al hombre y lo ha colocado en el jardín de Edén. Allí se le encomienda una tarea concreta: cultivar el jardín y cuidarlo. Esto sucede antes de la desobediencia, de modo que el trabajo no nace como castigo.
@@ -630,23 +630,23 @@ La respuesta de esos hombres es dolorosa: nadie nos ha contratado. No era pereza
 ### Oración
 Señor, tú sales a buscar a quienes nadie llama. Dame la certeza de que cuentas conmigo y hazme sensible a quienes se sienten excluidos, para que yo sea una puerta abierta. Amén.
 
-## 05-06 · Proclama mi alma
+## 05-06 · Lo envolvió en pañales
 - Tema: María, Madre de la Iglesia
-- Cita: Lc 1,46-50
-- Relacionadas: 1 S 2,1-2; Sal 98,1-3
+- Cita: Lc 2,6-7
+- Relacionadas: Ga 4,4; Lc 2,16-19
 
 ### Contexto
-Es el comienzo del Magníficat, el canto con que María responde a las palabras de Isabel durante la Visitación. Alaba a Dios, su salvador, porque se ha fijado en la humildad de su sierva y ha hecho en ella cosas grandes, y proclama que su misericordia alcanza de generación en generación a quienes lo temen.
+Lucas relata el nacimiento de Jesús en pocas líneas, en el contexto del censo que obliga a José y a María a viajar a Belén. Todo es sobrio: un parto, unos pañales, un pesebre. A continuación llegan los pastores.
 
 ### Reflexión
-María no se centra en sus méritos, sino en lo que Dios ha hecho en ella. Su primera reacción ante el don no es el orgullo ni el exceso de modestia, sino la alabanza. Reconoce que es pequeña y que Dios la miró precisamente ahí. Eso es la humildad verdadera: ver con claridad lo propio y atribuirlo a Dios. Hoy, al comenzar la semana dedicada a ella como madre de la Iglesia, podemos aprender su manera de rezar: empezar por agradecer, por recorrer con la mirada lo que Dios ha hecho por nosotros, antes de pedirle nada.
+María aparece aquí como madre, con todo lo que eso implica: dar a luz, envolver, acunar. Lucas no embellece nada; hay un pesebre porque no había sitio. En la semana en que se recuerda a María como Madre de la Iglesia, este detalle sugiere que la maternidad de la Iglesia empieza así, con el cuidado sencillo de lo frágil. Una madre no busca titulares: está pendiente de quien la necesita. Mirándola, puedes preguntarte cómo cuidas tú de quienes dependen de ti, en casa, en tu comunidad, en el trabajo: con atención concreta o con prisas. Hoy elige a una persona frágil y dale tu tiempo sin mirar el reloj.
 
 ### Para meditar
-1. ¿Qué «cosas grandes» ha hecho Dios en tu vida que rara vez agradeces?
-2. ¿Sabes alabar a Dios sin pedir nada a cambio?
+1. ¿Quién depende de ti hoy, aunque sea de manera pequeña?
+2. ¿Cómo puedes cuidarlo sin prisas y con atención?
 
 ### Oración
-María, enséñame a rezar con tu canto. Que mi alma proclame la grandeza del Señor y mi espíritu se alegre en él, porque ha mirado con bondad mi pequeñez. Amén.
+Dios y Padre, tu Hijo quiso nacer de una madre y ser acunado con manos humanas. Por intercesión de María, enséñame a cuidar con ternura de los frágiles. Que tu Iglesia sepa acoger como una madre y que yo aprenda a dar tiempo y atención a quienes me necesitan. Amén.
 
 ## 05-07 · Haced lo que él os diga
 - Tema: María, Madre de la Iglesia
@@ -687,7 +687,7 @@ María, madre de la Iglesia, reúnenos en oración como en aquella sala de Jerus
 ## 05-09 · Meditaba todo en su corazón
 - Tema: María, Madre de la Iglesia
 - Cita: Lc 2,19
-- Relacionadas: Lc 2,51; Sal 77,12-13
+- Relacionadas: Lc 2,51; Sal 77,11-12
 
 ### Contexto
 Después de la visita de los pastores a Belén, que cuentan lo que los ángeles les habían dicho sobre el niño, todos los que los oyen se admiran. San Lucas añade una observación sobre María: ella conservaba todas esas cosas y las meditaba en su corazón.
@@ -723,7 +723,7 @@ Señor, quiero ser de los que escuchan tu Palabra y la guardan. Haz que, como Ma
 ## 05-11 · Una espada atravesará tu alma
 - Tema: María, Madre de la Iglesia
 - Cita: Lc 2,33-35
-- Relacionadas: Jn 19,25; Sal 34,19
+- Relacionadas: Jn 19,25; Sal 34,18
 
 ### Contexto
 María y José llevan al niño al Templo para presentarlo, y el anciano Simeón lo toma en brazos y bendice a Dios. Sus padres se asombran de lo que se dice de él. Entonces Simeón anuncia a María que ese niño será signo de contradicción y que una espada le atravesará también a ella el alma.
@@ -759,7 +759,7 @@ Padre, gracias por enviar a tu Hijo nacido de una mujer. Que yo viva como hijo t
 ## 05-13 · Yo soy la vid verdadera
 - Tema: La vid y los sarmientos: permanecer en Cristo
 - Cita: Jn 15,1-4
-- Relacionadas: Is 5,1-2; Sal 80,9-10
+- Relacionadas: Is 5,1-2; Sal 80,8-9
 
 ### Contexto
 Estamos en el discurso de despedida de Jesús, en la última cena según san Juan. Jesús se presenta como la vid verdadera y a su Padre como el viñador. Los discípulos son los sarmientos: el Padre quita los que no dan fruto y poda los que sí, para que den más. Les pide permanecer en él, como él en ellos.
@@ -831,7 +831,7 @@ Señor, haz de mí un árbol plantado junto a tus aguas. Profundiza mis raíces 
 ## 05-17 · Bendito quien confía en el Señor
 - Tema: La vid y los sarmientos: permanecer en Cristo
 - Cita: Jr 17,7-8
-- Relacionadas: Sal 1,3; Sal 40,5
+- Relacionadas: Sal 1,3; Sal 40,4
 
 ### Contexto
 El profeta Jeremías contrasta dos caminos. El que confía en el hombre y aparta su corazón del Señor es como un arbusto en el desierto. En cambio, bendito el que confía en el Señor: es como un árbol plantado junto al agua, que extiende sus raíces hacia la corriente, no teme el calor y en año de sequía no se inquieta.
@@ -848,8 +848,8 @@ Señor, quiero confiar en ti. Que mis raíces busquen tu corriente y que, en el 
 
 ## 05-18 · Mi alma tiene sed de ti
 - Tema: La vid y los sarmientos: permanecer en Cristo
-- Cita: Sal 63,2-5
-- Relacionadas: Sal 42,2-3; Jn 4,13-14
+- Cita: Sal 63,1-4
+- Relacionadas: Sal 42,1-2; Jn 4,13-14
 
 ### Contexto
 Este salmo se atribuye a David cuando estaba en el desierto de Judá. El orante busca a Dios desde el amanecer y su alma tiene sed de él, como tierra reseca, agotada y sin agua. Recuerda haberlo contemplado en el santuario y afirma que su amor vale más que la vida; por eso lo bendecirá mientras viva.
@@ -885,7 +885,7 @@ Señor Jesús, que mi vida esté arraigada en ti y construida sobre tu Palabra. 
 ## 05-20 · Un viento recio y lenguas de fuego
 - Tema: El Espíritu Santo
 - Cita: Hch 2,1-4
-- Relacionadas: Jl 3,1; Jn 20,22
+- Relacionadas: Jl 2,28-29; Jn 20,22
 
 ### Contexto
 Es el día de Pentecostés, cincuenta días después de la Pascua. Los discípulos están reunidos en Jerusalén cuando se oye un ruido como de viento fuerte, aparecen lenguas como de fuego que se posan sobre cada uno, y todos quedan llenos del Espíritu Santo y comienzan a hablar en otras lenguas.
@@ -975,7 +975,7 @@ Espíritu de verdad, guíame paso a paso. Dame humildad para aceptar lo que toda
 ## 05-25 · Un corazón nuevo
 - Tema: El Espíritu Santo
 - Cita: Ez 36,26-27
-- Relacionadas: Sal 51,12; Jr 31,33
+- Relacionadas: Sal 51,10; Jr 31,33
 
 ### Contexto
 Ezequiel profetiza a los exiliados, desanimados y dispersos. Dios promete reunirlos y purificarlos. Les dará un corazón nuevo y un espíritu nuevo, quitará de su carne el corazón de piedra y pondrá un corazón de carne, y pondrá su Espíritu dentro de ellos para que sigan sus mandamientos.
@@ -1011,7 +1011,7 @@ Señor, gracias por los dones que has repartido en tu Iglesia. Ayúdame a descub
 ## 05-27 · Pueblo adquirido por Dios
 - Tema: La Iglesia, pueblo de Dios
 - Cita: 1 P 2,9-10
-- Relacionadas: Ex 19,5-6; Os 2,25
+- Relacionadas: Ex 19,5-6; Dt 7,6
 
 ### Contexto
 Pedro escribe a cristianos dispersos, muchos de ellos antes paganos. Les dice que son linaje escogido, sacerdocio real, nación santa, pueblo adquirido por Dios, para proclamar las maravillas de quien los llamó de las tinieblas a su luz admirable. Antes no eran pueblo, ahora lo son; antes no habían alcanzado misericordia, ahora sí.
@@ -1152,23 +1152,23 @@ Jesús parte de una necesidad humana básica, el hambre, y se ofrece como respue
 ### Oración
 Jesús, pan vivo bajado del cielo, dame hambre de ti. Que cada comunión me transforme y me haga capaz de entregarme a los demás, como tú te entregas por nosotros. Amén.
 
-## 06-04 · Maná en el desierto
+## 06-04 · Danos siempre ese pan
 - Tema: La Eucaristía, pan de vida
-- Cita: Ex 16,13-15
-- Relacionadas: Sal 78,24-25; Sab 16,20
+- Cita: Jn 6,30-35
+- Relacionadas: Ex 16,4; Sab 16,20
 
 ### Contexto
-El pueblo de Israel, recién salido de Egipto, murmura en el desierto porque tiene hambre. Dios promete pan del cielo. Por la tarde aparecen codornices en el campamento y, por la mañana, una capa de rocío que deja sobre el suelo algo fino y granulado. Los israelitas se preguntan qué es aquello, y Moisés les dice que es el pan que el Señor les da.
+Tras la multiplicación de los panes, la gente busca a Jesús en Cafarnaún y le pide una señal. Recuerdan el maná del desierto como prueba de que Moisés dio algo grande. Jesús responde que el verdadero pan viene del Padre y que él mismo es ese pan.
 
 ### Reflexión
-El pueblo se queja, y Dios responde con generosidad. Eso ya es significativo: él no se escandaliza de nuestras necesidades. La pregunta «¿qué es esto?», que parece haber dado nombre al maná, expresa el asombro de recibir algo que no se esperaba ni se entiende. Los Padres y la tradición de la Iglesia vieron en el maná un anuncio de la Eucaristía: un alimento recibido, no producido, que se da día a día. Cada mañana había que recogerlo: Dios alimenta hoy, no almacena para mañana. Vivir de la Eucaristía es aprender a depender de él cada día.
+Los oyentes de Jesús piden un signo mayor que el de sus padres, que comieron el maná, y no se dan cuenta de que ya lo tienen delante. Jesús corrige con suavidad: el pan del cielo no es una cosa, es un don del Padre que da vida al mundo. Ellos responden con una petición que suena bien: danos siempre ese pan. Entonces llega la frase decisiva: yo soy el pan de vida. En la Eucaristía no solo recibes un alimento para el camino, recibes a la persona que sacia el hambre más honda. Quizá tu hambre real no sea de cosas, sino de alguien que te llene sin dejarte vacío al día siguiente.
 
 ### Para meditar
-1. ¿Qué «hambres» llevas en silencio que podrías presentar a Dios sin vergüenza?
-2. ¿Qué significa para ti pedir «el pan de hoy» y no el de toda la vida?
+1. ¿De qué tienes hambre últimamente y con qué intentas saciarla?
+2. ¿Qué cambia cuando recibes la Eucaristía como encuentro y no solo como costumbre?
 
 ### Oración
-Señor, tú alimentas a tu pueblo en el desierto. Dame cada día el pan que necesito, el del cuerpo y el del alma, y enséñame a recibirlo con gratitud y sin acaparar. Amén.
+Jesús, pan del cielo, tú sacias el hambre que ninguna otra cosa llena. Danos siempre ese pan y enséñame a buscarte a ti y no solo tus dones. Que cada vez que comulgue salga más unido a ti y más atento a quienes tienen hambre. Amén.
 
 ## 06-05 · Haced esto en memoria mía
 - Tema: La Eucaristía, pan de vida
@@ -1263,7 +1263,7 @@ Señor, gracias por unirnos en un solo pan. Haz que mi comunión contigo me llev
 ## 06-10 · Venid a mí los cansados
 - Tema: El Sagrado Corazón: el amor de Dios
 - Cita: Mt 11,28-30
-- Relacionadas: Sal 55,23; Jr 6,16
+- Relacionadas: Sal 55,22; Jr 6,16
 
 ### Contexto
 Jesús acaba de alabar al Padre porque ha revelado estas cosas a los sencillos. A continuación invita a todos los que están cansados y agobiados a acudir a él, para encontrar descanso. Les propone cargar con su yugo y aprender de él, que es manso y humilde de corazón, y asegura que su yugo es suave y su carga ligera.
@@ -1479,7 +1479,7 @@ Señor, tu Palabra no vuelve vacía. Dame paciencia para esperar su fruto en mí
 ## 06-22 · Toda la Escritura
 - Tema: La Palabra de Dios
 - Cita: 2 Tm 3,14-17
-- Relacionadas: Sal 19,8-9; Rm 15,4
+- Relacionadas: Sal 19,7-8; Rm 15,4
 
 ### Contexto
 Pablo, ya anciano, escribe a Timoteo. Le pide que permanezca en lo que ha aprendido y de quien lo aprendió, ya que desde niño conoce las Sagradas Escrituras, que pueden darle la sabiduría que lleva a la salvación por la fe en Cristo. Toda Escritura es inspirada por Dios y útil para enseñar, para argüir, para corregir y para educar en la justicia, para que el hombre de Dios esté bien equipado.
@@ -1530,41 +1530,41 @@ Todos esperan que se mantenga la tradición familiar; Isabel, en cambio, sostien
 ### Oración
 Señor, tú llamaste a Juan desde el seno de su madre para preparar tu camino. Dame un corazón humilde que señale hacia ti, sin buscar el primer puesto, y fiel a la misión que me confíes. Amén.
 
-## 06-25 · Como corderos en medio de lobos
+## 06-25 · Gratis lo recibisteis
 - Tema: Los apóstoles: Pedro, Pablo y el envío
-- Cita: Lc 10,1-3
-- Relacionadas: Mt 9,37-38; Mt 10,16
+- Cita: Mt 10,5-8
+- Relacionadas: Lc 9,1-2; Hch 3,6
 
 ### Contexto
-Además de los Doce, Jesús designa a otros setenta y dos y los envía de dos en dos a los lugares adonde él pensaba ir. Les dice que la mies es abundante y los obreros pocos, que pidan al dueño que envíe obreros a su mies, y que vayan como corderos en medio de lobos.
+Mateo recoge el discurso de envío: Jesús llama a los Doce, les da autoridad y los manda a las ovejas perdidas de Israel. Antes de estas instrucciones el evangelista ha mostrado a Jesús compadecido de las multitudes. El pasaje precede a las advertencias sobre las dificultades de la misión.
 
 ### Reflexión
-El envío comienza con una petición: rogad. Antes de salir a trabajar, hay que orar. La misión no es una estrategia nuestra, sino una obra de Dios en la que se nos invita a participar. Y los envía de dos en dos: nadie evangeliza solo, el testimonio es comunitario. Jesús tampoco engaña a sus enviados: les avisa de que habrá dificultades. Pero los envía igualmente. Si alguna vez sientes que una tarea de fe te supera, recuerda que no eres el único obrero ni el dueño de la mies. Hoy puedes comenzar pidiendo por los que trabajan en el campo de Dios.
+Jesús envía a los doce con un encargo muy concreto: anunciar que el Reino está cerca y hacer visible esa cercanía curando, limpiando, liberando. Son gestos de servicio, no propaganda. Y añade una norma de oro: lo que recibisteis gratis, dadlo gratis. Los apóstoles no tienen nada propio que vender; todo lo que llevan es regalo. Eso protege la misión del afán de lucro y del orgullo, y recuerda que la fe se transmite como se recibió, como don. Piensa qué has recibido tú gratuitamente, la fe, una familia, una palabra a tiempo, y cómo podrías darlo hoy sin cobrar.
 
 ### Para meditar
-1. ¿Rezas por quienes se dedican a anunciar el Evangelio, sacerdotes, misioneros, catequistas?
-2. ¿Con quién podrías compartir una tarea de servicio, en lugar de hacerla solo?
+1. ¿Qué has recibido gratis y podrías compartir sin esperar nada?
+2. ¿Qué gesto concreto hace visible hoy la cercanía de Dios en tu entorno?
 
 ### Oración
-Señor de la mies, envía obreros a tu campo y hazme uno de ellos si tú quieres. Dame compañeros en el camino y la confianza de ir como cordero, sabiendo que tú me envías. Amén.
+Señor, tú nos envías con las manos vacías para que reconozcamos que todo viene de ti. Que anuncie tu Reino con mis palabras y con mis gestos, sin buscar provecho propio. Enséñame a dar gratis lo que gratis he recibido. Amén.
 
-## 06-26 · Saulo, Saulo
+## 06-26 · Hermano Saulo
 - Tema: Los apóstoles: Pedro, Pablo y el envío
-- Cita: Hch 9,3-6
+- Cita: Hch 9,17-19
 - Relacionadas: Ga 1,13-16; 1 Tm 1,13-14
 
 ### Contexto
-Saulo va camino de Damasco para detener a los cristianos cuando una luz del cielo lo envuelve y cae al suelo. Oye una voz que le pregunta por qué lo persigue. Saulo pregunta quién es, y la voz responde que es Jesús, a quien persigue. Le ordena levantarse y entrar en la ciudad, donde se le dirá lo que tiene que hacer.
+Saulo ha quedado ciego en Damasco después de encontrarse con Jesús. Dios envía a Ananías, un discípulo que tenía motivos para temerlo, a imponerle las manos. La escena sigue inmediatamente al relato del camino de Damasco.
 
 ### Reflexión
-Jesús no dice «¿por qué persigues a mis seguidores?», sino «¿por qué me persigues?». Él se identifica con los suyos. Y mira cómo trata a quien ejercía la violencia: lo llama por su nombre dos veces, sin condenarlo. En aquel instante Saulo pierde todas sus seguridades y le queda solo una pregunta: ¿quién eres, Señor? Muchas conversiones empiezan así: una caída, una pérdida, una luz inesperada. Dios es capaz de transformar a los más obstinados y de hacer de ellos sus mejores apóstoles. Nadie es un caso perdido, tampoco tú ni aquellos por quienes rezas.
+Todos recordamos el relato de la luz en el camino, pero este momento posterior es igual de importante. Ananías sabía quién era Saulo y le costó obedecer, aunque lo hizo. Lo primero que le dice es «hermano Saulo». Esa palabra lo cambia todo: el perseguidor es acogido antes de demostrar nada. Después recupera la vista, se bautiza, come y se queda unos días con los discípulos. Pablo no se hizo apóstol en solitario: lo acompañaron una comunidad y un hombre que se atrevió a llamarlo hermano. Quizá hoy te toque ser Ananías para alguien de quien desconfías, o dejarte acoger por quien te tiende la mano.
 
 ### Para meditar
-1. ¿Qué «caída» de tu vida terminó siendo un punto de encuentro con Dios?
-2. ¿Por quién tienes poca esperanza y podrías rezar con más confianza?
+1. ¿A quién te cuesta llamar hermano?
+2. ¿Quién ha sido para ti un Ananías en tu camino de fe?
 
 ### Oración
-Señor Jesús, tú llamaste a Saulo en pleno camino equivocado. Llámame a mí también, y no dejes de llamar a quienes parecen más alejados. Que sepa levantarme y obedecer tu voz. Amén.
+Señor, tú cambias los corazones y para ello cuentas con personas sencillas. Dame la valentía de Ananías para acoger a quien me cuesta, y la humildad de Saulo para dejarme ayudar. Que tu Iglesia sea siempre una casa donde cada uno encuentre un hermano. Amén.
 
 ## 06-27 · Mi gracia te basta
 - Tema: Los apóstoles: Pedro, Pablo y el envío

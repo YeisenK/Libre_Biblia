@@ -1,0 +1,30 @@
+{
+  "format": 1,
+  "name": "Libre Biblia — borradores (no revisados)",
+  "description": "Contenido editorial en borrador pendiente de revisión. No es el repositorio oficial.",
+  "homepage": "https://github.com/YeisenK/Libre_Biblia",
+  "updatedAt": "2026-11-20T22:35:43.178Z",
+  "packs": [
+    {
+      "id": "daily.ciclo-tematico",
+      "kind": "daily",
+      "version": "2026.11.20",
+      "title": "Ciclo temático — versículo del día",
+      "description": "Un pasaje bíblico para cada día del año (366), con contexto, reflexión, preguntas para meditar y oración. Borrador editorial pendiente de revisión; contenido devocional, no Magisterio.",
+      "language": "es",
+      "url": "packs/daily.ciclo-tematico.json.gz",
+      "bytes": 164521,
+      "sha256": "f26a1d82ab6c4cac0723e6408f9bf3e81e30976c58bcf601f9ba09f12ac59de5",
+      "authority": "devotional",
+      "collection": "Versículo del día",
+      "source": {
+        "name": "Libre Biblia — ciclo temático (borrador editorial)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/daily",
+        "originalSha256": "e436e42a0d6691150a9ccb05076e24afa888dddbdb6747177f6819c040a24be1",
+        "retrievedAt": "2026-11-20T22:35:43.178Z"
+      }
+    }
+  ]
+}

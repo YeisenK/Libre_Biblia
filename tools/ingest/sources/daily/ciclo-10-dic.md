@@ -1,23 +1,22 @@
 # Ciclo temático — octubre a diciembre (BORRADOR)
 
-## 10-01 · Lo que ven tus ojos es obra de sus manos
+## 10-01 · A imagen de Dios, para cuidar
 - Tema: La creación y su cuidado
-- Cita: Sal 8,4-7
-- Relacionadas: Gn 1,26-28; Sal 104,24
+- Cita: Gn 1,26-28
+- Relacionadas: Sal 8,3-6; Sal 104,24
 
 ### Contexto
-El Salmo 8 es una alabanza nocturna: el orante mira el cielo y se siente pequeño. Habla a Dios en segunda persona y se pregunta por qué el Creador se ocupa del ser humano. Lo que sigue es la sorpresa de saberse puesto como encargado de las obras de Dios.
+Es el sexto día de la creación en el primer relato del Génesis. Dios decide hacer al ser humano y lo crea varón y mujer. Luego los bendice y les encarga algo que tiene que ver con los demás seres vivientes.
 
 ### Reflexión
-Cuando miras el cielo de noche, la primera sensación es de pequeñez. El salmista la reconoce sin disimulo y, sin embargo, no se queda ahí: descubre que ese Dios inmenso se acuerda de él y le confía lo que ha hecho. No eres dueño absoluto de la tierra; eres alguien a quien se le ha encargado cuidarla. Esa mezcla de humildad y responsabilidad es el punto de partida para mirar el mundo con ojos creyentes. Lo que pisas, comes y respiras no es solo recurso: es regalo recibido de manos de otro, y se te pedirá cuenta de cómo lo tratas.
+El relato dice dos cosas a la vez que conviene no separar: el ser humano es imagen de Dios y tiene dominio sobre lo creado. Si se lee solo lo segundo, parece que el mundo está a tu disposición para lo que quieras. Pero ser imagen de Dios significa actuar como él, y Dios, en este mismo capítulo, crea con orden, ve que todo es bueno y lo bendice. Dominar, entonces, no puede ser destruir, sino cuidar con la mirada del Creador. Lo que pisas, comes y usas es un regalo del que se te pedirá cuenta. Elige hoy algo que consumes sin pensar y pregúntate si lo tratas como quien mira con ojos de Dios.
 
 ### Para meditar
-1. ¿Cuándo fue la última vez que miraste el cielo sin prisa? ¿Qué sentiste?
-2. ¿Qué parte de lo creado tienes hoy realmente a tu cargo, aunque sea pequeña?
-3. ¿Hay algo que consumes o desperdicias sin pensar que es un don?
+1. ¿Cómo entiendes tú el «dominio» sobre la tierra a la luz de ser imagen de Dios?
+2. ¿Qué consumes o desperdicias sin pensar que es un don?
 
 ### Oración
-Señor, cuando contemplo lo que has hecho me siento pequeño, y me asombra que te acuerdes de mí. Enséñame a recibir el mundo como regalo y a cuidarlo como quien responde ante ti. Que mi mirada sea agradecida y mis manos, cuidadosas. Amén.
+Señor, me hiciste a tu imagen y me confiaste tu obra. Enséñame a ejercer ese encargo como tú lo harías, con respeto y cuidado. Perdona mi descuido y hazme agradecido por lo que recibo cada día, para que lo comparta y lo conserve. Amén.
 
 ## 10-02 · Santos ángeles custodios
 - Tema: La creación y su cuidado
@@ -76,24 +75,23 @@ Francisco de Asís vivió muy cerca de este Evangelio: dejó lo que tenía y se 
 ### Oración
 Señor Jesús, manso y humilde de corazón, a ti vengo con mi cansancio. Enséñame la sencillez de los pequeños, como la de san Francisco, y dame un corazón libre para amar a las criaturas y a mis hermanos. Dame tu descanso. Amén.
 
-## 10-05 · Cultivar y cuidar
+## 10-05 · Alianza con todo ser viviente
 - Tema: La creación y su cuidado
-- Cita: Gn 2,15
-- Relacionadas: Gn 1,28-29; Sal 24,1
+- Cita: Gn 9,8-11
+- Relacionadas: Gn 1,31; Rm 8,19-22
 
 ### Contexto
-En el segundo relato de la creación, Dios forma al hombre y lo coloca en un jardín que ha plantado. Este versículo dice con qué tarea queda el hombre en él. Lo que sigue es la advertencia sobre el árbol del conocimiento del bien y del mal.
+Después del diluvio, Dios habla a Noé y a sus hijos al salir del arca. Es la primera alianza que menciona expresamente la Biblia. El pasaje incluye a los animales como destinatarios del pacto, junto con las personas.
 
 ### Reflexión
-Antes de cualquier mandato, el hombre recibe un jardín. Y la primera tarea que se le asigna es doble: trabajar la tierra y guardarla. No se trata de explotarla hasta agotarla ni de dejarla intacta sin tocarla, sino de colaborar con Dios haciéndola fecunda y protegiéndola. Esa vocación sigue siendo la tuya, en el campo o en la ciudad, en grande o en pequeño. Cuidar es una forma de adorar: reconoces que lo recibido no es tuyo del todo. Hoy puedes pensar qué te ha dado Dios para cultivar —un espacio, un trabajo, una relación— y cómo estás respondiendo.
+Es fácil pensar que la creación es un fondo sobre el que transcurre la historia humana. Este texto lo desmiente. Cuando Dios establece su alianza tras el diluvio, la dirige a Noé y a su descendencia, pero también a todo ser viviente que salió del arca: aves, ganado, fieras. Si Dios los incluye en su promesa, no son meros recursos a tu disposición. Cuidar la tierra, no malgastar, respetar a los animales no es un añadido de moda a la fe, sino compartir el cuidado de quien es fiel a todo lo que vive. Elige hoy un gesto concreto, aunque sea pequeño, para hacerlo.
 
 ### Para meditar
-1. ¿Qué «jardín» te ha confiado Dios este año?
-2. ¿Trabajas lo que has recibido y además lo proteges?
-3. ¿Qué hábito pequeño de cuidado podrías empezar esta semana?
+1. ¿Qué parte de la creación te resulta indiferente y podrías mirar de otro modo?
+2. ¿Qué hábito concreto podrías cambiar para cuidar mejor lo que Dios ha creado?
 
 ### Oración
-Señor, tú me has puesto en un mundo que no he hecho yo. Dame un corazón responsable y manos laboriosas para cultivar y guardar lo que me confías. Que mi trabajo sea una manera de agradecerte y de servir a los demás. Amén.
+Señor, tú estableciste tu alianza no solo con las personas sino con todo lo que vive. Abre mis ojos para ver en las criaturas el signo de tu fidelidad. Perdona mi descuido, enséñame a cuidar lo que me has confiado y a dar gracias por tanta vida. Amén.
 
 ## 10-06 · La creación espera
 - Tema: La creación y su cuidado
@@ -117,7 +115,7 @@ Dios de toda la creación, tú prometes un mundo nuevo y liberado. Ayúdame a es
 ## 10-07 · Nuestra Señora del Rosario
 - Tema: El Rosario: contemplar con María
 - Cita: Lc 2,16-19
-- Relacionadas: Lc 2,51; Sal 77,12-13
+- Relacionadas: Lc 2,51; Sal 77,11-12
 
 ### Contexto
 En Belén, los pastores han recibido el anuncio del ángel y van a ver al niño. Lucas cuenta lo que encuentran y cómo reaccionan los presentes. El versículo final se fija en María, que no habla pero guarda todo en su corazón.
@@ -133,29 +131,28 @@ El Rosario no es una repetición mecánica sino una manera de quedarte al lado d
 ### Oración
 Santa María, tú guardabas en tu corazón todo lo que Jesús vivía. Enséñame a contemplarlo contigo, sin prisa y con fe. Que cada avemaría me acerque más a tu Hijo y me enseñe a recordar con gratitud lo que Dios hace en mi vida. Amén.
 
-## 10-08 · Crecer en sabiduría
+## 10-08 · Lo buscaron entre los parientes
 - Tema: El Rosario: contemplar con María
-- Cita: Lc 2,51-52
-- Relacionadas: Lc 2,19; Hb 5,8
+- Cita: Lc 2,41-45
+- Relacionadas: Lc 2,46-47; Mt 28,20
 
 ### Contexto
-Jesús, de doce años, se ha quedado en el Templo de Jerusalén y sus padres lo han encontrado tras buscarlo con angustia. Les dice que debía estar en la casa de su Padre. Estos versículos cierran el episodio y resumen los años siguientes.
+Lucas cuenta el único episodio de la infancia de Jesús posterior al nacimiento. Cada año la familia subía a Jerusalén por la Pascua. Aquí describe la ida, el regreso y el momento en que descubren que el niño no está con ellos.
 
 ### Reflexión
-Después de un episodio tan intenso, Lucas resume casi veinte años en una frase: Jesús volvió con ellos a Nazaret y vivió sujeto a sus padres. El Hijo de Dios eligió la vida ordinaria, la obediencia en casa, el crecimiento paulatino. Y María, una vez más, guardaba todo en su corazón. Contemplar este misterio en el Rosario es aprender a valorar los años aparentemente vacíos, esos en que no pasa nada «importante». Ahí también madura Jesús, y ahí también puedes madurar tú. No desprecies tu rutina: puede ser el lugar donde Dios te hace crecer en sabiduría y en gracia.
+Es uno de los misterios gozosos, aunque lo que ocurre es un susto. José y María caminan un día entero suponiendo que Jesús va con el grupo. No hay un descuido grave: era normal que los niños fueran con parientes y conocidos. Solo cuando buscan y no lo encuentran, vuelven. La escena enseña algo sobre la vida de fe: a veces uno supone que Jesús sigue en su compañía, por costumbre, y descubre que se ha quedado atrás. Entonces hay que volver al lugar donde se le ve con claridad. Pregúntate hoy en qué momento diste por supuesta su presencia y dejaste de buscarlo, y regresa allí con humildad.
 
 ### Para meditar
-1. ¿Qué parte de tu rutina te parece poco valiosa?
-2. ¿En qué estás creciendo ahora, aunque no se note?
-3. ¿Qué te enseña la obediencia callada de Jesús en Nazaret?
+1. ¿Hay algo en tu fe que das por supuesto sin buscarlo de verdad?
+2. ¿A qué «Jerusalén» necesitas volver para reencontrarte con Jesús?
 
 ### Oración
-Jesús, tú viviste en Nazaret una vida sencilla y obediente. Enséñame a encontrarte en lo cotidiano y a crecer día a día en sabiduría y en gracia. Dame paciencia con los tiempos lentos y gratitud por lo ordinario. Amén.
+Jesús, a veces camino contigo por costumbre y no me doy cuenta de que me he quedado sin tu cercanía. Dame la inquietud sana de buscarte. Enséñame a volver al lugar de tu Palabra y de la oración, y a encontrarte de nuevo con alegría. Amén.
 
 ## 10-09 · Haced lo que él os diga
 - Tema: El Rosario: contemplar con María
 - Cita: Jn 2,3-5
-- Relacionadas: Jn 2,1-2; Sal 34,9
+- Relacionadas: Jn 2,1-2; Sal 34,8
 
 ### Contexto
 Jesús, sus discípulos y su madre están invitados a una boda en Caná de Galilea. Se acaba el vino y María se da cuenta. Estas palabras preceden al primer signo de Jesús, que Juan cuenta en el capítulo segundo.
@@ -190,62 +187,59 @@ Jesús, que ha sanado y enseñado con tanta firmeza, aquí confiesa estar triste
 ### Oración
 Jesús, tú pasaste por la angustia y la soledad. No me dejes huir cuando me toque sufrir. Dame la valentía de decirte lo que siento y la confianza de ponerlo todo en manos del Padre. Que yo sepa acompañar a quien sufre. Amén.
 
-## 10-11 · Se hizo pequeño por nosotros
+## 10-11 · Lo presentaron al Señor
 - Tema: El Rosario: contemplar con María
-- Cita: Flp 2,5-8
-- Relacionadas: Is 53,7; Mc 10,45
+- Cita: Lc 2,22-24
+- Relacionadas: Ex 13,2; Lv 12,6-8
 
 ### Contexto
-Pablo escribe a los filipenses, una comunidad querida, y les pide unidad y humildad. Para ello les presenta un himno antiguo sobre Cristo. Estos versículos recogen el descenso del Hijo hasta la cruz; los siguientes hablan de su exaltación.
+Cuando se cumplen los días de la purificación tras el parto, María y José suben al templo de Jerusalén con el niño. Lucas subraya que cumplen lo que mandaba la ley de Moisés. Después aparecen Simeón y Ana, que reconocen en él al enviado de Dios.
 
 ### Reflexión
-El himno describe un camino hacia abajo: quien era de condición divina no se aferró a ella, se hizo siervo y aceptó la muerte en cruz. Es el misterio que recorres con los dolores del Rosario: la flagelación, la corona de espinas, el camino con la cruz, la muerte. No es un espectáculo de dolor, sino la medida del amor. Pablo no lo cuenta para admirarlo desde lejos, sino para que tengas los mismos sentimientos. Eso transforma las relaciones: dejar de buscar el primer puesto, servir sin ruido, aceptar ser pequeño. Hoy puedes preguntarte dónde te cuesta más ese descenso y pedir ayuda.
+María y José llevan a su hijo al templo como hacían todas las familias, con la ofrenda de los pobres: un par de tórtolas o dos pichones. No hay nada espectacular. Los dos cumplen lo que la ley pide y presentan al niño a Dios, aunque en realidad ya saben que es suyo. Contemplar este misterio con el Rosario es aprender de ellos un gesto sencillo: poner en manos de Dios lo que más quieres. Quizá hoy tengas a una persona, un proyecto o una preocupación que sientes como tuya. Presentarla al Señor no es perderla, es reconocer que no estás solo para cuidarla. Hazlo con humildad, como quien ofrece lo poco que tiene.
 
 ### Para meditar
-1. ¿Dónde defiendes tu prestigio con más fuerza?
-2. ¿Qué servicio concreto podrías hacer hoy sin que nadie lo note?
-3. ¿Qué te dice la cruz sobre cómo ama Dios?
+1. ¿Qué es lo que más quieres y te cuesta poner en manos de Dios?
+2. ¿Cómo puedes presentar hoy al Señor a una persona concreta?
 
 ### Oración
-Cristo Jesús, tú te despojaste y te hiciste siervo por amor. Dame tus sentimientos: humildad, servicio y obediencia al Padre. Que contemple tu pasión con gratitud y aprenda de ella a amar sin buscar mi propio provecho. Amén.
+Dios Padre, María y José te presentaron a Jesús con la sencillez de los pobres. Yo te presento hoy lo que más quiero y lo que más me preocupa. Recíbelo, cuídalo y enséñame a confiar sin aferrarme. Que sepa ofrecerte lo poco que tengo con corazón agradecido. Amén.
 
-## 10-12 · Nuestra Señora del Pilar
+## 10-12 · Columna en el templo de mi Dios
 - Tema: El Rosario: contemplar con María
-- Cita: Hch 1,12-14
-- Relacionadas: Lc 1,38; Hch 2,1-4
+- Cita: Ap 3,11-12
+- Relacionadas: 1 Tm 3,15; Lc 1,38
 
 ### Contexto
-Jesús ha subido al cielo desde el monte de los Olivos. Los apóstoles regresan a Jerusalén y se reúnen en una sala alta. Lucas nombra a los once y menciona también a las mujeres y a María, la madre de Jesús.
+El Apocalipsis empieza con siete cartas a comunidades cristianas de Asia Menor. Esta se dirige a la de Filadelfia, una Iglesia de pocas fuerzas pero fiel. El Señor la anima a conservar lo que tiene y promete una recompensa a quien resista.
 
 ### Reflexión
-Entre la Ascensión y Pentecostés hay un tiempo de espera, y Lucas cuenta cómo se vive: todos juntos, con constancia, en oración. En ese grupo asustado y aún sin el Espíritu, está María. No dirige ni predica; acompaña. Su presencia hace de aquella sala una familia. La tradición del Pilar recuerda a María sosteniendo la fe de quienes anuncian el Evangelio. Hoy puedes aprender de esa escena a esperar en comunidad: no te salvas solo, ni tienes que cargar solo con las dudas. Reunirte con otros a rezar, aunque sean pocos y no tengas respuestas, es ya una manera de preparar la venida del Espíritu.
+Hoy se recuerda en España a la Virgen del Pilar. Según una antigua tradición, María animó al apóstol Santiago en Zaragoza cuando su misión parecía no dar fruto. Esa imagen de algo firme se une a la promesa que el Apocalipsis hace a una comunidad pequeña y cansada: quien resista será como una columna en el templo de Dios. No se trata de dureza, sino de estabilidad: ser alguien en quien otros pueden apoyarse. María lo fue para los primeros discípulos. Pregúntate en quién te apoyas cuando todo se mueve y a quién podrías servir tú de apoyo con la firmeza serena de tu fe.
 
 ### Para meditar
-1. ¿Con quiénes compartes tu oración?
-2. ¿Qué espera hoy tu comunidad, tu familia o tu grupo?
-3. ¿Cómo puedes ser presencia que sostiene sin hacer ruido?
+1. ¿En quién o en qué te apoyas cuando todo se tambalea?
+2. ¿A quién puedes servir hoy de apoyo con tu fidelidad tranquila?
 
 ### Oración
-Dios nuestro, tú reuniste a los apóstoles con María en oración. Haznos perseverantes y unidos mientras esperamos tu Espíritu. Que como ella sepamos acompañar y sostener a los hermanos, y que la fe de nuestros pueblos siga firme. Amén.
+Señor, tú alientas a los pequeños y fieles y les prometes un lugar firme en tu casa. Por intercesión de María, columna de los primeros discípulos, dame constancia cuando flaquee mi ánimo. Haz que mi fe sea apoyo para quienes me rodean. Amén.
 
-## 10-13 · Maravillas en los humildes
+## 10-13 · ¿Qué hacéis mirando al cielo?
 - Tema: El Rosario: contemplar con María
-- Cita: Lc 1,46-50
-- Relacionadas: 1 S 2,1-2; Sal 98,1
+- Cita: Hch 1,9-11
+- Relacionadas: Lc 24,50-53; Mt 28,20
 
 ### Contexto
-María acaba de llegar a casa de Isabel, que la ha saludado como madre del Señor. Ella responde con un canto de alabanza, el Magnificat. Estos versículos son su comienzo, antes de que el canto hable de los poderosos y los humildes.
+Lucas cuenta aquí la despedida de Jesús, al final de su evangelio y al comienzo de los Hechos. Los discípulos acaban de recibir el encargo de ser testigos. Dos hombres vestidos de blanco les hablan mientras una nube oculta a Jesús.
 
 ### Reflexión
-María no se centra en sí misma sino en Dios: su alma proclama la grandeza del Señor y su espíritu se alegra. Reconoce que se ha fijado en la pequeñez de su servidora y que desde ahora la felicitarán. No hay falsa modestia; hay verdad: Dios ha hecho en ella cosas grandes. El Rosario culmina en misterios gloriosos que anuncian lo que Dios hace con los suyos. Puedes aprender de este canto a reconocer lo que Dios ha hecho en tu vida y a darle gracias en voz alta. No para presumir, sino para que tu memoria se llene de agradecimiento. Hoy puedes enumerar tres «maravillas» recibidas.
+La Ascensión es uno de los misterios gloriosos del Rosario. Los discípulos se quedan con la mirada fija en el cielo, y los dos hombres de blanco les hacen una pregunta casi práctica: ¿por qué seguís ahí mirando? No los regañan por querer ver; los devuelven a la tierra, porque tienen una misión que empieza en Jerusalén y llega hasta los confines. La esperanza cristiana no es evasión. Cristo ha subido, pero te ha dejado una tarea, y volverá. Contemplar los misterios con María no te aparta del mundo: te vuelve más atento a él. Pregúntate qué estás mirando hoy tan fijamente que te impide ponerte en marcha.
 
 ### Para meditar
-1. ¿Qué cosas grandes ha hecho Dios en tu vida, aunque parezcan pequeñas?
-2. ¿Sueles agradecer o solo pedir?
-3. ¿Cómo vives la alegría en Dios, tu salvador?
+1. ¿Qué te mantiene parado mirando al cielo cuando hay algo que hacer aquí?
+2. ¿Qué paso concreto das hoy en la misión que Cristo te confió?
 
 ### Oración
-Señor, mi alma te da gracias porque has mirado mi pequeñez. Enséñame, como a María, a reconocer tus obras y a cantarlas. Que mi memoria sea agradecida, mi corazón alegre y mi vida un eco de tu misericordia. Amén.
+Señor Jesús, subiste al cielo sin dejarnos solos: nos confiaste tu misión y prometiste volver. Quítame la tentación de quedarme mirando y dame fuerza para ponerme en camino. Con María, madre de los discípulos, quiero vivir esperando y trabajando. Amén.
 
 ## 10-14 · Fe es apoyarse en lo que no se ve
 - Tema: La fe
@@ -269,7 +263,7 @@ Dios fiel, tú me invitas a creer sin ver. Aumenta mi confianza cuando todo pare
 ## 10-15 · Santa Teresa de Jesús
 - Tema: La fe
 - Cita: Sal 27,7-9
-- Relacionadas: Sal 63,2; Jn 4,23-24
+- Relacionadas: Sal 63,1; Jn 4,23-24
 
 ### Contexto
 El Salmo 27 es la oración de alguien que confía en Dios en medio del peligro. En estos versículos pasa de la confianza a la súplica directa. El orante habla a Dios y le dice que su corazón lo busca.
@@ -307,7 +301,7 @@ Señor Jesús, yo creo, pero ayuda mi poca fe. Sostén mi confianza en las horas
 ## 10-17 · Pedro sobre las aguas
 - Tema: La fe
 - Cita: Mt 14,28-31
-- Relacionadas: Sal 69,2-3; Is 43,2
+- Relacionadas: Sal 69,1-2; Is 43,2
 
 ### Contexto
 Es de noche y la barca de los discípulos es sacudida por el viento. Jesús se acerca caminando sobre el lago y ellos se asustan. Pedro le pide que lo mande ir hasta él sobre el agua, y Jesús le dice: «Ven».
@@ -649,7 +643,7 @@ Señor, tú nos has unido en un solo cuerpo. Enséñame a compartir el dolor y l
 ## 11-04 · Enséñanos a contar nuestros días
 - Tema: La muerte y la vida eterna
 - Cita: Sal 90,10-12
-- Relacionadas: Sal 39,5-6; Stg 4,14
+- Relacionadas: Sal 39,4-5; Stg 4,14
 
 ### Contexto
 El Salmo 90 se atribuye a Moisés y reflexiona sobre la fragilidad humana frente a la eternidad de Dios. Estos versículos hablan de la brevedad de la vida y terminan con una petición de sabiduría. Después, el salmo pide al Señor que vuelva y se compadezca.
@@ -665,43 +659,41 @@ El salmista no esconde lo breve que es la vida: unos setenta u ochenta años, la
 ### Oración
 Señor, tú eres eterno y mis días son pocos. Enséñame a vivirlos con sabiduría, a no desperdiciar lo que me regalas y a hacer hoy lo que debo. Que mi corazón sea sensato y mi esperanza esté puesta en ti. Amén.
 
-## 11-05 · Moradas en la casa del Padre
+## 11-05 · Del Señor somos
 - Tema: La muerte y la vida eterna
-- Cita: Jn 14,1-3
-- Relacionadas: Jn 17,24; 2 Co 5,1
+- Cita: Rm 14,7-9
+- Relacionadas: Jn 11,25-26; 1 Ts 5,9-10
 
 ### Contexto
-Es la noche de la última cena. Jesús acaba de anunciar que uno lo entregará y que Pedro lo negará. Los discípulos están turbados. Con estas palabras comienza su discurso de despedida, para consolarlos.
+Pablo se dirige a una comunidad dividida por diferencias de costumbres entre los más estrictos y los más flexibles. En medio de esa discusión recuerda algo más hondo: todos pertenecen a Cristo. El pasaje une la vida diaria con la muerte y la resurrección.
 
 ### Reflexión
-Jesús empieza por lo más necesario: no se turbe vuestro corazón. Lo dice a gente asustada que acaba de oír cosas duras. Luego les da una promesa: hay muchas moradas en la casa de su Padre, él va a prepararles sitio y volverá para llevarlos consigo. Es una imagen de hogar, no de un lugar frío. La vida eterna se parece a estar donde Jesús está. Eso puede quitar parte del miedo a la muerte, porque ya no es un salto a lo desconocido sino un reencuentro con quien nos conoce. Hoy puedes leer despacio estas frases cuando sientas angustia y dejar que sean dichas para ti.
+Pablo lo dice con una frase directa: ninguno vive para sí, ninguno muere para sí. En aquella comunidad servía para que nadie se creyera dueño de la fe del otro, pero su alcance es mayor. Vivir y morir pertenecen al Señor. Eso cambia el modo de mirar la muerte: no es una salida hacia la nada ni un accidente que escapa a Dios, sino un momento más en el que sigues siendo suyo. Cristo murió y resucitó precisamente para ser Señor de vivos y de muertos. Si lo piensas en noviembre, con los difuntos en la memoria, esa pertenencia consuela: quienes te precedieron no han salido del ámbito de su amor.
 
 ### Para meditar
-1. ¿Qué turbación llevas hoy en el corazón?
-2. ¿Qué imagen tienes de la vida eterna? ¿Cuánto se parece a la de Jesús?
-3. ¿Quién te ha ayudado a no tener miedo a la muerte?
+1. ¿Cómo vives la idea de que tu vida y tu muerte pertenecen al Señor?
+2. ¿Por qué persona fallecida quieres rezar hoy con esta confianza?
 
 ### Oración
-Jesús, tú me dices que no tema, que tienes preparado un lugar en la casa del Padre. Calma mi inquietud y dame confianza. Que viva ahora como quien camina hacia ti y que un día me recibas en tu hogar. Amén.
+Cristo Jesús, tú eres Señor de los vivos y de los muertos. Pongo en tus manos a quienes ya han partido y a quienes aún caminamos. Que ni la vida ni la muerte me separen de ti, y que viva cada día como alguien que te pertenece. Amén.
 
-## 11-06 · Hoy estarás conmigo
+## 11-06 · En tus manos
 - Tema: La muerte y la vida eterna
-- Cita: Lc 23,39-43
-- Relacionadas: Sal 25,7; Lc 15,20
+- Cita: Lc 23,44-46
+- Relacionadas: Hch 7,59; Jn 19,30
 
 ### Contexto
-Jesús está crucificado entre dos malhechores. Uno de ellos lo insulta; el otro lo reprende y reconoce su culpa. Estos versículos recogen el diálogo y la respuesta de Jesús, ya en la cruz.
+Lucas describe la muerte de Jesús en medio de signos: oscuridad sobre la tierra y el velo del templo rasgado. A diferencia de otros evangelios, su última palabra es una oración de confianza. Son palabras tomadas de un salmo que se rezaba por la noche.
 
 ### Reflexión
-Aquí, en el último momento, aparece una conversión. El segundo malhechor reconoce que su castigo es justo, defiende a Jesús y le pide solo que se acuerde de él. No exige nada ni se justifica. Y Jesús, agonizando, responde con una promesa inmensa: hoy estarás conmigo en el paraíso. Esto muestra que la misericordia de Dios no tiene límites de tiempo ni de mérito: llega a quien se abre a ella, incluso en el último instante. Para ti, esto es motivo de esperanza, no de aplazamiento. Hoy puedes decirle como aquel hombre: acuérdate de mí, y repetirlo cuando te falte confianza.
+Entre las tinieblas del mediodía y el velo rasgado, Lucas coloca una frase de entrega: Padre, en tus manos encomiendo mi espíritu. No es un grito de desesperación, sino una oración tomada de un salmo que Jesús había rezado muchas veces. Al morir lo hace como vivió, dirigiéndose al Padre. En noviembre, cuando se piensa más en los que han partido y en la propia muerte, esa frase es un modelo de cierre. No pide explicaciones ni evita el dolor: entrega. Puedes aprenderla ahora para repetirla en cualquier noche difícil o ante una preocupación sin salida. Pocas oraciones son tan breves y sostienen tanto.
 
 ### Para meditar
-1. ¿Qué te impide pedir perdón sin justificarte?
-2. ¿Qué sientes al oír que Jesús promete el paraíso a quien reconoce su culpa?
-3. ¿A quién necesitas ayudar a creer en la misericordia?
+1. ¿Qué situación tuya necesitas poner hoy en manos del Padre?
+2. ¿Cómo imaginas tu último momento y qué te gustaría que fuera tu oración?
 
 ### Oración
-Jesús, acuérdate de mí cuando estés en tu Reino. Soy pecador y confío en tu misericordia. Que nunca desprecie tu perdón ni lo posponga, y que en la hora de mi muerte oiga que estaré contigo. Amén.
+Padre, en tus manos pongo mi vida, mis proyectos y mis miedos. Hazme confiar como Jesús, que entregó su espíritu sin dudar de tu amor. En el día de mi muerte, y en todos los días anteriores, recibe lo que soy y guíame hacia ti. Amén.
 
 ## 11-07 · Yo soy la resurrección
 - Tema: La muerte y la vida eterna
@@ -839,7 +831,7 @@ Señor, tu misericordia no se agota y se renueva cada mañana. Hazme recordar lo
 ## 11-14 · Salvados en esperanza
 - Tema: La esperanza
 - Cita: Rm 8,24-25
-- Relacionadas: Hb 10,23; Sal 62,6
+- Relacionadas: Hb 10,23; Sal 62,5
 
 ### Contexto
 Pablo ha hablado de la creación que gime y de los creyentes que, teniendo ya las primicias del Espíritu, aguardan la plenitud. Estos versículos explican qué es esperar. A continuación dirá que el Espíritu viene en ayuda de nuestra debilidad.
@@ -877,7 +869,7 @@ Dios de paz, tú tienes designios de bien para mí. Cuando mi futuro me asuste, 
 ## 11-16 · Ancla del alma
 - Tema: La esperanza
 - Cita: Hb 6,18-19
-- Relacionadas: Hb 11,1; Sal 46,2-3
+- Relacionadas: Hb 11,1; Sal 46,1-2
 
 ### Contexto
 La carta a los Hebreos exhorta a la perseverancia y recuerda la promesa que Dios hizo a Abraham, confirmada con juramento. Estos versículos explican por qué podemos confiar en ella. La imagen del ancla anticipa la entrada de Cristo como sumo sacerdote al santuario.
@@ -915,7 +907,7 @@ Bendito seas, Dios y Padre, porque por tu misericordia nos has dado una esperanz
 ## 11-18 · Mi reino no es de este mundo
 - Tema: Cristo Rey
 - Cita: Jn 18,33-37
-- Relacionadas: Jn 6,15; Is 9,5-6
+- Relacionadas: Jn 6,15; Is 9,6-7
 
 ### Contexto
 Jesús ha sido arrestado y llevado ante Pilato, el gobernador romano. Los jefes judíos lo acusan de pretender ser rey. Pilato lo interroga a solas y se desarrolla este diálogo antes de su condena.
@@ -972,7 +964,7 @@ Señor de la historia, tú tienes un reino que no pasa. Cuando los poderes de es
 ## 11-21 · Alzad, puertas
 - Tema: Cristo Rey
 - Cita: Sal 24,7-10
-- Relacionadas: Sal 47,8-9; Ap 19,16
+- Relacionadas: Sal 47,7-8; Ap 19,16
 
 ### Contexto
 El Salmo 24 es una liturgia de entrada al Templo, tal vez para acompañar el arca. Primero pregunta quién puede subir al monte del Señor y luego proclama la llegada del Rey de la gloria. Estos versículos son el diálogo entre quienes piden abrir y quienes preguntan.
@@ -1256,7 +1248,7 @@ Emmanuel, Dios con nosotros, ven a nuestra vida. Cuando el miedo me lleve a busc
 
 ## 12-06 · De Belén saldrá
 - Tema: Los profetas y la Inmaculada
-- Cita: Mi 5,1-3
+- Cita: Mi 5,2-4
 - Relacionadas: Mt 2,5-6; Jn 7,42
 
 ### Contexto
@@ -1311,24 +1303,23 @@ Dios dice a la serpiente que habrá enemistad entre ella y la mujer, entre su de
 ### Oración
 Dios Padre, tú preparaste a María para ser madre de tu Hijo y la preservaste del pecado. Por su intercesión, líbrame del mal y dame un corazón abierto a tu gracia. Que pueda decir sí a tu voluntad con la confianza con que ella lo dijo. Amén.
 
-## 12-09 · ¿Qué hemos de hacer?
+## 12-09 · Viene el que es más fuerte
 - Tema: La alegría que viene: Juan Bautista y Guadalupe
-- Cita: Lc 3,10-14
-- Relacionadas: Is 58,6-7; St 2,15-17
+- Cita: Lc 3,15-17
+- Relacionadas: Mt 3,11-12; Jn 1,26-27
 
 ### Contexto
-Juan Bautista predica en el desierto un bautismo de conversión y reprende a la gente que acude a él. Las multitudes le hacen una pregunta. En estos versículos Lucas recoge sus respuestas a distintos grupos: la gente, los publicanos y los soldados.
+Lucas cuenta que la gente empieza a preguntarse si Juan el Bautista es el Mesías. Poco antes ha respondido a quienes le preguntaban qué debían hacer. Ahora aclara quién es y anuncia a otro más grande que él.
 
 ### Reflexión
-Lo primero que sorprende es que la multitud pregunta qué hacer, porque la conversión no se queda en emoción. Y las respuestas de Juan son muy concretas, no espirituales ni complicadas: quien tenga dos túnicas que reparta con quien no tiene; los publicanos, que no exijan más de lo establecido; los soldados, que no abusen ni extorsionen. No pide dejar el trabajo, sino hacerlo con justicia. Preparar la venida del Señor pasa por cuestiones de dinero, poder y trato. Hoy puedes hacerte la misma pregunta de aquella gente en tu propio contexto laboral y familiar, y escuchar con honestidad lo que se te ocurra como respuesta.
+Juan tiene a la multitud pendiente de él, y le bastaría decir que sí para ser el centro de la escena. Sin embargo, responde enseguida: yo bautizo con agua, pero viene otro más poderoso. Ni siquiera se considera digno de desatarle las sandalias. Esa claridad sobre quién es y quién no es resulta rara y es una forma de humildad. El Adviento tiene que ver con eso: preparar a alguien que viene, no ser tú el protagonista. Las imágenes del fuego y del aventador hablan de que su llegada separa lo que da fruto de lo que sobra; es exigente, pero libera. Pregúntate hoy qué podrías soltar para recibirlo mejor.
 
 ### Para meditar
-1. ¿Qué tienes de sobra que podrías compartir?
-2. ¿Hay alguna injusticia pequeña que cometes en tu trabajo?
-3. ¿Qué te pide concretamente la conversión en esta etapa?
+1. ¿En qué buscas ser el centro cuando en realidad preparas el camino a otro?
+2. ¿Qué estorbo concreto quieres soltar para recibir a Cristo en Navidad?
 
 ### Oración
-Señor, enséñame a convertirme con gestos concretos. Que comparta lo que tengo, que sea justo en mis tratos y que no abuse de nadie. Ayúdame a preparar tu venida con un corazón sincero y con obras de amor. Amén.
+Señor, Juan supo señalarte a ti y apartarse. Enséñame esa humildad. Que en este Adviento aprenda a preparar tu llegada sin buscarme a mí mismo, y a dejar que limpies de mi vida lo que sobra para que dé fruto. Ven, Señor Jesús. Amén.
 
 ## 12-10 · ¿Eres tú el que ha de venir?
 - Tema: La alegría que viene: Juan Bautista y Guadalupe
@@ -1408,8 +1399,8 @@ Dios que estás en medio de nosotros, te doy gracias porque te alegras con tu pu
 
 ## 12-14 · San Juan de la Cruz
 - Tema: La alegría que viene: Juan Bautista y Guadalupe
-- Cita: Sal 42,2-3
-- Relacionadas: Sal 63,2; Jn 4,13-14
+- Cita: Sal 42,1-2
+- Relacionadas: Sal 63,1; Jn 4,13-14
 
 ### Contexto
 El Salmo 42 es el lamento de un israelita lejos del Templo. Compara su deseo de Dios con la sed de un animal. Estos versículos abren el salmo con esa imagen, antes de que el orante recuerde sus lágrimas y su esperanza.
@@ -1542,7 +1533,7 @@ Oh Llave de David, tú abres y nadie cierra. Libera a los cautivos y a quienes v
 ## 12-21 · Oh Sol que nace de lo alto
 - Tema: «Oh» de Adviento: el Mesías esperado
 - Cita: Lc 1,78-79
-- Relacionadas: Is 9,1; Mal 3,20
+- Relacionadas: Is 9,2; Mal 4,2
 
 ### Contexto
 Zacarías, padre de Juan Bautista, recupera el habla tras el nacimiento de su hijo y proclama un canto profético, el Benedictus. Estos versículos pertenecen a su final, donde habla de la visita de Dios. Lucas lo sitúa antes del relato del nacimiento de Jesús.
@@ -1618,7 +1609,7 @@ Bendito seas, Señor, Dios de Israel, que visitas y redimes a tu pueblo. Esta no
 ## 12-25 · Natividad del Señor
 - Tema: Navidad: el Verbo se hizo carne
 - Cita: Lc 2,8-14
-- Relacionadas: Is 9,5; Tt 2,11
+- Relacionadas: Is 9,6; Tt 2,11
 
 ### Contexto
 Lucas ha narrado el censo y el nacimiento de Jesús en Belén. Ahora el relato se dirige a unos pastores que velan en el campo. A ellos llega primero el anuncio del ángel y el canto de la multitud celeste.

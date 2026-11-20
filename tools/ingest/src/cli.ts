@@ -5,6 +5,7 @@ import { validateSource } from './validate';
 import { packSources } from './pack';
 import { buildMarkdownPack } from './markdown';
 import { runCulture } from './culture/build';
+import { runCheck, runPack } from './daily';
 import { WORKS, WORKS_SPIRITUAL } from './culture/works';
 
 const USAGE = `Uso: tsx src/cli.ts <download|convert|validate|pack|ingest> [--only VULG,DRA] [--force]\n     tsx src/cli.ts culture [--only slug1,slug2]`;
@@ -21,6 +22,13 @@ async function main() {
     if (wanted && specs.length !== wanted.length) throw new Error('slug desconocido en --only');
     await runCulture(specs);
     return;
+  }
+  if (cmd === 'daily') {
+    const sub = args[1];
+    const flag = (k: string) => { const i = args.indexOf(`--${k}`); return i >= 0 ? args[i + 1] : undefined; };
+    if (sub === 'check') { if (runCheck({ from: flag('from'), to: flag('to'), quiet: args.includes('--quiet') })) process.exit(1); return; }
+    if (sub === 'pack') { const w = runPack(); console.log(`[daily.ciclo-tematico] ${w.file}: ${w.bytes} bytes  sha256=${w.sha256}`); return; }
+    throw new Error('Uso: daily <check [--from MM-DD --to MM-DD --quiet]|pack>');
   }
   if (cmd === 'markdown') {
     const flag = (k: string) => { const i = args.indexOf(`--${k}`); return i >= 0 ? args[i + 1] : undefined; };

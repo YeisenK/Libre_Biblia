@@ -3,7 +3,7 @@
 ## 07-01 · Orar a solas con el Padre
 - Tema: La oración
 - Cita: Mt 6,5-6
-- Relacionadas: Sal 62,2-3; Lc 5,15-16
+- Relacionadas: Sal 62,1-2; Lc 5,15-16
 
 ### Contexto
 Jesús enseña en el Sermón del Monte cómo vivir la limosna, la oración y el ayuno sin buscar el aplauso de los demás. Habla a sus discípulos y a la multitud, y a continuación les entregará el Padrenuestro.
@@ -57,7 +57,7 @@ Señor, tú me examinas y me conoces. No quiero esconderme más. Toma lo que soy
 ## 07-04 · El publicano que se queda atrás
 - Tema: La oración
 - Cita: Lc 18,9-14
-- Relacionadas: Sal 51,3-4; Sal 34,19
+- Relacionadas: Sal 51,1-2; Sal 34,18
 
 ### Contexto
 Jesús cuenta esta parábola, propia de Lucas, a algunos que se tenían por justos y despreciaban a los demás. Dos hombres suben al templo a orar: un fariseo y un publicano, es decir, un recaudador de impuestos.
@@ -108,23 +108,23 @@ A veces no sabes qué pedir ni cómo rezar. Pablo no lo considera un fracaso, si
 ### Oración
 Espíritu Santo, ven en ayuda de mi debilidad. Cuando no sepa qué decir, ora en mí y ordena mis deseos según la voluntad del Padre. Que mi silencio, mis cansancios y mis dudas sean también ofrenda para ti. Amén.
 
-## 07-07 · Habla, Señor, que tu siervo escucha
+## 07-07 · Con confianza al trono de la gracia
 - Tema: La oración
-- Cita: 1 S 3,8-10
-- Relacionadas: Sal 40,7-9; Jn 10,27
+- Cita: Hb 4,14-16
+- Relacionadas: Ef 3,12; Lc 11,9-10
 
 ### Contexto
-El joven Samuel sirve en el santuario de Siló junto al sacerdote Elí. Una noche oye una voz que lo llama y, creyendo que es Elí, corre hacia él; tras la tercera vez, Elí comprende que es Dios quien llama y le enseña cómo responder.
+La carta a los Hebreos presenta a Jesús como el gran sumo sacerdote que ha atravesado los cielos. Poco antes el autor insiste en que Jesús comparte nuestra condición humana. De ahí saca una invitación práctica para los lectores que flaquean: acercarse a Dios sin miedo.
 
 ### Reflexión
-Samuel necesitaba a alguien que le enseñara a reconocer la voz de Dios. Elí, ya viejo y con sus propios fallos, le da un consejo sencillo: quédate en tu sitio y di que escuchas. La oración no es solo hablar, sino también aprender a callar para que Dios pueda decir algo. Puede que Dios te llame a través de una persona, de una lectura o de una inquietud que vuelve una y otra vez. Hoy puedes pronunciar sinceramente la respuesta de Samuel y quedarte unos minutos sin pedir nada, con el corazón dispuesto a recibir.
+Es fácil rezar con la sensación de molestar o de no estar a la altura. El autor de la carta responde a esa timidez con un argumento sorprendente: quien intercede por ti conoce la debilidad desde dentro, porque pasó por pruebas como las tuyas. Por eso te invita a acercarte con confianza, sin rodeos ni excusas. La oración no consiste en presentar un expediente impecable, sino en llegar tal como estás para recibir misericordia y encontrar ayuda a tiempo. Hoy, antes de explicarle nada a Dios, basta con presentarte ante él con tus cansancios, sin disfrazarlos, y quedarte un momento.
 
 ### Para meditar
-1. ¿Hay alguien que te ayude a discernir la voz de Dios en tu vida?
-2. ¿Qué ruidos te impiden escuchar y cuáles podrías apagar hoy?
+1. ¿Qué te frena a veces para acercarte a Dios con confianza?
+2. ¿Qué debilidad concreta puedes presentarle hoy sin adornos?
 
 ### Oración
-Habla, Señor, que tu siervo escucha. Dame un corazón atento y dócil, y personas sabias que me orienten. Que no tema tu llamada, aunque me saque de mi comodidad, y que responda con generosidad cuando me hables. Amén.
+Jesús, tú conoces lo que es la prueba y no te escandalizas de mi fragilidad. Me acerco a ti sin máscaras, tal como soy, para recibir tu misericordia. Dame tu ayuda en el momento oportuno y enséñame a quedarme contigo en silencio y con confianza. Amén.
 
 ## 07-08 · Dichosos los pobres de espíritu
 - Tema: Las Bienaventuranzas
@@ -165,7 +165,7 @@ Dios de consuelo, mira mis lágrimas y las de quienes sufren a mi alrededor. Dam
 ## 07-10 · Hambre y sed de justicia
 - Tema: Las Bienaventuranzas
 - Cita: Mt 5,6
-- Relacionadas: Sal 42,2-3; Am 5,24
+- Relacionadas: Sal 42,1-2; Am 5,24
 
 ### Contexto
 Es la cuarta bienaventuranza del Sermón del Monte. Jesús usa las imágenes elementales del hambre y de la sed para hablar de un deseo profundo de que se cumpla la voluntad de Dios en la tierra.
@@ -201,7 +201,7 @@ Padre misericordioso, tú has tenido paciencia conmigo más veces de las que rec
 ## 07-12 · Limpios de corazón
 - Tema: Las Bienaventuranzas
 - Cita: Mt 5,8
-- Relacionadas: Sal 24,3-4; Sal 51,12
+- Relacionadas: Sal 24,3-4; Sal 51,10
 
 ### Contexto
 La sexta bienaventuranza promete ver a Dios a los limpios de corazón. En el lenguaje bíblico, el corazón es el centro de la persona: donde se piensa, se decide y se ama.
@@ -380,21 +380,21 @@ Padre bueno, gracias por tu ternura paciente. Tú sabes de qué barro estoy hech
 
 ## 07-22 · Santa María Magdalena
 - Tema: Discípulos y amigos de Jesús
-- Cita: Jn 20,11-16
-- Relacionadas: Lc 8,1-3; Ct 3,1-4
+- Cita: Lc 8,1-3
+- Relacionadas: Jn 20,11-16; Mc 16,9
 
 ### Contexto
-En la mañana de Pascua, según el evangelio de Juan, María Magdalena permanece llorando junto al sepulcro vacío. Allí se encuentra con alguien a quien al principio no reconoce.
+Lucas presenta a Jesús recorriendo ciudades y aldeas con los Doce. Junto a ellos va un grupo de mujeres a las que él ha sanado. Entre ellas aparece María Magdalena, de la que habían salido siete demonios.
 
 ### Reflexión
-María no se va del sepulcro, aunque ya no hay nada que ver. Se queda porque ama. Jesús la llama por su nombre y entonces lo reconoce. A veces buscamos a Dios en lugares donde creemos que debería estar y no lo encontramos; él ya está a nuestro lado, esperando a que lo miremos. Cuando alguien te llama por tu nombre, sientes que eres conocido. Dios hace eso contigo en la oración. La Magdalena, que había sido sanada por Jesús y lo siguió hasta la cruz, se convierte en la primera en anunciar la resurrección. Su fidelidad nos enseña a permanecer.
+Lucas no cuenta cómo fue la curación de María Magdalena; solo dice que de ella habían salido siete demonios y que a partir de ahí siguió a Jesús. Su historia empieza en una necesidad grande y continúa en el servicio: ella y otras mujeres ayudaban con sus bienes a sostener al grupo. Es una imagen preciosa de cómo actúa la gracia: sanar a alguien lo libera para seguir, y quien ha sido liberado se pone a servir. La tradición posterior añadió detalles que el Evangelio no dice; quédate con lo seguro. Hoy puedes recordar de qué te ha liberado Dios y cómo responder poniéndote al servicio de otros.
 
 ### Para meditar
-1. ¿Dónde estoy buscando a Dios sin darme cuenta de que ya está cerca?
-2. ¿Qué significa para ti que Jesús te llame por tu nombre?
+1. ¿De qué te ha sanado o liberado el Señor en tu vida?
+2. ¿Con qué bienes o tiempo puedes servir hoy a su obra?
 
 ### Oración
-Señor Jesús, como a María Magdalena, llámame por mi nombre. Que no me quede en la tristeza de lo perdido, sino que te reconozca vivo a mi lado. Y dame, como a ella, la alegría de anunciar que has resucitado. Amén.
+Señor Jesús, tú liberaste a María Magdalena y ella te siguió con fidelidad hasta la cruz y el sepulcro. Gracias por lo que has sanado en mí. Haz que mi gratitud se traduzca en servicio generoso, y que te siga con la constancia de tus amigas y amigos. Amén.
 
 ## 07-23 · Ya no siervos, sino amigos
 - Tema: Discípulos y amigos de Jesús
@@ -507,7 +507,7 @@ Jesús, que te hiciste siervo por amor, enséñame a servir sin esperar aplausos
 ## 07-29 · No andéis agobiados
 - Tema: La confianza en la Providencia
 - Cita: Mt 6,25-27
-- Relacionadas: Flp 4,6-7; Sal 55,23
+- Relacionadas: Flp 4,6-7; Sal 55,22
 
 ### Contexto
 En el Sermón del Monte, Jesús advierte contra servir a dos señores y pasa a hablar de la inquietud por el alimento y el vestido. Se dirige a quienes lo escuchan, en su mayoría gente sencilla con preocupaciones muy reales.
@@ -522,23 +522,23 @@ Jesús no pide que seas irresponsable ni que dejes de trabajar. Pide que no viva
 ### Oración
 Padre, tú cuidas de las aves y me cuidas a mí. Libérame del agobio que me roba la alegría. Enséñame a trabajar con serenidad y a entregarte lo que no puedo controlar. Amén.
 
-## 07-30 · El Señor es mi pastor
+## 07-30 · Mi socorro viene del Señor
 - Tema: La confianza en la Providencia
-- Cita: Sal 23,1-4
-- Relacionadas: Is 40,11; Jn 10,11
+- Cita: Sal 121,1-4
+- Relacionadas: Mt 6,26; Lc 12,6-7
 
 ### Contexto
-Es uno de los salmos más queridos de la tradición bíblica. Presenta a Dios como pastor que conduce, alimenta y protege a su rebaño, incluso en los valles oscuros.
+Este salmo pertenece a los cánticos de las subidas, los que se cantaban al peregrinar hacia Jerusalén. Alterna la pregunta del caminante con la respuesta de alguien que le habla. El tema es la protección de Dios a lo largo del camino.
 
 ### Reflexión
-El salmista no dice que el pastor evite los valles oscuros, sino que no teme en ellos porque no está solo. La confianza en Dios no elimina las dificultades, pero cambia la forma de atravesarlas. Un pastor conoce el terreno, sabe dónde hay agua y dónde hay peligro, y camina delante. Quizá estés en un momento oscuro: una enfermedad, una incertidumbre, un duelo. Este salmo no promete soluciones rápidas, sino compañía. Reza estas palabras despacio, una a una, y deja que se queden: nada me falta porque él va conmigo, y su vara y su cayado me dan seguridad.
+El peregrino mira los montes, un paisaje que podía ser hermoso pero también peligroso, con ladrones y precipicios. Su pregunta es sincera: ¿de dónde me vendrá la ayuda? Y alguien responde: del Señor, que hizo cielos y tierra. La seguridad no viene del paisaje ni de lo propio, sino de quien lo ha creado todo. Luego aparecen verbos de cuidado: no dejará que resbale tu pie, no se adormece. Un guardián que nunca duerme es una buena imagen para los días de preocupación nocturna. Hoy, cuando las cuentas, la salud o el futuro te inquieten, repite despacio: mi socorro viene del Señor, y deja que esa frase te sostenga.
 
 ### Para meditar
-1. ¿Qué valle oscuro estoy atravesando o he atravesado?
-2. ¿Cómo noté, o podría notar, la presencia del Pastor en él?
+1. ¿Qué «monte» te intimida ahora y te hace preguntar de dónde vendrá la ayuda?
+2. ¿Qué puedes hacer esta noche para descansar confiando en que alguien vela por ti?
 
 ### Oración
-Señor, tú eres mi pastor. Condúceme por caminos de paz y no me dejes solo en los valles oscuros. Que tu presencia me dé seguridad y que no pierda nunca la confianza en tu cuidado. Amén.
+Señor, tú que hiciste el cielo y la tierra, mi auxilio viene de ti. Cuando el camino me asuste y la preocupación no me deje dormir, recuérdame que tú no te duermes. Guarda mis pasos y dame una confianza serena. Amén.
 
 ## 07-31 · Buscad primero el Reino
 - Tema: La confianza en la Providencia
@@ -579,7 +579,7 @@ Señor, tú no olvidas a ninguna de tus criaturas. Gracias porque me conoces y m
 ## 08-02 · La harina que no se acaba
 - Tema: La confianza en la Providencia
 - Cita: 1 R 17,13-16
-- Relacionadas: Sal 34,10; Flp 4,19
+- Relacionadas: Sal 34,9; Flp 4,19
 
 ### Contexto
 Durante una sequía en tiempos del profeta Elías, Dios lo envía a Sarepta, donde una viuda pobre se prepara a comer con su hijo lo último que les queda. Elías le pide que primero le prepare algo a él.
@@ -741,7 +741,7 @@ Dios mío, tú has puesto un tesoro en mi fragilidad. Ayúdame a aceptarme como 
 ## 08-11 · Bajar del monte
 - Tema: La Transfiguración: la gloria escondida
 - Cita: Mt 17,14-18
-- Relacionadas: Mc 9,23-24; Sal 46,2
+- Relacionadas: Mc 9,23-24; Sal 46,1
 
 ### Contexto
 Al bajar del monte de la transfiguración, Jesús encuentra una multitud y a un padre que le suplica por su hijo enfermo, a quien los discípulos no habían podido curar. Jesús sana al muchacho.
@@ -759,7 +759,7 @@ Señor, tú bajaste del monte al encuentro del dolor. Que mi oración no me aís
 ## 08-12 · Mi alma engrandece al Señor
 - Tema: María asunta: la esperanza del cielo
 - Cita: Lc 1,46-49
-- Relacionadas: 1 S 2,1-2; Sal 34,3
+- Relacionadas: 1 S 2,1-2; Sal 34,2
 
 ### Contexto
 Tras el saludo de Isabel, María responde con un canto de alabanza, el Magnificat. Lo pronuncia en casa de su prima, en la montaña de Judea, y toma imágenes del cántico de Ana en el primer libro de Samuel.
@@ -792,28 +792,28 @@ La imagen es simbólica y admite varias lecturas: la mujer es el pueblo de Dios 
 ### Oración
 Dios de la gloria, gracias por lo que has hecho en María y por la esperanza que despierta en nosotros. Haz que mire más allá de lo inmediato y que viva con la certeza de que me llamas a compartir tu vida. Amén.
 
-## 08-14 · María en oración con los apóstoles
+## 08-14 · Esto mortal se vestirá de inmortalidad
 - Tema: María asunta: la esperanza del cielo
-- Cita: Hch 1,13-14
-- Relacionadas: Lc 1,38; Hch 2,1-4
+- Cita: 1 Co 15,53-55
+- Relacionadas: Is 25,8; Ap 21,4
 
 ### Contexto
-Tras la Ascensión, los apóstoles vuelven a Jerusalén y se reúnen en el piso superior de una casa. Lucas cuenta que perseveraban unánimes en la oración, junto con algunas mujeres, con María la madre de Jesús y con sus parientes.
+Pablo cierra su gran capítulo sobre la resurrección anunciando un cambio que alcanzará a los vivos y a los muertos. Habla del cuerpo como de un vestido que será transformado. Después cita a los profetas para celebrar la derrota de la muerte.
 
 ### Reflexión
-La última vez que los Hechos mencionan a María es en medio de una comunidad que reza. No dice ni hace nada llamativo; está presente, sostiene, acompaña. Así fue siempre: en Nazaret, en Belén, al pie de la cruz y ahora en el cenáculo. Su vida terminó como había comenzado, en confianza y oración. Esa presencia discreta es un modelo de cómo acompañar: no con grandes discursos, sino con constancia. Hoy puedes pensar en alguien a quien podrías acompañar así, rezando con él o por él. La comunidad cristiana se construye con presencias que perseveran.
+Pablo usa la imagen de un vestido: lo perecedero se viste de incorruptible y lo mortal se viste de inmortalidad. No habla de que el cuerpo se deseche, sino de que sea transformado. Por eso la Iglesia, en vísperas de la Asunción, contempla a María como la primera que ha recibido esa plenitud en cuerpo y alma. No es un privilegio aislado, sino un adelanto de lo que espera a quienes creen. Si estás cansado de tu cuerpo, de sus límites y enfermedades, este texto te ofrece una promesa concreta: no se perderá. Puedes mirar tus fragilidades de hoy sabiendo que no tienen la última palabra.
 
 ### Para meditar
-1. ¿Con quién comparto mi oración regularmente?
-2. ¿A quién podría acompañar hoy de manera discreta?
+1. ¿Qué límite de tu cuerpo o de tu salud te cuesta aceptar?
+2. ¿Cómo se refleja en tu vida diaria la esperanza de la resurrección?
 
 ### Oración
-Madre María, tú rezaste con los apóstoles esperando el Espíritu. Enséñame a perseverar en la oración y a acompañar sin hacer ruido. Haz que mi comunidad sea un lugar donde se espera junta la promesa de Dios. Amén.
+Dios de los vivos, tú vences a la muerte y transformas lo frágil en gloria. Mírame con ternura en mis límites y sostén mi esperanza. Con María, la primera en alcanzar tu plenitud, te pido vivir hoy mirando hacia el día en que todo quede renovado. Amén.
 
 ## 08-15 · Asunción de la Virgen María
 - Tema: María asunta: la esperanza del cielo
 - Cita: 1 Co 15,20-23
-- Relacionadas: Sal 45,10; Ap 11,19
+- Relacionadas: Sal 45,9; Ap 11,19
 
 ### Contexto
 Pablo defiende ante los corintios la resurrección de los muertos, que algunos ponían en duda. Afirma que Cristo ha resucitado como primicia, y que en él todos recibirán la vida. La Iglesia lee este pasaje en la fiesta de la Asunción.
@@ -849,7 +849,7 @@ Señor, tú nos has hecho para el cielo. Que esa esperanza dé sentido a mis dí
 ## 08-17 · Muchas moradas en la casa del Padre
 - Tema: María asunta: la esperanza del cielo
 - Cita: Jn 14,1-3
-- Relacionadas: Hb 11,16; Sal 84,2-3
+- Relacionadas: Hb 11,16; Sal 84,1-2
 
 ### Contexto
 Durante la Última Cena, Jesús anuncia su partida y ve la tristeza de sus discípulos. Para consolarlos, les dice que no se turben, que va a preparar un lugar para ellos y que volverá a llevarlos consigo.
@@ -864,41 +864,41 @@ Jesús habla en un momento de despedida y no promete eliminar la tristeza, sino 
 ### Oración
 Jesús, tú has ido a prepararme un lugar. Calma mi corazón turbado y sostén mi fe. Que, cuando llegue la hora, me recibas en la casa del Padre junto con todos los que amo. Amén.
 
-## 08-18 · Buscad los bienes de arriba
+## 08-18 · Seremos semejantes a él
 - Tema: María asunta: la esperanza del cielo
-- Cita: Col 3,1-4
-- Relacionadas: Hb 6,19; Rm 8,24
+- Cita: 1 Jn 3,1-3
+- Relacionadas: Col 3,1-4; 2 Co 3,18
 
 ### Contexto
-Pablo escribe a los colosenses para fortalecerlos frente a doctrinas que desvían de Cristo. Tras explicar quién es Cristo, les muestra cómo vivir: quienes han resucitado con él deben orientar su vida hacia lo alto.
+Juan escribe a una comunidad que se pregunta quiénes son realmente. Este pasaje habla de la identidad de los creyentes como hijos de Dios y de lo que todavía no se ha manifestado. La esperanza de ver a Dios cierra la idea.
 
 ### Reflexión
-Buscar los bienes de arriba no significa despreciar el mundo, sino que tu corazón no se agote en lo pasajero. Pablo dice que tu vida está escondida con Cristo en Dios. Es una expresión misteriosa: lo más verdadero de ti no se ve del todo, y se manifestará cuando él aparezca. Mientras tanto, la esperanza actúa como un ancla que da estabilidad. En días de dispersión o de prisa, puedes preguntarte qué estás buscando en realidad. Si todo lo que persigues se acaba, hay una inquietud que no se calma. Si pones a Cristo en el centro, lo demás encuentra su lugar.
+Juan empieza con un asombro: mirad qué amor nos ha dado el Padre, hasta llamarnos hijos y serlo de verdad. Y a continuación reconoce con honestidad que aún no está a la vista lo que seremos. Vivimos entre un «ya» y un «todavía no». Esa tensión es la del camino cristiano: ya eres hijo, pero tu plenitud está por llegar. La Asunción de María muestra esa esperanza hecha realidad en una persona. El texto añade una consecuencia práctica: quien espera de verdad se va purificando, no por miedo sino porque se prepara para un encuentro. Tu destino no es desaparecer, sino ver a Dios tal como es.
 
 ### Para meditar
-1. ¿Qué cosas me ocupan demasiado y cuáles me llevan hacia Dios?
-2. ¿Qué gesto concreto puede orientar hoy mi corazón hacia lo alto?
+1. ¿Vives tu esperanza del cielo como algo real o más bien lejano?
+2. ¿Qué podrías purificar hoy en tu vida por estar esperando ese encuentro?
 
 ### Oración
-Cristo resucitado, que mi corazón no se quede atrapado en lo pasajero. Ayúdame a buscar lo que de verdad permanece y a vivir con la esperanza de quien sabe que su vida está contigo en Dios. Amén.
+Padre, me has hecho tu hijo y me preparas una plenitud que aún no alcanzo a imaginar. Aumenta mi esperanza y enséñame a vivir como quien espera verte cara a cara. Purifica mi corazón y dame paciencia en el camino hasta ese día. Amén.
 
-## 08-19 · Tened los sentimientos de Cristo
+## 08-19 · El que quiera ser grande, que sirva
 - Tema: La humildad
-- Cita: Flp 2,5-8
-- Relacionadas: Mt 11,29; Jn 13,14
+- Cita: Mc 10,43-45
+- Relacionadas: Jn 13,14-15; Lc 22,26-27
 
 ### Contexto
-En esta carta, Pablo exhorta a los filipenses a la unidad y al servicio mutuo. Para ello cita un himno primitivo que describe a Cristo, Dios, que se despojó de sí mismo y tomó la condición de siervo.
+Los hijos de Zebedeo acaban de pedir los primeros puestos y los otros diez se indignan con ellos. Jesús reúne a todos y les explica que entre los suyos las cosas deben ser distintas de como funcionan los poderosos. Se pone a sí mismo como ejemplo.
 
 ### Reflexión
-Pablo no pide a los filipenses que se humillen por obligación, sino que tengan los mismos sentimientos que Cristo. Jesús no se aferró a su dignidad divina; se hizo uno de nosotros y llegó hasta la cruz. Esa es la humildad cristiana: no es pensar mal de uno mismo, sino renunciar a defender el propio prestigio. En una época de imagen y de comparación, es contracorriente. Pregúntate qué cosas defiendes con demasiada energía: tu razón, tu lugar, tu fama. La humildad libera de esa carga y permite relacionarte con los demás sin rivalidades. Mira a Jesús y aprende de él.
+Jesús no regaña a los discípulos por querer ser grandes; les cambia el significado de la grandeza. Entre los poderosos de este mundo, ser grande es mandar. Entre los suyos, es servir. Y para que no quede en teoría, se señala a sí mismo: él no vino a que lo sirvieran, sino a servir y a dar la vida. La humildad cristiana no consiste en hablar mal de ti mismo, sino en ponerte a disposición. Fíjate hoy en las ocasiones pequeñas: ceder el sitio, hacer el trabajo que nadie ve, escuchar sin interrumpir. Allí se decide si el Evangelio ha entrado en tu manera de entender la importancia.
 
 ### Para meditar
-1. ¿Qué prestigio o razón defiendo con más fuerza de la necesaria?
-2. ¿Qué gesto de humildad podría hacer hoy?
+1. ¿En qué ambientes buscas ser reconocido o ser el primero?
+2. ¿Qué servicio concreto y discreto puedes hacer hoy?
 
 ### Oración
-Jesús, tú te hiciste pequeño por amor. Dame tus sentimientos: la sencillez de quien no busca brillar y la libertad de quien no necesita ganar. Que aprenda de ti a servir sin rivalidades. Amén.
+Señor Jesús, tú no viniste a ser servido sino a servir. Cambia mi manera de entender lo que vale ser grande. Dame un corazón dispuesto a los trabajos que nadie aplaude y libérame de la necesidad de destacar. Que mi vida se parezca más a la tuya. Amén.
 
 ## 08-20 · El último puesto
 - Tema: La humildad
@@ -918,23 +918,23 @@ Jesús usa una situación cotidiana para enseñar algo más profundo. No propone
 ### Oración
 Señor, líbrame de la necesidad de ser primero. Enséñame a elegir el último lugar con paz y a reconocer el valor de quienes pasan desapercibidos. Que mi alegría esté en servirte y no en destacar. Amén.
 
-## 08-21 · Mansos y humildes de corazón
+## 08-21 · Caminar humildemente con tu Dios
 - Tema: La humildad
-- Cita: Mt 11,28-30
+- Cita: Mi 6,6-8
 - Relacionadas: Za 9,9; Nm 12,3
 
 ### Contexto
-Después de reprochar a algunas ciudades su falta de conversión, Jesús alaba al Padre por revelar sus misterios a los sencillos. Luego se dirige a todos los que están cansados y agobiados.
+Miqueas presenta una escena de juicio en la que el pueblo pregunta con qué podría agradar a Dios: ofrendas, miles de carneros, incluso sacrificios extremos. El profeta responde con una frase breve y definitiva. El libro denuncia las injusticias de su tiempo.
 
 ### Reflexión
-Jesús ofrece descanso a quienes están agobiados y se presenta como manso y humilde de corazón. No dice «soy poderoso», sino «aprended de mí». Su yugo es suave porque lo lleva con nosotros. Mucha gente se cansa por llevar cargas que no son suyas: la necesidad de aparentar, de cumplir expectativas ajenas, de demostrar valía. Aprender de la mansedumbre de Jesús es descubrir que se puede vivir con menos tensión. No significa renunciar al esfuerzo, sino hacerlo sin ese peso añadido. Hoy puedes acudir a él con tu cansancio y dejarlo allí, aunque sea un momento.
+La pregunta del pueblo suena piadosa: ¿con qué me presentaré ante Dios? Y va subiendo: más animales, más aceite, hasta lo imposible. Detrás hay una idea que seguimos teniendo, la de que a Dios se le agrada con cantidad. El profeta frena en seco: ya se te ha dicho lo que es bueno. Tres cosas: hacer justicia, amar la misericordia y caminar humildemente con tu Dios. La humildad aparece aquí como compañía, no como autodesprecio: caminar con alguien supone ir a su paso, escuchar, no adelantarse. Hoy, en lugar de buscar un gesto grande, elige una de las tres y llévala a una situación concreta.
 
 ### Para meditar
-1. ¿Qué carga llevo que quizá no me corresponde?
-2. ¿Qué me dice la mansedumbre de Jesús sobre mi manera de reaccionar?
+1. ¿Con qué cosas intentas agradar a Dios que quizá no sean lo que él pide?
+2. ¿Cuál de las tres, justicia, misericordia o humildad, necesita hoy más atención en ti?
 
 ### Oración
-Jesús, manso y humilde de corazón, vengo a ti con mi cansancio. Quita de mí la prisa y la necesidad de aparentar. Enséñame a llevar tu yugo con confianza y a encontrar en ti el descanso. Amén.
+Dios mío, no me pides cosas grandes sino un corazón justo, misericordioso y humilde. Enséñame a caminar a tu paso, sin adelantarme ni quedarme atrás. Que mis gestos de hoy sean pequeños y verdaderos, y que en ellos aprenda a ser como tú. Amén.
 
 ## 08-22 · Santa María Reina
 - Tema: La humildad
@@ -1170,23 +1170,23 @@ Pablo pide a los hijos obedecer y honrar a sus padres, y a los padres no exasper
 ### Oración
 Señor, bendice a los padres y a los hijos. Enséñanos a honrarnos y a no herirnos. Sana las heridas familiares y haz que mi casa sea un lugar de paz, donde se aprenda a amar como tú nos amas. Amén.
 
-## 09-04 · El padre corre al encuentro
+## 09-04 · Si el Señor no edifica la casa
 - Tema: La familia
-- Cita: Lc 15,20-24
-- Relacionadas: Os 11,4; Ez 18,23
+- Cita: Sal 127,1-3
+- Relacionadas: Pr 14,1; Sal 128,1-4
 
 ### Contexto
-En la parábola del hijo pródigo, un joven pide su herencia, la malgasta lejos de casa y, hambriento, decide volver. El pasaje recoge el momento en que su padre lo ve a lo lejos.
+Este salmo es uno de los cantos que entonaban los peregrinos al subir a Jerusalén. Habla de la casa, de la ciudad y de los hijos, y atribuye todo a Dios. La tradición lo asocia con Salomón, constructor del templo.
 
 ### Reflexión
-El hijo había preparado un discurso, pero el padre no lo deja terminar. Lo ve de lejos, se conmueve, corre y lo abraza. Era algo poco habitual para un padre de la época. No hay reproches, solo una fiesta. La parábola muestra un rostro de Dios, pero también un modelo para cualquier familia: la reconciliación exige que alguien dé el primer paso y que acoja sin humillar. Quizá hay alguien en tu familia a quien podrías esperar con ese corazón, o quizá tú eres quien debe volver. Hoy puedes imaginar al padre corriendo hacia ti, sin recriminaciones, y dejarte abrazar.
+El salmo habla de casas, de guardias y de hijos, y los pone a todos bajo la misma sombra: si el Señor no sostiene lo que se levanta, se trabaja en vano. No desprecia el trabajo ni el esfuerzo; desmonta la ilusión de que todo depende de ti. Quien se levanta de madrugada y se acuesta tarde vive con ansiedad, dice el salmo, mientras que Dios da descanso a los que ama. Para una familia es un recordatorio valioso: puedes organizarte muy bien, ahorrar y planificar, y aun así necesitas que Dios dé consistencia a lo que construyes. Hoy ofrécele tu hogar, con sus cansancios, y descansa un poco en esa confianza.
 
 ### Para meditar
-1. ¿Hay alguien de mi familia con quien debería reconciliarme?
-2. ¿Me cuesta más volver o acoger a quien vuelve?
+1. ¿Qué parte de tu vida familiar intentas sostener solo con tu esfuerzo?
+2. ¿Qué gesto puedes hacer hoy para poner tu casa bajo la mirada de Dios?
 
 ### Oración
-Padre bueno, tú esperas siempre mi regreso. Dame el valor de volver cuando me alejo y la generosidad de acoger a quien vuelve. Haz de mi familia un hogar donde se perdone y se celebre la reconciliación. Amén.
+Señor, sin ti es en vano todo lo que construimos. Bendice mi casa y a quienes viven en ella, con sus alegrías y sus cansancios. Libérame de la ansiedad de creer que todo depende de mí y enséñame a descansar en tu cuidado. Amén.
 
 ## 09-05 · Donde tú vayas, iré yo
 - Tema: La familia
@@ -1242,23 +1242,23 @@ Jesús no desprecia a su familia; la amplía. Dice que quienes cumplen la volunt
 ### Oración
 Jesús, tú has hecho de nosotros una familia. Enséñame a vivir como hermano de quienes cumplen la voluntad del Padre, y a abrir mi corazón y mi casa a quien lo necesite. Que mi familia sea un reflejo de la tuya. Amén.
 
-## 09-08 · Natividad de la Virgen María
+## 09-08 · Bendita eres entre todas las mujeres
 - Tema: La familia
-- Cita: Mi 5,1-3
-- Relacionadas: Is 7,14; Rm 8,28-30
+- Cita: Jdt 13,18-20
+- Relacionadas: Lc 1,42; Lc 1,48
 
 ### Contexto
-El profeta Miqueas anuncia que de Belén, una aldea pequeña, saldrá el gobernante de Israel. Habla también de un tiempo en que dará a luz la que debe dar a luz, texto que la liturgia aplica a esta fiesta.
+Judit es la heroína del libro que lleva su nombre. Tras salvar a su ciudad, Ozías, jefe del pueblo, la bendice delante de todos. La liturgia aplica estas palabras a María por el eco que encuentra entre ambas en la historia de la salvación.
 
 ### Reflexión
-Belén era una aldea insignificante, y sin embargo Dios la elige. Así actúa con frecuencia: escoge lo pequeño. El nacimiento de María pasó seguramente inadvertido en su tiempo, pero la Iglesia lo celebra como la aurora de la salvación. Para Dios, ninguna vida es anónima. Hoy puedes pensar en tu propio nacimiento y en la familia que te recibió, con sus luces y sombras. Dios te pensó antes de que existieras, y tu historia, aunque sencilla, tiene un lugar en su plan. Con María recibimos un ejemplo de alguien que supo acoger ese plan desde su pequeñez.
+La Iglesia lee estas palabras de Ozías a Judit pensando en María, en la fiesta de su nacimiento. No es que el texto hable de ella; la liturgia reconoce un eco: una mujer humilde por la que Dios salva a su pueblo. Fíjate en que la alabanza no se queda en Judit: bendito sea el Señor, creador del cielo y de la tierra. La bendición va primero a Dios. Eso es también lo que hace María en el Magníficat. Celebrar su nacimiento hoy es dar gracias porque Dios prepara con tiempo a las personas que necesita y se fía de gente sencilla. ¿Qué está preparando en ti, sin que lo sepas?
 
 ### Para meditar
-1. ¿Qué agradezco de la familia en la que nací?
-2. ¿Qué significa para mí saber que Dios eligió mi existencia?
+1. ¿Cómo celebras a María dirigiendo la alabanza a Dios por lo que ha hecho en ella?
+2. ¿Qué ha ido preparando Dios en tu vida con paciencia?
 
 ### Oración
-Dios de lo pequeño, tú elegiste a María desde su humildad. Gracias por mi vida y por la familia que me diste. Ayúdame a descubrir mi lugar en tu plan y a vivirlo con sencillez y confianza. Amén.
+Señor Dios, creador del cielo y de la tierra, te bendigo por María, a quien preparaste desde su nacimiento para ser madre de tu Hijo. Gracias porque cuentas con la gente sencilla. Haz que también yo me deje preparar por ti para lo que me pidas. Amén.
 
 ## 09-09 · Toma tu cruz cada día
 - Tema: La Cruz gloriosa y el sufrimiento
@@ -1332,23 +1332,23 @@ Job no recibe respuestas fáciles. Se queja, protesta, llora. Y sin embargo, en 
 ### Oración
 Dios mío, no entiendo todo lo que sufro, pero no quiero alejarme de ti. Escucha mi queja y sostén mi esperanza. Creo que mi Redentor vive y que algún día te veré. Dame paciencia mientras espero. Amén.
 
-## 09-13 · Te basta mi gracia
+## 09-13 · Nada nos separará de su amor
 - Tema: La Cruz gloriosa y el sufrimiento
-- Cita: 2 Co 12,7-10
-- Relacionadas: Flp 4,13; Is 40,29-31
+- Cita: Rm 8,35-39
+- Relacionadas: Jn 16,33; 1 P 5,10
 
 ### Contexto
-Pablo cuenta que recibió una espina en la carne, algo que le hacía sufrir, y que pidió tres veces al Señor que se la quitara. La respuesta de Cristo fue distinta de la esperada.
+Al final del capítulo 8, Pablo enumera pruebas reales que sufrían los cristianos de Roma: persecución, hambre, peligro. Viene de explicar que Dios está de nuestra parte. El texto culmina una larga argumentación sobre la esperanza.
 
 ### Reflexión
-Pablo pide ser liberado y no lo consigue. En lugar de eso, escucha que la gracia le basta y que el poder se muestra en la debilidad. No sabemos con certeza cuál era su espina, pero sí sabemos cómo la vivió: aprendió a gloriarse de sus flaquezas. Esto no significa que debamos buscar el sufrimiento, ni que Dios siempre deje de sanar. Pero cuando algo no cambia, quizá la respuesta sea una fuerza para llevarlo. Hoy puedes pensar en tu «espina»: esa limitación que persiste. Y rezar no solo para que desaparezca, sino para que Dios te muestre cómo vivirla con su gracia.
+Pablo no hace una lista ingenua: nombra la angustia, el hambre, el peligro, incluso la muerte. Sabe que las dificultades existen y que duelen. Lo que afirma es otra cosa: ninguna de ellas puede romper el vínculo entre tú y el amor de Dios en Cristo. No dice que no sufrirás, sino que el sufrimiento no tiene la última palabra sobre quién eres ni sobre quién te sostiene. Fíjate en que habla de estar convencido, no de sentirlo siempre. Habrá días en que no sentirás nada; esa convicción se apoya en lo que Cristo ha hecho, no en tu estado de ánimo. Agárrate a eso cuando lo demás tiemble.
 
 ### Para meditar
-1. ¿Cuál es mi espina y cuánto tiempo llevo pidiendo que desaparezca?
-2. ¿Qué fuerza distinta me ha dado Dios en medio de ella?
+1. ¿Qué prueba actual te hace dudar del amor de Dios?
+2. ¿Cómo puedes sostener tu confianza en los días en que no sientes nada?
 
 ### Oración
-Señor, tú conoces la espina que llevo. Si no me la quitas, dame tu gracia para vivir con ella en paz. Que mi debilidad sea lugar de tu fuerza y que aprenda a confiar cuando no entiendo. Amén.
+Señor Jesús, tú me amaste primero y no retiras tu amor cuando llegan las dificultades. Cuando todo me parezca incierto, sostén mi confianza. Que ni el miedo, ni el cansancio, ni el dolor me hagan dudar de que estoy en tus manos. Amén.
 
 ## 09-14 · Exaltación de la Santa Cruz
 - Tema: La Cruz gloriosa y el sufrimiento
@@ -1407,7 +1407,7 @@ Señor, que mi oración no sea ruido vacío. Haz que mi fe se traduzca en justic
 ## 09-17 · Lázaro a la puerta
 - Tema: La justicia y los pobres
 - Cita: Lc 16,19-23
-- Relacionadas: Pr 14,31; Sal 41,2
+- Relacionadas: Pr 14,31; Sal 41,1
 
 ### Contexto
 Jesús cuenta esta parábola, propia de Lucas, sobre un hombre rico que banqueteaba cada día y un mendigo llamado Lázaro, que yacía a su puerta cubierto de llagas. Tras la muerte, sus suertes se invierten.
@@ -1422,23 +1422,23 @@ El rico no hace nada malo de manera explícita: no maltrata a Lázaro, no lo ech
 ### Oración
 Señor, abre mis ojos y mi corazón. Que no me acostumbre a la indiferencia ni deje a nadie invisible. Enséñame a ver a Lázaro y a responder con generosidad antes de que sea tarde. Amén.
 
-## 09-18 · Tuve hambre y me disteis de comer
+## 09-18 · Invita a los que no pueden devolvértelo
 - Tema: La justicia y los pobres
-- Cita: Mt 25,35-40
+- Cita: Lc 14,12-14
 - Relacionadas: Pr 19,17; St 2,15-16
 
 ### Contexto
-Es la parte final del discurso de Jesús sobre el juicio. El Rey dice a los que están a su derecha que le dieron de comer, de beber, lo acogieron, lo vistieron y lo visitaron, y ellos preguntan cuándo lo hicieron.
+Jesús está invitado a comer en casa de un fariseo importante, un sábado. Después de hablar a los invitados sobre los puestos de honor, se dirige al anfitrión. Su consejo va contra la costumbre social de devolver las invitaciones.
 
 ### Reflexión
-Los justos no saben cuándo vieron a Jesús; actuaron por compasión, sin imaginar que se trataba de él. El Rey les responde que lo que hicieron por el más pequeño, lo hicieron por él. Esta es la identificación más sorprendente del Evangelio: Cristo está en el hambriento, en el extranjero, en el enfermo, en el preso. Eso significa que cada gesto de atención, por pequeño que sea, llega a él. Y también que la indiferencia le alcanza. Hoy no hace falta hacer algo extraordinario: un vaso de agua, una visita, una palabra de ánimo. En esas cosas sencillas se juega lo esencial.
+Jesús observa cómo funcionan los banquetes de su tiempo: se invita a quien podrá invitarte luego, y así la mesa se convierte en un intercambio de favores. Él propone otro criterio: llama a los pobres, a quienes no pueden corresponder. No lo plantea como una obligación pesada, sino como un camino hacia la dicha, porque quien da así no pone condiciones y recibe un premio que nadie le puede quitar. Es difícil aplicarlo hoy, pero hay formas pequeñas: dar tu tiempo a alguien que está solo, compartir una comida, dar sin esperar agradecimiento. La justicia empieza donde dejas de llevar la cuenta de quién te debe qué.
 
 ### Para meditar
-1. ¿Cuándo fue la última vez que serví a alguien necesitado?
-2. ¿En quién me cuesta más reconocer a Cristo?
+1. ¿A quién das o invitas esperando algo a cambio, aunque sea reconocimiento?
+2. ¿Qué persona solitaria o necesitada podrías incluir hoy en tu mesa o en tu tiempo?
 
 ### Oración
-Jesús, tú te escondes en los pobres y los que sufren. Dame ojos para reconocerte y manos para servirte. Que no deje pasar la ocasión de hacer el bien y que aprenda a amarte en cada hermano necesitado. Amén.
+Señor, tú nos invitas a tu mesa sin pedirnos nada a cambio. Libérame de la contabilidad del favor y de la necesidad de ser correspondido. Enséñame a dar con libertad a quienes no pueden devolverme nada y a reconocerte en ellos. Amén.
 
 ## 09-19 · Sin favoritismos
 - Tema: La justicia y los pobres
@@ -1551,7 +1551,7 @@ Dios altísimo, tú eres mi refugio. Gracias por los ángeles que me cuidan. Que
 ## 09-25 · Un ángel liberó a Pedro
 - Tema: Los ángeles y el combate espiritual
 - Cita: Hch 12,6-11
-- Relacionadas: Sal 34,8; Hch 5,19-20
+- Relacionadas: Sal 34,7; Hch 5,19-20
 
 ### Contexto
 El rey Herodes encarcela a Pedro tras haber matado a Santiago. La noche antes del juicio, Pedro duerme entre dos soldados, encadenado, mientras la comunidad reza por él. Un ángel lo despierta y lo saca de la cárcel.
@@ -1638,21 +1638,21 @@ El nombre de Miguel significa algo así como «¿quién como Dios?», y expresa 
 ### Oración
 Dios omnipotente, que has confiado a los arcángeles misiones de servicio, concédeme su protección en mis luchas. Que viva sin miedo, confiado en la victoria de Cristo, y que sirva a tu Reino con fidelidad. Amén.
 
-## 09-30 · Cuando contemplo el cielo
+## 09-30 · Los cielos cuentan su gloria
 - Tema: La creación y su cuidado
-- Cita: Sal 8,4-7
-- Relacionadas: Gn 2,15; Sal 24,1
+- Cita: Sal 19,1-4
+- Relacionadas: Rm 1,20; Sab 13,5
 
 ### Contexto
-Este salmo es un himno de alabanza a Dios por la grandeza de su creación. El salmista contempla el cielo y se pregunta por el lugar del ser humano en el conjunto del universo.
+El salmo 19 comienza con un himno a la creación y continúa con un elogio de la ley de Dios. Es un poema que une dos lecturas de lo mismo: la voz silenciosa de las cosas creadas y la voz escrita de la Palabra. Aquí se lee la primera parte.
 
 ### Reflexión
-Ante la inmensidad del cielo estrellado, el salmista se siente diminuto y se asombra de que Dios se acuerde de él. A la vez, reconoce que Dios lo ha hecho poco inferior a un ser divino y le ha confiado el cuidado de la creación. Somos pequeños y, sin embargo, responsables. Esa doble conciencia nos libera tanto del orgullo como del desinterés. Mirar la creación con asombro conduce a cuidarla. Hoy puedes salir un momento, mirar el cielo, un árbol, una planta, y dar gracias. Y pensar en un gesto concreto de cuidado: gastar menos, no desperdiciar, respetar lo que nos rodea.
+El salmo describe el cielo como un predicador sin palabras. Cada día transmite un mensaje al siguiente, cada noche pasa a otra una enseñanza. No hay lenguaje ni sonido que se oiga, y sin embargo su eco recorre toda la tierra. La creación no te demuestra a Dios con razonamientos, te lo anuncia con belleza. Al empezar la semana dedicada al cuidado de lo creado, esa idea tiene una consecuencia: si el mundo habla de Dios, descuidarlo es tapar parte de su voz. Hoy detente unos minutos ante algo natural, un árbol, el cielo, el agua, y escucha qué te dice sin palabras.
 
 ### Para meditar
-1. ¿Cuándo fue la última vez que me detuve a contemplar la creación?
-2. ¿Qué gesto sencillo puedo hacer para cuidar lo que Dios me ha confiado?
+1. ¿Qué elemento de la naturaleza te acerca más a Dios?
+2. ¿Cuándo fue la última vez que te detuviste a escucharlo sin prisa?
 
 ### Oración
-Señor, qué admirable es tu nombre en toda la tierra. Gracias por la belleza de lo creado. Haz que lo contemple con asombro y lo cuide con responsabilidad, como administrador de tu obra y no como dueño. Amén.
+Dios creador, el cielo proclama tu gloria y cada noche te alaba en silencio. Dame oídos para escuchar esa voz y un corazón agradecido. Que cuide lo que has hecho para que tu mensaje siga llegando a quienes vengan después de mí. Amén.
 

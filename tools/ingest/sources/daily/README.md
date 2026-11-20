@@ -100,3 +100,11 @@ Oración breve (30–70 palabras), dirigida a Dios, en segunda persona, terminad
 | 12-09 – 12-16 | La alegría que viene: Juan Bautista y Guadalupe |
 | 12-17 – 12-24 | «Oh» de Adviento: el Mesías esperado |
 | 12-25 – 12-31 | Navidad: el Verbo se hizo carne |
+
+## Numeración de versículos en Salmos y otros libros
+Los versículos citados siguen la numeración de las Biblias españolas instaladas (SBLM y BLL, capítulos hebreos): **no cuentan el título del salmo como versículo** y siguen la versificación inglesa en pocos pasajes (p. ej. Is 9,2-4 = «el pueblo que andaba en tinieblas», Mi 5,2 = «Belén Efrata», Os 2,14, Jl 2,28-29, Mal 4,2, Sal 51,1-4 = «Misericordia»). Por eso difieren en 1–2 de la Biblia de Jerusalén. `daily check` coteja cada cita con el texto SBLM. Ojo: la conversión a Vulgata de `@bc/shared` conserva los números de versículo, y los salmos de la Vulgata sí cuentan el título; en los salmos con título la app debería ajustar el versículo al mostrar otra versión.
+
+## Cómo revisar y publicar
+1. Lee cada entrada y corrige el `.md` (texto, cita, preguntas, oración). Tras editar: `pnpm --filter @bc/ingest exec tsx src/cli.ts daily check` debe terminar con 0 errores (referencias existentes en SBLM, 80–140 palabras de reflexión, oración 30–70 con «Amén», 2–3 preguntas, 366 fechas únicas, ninguna Cita repetida).
+2. `... daily pack` regenera `content/drafts/packs/daily.ciclo-tematico.json.gz` y `content/drafts/catalog.json` (repositorio de borradores, `status: "draft"`).
+3. Cuando el autor dé el visto bueno: cambia `status` a `'reviewed'` en `buildDailyPack` (`tools/ingest/src/daily.ts`), ejecuta `daily pack`, y mueve el paquete y su entrada al catálogo oficial (`content/packs/` y `content/catalog.json`, p. ej. con `upsertCatalogEntries` de `src/catalog.ts`); elimina la entrada de `content/drafts/catalog.json`.

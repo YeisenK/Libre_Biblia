@@ -20,7 +20,7 @@ Señor Jesús, que naciste de María, enséñame a guardar en el corazón lo que
 
 ## 01-02 · La luz sobre los que caminan a oscuras
 - Tema: Navidad y Epifanía: Dios con nosotros
-- Cita: Is 9,1-3
+- Cita: Is 9,2-4
 - Relacionadas: Lc 1,78-79; Jn 8,12
 
 ### Contexto
@@ -198,23 +198,23 @@ Pablo afirma que todos los bautizados se han revestido de Cristo, como quien se 
 ### Oración
 Señor, que nos hiciste hijos en el bautismo, quita de mí toda superioridad. Ayúdame a ver a cada persona como hermano y a construir una comunidad donde nadie sobre ni falte. Revísteme de tu humildad y tu amor. Amén.
 
-## 01-12 · Pueblo adquirido por Dios
+## 01-12 · El baño del nuevo nacimiento
 - Tema: El Bautismo de Jesús y nuestro bautismo
-- Cita: 1 P 2,9-10
-- Relacionadas: Ex 19,5-6; Os 2,25
+- Cita: Tt 3,4-7
+- Relacionadas: Jn 3,5; Ga 3,27
 
 ### Contexto
-La primera carta de Pedro se dirige a cristianos dispersos y minoritarios, que sufren incomprensión. El autor les recuerda su dignidad: son un pueblo elegido que pasó de las tinieblas a la luz.
+Pablo escribe a Tito, que dirige la comunidad cristiana de Creta, y resume en pocas líneas lo que Dios ha hecho por los creyentes. El pasaje habla del bautismo, del Espíritu y de la herencia de la vida eterna. Poco antes ha recordado cómo vivían todos sin esa gracia.
 
 ### Reflexión
-Los destinatarios eran gente corriente, sin poder ni prestigio, y se les dice que son linaje elegido, sacerdocio real, nación santa. No por sus méritos, sino para «proclamar las maravillas» de quien los llamó. La dignidad del bautizado no es un título para presumir, sino una tarea: dar testimonio. Y empieza por recordar que antes «no eras pueblo» y ahora sí lo eres, que has recibido misericordia. Hoy puedes agradecer a las personas concretas que te hicieron entrar en esa comunidad, y preguntarte qué maravilla de Dios podrías contar esta semana a alguien.
+Pablo no dice que Dios nos salvó porque lo hubiéramos merecido, sino por pura misericordia. El bautismo aparece como un lavado y un nuevo comienzo, y el Espíritu como algo que se derrama con abundancia, no con tacañería. Cuando recuerdas tu bautismo, casi siempre piensas en una fecha lejana, quizá en una foto familiar. El texto te invita a verlo de otra manera: es el momento en que Dios actuó primero, cuando aún no podías ofrecer nada. De ahí nace la esperanza de ser heredero. No eres un invitado que deba justificar su presencia, sino alguien a quien se ha dado un lugar en la casa.
 
 ### Para meditar
-1. ¿Quiénes fueron los que te acercaron a la fe? ¿Les has dado las gracias?
-2. ¿Qué maravilla de Dios podrías contar a alguien con sencillez?
+1. ¿Sabes cuándo y dónde fuiste bautizado? ¿Qué significa para ti hoy?
+2. ¿En qué momentos intentas ganarte el amor de Dios en lugar de recibirlo?
 
 ### Oración
-Dios, que me has llamado de las tinieblas a tu luz admirable, no dejes que me acostumbre a este regalo. Haz de mí un testigo humilde de tu misericordia y dame la alegría de pertenecer a tu pueblo. Amén.
+Padre bueno, tú me lavaste y me hiciste nacer de nuevo sin que yo hiciera nada para merecerlo. Renueva en mí la gracia de mi bautismo y derrama tu Espíritu sobre mi vida. Que viva como hijo agradecido y como heredero de tu esperanza. Amén.
 
 ## 01-13 · El don del Espíritu
 - Tema: El Bautismo de Jesús y nuestro bautismo
@@ -326,7 +326,7 @@ Señor, que llamas a cada estrella por su nombre, no te olvides de mí. Cuando m
 
 ## 01-19 · ¿Qué es el hombre?
 - Tema: Dios Padre, creador
-- Cita: Sal 8,4-7
+- Cita: Sal 8,3-6
 - Relacionadas: Gn 1,27; Hb 2,6-8
 
 ### Contexto
@@ -381,7 +381,7 @@ Jesús, pasas por mi orilla y me llamas por mi trabajo y por mi nombre. Dame val
 ## 01-22 · Habla, Señor, que tu siervo escucha
 - Tema: La llamada: vocación y conversión
 - Cita: 1 S 3,8-10
-- Relacionadas: Is 6,8; Sal 40,7-9
+- Relacionadas: Is 6,8; Sal 40,6-8
 
 ### Contexto
 El joven Samuel duerme en el santuario, a las órdenes del anciano sacerdote Elí. Oye una voz en la noche y cree que lo llama Elí. Tras la tercera vez, Elí comprende que es el Señor.
@@ -738,23 +738,23 @@ El texto dice que el Señor hablaba con Moisés como quien habla con su amigo. E
 ### Oración
 Señor, amigo de Moisés, quiero hablar contigo sin prisas. Que tu presencia vaya conmigo en lo que me espera y me dé descanso. Enséñame a pasar tiempo contigo y no solo a pedirte cosas. Amén.
 
-## 02-11 · Nuestra Señora de Lourdes
+## 02-11 · Me ha vestido de salvación
 - Tema: Los Mandamientos, camino de libertad
-- Cita: Jn 2,1-5
-- Relacionadas: Jn 19,25-27; Lc 1,38
+- Cita: Is 61,10-11
+- Relacionadas: Lc 1,28; Ap 21,2
 
 ### Contexto
-En una boda en Caná de Galilea se acaba el vino. María se da cuenta antes que nadie y se lo comunica a Jesús. Luego pide a los sirvientes que hagan lo que él les diga.
+Isaías habla en nombre de un pueblo que celebra la liberación tras el destierro. Poco antes ha anunciado la buena noticia para los pobres. En este tramo el profeta prorrumpe en una alegría de fiesta de bodas. La liturgia aplica estas palabras a María.
 
 ### Reflexión
-María ve lo que falta sin hacer ruido. No organiza un discurso, no da una solución; solo dice a su hijo: no tienen vino. Esa es una forma de oración muy fina, que expone la necesidad sin imponer la respuesta. Después se dirige a los criados con unas palabras que resumen su misión: haced lo que él os diga. En Lourdes muchas personas enfermas y cansadas acuden a ella para que las lleve a Jesús. María no se queda con nadie; los dirige a su Hijo. Hoy puedes presentarle una carencia concreta, tuya o ajena, y añadir un propósito: obedecer lo que Jesús te diga.
+Este canto de alegría se pone hoy en boca de María, la Virgen de Lourdes. La imagen es de fiesta: un novio con sus mejores galas, una novia con sus joyas. Pero la alegría no viene de lo que uno se ha puesto, sino de lo que Dios le ha puesto: vestiduras de salvación y manto de justicia. Lourdes evoca peregrinos, enfermos y personas que llegan con una carga. A todos se les ofrece lo mismo: dejarse vestir de nuevo por Dios y recibir un traje que no se compra ni se gana. Quizá hoy necesites quitarte algo, un rencor, un fracaso, una etiqueta que te pusieron, para que sea él quien te vista.
 
 ### Para meditar
-1. ¿Qué «vino» falta hoy en tu vida o en la de alguien cercano?
-2. ¿Qué te dice Jesús que haces con desgana o dejas pasar?
+1. ¿Qué etiqueta o carga necesitas dejar para que Dios te vista de nuevo?
+2. ¿Por qué enfermo o cansado quieres rezar hoy?
 
 ### Oración
-Santa María, que ves lo que falta, preséntale a tu Hijo mi necesidad y la de los enfermos que te invocan en Lourdes. Enséñame a hacer lo que él me diga, con confianza y sin demoras. Amén.
+Dios mío, tú vistes a tu pueblo de salvación y lo llenas de alegría. Con María, que se alegró en ti, te pido por los enfermos y por quienes llevan una carga pesada. Renueva también mi corazón y hazme signo de tu consuelo. Amén.
 
 ## 02-12 · Te saqué de la esclavitud
 - Tema: Los Mandamientos, camino de libertad
@@ -830,7 +830,7 @@ Dios de la vida, tú me pones delante el bien y me dejas escoger. Dame luz para 
 
 ## 02-16 · Una ley que alegra el corazón
 - Tema: Los Mandamientos, camino de libertad
-- Cita: Sal 19,8-11
+- Cita: Sal 19,7-10
 - Relacionadas: Sal 119,45; Sal 1,1-2
 
 ### Contexto
@@ -866,7 +866,7 @@ Jesús, que llevas la Ley a su plenitud, cambia mi corazón y no solo mi conduct
 
 ## 02-18 · Misericordia, Dios mío
 - Tema: El pecado y la misericordia
-- Cita: Sal 51,3-6
+- Cita: Sal 51,1-4
 - Relacionadas: Lc 18,13; Sal 130,3-4
 
 ### Contexto
@@ -903,7 +903,7 @@ Señor, tú me buscas incluso cuando me escondo. Perdona mi miedo y mi vergüenz
 ## 02-20 · He pecado contra el Señor
 - Tema: El pecado y la misericordia
 - Cita: 2 S 12,9-13
-- Relacionadas: Sal 51,3-4; Sal 130,3-4
+- Relacionadas: Sal 51,1-2; Sal 130,3-4
 
 ### Contexto
 David ha abusado de Betsabé y ha provocado la muerte de su marido, Urías. El profeta Natán le cuenta una parábola que lo hace indignarse, y entonces le revela que él es el culpable.
@@ -993,7 +993,7 @@ Jesús, que no condenaste y levantaste a la mujer, perdóname y dame fuerza para
 ## 02-25 · Rasgad el corazón
 - Tema: Conversión, penitencia y ayuno
 - Cita: Jl 2,12-13
-- Relacionadas: Sal 51,12-14; Os 6,1-3
+- Relacionadas: Sal 51,10-12; Os 6,1-3
 
 ### Contexto
 El profeta Joel convoca al pueblo después de una calamidad, una plaga de langostas que ha devastado el campo. En medio de la llamada a un ayuno solemne, Dios habla con una invitación a una conversión más profunda.
@@ -1065,7 +1065,7 @@ Jesús, esposo de tu Iglesia, quiero que mis renuncias sean deseo de ti y no un 
 ## 02-29 · El publicano y el fariseo
 - Tema: Conversión, penitencia y ayuno
 - Cita: Lc 18,10-14
-- Relacionadas: Sal 51,19; Lc 14,11
+- Relacionadas: Sal 51,17; Lc 14,11
 
 ### Contexto
 Jesús cuenta esta parábola a quienes se tenían por justos y despreciaban a los demás. Dos hombres suben al templo a rezar: un fariseo y un publicano, es decir, un recaudador de impuestos.
@@ -1119,7 +1119,7 @@ Señor, me acerco a ti con lo que soy. Limpia mis manos y mi corazón de lo que 
 ## 03-03 · La tristeza que lleva a la vida
 - Tema: Conversión, penitencia y ayuno
 - Cita: 2 Co 7,9-10
-- Relacionadas: Sal 34,19; Hch 3,19
+- Relacionadas: Sal 34,18; Hch 3,19
 
 ### Contexto
 Pablo se alegra porque los corintios, tras recibir una carta suya severa, se han entristecido y han cambiado de actitud. Distingue entonces dos tipos de tristeza.
@@ -1317,7 +1317,7 @@ Jesús, que rechazaste el poder fácil, enséñame a elegir tu camino aunque sea
 ## 03-14 · Cuarenta años en el desierto
 - Tema: El desierto y la tentación
 - Cita: Dt 8,2-5
-- Relacionadas: Os 2,16; Sal 95,8-9
+- Relacionadas: Os 2,14; Sal 95,8-9
 
 ### Contexto
 Moisés habla al pueblo antes de entrar en la tierra prometida y le pide que haga memoria de los cuarenta años en el desierto. Quiere que comprendan el sentido de aquella travesía.
@@ -1442,7 +1442,7 @@ San José y santa María, que buscasteis a Jesús con angustia, acompañadme cua
 
 ## 03-21 · Solo en Dios descansa mi alma
 - Tema: San José y la fidelidad silenciosa
-- Cita: Sal 62,2-3
+- Cita: Sal 62,1-2
 - Relacionadas: Is 30,15; Mt 11,28-29
 
 ### Contexto
@@ -1620,20 +1620,21 @@ El canto de María es una mirada revolucionaria a la historia: Dios invierte las
 ### Oración
 Señor, que miras a los humildes, enséñame a no confiar en mis fuerzas ni en mis bienes. Dame un corazón cercano a los pobres y alegre de tu justicia. Con María, te canto y te espero. Amén.
 
-## 03-31 · Con María, en oración
+## 03-31 · He aquí que vengo
 - Tema: La Anunciación y el «sí» de María
-- Cita: Hch 1,13-14
-- Relacionadas: Jn 19,25-27; Lc 1,38
+- Cita: Hb 10,5-9
+- Relacionadas: Lc 1,38; Sal 40,6-8
 
 ### Contexto
-Tras la ascensión de Jesús, los apóstoles vuelven a Jerusalén y suben a la sala superior donde se alojaban. El libro de los Hechos enumera quiénes estaban allí, y menciona a las mujeres y a la madre de Jesús.
+La carta a los Hebreos cita las palabras con que Cristo entra en el mundo y las aplica a su entrega. El hilo del capítulo es la comparación entre los sacrificios antiguos y la ofrenda de Jesús. El autor presenta la voluntad de Dios como aquello que el Hijo vino a cumplir.
 
 ### Reflexión
-En la primera comunidad aparece María, la última vez que se la nombra en el Nuevo Testamento por su nombre. No hace discursos; está presente, rezando con los demás. El «sí» de Nazaret ha llegado hasta aquí: ahora acompaña a quienes comenzarán la Iglesia. Hay algo muy tranquilizador en esta imagen: la comunidad se forma con un grupo de gente asustada y muy variada, unida en oración. Con María, esperan al Espíritu. Cierra así este trimestre una buena propuesta: no emprendas nada sin oración y sin compañía. Hoy puedes rezar con alguien, en persona o por teléfono, o simplemente rezar sabiéndote parte de ese grupo.
+El «hágase» de María tiene una raíz más honda en las palabras que la carta a los Hebreos pone en labios de Cristo al entrar en el mundo: aquí estoy, vengo a hacer tu voluntad. Dios no buscaba tanto ofrendas rituales como una persona dispuesta a decir sí. En Nazaret ese sí lo pronuncia una muchacha, y en el cuerpo preparado para el Hijo se hace carne. Cuando respondes afirmativamente a lo que Dios te pide, no empiezas algo desde cero: te unes a una respuesta ya dada por Cristo. En esta semana de la Anunciación, pregúntate dónde se te pide hoy un sí sencillo, sin grandes gestos.
 
 ### Para meditar
-1. ¿Con quién rezas habitualmente y a quién podrías invitar?
-2. ¿Qué espera de ti el Espíritu en la próxima etapa?
+1. ¿Qué te pide Dios en este momento que todavía no has respondido del todo?
+2. ¿Cómo cambia tu sí saber que te unes al de Cristo y al de María?
 
 ### Oración
-Santa María, madre de la Iglesia, quédate con nosotros en la oración. Enséñanos a esperar juntos el Espíritu y a decir cada día nuestro «sí». Que no emprendamos nada sin ti y sin tu Hijo. Amén.
+Padre, tu Hijo entró en el mundo diciendo que venía a cumplir tu voluntad, y María lo acogió con su sí. Une mi respuesta a la suya. Dame un corazón disponible, que no ponga condiciones y se fíe de ti aunque no entienda todo. Amén.
+
