@@ -13,7 +13,8 @@
     "pack": "tsx src/cli.ts pack",
     "culture": "tsx src/cli.ts culture",
     "markdown": "tsx src/cli.ts markdown",
-    "daily": "tsx src/cli.ts daily"
+    "daily": "tsx src/cli.ts daily",
+    "versification": "tsx src/cli.ts versification"
   },
   "dependencies": {
     "@bc/shared": "workspace:*"

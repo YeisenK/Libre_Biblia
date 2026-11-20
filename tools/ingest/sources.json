@@ -69,7 +69,7 @@
       "language": "es",
       "format": "usfm",
       "license": "Public Domain",
-      "versification": "hebrew",
+      "versification": "english",
       "tsConfig": "spanish",
       "completeness": "complete",
       "translationStatus": "draft",
@@ -89,7 +89,8 @@
         "PS2": "Salmo 151 (fuera del canon de 73)",
         "3MA": "3 Macabeos (fuera del canon de 73)",
         "4MA": "4 Macabeos (fuera del canon de 73)"
-      }
+      },
+      "packRevision": 2
     },
     {
       "code": "BLL",
@@ -105,7 +106,7 @@
       "language": "es",
       "format": "usfm",
       "license": "Public Domain",
-      "versification": "hebrew",
+      "versification": "english",
       "tsConfig": "spanish",
       "completeness": "complete",
       "translationStatus": "draft",
@@ -125,7 +126,8 @@
         "PS2": "Salmo 151 (fuera del canon de 73)",
         "3MA": "3 Macabeos (fuera del canon de 73)",
         "4MA": "4 Macabeos (fuera del canon de 73)"
-      }
+      },
+      "packRevision": 2
     }
   ]
 }

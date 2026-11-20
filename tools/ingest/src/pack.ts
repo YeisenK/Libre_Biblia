@@ -53,13 +53,18 @@ export function packSources(sources: SourceSpec[]): CatalogEntry[] {
     if (report.errors.length) throw new Error(`[${src.code}] la validación tiene errores; no se empaqueta`);
     const bible = JSON.parse(readFileSync(outFile(src.code), 'utf8')) as CanonicalBible;
     const source = packSource(src);
-    const pack = buildBiblePack(src, bible, source, dateVersion(source.retrievedAt));
+    const base = dateVersion(source.retrievedAt);
+    // packRevision permite publicar una corrección del paquete sin volver a descargar la fuente.
+    const pack = buildBiblePack(src, bible, source, src.packRevision ? `${base}-r${src.packRevision}` : base);
     assertPack(JSON.parse(JSON.stringify(pack)));
     const w = writePack(pack.id, pack);
     entries.push({
       id: pack.id, kind: 'bible', version: pack.version, title: src.name,
       description: src.notice ? `${src.edition}. ${src.notice}` : src.edition, language: src.language, url: `packs/${w.file}`, bytes: w.bytes, sha256: w.sha256,
       authority: 'scripture', collection: 'Biblias', source,
+      ...(src.translationStatus ? { translationStatus: src.translationStatus } : {}),
+      ...(src.ecclesiasticalApproval !== undefined ? { ecclesiasticalApproval: src.ecclesiasticalApproval } : {}),
+      ...(src.notice ? { notice: src.notice } : {}),
     });
     console.log(`[${src.code}] ${w.file}: ${w.bytes} bytes  sha256=${w.sha256}`);
   }

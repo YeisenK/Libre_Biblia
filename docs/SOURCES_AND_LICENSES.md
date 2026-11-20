@@ -71,6 +71,16 @@ Misma licencia y mecanismo que arriba (Wikisource en español, latín o francés
 - **Historia de un alma** (santa Teresa de Lisieux): omitida. La única transcripción útil es la de fr.wikisource (ed. 1912), pero sus letras capitales, epígrafes y títulos de capítulo están en imágenes o plantillas no convertibles sin perder texto; no se completa a mano. Pendiente: traducción española antigua de dominio público o transcripción completa.
 - Traducción española antigua de las *Confesiones*: no encontrada; se incluye el original latino.
 
+## Datos de versificación
+
+Tablas de conversión de numeración (capítulo/versículo) entre las tradiciones `vulgate`, `english`, `hebrew` y `greek`, generadas a partir de **STEPBible TVTMS** (*Translators' Versification Traditions with Methodology for Standardisation*).
+
+- Fuente: https://github.com/STEPBible/STEPBible-Data (carpeta `Versification/`, archivo «TVTMS - Translators Versification Traditions with Methodology for Standardisation for Eng+Heb+Lat+Grk+Others - STEPBible.org CC BY.txt»).
+- Licencia: **CC BY 4.0**. Texto del archivo: «Data created by www.STEPBible.org based on work at Tyndale House Cambridge (CC BY 4.0)». El README del repositorio declara «CC BY 4.0» y pide atribuir a Tyndale House y STEPBible.org con enlace a STEPBible.github.io/STEPBible-Data, anotar los cambios hechos y no publicar copias del archivo original (por eso `tools/ingest/raw/` está en `.gitignore` y solo se versiona el resultado derivado).
+- Atribución: datos de STEPBible.org / Tyndale House, Cambridge (CC BY 4.0), https://github.com/STEPBible/STEPBible-Data.
+- Cambios realizados: se usa solo la sección «Condensed»; se reducen las columnas English/Hebrew/Latin/Greek a tramos compactos `origen>destino` (solo versículos que cambian); las celdas de libros fuera del canon de 73 libros se ignoran; Sus/Bel/LJe se mapean a Dn 13, Dn 14 y Bar 6; el Cántico de los tres jóvenes (Dn 3,24-90 Vg) y las adiciones de Ester (Est 10,4-16,24 Vg) se codifican a mano porque TVTMS usa pseudo-capítulos (A-F) o deja comentadas esas filas.
+- Generador: `pnpm --filter @bc/ingest versification` → `packages/shared/src/versification/data.ts`. Detalles y validación en `packages/shared/src/versification/README.md`.
+
 ## Pendientes
 
 | Recurso | Situación |

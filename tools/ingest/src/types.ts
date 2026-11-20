@@ -13,6 +13,8 @@ export interface SourceSpec {
   tsConfig: string;
   completeness: 'complete' | 'partial';
   notes?: string;
+  /** Revisión del paquete (corrección sin nueva descarga de la fuente) */
+  packRevision?: number;
   translationStatus?: 'final' | 'draft';
   ecclesiasticalApproval?: boolean;
   notice?: string;

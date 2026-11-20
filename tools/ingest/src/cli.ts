@@ -6,6 +6,7 @@ import { packSources } from './pack';
 import { buildMarkdownPack } from './markdown';
 import { runCulture } from './culture/build';
 import { runCheck, runPack } from './daily';
+import { buildVersification } from './versification/build';
 import { WORKS, WORKS_SPIRITUAL } from './culture/works';
 
 const USAGE = `Uso: tsx src/cli.ts <download|convert|validate|pack|ingest> [--only VULG,DRA] [--force]\n     tsx src/cli.ts culture [--only slug1,slug2]`;
@@ -21,6 +22,14 @@ async function main() {
     const specs = [...WORKS, ...WORKS_SPIRITUAL].filter((w) => !wanted || wanted.includes(w.slug));
     if (wanted && specs.length !== wanted.length) throw new Error('slug desconocido en --only');
     await runCulture(specs);
+    return;
+  }
+  if (cmd === 'versification') {
+    const r = buildVersification();
+    console.log(`[versification] ${r.entries} tramos, ${r.bytes} bytes, ${r.stats.rows} filas TVTMS, sha256 TVTMS=${r.sha256}`);
+    if (r.stats.mismatched) console.log(`  filas con tamaños distintos (ignoradas): ${r.stats.mismatched}`);
+    for (const [raw, n] of r.stats.unparsed) console.log(`  celda no interpretada x${n}: ${raw}`);
+    console.log(`  libros TVTMS ignorados: ${[...r.stats.skippedBooks].sort().join(' ')}`);
     return;
   }
   if (cmd === 'daily') {
