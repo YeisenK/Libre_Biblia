@@ -2,8 +2,31 @@
   "format": 1,
   "name": "Libre Biblia — repositorio oficial",
   "homepage": "https://github.com/YeisenK/Libre_Biblia",
-  "updatedAt": "2026-11-20T16:30:02.375Z",
+  "updatedAt": "2026-11-20T17:15:30.281Z",
   "packs": [
+    {
+      "id": "bible.BLL",
+      "kind": "bible",
+      "version": "2026.11.20",
+      "title": "Santa Biblia libre Latinoamericana",
+      "description": "Traducción libre moderna en español de Latinoamérica (borrador de eBible.org, 2026); AT hebreo con numeración moderna de los Salmos y deuterocanónicos de la Septuaginta; Ester (ESG) y Daniel (DAG) en su forma griega. Traducción libre moderna (borrador de eBible.org), de dominio público, sin aprobación eclesiástica.",
+      "language": "es",
+      "url": "packs/bible.BLL.json.gz",
+      "bytes": 1568388,
+      "sha256": "91246355c30a4b270025047f6da643595797682dbaafc43bb792bd88070dad4a",
+      "authority": "scripture",
+      "collection": "Biblias",
+      "source": {
+        "name": "Santa Biblia libre Latinoamericana",
+        "license": "Public Domain",
+        "licenseUrl": "https://ebible.org/Bible/details.php?id=spabll",
+        "provenanceUrl": "https://ebible.org/Bible/details.php?id=spabll",
+        "downloadUrl": "https://eBible.org/Scriptures/spabll_usfm.zip",
+        "originalSha256": "02a28e412ac61d1683b18352557fbf73afd6cfe1a1d6da3d9b56c78a5b2c2d33",
+        "retrievedAt": "2026-11-20T17:15:30.281Z",
+        "notes": "Borrador de traducción en revisión (eBible.org). Excluidos: EST/DAN hebreos (se usan ESG/DAG), 1-2 Esdras, Oración de Manasés, Sal 151, 3-4 Macabeos, LJE (vacío; Carta de Jeremías = Baruc 6). Marcado Strong, notas y títulos descartados."
+      }
+    },
     {
       "id": "bible.DRA",
       "kind": "bible",
@@ -25,6 +48,29 @@
         "originalSha256": "28147740343e44cede8c86cffb91973f934ddd892a887f621f4df816ffc86834",
         "retrievedAt": "2026-11-20T15:55:16.513Z",
         "notes": "Edición americana de 1899 (Douay-Rheims, traducida de la Vulgata latina). Etiquetas Strong y notas se descartan."
+      }
+    },
+    {
+      "id": "bible.SBLM",
+      "kind": "bible",
+      "version": "2026.11.20",
+      "title": "Santa Biblia libre para el mundo",
+      "description": "Traducción libre moderna en español de España (borrador de eBible.org, 2026); AT hebreo con numeración moderna de los Salmos y deuterocanónicos de la Septuaginta; Ester (ESG) y Daniel (DAG) en su forma griega. Traducción libre moderna (borrador de eBible.org), de dominio público, sin aprobación eclesiástica.",
+      "language": "es",
+      "url": "packs/bible.SBLM.json.gz",
+      "bytes": 1524912,
+      "sha256": "44a46add06288462d9f527caa957fb76a50333f080e07f58fb06659126113a2a",
+      "authority": "scripture",
+      "collection": "Biblias",
+      "source": {
+        "name": "Santa Biblia libre para el mundo",
+        "license": "Public Domain",
+        "licenseUrl": "https://ebible.org/Bible/details.php?id=spablm",
+        "provenanceUrl": "https://ebible.org/Bible/details.php?id=spablm",
+        "downloadUrl": "https://eBible.org/Scriptures/spablm_usfm.zip",
+        "originalSha256": "69ff87d19976bfc2306cb11ffeffd9fe0b4163eac9bd09da7f687b53a4de90f5",
+        "retrievedAt": "2026-11-20T17:15:29.724Z",
+        "notes": "Borrador de traducción en revisión (eBible.org). Excluidos: EST/DAN hebreos (se usan ESG/DAG), 1-2 Esdras, Oración de Manasés, Sal 151, 3-4 Macabeos, LJE (vacío; Carta de Jeremías = Baruc 6). Marcado Strong, notas y títulos descartados."
       }
     },
     {

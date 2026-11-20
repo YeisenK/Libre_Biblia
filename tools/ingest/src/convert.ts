@@ -32,7 +32,12 @@ export function convertUsfm(src: SourceSpec): { bible: CanonicalBible; log: Conv
   const canonOsis = new Set(CANON.map((b) => b.osis));
   for (const f of files) {
     const parsed = parseUsfm(readFileSync(f, 'utf8'));
-    const osis = parsed.id ? USFM_TO_OSIS[parsed.id] : undefined;
+    const skip = parsed.id ? src.usfmSkip?.[parsed.id] : undefined;
+    if (skip) {
+      log.ignoredBooks.push(`${parsed.id} (${f.split('/').pop()}): ${skip}`);
+      continue;
+    }
+    const osis = parsed.id ? (src.usfmMap?.[parsed.id] ?? USFM_TO_OSIS[parsed.id]) : undefined;
     if (!osis || !canonOsis.has(osis)) {
       log.ignoredBooks.push(`${parsed.id ?? '?'} (${f.split('/').pop()})`);
       continue;
@@ -43,7 +48,15 @@ export function convertUsfm(src: SourceSpec): { bible: CanonicalBible; log: Conv
     }
     for (const w of parsed.warnings) log.warnings.push(`${osis}: ${w}`);
     const book: Record<string, [number, string][]> = {};
-    for (const [ch, verses] of [...parsed.chapters].sort((a, b) => a[0] - b[0])) book[String(ch)] = verses;
+    for (const [ch, all] of [...parsed.chapters].sort((a, b) => a[0] - b[0])) {
+      // Versículos que solo traen una nota (p. ej. «omitido por las mejores autoridades»): sin texto, se omiten sin inventar nada.
+      const verses = all.filter(([v, t]) => {
+        if (t) return true;
+        log.warnings.push(`${osis} ${ch}:${v}: versículo sin texto (solo nota en la fuente); omitido`);
+        return false;
+      });
+      book[String(ch)] = verses;
+    }
     bible.books[osis] = book;
   }
   return { bible, log };

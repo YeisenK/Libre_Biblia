@@ -55,6 +55,8 @@ export async function installPack(
   entry: CatalogEntry,
   opts: { catalogUrl: string | null; onProgress?: (f: number) => void },
 ): Promise<InstalledPack> {
+  if (pack.kind === 'daily') throw new Error('Este paquete de versículo diario requiere una versión más reciente de la app.');
+
   const rec: InstalledPack = {
     id: pack.id,
     kind: pack.kind,

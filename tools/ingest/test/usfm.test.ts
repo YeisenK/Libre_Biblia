@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { parseUsfm, stripNotes } from '../src/usfm';
+import { cleanFragment, parseUsfm, stripNotes } from '../src/usfm';
 
 // Fixtures de prueba: cadenas ficticias, NO son texto bíblico.
 const SAMPLE = String.raw`\id TST prueba
@@ -52,5 +52,31 @@ describe('parseUsfm', () => {
   });
   it('stripNotes quita notas multilínea', () => {
     expect(stripNotes('a\\f + \\ft x\ny\\f*b')).toBe('ab');
+  });
+});
+
+// Fixtures sintéticas (ficticias) del marcado de eBible con Strong, \wj y \+w anidado.
+describe('limpieza de Strong / \\wj / \\+w', () => {
+  const SRC = String.raw`\id TST
+\c 1
+\p
+\v 1 \w Alfa|strong="H1"\w* \w beta|strong="H2" x-morph="m"\w*, «\w gamma|strong="G3"\w*» fin.
+\v 2 \wj “\+w Uno|strong="G1"\+w* \+w dos|strong="G2"\+w*”\wj* tres.
+\v 3 Antes\f + \fr 1:3 \ft nota \+wh אֱ\+wh*\f* \wj \+w Cita|strong="G9"\+w*\wj* después.
+\v 4 \f + \fr 1:4 \ft Omitido por las mejores autoridades.\f*
+\b
+\mi continuación del versículo cuatro.
+`;
+  const r = parseUsfm(SRC).chapters.get(1)!;
+  it('quita atributos Strong y marcadores sin dejar restos', () => {
+    expect(r[0]![1]).toBe('Alfa beta, «gamma» fin.');
+    expect(r[1]![1]).toBe('“Uno dos” tres.');
+    expect(r[2]![1]).toBe('Antes Cita después.');
+  });
+  it('un versículo solo con nota queda vacío y \\b no corta el versículo', () => {
+    expect(r[3]![1]).toBe('continuación del versículo cuatro.');
+  });
+  it('cleanFragment no deja barras ni barras verticales', () => {
+    expect(cleanFragment(String.raw`(\w x|strong="H1"\w*)`)).toBe('(x)');
   });
 });

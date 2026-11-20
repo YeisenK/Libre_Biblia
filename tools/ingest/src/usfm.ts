@@ -18,12 +18,16 @@ export interface ParsedUsfm {
 /** Marcadores de párrafo/poesía cuyo contenido es texto de versículo. */
 const BODY_MARKERS = /^(p|m|mi|pi\d?|pc|pr|pm\w*|po|cls|q\d?|qr|qc|qm\d?|qa|li\d?|lim\d?|lh|lf|ip_?|nb|tr|th\d*|tc\d*|thr\d*|tcr\d*)$/;
 
-function cleanFragment(s: string): string {
+export function cleanFragment(s: string): string {
   return s
     // atributos de marcadores de carácter: \w palabra|strong="H1"\w*  ->  \w palabra\w*
     .replace(/\|[^\\]*(?=\\\+?[a-z][a-z0-9]*\*)/gi, '')
-    // cualquier marcador \xxx o \+xxx o cierre \xxx*
-    .replace(/\\\+?[a-z][a-z0-9]*\*?/gi, '')
+    // cierres \xxx* y \+xxx*
+    .replace(/\\\+?[a-z][a-z0-9]*\*/gi, '')
+    // aperturas de palabra (\w, \wj, \wh, con o sin +) tras inicio/espacio/signo de apertura: se consume también
+    // el espacio que las sigue (evita «\w Dios\w*» -> «« Dios»). Los demás marcadores conservan el comportamiento histórico.
+    .replace(/(?<=^|[\s(\[«“‘¿¡—])\\\+?w[jh]?[ \t]/gi, '')
+    .replace(/\\\+?[a-z][a-z0-9]*/gi, '')
     .replace(/~/g, ' ')
     .replace(/\/\//g, ' ');
 }
@@ -121,7 +125,9 @@ export function parseUsfm(source: string): ParsedUsfm {
       if (/^(w|wj|add|nd|qs|sc|tl|k|bk|pn|sls|dc|ord|em|bd|it|bdit|no|sig|rq|v?ca?|va|vp|fv|ior|iqt|png|wg|wh|wa|jmp|\+\w+)$/.test(marker)) {
         addBody(l);
       } else {
-        current = null;
+        // Títulos y otros marcadores: su texto se descarta, pero NO cortan el versículo en curso
+        // (p. ej. \b y \mi dentro de una carta: el texto que sigue sigue siendo del mismo versículo).
+        // Solo \c reinicia el versículo.
       }
     }
   }

@@ -18,7 +18,18 @@ export interface ValidationReport {
   errors: string[];
 }
 
-export function validateBible(bible: CanonicalBible, src: Pick<SourceSpec, 'code' | 'completeness'>): ValidationReport {
+/**
+ * Nº de capítulos esperado según la versificación. Las fuentes `hebrew` de eBible usan la partición de capítulos
+ * inglesa/KJV (Joel 3, Malaquías 4: igual que la Vulgata); solo cambia Ester, que en la traducción del griego (ESG)
+ * tiene 10 capítulos con las adiciones fusionadas en los versículos hebreos (frente a los 16 de la Vulgata).
+ * Daniel (DAG) tiene 14 capítulos, como la Vulgata. Los Salmos tienen 150 en ambas numeraciones (solo cambia el reparto de versículos).
+ */
+export const HEBREW_CHAPTER_OVERRIDES: Record<string, number> = { Esth: 10 };
+export function expectedChapters(osis: string, vulgateChapters: number, versification: string): number {
+  return versification === 'hebrew' ? (HEBREW_CHAPTER_OVERRIDES[osis] ?? vulgateChapters) : vulgateChapters;
+}
+
+export function validateBible(bible: CanonicalBible, src: Pick<SourceSpec, 'code' | 'completeness'> & { versification?: string }): ValidationReport {
   const r: ValidationReport = {
     code: src.code, completeness: src.completeness,
     counts: { books: 0, chapters: 0, verses: 0 },
@@ -33,7 +44,8 @@ export function validateBible(bible: CanonicalBible, src: Pick<SourceSpec, 'code
     r.counts.books++;
     const chNums = Object.keys(book).map(Number).sort((a, c) => a - c);
     r.counts.chapters += chNums.length;
-    if (chNums.length !== b.vulgateChapters) r.chapterDiffs.push({ book: b.osis, expected: b.vulgateChapters, found: chNums.length });
+    const expCh = expectedChapters(b.osis, b.vulgateChapters, src.versification ?? 'vulgate');
+    if (chNums.length !== expCh) r.chapterDiffs.push({ book: b.osis, expected: expCh, found: chNums.length });
     chNums.forEach((n, i) => {
       if (n !== i + 1) r.warnings.push(`${b.osis}: capítulos no consecutivos (${chNums.join(',')})`);
     });
@@ -57,7 +69,7 @@ export function validateBible(bible: CanonicalBible, src: Pick<SourceSpec, 'code
     if (src.completeness === 'complete') r.errors.push(msg); else r.warnings.push(`${msg} (fuente parcial, esperado)`);
   }
   if (r.extraBooks.length) r.errors.push(`Libros fuera de CANON: ${r.extraBooks.join(', ')}`);
-  if (r.chapterDiffs.length) r.warnings.push(`${r.chapterDiffs.length} libros con nº de capítulos distinto a la Vulgata`);
+  if (r.chapterDiffs.length) r.warnings.push(`${r.chapterDiffs.length} libros con nº de capítulos distinto al esperado`);
   if (r.verseGaps.length) r.warnings.push(`${r.verseGaps.length} huecos en la numeración de versículos`);
   if (r.emptyVerses.length) r.errors.push(`${r.emptyVerses.length} versículos vacíos`);
   if (r.duplicateVerses.length) r.errors.push(`${r.duplicateVerses.length} versículos duplicados`);

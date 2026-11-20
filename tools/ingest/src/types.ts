@@ -13,6 +13,13 @@ export interface SourceSpec {
   tsConfig: string;
   completeness: 'complete' | 'partial';
   notes?: string;
+  translationStatus?: 'final' | 'draft';
+  ecclesiasticalApproval?: boolean;
+  notice?: string;
+  /** USFM id -> OSIS (sobrescribe USFM_TO_OSIS; p. ej. ESG -> Esth). */
+  usfmMap?: Record<string, string>;
+  /** USFM id -> motivo por el que se excluye aunque exista en el zip. */
+  usfmSkip?: Record<string, string>;
 }
 
 /** Formato canónico intermedio: { libro OSIS: { capítulo: [[versículo, texto], ...] } } */

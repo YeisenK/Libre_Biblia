@@ -25,6 +25,8 @@ Solo contenido de **dominio público** o con **licencia libre**, con su proceden
 | **Vulgata Clementina** (latín, 1598) | 73 libros | [eBible.org · latVUC](https://ebible.org/Bible/details.php?id=latVUC) | Dominio público |
 | **Douay-Rheims** (inglés, edición americana de 1899) | 73 libros | [eBible.org · engDRA](https://ebible.org/Bible/details.php?id=engDRA) | Dominio público |
 | **Scío de San Miguel** (español, 2.ª ed. 1797) | Solo Nuevo Testamento | [CrossWire · SpaScioNT](https://crosswire.org/ftpmirror/pub/sword/raw/mods.d/spasciont.conf) | Dominio público |
+| **Santa Biblia libre para el mundo** (español de España) | 73 libros · traducción libre moderna en borrador, sin aprobación eclesiástica | [eBible.org · spablm](https://ebible.org/Bible/details.php?id=spablm) | Dominio público |
+| **Santa Biblia libre Latinoamericana** | 73 libros · traducción libre moderna en borrador, sin aprobación eclesiástica | [eBible.org · spabll](https://ebible.org/Bible/details.php?id=spabll) | Dominio público |
 
 ### Cultura hispánica
 Las obras son de dominio público. La transcripción procede de [Wikisource en español](https://es.wikisource.org) y se publica bajo [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es); cada paquete enlaza la revisión exacta de la página de origen.

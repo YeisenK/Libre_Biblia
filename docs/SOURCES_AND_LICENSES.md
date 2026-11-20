@@ -12,10 +12,13 @@ Regla del proyecto: solo se incluye contenido de dominio público o con licencia
 | `VULG` | Vulgata Clementina (latín) | Clementina 1598, con la Glossa Ordinaria (ed. Migne 1880), según eBible.org | 73 libros, 1334 caps., 35 809 vers. | Public Domain | [eBible.org · latVUC](https://ebible.org/Bible/details.php?id=latVUC) | `https://eBible.org/Scriptures/latVUC_usfm.zip` |
 | `DRA` | Douay-Rheims (inglés) | **Edición americana de 1899** (no es la revisión de Challoner de 1752) | 73 libros, 1334 caps., 35 811 vers. | Public Domain | [eBible.org · engDRA](https://ebible.org/Bible/details.php?id=engDRA) | `https://eBible.org/Scriptures/engDRA_usfm.zip` |
 | `SCIO` | Felipe Scío de San Miguel, *La Biblia Vulgata Latina traducida en Español* | 2.ª ed., 1797 | **Solo Nuevo Testamento**: 27 libros, 260 caps., 7957 vers. | Public Domain (`DistributionLicense` del módulo) | [CrossWire · SpaScioNT](https://crosswire.org/ftpmirror/pub/sword/raw/mods.d/spasciont.conf) | `https://crosswire.org/ftpmirror/pub/sword/packages/rawzip/SpaScioNT.zip` |
+| `SBLM` | *Santa Biblia libre para el mundo* (español de España) | Traducción libre moderna, **borrador** de eBible.org, **sin aprobación eclesiástica** | 73 libros, 35 379 vers. (numeración hebrea) | Public Domain | [eBible.org · spablm](https://ebible.org/Bible/details.php?id=spablm) | `https://eBible.org/Scriptures/spablm_usfm.zip` |
+| `BLL` | *Santa Biblia libre Latinoamericana* | Traducción libre moderna, **borrador** de eBible.org, **sin aprobación eclesiástica** | 73 libros, 35 379 vers. (numeración hebrea) | Public Domain | [eBible.org · spabll](https://ebible.org/Bible/details.php?id=spabll) | `https://eBible.org/Scriptures/spabll_usfm.zip` |
 
 Los sha256 de cada archivo descargado y la fecha de obtención se guardan en `Source.checksum` / `Source.retrievedAt` y en `tools/ingest/raw/<CODE>/manifest.json`. Para reproducir la carga: `pnpm ingest`.
 
 ### Notas de edición
+- **SBLM y BLL** siguen la numeración hebrea (Sal 23 = «El Señor es mi pastor»). Ester y Daniel se toman de los libros griegos de la fuente (ESG, DAG): Daniel con 14 capítulos; en Ester las adiciones griegas están completas pero integradas en versículos largos según la numeración de la fuente (1,1; 3,13; 5,1; 8,13; 10,4-14). Se excluyen los libros fuera del canon católico (1-2 Esdras apócrifos, Oración de Manasés, Salmo 151, 3-4 Macabeos).
 - **Versificación**: las tres siguen la numeración de la Vulgata (Salmos según la LXX, Ester con 16 capítulos, Daniel con 14, Baruc 6 = Carta de Jeremías).
 - **VULG** conserva los corchetes editoriales `[ ]` de la fuente; las glosas se descartan.
 - Notas al pie, referencias cruzadas y títulos de sección de las fuentes no se importan.

@@ -23,7 +23,11 @@ export function buildBiblePack(src: SourceSpec, bible: CanonicalBible, source: P
     version,
     meta: {
       code: src.code, name: src.name, language: src.language, edition: src.edition ?? null,
-      versification: src.versification, completeness: src.completeness, source,
+      versification: src.versification, completeness: src.completeness,
+      ...(src.translationStatus ? { translationStatus: src.translationStatus } : {}),
+      ...(src.ecclesiasticalApproval !== undefined ? { ecclesiasticalApproval: src.ecclesiasticalApproval } : {}),
+      ...(src.notice ? { notice: src.notice } : {}),
+      source,
     },
     books,
   };
@@ -54,7 +58,7 @@ export function packSources(sources: SourceSpec[]): CatalogEntry[] {
     const w = writePack(pack.id, pack);
     entries.push({
       id: pack.id, kind: 'bible', version: pack.version, title: src.name,
-      description: src.edition, language: src.language, url: `packs/${w.file}`, bytes: w.bytes, sha256: w.sha256,
+      description: src.notice ? `${src.edition}. ${src.notice}` : src.edition, language: src.language, url: `packs/${w.file}`, bytes: w.bytes, sha256: w.sha256,
       authority: 'scripture', collection: 'Biblias', source,
     });
     console.log(`[${src.code}] ${w.file}: ${w.bytes} bytes  sha256=${w.sha256}`);

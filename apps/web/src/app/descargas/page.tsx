@@ -15,7 +15,7 @@ interface Item {
   repoUrl: string;
   entry: CatalogEntry;
 }
-const KIND_LABEL = { bible: 'Biblias', document: 'Documentos' } as const;
+const KIND_LABEL = { bible: 'Biblias', document: 'Documentos', daily: 'Versículo del día' } as const;
 
 export default function Page() {
   const qc = useQueryClient();

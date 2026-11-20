@@ -7,7 +7,9 @@
       "language": "la",
       "edition": "Vulgata Clementina de 1598 (con Glossa Ordinaria, ed. Migne 1880); texto latino de eBible.org",
       "format": "usfm",
-      "files": ["https://eBible.org/Scriptures/latVUC_usfm.zip"],
+      "files": [
+        "https://eBible.org/Scriptures/latVUC_usfm.zip"
+      ],
       "license": "Public Domain",
       "licenseUrl": "https://ebible.org/Bible/details.php?id=latVUC",
       "provenanceUrl": "https://ebible.org/Bible/details.php?id=latVUC",
@@ -23,7 +25,9 @@
       "language": "en",
       "edition": "Douay-Rheims 1899 American Edition (NO es la revisión de Challoner de 1752)",
       "format": "usfm",
-      "files": ["https://eBible.org/Scriptures/engDRA_usfm.zip"],
+      "files": [
+        "https://eBible.org/Scriptures/engDRA_usfm.zip"
+      ],
       "license": "Public Domain",
       "licenseUrl": "https://ebible.org/Bible/details.php?id=engDRA",
       "provenanceUrl": "https://ebible.org/Bible/details.php?id=engDRA",
@@ -50,6 +54,78 @@
       "tsConfig": "spanish",
       "completeness": "partial",
       "notes": "Módulo SWORD zText (ThML, compresión LZSS, índice KJV). Solo NT. El texto sigue la numeración tradicional; el índice KJV solo se usa para localizar versículos."
+    },
+    {
+      "code": "SBLM",
+      "key": "ebible:spablm",
+      "name": "Santa Biblia libre para el mundo",
+      "edition": "Traducción libre moderna en español de España (borrador de eBible.org, 2026); AT hebreo con numeración moderna de los Salmos y deuterocanónicos de la Septuaginta; Ester (ESG) y Daniel (DAG) en su forma griega",
+      "files": [
+        "https://eBible.org/Scriptures/spablm_usfm.zip"
+      ],
+      "licenseUrl": "https://ebible.org/Bible/details.php?id=spablm",
+      "provenanceUrl": "https://ebible.org/Bible/details.php?id=spablm",
+      "notes": "Borrador de traducción en revisión (eBible.org). Excluidos: EST/DAN hebreos (se usan ESG/DAG), 1-2 Esdras, Oración de Manasés, Sal 151, 3-4 Macabeos, LJE (vacío; Carta de Jeremías = Baruc 6). Marcado Strong, notas y títulos descartados.",
+      "language": "es",
+      "format": "usfm",
+      "license": "Public Domain",
+      "versification": "hebrew",
+      "tsConfig": "spanish",
+      "completeness": "complete",
+      "translationStatus": "draft",
+      "ecclesiasticalApproval": false,
+      "notice": "Traducción libre moderna (borrador de eBible.org), de dominio público, sin aprobación eclesiástica.",
+      "usfmMap": {
+        "ESG": "Esth",
+        "DAG": "Dan"
+      },
+      "usfmSkip": {
+        "EST": "Ester hebreo; se usa ESG (Ester griego completo)",
+        "DAN": "Daniel hebreo/arameo; se usa DAG (Daniel con porciones griegas, 14 capítulos)",
+        "LJE": "Carta de Jeremías: ya integrada como Baruc 6 en BAR (LJE sin contenido)",
+        "1ES": "1 Esdras (apócrifo, fuera del canon de 73)",
+        "2ES": "2 Esdras (apócrifo, fuera del canon de 73)",
+        "MAN": "Oración de Manasés (fuera del canon de 73)",
+        "PS2": "Salmo 151 (fuera del canon de 73)",
+        "3MA": "3 Macabeos (fuera del canon de 73)",
+        "4MA": "4 Macabeos (fuera del canon de 73)"
+      }
+    },
+    {
+      "code": "BLL",
+      "key": "ebible:spabll",
+      "name": "Santa Biblia libre Latinoamericana",
+      "edition": "Traducción libre moderna en español de Latinoamérica (borrador de eBible.org, 2026); AT hebreo con numeración moderna de los Salmos y deuterocanónicos de la Septuaginta; Ester (ESG) y Daniel (DAG) en su forma griega",
+      "files": [
+        "https://eBible.org/Scriptures/spabll_usfm.zip"
+      ],
+      "licenseUrl": "https://ebible.org/Bible/details.php?id=spabll",
+      "provenanceUrl": "https://ebible.org/Bible/details.php?id=spabll",
+      "notes": "Borrador de traducción en revisión (eBible.org). Excluidos: EST/DAN hebreos (se usan ESG/DAG), 1-2 Esdras, Oración de Manasés, Sal 151, 3-4 Macabeos, LJE (vacío; Carta de Jeremías = Baruc 6). Marcado Strong, notas y títulos descartados.",
+      "language": "es",
+      "format": "usfm",
+      "license": "Public Domain",
+      "versification": "hebrew",
+      "tsConfig": "spanish",
+      "completeness": "complete",
+      "translationStatus": "draft",
+      "ecclesiasticalApproval": false,
+      "notice": "Traducción libre moderna (borrador de eBible.org), de dominio público, sin aprobación eclesiástica.",
+      "usfmMap": {
+        "ESG": "Esth",
+        "DAG": "Dan"
+      },
+      "usfmSkip": {
+        "EST": "Ester hebreo; se usa ESG (Ester griego completo)",
+        "DAN": "Daniel hebreo/arameo; se usa DAG (Daniel con porciones griegas, 14 capítulos)",
+        "LJE": "Carta de Jeremías: ya integrada como Baruc 6 en BAR (LJE sin contenido)",
+        "1ES": "1 Esdras (apócrifo, fuera del canon de 73)",
+        "2ES": "2 Esdras (apócrifo, fuera del canon de 73)",
+        "MAN": "Oración de Manasés (fuera del canon de 73)",
+        "PS2": "Salmo 151 (fuera del canon de 73)",
+        "3MA": "3 Macabeos (fuera del canon de 73)",
+        "4MA": "4 Macabeos (fuera del canon de 73)"
+      }
     }
   ]
 }
