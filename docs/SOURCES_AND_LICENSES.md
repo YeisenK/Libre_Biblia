@@ -71,6 +71,16 @@ Misma licencia y mecanismo que arriba (Wikisource en español, latín o francés
 - **Historia de un alma** (santa Teresa de Lisieux): omitida. La única transcripción útil es la de fr.wikisource (ed. 1912), pero sus letras capitales, epígrafes y títulos de capítulo están en imágenes o plantillas no convertibles sin perder texto; no se completa a mano. Pendiente: traducción española antigua de dominio público o transcripción completa.
 - Traducción española antigua de las *Confesiones*: no encontrada; se incluye el original latino.
 
+## Leccionario (referencias de las lecturas de la Misa)
+
+- **Fuente**: Evangelizo.org, API pública `https://publication.evangelizo.ws/SP/days/AAAA-MM-DD/readings` (su `robots.txt` permite todo; la API publica una cabecera `ratelimit`). **La fuente no declara ninguna licencia** para estos datos.
+- **Qué se guarda**: SOLO referencias (cita y tipo de lectura: primera lectura, salmo, segunda lectura, Evangelio) ya consolidadas por clave de día litúrgico en `packages/shared/src/lectionary/data.json`. Nunca el texto de las lecturas, ni antífonas/estribillos, ni comentarios. El texto que se muestra sale de la Biblia que el usuario tenga instalada.
+- **Fechas**: 2017-12-03 a 2026-11-28 (3283 fechas; ciclos A, B y C tres veces y años ferales I/II), una única petición por fecha, como máximo 1 por segundo, con `User-Agent: LibreBiblia-ingest/0.1 (+https://github.com/YeisenK/Libre_Biblia)`. Las respuestas en bruto (solo referencias, el texto se descarta al guardarlas) viven en `tools/ingest/raw/evangelizo/` (ignorado por git). No hubo 429/403 ni desafíos anti-bot.
+- **Numeración**: `hebrew` (Salmos con numeración hebrea y títulos contados como versículos; el resto, la de la Biblia del Pueblo de Dios). Se convierte a la de cada Biblia con `apps/web/src/lib/versify.ts`.
+- **Calendario de la fuente**: Epifanía el 6 de enero, Ascensión y Corpus Christi en domingo (el dataset lo registra en `options`); para otras opciones nacionales faltan unos pocos domingos (p. ej. el 7.º de Pascua si la Ascensión es en jueves) y la app recurre al ciclo temático.
+- **Uso y atribución**: se usan únicamente las citas, como datos de calendario litúrgico. La app muestra «Referencias de las lecturas: Evangelizo.org» junto a las lecturas, en Ajustes y en la página Fuentes. Si la fuente pidiera retirarlos, basta borrar `data.json` y la app vuelve al ciclo temático.
+- **Generación y control de calidad**: `tools/ingest/src/lectionary/` (descarga, consolidación y validación); informe de discrepancias, claves con una sola ocurrencia y fallos de validación en `tools/ingest/out/lectionary-report.json`. Detalles en `packages/shared/src/lectionary/README.md`.
+
 ## Datos de versificación
 
 Tablas de conversión de numeración (capítulo/versículo) entre las tradiciones `vulgate`, `english`, `hebrew` y `greek`, generadas a partir de **STEPBible TVTMS** (*Translators' Versification Traditions with Methodology for Standardisation*).

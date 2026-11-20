@@ -105,6 +105,18 @@ describe('notificaciones nativas (plugin simulado)', () => {
     expect(seen).toEqual(['/hoy/?d=2026-11-21', '/hoy/', '/hoy/']);
   });
 
+  it('modo Evangelio: la notificación usa el Evangelio del día (sin la Biblia, cita y celebración)', async () => {
+    const { makeVerseFor } = await import('./sync');
+    const { AppDb } = await import('../db');
+    const { DEFAULT_SETTINGS } = await import('../settings');
+    const db = new AppDb('test-notify-gospel');
+    const v = await makeVerseFor({ ...DEFAULT_SETTINGS, verseMode: 'gospel' }, db)('2026-11-22');
+    expect(v?.title).toBe('Evangelio: Mt 25,31-46');
+    expect(v?.body).toMatch(/Rey del Universo/);
+    // En modo ciclo temático no se usa el Evangelio (sin ciclo instalado no hay versículo)
+    expect(await makeVerseFor({ ...DEFAULT_SETTINGS, verseMode: 'cycle' }, db)('2026-11-22')).toBeNull();
+  });
+
   it('sincroniza: sin permiso no programa; con permiso programa; desactivado cancela', async () => {
     const { syncNotifications } = await import('./sync');
     const { AppDb } = await import('../db');
@@ -114,7 +126,7 @@ describe('notificaciones nativas (plugin simulado)', () => {
     const db = new AppDb('test-notify-sync');
     await installPack(db, testBible, entryFor(testBible).entry, { catalogUrl: null });
     await installPack(db, testDaily, entryFor(testDaily).entry, { catalogUrl: null });
-    const s = { ...DEFAULT_SETTINGS, notifyEnabled: true, notifyVerseTime: '09:00', timeZone: 'UTC' };
+    const s = { ...DEFAULT_SETTINGS, notifyEnabled: true, notifyVerseTime: '09:00', timeZone: 'UTC', verseMode: 'cycle' as const };
     const now = new Date('2025-12-30T00:00:00Z');
 
     plugin.checkPermissions.mockResolvedValue({ display: 'denied' });

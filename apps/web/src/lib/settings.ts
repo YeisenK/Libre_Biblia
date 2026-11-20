@@ -8,6 +8,8 @@ export interface UserSettings {
   parallelVersions: string[];
   /** Biblia con la que se muestra el versículo del día (null = la versión por defecto) */
   dailyBible: string | null;
+  /** Qué se muestra como versículo del día: el Evangelio de la Misa (si hay datos) o el ciclo temático */
+  verseMode: 'gospel' | 'cycle';
   /** Zona horaria IANA opcional; null = la del dispositivo */
   timeZone: string | null;
   /** Opciones nacionales del calendario litúrgico */
@@ -32,10 +34,11 @@ export const DEFAULT_SETTINGS: UserSettings = {
   defaultVersion: null,
   parallelVersions: [],
   dailyBible: null,
+  verseMode: 'gospel',
   timeZone: null,
   epiphanySunday: false,
-  ascensionSunday: false,
-  corpusSunday: false,
+  ascensionSunday: true, // México y España la trasladan al domingo
+  corpusSunday: true, // México y España lo trasladan al domingo
   notifyEnabled: false,
   notifyVerseTime: '08:00',
   notifyReading: false,

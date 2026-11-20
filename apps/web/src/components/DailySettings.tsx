@@ -59,7 +59,20 @@ export function DailySettings() {
   return (
     <section className="card mb-4" aria-labelledby="dv">
       <h2 id="dv" className="mb-1 font-serif text-lg font-semibold">Versículo del día</h2>
-      <p className="mb-3 text-sm text-muted">La cabecera litúrgica (tiempo, celebración y color) se muestra siempre. El versículo sale del ciclo temático instalado, sin aleatoriedad: depende solo de la fecha.</p>
+      <p className="mb-3 text-sm text-muted">La cabecera litúrgica (tiempo, celebración y color) se muestra siempre. El versículo depende solo de la fecha, sin aleatoriedad.</p>
+
+      <fieldset className="mb-4" data-testid="verse-mode">
+        <legend className="mb-1 text-sm font-medium">Qué mostrar como versículo</legend>
+        <label className="flex min-h-[44px] items-start gap-2 text-sm">
+          <input type="radio" name="verse-mode" className="mt-0.5 h-5 w-5" checked={s.verseMode !== 'cycle'} onChange={() => update({ verseMode: 'gospel' })} />
+          <span><span className="font-medium">Evangelio del día</span><br /><span className="text-muted">El Evangelio de la Misa de hoy, con el texto de tu Biblia. Si un día no tiene datos, se usa el ciclo temático.</span></span>
+        </label>
+        <label className="flex min-h-[44px] items-start gap-2 text-sm">
+          <input type="radio" name="verse-mode" className="mt-0.5 h-5 w-5" checked={s.verseMode === 'cycle'} onChange={() => update({ verseMode: 'cycle' })} />
+          <span><span className="font-medium">Ciclo temático</span><br /><span className="text-muted">El versículo devocional del ciclo instalado.</span></span>
+        </label>
+        <p className="mt-1 text-xs text-muted">Referencias de las lecturas: Evangelizo.org.</p>
+      </fieldset>
 
       {!!versions.data?.length && (
         <label className="mb-4 block text-sm font-medium">

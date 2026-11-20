@@ -47,6 +47,18 @@ export default function Page() {
           <ul className="flex flex-col gap-4">{available.map((e) => card(e.id, e.title, e.id, e.source, e.authority, null, e, e.notice))}</ul>
         </>
       )}
+
+      <h2 className="mb-3 mt-8 font-serif text-lg font-semibold">Leccionario de la Misa</h2>
+      <section className="card border-l-4 !border-l-accent" data-testid="lectionary-source">
+        <p className="font-serif text-xl font-semibold">Referencias de las lecturas: Evangelizo.org</p>
+        <p className="mt-1 text-sm text-muted">
+          Las citas de las lecturas de la Misa (primera lectura, salmo, segunda lectura y Evangelio) proceden de la API pública de
+          Evangelizo.org y se incluyen en la app ya consolidadas por día litúrgico. Solo se guardan las <strong>referencias</strong>:
+          ni el texto de las lecturas ni sus comentarios. El texto que ves se carga de la Biblia que tengas instalada.
+        </p>
+        <p className="mt-2 text-sm text-muted">La fuente no declara licencia para estos datos; se usan únicamente las citas, como datos de calendario.</p>
+        <p className="mt-2 text-sm"><a className="underline" href="https://evangelizo.org" target="_blank" rel="noreferrer noopener">evangelizo.org</a></p>
+      </section>
     </div>
   );
 }

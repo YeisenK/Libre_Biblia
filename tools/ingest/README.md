@@ -92,3 +92,16 @@ pnpm --filter @bc/ingest run markdown sources/devocionario-catolico.md \
 ```
 
 Secciones por encabezados (`#` profundidad 0, `##` 1, `###` 2; un encabezado sin padre sube de nivel; `#` consecutivos sin cuerpo se fusionan). El cuerpo se conserva como markdown (`meta.textFormat = "markdown"`). Se omite el bloque «Índice» (la app genera el suyo). `originalSha256` es el del `.md`.
+
+## Leccionario (referencias de la Misa)
+
+Scripts en `src/lectionary/` (se ejecutan con `pnpm --filter @bc/ingest exec tsx src/lectionary/<script>.ts`):
+
+- `download.ts [desde] [hasta]`: descarga de la API pública de Evangelizo (`https://publication.evangelizo.ws/SP/days/AAAA-MM-DD/readings`)
+  las **referencias** de cada fecha (cita y tipo; se descarta el texto y los comentarios) a `raw/evangelizo/AAAA-MM-DD.json`
+  (ignorado por git). Una petición por fecha, como máximo 1 por segundo, User-Agent honesto, caché reanudable; se detiene sin
+  reintentar si responde 429/403 o algo que no es JSON. Por defecto 2017-12-03 → 2026-11-28.
+- `consolidate.ts [--options=eac] [--detect]`: normaliza las citas, las agrupa por clave de día litúrgico
+  (`packages/shared/src/lectionary/keys.ts`), toma el consenso, valida contra SBLM/DRA y genera
+  `packages/shared/src/lectionary/data.json` y `out/lectionary-report.json`. `--detect` compara las 8 combinaciones de
+  opciones nacionales del calendario y muestra cuántas discrepancias deja cada una.

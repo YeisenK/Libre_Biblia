@@ -73,10 +73,14 @@ const noOverflow = async (page: import('@playwright/test').Page, where: string) 
 
 // Sección «Hoy» con el paquete diario SINTÉTICO de prueba.
 test('hoy: cabecera litúrgica, versículo del ciclo, favoritos, historial y Profundizar', async ({ page }) => {
-  // Sin nada instalado: cabecera litúrgica + invitación a descargar el ciclo
+  // Modo «Ciclo temático» (el predeterminado es el Evangelio del día; se prueba aparte)
+  await page.addInitScript(() => localStorage.setItem('bc.settings', JSON.stringify({ verseMode: 'cycle' })));
+  // Sin nada instalado: cabecera litúrgica, lecturas de la Misa (solo citas) + invitación a descargar el ciclo
   await page.goto('/hoy/');
   await expect(page.getByTestId('liturgy-header')).toBeVisible();
-  await expect(page.getByTestId('honest-line')).toHaveText('Las lecturas de la Misa aún no están disponibles; se muestra el ciclo temático.');
+  await expect(page.getByTestId('mass-readings')).toBeVisible();
+  await expect(page.getByTestId('mass-attribution')).toContainText('Evangelizo.org');
+  await expect(page.getByTestId('honest-line')).toHaveCount(0);
   await expect(page.getByTestId('no-pack')).toBeVisible();
 
   await installFixtures(page, ['Biblia de prueba (sintética)', 'Ciclo de PRUEBA (sintético)']);
@@ -110,6 +114,28 @@ test('hoy: cabecera litúrgica, versículo del ciclo, favoritos, historial y Pro
   await page.goto('/');
   await expect(page.getByTestId('today-card')).toContainText('Versículo del día');
   await noOverflow(page, '/');
+});
+
+// Evangelio del día (modo predeterminado): Navidad 2025 → Jn 1,1-18, con el texto de la Biblia de prueba.
+test('hoy: Evangelio del día desde las lecturas de la Misa y selector de modo en Ajustes', async ({ page }) => {
+  await installFixtures(page, ['Biblia de prueba (sintética)', 'Ciclo de PRUEBA (sintético)']);
+  await page.goto('/hoy/?d=2025-12-25');
+  await expect(page.getByTestId('gospel-section')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Evangelio del día' })).toBeVisible();
+  await expect(page.getByTestId('verse-card')).toContainText('Ut enim ad minim veniam');
+  await expect(page.getByTestId('mass-gospel')).toContainText('Jn 1,1-18');
+  await expect(page.getByTestId('mass-first')).toContainText('Is 52,7-10');
+  await expect(page.getByTestId('mass-attribution')).toContainText('Evangelizo.org');
+  await page.getByTestId('toggle-cycle').click();
+  await expect(page.getByText('Devocional — no es Magisterio')).toBeVisible();
+
+  await page.goto('/ajustes/');
+  await page.getByLabel(/Ciclo temático/).check();
+  await page.goto('/hoy/?d=2025-12-25');
+  await expect(page.getByTestId('gospel-section')).toHaveCount(0);
+  await expect(page.getByText('Devocional — no es Magisterio')).toBeVisible();
+  await page.goto('/fuentes/');
+  await expect(page.getByTestId('lectionary-source')).toContainText('Evangelizo.org');
 });
 
 test('ajustes: versículo del día y notificaciones (web) explican antes de pedir permiso', async ({ page }) => {

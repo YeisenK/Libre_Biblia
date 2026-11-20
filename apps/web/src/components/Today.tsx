@@ -3,18 +3,20 @@ import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';
-import { CANON, formatReference, tryParseReference, type DailyEntry } from '@bc/shared';
+import { CANON, formatReference, LECTIONARY_SOURCE, MASS_READING_LABEL, tryParseReference, type DailyEntry, type MassReadings } from '@bc/shared';
 import { entryScheme, needsConversion, schemeOf, toVersion } from '@/lib/versify';
 import { useDefaultVersion, useVersions } from '@/hooks/useBible';
 import { useSettings } from '@/hooks/useSettings';
-import { useLiturgicalDay, useToday } from '@/hooks/useToday';
+import { useLiturgicalDay, useMassReadings, useToday } from '@/hooks/useToday';
 import { formatLongDate, isIsoDate, shiftIso } from '@/lib/daily/date';
+import { effectiveVerseMode, gospelOf, loadMassPassage, pickVersionFor, spanFor, spanOfPassage, type MassPassage } from '@/lib/daily/mass';
 import { getDailyEntry, loadDailyVerse, verseText, type DailyVerse } from '@/lib/daily/select';
 import { isFavorite, listFavorites, listSeen, recordSeen, toggleFavorite } from '@/lib/daily/store';
 import { getDb } from '@/lib/db';
 import { readerHref, refHref } from '@/lib/links';
 import { renderVerseImage } from '@/lib/shareImage';
 import { copyText, shareOrDownloadImage, shareText } from '@/lib/share';
+import type { BibleVersion } from '@/lib/types';
 import { ChevronLeft, ChevronRight, HeartIcon } from './Icons';
 import { LiturgyHeader } from './LiturgyHeader';
 import { Markdown } from './Markdown';
@@ -39,6 +41,12 @@ function TodayInner({ date, today }: { date: string; today: string }) {
   const defaultV = useDefaultVersion();
   const preferred = settings.dailyBible ?? defaultV;
   const liturgy = useLiturgicalDay(date)!;
+  const mass = useMassReadings(date);
+  const mode = effectiveVerseMode(settings.verseMode, mass);
+  const gospel = gospelOf(mass);
+  const [showCycle, setShowCycle] = useState(false);
+  useEffect(() => setShowCycle(false), [date]);
+  const cycleShown = mode === 'cycle' || showCycle;
   const [msg, setMsg] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
@@ -49,6 +57,11 @@ function TodayInner({ date, today }: { date: string; today: string }) {
     queryFn: () => loadDailyVerse(getDb(), found!.entry, versionsQ.data!, preferred),
     enabled: !!found && !!versionsQ.data,
   });
+  const gospelQ = useQuery({
+    queryKey: ['mass-gospel', date, gospel?.ref, preferred, versionsQ.data?.map((v) => `${v.code}${v.versification}`).join(',')],
+    queryFn: () => loadMassPassage(getDb(), gospel!.ref, versionsQ.data!, preferred),
+    enabled: mode === 'gospel' && !!gospel && !!versionsQ.data,
+  });
   const favQ = useQuery({ queryKey: ['daily-fav', date], queryFn: () => isFavorite(getDb(), date) });
   const seenQ = useQuery({ queryKey: ['daily-seen'], queryFn: () => listSeen(getDb()) });
   const favsQ = useQuery({ queryKey: ['daily-favs'], queryFn: () => listFavorites(getDb()) });
@@ -56,9 +69,9 @@ function TodayInner({ date, today }: { date: string; today: string }) {
   const packCount = useQuery({ queryKey: ['daily-packs'], queryFn: () => getDb().dailyMeta.count() });
 
   // Historial permanente: se anota el día al verlo.
-  const seenRef = found?.entry.ref;
-  const seenTitle = found?.entry.title;
-  const seenPack = found?.packId;
+  const seenRef = mode === 'gospel' ? gospel?.ref : found?.entry.ref;
+  const seenTitle = mode === 'gospel' ? liturgy.title : found?.entry.title;
+  const seenPack = mode === 'gospel' ? null : found?.packId;
   useEffect(() => {
     if (!seenRef || !seenTitle) return;
     let alive = true;
@@ -108,8 +121,34 @@ function TodayInner({ date, today }: { date: string; today: string }) {
       </nav>
 
       <LiturgyHeader day={liturgy} />
-      <p className="mt-2 text-sm text-muted" data-testid="honest-line">{HONEST_LINE}</p>
+      {mass ? <MassReadingsSection mass={mass} versions={versionsQ.data ?? []} preferred={preferred} /> : <p className="mt-2 text-sm text-muted" data-testid="honest-line">{HONEST_LINE}</p>}
 
+      {mode === 'gospel' && gospel && (
+        <GospelSection
+          date={date}
+          title={liturgy.title}
+          ref0={gospel.ref}
+          passage={gospelQ.data ?? null}
+          loading={gospelQ.isLoading || versionsQ.isLoading}
+          noBibles={noBibles}
+          preferred={preferred}
+          favorite={!!favQ.data}
+          busy={busy}
+          msg={msg}
+          run={run}
+          onFavorite={() =>
+            run(async () => {
+              const on = await toggleFavorite(getDb(), { date, ref: gospel.ref, title: liturgy.title, packId: null });
+              await Promise.all([qc.invalidateQueries({ queryKey: ['daily-fav', date] }), qc.invalidateQueries({ queryKey: ['daily-favs'] })]);
+              return on ? 'Guardado en favoritos' : 'Quitado de favoritos';
+            })
+          }
+          cycleOpen={showCycle}
+          onToggleCycle={() => setShowCycle((v) => !v)}
+        />
+      )}
+
+      {cycleShown && (
       <section className="mt-6" aria-label="Versículo del día">
         {entryQ.isLoading && <p className="text-muted">Cargando…</p>}
         {noPack && (
@@ -178,6 +217,7 @@ function TodayInner({ date, today }: { date: string; today: string }) {
           </article>
         )}
       </section>
+      )}
 
       {!!favsQ.data?.length && (
         <section className="mt-8" aria-label="Favoritos">
@@ -214,14 +254,15 @@ function TodayInner({ date, today }: { date: string; today: string }) {
   );
 }
 
-async function shareImageOf(v: DailyVerse) {
-  const ref = formatReference(v.ref, { long: true });
+type ShareVerse = DailyVerse & { label?: string };
+async function shareImageOf(v: ShareVerse) {
+  const ref = v.label ?? formatReference(v.ref, { long: true });
   const blob = await renderVerseImage({ text: verseText(v.verses), reference: ref, version: v.version.code });
   const r = await shareOrDownloadImage(blob, `versiculo-${v.ref.book}-${v.ref.chapter}-${v.ref.verseStart ?? 0}.png`, ref);
   return r === 'shared' ? 'Imagen compartida' : 'Imagen descargada';
 }
-async function shareTextOf(v: DailyVerse) {
-  const ref = formatReference(v.ref, { long: true });
+async function shareTextOf(v: ShareVerse) {
+  const ref = v.label ?? formatReference(v.ref, { long: true });
   const r = await shareText(`“${verseText(v.verses)}”\n— ${ref} (${v.version.code})`, ref);
   return r === 'copied' ? 'Copiado (compartir no disponible)' : r === 'failed' ? 'No se pudo compartir' : 'Compartido';
 }
@@ -293,6 +334,117 @@ function Related({ entry, version, versions }: { entry: DailyEntry; version: str
           );
         })}
       </ul>
+    </section>
+  );
+}
+
+function MassReadingsSection({ mass, versions, preferred }: { mass: MassReadings; versions: BibleVersion[]; preferred: string | null }) {
+  return (
+    <section className="mt-6" aria-labelledby="mass-h" data-testid="mass-readings">
+      <h2 id="mass-h" className="mb-2 font-serif text-lg font-semibold">Lecturas de la Misa</h2>
+      <ul className="flex flex-col gap-1">
+        {mass.readings.map((r) => {
+          const version = pickVersionFor(spanFor(r.ref, null).book, versions, preferred);
+          const span = spanFor(r.ref, version);
+          const href = readerHref({ v: version?.code ?? null, b: span.book, c: span.chapter, vs: span.verseStart ?? null, ve: span.chapterEnd ? null : (span.verseEnd ?? null) });
+          return (
+            <li key={`${r.type}-${r.ref}`}>
+              <Link className="btn w-full !justify-start !text-left" href={href} data-testid={`mass-${r.type}`}>
+                <span className="w-40 shrink-0 text-sm text-muted">{MASS_READING_LABEL[r.type]}</span>
+                <span className="font-semibold">{r.ref}</span>
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+      <p className="mt-2 text-xs text-muted" data-testid="mass-attribution">
+        Referencias de las lecturas: {LECTIONARY_SOURCE}. Solo se guardan las citas; el texto se lee de tu Biblia instalada.
+        {mass.versification === 'hebrew' && ' Los salmos siguen la numeración hebrea y se convierten a la de tu Biblia.'}
+      </p>
+    </section>
+  );
+}
+
+function GospelSection(p: {
+  date: string;
+  title: string;
+  ref0: string;
+  passage: MassPassage | null;
+  loading: boolean;
+  noBibles: boolean;
+  preferred: string | null;
+  favorite: boolean;
+  busy: boolean;
+  msg: string | null;
+  run: (fn: () => Promise<string>) => Promise<void>;
+  onFavorite: () => Promise<void>;
+  cycleOpen: boolean;
+  onToggleCycle: () => void;
+}) {
+  const { passage, run, busy } = p;
+  const span = passage ? spanOfPassage(passage) : null;
+  const sv: ShareVerse | null = passage && span ? { version: passage.version, ref: span, verses: passage.verses, fallback: passage.fallback, label: passage.label } : null;
+  const multi = (passage?.verses.length ?? 0) > 1;
+  const bookName = (osis: string) => CANON.find((b) => b.osis === osis)?.names.es ?? osis;
+  return (
+    <section className="mt-6" aria-label="Evangelio del día" data-testid="gospel-section">
+      <h2 className="font-serif text-2xl font-semibold">Evangelio del día</h2>
+      <p className="mb-4 text-sm text-muted">{p.title}</p>
+      {p.noBibles ? (
+        <div className="card" data-testid="verse-card">
+          <p className="font-serif text-xl">{p.ref0}</p>
+          <p className="mt-1 text-sm text-muted">Instala una Biblia en Contenido para leer aquí el texto del Evangelio.</p>
+          <Link href="/descargas/" className="btn mt-3">Ir a Contenido</Link>
+        </div>
+      ) : p.loading ? (
+        <p className="text-muted">Cargando…</p>
+      ) : !passage ? (
+        <div className="card" data-testid="verse-card">
+          <p className="font-serif text-xl">{p.ref0}</p>
+          <p className="mt-1 text-sm text-muted">Ninguna de tus Biblias instaladas contiene este pasaje. Puedes descargar otra en Contenido.</p>
+        </div>
+      ) : (
+        <figure className="card" data-testid="verse-card">
+          <blockquote className="reading">
+            {passage.verses.map((v) => (
+              <span key={`${v.chapter}.${v.verse}`}>
+                {multi && <sup className="verse-num">{v.verse}</sup>}
+                {v.text}{' '}
+              </span>
+            ))}
+          </blockquote>
+          <figcaption className="mt-3 text-sm">
+            <span className="font-semibold">{passage.label}</span> · {passage.version.code}
+            <StatusBadges meta={passage.version} className="ml-2" />
+          </figcaption>
+          {passage.fallback && (
+            <p className="mt-2 text-sm text-muted" data-testid="fallback-note">
+              {p.preferred ? `${p.preferred} no incluye ${bookName(passage.segments[0]!.book)}; se muestra ${passage.version.code}.` : `Se muestra ${passage.version.code}.`}
+            </p>
+          )}
+        </figure>
+      )}
+      <div className="mt-4 flex flex-wrap gap-2">
+        {passage && span && (
+          <Link className="btn btn-primary" href={readerHref({ v: passage.version.code, b: span.book, c: span.chapter, vs: span.verseStart ?? null, ve: span.chapterEnd ? null : (span.verseEnd ?? null) })}>
+            Profundizar
+          </Link>
+        )}
+        {sv && passage && (
+          <>
+            <button type="button" className="btn" disabled={busy} onClick={() => void run(() => shareImageOf(sv))}>Compartir como imagen</button>
+            <button type="button" className="btn" disabled={busy} onClick={() => void run(() => shareTextOf(sv))}>Compartir texto</button>
+            <button type="button" className="btn" disabled={busy} onClick={() => void run(async () => ((await copyText(`“${verseText(passage.verses)}”\n— ${passage.label} (${passage.version.code})`)) ? 'Copiado' : 'No se pudo copiar'))}>Copiar</button>
+          </>
+        )}
+        <button type="button" className="btn" aria-pressed={p.favorite} disabled={busy} onClick={() => void p.onFavorite()}>
+          <HeartIcon /> {p.favorite ? 'En favoritos' : 'Guardar en favoritos'}
+        </button>
+        <button type="button" className="btn" aria-expanded={p.cycleOpen} onClick={p.onToggleCycle} data-testid="toggle-cycle">
+          {p.cycleOpen ? 'Ocultar el ciclo temático' : 'Ver el ciclo temático'}
+        </button>
+      </div>
+      <p role="status" aria-live="polite" className="mt-2 min-h-5 text-sm text-accent">{p.msg}</p>
     </section>
   );
 }
