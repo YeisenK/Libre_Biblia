@@ -34,6 +34,13 @@
   },
   "dependencies": {
     "@bc/shared": "workspace:^",
+    "@capacitor/app": "^8",
+    "@capacitor/browser": "^8",
+    "@capacitor/core": "^8",
+    "@capacitor/filesystem": "^8",
+    "@capacitor/share": "^8",
+    "@capacitor/splash-screen": "^8",
+    "@capacitor/status-bar": "^8",
     "@tanstack/react-query": "^5.108.2",
     "dexie": "^4.4.7",
     "dexie-react-hooks": "^4.4.0",

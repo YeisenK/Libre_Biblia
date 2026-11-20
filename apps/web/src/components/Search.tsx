@@ -8,6 +8,7 @@ import { searchBible, searchDocuments, type SearchMode } from '@/lib/search/engi
 import { documentHref, readerHref, refHref } from '@/lib/links';
 import { useDefaultVersion, useVersions } from '@/hooks/useBible';
 import { NoBibles } from './NoBibles';
+import { Modal } from './Modal';
 
 const MODES: { id: SearchMode; label: string }[] = [
   { id: 'words', label: 'Palabras' },
@@ -30,6 +31,7 @@ export function Search() {
   const docId = sp.get('d') ?? '';
   const page = Number(sp.get('p') ?? 1) || 1;
   const [text, setText] = useState(q);
+  const [filtersOpen, setFiltersOpen] = useState(false);
   useEffect(() => setText(q), [q]);
 
   const push = (patch: Record<string, string | null>) => {
@@ -62,6 +64,8 @@ export function Search() {
   const bookName = (osis: string) => CANON.find((b) => b.osis === osis)?.names.es ?? osis;
   const toggleVersion = (code: string) => push({ v: (versions.includes(code) ? versions.filter((c) => c !== code) : [...versions, code]).join(',') || null });
 
+  const activeFilters = (scope === 'bible' ? (testament ? 1 : 0) + (book ? 1 : 0) + (picked.length ? 1 : 0) : 0) + (mode !== 'words' ? 1 : 0);
+
   if (versionsQ.isSuccess && versionsQ.data.length === 0 && scope === 'bible') return <NoBibles />;
 
   const bd = bibleQ.data;
@@ -81,7 +85,19 @@ export function Search() {
         </button>
       </form>
 
-      <div className="mb-4 grid gap-3 sm:grid-cols-2">
+      <div className="mb-4 flex items-center justify-between gap-2 md:hidden">
+        <div role="group" aria-label="Ámbito" className="inline-flex w-fit shrink-0 overflow-hidden rounded-lg border border-line">
+          {([['bible', 'Biblia'], ['docs', 'Biblioteca']] as const).map(([id, label]) => (
+            <button key={id} type="button" aria-pressed={scope === id} onClick={() => push({ s: id === 'docs' ? 'docs' : null })} className={`min-h-[44px] px-3 text-sm ${scope === id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
+              {label}
+            </button>
+          ))}
+        </div>
+        <button type="button" className="btn" aria-haspopup="dialog" onClick={() => setFiltersOpen(true)}>
+          Filtros{activeFilters ? ` (${activeFilters})` : ''}
+        </button>
+      </div>
+      <div className="mb-4 hidden gap-3 sm:grid-cols-2 md:grid">
         <div role="group" aria-label="Ámbito" className="inline-flex w-fit overflow-hidden rounded-lg border border-line">
           {([['bible', 'Biblia'], ['docs', 'Biblioteca']] as const).map(([id, label]) => (
             <button key={id} type="button" aria-pressed={scope === id} onClick={() => push({ s: id === 'docs' ? 'docs' : null })} className={`min-h-[44px] px-3 text-sm ${scope === id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
@@ -99,12 +115,12 @@ export function Search() {
         {scope === 'bible' && (
           <>
             <div className="flex flex-wrap items-center gap-2">
-              <select className="input !w-auto" aria-label="Testamento" value={testament} onChange={(e) => push({ t: e.target.value || null, b: null })}>
+              <select className="input !w-auto max-w-full" aria-label="Testamento" value={testament} onChange={(e) => push({ t: e.target.value || null, b: null })}>
                 <option value="">Ambos testamentos</option>
                 <option value="OT">Antiguo Testamento</option>
                 <option value="NT">Nuevo Testamento</option>
               </select>
-              <select className="input !w-auto" aria-label="Libro" value={book} onChange={(e) => push({ b: e.target.value || null })}>
+              <select className="input !w-auto max-w-full" aria-label="Libro" value={book} onChange={(e) => push({ b: e.target.value || null })}>
                 <option value="">Todos los libros</option>
                 {CANON.filter((b) => !testament || b.testament === testament).map((b) => (
                   <option key={b.osis} value={b.osis}>
@@ -123,6 +139,46 @@ export function Search() {
           </>
         )}
       </div>
+      <Modal open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtros de búsqueda">
+        <div className="flex flex-col gap-3">
+        <div role="group" aria-label="Modo de búsqueda" className="grid grid-cols-3 w-full overflow-hidden rounded-lg border border-line">
+          {MODES.map((m) => (
+            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[44px] px-3 text-sm ${mode === m.id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
+              {m.label}
+            </button>
+          ))}
+        </div>
+        {scope === 'bible' && (
+          <>
+            <div className="flex flex-wrap items-center gap-2">
+              <select className="input !w-auto max-w-full" aria-label="Testamento" value={testament} onChange={(e) => push({ t: e.target.value || null, b: null })}>
+                <option value="">Ambos testamentos</option>
+                <option value="OT">Antiguo Testamento</option>
+                <option value="NT">Nuevo Testamento</option>
+              </select>
+              <select className="input !w-auto max-w-full" aria-label="Libro" value={book} onChange={(e) => push({ b: e.target.value || null })}>
+                <option value="">Todos los libros</option>
+                {CANON.filter((b) => !testament || b.testament === testament).map((b) => (
+                  <option key={b.osis} value={b.osis}>
+                    {b.names.es}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="flex flex-wrap gap-2 " role="group" aria-label="Versiones">
+              {versionsQ.data?.map((v) => (
+                <button key={v.code} type="button" aria-pressed={versions.includes(v.code)} onClick={() => toggleVersion(v.code)} className={`btn ${versions.includes(v.code) ? '!border-accent !bg-sunken' : ''}`}>
+                  {v.code}
+                </button>
+              ))}
+            </div>
+          </>
+        )}
+          <button type="button" className="btn btn-primary" onClick={() => setFiltersOpen(false)}>
+            Ver resultados
+          </button>
+        </div>
+      </Modal>
 
       {loading && <p className="text-muted">Buscando…</p>}
       {err && (

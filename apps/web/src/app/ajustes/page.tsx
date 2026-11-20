@@ -44,8 +44,12 @@ export default function Page() {
 
   async function doExport() {
     const b = await exportBackup(getDb());
-    downloadText(`biblia-copia-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(b, null, 2));
-    setMsg({ ok: true, text: 'Copia de seguridad descargada.' });
+    try {
+      const how = await downloadText(`biblia-copia-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(b, null, 2));
+      setMsg({ ok: true, text: how === 'shared' ? 'Copia de seguridad lista: elige dónde guardarla.' : 'Copia de seguridad descargada.' });
+    } catch (e) {
+      setMsg({ ok: false, text: e instanceof Error ? e.message : 'No se pudo exportar' });
+    }
   }
   async function doImport(file: File) {
     try {

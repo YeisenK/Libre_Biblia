@@ -50,6 +50,6 @@ export async function renderVerseImage({ text, reference, version }: ShareImageI
   ctx.fillText(`${reference}`, pad, top + lines.length * lh + 36);
   ctx.fillStyle = '#625b50';
   ctx.font = font(26);
-  ctx.fillText(`${version} · Biblia Católica`, pad, H - pad + 10);
+  ctx.fillText(`${version} · Libre Biblia`, pad, H - pad + 10);
   return new Promise((res, rej) => canvas.toBlob((b) => (b ? res(b) : rej(new Error('No se pudo generar la imagen'))), 'image/png'));
 }

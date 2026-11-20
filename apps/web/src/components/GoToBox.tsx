@@ -35,7 +35,7 @@ export function GoToBox({ version, label = 'Ir a referencia', onDone }: { versio
           className="input"
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          placeholder="Rom 8,28 · Jn 3,16-18 · 1 Cor 13"
+          placeholder="Rom 8,28 · Jn 3,16"
           autoCapitalize="off"
           autoCorrect="off"
           enterKeyHint="go"

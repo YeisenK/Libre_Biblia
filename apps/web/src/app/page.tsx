@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-2xl">
-      <h1 className="h-page mb-1">Biblia Católica</h1>
+      <h1 className="h-page mb-1">Libre Biblia</h1>
       <p className="mb-6 text-muted">Estudio bíblico: lee, compara versiones y busca en el texto. Todo funciona en tu dispositivo, sin cuenta.</p>
 
       {empty ? (

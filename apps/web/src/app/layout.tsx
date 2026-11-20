@@ -8,11 +8,11 @@ const sans = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap
 const serif = Source_Serif_4({ subsets: ['latin'], variable: '--font-serif', display: 'swap' });
 
 export const metadata: Metadata = {
-  title: { default: 'Biblia Católica', template: '%s · Biblia Católica' },
+  title: { default: 'Libre Biblia', template: '%s · Libre Biblia' },
   description: 'Estudio bíblico católico: lectura, comparación de versiones y búsqueda.',
   manifest: '/manifest.webmanifest',
   icons: { icon: '/icons/icon.svg', apple: '/icons/apple-touch-icon.png' },
-  appleWebApp: { capable: true, title: 'Biblia', statusBarStyle: 'default' },
+  appleWebApp: { capable: true, title: 'Libre Biblia', statusBarStyle: 'default' },
 };
 export const viewport: Viewport = { themeColor: '#1f3a5f', width: 'device-width', initialScale: 1, viewportFit: 'cover' };
 

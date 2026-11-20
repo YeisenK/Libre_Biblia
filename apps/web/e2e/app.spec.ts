@@ -33,3 +33,27 @@ test('instalar, leer, buscar, marcar y exportar copia de seguridad', async ({ pa
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
   expect(overflow).toBe(false);
 });
+
+// Móvil (Pixel 7): ninguna ruta puede tener scroll horizontal.
+test('sin scroll horizontal en ninguna ruta (móvil)', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'pixel-7', 'solo móvil');
+  await page.goto('/descargas/');
+  const card = page.getByRole('listitem').filter({ hasText: 'Biblia de prueba (sintética)' });
+  await card.getByRole('button', { name: 'Descargar' }).click();
+  await expect(card.getByText(/instalado/)).toBeVisible({ timeout: 20_000 });
+
+  const routes = ['/', '/leer/?v=TEST&b=Gen&c=1', '/buscar/?q=lorem', '/buscar/?s=docs&q=lorem', '/comparar/', '/comparar/?b=Gen&c=1&v=TEST', '/descargas/', '/biblioteca/', '/documento/', '/marcadores/', '/ajustes/', '/fuentes/'];
+  for (const r of routes) {
+    await page.goto(r);
+    await page.waitForLoadState('networkidle');
+    const m = await page.evaluate(() => ({ sw: document.documentElement.scrollWidth, iw: window.innerWidth }));
+    expect(m.sw, `scroll horizontal en ${r}`).toBeLessThanOrEqual(m.iw);
+  }
+
+  // Lector: la barra compacta cabe en una fila y los controles de lectura están en la hoja «⋯».
+  await page.goto('/leer/?v=TEST&b=Gen&c=1');
+  await page.getByRole('button', { name: 'Más opciones de lectura' }).click();
+  await expect(page.getByRole('group', { name: 'Modo de lectura' })).toBeVisible();
+  const w = await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth);
+  expect(w).toBe(true);
+});

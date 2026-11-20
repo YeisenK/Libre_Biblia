@@ -1,11 +1,12 @@
 'use client';
 import { useQueries, useQuery, useQueryClient } from '@tanstack/react-query';
-import { useMemo, useRef, useState, type FormEvent } from 'react';
+import { useEffect, useMemo, useRef, useState, type FormEvent } from 'react';
 import type { Catalog, CatalogEntry } from '@bc/shared';
 import { LicenseBadge, PackSourceInfo } from '@/components/PackSource';
 import { StorageUsage } from '@/components/StorageUsage';
 import { useInstalledPacks } from '@/hooks/useBible';
 import { formatBytes } from '@/lib/chapters';
+import { BUSY_BACK_EVENT, setBusy } from '@/lib/native/busy';
 import { getDb } from '@/lib/db';
 import { installFromCatalog, installFromFile, uninstall, type Phase } from '@/lib/packs/service';
 import { addRepository, fetchCatalog, listRepositories, removeRepository } from '@/lib/repositories';
@@ -31,6 +32,33 @@ export default function Page() {
   const [fileMsg, setFileMsg] = useState<string | null>(null);
   const [usageKey, setUsageKey] = useState(0);
   const fileRef = useRef<HTMLInputElement>(null);
+
+  const installing = Object.keys(progress).length > 0;
+  const [toast, setToast] = useState(false);
+
+  // Mientras se instala: avisar al cerrar la pestaña y bloquear «atrás» en nativo con un aviso.
+  useEffect(() => {
+    if (!installing) return;
+    setBusy('install', true);
+    const onUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault();
+      e.returnValue = '';
+    };
+    let timer: ReturnType<typeof setTimeout>;
+    const onBack = () => {
+      setToast(true);
+      clearTimeout(timer);
+      timer = setTimeout(() => setToast(false), 4000);
+    };
+    window.addEventListener('beforeunload', onUnload);
+    window.addEventListener(BUSY_BACK_EVENT, onBack);
+    return () => {
+      setBusy('install', false);
+      window.removeEventListener('beforeunload', onUnload);
+      window.removeEventListener(BUSY_BACK_EVENT, onBack);
+      clearTimeout(timer);
+    };
+  }, [installing]);
 
   const refresh = async () => {
     await Promise.all(['versions', 'packs', 'books', 'sources-catalog'].map((k) => qc.invalidateQueries({ queryKey: [k] })));
@@ -80,6 +108,11 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-3xl">
+      {toast && (
+        <div role="status" className="fixed inset-x-4 bottom-[calc(5rem+env(safe-area-inset-bottom))] z-50 mx-auto max-w-md rounded-xl border border-line bg-surface p-3 text-sm shadow-xl md:bottom-6">
+          La instalación sigue en curso. Espera a que termine antes de salir.
+        </div>
+      )}
       <h1 className="h-page mb-1">Contenido</h1>
       <p className="mb-2 text-muted">Descarga Biblias y documentos desde los repositorios. Se guardan en este dispositivo y funcionan sin conexión.</p>
       <div className="mb-6">
@@ -144,6 +177,7 @@ export default function Page() {
                         <div className="h-full bg-accent transition-all" style={{ width: `${Math.round(prog.f * 100)}%` }} />
                       </div>
                       <p className="mt-1 text-xs text-muted">{prog.phase} · {Math.round(prog.f * 100)}%</p>
+                      <p className="mt-1 text-xs font-medium">No cierres esta pantalla hasta que termine.</p>
                     </div>
                   )}
                   {errors[entry.id] && (

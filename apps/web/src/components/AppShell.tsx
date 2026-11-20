@@ -39,7 +39,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       <aside className="sticky top-0 hidden h-dvh w-60 shrink-0 flex-col border-r border-line bg-surface p-4 md:flex">
         <Link href="/" className="mb-6 flex items-center gap-2 font-serif text-xl font-semibold">
           <img src="/icons/icon.svg" alt="" width={32} height={32} className="rounded-lg" />
-          Biblia Católica
+          Libre Biblia
         </Link>
         <nav aria-label="Principal" className="flex flex-1 flex-col gap-1">
           {[...MAIN.slice(0, 3), EXTRA[0]!, EXTRA[1]!, EXTRA[2]!, MAIN[3]!, MAIN[4]!].map((i) =>
@@ -52,7 +52,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       </aside>
 
       <div className="min-w-0 flex-1">
-        <main className="mx-auto w-full max-w-5xl px-4 pb-28 pt-[max(1rem,env(safe-area-inset-top))] md:px-8 md:pb-12 md:pt-8">{children}</main>
+        <main className="mx-auto w-full max-w-5xl px-4 pb-[calc(6.5rem+env(safe-area-inset-bottom))] pt-[max(1rem,env(safe-area-inset-top))] md:px-8 md:pb-12 md:pt-8">{children}</main>
       </div>
 
       <nav aria-label="Principal" className="pb-safe fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-line bg-surface/95 backdrop-blur md:hidden">

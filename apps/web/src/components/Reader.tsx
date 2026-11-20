@@ -19,6 +19,8 @@ import { VerseActions } from './VerseActions';
 import { VerseText } from './VerseText';
 import { VersionSelect } from './VersionSelect';
 import { NoBibles } from './NoBibles';
+import { Modal } from './Modal';
+import { useHideOnScroll } from '@/hooks/useHideOnScroll';
 
 type Mode = 'chapter' | 'verse' | 'continuous';
 const MODES: { id: Mode; label: string }[] = [
@@ -53,6 +55,9 @@ function ReaderInner() {
   const [pickerOpen, setPickerOpen] = useState(false);
   const [picked, setPicked] = useState<{ n: number; text: string } | null>(null);
   const [gotoOpen, setGotoOpen] = useState(false);
+  const [versionOpen, setVersionOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const barHidden = useHideOnScroll();
 
   // Sin libro en la URL: reanudar o abrir el primer libro disponible.
   useEffect(() => {
@@ -136,7 +141,30 @@ function ReaderInner() {
 
   return (
     <div onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
-      <header className="sticky top-0 z-30 -mx-4 border-b border-line bg-bg/95 px-4 pb-2 pt-1 backdrop-blur md:-mx-8 md:px-8">
+      <header
+        data-testid="reader-bar-mobile"
+        className={`sticky top-0 z-30 -mx-4 border-b border-line bg-bg/95 px-2 pb-1 pt-[max(0.25rem,env(safe-area-inset-top))] backdrop-blur transition-transform duration-200 md:hidden ${barHidden ? '-translate-y-full' : ''}`}
+      >
+        <div className="flex items-center gap-1">
+          <button type="button" className="btn !min-w-[44px] !px-2" aria-label="Capítulo anterior" disabled={!prev} onClick={goPrev}>
+            <ChevronLeft />
+          </button>
+          <button type="button" className="btn min-w-0 flex-1 !justify-between !px-3" onClick={() => setPickerOpen(true)} disabled={!version || !booksQ.data} aria-haspopup="dialog">
+            <span className="truncate font-serif text-base font-semibold">{book ? `${bookName} ${chapter}` : 'Elegir libro'}</span>
+            <ChevronDown />
+          </button>
+          <button type="button" className="btn !min-w-[44px] !px-2" aria-label="Capítulo siguiente" disabled={!next} onClick={goNext}>
+            <ChevronRight />
+          </button>
+          <button type="button" className="btn !px-2 text-xs font-semibold" aria-haspopup="dialog" aria-label={`Versión: ${version ?? ''}. Cambiar`} onClick={() => setVersionOpen(true)} disabled={!version}>
+            {version}
+          </button>
+          <button type="button" className="btn !min-w-[44px] !px-2 text-lg" aria-haspopup="dialog" aria-label="Más opciones de lectura" onClick={() => setMenuOpen(true)}>
+            <span aria-hidden="true">⋯</span>
+          </button>
+        </div>
+      </header>
+      <header className="sticky top-0 z-30 -mx-4 hidden border-b border-line bg-bg/95 px-4 pb-2 pt-1 backdrop-blur md:-mx-8 md:block md:px-8">
         <div className="flex flex-wrap items-center gap-2">
           <button type="button" className="btn !px-2" aria-label="Capítulo anterior" disabled={!prev} onClick={goPrev}>
             <ChevronLeft />
@@ -177,7 +205,7 @@ function ReaderInner() {
             )}
           </div>
         </div>
-        <div className={`${gotoOpen ? 'mt-2' : 'md:hidden mt-2'}`}>
+        <div className={gotoOpen ? 'mt-2' : 'hidden'}>
           <GoToBox version={version} label="Ir a" />
         </div>
       </header>
@@ -219,6 +247,50 @@ function ReaderInner() {
         )}
       </article>
 
+      <Modal open={versionOpen} onClose={() => setVersionOpen(false)} title="Versión">
+        <ul className="flex flex-col gap-1">
+          {versionsQ.data?.map((v) => {
+            const missing = !!book && !v.books.includes(book);
+            return (
+              <li key={v.code}>
+                <button
+                  type="button"
+                  disabled={missing}
+                  aria-pressed={v.code === version}
+                  className={`btn w-full !justify-start !text-left ${v.code === version ? '!border-accent !bg-sunken' : ''}`}
+                  onClick={() => {
+                    setVersionOpen(false);
+                    router.push(readerHref({ v: v.code, b: book ?? '', c: chapter, vs: vsParam }));
+                  }}
+                >
+                  <span className="font-semibold">{v.code}</span>
+                  <span className="min-w-0 truncate text-muted">{v.name}{v.completeness === 'partial' ? ' (parcial)' : ''}{missing ? ' — sin este libro' : ''}</span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </Modal>
+      <Modal open={menuOpen} onClose={() => setMenuOpen(false)} title="Opciones de lectura">
+        <div className="flex flex-col gap-4">
+          <div>
+            <p className="mb-1 text-sm font-medium text-muted">Modo de lectura</p>
+            <div role="group" aria-label="Modo de lectura" className="grid grid-cols-3 overflow-hidden rounded-lg border border-line">
+              {MODES.map((m) => (
+                <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => update({ readingMode: m.id })} className={`min-h-[44px] px-1 text-sm ${mode === m.id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
+                  {m.label}
+                </button>
+              ))}
+            </div>
+          </div>
+          {book && !bookMissing && (
+            <Link className="btn" onClick={() => setMenuOpen(false)} href={compareHref({ b: book, c: chapter, v: settings.parallelVersions.length >= 2 ? settings.parallelVersions : undefined })}>
+              Comparar versiones
+            </Link>
+          )}
+          <GoToBox version={version} label="Ir a" onDone={() => setMenuOpen(false)} />
+        </div>
+      </Modal>
       {version && booksQ.data && (
         <BookPicker
           open={pickerOpen}

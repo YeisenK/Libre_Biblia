@@ -4,6 +4,7 @@ import { lsGet, lsSet } from '@/lib/storage';
 import { DEFAULT_SETTINGS, SETTINGS_KEY, mergeSettings, resolveTheme, type UserSettings } from '@/lib/settings';
 import { getDb } from '@/lib/db';
 import { getSettings, putSettings } from '@/lib/personal';
+import { applyNativeTheme } from '@/lib/native/theme';
 
 interface Ctx {
   settings: UserSettings;
@@ -41,7 +42,11 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const root = document.documentElement;
     const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    const apply = () => root.setAttribute('data-theme', resolveTheme(settings.theme, mq.matches));
+    const apply = () => {
+      const t = resolveTheme(settings.theme, mq.matches);
+      root.setAttribute('data-theme', t);
+      void applyNativeTheme(t);
+    };
     apply();
     root.style.setProperty('--font-scale', String(settings.fontScale));
     root.style.setProperty('--line-height', String(settings.lineHeight));

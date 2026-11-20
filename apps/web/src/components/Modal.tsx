@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, type ReactNode } from 'react';
 import { CloseIcon } from './Icons';
+import { registerModal } from '@/lib/native/modalStack';
 
 interface Props {
   open: boolean;
@@ -30,9 +31,11 @@ export function Modal({ open, onClose, title, children, variant = 'sheet', wide 
       if (e.shiftKey && document.activeElement === first) (e.preventDefault(), last.focus());
       else if (!e.shiftKey && document.activeElement === last) (e.preventDefault(), first.focus());
     };
+    const unregister = registerModal(onClose);
     document.addEventListener('keydown', onKey);
     document.body.style.overflow = 'hidden';
     return () => {
+      unregister();
       document.removeEventListener('keydown', onKey);
       document.body.style.overflow = '';
       prev?.focus?.();
