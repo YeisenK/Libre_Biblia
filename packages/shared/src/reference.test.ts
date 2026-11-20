@@ -53,6 +53,11 @@ describe('parseReference', () => {
     expect(parseReference('1 Corintios 13,4')).toEqual({ book: '1Cor', chapter: 13, verseStart: 4 });
     expect(parseReference('Cantar de los Cantares 2')).toEqual({ book: 'Song', chapter: 2 });
   });
+  it('libros de un capítulo', () => {
+    expect(parseReference('Jds 9')).toEqual({ book: 'Jude', chapter: 1, verseStart: 9 });
+    expect(parseReference('Flm 8-12')).toEqual({ book: 'Phlm', chapter: 1, verseStart: 8, verseEnd: 12 });
+    expect(parseReference('Jds 1,20-21')).toEqual({ book: 'Jude', chapter: 1, verseStart: 20, verseEnd: 21 });
+  });
   it('Isaías', () => {
     expect(parseReference('Is 52,7-10')).toEqual({ book: 'Isa', chapter: 52, verseStart: 7, verseEnd: 10 });
   });

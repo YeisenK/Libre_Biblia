@@ -26,9 +26,16 @@ export function parseReference(input: string): BibleRef {
   const book = resolveBook(bookTok!);
   if (!book) throw new ReferenceParseError(`Libro no reconocido: "${bookTok!.trim()}"`);
   const chapter = Number(chap);
-  if (chapter < 1 || chapter > book.vulgateChapters + 1) {
+  if (chapter < 1 || (book.vulgateChapters > 1 && chapter > book.vulgateChapters + 1)) {
     // +1 de margen: algunas versificaciones añaden un capítulo (p. ej. Mal 4 vs 3)
     throw new ReferenceParseError(`${book.names.es} no tiene capítulo ${chapter}`);
+  }
+  // Libros de un solo capítulo (Abd, Flm, 2-3 Jn, Jds): «Jds 9» = versículo 9; «Jds 1,9» también vale.
+  if (book.vulgateChapters === 1 && !vStart) {
+    const ref1: BibleRef = { book: book.osis, chapter: 1, verseStart: chapter };
+    if (chapRangeEnd) ref1.verseEnd = Number(chapRangeEnd);
+    validateOrder(ref1);
+    return ref1;
   }
   const ref: BibleRef = { book: book.osis, chapter };
   if (chapRangeEnd) {
