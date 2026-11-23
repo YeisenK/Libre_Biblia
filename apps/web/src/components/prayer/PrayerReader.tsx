@@ -74,11 +74,18 @@ export function PrayerReader() {
   return (
     <article className="mx-auto max-w-2xl pb-8">
       <ArtHeader
-        artKey={`category:${p.categories[0] ?? 'default'}`}
+        artKey={[`prayer:${p.id}`, `category:${p.categories[0] ?? 'default'}`, 'home:default']}
         back="/orar/"
         eyebrow={category?.title}
         title={p.title}
         subtitle={p.altTitles?.length ? p.altTitles.join(' · ') : undefined}
+        meta={
+          <span className="flex flex-wrap items-center gap-2 text-[13px] text-white/70">
+            <NatureBadge label={NATURE_LABEL[p.nature]} title={NATURE_HELP[p.nature]} />
+            {p.minutes ? <span>{p.minutes} min</span> : null}
+            {p.attribution && <span>· {p.attribution}</span>}
+          </span>
+        }
         actions={
           <>
             <IconButton label={fav ? 'Quitar de favoritas' : 'Añadir a favoritas'} active={fav} onClick={() => void toggleFavorite(key, p.title)}>
@@ -90,13 +97,6 @@ export function PrayerReader() {
           </>
         }
       />
-
-      <div className="mb-5 flex flex-wrap items-center gap-2">
-        <NatureBadge label={NATURE_LABEL[p.nature]} title={NATURE_HELP[p.nature]} />
-        {p.minutes ? <span className="text-[13px] text-muted">{p.minutes} min</span> : null}
-        {p.attribution && <span className="text-[13px] text-muted">· {p.attribution}</span>}
-      </div>
-      <p className="mb-5 text-[13px] leading-snug text-muted">{NATURE_HELP[p.nature]}</p>
 
       {p.rubric && (
         <aside className="mb-5 rounded-2xl bg-sunken px-4 py-3 text-[14px] leading-relaxed" aria-label="Indicación">
@@ -122,7 +122,7 @@ export function PrayerReader() {
         </div>
       ) : null}
 
-      <div className="card-soft mb-6 !p-6 sm:!p-8">
+      <div className="mb-8 max-w-reading">
         <PrayerText text={text} />
       </div>
 
@@ -159,31 +159,30 @@ export function PrayerReader() {
         </Section>
       ) : null}
 
-      {(p.context || p.sources?.length) && (
-        <Section title="Contexto">
-          {p.context && (
-            <div className="text-[15px] leading-relaxed text-fg/90 [&_.reading]:!text-[15px]"><Markdown text={p.context} /></div>
-          )}
-          {p.sources?.length ? (
-            <div className="mt-2">
-              <p className="eyebrow mb-1">Fuentes</p>
-              <ul className="space-y-1 text-[14px]">
-                {p.sources.map((s, i) => (
-                  <li key={i}>
-                    {s.url ? <a href={s.url} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-[36px] items-center text-accent underline underline-offset-2">{s.label}</a> : <span className="text-muted">{s.label}</span>}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ) : null}
-        </Section>
-      )}
+      <Section title="Contexto">
+        <p className="mb-2 text-[14px] leading-snug text-muted">{NATURE_HELP[p.nature]}</p>
+        {p.context && (
+          <div className="text-[15px] leading-relaxed text-fg/90 [&_.reading]:!text-[15px]"><Markdown text={p.context} /></div>
+        )}
+        {p.sources?.length ? (
+          <div className="mt-2">
+            <p className="eyebrow mb-1">Fuentes</p>
+            <ul className="space-y-1 text-[14px]">
+              {p.sources.map((s, i) => (
+                <li key={i}>
+                  {s.url ? <a href={s.url} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-[36px] items-center text-accent underline underline-offset-2">{s.label}</a> : <span className="text-muted">{s.label}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+      </Section>
 
       {related.length > 0 && (
         <Section title={category ? `Más de «${category.title}»` : 'Oraciones relacionadas'}>
           <ListGroup>
             {related.map((r) => (
-              <ListRow key={r.id} icon={category?.icon ?? 'hands'} title={r.title} detail={detailOf(r.nature, r.minutes)} href={`/oracion/?id=${encodeURIComponent(r.id)}`} />
+              <ListRow key={r.id} title={r.title} detail={detailOf(r.nature, r.minutes)} href={`/oracion/?id=${encodeURIComponent(r.id)}`} />
             ))}
           </ListGroup>
         </Section>

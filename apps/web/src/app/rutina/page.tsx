@@ -7,9 +7,9 @@ export const metadata: Metadata = { title: 'Rutina' };
 export default function Page() {
   return (
     <PrayerScreen>
-    <Suspense fallback={<p className="text-muted">Cargando…</p>}>
-      <RoutineEditor />
-    </Suspense>
+      <Suspense fallback={<p className="text-muted">Cargando…</p>}>
+        <RoutineEditor />
+      </Suspense>
     </PrayerScreen>
   );
 }

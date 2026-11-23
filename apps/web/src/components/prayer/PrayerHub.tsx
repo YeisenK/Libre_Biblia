@@ -1,5 +1,5 @@
 'use client';
-/** Centro de oración (/orar/), al estilo Hallow: superficie oscura, Rosario de hoy, y carruseles de arte (agenda, Rosario, novenas, oraciones, favoritas). */
+/** Centro de oración (/orar/), al estilo Hallow: superficie oscura, Rosario de hoy, tu rutina del momento (TodayAgenda) y carruseles de arte (agenda, Rosario, novenas, oraciones, favoritas). */
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { MYSTERY_SET_LABEL, type MysterySet } from '@bc/shared';
@@ -7,18 +7,15 @@ import { usePrayerCatalog } from '@/hooks/usePrayers';
 import { useSettings } from '@/hooks/useSettings';
 import { useToday as useTodayIso } from '@/hooks/useToday';
 import { itemHref } from '@/lib/prayers/catalog';
-import { pickRoutine } from '@/lib/prayers/routines';
-import { playerHref, resumeIndex } from '@/lib/routine/flow';
 import { useRecentPrayers } from '@/lib/prayers/history';
 import { currentDay, doneCount, feastHint, startingSoon } from '@/lib/prayers/novenas';
 import { todaySet } from '@/lib/rosary/flow';
 import { SearchIcon, CloseIcon } from '../Icons';
 import { RosaryCard } from '../rosary/RosaryCard';
-import { PlayIcon } from '../icons/Sacred';
 import { ArtCard, EmptyState, IconButton, ListGroup, ListRow, MOMENT_GREETING, PrayerScreen, Rail, Section, momentOf } from '../ui';
 import { FavoritePrayers } from './FavoritePrayers';
 import { PrayerSearch } from './PrayerSearch';
-import { useDone, useNovenasInProgress, useRoutines, useToday } from './RoutineData';
+import { useNovenasInProgress } from './RoutineData';
 import { TodayAgenda } from './TodayAgenda';
 
 const SETS: MysterySet[] = ['joyful', 'luminous', 'sorrowful', 'glorious'];
@@ -29,19 +26,11 @@ export function PrayerHub() {
   const iso = useTodayIso();
   const running = useNovenasInProgress();
   const recent = useRecentPrayers(6);
-  const routines = useRoutines();
-  const todayKey = useToday();
-  const doneMap = useDone(todayKey);
   const [moment, setMoment] = useState<ReturnType<typeof momentOf> | null>(null);
   const [searching, setSearching] = useState(false);
   const [open, setOpen] = useState(false);
   useEffect(() => setMoment(momentOf()), []);
 
-  const momentRoutine = routines && doneMap && moment ? pickRoutine(routines, moment, doneMap) : null;
-  const momentDone = momentRoutine ? (doneMap?.get(momentRoutine.id) ?? new Set<string>()) : null;
-  const hasPending = !!momentRoutine && !!momentDone && momentRoutine.items.some((k) => !momentDone.has(k));
-  const slot = { morning: 'mañana', midday: 'mediodía', afternoon: 'tarde', night: 'noche' } as const;
-  const routineLabel = momentRoutine ? (momentRoutine.moment === 'any' ? `Rezar «${momentRoutine.title}»` : `Rezar mi rutina de la ${slot[momentRoutine.moment]}`) : '';
 
   const counts = new Map<string, number>();
   for (const p of cat?.prayers ?? []) for (const c of p.categories) counts.set(c, (counts.get(c) ?? 0) + 1);
@@ -92,11 +81,6 @@ export function PrayerHub() {
 
         {!searching && (
           <>
-            {hasPending && momentRoutine && momentDone && (
-              <Link href={playerHref(momentRoutine.id, resumeIndex(momentRoutine.items, momentDone, null))} className="tap mb-5 flex min-h-[56px] items-center justify-center gap-2 rounded-full bg-gold px-6 text-[16px] font-semibold text-black">
-                <PlayIcon size={18} /> {routineLabel}
-              </Link>
-            )}
             <RosaryCard />
             <TodayAgenda />
 

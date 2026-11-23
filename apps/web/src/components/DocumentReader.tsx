@@ -9,6 +9,7 @@ import { MARGIN_CLASS } from '@/lib/settings';
 import { useSettings } from '@/hooks/useSettings';
 import { getDb } from '@/lib/db';
 import { documentHref } from '@/lib/links';
+import { artForAny, bookArtKeys } from '@/lib/art';
 
 export function DocumentReader() {
   const sp = useSearchParams();
@@ -28,6 +29,7 @@ export function DocumentReader() {
   const idx = path ? list.findIndex((s) => s.path === path) : -1;
   const cur = idx >= 0 ? list[idx] : null;
   const margin = MARGIN_CLASS[settings.margin];
+  const cover = artForAny(bookArtKeys(id, 'document'));
 
   const toc = (
     <nav aria-label="Índice del documento">
@@ -48,12 +50,20 @@ export function DocumentReader() {
       {cur && <aside className="sticky top-4 mb-6 hidden max-h-[calc(100dvh-2rem)] self-start overflow-y-auto lg:block">{toc}</aside>}
       <article className={`mx-auto w-full ${cur ? margin : 'max-w-2xl lg:col-span-2'}`}>
         <p className="mb-3 text-sm"><Link className="text-muted hover:text-fg" href="/biblioteca/">← Biblioteca</Link></p>
-        <h1 className="h-page">{doc.data.title}</h1>
-        {doc.data.subtitle && <p className="font-display text-xl italic text-muted">{doc.data.subtitle}</p>}
-        <p className="mb-6 mt-2 flex flex-wrap items-center gap-2 text-sm text-muted">
-          {doc.data.author?.name && <span>{doc.data.author.name}</span>}
-          <LicenseBadge license={doc.data.source.license} authority={doc.data.authority} />
-        </p>
+        <div className="mb-6 flex items-start gap-4">
+          {!cur && cover && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img src={cover.src} alt="" className="h-28 w-[5.25rem] shrink-0 rounded-lg object-cover shadow-sm" style={{ objectPosition: cover.focus ?? 'center' }} />
+          )}
+          <div className="min-w-0">
+            <h1 className="h-page">{doc.data.title}</h1>
+            {doc.data.subtitle && <p className="font-display text-xl italic text-muted">{doc.data.subtitle}</p>}
+            <p className="mt-2 flex flex-wrap items-center gap-2 text-sm text-muted">
+              {doc.data.author?.name && <span>{doc.data.author.name}</span>}
+              <LicenseBadge license={doc.data.source.license} authority={doc.data.authority} />
+            </p>
+          </div>
+        </div>
 
         {!cur ? (
           toc

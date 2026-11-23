@@ -81,7 +81,7 @@ describe('tema nativo', () => {
   it('oscuro: barra con iconos claros y fondo del tema', async () => {
     await applyNativeTheme('dark');
     expect(statusBar.setStyle).toHaveBeenCalledWith({ style: 'DARK' });
-    expect(statusBar.setBackgroundColor).toHaveBeenCalledWith({ color: '#14161a' });
+    expect(statusBar.setBackgroundColor).toHaveBeenCalledWith({ color: '#0b0b12' });
   });
   it('claro: iconos oscuros; web: nada', async () => {
     await applyNativeTheme('light');

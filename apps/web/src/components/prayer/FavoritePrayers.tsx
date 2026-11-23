@@ -18,7 +18,7 @@ export function FavoritePrayers() {
           const prayer = kind === 'prayer' ? cat?.prayerById.get(id) : undefined;
           const novena = kind === 'novena' ? cat?.novenaById.get(id) : undefined;
           const href = kind === 'mystery' ? '/rosario/' : itemHref(f.key);
-          const artKey = kind === 'novena' ? `novena:${id}` : kind === 'mystery' ? id : `category:${prayer?.categories[0] ?? 'default'}`;
+          const artKey: string | string[] = kind === 'novena' ? `novena:${id}` : kind === 'mystery' ? id : [`prayer:${id}`, `category:${prayer?.categories[0] ?? 'default'}`, 'home:default'];
           return (
             <ArtCard
               key={f.key}

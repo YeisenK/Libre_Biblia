@@ -160,7 +160,7 @@ function ReaderInner() {
             <span className="truncate font-display text-[1.1rem]">{book ? `${bookName} ${chapter}` : 'Elegir libro'}</span>
             <ChevronDown />
           </button>
-          <button type="button" className="tap flex min-h-[44px] items-center gap-0.5 rounded-xl border border-line px-2.5 text-[13px] font-semibold hover:bg-sunken" aria-haspopup="dialog" aria-label={`Versión: ${version ?? ''}. Cambiar`} onClick={() => setVersionOpen(true)} disabled={!version}>
+          <button type="button" className="tap flex min-h-[36px] items-center gap-0.5 rounded-full bg-sunken px-3 text-[13px] font-semibold hover:bg-raised" aria-haspopup="dialog" aria-label={`Versión: ${version ?? ''}. Cambiar`} onClick={() => setVersionOpen(true)} disabled={!version}>
             {version}
             <ChevronDown />
           </button>
@@ -202,7 +202,7 @@ function ReaderInner() {
                 type="button"
                 aria-pressed={mode === m.id}
                 onClick={() => update({ readingMode: m.id })}
-                className={`min-h-[34px] rounded-lg px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}
+                className={`min-h-[34px] rounded-lg px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}
               >
                 {m.label}
               </button>
@@ -224,7 +224,7 @@ function ReaderInner() {
       <article className={`mx-auto mt-6 ${margin}`} aria-live="polite">
         {book && (
           <header className="mb-5">
-            <h1 className="font-display text-[2rem] leading-tight">{bookName} {chapter}</h1>
+            <h1 className="font-display text-[1.6rem] leading-tight">{bookName} {chapter}</h1>
           </header>
         )}
         {versionMeta && (statusSuffix(versionMeta) || versionMeta.notice) && (
@@ -298,7 +298,7 @@ function ReaderInner() {
             <p className="mb-1 text-sm font-medium text-muted">Modo de lectura</p>
             <div role="group" aria-label="Modo de lectura" className="grid grid-cols-3 rounded-full bg-sunken p-1">
               {MODES.map((m) => (
-                <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => update({ readingMode: m.id })} className={`min-h-[40px] rounded-full px-1 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
+                <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => update({ readingMode: m.id })} className={`min-h-[40px] rounded-full px-1 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}>
                   {m.label}
                 </button>
               ))}

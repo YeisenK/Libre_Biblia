@@ -5,12 +5,28 @@ El usuario vio la v0.4 en su S24 Ultra y la encontró **fea**: tipografía ornam
 ## Principios
 1. **Contenido e imagen, no adornos.** Las superficies de oración viven de **arte sacro** (pintura española y europea de dominio público: Murillo, Zurbarán, Velázquez, El Greco, Ribera, Fra Angelico…), a pantalla completa o en tarjetas grandes con degradado inferior y texto blanco. Nada de iconos decorativos gigantes ni de chips de icono en cada fila.
 2. **Una sola familia tipográfica de interfaz:** Inter. Títulos en Inter 700, tracking −0,02em (pantalla 28–32 px, sección 20 px, tarjeta 17 px). Se elimina Cormorant Garamond. El serif (Source Serif 4) se reserva al **texto que se lee o se reza** (Biblia, oraciones, reflexiones).
-3. **Color neutro + un acento.**
-   - Claro: fondo `#FFFFFF`, hundido `#F3F3F5`, líneas `#E7E7EB`, texto `#111114`, secundario `#6B6B76`.
-   - Oscuro: fondo `#0D0D11`, superficie `#17171D`, líneas `#26262E`, texto `#F2F2F5`, secundario `#9A9AA6`.
-   - Acento `#3B5BDB` en claro / `#8EA2FF` en oscuro (enlaces, selección, versículos, BibleGateway). El oro (`#C9A45C`) **solo** para progreso (rosario, novenas, rutinas) y nunca como relleno de botones o fondos.
-   - Botón principal: relleno de texto (negro en claro, blanco en oscuro), pastilla, 48–52 px. Secundario: contorno fino o texto.
-   - Sepia se conserva solo como tema de lectura.
+3. **Color «Hallow»: oscuro por defecto, un acento violeta y oro solo para progreso** (revisado el 23-11-2026; tokens en `apps/web/src/app/globals.css`, utilidades en `tailwind.config.ts`). Si el usuario no ha elegido tema, la app arranca en **oscuro** (`DEFAULT_SETTINGS.theme = 'dark'`); «Sistema» sigue disponible.
+
+   | Token | Oscuro (predeterminado) | Claro | Uso |
+   |---|---|---|---|
+   | `--bg` | `#0B0B12` | `#FBFAFF` | Fondo de pantalla (casi negro con matiz azul-violeta) |
+   | `--surface` | `#15151F` | `#FFFFFF` | Tarjetas y grupos de filas |
+   | `--sunken` | `#1A1A26` | `#F3F2F9` | Controles, hover, segmentados |
+   | `--raised` | `#1E1E2A` | `#FFFFFF` | Superficies elevadas (hojas, menús) |
+   | `--line` | `#282738` | `#E6E4F0` | Separadores finos |
+   | `--fg` | `#F4F3FA` | `#14131D` | Texto principal |
+   | `--muted` | `#9E9AB8` (gris lavanda) | `#5E5A78` | Texto secundario |
+   | `--accent` | `#A99BFF` | `#6151D9` | Enlaces, selección, números de versículo, interruptores |
+   | `--accent-fill` | `#8B7CF6` | `#6E5CE6` | Relleno de controles nativos (deslizadores, casillas) |
+   | `--ink` / `--ink-fg` | `#FFFFFF` / `#0B0B12` | `#14131D` / `#FFFFFF` | Botón principal en pastilla (blanca con texto oscuro en oscuro) |
+   | `--gold` | `#E2B866` | `#B08A3E` | **Solo progreso**: barras, anillos, cuentas del Rosario, días hechos |
+
+   - **Selección** (segmentados, modo de lectura, pestañas): fondo `accent/20` + borde `accent/60`; los chips de filtro activos son pastilla `ink`.
+   - **Botón principal:** pastilla `ink` de 48–56 px (blanca con texto `#0B0B12` en oscuro). Secundario: contorno `line`. Nunca botones dorados.
+   - **Degradados profundos** para tarjetas sin arte y cabeceras (`.bg-sacred`, `.bg-moment-*`, respaldo de `ArtCard`/`Cover`): violeta → azul noche (`#3A2F86 → #0F1030`, `#4B3FA0 → #14183A`, `#2A3A7A → #120F2E`) y ámbar → ciruela (`#7A4A2A → #2A1230`, `#5E2F5A → #16102E`, `#6A3A3A → #1E1028`), con un resplandor radial suave arriba a la derecha.
+   - **Sepia** (`#F4EAD4`, texto `#3B2C1C`) se mantiene solo como tema de lectura; la oración se ve siempre en oscuro.
+   - **Contraste (WCAG AA, comprobado):** oscuro — texto/fondo 17,8:1; secundario/fondo 7,3:1 y sobre `raised` 6,1:1; acento/fondo 8,2:1; oro/fondo 10,5:1; texto oscuro sobre pastilla blanca 19,6:1. Claro — texto/fondo 18,4:1; secundario 6,5:1; acento sobre blanco 5,7:1 (y blanco sobre acento 5,7:1); oro (no textual) 3,2:1.
+   - **Android y PWA:** `theme_color`/`background_color` del manifiesto, `viewport.themeColor`, la `SplashScreen` y el fondo de Capacitor, y `statusBarColor`/`navigationBarColor` del tema Android usan `#0B0B12`; `applyNativeTheme` y `<meta name="theme-color">` siguen al tema elegido.
 4. **Oración inmersiva, oscura.** Orar, Rosario, Novena y la lectura de una oración usan siempre la estética oscura de Hallow (fondo casi negro, arte difuminado detrás del encabezado), sea cual sea el tema; el resto sigue el tema del usuario.
 5. **Biblia como BibleGateway.** Página limpia, blanca en tema claro, columna de lectura de 65 ch, barra superior compacta con «Libro capítulo ▾» y «Versión ▾» (abreviatura) y botones de anterior/siguiente; números de versículo pequeños en el color de acento; títulos de capítulo sobrios en sans; sin cajas, sin sombras.
 6. **Jerarquía sin ruido:** sin antetítulos en mayúsculas espaciadas salvo donde aporten (una vez por pantalla como máximo); subtítulos solo si informan; listas con separadores finos y sin icono por fila (icono monocromo de 20 px solo si identifica algo); esquinas 16 px en tarjetas, 12 px en controles; sombras casi nulas (en oscuro, ninguna).

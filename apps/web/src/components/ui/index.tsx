@@ -6,7 +6,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import type { ReactNode } from 'react';
-import { artFor } from '@/lib/art';
+import { artFor, artForAny, type ArtKey } from '@/lib/art';
 import { ChevronLeft, ChevronRight } from '../Icons';
 import { CheckIcon, SacredIcon } from '../icons/Sacred';
 
@@ -217,7 +217,7 @@ export function Segmented<T extends string>({ value, options, onChange, label }:
           role="radio"
           aria-checked={value === o.value}
           onClick={() => onChange(o.value)}
-          className={`min-h-[36px] flex-1 rounded-lg px-3 text-[14px] font-medium transition-colors ${value === o.value ? 'bg-raised text-fg shadow-soft ring-1 ring-line' : 'text-muted'}`}
+          className={`min-h-[36px] flex-1 rounded-lg px-3 text-[14px] font-medium transition-colors ${value === o.value ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}
         >
           {o.label}
         </button>
@@ -307,27 +307,34 @@ export function Loading({ children = 'Cargando…' }: { children?: ReactNode }) 
   );
 }
 
+/** Pares de degradado profundo (violeta → azul noche, ámbar → ciruela…), coherentes con la paleta Hallow. */
 const COVER_TONES = [
-  ['#2a3150', '#12151f'],
-  ['#4a2c36', '#1a1115'],
-  ['#2b3f3b', '#111a18'],
-  ['#42341f', '#1a150c'],
-  ['#35294a', '#14101f'],
-  ['#28394d', '#0f1822'],
+  ['#3a2f86', '#0f1030'],
+  ['#7a4a2a', '#2a1230'],
+  ['#2a3a7a', '#120f2e'],
+  ['#5e2f5a', '#16102e'],
+  ['#4b3fa0', '#14183a'],
+  ['#6a3a3a', '#1e1028'],
 ];
 const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
 
-/** Portada sobria: título en sans sobre degradado oscuro; el tono se deriva de la clave. */
-export function Cover({ title, subtitle, seed, icon = 'book', className = '' }: { title: ReactNode; subtitle?: ReactNode; seed?: string; icon?: string; className?: string }) {
+/** Portada: cuadro (si hay) con degradado para que el título se lea; respaldo: degradado sobrio con icono. */
+export function Cover({ title, subtitle, seed, icon = 'book', artKey, className = '' }: { title: ReactNode; subtitle?: ReactNode; seed?: string; icon?: string; artKey?: ArtKey; className?: string }) {
   const [a, b] = COVER_TONES[hash(seed ?? String(title)) % COVER_TONES.length]!;
+  const art = artKey ? artForAny(artKey) : null;
   return (
     <div className={`relative flex aspect-[3/4] flex-col justify-between overflow-hidden rounded-xl p-3 text-[#f0f0f4] ${className}`} style={{ background: `linear-gradient(155deg, ${a}, ${b})` }}>
+      {art && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={art.src} alt="" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover" style={{ objectPosition: art.focus ?? 'center' }} />
+      )}
+      {art && <span className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/15" aria-hidden />}
       <span className="relative opacity-60" aria-hidden>
         <SacredIcon name={icon} size={16} />
       </span>
       <div className="relative">
-        <p className="font-display text-[1.02rem] leading-tight">{title}</p>
-        {subtitle && <p className="mt-1 text-[11px] opacity-65">{subtitle}</p>}
+        <p className="font-display text-[1.02rem] leading-tight [text-shadow:0_1px_6px_rgba(0,0,0,.55)]">{title}</p>
+        {subtitle && <p className="mt-1 text-[11px] opacity-75">{subtitle}</p>}
       </div>
     </div>
   );
@@ -346,13 +353,16 @@ export function SettingsSection({ title, hint, children }: { title: ReactNode; h
 
 /* ---- Arte (v2) ---- */
 
-const FALLBACK_BG = ['linear-gradient(160deg,#262a3d,#0c0c12)', 'linear-gradient(160deg,#35262c,#0e0b0d)', 'linear-gradient(160deg,#22302d,#0b100f)', 'linear-gradient(160deg,#322b1f,#0f0d09)'];
-const fallbackFor = (k: string) => FALLBACK_BG[hash(k) % FALLBACK_BG.length]!;
+/** Respaldo sin arte: un resplandor suave sobre un degradado profundo del mismo juego de tonos. */
+const fallbackFor = (k: string) => {
+  const [a, b] = COVER_TONES[hash(k) % COVER_TONES.length]!;
+  return `radial-gradient(110% 80% at 80% 10%, ${a}cc 0%, transparent 60%), linear-gradient(165deg, ${a} 0%, ${b} 60%, #0b0b12 100%)`;
+};
 
 /** Imagen de arte para una clave, o degradado oscuro sobrio si no hay. Rellena a su contenedor (posicionado). */
-function ArtImage({ artKey, blur = false }: { artKey: string; blur?: boolean }) {
+function ArtImage({ artKey, blur = false }: { artKey: ArtKey; blur?: boolean }) {
   const art = artFor(artKey);
-  if (!art) return <span className="absolute inset-0" style={{ background: fallbackFor(artKey) }} aria-hidden />;
+  if (!art) return <span className="absolute inset-0" style={{ background: fallbackFor(String(artKey)) }} aria-hidden />;
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
@@ -370,7 +380,7 @@ const ART_SIZE = { hero: 'aspect-[16/10] w-full', tile: 'aspect-[4/5] w-[156px] 
 
 /** Tarjeta con arte a sangre, degradado inferior y texto blanco. */
 export function ArtCard({ artKey, title, subtitle, label, progress, size = 'tile', fluid, href, onClick, children, className = '' }: {
-  artKey: string;
+  artKey: ArtKey;
   title: ReactNode;
   subtitle?: ReactNode;
   label?: ReactNode;
@@ -385,10 +395,12 @@ export function ArtCard({ artKey, title, subtitle, label, progress, size = 'tile
   className?: string;
 }) {
   const big = size !== 'tile';
+  // Sin arte, el degradado de respaldo ya es oscuro: velo más ligero para que conserve el color.
+  const veil = artFor(artKey) ? 'from-black/85 via-black/25 to-black/10' : 'from-black/70 via-black/10 to-transparent';
   const body = (
     <>
       <ArtImage artKey={artKey} />
-      <span className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/10" aria-hidden />
+      <span className={`absolute inset-0 bg-gradient-to-t ${veil}`} aria-hidden />
       {label && <span className="absolute left-3 top-3 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm">{label}</span>}
       <span className={`absolute inset-x-0 bottom-0 block text-left text-white ${big ? 'p-4' : 'p-3'}`}>
         <span className={`block font-display leading-tight ${big ? 'text-[1.45rem]' : 'text-[1.02rem]'}`}>{title}</span>
@@ -409,11 +421,13 @@ export function ArtCard({ artKey, title, subtitle, label, progress, size = 'tile
 }
 
 /** Cabecera de pantalla inmersiva: arte difuminado detrás del título, siempre oscura. */
-export function ArtHeader({ artKey, title, subtitle, eyebrow, back, actions, children, className = '' }: {
-  artKey: string;
+export function ArtHeader({ artKey, title, subtitle, eyebrow, meta, back, actions, children, className = '' }: {
+  artKey: ArtKey;
   title: ReactNode;
   subtitle?: ReactNode;
   eyebrow?: ReactNode;
+  /** Línea pequeña bajo el título (naturaleza, duración…). */
+  meta?: ReactNode;
   back?: string | true;
   actions?: ReactNode;
   children?: ReactNode;
@@ -448,6 +462,7 @@ export function ArtHeader({ artKey, title, subtitle, eyebrow, back, actions, chi
           {eyebrow && <p className="mb-1 text-[12px] font-medium text-white/70">{eyebrow}</p>}
           <h1 className="font-display text-[2rem] leading-[1.1]">{title}</h1>
           {subtitle && <p className="mt-1.5 text-[15px] leading-relaxed text-white/75">{subtitle}</p>}
+          {meta && <div className="mt-3">{meta}</div>}
           {children && <div className="mt-4">{children}</div>}
         </div>
       </div>
@@ -456,7 +471,7 @@ export function ArtHeader({ artKey, title, subtitle, eyebrow, back, actions, chi
 }
 
 /** Contenedor oscuro inmersivo para superficies de oración: fuerza la paleta oscura y sangra hasta los bordes. */
-export function PrayerScreen({ children, artKey, className = '' }: { children: ReactNode; artKey?: string; className?: string }) {
+export function PrayerScreen({ children, artKey, className = '' }: { children: ReactNode; artKey?: ArtKey; className?: string }) {
   return (
     <div className={`theme-prayer relative -mx-5 -mb-[calc(7rem+env(safe-area-inset-bottom))] -mt-[max(1.25rem,env(safe-area-inset-top))] min-h-dvh overflow-hidden px-5 pb-[calc(7rem+env(safe-area-inset-bottom))] pt-[max(1.25rem,env(safe-area-inset-top))] md:-mx-10 md:-mb-16 md:-mt-10 md:px-10 md:pb-16 md:pt-10 ${className}`}>
       {artKey && (

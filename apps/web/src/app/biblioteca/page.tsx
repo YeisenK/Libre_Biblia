@@ -8,6 +8,7 @@ import { isPrimaryLanguage } from '@/lib/languages';
 import { getDb } from '@/lib/db';
 import { Cover, EmptyState, ScreenHeader, Section } from '@/components/ui';
 import { documentHref } from '@/lib/links';
+import { bookArtKeys } from '@/lib/art';
 import { LibraryDownloads } from '@/components/LibraryDownloads';
 
 type Pack = NonNullable<ReturnType<typeof useInstalledPacks>['data']>[number];
@@ -24,7 +25,7 @@ function PackGrid({ list, title }: { list: Pack[]; title: string }) {
               return (
                 <li key={p.id}>
                   <Link href={href} className="tap block">
-                    <Cover title={p.title} subtitle={isBible ? (p.code ?? p.language) : (d?.author?.name ?? p.language)} seed={title} icon={isBible ? 'cross' : 'book'} />
+                    <Cover title={p.title} subtitle={isBible ? (p.code ?? p.language) : (d?.author?.name ?? p.language)} seed={title} icon={isBible ? 'cross' : 'book'} artKey={bookArtKeys(p.id, p.kind)} />
                     <span className="mt-2 block truncate text-[14px] font-medium">{p.title}</span>
                     <span className="block truncate text-[12px] text-muted">
                       {d?.author?.name ? `${d.author.name} · ` : ''}

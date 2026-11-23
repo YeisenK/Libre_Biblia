@@ -45,7 +45,7 @@ export interface UserSettings {
 }
 
 export const DEFAULT_SETTINGS: UserSettings = {
-  theme: 'system',
+  theme: 'dark', // Oscuro por defecto (estética Hallow); el usuario puede elegir claro, sepia o el del sistema
   fontScale: 1,
   lineHeight: 1.7,
   margin: 'normal',

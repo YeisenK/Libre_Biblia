@@ -19,7 +19,7 @@ export function PrayerSettings() {
 
   return (
     <section className="card mb-4" aria-labelledby="or">
-      <h2 id="or" className="mb-3 font-serif text-lg font-semibold">Oración</h2>
+      <h2 id="or" className="mb-3 font-display text-[1.25rem] leading-tight">Oración</h2>
 
       <div className="mb-4 flex items-center justify-between gap-3">
         <span className="text-sm font-medium">Tamaño de letra de las oraciones ({Math.round(s.prayerFontScale * 100)}%)</span>

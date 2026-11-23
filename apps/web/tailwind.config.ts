@@ -15,6 +15,7 @@ const config: Config = {
         line: c('line'),
         accent: c('accent'),
         'accent-fg': c('accent-fg'),
+        'accent-fill': c('accent-fill'),
         mark: c('mark'),
         danger: c('danger'),
         warn: c('warn'),

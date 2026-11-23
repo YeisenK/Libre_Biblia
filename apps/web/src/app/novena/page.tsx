@@ -7,9 +7,9 @@ export const metadata: Metadata = { title: 'Novena' };
 export default function Page() {
   return (
     <PrayerScreen>
-    <Suspense fallback={<p className="text-muted">Cargando…</p>}>
-      <NovenaDetail />
-    </Suspense>
+      <Suspense fallback={<p className="text-muted">Cargando…</p>}>
+        <NovenaDetail />
+      </Suspense>
     </PrayerScreen>
   );
 }

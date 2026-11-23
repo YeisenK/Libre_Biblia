@@ -13,6 +13,11 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:background">@null</item>
+        <!-- Fondo y barras del sistema oscuros por defecto (paleta Hallow, ver docs/DISENO_V2.md) -->
+        <item name="android:windowBackground">@color/libreBibliaBg</item>
+        <item name="android:statusBarColor">@color/libreBibliaBg</item>
+        <item name="android:navigationBarColor">@color/libreBibliaBg</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 
 

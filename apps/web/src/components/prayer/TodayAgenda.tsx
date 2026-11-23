@@ -47,12 +47,12 @@ export function TodayAgenda() {
   const complete = n === routine.items.length;
   const title = routine.moment === 'any' || !isNow ? routine.title : TITLE[tone];
 
-  const artKeyOf = (item: string): string => {
+  const artKeyOf = (item: string): string | string[] => {
     if (item === 'rosary') return 'set:joyful';
     if (item === 'gospel' || item === 'verse') return 'home:default';
     const [kind, id = ''] = item.split(':');
     if (kind === 'novena') return `novena:${id}`;
-    if (kind === 'prayer') return `category:${cat?.prayerById.get(id)?.categories[0] ?? 'default'}`;
+    if (kind === 'prayer') return [`prayer:${id}`, `category:${cat?.prayerById.get(id)?.categories[0] ?? 'default'}`, 'home:default'];
     return 'home:default';
   };
 
@@ -61,7 +61,7 @@ export function TodayAgenda() {
       <p className="-mt-2 mb-3 text-[14px] text-muted" aria-live="polite">
         {isNow ? MOMENT_LABEL[tone] : `Próxima · ${MOMENT_LABEL[tone]}`} · {complete ? 'Todo rezado. Gracias a Dios.' : `${n} de ${routine.items.length}`}
       </p>
-      <Link href={playerHref(routine.id, complete ? 0 : resumeIndex(routine.items, doneSet, null))} className="tap mb-4 flex min-h-[52px] items-center justify-center gap-2 rounded-full bg-gold px-6 text-[16px] font-semibold text-black">
+      <Link href={playerHref(routine.id, complete ? 0 : resumeIndex(routine.items, doneSet, null))} className="tap mb-4 flex min-h-[52px] items-center justify-center gap-2 rounded-full bg-ink px-6 text-[16px] font-semibold text-ink-fg">
         <PlayIcon size={18} /> {complete ? 'Rezar de nuevo' : entryLabel(routine.items, doneSet)}
       </Link>
       <Rail>

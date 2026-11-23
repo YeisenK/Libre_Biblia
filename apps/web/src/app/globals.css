@@ -2,28 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-:root, :root[data-theme='light'] {
-  --bg: 255 255 255; --surface: 255 255 255; --sunken: 243 243 245; --raised: 255 255 255;
-  --fg: 17 17 20; --muted: 107 107 118; --line: 231 231 235;
-  --accent: 59 91 219; --accent-fg: 255 255 255; --ink: 17 17 20; --ink-fg: 255 255 255;
-  --gold: 176 138 62; --gold-soft: 246 239 224;
-  --mark: 255 232 140; --danger: 190 40 40; --warn: 150 90 0; --ok: 40 125 80;
-  --night: 10 10 14; --night-2: 26 26 36;
-  color-scheme: light;
-}
-:root[data-theme='dark'], .theme-prayer {
-  --bg: 13 13 17; --surface: 23 23 29; --sunken: 30 30 38; --raised: 30 30 38;
-  --fg: 242 242 245; --muted: 154 154 166; --line: 38 38 46;
-  --accent: 142 162 255; --accent-fg: 13 13 17; --ink: 242 242 245; --ink-fg: 13 13 17;
-  --gold: 201 164 92; --gold-soft: 44 38 26;
-  --mark: 110 90 20; --danger: 240 120 120; --warn: 240 190 100; --ok: 120 200 150;
-  --night: 8 8 11; --night-2: 22 22 30;
+/*
+ * Paleta «Hallow» (docs/DISENO_V2.md §Color). Oscuro por defecto: fondos casi negros con matiz
+ * azul-violeta, texto blanco, secundario gris lavanda, acento violeta-lavanda y oro solo para progreso.
+ * Claro: mismo acento (más profundo para AA). Sepia: solo como tema de lectura.
+ */
+:root, :root[data-theme='dark'], .theme-prayer {
+  --bg: 11 11 18; --surface: 21 21 31; --sunken: 26 26 38; --raised: 30 30 42;
+  --fg: 244 243 250; --muted: 158 154 184; --line: 40 39 56;
+  --accent: 169 155 255; --accent-fg: 11 11 18; --accent-fill: 139 124 246;
+  --ink: 255 255 255; --ink-fg: 11 11 18;
+  --gold: 226 184 102; --gold-soft: 46 37 20;
+  --mark: 74 60 140; --danger: 248 128 128; --warn: 240 190 100; --ok: 120 205 155;
+  --night: 7 7 12; --night-2: 24 20 44;
   color-scheme: dark;
+}
+:root[data-theme='light'] {
+  --bg: 251 250 255; --surface: 255 255 255; --sunken: 243 242 249; --raised: 255 255 255;
+  --fg: 20 19 29; --muted: 94 90 120; --line: 230 228 240;
+  --accent: 97 81 217; --accent-fg: 255 255 255; --accent-fill: 110 92 230;
+  --ink: 20 19 29; --ink-fg: 255 255 255;
+  --gold: 176 138 62; --gold-soft: 248 240 222;
+  --mark: 226 220 255; --danger: 190 40 40; --warn: 150 90 0; --ok: 40 125 80;
+  --night: 11 11 18; --night-2: 30 26 52;
+  color-scheme: light;
 }
 :root[data-theme='sepia'] {
   --bg: 244 234 212; --surface: 249 242 224; --sunken: 235 223 195; --raised: 252 247 232;
   --fg: 59 44 28; --muted: 112 95 70; --line: 218 202 168;
-  --accent: 120 60 28; --accent-fg: 255 248 232; --ink: 59 44 28; --ink-fg: 249 242 224;
+  --accent: 120 60 28; --accent-fg: 255 248 232; --accent-fill: 120 60 28;
+  --ink: 59 44 28; --ink-fg: 249 242 224;
   --gold: 150 104 30; --gold-soft: 236 218 174;
   --mark: 240 200 90; --danger: 150 30 30; --warn: 125 65 5; --ok: 60 100 50;
   --night: 30 22 14; --night-2: 58 42 28;
@@ -38,6 +46,9 @@ body {
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
 }
+/* Controles nativos (deslizadores, casillas) con el acento violeta. */
+input, progress { accent-color: rgb(var(--accent-fill)); }
+::selection { background: rgb(var(--accent) / .35); }
 :focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 2px; border-radius: 4px; }
 mark { background: rgb(var(--mark)); color: inherit; border-radius: 2px; padding: 0 1px; }
 
@@ -51,15 +62,16 @@ mark { background: rgb(var(--mark)); color: inherit; border-radius: 2px; padding
   .eyebrow { @apply text-[12px] font-medium text-muted; }
   .card-soft { @apply rounded-2xl border border-line bg-surface p-4; }
   .tap { @apply transition-[transform,background-color,opacity] duration-150 active:scale-[0.985]; }
-  /* Fondos sobrios por momento del día */
-  .bg-moment-morning { background: linear-gradient(160deg, #3a3340 0%, #17141c 70%); color: #f6f1ea; }
-  .bg-moment-midday { background: linear-gradient(160deg, #2b3646 0%, #12161d 70%); color: #eef2f7; }
-  .bg-moment-afternoon { background: linear-gradient(160deg, #3d2e32 0%, #17121a 70%); color: #f7efe9; }
-  .bg-moment-night { background: linear-gradient(160deg, #1d2030 0%, #0a0a0f 75%); color: #eeeef3; }
-  .bg-sacred { background: linear-gradient(160deg, #1b1b25 0%, #09090d 80%); color: #f0f0f4; }
-
   .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
 }
+/* Fuera de @layer para que Tailwind no los purgue (se usan con nombres dinámicos). */
+/* Degradados profundos «Hallow» (violeta → azul noche, ámbar → ciruela) por momento del día */
+.bg-moment-morning { background: radial-gradient(120% 90% at 85% 0%, #7a4a2c 0%, transparent 55%), linear-gradient(165deg, #4a2a44 0%, #24173a 50%, #0e0c18 100%); color: #fbf7f2; }
+.bg-moment-midday { background: radial-gradient(120% 90% at 85% 0%, #5a4fb0 0%, transparent 55%), linear-gradient(165deg, #2f2a6e 0%, #1a1f4a 50%, #0b0c1a 100%); color: #f4f3fa; }
+.bg-moment-afternoon { background: radial-gradient(120% 90% at 85% 0%, #8a5428 0%, transparent 55%), linear-gradient(165deg, #5a2a40 0%, #2e1832 50%, #110b16 100%); color: #fbf5ef; }
+.bg-moment-night { background: radial-gradient(120% 90% at 85% 0%, #3c3394 0%, transparent 55%), linear-gradient(165deg, #1e1d52 0%, #12163a 50%, #08080f 100%); color: #f1f0fa; }
+.bg-sacred { background: radial-gradient(120% 90% at 85% 0%, #4b3fa0 0%, transparent 55%), linear-gradient(165deg, #2a2160 0%, #151a3c 55%, #0a0a12 100%); color: #f4f3fa; }
+
 .font-display { font-weight: 700; letter-spacing: -0.02em; }
 
 .prayer-text { font-family: var(--font-serif), Georgia, serif; font-size: calc(1.15rem * var(--prayer-scale, 1)); line-height: 1.7; }

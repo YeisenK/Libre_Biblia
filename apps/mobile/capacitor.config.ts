@@ -5,9 +5,10 @@ const config: CapacitorConfig = {
   appName: 'Libre Biblia',
   webDir: '../web/out',
   server: { androidScheme: 'https' },
-  android: { allowMixedContent: false },
+  android: { allowMixedContent: false, backgroundColor: '#0b0b12' },
+  backgroundColor: '#0b0b12',
   plugins: {
-    SplashScreen: { launchShowDuration: 0, launchAutoHide: false, backgroundColor: '#1f3a5f', showSpinner: false },
+    SplashScreen: { launchShowDuration: 0, launchAutoHide: false, backgroundColor: '#0b0b12', showSpinner: false },
   },
 };
 

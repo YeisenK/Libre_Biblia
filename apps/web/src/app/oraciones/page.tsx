@@ -7,9 +7,9 @@ export const metadata: Metadata = { title: 'Oraciones' };
 export default function Page() {
   return (
     <PrayerScreen>
-    <Suspense fallback={<p className="text-muted">Cargando…</p>}>
-      <PrayerLibrary />
-    </Suspense>
+      <Suspense fallback={<p className="text-muted">Cargando…</p>}>
+        <PrayerLibrary />
+      </Suspense>
     </PrayerScreen>
   );
 }

@@ -76,7 +76,7 @@ export function Search() {
   const scopeToggle = (
     <div role="group" aria-label="Ámbito" className="flex w-full rounded-full bg-sunken p-1 md:w-fit">
       {SCOPES.map(([id, label]) => (
-        <button key={id} type="button" aria-pressed={scope === id} onClick={() => push({ s: scopeParam(id) })} className={`min-h-[38px] flex-1 rounded-full px-4 text-[13px] font-medium transition-colors md:flex-none ${scope === id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
+        <button key={id} type="button" aria-pressed={scope === id} onClick={() => push({ s: scopeParam(id) })} className={`min-h-[38px] flex-1 rounded-full px-4 text-[13px] font-medium transition-colors md:flex-none ${scope === id ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}>
           {label}
         </button>
       ))}
@@ -118,7 +118,7 @@ export function Search() {
       <div className={`mb-4 hidden gap-3 sm:grid-cols-2 ${scope === 'prayers' ? '' : 'md:grid'}`}>
         <div role="group" aria-label="Modo de búsqueda" className="flex w-fit rounded-full bg-sunken p-1">
           {MODES.map((m) => (
-            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[38px] rounded-full px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
+            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[38px] rounded-full px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}>
               {m.label}
             </button>
           ))}
@@ -154,7 +154,7 @@ export function Search() {
         <div className="flex flex-col gap-3">
         <div role="group" aria-label="Modo de búsqueda" className="grid w-full grid-cols-3 rounded-full bg-sunken p-1">
           {MODES.map((m) => (
-            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[38px] rounded-full px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
+            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[38px] rounded-full px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}>
               {m.label}
             </button>
           ))}

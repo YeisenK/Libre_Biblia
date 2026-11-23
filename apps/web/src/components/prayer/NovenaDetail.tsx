@@ -18,7 +18,7 @@ import { Markdown } from '../Markdown';
 import { Modal } from '../Modal';
 import { HeartIcon } from '../Icons';
 import { CheckIcon } from '../icons/Sacred';
-import { EmptyState, HeroCard, IconButton, NatureBadge, ProgressBar, ScreenHeader, Section, TextSizeControl } from '../ui';
+import { ArtHeader, EmptyState, HeroCard, IconButton, NatureBadge, ProgressBar, ScreenHeader, Section, TextSizeControl } from '../ui';
 import { PrayerAddToRoutine } from './PrayerAddToRoutine';
 import { PrayerText } from './PrayerText';
 import { useNovenaProgress, useToday } from './RoutineData';
@@ -168,7 +168,7 @@ export function NovenaDetail() {
     };
     return (
       <div className="mx-auto max-w-2xl">
-        <ScreenHeader back={href()} eyebrow={`${novena.title} · Día ${dayParam} de ${total}`} title={d.title ?? `Día ${dayParam}`} actions={actions} />
+        <ArtHeader artKey={`novena:${id}`} back={href()} eyebrow={`${novena.title} · Día ${dayParam} de ${total}`} title={d.title ?? `Día ${dayParam}`} actions={actions} />
         <div className="mb-6 flex items-center gap-1.5" role="group" aria-label="Días de la novena">
           {novena.days.map((x) => (
             <Link key={x.day} href={href(x.day)} aria-label={`Día ${x.day}${p?.done[x.day] ? ' (hecho)' : ''}`} aria-current={x.day === dayParam ? 'page' : undefined} className={`tap grid h-9 min-w-0 flex-1 place-items-center rounded-full text-[12px] font-semibold ring-1 ${x.day === dayParam ? 'bg-fg text-bg ring-fg' : p?.done[x.day] ? 'bg-ok/15 text-ok ring-ok/30' : 'bg-surface ring-line'}`}>
@@ -213,27 +213,34 @@ export function NovenaDetail() {
   // ── Introducción ──────────────────────────────────────────────────
   return (
     <div className="mx-auto max-w-2xl">
-      <ScreenHeader back="/novenas/" eyebrow={NOVENA_GROUP_LABEL[novena.group]} title={novena.title} subtitle={novena.description} actions={actions} />
-      <div className="mb-6 flex flex-wrap items-center gap-2">
-        <NatureBadge label={NATURE_LABEL[novena.nature]} title={NATURE_HELP[novena.nature]} />
-        <span className="text-[13px] text-muted">{plural(total, 'día', 'días')}{novena.feast && ` · ${novena.feast.label}`}</span>
-      </div>
-      <p className="mb-6 text-[13px] leading-relaxed text-muted">{NATURE_HELP[novena.nature]}</p>
+      <ArtHeader
+        artKey={`novena:${id}`}
+        back="/novenas/"
+        title={novena.title}
+        subtitle={novena.description}
+        actions={actions}
+        meta={
+          <span className="flex flex-wrap items-center gap-2 text-[13px] text-white/70">
+            <NatureBadge label={NATURE_LABEL[novena.nature]} title={NATURE_HELP[novena.nature]} />
+            <span>{NOVENA_GROUP_LABEL[novena.group]} · {plural(total, 'día', 'días')}{novena.feast && ` · ${novena.feast.label}`}</span>
+          </span>
+        }
+      />
 
-      <HeroCard tone="sacred" icon={novena.image?.icon ?? 'candle'} eyebrow={finished ? 'Novena completada' : running ? 'En curso' : 'Para empezar'} title={finished ? 'Has terminado la novena' : running ? `Día ${cur ?? total} de ${total}` : 'Nueve días de oración'} subtitle={running && p ? `${doneCount(p)} de ${total} días hechos` : timing && timing.daysUntilStart > 0 ? `Para la fiesta (${novena.feast!.label}) conviene empezar el ${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${timing.startDate}T00:00:00Z`))}.` : undefined} className="mb-6">
+      <HeroCard tone="sacred" eyebrow={finished ? 'Novena completada' : running ? 'En curso' : 'Para empezar'} title={finished ? 'Has terminado la novena' : running ? `Día ${cur ?? total} de ${total}` : 'Nueve días de oración'} subtitle={running && p ? `${doneCount(p)} de ${total} días hechos` : timing && timing.daysUntilStart > 0 ? `Para la fiesta (${novena.feast!.label}) conviene empezar el ${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${timing.startDate}T00:00:00Z`))}.` : undefined} className="mb-6">
         {running && p && <ProgressBar value={doneCount(p) / total} className="mb-4 !bg-white/30" />}
         {!running && !finished && (
           <>
-            <label htmlFor="intention" className="mb-1 block text-[12px] font-semibold uppercase tracking-wider opacity-80">Tu intención (opcional)</label>
-            <input id="intention" value={intention} maxLength={200} onChange={(e) => setIntention(e.target.value)} placeholder="Por quién o por qué rezas" className="mb-3 min-h-[48px] w-full rounded-2xl bg-white/90 px-4 text-[16px] text-[#2b2118] placeholder:text-[#2b2118]/50 focus:outline-none focus:ring-2 focus:ring-white" />
+            <label htmlFor="intention" className="mb-1 block text-[13px] font-medium opacity-80">Tu intención (opcional)</label>
+            <input id="intention" value={intention} maxLength={200} onChange={(e) => setIntention(e.target.value)} placeholder="Por quién o por qué rezas" className="mb-3 min-h-[48px] w-full rounded-2xl border border-white/15 bg-white/10 px-4 text-[16px] text-white placeholder:text-white/50 focus:outline-none focus:ring-2 focus:ring-white/70" />
           </>
         )}
         {running ? (
-          <Link href={href(cur ?? total)} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white/90 px-6 text-[16px] font-semibold text-[#2b2118]">Continuar: día {cur ?? total}</Link>
+          <Link href={href(cur ?? total)} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white px-6 text-[16px] font-semibold text-[#0b0b12]">Continuar: día {cur ?? total}</Link>
         ) : finished ? (
-          <button type="button" onClick={() => setConfirm('restart')} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white/90 px-6 text-[16px] font-semibold text-[#2b2118]">Volver a hacerla</button>
+          <button type="button" onClick={() => setConfirm('restart')} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white px-6 text-[16px] font-semibold text-[#0b0b12]">Volver a hacerla</button>
         ) : (
-          <button type="button" disabled={busy || total === 0} onClick={() => void begin()} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white/90 px-6 text-[16px] font-semibold text-[#2b2118] disabled:opacity-60">Comenzar la novena</button>
+          <button type="button" disabled={busy || total === 0} onClick={() => void begin()} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white px-6 text-[16px] font-semibold text-[#0b0b12] disabled:opacity-60">Comenzar la novena</button>
         )}
       </HeroCard>
 
@@ -265,6 +272,7 @@ export function NovenaDetail() {
         </Section>
       )}
 
+      <p className="mb-4 text-[13px] leading-relaxed text-muted">{NATURE_HELP[novena.nature]}</p>
       <div className="mb-8 flex flex-wrap gap-3">
         <PrayerAddToRoutine itemKey={`novena:${id}`} title={novena.title} />
         {running && <button type="button" onClick={() => setConfirm('restart')} className={btnGhost}>Reiniciar</button>}

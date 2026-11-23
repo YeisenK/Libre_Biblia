@@ -18,7 +18,7 @@ export function PassagePanel({ reference, compact }: { reference: string; compac
           {r.status === 'invalid' ? 'No se pudo interpretar la referencia.' : 'Aún no hay una Biblia instalada que contenga este pasaje.'}
         </p>
         {r.status !== 'invalid' && (
-          <Link href="/descargas/" className="mt-2 inline-flex min-h-[44px] items-center text-gold underline underline-offset-4">
+          <Link href="/descargas/" className="mt-2 inline-flex min-h-[44px] items-center text-accent underline underline-offset-4">
             Instalar una Biblia en Contenido
           </Link>
         )}
@@ -42,7 +42,7 @@ export function PassagePanel({ reference, compact }: { reference: string; compac
           {formatReference(found.ref)} · {found.version.name}
         </span>
         {parsed && (
-          <Link href={refHref(found.ref, found.version.code)} className="inline-flex min-h-[44px] items-center text-gold underline underline-offset-4">
+          <Link href={refHref(found.ref, found.version.code)} className="inline-flex min-h-[44px] items-center text-accent underline underline-offset-4">
             Abrir en el lector
           </Link>
         )}

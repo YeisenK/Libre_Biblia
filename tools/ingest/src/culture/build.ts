@@ -5,20 +5,34 @@ import { join } from 'node:path';
 import { PACK_FORMAT_VERSION, assertPack, type Authority, type CatalogEntry, type DocumentPack, type DocumentPackSection, type PackSource } from '@bc/shared';
 import { upsertCatalogEntries, writePack } from '../catalog';
 import { OUT_DIR, RAW_DIR } from '../paths';
-import { newStats, resolvePageText, pagesWikitext, type ResolveStats } from './resolve';
+import { isExcludedLabel, newStats, resolvePageText, pagesWikitext, type PageExclude, type ResolveStats } from './resolve';
 import { Wiki } from './wiki';
 import { Collected, HMARK, splitByHeadings, stripHeadingMarks, wikitextResidue, wikitextToText } from './wikitext';
 
 export interface Sec { title?: string; depth: number; text: string }
 
+/** Opciones comunes de lectura de subpáginas de prosa/verso. */
+export interface PageOpts {
+  /** Une las líneas de composición de un mismo párrafo (prosa). */
+  reflow?: boolean;
+  /** Separa párrafos en los saltos de página del escaneo cuando la página anterior acaba en punto. */
+  pageParagraphs?: boolean;
+  /** Páginas del escaneo a descartar dentro de las transclusiones <pages>. */
+  excludeScan?: PageExclude[];
+  /** Usa como título de la sección el primer encabezado de nivel ≥ N de la subpágina (los de nivel menor se descartan). */
+  headTitle?: number;
+  /** Expresiones regulares (fuente): se descartan las líneas que las cumplan (leyendas de fotografías, rótulos editoriales). */
+  dropMatching?: string[];
+}
+
 export type Part =
-  | { kind: 'pages'; titles: { title?: string; page: string }[]; depth?: number; verse?: boolean }
-  | { kind: 'prefix'; prefix: string; first?: string[]; exclude?: string[]; depth?: number; titlePrefix?: string; verse?: boolean; tree?: boolean; titleMap?: Record<string, string> }
+  | ({ kind: 'pages'; titles: { title?: string; page: string }[]; depth?: number; verse?: boolean } & PageOpts)
+  | ({ kind: 'prefix'; prefix: string; first?: string[]; /** etiquetas exactas, o `etiqueta/*` para incluir sus subpáginas */ exclude?: string[]; depth?: number; titlePrefix?: string; verse?: boolean; tree?: boolean; titleMap?: Record<string, string> } & PageOpts)
   | { kind: 'group'; title: string; parts: Part[]; depth?: number }
   | { kind: 'djvu'; index: string; from: number; to: number; verse?: boolean; leadTitle?: string; dropTitles?: string[]; keepLevel?: number; depth?: number }
   | { kind: 'djvu-titles'; index: string; from: number; to: number; titlesPage: number; depth?: number }
   /** Una página que contiene varios capítulos con encabezados «==…==»: una sección por encabezado de nivel ≤ keepLevel. */
-  | { kind: 'chapters'; page: string; depth?: number; keepLevel?: number };
+  | ({ kind: 'chapters'; page: string; depth?: number; keepLevel?: number; /** título = encabezados superiores unidos con « — » (p. ej. «A su hermana — Carta I») */ joinParents?: boolean; /** título para el tramo sin encabezado propio */ leadTitle?: string; /** título del encabezado superior cuando el de la página viene vacío */ parentTitle?: string; /** expresión regular (fuente) que se quita de los títulos de encabezado */ titleStrip?: string; /** líneas exactas a descartar (rótulos sueltos de la edición) */ dropLines?: string[] } & PageOpts);
 
 export interface WorkSpec {
   slug: string;
@@ -68,6 +82,30 @@ function retrievedAt(slug: string): string {
 
 export interface BuildLog { slug: string; omitted: string[]; notes: string[]; pagesMissing: string[]; lowQuality: number; pagesTotal: number; templatesDropped: Record<string, number> }
 
+/** Aplica `headTitle`: el primer encabezado de nivel ≥ N pasa a ser el título; los de nivel menor se descartan. */
+export function applyHeadTitle(text: string, level: number | undefined, fallback: string | undefined): { title: string | undefined; text: string } {
+  if (!level) return { title: fallback, text: stripHeadingMarks(text) };
+  let title: string | undefined;
+  const lines: string[] = [];
+  for (const b of splitByHeadings(text)) {
+    if (b.heading) {
+      if (b.heading.level < level) { /* título de parte: lo cubre el grupo */ }
+      else if (title === undefined && b.heading.title) title = b.heading.title;
+      else lines.push(b.heading.title);
+    }
+    if (b.text) lines.push(b.text);
+  }
+  return { title: title ?? fallback, text: lines.join('\n\n').trim() };
+}
+
+function dropMatching(text: string, patterns: string[] | undefined): string {
+  if (!patterns?.length) return text;
+  const res = patterns.map((p) => new RegExp(p, 'u'));
+  return text.split('\n').filter((l) => !res.some((r) => r.test(l))).join('\n').replace(/\n{3,}/g, '\n\n').trim();
+}
+
+const resolveOpts = (part: PageOpts & { verse?: boolean }) => ({ stripVerseNumbers: part.verse, reflow: part.reflow, exclude: part.excludeScan, pageParagraphs: part.pageParagraphs });
+
 async function buildPart(w: Wiki, spec: WorkSpec, part: Part, stats: ResolveStats, log: BuildLog, collect: Collected, baseDepth: number): Promise<Sec[]> {
   const depth = baseDepth + (part.depth ?? 0);
   const out: Sec[] = [];
@@ -78,15 +116,16 @@ async function buildPart(w: Wiki, spec: WorkSpec, part: Part, stats: ResolveStat
   switch (part.kind) {
     case 'pages': {
       for (const t of part.titles) {
-        const r = await resolvePageText(w, spec.slug, t.page, stats, collect, { stripVerseNumbers: part.verse });
+        const r = await resolvePageText(w, spec.slug, t.page, stats, collect, resolveOpts(part));
         if (!r) { log.omitted.push(`${t.page}: página inexistente`); continue; }
-        add(t.title ?? t.page, stripHeadingMarks(r.text), depth, t.page);
+        const h = applyHeadTitle(r.text, part.headTitle, t.title ?? t.page);
+        add(t.title ?? h.title, dropMatching(h.text, part.dropMatching), depth, t.page);
       }
       break;
     }
     case 'prefix': {
       const all = (await w.allPages(spec.slug, 0, part.prefix)).filter((t) => t !== part.prefix.replace(/\/$/, ''));
-      const labels = all.map((t) => ({ t, label: t.slice(part.prefix.length) })).filter((x) => x.label && (part.tree || !x.label.includes('/')) && !(part.exclude ?? []).includes(x.label));
+      const labels = all.map((t) => ({ t, label: t.slice(part.prefix.length) })).filter((x) => x.label && (part.tree || !x.label.includes('/')) && !isExcludedLabel(x.label, part.exclude));
       const first = part.first ?? [];
       const cmp = (x: string, y: string) => { const ka = naturalKey(x), kb = naturalKey(y); return ka[0] - kb[0] || ka[1] - kb[1] || ka[2].localeCompare(kb[2]); };
       labels.sort((a, b) => {
@@ -97,9 +136,11 @@ async function buildPart(w: Wiki, spec: WorkSpec, part: Part, stats: ResolveStat
         return pa.length - pb.length;
       });
       for (const { t, label } of labels) {
-        const r = await resolvePageText(w, spec.slug, t, stats, collect, { stripVerseNumbers: part.verse });
+        const r = await resolvePageText(w, spec.slug, t, stats, collect, resolveOpts(part));
         if (!r) { log.omitted.push(`${t}: página inexistente`); continue; }
-        add(part.titleMap?.[label] ?? `${/^[IVXLCDM\d]+(\/[IVXLCDM\d]+)*$/.test(label) ? (part.titlePrefix ?? '') : ''}${label.replace(/\//g, '.')}`, stripHeadingMarks(r.text), part.tree ? depth + label.split('/').length - 1 : depth, t);
+        const dflt = part.titleMap?.[label] ?? `${/^[IVXLCDM\d]+(\/[IVXLCDM\d]+)*$/.test(label) ? (part.titlePrefix ?? '') : ''}${label.replace(/\//g, '.')}`;
+        const h = applyHeadTitle(r.text, part.headTitle, dflt);
+        add(part.titleMap?.[label] ?? h.title, dropMatching(h.text, part.dropMatching), part.tree ? depth + label.split('/').length - 1 : depth, t);
       }
       break;
     }
@@ -129,15 +170,26 @@ async function buildPart(w: Wiki, spec: WorkSpec, part: Part, stats: ResolveStat
       break;
     }
     case 'chapters': {
-      const r = await resolvePageText(w, spec.slug, part.page, stats, collect);
+      const r = await resolvePageText(w, spec.slug, part.page, stats, collect, resolveOpts(part));
       if (!r) { log.omitted.push(`${part.page}: página inexistente`); break; }
       const keep = part.keepLevel ?? 1;
-      let cur: { title?: string; lines: string[] } = { title: undefined, lines: [] };
-      const flush = () => add(cur.title, cur.lines.join('\n\n').trim(), depth, cur.title ?? part.page);
+      let cur: { title?: string; lines: string[] } = { title: part.leadTitle, lines: [] };
+      const parents: string[] = [];
+      const drop = new Set(part.dropLines ?? []);
+      const flush = () => add(cur.title, cur.lines.filter((l) => !drop.has(l.trim())).join('\n\n').trim(), depth, cur.title ?? part.page);
       for (const b of splitByHeadings(r.text)) {
         const h = b.heading;
         if (h) {
-          if (h.level <= keep) { flush(); cur = { title: h.title, lines: [] }; }
+          if (h.level <= keep) {
+            flush();
+            let title = part.titleStrip ? h.title.replace(new RegExp(part.titleStrip, 'u'), '').trim() : h.title;
+            if (part.joinParents) {
+              parents.length = Math.min(parents.length, h.level - 1);
+              parents[h.level - 1] = title || (h.level === 3 ? part.parentTitle ?? '' : '');
+              title = parents.filter(Boolean).join(' — ');
+            }
+            cur = { title, lines: [] };
+          }
           else cur.lines.push(h.title);
         }
         if (b.text) cur.lines.push(b.text);

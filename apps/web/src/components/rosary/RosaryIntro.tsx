@@ -70,7 +70,7 @@ export function RosaryIntro() {
     router.push(`/rosario/?s=${session.id}`);
   };
 
-  const gold = 'bg-ink text-ink-fg';
+  const primaryBtn = 'bg-ink text-ink-fg';
 
   return (
     <>
@@ -98,14 +98,14 @@ export function RosaryIntro() {
           <p className="eyebrow mb-1">Rezo en curso</p>
           <p className="font-display text-[1.15rem]">{MYSTERY_SET_LABEL[session.set]}</p>
           {plan.kind === 'resume' ? (
-            <button type="button" onClick={resume} className={`mt-3 flex min-h-[52px] w-full items-center justify-center gap-2 rounded-full px-6 text-base font-semibold ${gold}`}>
+            <button type="button" onClick={resume} className={`mt-3 flex min-h-[52px] w-full items-center justify-center gap-2 rounded-full px-6 text-base font-semibold ${primaryBtn}`}>
               Continuar <ChevronRight />
             </button>
           ) : (
             <div className="mt-2 text-[14px] text-muted">
               <p>Cambiaste los ajustes del Rosario desde que lo dejaste, así que los pasos ya no coinciden exactamente.</p>
               <div className="mt-3 flex flex-col gap-2 sm:flex-row">
-                <button type="button" onClick={() => void resumeSameMystery()} className={`flex min-h-[48px] flex-1 items-center justify-center rounded-full px-5 text-[15px] font-semibold ${gold}`}>
+                <button type="button" onClick={() => void resumeSameMystery()} className={`flex min-h-[48px] flex-1 items-center justify-center rounded-full px-5 text-[15px] font-semibold ${primaryBtn}`}>
                   {plan.phase >= 1 && plan.phase <= 5 ? `Seguir en el ${mysteryHeading(session.set, plan.phase).toLowerCase()}` : 'Seguir donde iba'}
                 </button>
                 <button type="button" onClick={() => void start()} className="btn !min-h-[48px] !rounded-full flex-1">Empezar de nuevo</button>
@@ -162,7 +162,7 @@ export function RosaryIntro() {
       ) : (
         <>
           {session && <p className="mb-2 text-center text-[13px] text-muted">Esto sustituye el rezo en curso.</p>}
-          <button type="button" disabled={busy} onClick={() => void start()} className={`flex min-h-[56px] w-full items-center justify-center rounded-full px-6 text-base font-semibold shadow-soft disabled:opacity-60 ${gold}`}>
+          <button type="button" disabled={busy} onClick={() => void start()} className={`flex min-h-[56px] w-full items-center justify-center rounded-full px-6 text-base font-semibold shadow-soft disabled:opacity-60 ${primaryBtn}`}>
             Comenzar
           </button>
         </>

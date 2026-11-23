@@ -64,7 +64,7 @@ export function VoicePicker({ className = '' }: { className?: string }) {
                   type="button"
                   onClick={(e) => { e.stopPropagation(); void sample(v.packId); }}
                   aria-label={playing ? `Pausar la muestra de ${v.voice.label}` : `Escuchar una muestra de ${v.voice.label}`}
-                  className="tap relative inline-grid h-11 w-11 shrink-0 place-items-center rounded-full text-gold ring-1 ring-line hover:bg-gold-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+                  className="tap relative inline-grid h-11 w-11 shrink-0 place-items-center rounded-full text-accent ring-1 ring-line hover:bg-sunken focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
                 >
                   <span className="absolute inset-0" aria-hidden><ProgressRing value={mine ? audio.progress : 0} size={44} stroke={3} /></span>
                   <span className="relative">{playing ? <PauseIcon size={18} /> : <PlayIcon size={18} />}</span>
@@ -86,10 +86,10 @@ function Option({ checked, onSelect, title, detail, trailing }: { checked: boole
         role="radio"
         aria-checked={checked}
         onClick={onSelect}
-        className="tap flex min-h-[44px] flex-1 items-center gap-3 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold"
+        className="tap flex min-h-[44px] flex-1 items-center gap-3 text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-accent"
       >
-        <span className={`grid h-5 w-5 shrink-0 place-items-center rounded-full ring-2 ${checked ? 'ring-gold' : 'ring-line'}`} aria-hidden>
-          {checked && <span className="h-2.5 w-2.5 rounded-full bg-gold" />}
+        <span className={`grid h-5 w-5 shrink-0 place-items-center rounded-full ring-2 ${checked ? 'ring-accent' : 'ring-line'}`} aria-hidden>
+          {checked && <span className="h-2.5 w-2.5 rounded-full bg-accent" />}
         </span>
         <span className="min-w-0">
           <span className="block font-medium">{title}</span>

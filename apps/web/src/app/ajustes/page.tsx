@@ -21,7 +21,7 @@ function Seg<T extends string>({ label, value, options, onChange }: { label: str
       <p className="mb-1 text-sm font-medium">{label}</p>
       <div role="group" aria-label={label} className="inline-flex flex-wrap gap-1 rounded-2xl bg-sunken p-1">
         {options.map((o) => (
-          <button key={o.id} type="button" aria-pressed={value === o.id} onClick={() => onChange(o.id)} className={`min-h-[40px] rounded-xl px-3.5 text-[13.5px] font-medium transition-colors ${value === o.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
+          <button key={o.id} type="button" aria-pressed={value === o.id} onClick={() => onChange(o.id)} className={`min-h-[40px] rounded-xl px-3.5 text-[13.5px] font-medium transition-colors ${value === o.id ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}>
             {o.label}
           </button>
         ))}
@@ -87,7 +87,8 @@ export default function Page() {
 
       <section className="card-soft mb-5" aria-labelledby="ap">
         <h2 id="ap" className="mb-3 font-display text-[1.15rem]">Apariencia y lectura</h2>
-        <Seg<UserSettings['theme']> label="Tema" value={s.theme} onChange={(theme) => update({ theme })} options={[{ id: 'system', label: 'Sistema' }, { id: 'light', label: 'Claro' }, { id: 'dark', label: 'Oscuro' }, { id: 'sepia', label: 'Sepia' }]} />
+        <Seg<UserSettings['theme']> label="Tema" value={s.theme} onChange={(theme) => update({ theme })} options={[{ id: 'dark', label: 'Oscuro' }, { id: 'light', label: 'Claro' }, { id: 'sepia', label: 'Sepia' }, { id: 'system', label: 'Sistema' }]} />
+        <p className="-mt-2 mb-4 text-[13px] text-muted">Oscuro es el predeterminado. Sepia está pensado para leer la Biblia con luz cálida; la oración se muestra siempre en oscuro.</p>
         <label className="mb-4 block text-sm font-medium">
           Tamaño de letra ({Math.round(s.fontScale * 100)}%)
           <input type="range" min={0.8} max={1.8} step={0.05} value={s.fontScale} onChange={(e) => update({ fontScale: Number(e.target.value) })} className="mt-1 block h-11 w-full" />

@@ -24,7 +24,7 @@ export default function Page() {
       <div className="mb-5">
         <div role="tablist" aria-label="Sección" className="flex rounded-full bg-sunken p-1">
           {(['bookmarks', 'history'] as const).map((t) => (
-            <button key={t} role="tab" aria-selected={tab === t} onClick={() => setTab(t)} className={`min-h-[40px] flex-1 rounded-full px-4 text-[13px] font-medium transition-colors ${tab === t ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
+            <button key={t} role="tab" aria-selected={tab === t} onClick={() => setTab(t)} className={`min-h-[40px] flex-1 rounded-full px-4 text-[13px] font-medium transition-colors ${tab === t ? 'bg-accent/20 text-fg ring-1 ring-accent/60' : 'text-muted'}`}>
               {t === 'bookmarks' ? 'Marcadores' : 'Historial'}
             </button>
           ))}

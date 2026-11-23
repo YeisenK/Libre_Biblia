@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation';
 import { useState } from 'react';
 import type { Prayer, PrayerMoment } from '@bc/shared';
 import { usePrayerCatalog } from '@/hooks/usePrayers';
-import { Chip, EmptyState, ListGroup, ListRow, MOMENT_LABEL, ScreenHeader, Section } from '../ui';
+import { ArtHeader, Chip, EmptyState, ListGroup, ListRow, MOMENT_LABEL, ScreenHeader, Section } from '../ui';
 import { detailOf } from './PrayerReader';
 
 const MOMENTS: PrayerMoment[] = ['morning', 'midday', 'afternoon', 'night'];
@@ -31,11 +31,11 @@ export function PrayerLibrary() {
 
   return (
     <div className="mx-auto max-w-2xl">
-      <ScreenHeader
+      <ArtHeader
+        artKey={current ? `category:${current.id}` : 'home:default'}
         back="/orar/"
-        eyebrow={current ? 'Oraciones' : 'Biblioteca'}
-        title={current?.title ?? 'Todas las oraciones'}
-        subtitle={current?.description}
+        title={current?.title ?? 'Oraciones'}
+        subtitle={current?.description ?? 'Todas las oraciones del devocionario, por categorías.'}
       />
       {catId && !current && <p className="mb-4 rounded-2xl bg-sunken px-4 py-3 text-sm text-muted">No existe esa categoría; te mostramos todas.</p>}
 
@@ -53,7 +53,7 @@ export function PrayerLibrary() {
           <Section key={c.id} title={current ? undefined : c.title}>
             <ListGroup>
               {list.map((p) => (
-                <ListRow key={p.id} icon={c.icon ?? 'hands'} title={p.title} detail={detailOf(p.nature, p.minutes)} href={`/oracion/?id=${encodeURIComponent(p.id)}`} />
+                <ListRow key={p.id} title={p.title} detail={detailOf(p.nature, p.minutes)} href={`/oracion/?id=${encodeURIComponent(p.id)}`} />
               ))}
             </ListGroup>
           </Section>

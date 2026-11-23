@@ -203,4 +203,65 @@ export const WORKS_SPIRITUAL: WorkSpec[] = [
     ],
     extraNotes: 'Original latino (no hay traducción española de dominio público con transcripción completa verificable en Wikisource; ver README). La atribución a Tomás de Kempis es tradicional y discutida por la crítica. Se conservan los números de párrafo del texto.',
   },
+  {
+    slug: 'historia-de-un-alma', title: 'Histoire d’une âme', subtitle: 'Historia de un alma, de santa Teresa del Niño Jesús (texto francés, edición de 1912)', genre: 'autobiography', language: 'fr',
+    author: { name: 'Teresa del Niño Jesús (Teresita de Lisieux)', born: '1873', died: '1897' }, region: 'Normandía', country: 'Francia', period: '1895–1897 (primera edición 1898)',
+    collection: C_ESPIRITUAL, authority: 'spiritual_classic', wikiLang: 'fr',
+    edition: 'Histoire d’une âme écrite par elle-même, «édition de 1912» (Lisieux, Office central de Lisieux), transcrita en fr.wikisource a partir del escaneo «Histoire d’une âme (édition de 1912).pdf»; página principal «Histoire d’une âme», revisión oldid=16100792',
+    mainPage: 'Histoire d’une âme',
+    parts: [
+      {
+        kind: 'group', title: 'Préliminaires',
+        parts: [{
+          kind: 'pages', headTitle: 3, reflow: true, pageParagraphs: true,
+          titles: [{ title: 'Préface', page: 'Histoire d’une âme/03' }, { title: 'Introduction', page: 'Histoire d’une âme/04' }],
+        }],
+      },
+      {
+        kind: 'group', title: 'Histoire d’une âme',
+        parts: [{
+          kind: 'pages', headTitle: 3, reflow: true, pageParagraphs: true, dropMatching: ['marquées? d’une †'],
+          titles: [
+          { title: 'Chapitre I', page: 'Histoire d’une âme/1/1' },
+          { title: 'Chapitre II', page: 'Histoire d’une âme/1/2' },
+          { title: 'Chapitre III', page: 'Histoire d’une âme/1/3' },
+          { title: 'Chapitre IV', page: 'Histoire d’une âme/1/4' },
+          { title: 'Chapitre V', page: 'Histoire d’une âme/1/5' },
+          { title: 'Chapitre VI', page: 'Histoire d’une âme/1/6' },
+          { title: 'Chapitre VII', page: 'Histoire d’une âme/1/7' },
+          { title: 'Chapitre VIII', page: 'Histoire d’une âme/1/8' },
+          { title: 'Chapitre IX', page: 'Histoire d’une âme/1/9' },
+          { title: 'Chapitre X', page: 'Histoire d’une âme/1/10' },
+          { title: 'Chapitre XI', page: 'Histoire d’une âme/1/11' },
+          { title: 'Chapitre XII', page: 'Histoire d’une âme/1/12' },
+          ],
+        }],
+      },
+      {
+        kind: 'group', title: 'Prières et actes d’offrande',
+        parts: [{ kind: 'prefix', prefix: 'Histoire d’une âme/2/', exclude: ['1'], headTitle: 3, reflow: true, pageParagraphs: true }],
+      },
+      {
+        kind: 'group', title: 'Lettres',
+        parts: [
+          { kind: 'chapters', page: 'Histoire d’une âme/3/1', keepLevel: 4, joinParents: true, titleStrip: '^LETTRES\\s+', reflow: true, pageParagraphs: true },
+          { kind: 'chapters', page: 'Histoire d’une âme/3/2', keepLevel: 4, joinParents: true, titleStrip: '^LETTRES\\s+', reflow: true, pageParagraphs: true, dropLines: ['fragments'] },
+          { kind: 'chapters', page: 'Histoire d’une âme/3/3', keepLevel: 4, joinParents: true, titleStrip: '^LETTRES\\s+', reflow: true, pageParagraphs: true },
+          { kind: 'chapters', page: 'Histoire d’une âme/3/4', keepLevel: 4, joinParents: true, titleStrip: '^LETTRES\\s+', reflow: true, pageParagraphs: true },
+          { kind: 'chapters', page: 'Histoire d’une âme/3/5', keepLevel: 4, joinParents: true, titleStrip: '^LETTRES\\s+', reflow: true, pageParagraphs: true },
+          { kind: 'chapters', page: 'Histoire d’une âme/3/6', keepLevel: 4, joinParents: true, titleStrip: '^LETTRES\\s+', reflow: true, pageParagraphs: true },
+          { kind: 'chapters', page: 'Histoire d’une âme/3/7', keepLevel: 4, joinParents: true, titleStrip: '^LETTRES\\s+', dropLines: ['fragments'], reflow: true, pageParagraphs: true },
+        ],
+      },
+      {
+        kind: 'group', title: 'Poésies',
+        parts: [
+          { kind: 'group', title: 'Première partie', parts: [{ kind: 'prefix', prefix: 'Histoire d’une âme/4/1/', headTitle: 3 }] },
+          { kind: 'group', title: 'Deuxième partie', parts: [{ kind: 'prefix', prefix: 'Histoire d’une âme/4/2/', headTitle: 3 }] },
+          { kind: 'group', title: 'Troisième partie', parts: [{ kind: 'prefix', prefix: 'Histoire d’une âme/4/3/', headTitle: 3 }] },
+        ],
+      },
+    ],
+    extraNotes: 'Texto en francés (original de la obra; no hay en es.wikisource una versión española). Fuente: fr.wikisource «Histoire d’une âme» (edición de 1912), oldid=16100792 (https://fr.wikisource.org/w/index.php?title=Histoire_d%E2%80%99une_%C3%A2me&oldid=16100792), transcrita del escaneo «Histoire d’une âme (édition de 1912).pdf». Se incluyen la Préface y la Introduction del editor, los 12 capítulos del relato (que en esta edición funden los manuscritos A, B y C), el Acto de ofrenda y las oraciones, las cartas y las poesías de la santa. Se omiten las cartas de aprobación, el apéndice «Conseils et Souvenirs» (recopilación de dichos por terceros), «Pluie de Roses» y el relato de la exhumación (textos editoriales posteriores), así como notas a pie, ilustraciones y paginación del escaneo.',
+  },
 ];

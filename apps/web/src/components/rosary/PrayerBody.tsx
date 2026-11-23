@@ -26,7 +26,7 @@ function block(b: Block, i: number): ReactNode {
     case 'hr':
       return <hr key={i} className="my-5 border-line" />;
     case 'quote':
-      return <blockquote key={i} className="border-l-2 border-gold/60 pl-4 italic">{b.c.map(block)}</blockquote>;
+      return <blockquote key={i} className="border-l-2 border-accent/60 pl-4 italic">{b.c.map(block)}</blockquote>;
     case 'ul':
       return <ul key={i} className="list-disc pl-6">{b.items.map((it, k) => <li key={k}>{inline(it)}</li>)}</ul>;
     case 'ol':

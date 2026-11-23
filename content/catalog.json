@@ -298,6 +298,28 @@
       }
     },
     {
+      "id": "doc.historia-de-un-alma",
+      "kind": "document",
+      "version": "2026.11.20",
+      "title": "Histoire d’une âme",
+      "language": "fr",
+      "url": "packs/doc.historia-de-un-alma.json.gz",
+      "bytes": 247110,
+      "sha256": "d1ed8a525dc7151d052192321879edf895f5b3689bacff3a8d082c36b29c9b64",
+      "authority": "spiritual_classic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en francés (fr.wikisource.org)",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://fr.wikisource.org/w/index.php?title=Histoire_d%E2%80%99une_%C3%A2me&oldid=16100792",
+        "downloadUrl": "https://fr.wikisource.org/w/api.php",
+        "originalSha256": "3b60ea369214b51e7ee3339480b74dcc633f75d5aca9847a90dd191e0f0ca0fc",
+        "retrievedAt": "2026-11-20T16:32:14.771Z",
+        "notes": "Autores de la transcripción: historial de la página (https://fr.wikisource.org/w/index.php?title=Histoire_d%E2%80%99une_%C3%A2me&action=history). 19 de 507 páginas del escaneo sin revisar. Texto en francés (original de la obra; no hay en es.wikisource una versión española). Fuente: fr.wikisource «Histoire d’une âme» (edición de 1912), oldid=16100792 (https://fr.wikisource.org/w/index.php?title=Histoire_d%E2%80%99une_%C3%A2me&oldid=16100792), transcrita del escaneo «Histoire d’une âme (édition de 1912).pdf». Se incluyen la Préface y la Introduction del editor, los 12 capítulos del relato (que en esta edición funden los manuscritos A, B y C), el Acto de ofrenda y las oraciones, las cartas y las poesías de la santa. Se omiten las cartas de aprobación, el apéndice «Conseils et Souvenirs» (recopilación de dichos por terceros), «Pluie de Roses» y el relato de la exhumación (textos editoriales posteriores), así como notas a pie, ilustraciones y paginación del escaneo."
+      }
+    },
+    {
       "id": "doc.imitacion-de-cristo",
       "kind": "document",
       "version": "2026.11.23",

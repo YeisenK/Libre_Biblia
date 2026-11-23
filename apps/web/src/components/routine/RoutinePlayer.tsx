@@ -9,7 +9,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { RoutineRow } from '@/lib/db';
 import { getDb } from '@/lib/db';
-import { artFor } from '@/lib/art';
+import { artForAny } from '@/lib/art';
 import { usePrayerCatalog } from '@/hooks/usePrayers';
 import { useSettings } from '@/hooks/useSettings';
 import { formatLongDate } from '@/lib/daily/date';
@@ -19,7 +19,7 @@ import { recordPrayed } from '@/lib/prayers/history';
 import { setItemDone, streak } from '@/lib/prayers/routines';
 import { clearPosition, parseItem, playerHref, savePosition, setVolver, stepLabel } from '@/lib/routine/flow';
 import { ChevronLeft, ChevronRight, CloseIcon } from '../Icons';
-import { PauseIcon, PlayIcon, SacredIcon } from '../icons/Sacred';
+import { CheckIcon, PauseIcon, PlayIcon } from '../icons/Sacred';
 import { PrayerAudioButton } from '../audio/PrayerAudio';
 import { TextSizeControl, momentOf } from '../ui';
 import { useDone, useNovenaProgress, useToday } from '../prayer/RoutineData';
@@ -167,7 +167,7 @@ export function RoutinePlayer({ routine, initial }: { routine: RoutineRow; initi
   const primaryLabel = skipOnly ? 'Saltar' : isLast ? 'Terminar' : parsed.kind === 'prayer' && !isDone ? 'Amén' : parsed.kind === 'novena' && !isDone ? 'Terminar el día' : 'Siguiente';
   const onPrimary = skipOnly ? skip : advance;
 
-  const art = artFor(`moment:${tone}`);
+  const art = artForAny(parsed.kind === 'prayer' ? [`prayer:${parsed.id}`, `category:${prayer?.categories[0] ?? 'default'}`, `moment:${tone}`] : parsed.kind === 'novena' ? [`novena:${parsed.id}`, `moment:${tone}`] : `moment:${tone}`);
   const audioKey = parsed.kind === 'prayer' ? `prayer:${parsed.id}` : null;
 
   return (
@@ -179,7 +179,7 @@ export function RoutinePlayer({ routine, initial }: { routine: RoutineRow; initi
           </button>
           <div className="min-w-0 flex-1 text-center">
             <p className="truncate font-display text-[1.05rem] font-semibold leading-tight">{routine.title}</p>
-            <p className="truncate text-[11px] uppercase tracking-[0.12em] text-muted" aria-live="polite">{stepLabel(i, total, title)}</p>
+            <p className="truncate text-[12px] font-medium text-muted" aria-live="polite">{stepLabel(i, total, title)}</p>
           </div>
           <div className="hidden md:block">
             <TextSizeControl value={settings.prayerFontScale} onChange={(v) => update({ prayerFontScale: v })} />
@@ -281,15 +281,15 @@ function Closing({ routine }: { routine: RoutineRow }) {
   return (
     <div className="theme-prayer fixed inset-0 z-50 flex flex-col items-center justify-center overflow-y-auto bg-sacred px-6 text-center" style={SAFE} role="region" aria-label="Rutina completada">
       <div className="my-auto flex max-w-md flex-col items-center py-10 animate-rise-in">
-        <span className="mb-6 text-[rgb(var(--gold))]"><SacredIcon name="hands" size={64} /></span>
-        <h1 className="font-display text-[2.6rem] font-semibold leading-tight">{all ? 'Rutina completada' : 'Rutina terminada'}</h1>
+        <span className="mb-6 grid h-16 w-16 place-items-center rounded-full ring-2 ring-[rgb(var(--gold))] text-[rgb(var(--gold))]"><CheckIcon size={30} /></span>
+        <h1 className="font-display text-[2.2rem] leading-tight">{all ? 'Rutina completada' : 'Rutina terminada'}</h1>
         <p className="mt-3 text-[15px] opacity-80">{routine.title}</p>
         <p className="mt-1 text-[14px] opacity-65">{formatLongDate(today)}</p>
         {!all && <p className="mt-3 text-[13px] opacity-70">{n} de {routine.items.length} rezadas hoy.</p>}
-        {(days ?? 0) > 0 && <p className="mt-6 font-display text-[1.2rem] italic opacity-90" role="status">{days === 1 ? '1 día seguido rezando' : `${days} días seguidos rezando`}</p>}
+        {(days ?? 0) > 0 && <p className="mt-6 text-[1.1rem] font-medium opacity-90" role="status">{days === 1 ? '1 día seguido rezando' : `${days} días seguidos rezando`}</p>}
         <p className="mt-2 font-display text-[1.1rem] opacity-75">Que Dios te bendiga.</p>
         <div className="mt-9 flex w-full flex-col gap-3">
-          <Link href="/" className="flex min-h-[56px] items-center justify-center rounded-full bg-[rgb(var(--gold))] px-6 text-base font-semibold text-[rgb(var(--night))]">Volver a Inicio</Link>
+          <Link href="/" className="flex min-h-[56px] items-center justify-center rounded-full bg-white px-6 text-base font-semibold text-[#0b0b12]">Volver a Inicio</Link>
           <Link href="/orar/" className="flex min-h-[52px] items-center justify-center rounded-full px-6 text-base ring-1 ring-white/25">Ir a Orar</Link>
         </div>
       </div>

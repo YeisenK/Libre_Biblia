@@ -55,8 +55,8 @@ function Line({ line }: { line: Inline[] }) {
   if (!m) return <span className="block">{inline(line)}</span>;
   const resp = m.who === 'R';
   return (
-    <span className={`flex gap-3 ${resp ? 'ml-3 border-l-2 border-gold/60 pl-3 font-medium' : ''}`}>
-      <span className="mt-[0.35em] w-5 shrink-0 font-sans text-[0.62em] font-semibold uppercase tracking-wider text-gold" aria-label={resp ? 'Respuesta' : 'Versículo'}>{m.who}.</span>
+    <span className={`flex gap-3 ${resp ? 'ml-3 border-l-2 border-accent/60 pl-3 font-medium' : ''}`}>
+      <span className="mt-[0.35em] w-5 shrink-0 font-sans text-[0.62em] font-semibold text-accent" aria-label={resp ? 'Respuesta' : 'Versículo'}>{m.who}.</span>
       <span className="min-w-0">{inline(m.rest)}</span>
     </span>
   );
@@ -77,7 +77,7 @@ function block(b: Block, i: number): ReactNode {
     case 'hr':
       return <hr key={i} className="my-6 border-line" />;
     case 'quote':
-      return <blockquote key={i} className="mb-4 border-l-2 border-gold pl-4 italic">{b.c.map(block)}</blockquote>;
+      return <blockquote key={i} className="mb-4 border-l-2 border-accent/60 pl-4 italic">{b.c.map(block)}</blockquote>;
     case 'ul':
       return <ul key={i} className="mb-4 list-disc pl-6">{b.items.map((it, k) => <li key={k}>{inline(it)}</li>)}</ul>;
     case 'ol':

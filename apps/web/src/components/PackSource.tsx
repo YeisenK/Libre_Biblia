@@ -18,8 +18,8 @@ export function LicenseBadge({ license, authority }: { license: string; authorit
   const pd = isPublicDomain(license);
   return (
     <span className="inline-flex flex-wrap gap-1">
-      {authority && <span className="rounded-full bg-sunken px-2 py-0.5 text-xs text-muted">{AUTHORITY_LABEL[authority]}</span>}
-      <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${pd ? 'bg-accent text-accent-fg' : 'bg-sunken text-muted'}`}>{pd ? 'Dominio público' : 'Licencia específica'}</span>
+      {authority && <span className="rounded-full bg-sunken px-2.5 py-0.5 text-[12px] text-muted">{AUTHORITY_LABEL[authority]}</span>}
+      <span className={`rounded-full px-2.5 py-0.5 text-[12px] font-medium ${pd ? 'bg-accent/15 text-accent' : 'bg-sunken text-muted'}`}>{pd ? 'Dominio público' : 'Licencia específica'}</span>
     </span>
   );
 }

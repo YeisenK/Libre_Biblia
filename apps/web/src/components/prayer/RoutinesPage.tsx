@@ -8,32 +8,32 @@ import { usePrayerCatalog } from '@/hooks/usePrayers';
 import { getDb, type RoutineRow } from '@/lib/db';
 import { createFromTemplate, createRoutine, streak } from '@/lib/prayers/routines';
 import { EmptyState, HeroCard, MOMENT_LABEL, ProgressRing, ScreenHeader, Section } from '../ui';
-import { PlusIcon, SacredIcon, BellIcon } from '../icons/Sacred';
+import { PlusIcon, BellIcon } from '../icons/Sacred';
 import { useDone, useRoutines, useToday } from './RoutineData';
 import { daysLabel, plural } from './RoutineItems';
 
-const MOMENT_ICON = { morning: 'sun', midday: 'sun', afternoon: 'sunset', night: 'moon', any: 'hours' } as const;
-
 function RoutineCard({ r, done, total }: { r: RoutineRow; done: number; total: number }) {
   const rem = r.reminder?.enabled ? r.reminder : null;
+  const tone = r.moment === 'any' ? 'bg-sacred' : `bg-moment-${r.moment}`;
+  const sameName = r.title.trim().toLowerCase() === MOMENT_LABEL[r.moment].toLowerCase();
   return (
-    <div className="card-soft flex items-center gap-3 hover:bg-sunken/60">
-    <Link href={`/rutina/?id=${encodeURIComponent(r.id)}`} className="tap flex min-w-0 flex-1 items-center gap-4">
-      <ProgressRing value={total ? done / total : 0} size={56} stroke={5} label={total ? `${done}/${total}` : '–'} />
-      <span className="min-w-0 flex-1">
-        <span className="eyebrow flex items-center gap-1.5"><SacredIcon name={MOMENT_ICON[r.moment]} size={14} /> {MOMENT_LABEL[r.moment]}</span>
-        <span className="block truncate font-display text-[1.3rem] font-semibold leading-tight">{r.title}</span>
-        <span className="block text-[13px] text-muted">
-          {plural(total, 'oración', 'oraciones')}
+    <div className={`relative flex items-center gap-3 overflow-hidden rounded-2xl p-4 ${tone}`}>
+      <Link href={`/rutina/?id=${encodeURIComponent(r.id)}`} className="tap flex min-w-0 flex-1 items-center gap-4">
+        <span className="text-white"><ProgressRing value={total ? done / total : 0} size={52} stroke={4} label={total ? `${done}/${total}` : '–'} /></span>
+        <span className="min-w-0 flex-1">
+          <span className="block truncate font-display text-[1.25rem] leading-tight">{r.title}</span>
+          <span className="mt-0.5 block text-[13px] text-white/70">
+            {sameName ? '' : `${MOMENT_LABEL[r.moment]} · `}
+            {plural(total, 'oración', 'oraciones')}
+          </span>
           {rem && (
-            <span className="ml-2 inline-flex items-center gap-1 text-gold">
+            <span className="mt-0.5 flex items-center gap-1 text-[13px] text-white/70">
               <BellIcon size={13} /> {rem.time} · {daysLabel(rem.days)}
             </span>
           )}
         </span>
-      </span>
-    </Link>
-    {total > 0 && <Link href={`/rezar/?r=${encodeURIComponent(r.id)}`} className="tap inline-flex min-h-[44px] shrink-0 items-center rounded-full bg-gold px-4 text-sm font-semibold text-black">Rezar</Link>}
+      </Link>
+      {total > 0 && <Link href={`/rezar/?r=${encodeURIComponent(r.id)}`} className="tap inline-flex min-h-[44px] shrink-0 items-center rounded-full bg-white px-5 text-sm font-semibold text-[#0b0b12]">Rezar</Link>}
     </div>
   );
 }
@@ -70,9 +70,9 @@ export function RoutinesPage() {
         <div className="h-28 animate-pulse rounded-2xl bg-sunken" aria-hidden />
       ) : mine.length === 0 ? (
         <div className="space-y-4">
-          <HeroCard tone="morning" icon="sun" eyebrow="Para empezar" title="Organiza tu oración de la mañana" subtitle="Crea rutinas con las oraciones que quieras rezar cada día. Puedes cambiarlas cuando quieras.">
+          <HeroCard tone="morning" eyebrow="Para empezar" title="Organiza tu oración de la mañana" subtitle="Crea rutinas con las oraciones que quieras rezar cada día. Puedes cambiarlas cuando quieras.">
             {missing.length > 0 && (
-              <button type="button" disabled={busy} onClick={() => void addTemplates(templates)} className="tap min-h-[48px] rounded-full bg-white/90 px-6 text-[15px] font-semibold text-[#2b2118] disabled:opacity-60">
+              <button type="button" disabled={busy} onClick={() => void addTemplates(templates)} className="tap min-h-[48px] rounded-full bg-white px-6 text-[15px] font-semibold text-[#0b0b12] disabled:opacity-60">
                 Crear las {templates.length} propuestas ({templates.map((t) => t.title.toLowerCase()).join(', ')})
               </button>
             )}
@@ -94,7 +94,7 @@ export function RoutinesPage() {
               return <RoutineCard key={r.id} r={r} done={d} total={total} />;
             })}
           </div>
-          <button type="button" disabled={busy} onClick={() => void create()} className="tap mb-8 flex min-h-[52px] w-full items-center justify-center gap-2 rounded-full bg-fg text-[15px] font-medium text-bg">
+          <button type="button" disabled={busy} onClick={() => void create()} className="tap mb-8 flex min-h-[52px] w-full items-center justify-center gap-2 rounded-full text-[15px] font-medium ring-1 ring-line hover:bg-sunken">
             <PlusIcon size={18} /> Nueva rutina
           </button>
           {missing.length > 0 && (

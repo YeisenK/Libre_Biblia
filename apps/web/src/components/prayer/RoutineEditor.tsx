@@ -11,9 +11,8 @@ import { Modal } from '../Modal';
 import { ArrowDownIcon, ArrowUpIcon, GripIcon, PlusIcon, TrashIcon } from '../icons/Sacred';
 import { Chip, EmptyState, ListGroup, MOMENT_LABEL, ScreenHeader, Section, Toggle } from '../ui';
 import { useRoutine } from './RoutineData';
-import { DAY_LABEL, DAY_NAME, itemIcon } from './RoutineItems';
+import { DAY_LABEL, DAY_NAME } from './RoutineItems';
 import { RoutineItemPicker } from './RoutineItemPicker';
-import { SacredIcon } from '../icons/Sacred';
 
 const MOMENTS: PrayerMoment[] = ['morning', 'midday', 'afternoon', 'night', 'any'];
 
@@ -94,7 +93,7 @@ export function RoutineEditor() {
 
   return (
     <div className="mx-auto max-w-3xl">
-      <ScreenHeader back="/rutinas/" title={routine.title || 'Rutina'} actions={list.length > 0 ? <a href={`/rezar/?r=${encodeURIComponent(routine.id)}`} className="tap mr-2 inline-flex min-h-[44px] items-center rounded-full bg-gold px-5 text-sm font-semibold text-black">Rezar</a> : undefined} />
+      <ScreenHeader back="/rutinas/" title={routine.title || 'Rutina'} actions={list.length > 0 ? <a href={`/rezar/?r=${encodeURIComponent(routine.id)}`} className="tap mr-2 inline-flex min-h-[44px] items-center rounded-full bg-ink px-5 text-sm font-semibold text-ink-fg">Rezar</a> : undefined} />
 
       <Section>
         <label htmlFor="routine-title" className="eyebrow mb-1.5 block">Nombre</label>
@@ -130,7 +129,6 @@ export function RoutineEditor() {
                 >
                   <GripIcon size={20} />
                 </button>
-                <span className="shrink-0 text-muted"><SacredIcon name={itemIcon(k)} size={18} /></span>
                 <a href={itemHref(k)} className="mx-2 min-w-0 flex-1 truncate py-2 text-[15px] font-medium">{name(k)}</a>
                 <button type="button" aria-label={`Subir «${name(k)}»`} disabled={i === 0} onClick={() => move(i, i - 1)} className="tap grid h-11 w-11 place-items-center rounded-full hover:bg-sunken disabled:opacity-30"><ArrowUpIcon size={18} /></button>
                 <button type="button" aria-label={`Bajar «${name(k)}»`} disabled={i === list.length - 1} onClick={() => move(i, i + 1)} className="tap grid h-11 w-11 place-items-center rounded-full hover:bg-sunken disabled:opacity-30"><ArrowDownIcon size={18} /></button>

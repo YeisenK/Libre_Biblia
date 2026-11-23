@@ -14,14 +14,13 @@ import { readerHref } from '@/lib/links';
 import { prayerText, splitReadings, type PrayerCatalog } from '@/lib/prayers/catalog';
 import { todaySet } from '@/lib/rosary/flow';
 import { NatureBadge } from '../ui';
-import { SacredIcon } from '../icons/Sacred';
 import { PassagePanel } from '../rosary/PassagePanel';
 import { PrayerBody } from '../rosary/PrayerBody';
 import { PrayerText } from '../prayer/PrayerText';
 
 const H2 = 'font-display text-[2rem] font-semibold leading-[1.12]';
 const ghost = 'flex min-h-[52px] items-center justify-center rounded-full px-6 text-[15px] font-medium ring-1 ring-line hover:bg-sunken';
-const primary = 'flex min-h-[56px] items-center justify-center rounded-full bg-gold px-6 text-base font-semibold text-black';
+const primary = 'flex min-h-[56px] items-center justify-center rounded-full bg-ink px-6 text-base font-semibold text-ink-fg';
 
 export function PrayerStepBody({ prayer, title, variants, showLatin }: { prayer: Prayer | undefined; title: string; variants: Record<string, string>; showLatin: boolean }) {
   return (
@@ -99,7 +98,7 @@ export function NovenaStepBody({ novena, progress, day, cat, variants, onStart, 
     <>
       <p className="eyebrow mb-2">Novena · Día {d.day} de {total}</p>
       <h2 className={H2}>{novena.title}</h2>
-      {d.title && <p className="mt-1 font-display text-[1.3rem] text-gold">{d.title}</p>}
+      {d.title && <p className="mt-1 font-display text-[1.3rem] text-accent">{d.title}</p>}
       <div className="mt-6 space-y-8">
         {novena.opening.length > 0 && <section><p className="eyebrow mb-3">Oraciones iniciales</p><Steps steps={novena.opening} cat={cat} variants={variants} /></section>}
         {d.reading && (
@@ -210,8 +209,7 @@ export function RosaryStepBody({ timeZone, onOpen, onSkip }: { timeZone: string 
     <>
       <p className="eyebrow mb-2">Oración</p>
       <h2 className={H2}>Santo Rosario</h2>
-      <p className="mt-2 text-gold">{MYSTERY_SET_LABEL[set]}</p>
-      <div className="my-8 flex justify-center text-gold"><SacredIcon name="rosary" size={72} /></div>
+      <p className="mb-6 mt-2 text-muted">{MYSTERY_SET_LABEL[set]}</p>
       <p className="prayer-text text-muted">Reza ahora el Rosario guiado. Al terminar o salir volverás aquí, a lo siguiente de tu rutina.</p>
       <div className="mt-6 flex flex-col gap-3">
         <button type="button" onClick={onOpen} className={primary}>Rezar el Rosario ahora</button>

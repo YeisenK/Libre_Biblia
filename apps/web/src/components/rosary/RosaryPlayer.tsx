@@ -17,7 +17,7 @@ import { usePrayerCatalog } from '@/hooks/usePrayers';
 import { useSettings } from '@/hooks/useSettings';
 import { useQueryClient } from '@tanstack/react-query';
 import { ChevronLeft, ChevronRight, CloseIcon } from '../Icons';
-import { PauseIcon, PlayIcon, SacredIcon } from '../icons/Sacred';
+import { CheckIcon, PauseIcon, PlayIcon, SacredIcon } from '../icons/Sacred';
 import { NatureBadge, ProgressBar, TextSizeControl, EmptyState, Segmented } from '../ui';
 import { PrayerAudioButton } from '../audio/PrayerAudio';
 import { RosaryBeads, type BeadState } from './RosaryBeads';
@@ -200,7 +200,7 @@ export function RosaryPlayer({ session }: { session: RosarySessionRow }) {
         <>
           <p className="eyebrow mb-2">{heading}</p>
           <h2 className="font-display text-[2.1rem] font-semibold leading-[1.1]">{mystery.title}</h2>
-          {mystery.fruit && <p className="mt-3 text-[15px] text-gold">Fruto del misterio: {mystery.fruit}</p>}
+          {mystery.fruit && <p className="mt-3 text-[15px] text-accent">Fruto del misterio: {mystery.fruit}</p>}
           <p className="prayer-text mt-4 text-muted">{mystery.teaching}</p>
         </>
       )}
@@ -256,7 +256,7 @@ export function RosaryPlayer({ session }: { session: RosarySessionRow }) {
           </button>
           <div className="min-w-0 flex-1 text-center">
             <p className="truncate font-display text-[1.05rem] font-semibold leading-tight">{topLine}</p>
-            <p className="truncate text-[11px] uppercase tracking-[0.14em] text-muted">
+            <p className="truncate text-[12px] font-medium text-muted">
               {prog.decade ? `Misterio ${prog.decade} de 5 · ` : ''}
               {Math.round(prog.fraction * 100)} % del Rosario
             </p>
@@ -289,7 +289,7 @@ export function RosaryPlayer({ session }: { session: RosarySessionRow }) {
               <div className="mt-2 flex items-center justify-between gap-2">
                 <p className="text-[13px] text-muted" aria-live="polite">{where}</p>
                 {step.decade && (
-                  <button type="button" onClick={() => setView((v) => (v === 'full' ? 'decade' : 'full'))} className="min-h-[44px] rounded-full px-3 text-[12px] text-gold underline underline-offset-4">
+                  <button type="button" onClick={() => setView((v) => (v === 'full' ? 'decade' : 'full'))} className="min-h-[44px] rounded-full px-3 text-[12px] text-accent underline underline-offset-4">
                     {view === 'full' ? 'Ver solo la decena' : 'Ver el rosario completo'}
                   </button>
                 )}
@@ -377,14 +377,14 @@ function Closing({ session, completedAt, tz }: { session: RosarySessionRow; comp
   return (
     <div className="fixed inset-0 z-50 flex flex-col items-center justify-center overflow-y-auto bg-sacred px-6 text-center" style={SAFE} role="region" aria-label="Rosario completado">
       <div className="my-auto flex max-w-md flex-col items-center py-10 animate-rise-in">
-        <span className="mb-6 text-[rgb(var(--gold))]"><SacredIcon name="rosary" size={64} /></span>
-        <h1 className="font-display text-[2.6rem] font-semibold leading-tight">Rosario completado</h1>
+        <span className="mb-6 grid h-16 w-16 place-items-center rounded-full ring-2 ring-[rgb(var(--gold))] text-[rgb(var(--gold))]"><CheckIcon size={30} /></span>
+        <h1 className="font-display text-[2.2rem] leading-tight">Rosario completado</h1>
         <p className="mt-3 text-[15px] opacity-80">{MYSTERY_SET_LABEL[session.set]}</p>
         <p className="mt-1 text-[14px] opacity-65">{formatLongDate(day)}</p>
-        {session.intention && <p className="mt-5 max-w-[32ch] font-display text-[1.2rem] italic opacity-90">«{session.intention}»</p>}
+        {session.intention && <p className="mt-5 max-w-[32ch] font-serif text-[1.2rem] italic opacity-90">«{session.intention}»</p>}
         <div className="mt-9 flex w-full flex-col gap-3">
-          {back && <Link href={back} onClick={() => clearVolver()} className="flex min-h-[56px] items-center justify-center rounded-full bg-[rgb(var(--gold))] px-6 text-base font-semibold text-[rgb(var(--night))]">Seguir con mi rutina</Link>}
-          <Link href="/" className={back ? 'flex min-h-[52px] items-center justify-center rounded-full px-6 text-base ring-1 ring-white/25' : 'flex min-h-[56px] items-center justify-center rounded-full bg-[rgb(var(--gold))] px-6 text-base font-semibold text-[rgb(var(--night))]'}>Volver a Inicio</Link>
+          {back && <Link href={back} onClick={() => clearVolver()} className="flex min-h-[56px] items-center justify-center rounded-full bg-white px-6 text-base font-semibold text-[#0b0b12]">Seguir con mi rutina</Link>}
+          <Link href="/" className={back ? 'flex min-h-[52px] items-center justify-center rounded-full px-6 text-base ring-1 ring-white/25' : 'flex min-h-[56px] items-center justify-center rounded-full bg-white px-6 text-base font-semibold text-[#0b0b12]'}>Volver a Inicio</Link>
           <Link href="/orar/" className="flex min-h-[52px] items-center justify-center rounded-full px-6 text-base ring-1 ring-white/25">Ir a Orar</Link>
           <Link href="/rosario/historial/" className="flex min-h-[44px] items-center justify-center text-sm underline underline-offset-4 opacity-75">Ver mi historial</Link>
         </div>

@@ -19,6 +19,15 @@ interface Item {
   repoUrl: string;
   entry: CatalogEntry;
 }
+/** Nombre del idioma en español («español», «latín», «inglés»); si no se conoce, el código. */
+function languageName(code?: string): string {
+  if (!code) return '';
+  try {
+    return new Intl.DisplayNames(['es'], { type: 'language' }).of(code) ?? code;
+  } catch {
+    return code;
+  }
+}
 const KIND_LABEL = { bible: 'Biblias', document: 'Documentos', daily: 'Versículo del día', prayers: 'Oraciones', audio: 'Voces de oración' } as const;
 
 export default function Page() {
@@ -122,63 +131,64 @@ export default function Page() {
     }
   }
 
-  const renderItem = ({ repoUrl: rUrl, entry }: Item, star = false) => {
-              const inst = installed.data?.find((p) => p.id === entry.id);
-              const prog = progress[entry.id];
-              const outdated = !!inst && inst.version !== entry.version;
-              return (
-                <li key={`${rUrl}|${entry.id}`} className={`card-soft ${star ? 'ring-accent/50' : ''}`}>
-                  <div className="flex flex-wrap items-start justify-between gap-2">
-                    <div className="min-w-0">
-                      <h3 className="font-display text-[1.1rem] leading-tight">{entry.title}</h3>
-                      <p className="text-sm text-muted">
-                        {entry.language} · {formatBytes(entry.bytes)} · v{entry.version}
-                        {inst && !outdated && ' · instalado'}
-                        {outdated && ` · instalado v${inst.version}`}
-                      </p>
-                      {entry.description && <p className="mt-1 text-sm">{entry.description}</p>}
-                      <div className="mt-1"><StatusBadges meta={{ ...entry, ...(inst ?? {}) }} /></div>
-                      <Notice text={entry.notice ?? inst?.notice} />
-                    </div>
-                    <div className="flex gap-2">
-                      {(!inst || outdated) && (
-                        <button className="btn btn-primary" disabled={!!prog} onClick={() => void run(entry.id, (cb) => installFromCatalog(entry, rUrl, cb))}>
-                          {outdated ? 'Actualizar' : 'Descargar'}
-                        </button>
-                      )}
-                      {inst && (
-                        <button className="btn" disabled={!!prog} onClick={() => void run(entry.id, () => uninstall(entry.id))}>
-                          Eliminar
-                        </button>
-                      )}
-                    </div>
-                  </div>
-                  <div className="mt-2">
-                    <LicenseBadge license={entry.source.license} authority={entry.authority} />
-                  </div>
-                  <details className="mt-2 text-sm">
-                    <summary className="min-h-[32px] cursor-pointer text-muted">Licencia y procedencia</summary>
-                    <div className="mt-2">
-                      <PackSourceInfo source={entry.source} />
-                    </div>
-                  </details>
-                  {prog && (
-                    <div className="mt-3" role="status">
-                      <div className="h-2 overflow-hidden rounded-full bg-line/70" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(prog.f * 100)} aria-label={`Progreso de ${entry.title}`}>
-                        <div className="h-full rounded-full bg-gold transition-all" style={{ width: `${Math.round(prog.f * 100)}%` }} />
-                      </div>
-                      <p className="mt-1 text-xs text-muted">{prog.phase} · {Math.round(prog.f * 100)}%</p>
-                      <p className="mt-1 text-xs font-medium">No cierres esta pantalla hasta que termine.</p>
-                    </div>
-                  )}
-                  {errors[entry.id] && (
-                    <p role="alert" className="mt-2 text-sm text-danger">
-                      {errors[entry.id]}
-                    </p>
-                  )}
-                </li>
-              );
-            };
+  const renderItem = ({ repoUrl: rUrl, entry }: Item) => {
+    const inst = installed.data?.find((p) => p.id === entry.id);
+    const prog = progress[entry.id];
+    const outdated = !!inst && inst.version !== entry.version;
+    const notice = entry.notice ?? inst?.notice;
+    return (
+      <li key={`${rUrl}|${entry.id}`} className="py-4 first:pt-1">
+        <div className="flex items-start gap-3">
+          <div className="min-w-0 flex-1">
+            <h3 className="text-[16px] font-semibold leading-snug">{entry.title}</h3>
+            <p className="text-[13px] text-muted">
+              {languageName(entry.language)} · {formatBytes(entry.bytes)} · v{entry.version}
+              {inst && !outdated && ' · instalado'}
+              {outdated && ` · instalado v${inst.version}`}
+            </p>
+          </div>
+          <div className="flex shrink-0 flex-col items-end gap-2">
+            {(!inst || outdated) && (
+              <button className="tap inline-flex min-h-[40px] items-center rounded-full bg-ink px-4 text-[14px] font-semibold text-ink-fg disabled:opacity-50" disabled={!!prog} onClick={() => void run(entry.id, (cb) => installFromCatalog(entry, rUrl, cb))}>
+                {outdated ? 'Actualizar' : 'Descargar'}
+              </button>
+            )}
+            {inst && (
+              <button className="tap inline-flex min-h-[40px] items-center rounded-full px-4 text-[14px] font-medium ring-1 ring-line hover:bg-sunken disabled:opacity-50" disabled={!!prog} onClick={() => void run(entry.id, () => uninstall(entry.id))}>
+                Eliminar
+              </button>
+            )}
+          </div>
+        </div>
+        {entry.description && <p className="mt-1.5 text-[14px] leading-snug text-fg/85">{entry.description}</p>}
+        <div className="mt-2 flex flex-wrap items-center gap-1">
+          <StatusBadges meta={{ ...entry, ...(inst ?? {}) }} />
+          <LicenseBadge license={entry.source.license} authority={entry.authority} />
+        </div>
+        {notice && !entry.description?.includes(notice) && <Notice text={notice} />}
+        <details className="mt-1 text-sm">
+          <summary className="flex min-h-[36px] cursor-pointer items-center text-muted">Licencia y procedencia</summary>
+          <div className="mt-1">
+            <PackSourceInfo source={entry.source} />
+          </div>
+        </details>
+        {prog && (
+          <div className="mt-2" role="status">
+            <div className="h-1.5 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(prog.f * 100)} aria-label={`Progreso de ${entry.title}`}>
+              <div className="h-full rounded-full bg-gold transition-all" style={{ width: `${Math.round(prog.f * 100)}%` }} />
+            </div>
+            <p className="mt-1 text-xs text-muted">{prog.phase} · {Math.round(prog.f * 100)}%</p>
+            <p className="mt-1 text-xs font-medium">No cierres esta pantalla hasta que termine.</p>
+          </div>
+        )}
+        {errors[entry.id] && (
+          <p role="alert" className="mt-2 text-sm text-danger">
+            {errors[entry.id]}
+          </p>
+        )}
+      </li>
+    );
+  };
 
   return (
     <div className="mx-auto max-w-3xl">
@@ -204,13 +214,13 @@ export default function Page() {
 
       {recommended.length > 0 && (
         <Section title="Recomendado para empezar">
-          <ul className="flex flex-col gap-3">{recommended.map((it) => renderItem(it, true))}</ul>
+          <ul className="divide-y divide-line">{recommended.map((it) => renderItem(it))}</ul>
         </Section>
       )}
 
       {groups.map(([title, list]) => (
         <Section key={title} title={title}>
-          <ul className="flex flex-col gap-3">{list.map((it) => renderItem(it))}</ul>
+          <ul className="divide-y divide-line">{list.map((it) => renderItem(it))}</ul>
         </Section>
       ))}
 
@@ -218,7 +228,7 @@ export default function Page() {
         <details className="mb-8">
           <summary className="cursor-pointer py-2 font-display text-[1.25rem]">Otros idiomas ({others.length})</summary>
           <p className="mb-3 text-sm text-muted">Biblias y obras que no están en español. Puedes instalarlas; no aparecerán en el lector salvo que actives «Mostrar Biblias en otros idiomas» en Ajustes.</p>
-          <ul className="flex flex-col gap-3">{others.map((it) => renderItem(it))}</ul>
+          <ul className="divide-y divide-line">{others.map((it) => renderItem(it))}</ul>
         </details>
       )}
 

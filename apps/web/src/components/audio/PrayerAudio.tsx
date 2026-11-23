@@ -47,7 +47,7 @@ export function PrayerAudioButton({ clipKey, autoPlay, onEnded, className = '' }
       aria-label={label}
       aria-pressed={playing}
       title={label}
-      className={`tap relative inline-grid h-12 w-12 shrink-0 place-items-center rounded-full bg-surface text-gold shadow-soft ring-1 ring-line/70 transition-transform active:scale-95 hover:bg-gold-soft focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold ${loading ? 'animate-pulse' : ''} ${className}`}
+      className={`tap relative inline-grid h-12 w-12 shrink-0 place-items-center rounded-full bg-surface text-accent ring-1 ring-line transition-transform active:scale-95 hover:bg-sunken focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${loading ? 'animate-pulse' : ''} ${className}`}
     >
       <span className="absolute inset-0" aria-hidden>
         <ProgressRing value={mine ? audio.progress : 0} size={48} stroke={3} />

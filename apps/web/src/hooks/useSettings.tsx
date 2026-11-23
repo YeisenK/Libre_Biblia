@@ -4,7 +4,7 @@ import { lsGet, lsSet } from '@/lib/storage';
 import { DEFAULT_SETTINGS, SETTINGS_KEY, mergeSettings, resolveTheme, type UserSettings } from '@/lib/settings';
 import { getDb } from '@/lib/db';
 import { getSettings, putSettings } from '@/lib/personal';
-import { applyNativeTheme } from '@/lib/native/theme';
+import { THEME_BG, applyNativeTheme } from '@/lib/native/theme';
 
 interface Ctx {
   settings: UserSettings;
@@ -45,6 +45,8 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     const apply = () => {
       const t = resolveTheme(settings.theme, mq.matches);
       root.setAttribute('data-theme', t);
+      // Barra del navegador/PWA del mismo color que el fondo del tema.
+      document.querySelectorAll('meta[name="theme-color"]').forEach((m) => m.setAttribute('content', THEME_BG[t].color));
       void applyNativeTheme(t);
     };
     apply();

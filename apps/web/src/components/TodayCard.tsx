@@ -46,7 +46,7 @@ export function TodayCard() {
         <p className="eyebrow">{g ? 'Evangelio del día' : 'Versículo del día'}</p>
         {title ? (
           <>
-            <p className="mt-1 font-serif text-[1.2rem] font-semibold leading-snug">{title}</p>
+            <p className="mt-1 font-display text-[1.2rem] leading-snug">{title}</p>
             {text && <p className="mt-1.5 font-serif text-[15.5px] leading-relaxed text-muted">{text}</p>}
             <p className="mt-3 text-[14px] font-medium text-accent">Leer</p>
           </>

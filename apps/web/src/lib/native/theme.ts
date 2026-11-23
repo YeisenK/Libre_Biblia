@@ -3,8 +3,8 @@ import { isNative } from './platform';
 export type NativeTheme = 'light' | 'dark' | 'sepia';
 // Coinciden con --bg de globals.css; `light` = iconos oscuros de la barra de estado.
 export const THEME_BG: Record<NativeTheme, { color: string; lightBar: boolean }> = {
-  light: { color: '#faf7f0', lightBar: true },
-  dark: { color: '#14161a', lightBar: false },
+  light: { color: '#fbfaff', lightBar: true },
+  dark: { color: '#0b0b12', lightBar: false },
   sepia: { color: '#f2e6cc', lightBar: true },
 };
 
