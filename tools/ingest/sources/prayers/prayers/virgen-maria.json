@@ -1,0 +1,156 @@
+[
+  {
+    "id": "bajo-tu-amparo",
+    "title": "Bajo tu amparo",
+    "altTitles": [
+      "Sub tuum praesidium"
+    ],
+    "categories": [
+      "virgen-maria",
+      "proteccion",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Bajo tu amparo nos acogemos,\nsanta Madre de Dios;\nno desprecies las súplicas que te dirigimos en nuestras necesidades;\nantes bien, líbranos siempre de todo peligro,\noh Virgen gloriosa y bendita.",
+    "latin": "Sub tuum praesidium confugimus,\nSancta Dei Genetrix;\nnostras deprecationes ne despicias in necessitatibus,\nsed a periculis cunctis libera nos semper,\nVirgo gloriosa et benedicta.",
+    "context": "Suele considerarse la oración mariana más antigua que se conserva: un papiro griego de Egipto, hoy en Mánchester (papiro Rylands 470), contiene una forma algo distinta, y se fecha hacia el siglo III o IV (la datación es discutida). La forma latina y castellana actual procede de la tradición posterior.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Pablo VI, Marialis cultus (1974)",
+        "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html"
+      },
+      {
+        "label": "Sub tuum praesidium (papiro Rylands 470)",
+        "url": "https://en.wikipedia.org/wiki/Sub_tuum_praesidium"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "acordaos",
+    "title": "Acordaos (Memorare)",
+    "altTitles": [
+      "Memorare",
+      "Oración de san Bernardo"
+    ],
+    "categories": [
+      "virgen-maria",
+      "proteccion",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Acordaos, oh piadosísima Virgen María, que jamás se ha oído decir que ninguno de los que han acudido a vuestra protección, implorado vuestra asistencia y reclamado vuestro socorro, haya sido abandonado de vos. Animado con esta confianza, a vos también acudo, oh Madre, Virgen de las vírgenes; y, gimiendo bajo el peso de mis pecados, me atrevo a comparecer ante vuestra presencia soberana. No desechéis, oh Madre de Dios, mis humildes súplicas; antes bien, escuchadlas y acogedlas benignamente. Amén.",
+    "latin": "Memorare, o piissima Virgo Maria, non esse auditum a saeculo, quemquam ad tua currentem praesidia, tua implorantem auxilia, tua petentem suffragia, esse derelictum. Ego tali animatus confidentia, ad te, Virgo Virginum, Mater, curro, ad te venio, coram te gemens peccator assisto. Noli, Mater Verbi, verba mea despicere; sed audi propitia et exaudi. Amen.",
+    "context": "Oración muy difundida desde el siglo XVII. A menudo se llama «de san Bernardo», pero su atribución a san Bernardo de Claraval no es segura: el texto actual es posterior a su tiempo. Por eso no se le atribuye aquí.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "magnificat",
+    "title": "Magníficat",
+    "altTitles": [
+      "Cántico de María",
+      "Magnificat"
+    ],
+    "categories": [
+      "virgen-maria",
+      "accion-de-gracias",
+      "liturgia-horas",
+      "latin"
+    ],
+    "moments": [
+      "afternoon"
+    ],
+    "nature": "liturgical",
+    "text": "Proclama mi alma la grandeza del Señor,\nse alegra mi espíritu en Dios, mi salvador;\nporque ha mirado la humildad de su esclava.\nDesde ahora me felicitarán todas las generaciones,\nporque el Poderoso ha hecho obras grandes en mí:\nsu nombre es santo,\ny su misericordia llega a sus fieles de generación en generación.\nÉl hace proezas con su brazo:\ndispersa a los soberbios de corazón,\nderriba del trono a los poderosos\ny enaltece a los humildes,\na los hambrientos los colma de bienes\ny a los ricos los despide vacíos.\nAuxilia a Israel, su siervo,\nacordándose de la misericordia,\ncomo lo había prometido a nuestros padres,\nen favor de Abraham y su descendencia por siempre.\nGloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre,\npor los siglos de los siglos. Amén.",
+    "latin": "Magnificat anima mea Dominum,\net exsultavit spiritus meus in Deo salutari meo,\nquia respexit humilitatem ancillae suae.\nEcce enim ex hoc beatam me dicent omnes generationes,\nquia fecit mihi magna qui potens est,\net sanctum nomen eius,\net misericordia eius in progenies et progenies\ntimentibus eum.\nFecit potentiam in bracchio suo,\ndispersit superbos mente cordis sui;\ndeposuit potentes de sede\net exaltavit humiles;\nesurientes implevit bonis\net divites dimisit inanes.\nSuscepit Israel puerum suum,\nrecordatus misericordiae suae,\nsicut locutus est ad patres nostros,\nAbraham et semini eius in saecula.\n\nGloria Patri, et Filio, et Spiritui Sancto.\nSicut erat in principio, et nunc, et semper,\net in saecula saeculorum. Amen.",
+    "context": "Cántico de María en la Visitación (Lc 1,46-55). La Iglesia lo canta cada tarde en las Vísperas. Para el texto oficial de la Liturgia de las Horas, véase el breviario.",
+    "rubric": "En la Liturgia de las Horas es el cántico evangélico de las Vísperas.",
+    "scripture": [
+      "Lc 1,46-55"
+    ],
+    "sources": [
+      {
+        "label": "Conferencia Episcopal Española (liturgia y textos oficiales)",
+        "url": "https://www.conferenciaepiscopal.es"
+      },
+      {
+        "label": "Pablo VI, Marialis cultus (1974)",
+        "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html"
+      }
+    ],
+    "minutes": 3
+  },
+  {
+    "id": "letania-lauretana",
+    "title": "Letanía lauretana",
+    "altTitles": [
+      "Letanías de la Virgen",
+      "Letanías de Loreto"
+    ],
+    "categories": [
+      "virgen-maria",
+      "rosarios-coronillas",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor, ten piedad. — Señor, ten piedad.\nCristo, ten piedad. — Cristo, ten piedad.\nSeñor, ten piedad. — Señor, ten piedad.\nCristo, óyenos. — Cristo, óyenos.\nCristo, escúchanos. — Cristo, escúchanos.\n\nDios, Padre celestial, ten misericordia de nosotros.\nDios, Hijo, Redentor del mundo, ten misericordia de nosotros.\nDios, Espíritu Santo, ten misericordia de nosotros.\nSantísima Trinidad, un solo Dios, ten misericordia de nosotros.\n\nSanta María, ruega por nosotros.\nSanta Madre de Dios, ruega por nosotros.\nSanta Virgen de las vírgenes, ruega por nosotros.\nMadre de Cristo, ruega por nosotros.\nMadre de la Iglesia, ruega por nosotros.\nMadre de la misericordia, ruega por nosotros.\nMadre de la divina gracia, ruega por nosotros.\nMadre de la esperanza, ruega por nosotros.\nMadre purísima, ruega por nosotros.\nMadre castísima, ruega por nosotros.\nMadre siempre virgen, ruega por nosotros.\nMadre inmaculada, ruega por nosotros.\nMadre amable, ruega por nosotros.\nMadre admirable, ruega por nosotros.\nMadre del buen consejo, ruega por nosotros.\nMadre del Creador, ruega por nosotros.\nMadre del Salvador, ruega por nosotros.\nVirgen prudentísima, ruega por nosotros.\nVirgen digna de veneración, ruega por nosotros.\nVirgen digna de alabanza, ruega por nosotros.\nVirgen poderosa, ruega por nosotros.\nVirgen clemente, ruega por nosotros.\nVirgen fiel, ruega por nosotros.\nEspejo de justicia, ruega por nosotros.\nTrono de la sabiduría, ruega por nosotros.\nCausa de nuestra alegría, ruega por nosotros.\nVaso espiritual, ruega por nosotros.\nVaso digno de honor, ruega por nosotros.\nVaso insigne de devoción, ruega por nosotros.\nRosa mística, ruega por nosotros.\nTorre de David, ruega por nosotros.\nTorre de marfil, ruega por nosotros.\nCasa de oro, ruega por nosotros.\nArca de la alianza, ruega por nosotros.\nPuerta del cielo, ruega por nosotros.\nEstrella de la mañana, ruega por nosotros.\nSalud de los enfermos, ruega por nosotros.\nRefugio de los pecadores, ruega por nosotros.\nConsuelo de los migrantes, ruega por nosotros.\nConsoladora de los afligidos, ruega por nosotros.\nAuxilio de los cristianos, ruega por nosotros.\nReina de los ángeles, ruega por nosotros.\nReina de los patriarcas, ruega por nosotros.\nReina de los profetas, ruega por nosotros.\nReina de los apóstoles, ruega por nosotros.\nReina de los mártires, ruega por nosotros.\nReina de los confesores, ruega por nosotros.\nReina de las vírgenes, ruega por nosotros.\nReina de todos los santos, ruega por nosotros.\nReina concebida sin pecado original, ruega por nosotros.\nReina asunta al cielo, ruega por nosotros.\nReina del santísimo Rosario, ruega por nosotros.\nReina de la familia, ruega por nosotros.\nReina de la paz, ruega por nosotros.\n\nCordero de Dios, que quitas el pecado del mundo, perdónanos, Señor.\nCordero de Dios, que quitas el pecado del mundo, escúchanos, Señor.\nCordero de Dios, que quitas el pecado del mundo, ten misericordia de nosotros.\n\nRuega por nosotros, santa Madre de Dios.\nPara que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo.\n\nOremos. Te rogamos, Señor, que nosotros, tus siervos, gocemos siempre de salud de alma y cuerpo y, por la gloriosa intercesión de santa María, la Virgen, seamos libres de las tristezas de este mundo y disfrutemos de las alegrías del cielo. Por Jesucristo, nuestro Señor. Amén.",
+    "context": "Letanía de la Virgen cuya forma más antigua conocida se documenta en el santuario de Loreto (Italia) en el siglo XVI. A lo largo de los siglos se le han añadido invocaciones. El 20 de junio de 2020 la Congregación para el Culto Divino comunicó, por decisión del papa Francisco, tres nuevas: *Madre de la misericordia*, *Madre de la esperanza* y *Consuelo de los migrantes* (en latín, *Solacium migrantium*; algunas ediciones en español traducen esta última de otro modo, por ejemplo «Ayuda de los migrantes»).\n\nSe reza con frecuencia al final del Rosario, sobre todo en mayo y en las fiestas marianas.",
+    "rubric": "Una persona dirige las invocaciones y todos responden «Ruega por nosotros» (o «Ten misericordia de nosotros», según el caso).",
+    "sources": [
+      {
+        "label": "Congregación para el Culto Divino, carta a los presidentes de las Conferencias Episcopales sobre las nuevas invocaciones de las Letanías lauretanas (20 de junio de 2020)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20200620_lettera-litanie-lauretane_po.html"
+      },
+      {
+        "label": "Pablo VI, Marialis cultus (1974)",
+        "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html"
+      },
+      {
+        "label": "Juan Pablo II, Rosarium Virginis Mariae (2002)",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+      }
+    ],
+    "minutes": 6
+  },
+  {
+    "id": "jaculatoria-maria",
+    "title": "Jaculatorias marianas",
+    "categories": [
+      "virgen-maria",
+      "rosarios-coronillas"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Oh María, sin pecado concebida,\nruega por nosotros que recurrimos a ti.\n\nDulce Corazón de María, sé la salvación mía.",
+    "context": "La primera es la inscripción de la Medalla Milagrosa (París, 1830) y expresa la fe en la Inmaculada Concepción (dogma de 1854). La segunda es una jaculatoria de piedad popular. Son invocaciones breves que pueden repetirse tras las decenas del Rosario o en cualquier momento.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Pablo VI, Marialis cultus (1974)",
+        "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html"
+      }
+    ],
+    "minutes": 1
+  }
+]

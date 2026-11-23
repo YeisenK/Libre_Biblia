@@ -60,7 +60,7 @@ export async function putSettings(db: AppDb, value: UserSettings) {
 
 /** Borra los datos personales (y, opcionalmente, el contenido descargado). */
 export async function clearAll(db: AppDb, opts: { packs?: boolean } = {}) {
-  const tables = [db.bookmarks, db.history, db.readingPosition, db.settings, db.dailyFavorites, db.dailyHistory];
+  const tables = [db.bookmarks, db.history, db.readingPosition, db.settings, db.dailyFavorites, db.dailyHistory, db.routines, db.routineLog, db.prayerFavorites, db.novenaProgress, db.rosarySessions, db.prayerHistory];
   await Promise.all(tables.map((t) => t.clear()));
   await db.repositories.filter((r) => !r.builtin).delete();
   if (opts.packs) await Promise.all([db.installedPacks, db.bibleMeta, db.bibleVerses, db.documents, db.documentSections, db.searchIndexes, db.dailyEntries, db.dailyMeta].map((t) => t.clear()));

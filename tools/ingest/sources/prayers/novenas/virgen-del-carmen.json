@@ -1,0 +1,134 @@
+{
+  "id": "virgen-del-carmen",
+  "title": "Novena a Nuestra Señora del Carmen",
+  "group": "marian",
+  "description": "Nueve días con la Virgen del Monte Carmelo, modelo de oración y de vida interior, antes de su fiesta del 16 de julio.",
+  "image": {
+    "icon": "shield",
+    "tint": "#7A5A3A"
+  },
+  "introduction": "La devoción a Nuestra Señora del Carmen nace en la Orden de los Carmelitas, que surgió en el siglo XII entre ermitaños establecidos en el monte Carmelo, en Tierra Santa, donde la tradición recuerda al profeta Elías. Llamaron a su primera capilla «Santa María del Monte Carmelo» y se consideraron hermanos de la Virgen. Su memoria se celebra el 16 de julio.\n\nUna antigua tradición de la Orden cuenta que en 1251 la Virgen entregó el escapulario a san Simón Stock, prior general. Los historiadores discuten los detalles de este relato, por eso se presenta como tradición piadosa y no como hecho definido por la Iglesia. Lo que sí enseña la Iglesia es que el escapulario del Carmen es un sacramental: un signo de la consagración a María y del deseo de imitar sus virtudes. No funciona como un amuleto ni garantiza la salvación sin una vida cristiana. Si se desea, puede recibirse de un sacerdote.\n\nEsta novena es piedad popular, libre y voluntaria.",
+  "purpose": "Aprender de María la vida de oración, el silencio, la escucha de la Palabra y el servicio, y renovar el compromiso de vivir como discípulos de Cristo bajo su amparo. Se culmina en la Misa de la memoria del 16 de julio y, si se desea, en la confesión.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 7,
+    "day": 16,
+    "label": "Memoria de Nuestra Señora del Carmen"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Virgen del Carmen, hermana y madre de quienes buscan a Dios, ponemos este tiempo de oración bajo tu protección. Enséñanos a escuchar, a callar y a seguir a Cristo con fidelidad. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "La nube pequeña en el Carmelo",
+      "reading": "1 Re 18,41-45",
+      "reflection": "En el monte Carmelo, el profeta Elías oró con insistencia hasta que su criado divisó una nubecilla del tamaño de una mano. La tradición carmelitana ha visto en esa nube un símbolo de María, pequeña señal de la gracia que viene. La vida de oración comienza así: con constancia y con la confianza de que Dios responde.\n\nLos primeros carmelitas se retiraron a la montaña para buscar a Dios en soledad y silencio. Hoy, en medio del ruido, podemos reservar unos minutos diarios para estar con el Señor. No necesitamos grandes experiencias; basta la perseverancia humilde de quien espera una pequeña nube de esperanza.",
+      "prayer": "Virgen del Carmen, nube pequeña de la que nos vino el Salvador, enséñame a orar con perseverancia. Que no me canse de esperar la respuesta de Dios ni me desanime cuando todo parezca seco. Dame un corazón paciente y confiado. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Guardar la Palabra en el corazón",
+      "reading": "Lc 2,19.51",
+      "reflection": "El Evangelio dice dos veces que María guardaba todas estas cosas meditándolas en su corazón. Es la oración carmelitana por excelencia: acoger la Palabra y dejarla trabajar por dentro. María no entiende todo, pero conserva, rumia y confía.\n\nMuchos de nosotros leemos deprisa y olvidamos pronto. Hoy podemos escoger una frase breve del Evangelio y repetirla durante el día, dejando que ilumine nuestras decisiones. La Regla antigua del Carmelo invita a meditar día y noche la ley del Señor. María nos muestra que este camino es posible en la vida ordinaria, entre tareas y preocupaciones.",
+      "prayer": "Madre que guardabas todo en tu corazón, enséñame a escuchar y a meditar la Palabra de Dios. Que no me quede en la superficie. Haz que el Evangelio me acompañe durante el día y transforme mis pensamientos, palabras y obras. Amén."
+    },
+    {
+      "day": 3,
+      "title": "El silencio que habla",
+      "reading": "1 Re 19,11-13",
+      "reflection": "Elías no encontró a Dios en el viento ni en el terremoto, sino en el susurro de una brisa suave. El Carmelo ama el silencio porque en él podemos escuchar lo que Dios quiere decirnos. María vivió ese silencio en Nazaret, en Belén y junto a la cruz.\n\nHoy vivimos rodeados de pantallas y de ruido, a veces incluso dentro de nosotros. Pedir silencio es pedir paz interior. Podemos apagar durante unos minutos lo que nos distrae y estar simplemente en presencia de Dios, sin pedir nada, sin decir nada. Quien aprende a callar aprende también a escuchar a sus hermanos.",
+      "prayer": "Virgen del silencio, calma el ruido de mi corazón. Enséñame a estar en presencia de Dios sin prisas ni exigencias. Que mi silencio sea escucha, y mi escucha, amor. Haz que mis palabras sean pocas, sinceras y llenas de bien. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Vivir en obsequio de Jesucristo",
+      "reading": "Jn 2,5",
+      "reflection": "La antigua Regla del Carmelo pedía a los hermanos vivir «en obsequio de Jesucristo», es decir, a su servicio, con corazón puro y recta conciencia. Es la actitud de María en Caná: «Haced lo que él os diga».\n\nEsta devoción no se reduce a sentimientos ni a costumbres. Su fruto es una vida que se orienta a Cristo en lo concreto: en el trato con la familia, en la honradez del trabajo, en el perdón y en la ayuda a los necesitados. Hoy podemos pensar una acción concreta que hable más fuerte que las palabras, para ofrecérsela al Señor por medio de María.",
+      "prayer": "Madre del Carmen, enséñame a vivir al servicio de tu Hijo. Que mi corazón sea sincero, mi conciencia recta y mis obras coherentes con mi fe. Ayúdame a hacer lo que él me diga, aunque cueste, y a vivir cada día como un pequeño acto de servicio. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Revestirse de Cristo",
+      "reading": "Col 3,12-14",
+      "reflection": "San Pablo nos exhorta a revestirnos de entrañas de misericordia, bondad, humildad, mansedumbre y paciencia, y sobre todo del amor. El escapulario del Carmen es un hábito pequeño que recuerda esta llamada: vestirse de Cristo, como María, cuya vida fue transparencia de su Hijo.\n\nLlevar el escapulario no es un seguro ni un talismán. Es un signo sencillo de que queremos pertenecer a María y vivir como ella. Lo importante no es la tela, sino lo que expresa: la decisión de seguir a Cristo con las virtudes de la Virgen. Hoy podemos escoger una de estas virtudes y pedir la gracia de practicarla.",
+      "prayer": "Virgen del Carmen, ayúdame a revestirme de Cristo. Que la humildad, la bondad y la paciencia crezcan en mí. Haz que el signo de tu amparo me recuerde cada día la vida cristiana a la que he sido llamado y me impulse a vivirla con alegría. Amén."
+    },
+    {
+      "day": 6,
+      "title": "El escapulario, signo de pertenencia",
+      "reading": "Is 61,10",
+      "reflection": "El profeta canta: «Me ha vestido con vestiduras de salvación, me ha envuelto en un manto de justicia». El escapulario evoca el manto de María, símbolo de protección. La Iglesia lo reconoce como un sacramental, que no actúa por sí mismo, sino que dispone a la gracia y fortalece la fe de quien lo lleva.\n\nA la devoción del escapulario se asocia el llamado «privilegio sabatino», una tradición cuyo origen discuten los historiadores. La Iglesia invita a confiar en la intercesión materna de María sin convertirla en una promesa automática: la salvación viene de Cristo y se acoge con una vida cristiana y los sacramentos. El amparo de la Virgen es un don para quien se deja acompañar por ella.",
+      "prayer": "Madre misericordiosa, cúbreme con tu manto. Que mi confianza en ti sea sincera, sin supersticiones, y me lleve a vivir como hijo de Dios. Intercede por mí ahora y en la hora de mi muerte, y condúceme a Jesús, mi Salvador. Amén."
+    },
+    {
+      "day": 7,
+      "title": "La comunión de los santos",
+      "reading": "Hb 12,1-2",
+      "reflection": "Estamos rodeados de una nube de testigos. En la Iglesia no caminamos solos: los santos del Carmelo, como santa Teresa de Jesús, san Juan de la Cruz y santa Teresa del Niño Jesús, nos acompañan con su ejemplo y su intercesión. Ellos buscaron a Dios con todo el corazón y encontraron en María una guía segura.\n\nLa Virgen del Carmen es invocada también como patrona de marineros y de quienes trabajan en el mar. Hoy podemos rezar por quienes enfrentan tormentas, literales o de la vida, y dar gracias por las personas que nos han acompañado en la fe, vivas o difuntas, y que nos animan a correr con constancia la carrera que tenemos por delante.",
+      "prayer": "Virgen del Carmen, estrella del mar, protege a quienes navegan y a quienes atraviesan tempestades. Gracias por los santos que nos han precedido. Que su ejemplo me anime a perseverar, con la mirada fija en Jesús, y a ser yo también compañía para quien camina a mi lado. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Fiel en la prueba",
+      "reading": "Jn 19,25-27",
+      "reflection": "La fidelidad de María llega hasta la cruz. Allí, aparentemente sin esperanza, se mantiene de pie. El Carmelo ha leído en esa actitud la lección más honda: orar y creer cuando todo parece oscuro. San Juan de la Cruz habló de la «noche oscura» como un camino por el que Dios purifica y conduce a su luz.\n\nTodos pasamos por momentos difíciles: enfermedad, pérdida, desánimo. No hay que fingir fortaleza. Basta permanecer, como María, junto a Cristo, aunque no sintamos nada. Hoy podemos presentar a la Virgen nuestras noches y pedirle compañía. La fe no suprime la oscuridad, pero la atraviesa con esperanza.",
+      "prayer": "Madre fiel, que permaneciste junto a la cruz, sostenme cuando mi fe se debilite. Que no me aparte del Señor en la noche. Dame paciencia en la prueba y la certeza de que Dios no me abandona, aunque no sienta su presencia. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Hacia el monte de Dios",
+      "reading": "Flp 3,12-14",
+      "reflection": "Terminamos la novena con la imagen del monte. El Carmelo es símbolo del camino ascendente hacia Dios. San Pablo se compara con un corredor que se lanza hacia la meta, olvidando lo que queda atrás. María es la primera peregrina de la fe y camina con nosotros.\n\nMañana o dentro de poco celebraremos la memoria de la Virgen del Carmen. Podemos proponernos algo sencillo: participar en la Misa, renovar nuestro compromiso con la oración diaria, acercarnos a la reconciliación y vivir una obra de misericordia. Y encomendar a la Virgen a quienes llevamos en el corazón, especialmente a los difuntos, confiando su destino a la misericordia de Dios.",
+      "prayer": "Reina y hermosura del Carmelo, acompáñame en el camino hacia el monte de Dios. Gracias por esta novena. Dame perseverancia en la oración y fidelidad en el servicio. Y cuando llegue mi hora, sé tú mi amparo ante tu Hijo. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a Nuestra Señora del Carmen",
+      "text": "Santísima Virgen del Carmen, madre y hermana, adorna nuestras vidas con la sencillez de tu fe. Tú que guardabas la Palabra en tu corazón, enséñanos a orar y a servir. Que el escapulario, signo de tu amparo, nos recuerde cada día que somos discípulos de tu Hijo y que estamos llamados a vivir como tú, entregados a Dios y a los hermanos. Acompáñanos ahora y en la hora de nuestra muerte. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Orden de los Carmelitas: tradición y espiritualidad del escapulario"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), n. 205 sobre los escapularios"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, nn. 1667-1679 (sacramentales)"
+    }
+  ],
+  "tags": [
+    "carmen",
+    "escapulario",
+    "julio"
+  ]
+}

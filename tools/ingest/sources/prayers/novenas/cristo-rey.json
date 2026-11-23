@@ -1,0 +1,119 @@
+{
+  "id": "cristo-rey",
+  "title": "Novena a Cristo Rey",
+  "group": "christ",
+  "description": "Nueve días para reconocer a Cristo como Señor de la historia y de la propia vida, un reino de verdad, justicia y paz.",
+  "image": {
+    "icon": "crown",
+    "tint": "#8a6a1f"
+  },
+  "introduction": "La realeza de Cristo es una verdad bíblica antigua: el ángel anuncia a María que su Hijo reinará «sobre la casa de Jacob» y su reino no tendrá fin (Lc 1,32-33), y ante Pilato Jesús declara: «Mi reino no es de este mundo» (Jn 18,36). Pero la fiesta es reciente. Pío XI la instituyó con la encíclica *Quas primas* (11 de diciembre de 1925), en un tiempo de secularismo y de ideologías que pretendían organizar la vida sin Dios, y la fijó el último domingo de octubre.\n\nEn 1969 la reforma litúrgica la elevó a solemnidad de «Nuestro Señor Jesucristo, Rey del Universo» y la trasladó al **último domingo del tiempo ordinario**, de modo que cierra el año litúrgico y apunta a la venida final del Señor. Es una fiesta **movible**; por eso esta novena no tiene fecha fija y se comienza nueve días antes.\n\nEs una devoción de piedad popular, libre y voluntaria. Su realeza no es dominio, sino servicio: el trono de este Rey es la cruz.",
+  "purpose": "Reconocer a Cristo como Señor de la propia vida y de la historia, pedir que su reino de verdad, justicia, amor y paz se extienda, y comprometerse a servirle en los demás.",
+  "nature": "popular_piety",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pío XI, encíclica Quas primas (1925)",
+      "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 668-682 y 2816-2819"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "cristo rey",
+    "movible",
+    "fin del año litúrgico"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un reino que no es de este mundo",
+      "reading": "Jn 18,33-37",
+      "reflection": "Pilato pregunta: «¿Eres tú el rey de los judíos?». Jesús no lo niega, pero cambia el sentido de la palabra: su reino no se apoya en ejércitos ni en poder político, sino en la verdad. «Todo el que es de la verdad escucha mi voz.»\n\nComenzamos reconociendo que Cristo reina de otra manera: sin imponerse, invitando. Su realeza no rivaliza con ningún poder humano legítimo, pero le recuerda sus límites. Hoy preguntémonos qué voces escuchamos más: las del ruido, la presión o la comodidad, o la voz del Señor, que nos llama a vivir en la verdad con sencillez y valentía.",
+      "prayer": "Señor Jesucristo, Rey de la verdad, ayúdame a escuchar tu voz entre tantas voces. Que no me deje arrastrar por lo que me aleja de ti y que viva con rectitud en lo pequeño. Reina en mi corazón y en mi casa, y haz que tu verdad me haga libre. Amén."
+    },
+    {
+      "day": 2,
+      "title": "El Rey anunciado",
+      "reading": "Lc 1,26-33",
+      "reflection": "Antes de nacer, Jesús es anunciado como rey: «El Señor Dios le dará el trono de David, su padre, reinará para siempre en la casa de Jacob, y su reino no tendrá fin». Esta promesa cumple siglos de esperanza del pueblo de Israel.\n\nPero el rey llega en un lugar inesperado: una joven de Nazaret que responde «hágase». Su reinado comienza en lo escondido. Hoy damos gracias porque Dios cumple sus promesas, y pedimos a María, la Madre del Rey, que nos enseñe a acogerlo como ella: con disponibilidad, sin pretensiones. Cristo reina primero allí donde se le dice «sí».",
+      "prayer": "Dios fiel, tú cumples lo que prometes. Gracias por enviar a tu Hijo como Rey y Salvador. Con María, tu humilde sierva, quiero decirte «hágase» en lo que me pides hoy. Que tu reino llegue a mi vida y a quienes me rodean. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Un Rey que sirve",
+      "reading": "Mc 10,35-45",
+      "reflection": "Santiago y Juan piden los primeros puestos en el reino. Jesús responde: «El que quiera ser grande entre ustedes, que sea su servidor… porque el Hijo del hombre no vino a ser servido, sino a servir y a dar su vida en rescate por muchos».\n\nAquí se revela la lógica del reino: se reina sirviendo. Si en nuestra vida buscamos puestos, reconocimiento o poder, el Evangelio nos reorienta. Hoy podemos preguntarnos dónde nos pide Cristo ser servidores: en la familia, en el trabajo, en la parroquia. Las pequeñas renuncias diarias son el modo en que su reino avanza.",
+      "prayer": "Jesús, Rey y servidor, líbrame del deseo de ser primero. Enséñame a servir sin pedir nada, con alegría y sin ruido. Que mi trabajo, mi familia y mis responsabilidades sean un lugar donde se manifieste tu reino, y que nadie se sienta pequeño a mi lado. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Reina desde la cruz",
+      "reading": "Lc 23,35-43",
+      "reflection": "Sobre la cruz hay un letrero: «Este es el rey de los judíos». Los jefes se burlan: «Que se salve a sí mismo». Pero uno de los malhechores crucificados con Él reconoce lo que muchos no ven: «Jesús, acuérdate de mí cuando llegues a tu reino». Y recibe la respuesta: «Hoy estarás conmigo en el paraíso».\n\nEl trono de Cristo es la cruz, y el primero en recibir su promesa es un malhechor arrepentido. Nadie está demasiado lejos de este Rey. Hoy pedimos ese mismo acto de confianza: acuérdate de mí. Y rezamos por quienes están al final de su vida, para que lo encuentren.",
+      "prayer": "Jesús, Rey crucificado, acuérdate de mí en tu reino. Reconozco mis pecados y confío en tu misericordia. Te encomiendo a los moribundos y a quienes viven lejos de ti: llévalos contigo al paraíso. Que nunca desespere de tu perdón. Amén."
+    },
+    {
+      "day": 5,
+      "title": "El Resucitado, Señor de todo",
+      "reading": "Mt 28,16-20",
+      "reflection": "«Se me ha dado todo poder en el cielo y en la tierra.» Con estas palabras el Resucitado envía a sus discípulos. La realeza de Cristo no termina en la cruz: la Pascua la manifiesta. Y de ella nace una misión: «Vayan y hagan discípulos a todos los pueblos».\n\nSi Cristo es Señor de todo, nada queda fuera de su reinado: el trabajo, la política, la cultura, la familia. El reino se extiende por el testimonio de cada bautizado. Hoy pedimos valentía para dar razón de nuestra esperanza y paciencia para hacerlo con respeto y caridad. Y recordamos su promesa: «Yo estoy con ustedes todos los días».",
+      "prayer": "Señor resucitado, a quien se ha dado todo poder, envíame como testigo tuyo. Dame palabras sencillas y obras coherentes para anunciarte. No permitas que el miedo me paralice. Gracias por estar conmigo cada día hasta el fin del mundo. Amén."
+    },
+    {
+      "day": 6,
+      "title": "El reino ya presente: «Venga a nosotros tu reino»",
+      "reading": "Lc 17,20-21",
+      "reflection": "Preguntado por el momento del reino, Jesús responde: «El reino de Dios ya está entre ustedes». Se hace presente en cada acto de amor, en cada perdón concedido, en cada gesto de justicia. El Padre Nuestro nos hace pedir cada día: «Venga a nosotros tu reino».\n\nHoy rezamos esta petición con más conciencia. Pedimos que el reino llegue a nuestro corazón, a nuestra casa y a nuestra sociedad: más respeto por la vida, por los pobres, por la verdad. La Iglesia es semilla y comienzo de ese reino; formamos parte de ella. Nuestra colaboración, por pequeña que sea, es real.",
+      "prayer": "Padre, venga a nosotros tu reino. Que aparezca en mi manera de tratar a los demás, en las decisiones que tomo y en lo que defiendo. Haz de mí un constructor de justicia y de paz, y ayuda a tu Iglesia a ser signo de tu reino. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Los más pequeños son su corte",
+      "reading": "Mt 25,31-46",
+      "reflection": "Este pasaje, que la liturgia proclama en la solemnidad en el ciclo A, nos presenta al Rey en su gloria que juzga las naciones. Sus criterios sorprenden: «Tuve hambre y me dieron de comer… lo que hicieron con uno de estos mis hermanos más pequeños, conmigo lo hicieron».\n\nEl Rey se identifica con los pobres, los enfermos, los presos, los extranjeros. No reconocerlo es no reconocerlo a Él. Hoy examinamos con humildad: ¿a quién he ignorado? ¿Dónde puedo hacer una obra de misericordia concreta esta semana? Pedimos la gracia de ver el rostro de Cristo en cada persona necesitada.",
+      "prayer": "Señor Jesús, que te escondes en los pobres y en los que sufren, dame ojos para reconocerte y manos para servirte. Perdona las veces que pasé de largo. Concédeme obrar hoy una misericordia concreta. Y a la hora de mi juicio, recíbeme en tu reino. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Cristo Alfa y Omega",
+      "reading": "Ap 1,4-8; 22,12-13",
+      "reflection": "El Apocalipsis llama a Jesús «el Alfa y la Omega, el que es, el que era y el que viene», «el príncipe de los reyes de la tierra». La historia no es un ciclo sin sentido: va hacia Él. La solemnidad de Cristo Rey cierra el año litúrgico precisamente para recordárnoslo.\n\nMirar el final con esta esperanza no nos aparta del presente; nos lo ilumina. Somos peregrinos y tenemos una meta. Hoy damos gracias por lo vivido este año y encomendamos a Cristo lo que queda sin resolver. Él lleva a plenitud lo que empezó en nosotros, y lo hará a su modo y a su hora.",
+      "prayer": "Cristo, principio y fin, Señor del tiempo, a ti te entrego mi pasado, mi presente y mi futuro. Que viva atento a tu venida, trabajando con esperanza y con fidelidad. Mantén en mí el deseo de verte cara a cara. Ven, Señor Jesús. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Reina en mi corazón",
+      "reading": "Col 1,12-20",
+      "reflection": "San Pablo canta a Cristo, «primogénito de toda la creación», en quien «todo fue creado» y que «es la cabeza de la Iglesia». Y añade: Dios quiso «reconciliar por él todas las cosas». Terminamos la novena contemplando la grandeza de aquel a quien servimos.\n\nEsta realeza se vuelve personal: ¿es Cristo el Señor de mi día, de mis decisiones, de mi dinero, de mi tiempo? La respuesta se escribe en lo concreto. Hoy renovamos nuestra entrega con sencillez, pidiéndole que reine en lo que aún no le hemos entregado. Y le damos gracias, porque su reinado es libertad y no esclavitud.",
+      "prayer": "Cristo, Rey del universo, quiero que reines en mi corazón. Toma lo que soy y lo que tengo, y ponlo al servicio de tu reino. Gracias por haberme acompañado en esta novena. Que mi vida diga siempre: Cristo vence, Cristo reina, Cristo impera. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

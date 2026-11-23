@@ -1,4 +1,4 @@
-import type { AppDb, BookmarkRow, DailyFavoriteRow, DailyHistoryRow, HistoryRow, PositionRow } from './db';
+import type { AppDb, BookmarkRow, DailyFavoriteRow, DailyHistoryRow, HistoryRow, NovenaProgressRow, PositionRow, PrayerFavoriteRow, PrayerHistoryRow, RoutineLogRow, RoutineRow, RosarySessionRow } from './db';
 import type { UserSettings } from './settings';
 import { DEFAULT_SETTINGS, mergeSettings } from './settings';
 import { getPosition, getSettings } from './personal';
@@ -18,10 +18,17 @@ export interface Backup {
   /** Opcionales: copias anteriores a la sección «Hoy» no los traen */
   dailyFavorites?: DailyFavoriteRow[];
   dailyHistory?: DailyHistoryRow[];
+  /** Vida de oración (opcionales: copias anteriores a v0.4 no los traen) */
+  routines?: RoutineRow[];
+  routineLog?: RoutineLogRow[];
+  prayerFavorites?: PrayerFavoriteRow[];
+  novenaProgress?: NovenaProgressRow[];
+  rosarySessions?: RosarySessionRow[];
+  prayerHistory?: PrayerHistoryRow[];
 }
 
 export async function exportBackup(db: AppDb): Promise<Backup> {
-  const [bookmarks, history, position, settings, repos, dailyFavorites, dailyHistory] = await Promise.all([
+  const [bookmarks, history, position, settings, repos, dailyFavorites, dailyHistory, routines, routineLog, prayerFavorites, novenaProgress, rosarySessions, prayerHistory] = await Promise.all([
     db.bookmarks.toArray(),
     db.history.toArray(),
     getPosition(db),
@@ -29,6 +36,12 @@ export async function exportBackup(db: AppDb): Promise<Backup> {
     db.repositories.filter((r) => !r.builtin).toArray(),
     db.dailyFavorites.toArray(),
     db.dailyHistory.toArray(),
+    db.routines.toArray(),
+    db.routineLog.toArray(),
+    db.prayerFavorites.toArray(),
+    db.novenaProgress.toArray(),
+    db.rosarySessions.toArray(),
+    db.prayerHistory.toArray(),
   ]);
   return {
     app: BACKUP_APP,
@@ -41,6 +54,12 @@ export async function exportBackup(db: AppDb): Promise<Backup> {
     repositories: repos.map((r) => r.url),
     dailyFavorites,
     dailyHistory,
+    routines,
+    routineLog,
+    prayerFavorites,
+    novenaProgress,
+    rosarySessions,
+    prayerHistory: prayerHistory.map(({ id: _id, ...h }) => h),
   };
 }
 
@@ -52,11 +71,67 @@ export interface ImportSummary {
   repositories: number;
   dailyFavorites: number;
   dailyHistory: number;
+  routines: number;
+  routineLog: number;
+  prayerFavorites: number;
+  novenaProgress: number;
+  rosarySessions: number;
+  prayerHistory: number;
 }
 
 const isStr = (x: unknown): x is string => typeof x === 'string' && x.length > 0;
 const isNum = (x: unknown): x is number => typeof x === 'number' && Number.isFinite(x);
 const isObj = (x: unknown): x is Record<string, unknown> => !!x && typeof x === 'object' && !Array.isArray(x);
+
+const MOMENTS = ['morning', 'midday', 'afternoon', 'night', 'any'] as const;
+const SETS = ['joyful', 'luminous', 'sorrowful', 'glorious'] as const;
+const isoOr = (x: unknown, fb: string) => (isStr(x) ? x : fb);
+
+/** Valida y normaliza las tablas de oración; descarta lo que no tenga la forma esperada. */
+export function parsePrayerLife(raw: Record<string, unknown>): Required<Pick<Backup, 'routines' | 'routineLog' | 'prayerFavorites' | 'novenaProgress' | 'rosarySessions' | 'prayerHistory'>> {
+  const arr = (x: unknown): Record<string, unknown>[] => (Array.isArray(x) ? x.filter(isObj) : []);
+  const epoch = new Date(0).toISOString();
+  const isDate = (x: unknown): x is string => typeof x === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(x);
+  const routines: RoutineRow[] = arr(raw.routines).filter((r) => isStr(r.id) && isStr(r.title) && Array.isArray(r.items)).map((r, i) => {
+    const rem = r.reminder;
+    return {
+      id: r.id as string,
+      title: r.title as string,
+      moment: (MOMENTS as readonly unknown[]).includes(r.moment) ? (r.moment as RoutineRow['moment']) : 'any',
+      items: (r.items as unknown[]).filter(isStr),
+      reminder: isObj(rem) && isStr(rem.time) && /^([01]\d|2[0-3]):[0-5]\d$/.test(rem.time) ? { enabled: rem.enabled === true, time: rem.time, days: (Array.isArray(rem.days) ? rem.days : []).filter((d): d is number => Number.isInteger(d) && d >= 0 && d <= 6) } : null,
+      order: isNum(r.order) ? r.order : i,
+      createdAt: isoOr(r.createdAt, epoch),
+      updatedAt: isoOr(r.updatedAt, epoch),
+    };
+  });
+  const routineLog: RoutineLogRow[] = arr(raw.routineLog).filter((x) => isDate(x.date) && isStr(x.routineId) && isStr(x.item)).map((x) => ({
+    key: `${x.date as string}|${x.routineId as string}|${x.item as string}`,
+    date: x.date as string,
+    routineId: x.routineId as string,
+    item: x.item as string,
+    doneAt: isoOr(x.doneAt, epoch),
+  }));
+  const prayerFavorites: PrayerFavoriteRow[] = arr(raw.prayerFavorites).filter((x) => isStr(x.key)).map((x) => ({ key: x.key as string, title: typeof x.title === 'string' ? x.title : '', savedAt: isoOr(x.savedAt, epoch) }));
+  const novenaProgress: NovenaProgressRow[] = arr(raw.novenaProgress).filter((x) => isStr(x.novenaId) && isStr(x.startedAt) && isObj(x.done)).map((x) => {
+    const done: Record<number, string> = {};
+    for (const [k, v] of Object.entries(x.done as Record<string, unknown>)) if (Number.isInteger(Number(k)) && Number(k) > 0 && isDate(v)) done[Number(k)] = v;
+    return { novenaId: x.novenaId as string, startedAt: x.startedAt as string, done, ...(isStr(x.intention) ? { intention: x.intention } : {}), completedAt: isStr(x.completedAt) ? x.completedAt : null, updatedAt: isoOr(x.updatedAt, x.startedAt as string) };
+  });
+  const rosarySessions: RosarySessionRow[] = arr(raw.rosarySessions).filter((x) => isStr(x.id) && (SETS as readonly unknown[]).includes(x.set) && isStr(x.startedAt)).map((x) => ({
+    id: x.id as string,
+    set: x.set as RosarySessionRow['set'],
+    mode: x.mode === 'physical' ? 'physical' : 'digital',
+    step: isNum(x.step) ? x.step : 0,
+    optionsKey: typeof x.optionsKey === 'string' ? x.optionsKey : '',
+    startedAt: x.startedAt as string,
+    updatedAt: isoOr(x.updatedAt, x.startedAt as string),
+    completedAt: isStr(x.completedAt) ? x.completedAt : null,
+    ...(isStr(x.intention) ? { intention: x.intention } : {}),
+  }));
+  const prayerHistory: PrayerHistoryRow[] = arr(raw.prayerHistory).filter((x) => isStr(x.key) && isStr(x.at)).map((x) => ({ key: x.key as string, title: typeof x.title === 'string' ? x.title : '', at: x.at as string }));
+  return { routines, routineLog, prayerFavorites, novenaProgress, rosarySessions, prayerHistory };
+}
 
 export function parseBackup(text: string): Backup {
   let raw: unknown;
@@ -108,7 +183,7 @@ export function parseBackup(text: string): Backup {
     packId: isStr(x.packId) ? x.packId : null,
     seenAt: isStr(x.seenAt) ? x.seenAt : new Date().toISOString(),
   }));
-  return { app: BACKUP_APP, format: BACKUP_FORMAT, exportedAt: isStr(raw.exportedAt) ? raw.exportedAt : '', bookmarks, history, position, settings, repositories, dailyFavorites, dailyHistory };
+  return { app: BACKUP_APP, format: BACKUP_FORMAT, exportedAt: isStr(raw.exportedAt) ? raw.exportedAt : '', bookmarks, history, position, settings, repositories, dailyFavorites, dailyHistory, ...parsePrayerLife(raw) };
 }
 
 const bmKey = (b: { version: string | null; book: string; chapter: number; verse: number | null }) => `${b.version ?? ''}|${b.book}|${b.chapter}|${b.verse ?? ''}`;
@@ -116,7 +191,7 @@ const bmKey = (b: { version: string | null; book: string; chapter: number; verse
 /** Fusiona la copia con los datos actuales sin perder nada de lo existente. */
 export async function importBackup(db: AppDb, text: string): Promise<ImportSummary> {
   const b = parseBackup(text);
-  const sum: ImportSummary = { bookmarks: 0, history: 0, position: false, settings: false, repositories: 0, dailyFavorites: 0, dailyHistory: 0 };
+  const sum: ImportSummary = { bookmarks: 0, history: 0, position: false, settings: false, repositories: 0, dailyFavorites: 0, dailyHistory: 0, routines: 0, routineLog: 0, prayerFavorites: 0, novenaProgress: 0, rosarySessions: 0, prayerHistory: 0 };
 
   const existing = await db.bookmarks.toArray();
   const keys = new Set(existing.map(bmKey));
@@ -139,6 +214,38 @@ export async function importBackup(db: AppDb, text: string): Promise<ImportSumma
   const newD = (b.dailyHistory ?? []).filter((x) => !seen.has(x.date));
   await db.dailyHistory.bulkPut(newD);
   sum.dailyHistory = newD.length;
+
+  // Vida de oración: se añade lo que falta; lo existente no se pisa (salvo progreso más reciente).
+  const have = async <T,>(rows: T[], keyOf: (x: T) => string | number, existing: Promise<T[]>) => {
+    const keys = new Set((await existing).map(keyOf));
+    return rows.filter((x) => !keys.has(keyOf(x)));
+  };
+  const newRoutines = await have(b.routines ?? [], (x) => x.id, db.routines.toArray());
+  await db.routines.bulkPut(newRoutines);
+  sum.routines = newRoutines.length;
+  const newLog = await have(b.routineLog ?? [], (x) => x.key, db.routineLog.toArray());
+  await db.routineLog.bulkPut(newLog);
+  sum.routineLog = newLog.length;
+  const newPf = await have(b.prayerFavorites ?? [], (x) => x.key, db.prayerFavorites.toArray());
+  await db.prayerFavorites.bulkPut(newPf);
+  sum.prayerFavorites = newPf.length;
+  const curNov = new Map((await db.novenaProgress.toArray()).map((x) => [x.novenaId, x]));
+  const newNov = (b.novenaProgress ?? []).filter((x) => {
+    const c = curNov.get(x.novenaId);
+    return !c || c.updatedAt < x.updatedAt;
+  });
+  await db.novenaProgress.bulkPut(newNov);
+  sum.novenaProgress = newNov.length;
+  const curRos = new Map((await db.rosarySessions.toArray()).map((x) => [x.id, x]));
+  const newRos = (b.rosarySessions ?? []).filter((x) => {
+    const c = curRos.get(x.id);
+    return !c || c.updatedAt < x.updatedAt;
+  });
+  await db.rosarySessions.bulkPut(newRos);
+  sum.rosarySessions = newRos.length;
+  const newPh = await have(b.prayerHistory ?? [], (x) => `${x.at}|${x.key}`, db.prayerHistory.toArray());
+  await db.prayerHistory.bulkAdd(newPh);
+  sum.prayerHistory = newPh.length;
 
   if (b.position) {
     const cur = await getPosition(db);

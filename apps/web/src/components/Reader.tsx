@@ -20,6 +20,7 @@ import { VerseText } from './VerseText';
 import { VersionSelect } from './VersionSelect';
 import { NoBibles } from './NoBibles';
 import { Notice, StatusBadges, statusSuffix } from './StatusBadges';
+import { Loading } from './ui';
 import { Modal } from './Modal';
 import { useHideOnScroll } from '@/hooks/useHideOnScroll';
 
@@ -44,7 +45,10 @@ function ReaderInner() {
   const versionsQ = useVersions();
   const defaultV = useDefaultVersion();
 
-  const version = sp.get('v') ?? defaultV;
+  const vParam = sp.get('v');
+  // Si la versión de la URL está oculta (otro idioma desactivado), se pasa a la española.
+  const hidden = !!vParam && !!versionsQ.data && !versionsQ.data.some((v) => v.code === vParam);
+  const version = hidden ? defaultV : (vParam ?? defaultV);
   const book = sp.get('b');
   const chapter = Number(sp.get('c') ?? 1) || 1;
   const vsParam = sp.get('vs') ? Number(sp.get('vs')) : null;
@@ -60,6 +64,10 @@ function ReaderInner() {
   const [versionOpen, setVersionOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const barHidden = useHideOnScroll();
+
+  useEffect(() => {
+    if (hidden && defaultV) router.replace(readerHref({ v: defaultV, b: sp.get('b') ?? '', c: Number(sp.get('c') ?? 1) || 1, vs: sp.get('vs') ? Number(sp.get('vs')) : null }));
+  }, [hidden, defaultV, router, sp]);
 
   // Sin libro en la URL: reanudar o abrir el primer libro disponible.
   useEffect(() => {
@@ -145,34 +153,35 @@ function ReaderInner() {
     <div onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
       <header
         data-testid="reader-bar-mobile"
-        className={`sticky top-0 z-30 -mx-4 border-b border-line bg-bg/95 px-2 pb-1 pt-[max(0.25rem,env(safe-area-inset-top))] backdrop-blur transition-transform duration-200 md:hidden ${barHidden ? '-translate-y-full' : ''}`}
+        className={`sticky top-0 z-30 -mx-5 border-b border-line bg-bg/95 px-3 pb-1 pt-[max(0.25rem,env(safe-area-inset-top))] backdrop-blur-xl transition-transform duration-200 md:hidden ${barHidden ? '-translate-y-full' : ''}`}
       >
         <div className="flex items-center gap-1">
-          <button type="button" className="btn !min-w-[44px] !px-2" aria-label="Capítulo anterior" disabled={!prev} onClick={goPrev}>
-            <ChevronLeft />
-          </button>
-          <button type="button" className="btn min-w-0 flex-1 !justify-between !px-3" onClick={() => setPickerOpen(true)} disabled={!version || !booksQ.data} aria-haspopup="dialog">
-            <span className="truncate font-serif text-base font-semibold">{book ? `${bookName} ${chapter}` : 'Elegir libro'}</span>
+          <button type="button" className="tap flex min-h-[44px] min-w-0 flex-1 items-center gap-1 rounded-xl px-2 text-left hover:bg-sunken" onClick={() => setPickerOpen(true)} disabled={!version || !booksQ.data} aria-haspopup="dialog">
+            <span className="truncate font-display text-[1.1rem]">{book ? `${bookName} ${chapter}` : 'Elegir libro'}</span>
             <ChevronDown />
           </button>
-          <button type="button" className="btn !min-w-[44px] !px-2" aria-label="Capítulo siguiente" disabled={!next} onClick={goNext}>
+          <button type="button" className="tap flex min-h-[44px] items-center gap-0.5 rounded-xl border border-line px-2.5 text-[13px] font-semibold hover:bg-sunken" aria-haspopup="dialog" aria-label={`Versión: ${version ?? ''}. Cambiar`} onClick={() => setVersionOpen(true)} disabled={!version}>
+            {version}
+            <ChevronDown />
+          </button>
+          <button type="button" className="tap grid h-11 w-10 place-items-center rounded-full hover:bg-sunken disabled:opacity-30" aria-label="Capítulo anterior" disabled={!prev} onClick={goPrev}>
+            <ChevronLeft />
+          </button>
+          <button type="button" className="tap grid h-11 w-10 place-items-center rounded-full hover:bg-sunken disabled:opacity-30" aria-label="Capítulo siguiente" disabled={!next} onClick={goNext}>
             <ChevronRight />
           </button>
-          <button type="button" className="btn !px-2 text-xs font-semibold" aria-haspopup="dialog" aria-label={`Versión: ${version ?? ''}. Cambiar`} onClick={() => setVersionOpen(true)} disabled={!version}>
-            {version}
-          </button>
-          <button type="button" className="btn !min-w-[44px] !px-2 text-lg" aria-haspopup="dialog" aria-label="Más opciones de lectura" onClick={() => setMenuOpen(true)}>
+          <button type="button" className="tap grid h-11 w-10 place-items-center rounded-full text-lg hover:bg-sunken" aria-haspopup="dialog" aria-label="Más opciones de lectura" onClick={() => setMenuOpen(true)}>
             <span aria-hidden="true">⋯</span>
           </button>
         </div>
       </header>
-      <header className="sticky top-0 z-30 -mx-4 hidden border-b border-line bg-bg/95 px-4 pb-2 pt-1 backdrop-blur md:-mx-8 md:block md:px-8">
+      <header className="sticky top-0 z-30 -mx-5 hidden border-b border-line bg-bg/95 px-5 pb-2 pt-1 backdrop-blur-xl md:-mx-10 md:block md:px-10">
         <div className="flex flex-wrap items-center gap-2">
           <button type="button" className="btn !px-2" aria-label="Capítulo anterior" disabled={!prev} onClick={goPrev}>
             <ChevronLeft />
           </button>
           <button type="button" className="btn min-w-0 flex-1 !justify-between md:flex-none" onClick={() => setPickerOpen(true)} disabled={!version || !booksQ.data} aria-haspopup="dialog">
-            <span className="truncate font-serif text-base font-semibold">{book ? `${bookName} ${chapter}` : 'Elegir libro'}</span>
+            <span className="truncate font-display text-lg">{book ? `${bookName} ${chapter}` : 'Elegir libro'}</span>
             <ChevronDown />
           </button>
           <button type="button" className="btn !px-2" aria-label="Capítulo siguiente" disabled={!next} onClick={goNext}>
@@ -186,14 +195,14 @@ function ReaderInner() {
           </button>
         </div>
         <div className="mt-2 flex items-center justify-between gap-2">
-          <div role="group" aria-label="Modo de lectura" className="inline-flex overflow-hidden rounded-lg border border-line">
+          <div role="group" aria-label="Modo de lectura" className="flex rounded-xl bg-sunken p-1">
             {MODES.map((m) => (
               <button
                 key={m.id}
                 type="button"
                 aria-pressed={mode === m.id}
                 onClick={() => update({ readingMode: m.id })}
-                className={`min-h-[44px] px-3 text-sm ${mode === m.id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}
+                className={`min-h-[34px] rounded-lg px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}
               >
                 {m.label}
               </button>
@@ -213,7 +222,11 @@ function ReaderInner() {
       </header>
 
       <article className={`mx-auto mt-6 ${margin}`} aria-live="polite">
-        {book && <h1 className="h-page mb-2">{`${bookName} ${chapter}`}</h1>}
+        {book && (
+          <header className="mb-5">
+            <h1 className="font-display text-[2rem] leading-tight">{bookName} {chapter}</h1>
+          </header>
+        )}
         {versionMeta && (statusSuffix(versionMeta) || versionMeta.notice) && (
           <div className="mb-4" data-testid="version-status">
             <StatusBadges meta={versionMeta} />
@@ -221,14 +234,14 @@ function ReaderInner() {
           </div>
         )}
         {bookMissing && (
-          <p className="card text-muted">
+          <p className="card-soft text-muted">
             La versión {version} no contiene este libro
             {versionMeta?.completeness === 'partial' ? ' (la edición disponible es parcial)' : ''}. Elige otra versión arriba.
           </p>
         )}
-        {chapterQ.isLoading && <p className="text-muted">Cargando…</p>}
+        {chapterQ.isLoading && <Loading />}
         {chapterQ.isError && !bookMissing && (
-          <div className="card" role="alert">
+          <div className="card-soft" role="alert">
             <p>No se pudo cargar el capítulo.</p>
             <p className="mt-1 text-sm text-muted">{(chapterQ.error as Error).message}</p>
             <button type="button" className="btn mt-3" onClick={() => void chapterQ.refetch()}>
@@ -283,9 +296,9 @@ function ReaderInner() {
         <div className="flex flex-col gap-4">
           <div>
             <p className="mb-1 text-sm font-medium text-muted">Modo de lectura</p>
-            <div role="group" aria-label="Modo de lectura" className="grid grid-cols-3 overflow-hidden rounded-lg border border-line">
+            <div role="group" aria-label="Modo de lectura" className="grid grid-cols-3 rounded-full bg-sunken p-1">
               {MODES.map((m) => (
-                <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => update({ readingMode: m.id })} className={`min-h-[44px] px-1 text-sm ${mode === m.id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
+                <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => update({ readingMode: m.id })} className={`min-h-[40px] rounded-full px-1 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
                   {m.label}
                 </button>
               ))}
@@ -381,11 +394,11 @@ function ChapterBlock({ version, target, heading, bookName, highlight, highlight
   useEffect(() => {
     if (q.data && onLoaded) onLoaded(q.data);
   }, [q.data, onLoaded]);
-  if (q.isLoading) return <p className="my-6 text-muted">Cargando…</p>;
+  if (q.isLoading) return <Loading />;
   if (!q.data) return null;
   return (
     <section className="mb-8" aria-label={`${bookName} ${target.chapter}`}>
-      {heading && <h2 className="h-page mb-3 mt-8 border-t border-line pt-6 !text-xl">{`${bookName} ${target.chapter}`}</h2>}
+      {heading && <h2 className="h-page mb-3 mt-8 border-t border-line/70 pt-6 !text-2xl">{`${bookName} ${target.chapter}`}</h2>}
       <VerseText verses={q.data.verses} highlight={highlight} highlightEnd={highlightEnd} onPick={onPick} />
     </section>
   );

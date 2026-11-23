@@ -18,7 +18,7 @@ export function assertCatalog(c: unknown): asserts c is Catalog {
 }
 
 export async function fetchCatalog(url: string, fetchImpl: typeof fetch = (...a) => fetch(...a)): Promise<Catalog> {
-  const res = await fetchImpl(url, { headers: { Accept: 'application/json' } });
+  const res = await fetchImpl(url, { headers: { Accept: 'application/json' }, cache: 'no-cache' });
   if (!res.ok) throw new Error(`El repositorio respondió ${res.status}`);
   const json: unknown = await res.json().catch(() => {
     throw new Error('La respuesta no es JSON');

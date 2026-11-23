@@ -1,0 +1,153 @@
+[
+  {
+    "id": "examen-para-confesion",
+    "title": "Examen de conciencia para la confesión",
+    "categories": [
+      "sacramentos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "**En relación con Dios**\n- ¿He descuidado la oración y mi relación con Dios?\n- ¿He rechazado deliberadamente la fe o tratado con desprecio las cosas sagradas?\n- ¿He participado en la Misa dominical y en las fiestas de precepto cuando podía hacerlo?\n- ¿He recibido los sacramentos con la debida preparación?\n\n**En relación con el prójimo**\n- ¿He tratado a los demás con caridad y respeto?\n- ¿He mentido, calumniado, difamado o difundido rumores?\n- ¿He guardado rencor o me he negado a perdonar?\n- ¿He sido injusto, violento o indiferente ante la necesidad ajena?\n- ¿He cumplido mis responsabilidades familiares, académicas y laborales?\n\n**En relación conmigo mismo**\n- ¿He cuidado mi cuerpo y mi vida como dones de Dios?\n- ¿He actuado con soberbia, envidia, ira o egoísmo?\n- ¿He permitido que un hábito dañino domine mi voluntad?\n- ¿He sido honesto con mis intenciones y decisiones?\n\nEl examen debe considerar la gravedad, el conocimiento y la libertad con que se cometió cada falta. Para dudas concretas, conviene consultar al confesor.",
+    "context": "Una guía de preguntas para preparar el sacramento de la Penitencia (CIC 1454-1458). No es un listado exhaustivo ni sustituye la orientación de un confesor. Los pecados graves se confiesan en número y especie (CIC 1456).",
+    "rubric": "Se hace antes de confesarse, a la luz de la Palabra de Dios y de los mandamientos.",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 10
+  },
+  {
+    "id": "oracion-antes-de-confesarse",
+    "title": "Antes de confesarse",
+    "categories": [
+      "sacramentos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor, ilumina mi conciencia para reconocer sinceramente mis pecados. Concédeme dolor verdadero, confianza en tu misericordia y propósito firme de cambiar. Ayúdame a confesar con sencillez y a reparar, en cuanto pueda, el daño que haya causado. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-despues-de-la-confesion",
+    "title": "Después de la confesión",
+    "categories": [
+      "sacramentos",
+      "accion-de-gracias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Gracias, Señor, por el perdón que me has concedido. Ayúdame a vivir reconciliado contigo y con mis hermanos. Fortalece mi voluntad para evitar el pecado y perseverar en el bien. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "comunion-espiritual",
+    "title": "Comunión espiritual",
+    "categories": [
+      "sacramentos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Creo, Jesús mío, que estás realmente presente en el Santísimo Sacramento del altar. Te amo sobre todas las cosas y deseo recibirte en mi alma. Ya que ahora no puedo recibirte sacramentalmente, ven al menos espiritualmente a mi corazón. Como si ya hubieras venido, te abrazo y me uno todo a ti. No permitas que jamás me separe de ti. Amén.",
+    "context": "Deseo de unirse a Cristo cuando no es posible comulgar sacramentalmente. No sustituye la Comunión sacramental ni el precepto dominical.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-antes-de-la-misa",
+    "title": "Preparación para la Misa",
+    "categories": [
+      "sacramentos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor, me dispongo a participar en el santo sacrificio de la Misa. Purifica mi corazón, aumenta mi fe y enséñame a ofrecerme contigo al Padre. Que participe con atención, reverencia y amor, y que reciba con fruto tu Palabra y tu gracia. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "accion-de-gracias-comunion",
+    "title": "Acción de gracias después de la comunión",
+    "categories": [
+      "sacramentos",
+      "accion-de-gracias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor Jesús, gracias por el don de tu presencia. Quédate conmigo, fortalece mi fe, aumenta mi esperanza y enciende mi caridad. Que el sacramento recibido transforme mi vida y me haga instrumento de tu paz. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "anima-christi",
+    "title": "Alma de Cristo (Anima Christi)",
+    "categories": [
+      "sacramentos",
+      "devociones",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Alma de Cristo, santifícame.\nCuerpo de Cristo, sálvame.\nSangre de Cristo, embriágame.\nAgua del costado de Cristo, lávame.\nPasión de Cristo, confórtame.\n¡Oh buen Jesús!, óyeme.\nDentro de tus llagas, escóndeme.\nNo permitas que me aparte de ti.\nDel maligno enemigo, defiéndeme.\nEn la hora de mi muerte, llámame\ny mándame ir a ti,\npara que con tus santos te alabe\npor los siglos de los siglos. Amén.",
+    "latin": "Anima Christi, sanctifica me.\nCorpus Christi, salva me.\nSanguis Christi, inebria me.\nAqua lateris Christi, lava me.\nPassio Christi, conforta me.\nO bone Iesu, exaudi me.\nIntra tua vulnera absconde me.\nNe permittas me separari a te.\nAb hoste maligno defende me.\nIn hora mortis meae voca me,\net iube me venire ad te,\nut cum Sanctis tuis laudem te\nin saecula saeculorum. Amen.",
+    "context": "Oración eucarística de autor desconocido (siglo XIV); san Ignacio de Loyola la difundió al ponerla al comienzo de sus Ejercicios Espirituales.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 2
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "id": "san-jose",
+  "title": "Novena a san José",
+  "group": "saints",
+  "description": "Nueve días con el esposo de María y custodio de Jesús, patrono de la Iglesia universal, antes de su solemnidad del 19 de marzo.",
+  "image": {
+    "icon": "family",
+    "tint": "#8a6a3b"
+  },
+  "introduction": "José de Nazaret, «hombre justo» (Mt 1,19), fue el esposo de María y, según la ley, el padre legal de Jesús. Los Evangelios no conservan ninguna palabra suya: lo conocemos por sus actos, siempre obedientes, discretos y valientes. Recibió en sueños el anuncio del ángel, acogió a María, llevó a su familia a Belén y a Egipto, y enseñó a Jesús el trabajo de carpintero.\n\nLa Iglesia le tributa un culto creciente desde la Edad Media. El 8 de diciembre de 1870, el beato Pío IX lo declaró patrono de la Iglesia católica. León XIII, en la encíclica *Quamquam pluries* (15 de agosto de 1889), recomendó su patrocinio, y Pío XII instituyó en 1955 la fiesta de san José Obrero, el 1 de mayo (hoy memoria libre). Francisco le dedicó la carta apostólica *Patris corde* (8 de diciembre de 2020) y convocó un año especial en su honor. Es patrono de los padres de familia, de los trabajadores y de la buena muerte.\n\nSu solemnidad se celebra el 19 de marzo. Esta novena recorre su vida a la luz del Evangelio.",
+  "purpose": "Aprender de san José la obediencia confiada, el trabajo honrado y el cuidado de la familia, y encomendar a su protección a la Iglesia, a las familias y a quienes trabajan.\n\nEsta novena es una práctica de piedad popular, libre y voluntaria: no obliga, no asegura resultados y no sustituye a la liturgia ni a los sacramentos. Que san José nos enseñe a confiar sin exigir señales.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 3,
+    "day": 19,
+    "label": "Solemnidad de san José, esposo de la Virgen María"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios nuestro, que confiaste a san José el cuidado de María y de tu Hijo, concédenos aprender de él el silencio, la fidelidad y el amor sencillo. Que durante estos nueve días su ejemplo nos acerque más a Jesús. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El hombre justo",
+      "reading": "Mt 1,18-25",
+      "reflection": "San José descubre que María espera un hijo y no entiende. Según el Evangelio, es «justo» y no quiere exponerla; piensa en dejarla en secreto. La justicia de José no es dureza, sino fidelidad unida a misericordia. Antes de actuar, escucha. Muchas veces nos toca vivir situaciones que no comprendemos y que nos desbordan; José enseña a no decidir desde el miedo ni el orgullo herido, sino a dejar que Dios hable. Pidamos hoy un corazón justo, que sepa unir verdad y ternura, y que no condene con prisa a quienes tiene cerca.",
+      "prayer": "San José, hombre justo, enséñame a mirar con misericordia y a no juzgar con prisa. Cuando no entienda lo que sucede, dame calma para esperar la luz de Dios y valor para obrar bien. Libra mi corazón de la dureza y de las sospechas, y concédeme la paciencia de quien espera en silencio la palabra de Dios. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Despertó y obedeció",
+      "reading": "Mt 1,20-24",
+      "reflection": "El ángel habla a José en sueños y él, al despertar, hace lo que se le ha mandado: toma consigo a María. No hay discursos, solo obediencia. Su fe es concreta: se traduce en gestos. A veces esperamos señales extraordinarias para decidir, cuando Dios nos pide pasos pequeños y claros: reconciliarnos, cumplir una promesa, atender a alguien. La obediencia de José no es sumisión ciega, sino confianza en que Dios guía la historia aun cuando los caminos sorprenden. Hoy preguntemos qué paso sencillo se nos pide, y démoslo. Quizá hoy ese paso sea una llamada pendiente, una disculpa o una tarea aplazada; darlo sin demora es el modo más sencillo de decir sí.",
+      "prayer": "San José, que obedeciste a Dios sin demora, concédeme una fe que se haga obras. Ayúdame a dar hoy el paso que el Señor me pide, aunque sea pequeño. Que no aplace por miedo lo que sé que debo hacer, y que mi respuesta sea tan callada y firme como la tuya, san José. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Esposo fiel de María",
+      "reading": "Lc 2,4-5",
+      "reflection": "José sube a Belén con María, que está embarazada. Camina a su lado, la protege, comparte la incomodidad del viaje. Su matrimonio no es de apariencia: es una entrega diaria, silenciosa y verdadera. En él la Iglesia ve un modelo de fidelidad: cuidar sin poseer, acompañar sin imponer. Las familias de hoy, con sus cansancios y cargas, pueden acudir a él. Pidamos por los matrimonios, para que aprendan a escucharse y a perdonar, y por quienes viven solos, para que encuentren compañía y apoyo en la comunidad. Puede ayudar agradecer hoy, con una palabra concreta, a la persona que camina a nuestro lado, y decirle algo que no suele oír.",
+      "prayer": "San José, esposo de María, bendice a las familias y a los matrimonios. Enséñanos a cuidarnos con paciencia, a perdonar y a caminar juntos hacia Dios. Sostén a quienes sienten cansancio en su casa, a los que han enviudado y a los que se sienten solos, y haz de cada hogar un lugar de paz. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Padre en la sombra",
+      "reading": "Lc 2,6-7.15-20",
+      "reflection": "En Belén no hay lugar en la posada, y José prepara lo posible: un pesebre, un refugio. Recibe a los pastores y calla. Es padre sin protagonismo: sirve para que otro sea visto. El papa Francisco lo llamó «padre en la sombra» y «padre de la ternura». Nos recuerda que el amor verdadero no busca aplauso. Muchos padres, madres y cuidadores hacen una labor oculta y constante; también ellos reflejan al Padre del cielo. Demos gracias hoy por quienes nos han cuidado sin que se note, y pidamos imitar su generosidad.",
+      "prayer": "San José, padre humilde de Jesús, enséñame a servir sin buscar reconocimiento. Bendice a quienes cuidan de otros en lo escondido y dame un corazón tierno y generoso. Haz que valore a quienes me sirven en silencio, y que yo también sepa hacer el bien sin esperar que me lo agradezcan. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Obediente a la Ley",
+      "reading": "Lc 2,21-24",
+      "reflection": "José lleva al Niño al templo, lo circuncida y le pone el nombre de Jesús, tal como se le había indicado. Cumple lo que la ley manda, no por mera formalidad, sino porque sabe que ese Niño pertenece a Dios. Él presenta a Jesús y recibe la profecía de Simeón: una espada atravesará el alma de María. Aprendemos de José a ofrecer a Dios lo que más queremos, a llevar a los hijos y a los seres queridos ante el Señor con la oración y los sacramentos, confiando en que Él sabe lo que es mejor.",
+      "prayer": "San José, que presentaste a Jesús en el templo, enséñame a poner en manos de Dios a mis seres queridos y a mí mismo. Dame fidelidad en lo pequeño y confianza en lo que no entiendo. Enséñame también a aceptar lo que no controlo, sabiendo que lo que entrego a Dios queda en buenas manos. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Protector en la huida",
+      "reading": "Mt 2,13-15",
+      "reflection": "Un nuevo aviso en sueños: Herodes busca al Niño. José se levanta de noche y emprende, con María y Jesús, el camino hacia Egipto. Se vuelve migrante, vive el miedo y la inseguridad. Su figura es cercana a todas las familias que huyen de la violencia o buscan una vida digna, especialmente en nuestra tierra hispana, donde tantas personas emigran. Contemplamos su valentía discreta. Pidamos por los migrantes y refugiados, y por quienes los reciben, para que se les abra una puerta y se les reconozca su dignidad. Un gesto posible hoy: informarse sobre los migrantes de nuestra zona y rezar por ellos, o apoyar alguna iniciativa que los acoja.",
+      "prayer": "San José, protector de la Sagrada Familia en el destierro, cuida a los migrantes y refugiados. Abre corazones y puertas para ellos y haznos hospitalarios. Protege a los niños que viajan sin sus padres y a las familias separadas, y haz que ninguna puerta se cierre por indiferencia. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Trabajador y maestro",
+      "reading": "Mt 13,53-58",
+      "reflection": "Los vecinos de Nazaret preguntan: «¿No es este el hijo del carpintero?». José enseñó a Jesús un oficio, con paciencia y con las manos. Su trabajo era modesto, pero digno, y sostenía a su familia. El trabajo, dice la Iglesia, no es solo medio de vida: es modo de colaborar con la obra creadora de Dios. Pensemos en quienes no tienen empleo, en quienes trabajan en condiciones injustas y en quienes hacen su labor con rectitud. Que nuestras tareas, aun las más ordinarias, se conviertan en oración y servicio. Al empezar o terminar la jornada, un instante de oración basta para que el trabajo, también el monótono y el cansado, quede ofrecido.",
+      "prayer": "San José Obrero, bendice nuestro trabajo y el de todas las personas. Ayuda a quienes buscan empleo y a quienes sufren injusticia. Que todo lo que hagamos sea para gloria de Dios. Da a cada trabajador un salario justo y un trato digno, y a nosotros, el gusto por hacer bien lo que se nos encomienda. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Buscando al Niño con angustia",
+      "reading": "Lc 2,41-52",
+      "reflection": "José y María pierden a Jesús en Jerusalén y lo buscan durante tres días con dolor. Cuando lo encuentran en el templo, no entienden del todo su respuesta, pero siguen adelante. También José debió aprender que Jesús pertenecía en primer lugar al Padre. Hay momentos en que creemos haber perdido la presencia de Dios o de alguien amado. José enseña a buscar sin desistir y a aceptar misterios que superan nuestra comprensión. Pidamos por los padres que sufren por sus hijos y por quienes viven tiempos de oscuridad en la fe.",
+      "prayer": "San José, que buscaste con angustia a Jesús, acompaña a los padres que sufren por sus hijos y a quienes sienten lejano a Dios. Danos perseverancia y paz. Cuando no encontremos a Jesús donde lo esperábamos, enséñanos a seguir buscándolo con paz hasta reconocerlo de nuevo. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Patrono de la buena muerte",
+      "reading": "Sal 116,15; Mt 25,1-13",
+      "reflection": "La tradición piadosa invoca a san José como patrono de la buena muerte, pensando que murió acompañado por Jesús y María; los Evangelios no narran su muerte, y esto pertenece a la devoción, no a la Escritura. Pedimos a Dios la gracia de vivir cada día de modo que podamos esperar el encuentro con Él sin temor. Oremos por los enfermos, los ancianos y los moribundos, y recordemos a nuestros difuntos. Que la esperanza de la vida eterna ilumine nuestro camino y nos haga vigilantes, como las doncellas prudentes de la parábola.",
+      "prayer": "San José, patrono de la buena muerte, acompaña a los enfermos y moribundos y alcánzanos una vida fiel y un final en paz. Encomienda a Dios a nuestros difuntos. Te pido hoy por los enfermos graves y sus familias: que ninguno muera solo y que todos sientan la cercanía de Dios. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "A ti, bienaventurado san José",
+      "text": "**A ti, bienaventurado san José** (León XIII, *Quamquam pluries*, 15-VIII-1889; versión española publicada en la web de la Santa Sede)\n\nA ti, bienaventurado san José, acudimos en nuestra tribulación, y después de implorar el auxilio de tu santísima esposa, solicitamos también confiadamente tu patrocinio. Con aquella caridad que te tuvo unido con la Inmaculada Virgen María, Madre de Dios, y por el paterno amor con que abrazaste al Niño Jesús, humildemente te suplicamos que vuelvas benigno los ojos a la herencia que con su Sangre adquirió Jesucristo, y con tu poder y auxilio socorras nuestras necesidades.\n\nProtege, oh providentísimo Custodio de la divina Familia, la escogida descendencia de Jesucristo; aleja de nosotros, oh padre amantísimo, este flagelo de errores y vicios. Asístenos propicio desde el cielo, en esta lucha contra el poder de las tinieblas; y como en otro tiempo libraste de la muerte la vida amenazada del Niño Jesús, así ahora defiende a la santa Iglesia de Dios de las hostiles insidias y de toda adversidad. Y a cada uno de nosotros protégenos con tu constante patrocinio, para que, a ejemplo tuyo, y sostenidos por tu auxilio, podamos vivir y morir santamente y alcanzar en los cielos la eterna bienaventuranza. Amén.\n\n*Existe también una versión castellana tradicional en segunda persona de respeto («A vos, bienaventurado san José»), con pequeñas variantes de redacción entre ediciones.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Mt 1-2; Lc 2 (Sagrada Escritura)"
+    },
+    {
+      "label": "León XIII, Quamquam pluries (15-VIII-1889)",
+      "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_15081889_quamquam-pluries.html"
+    },
+    {
+      "label": "Francisco, Patris corde (8-XII-2020)",
+      "url": "https://www.vatican.va/content/francesco/es/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html"
+    }
+  ],
+  "saints": [
+    "san-jose"
+  ],
+  "tags": [
+    "novena",
+    "san José",
+    "19 de marzo"
+  ]
+}

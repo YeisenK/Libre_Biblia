@@ -2,8 +2,92 @@
   "format": 1,
   "name": "Libre Biblia — repositorio oficial",
   "homepage": "https://github.com/YeisenK/Libre_Biblia",
-  "updatedAt": "2026-11-20T17:15:30.281Z",
+  "updatedAt": "2026-11-23T05:15:21.008Z",
   "packs": [
+    {
+      "id": "audio.oraciones.fraile",
+      "kind": "audio",
+      "version": "2026.11.22",
+      "title": "Voz de oración: Fraile",
+      "description": "Oraciones, misterios del Rosario y pasajes leídos con la voz «Fraile». Voz de hombre de unos 55 años, fraile. Timbre suave y grave. Tono sereno y bondadoso, habla despacio. Habla con naturalidad y calma, con la entonación normal de una conversación, sin exagerar ni dramatizar. Hablante nativo de español, acento latinoamericano neutro, sin ningún acento extranjero.",
+      "language": "es",
+      "url": "packs/audio.oraciones.fraile.json.gz",
+      "bytes": 10410349,
+      "sha256": "4d542af4fd8eb87e6836126416e550d0f1d76bd2da5ba14263a2dcdbb87f8479",
+      "authority": "devotional",
+      "collection": "Voces de oración",
+      "source": {
+        "name": "Voz «Fraile» generada con Juglar (Qwen3-TTS) a partir de los textos de prayers.es",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/prayers",
+        "retrievedAt": "2026-11-22T00:00:00.000Z",
+        "notes": "Audio sintético; los pasajes bíblicos son de la Santa Biblia libre Latinoamericana (dominio público)."
+      }
+    },
+    {
+      "id": "audio.oraciones.helena",
+      "kind": "audio",
+      "version": "2026.11.22",
+      "title": "Voz de oración: Helena",
+      "description": "Oraciones, misterios del Rosario y pasajes leídos con la voz «Helena». Voz de mujer de unos cincuenta y cinco años en apariencia, emperatriz. Contralto cálida, suave, un poco susurrante. Tono maternal y elegante. Habla con ligereza de cosas pequeñas, de plantas, de comida, de recuerdos de sus hijos, y con esa charla tapa su preocupación. Cuando algo le importa de verdad se calla un momento y luego dice una frase corta, baja y certera. Nunca es brusca. Acento latinoamericano neutro.",
+      "language": "es",
+      "url": "packs/audio.oraciones.helena.json.gz",
+      "bytes": 10980492,
+      "sha256": "5f6fe44bb04126158e4f6c5b8803f6e93f4cf8cf1fdb4851ca643809fb84f05c",
+      "authority": "devotional",
+      "collection": "Voces de oración",
+      "source": {
+        "name": "Voz «Helena» generada con Juglar (Qwen3-TTS) a partir de los textos de prayers.es",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/prayers",
+        "retrievedAt": "2026-11-22T00:00:00.000Z",
+        "notes": "Audio sintético; los pasajes bíblicos son de la Santa Biblia libre Latinoamericana (dominio público)."
+      }
+    },
+    {
+      "id": "audio.oraciones.micael",
+      "kind": "audio",
+      "version": "2026.11.22",
+      "title": "Voz de oración: Micael",
+      "description": "Oraciones, misterios del Rosario y pasajes leídos con la voz «Micael». Young man, about 28, firm low-medium voice, serious and grounded, short sentences, calm courage, quiet authority, little ornament. Neutral Latin American Spanish.",
+      "language": "es",
+      "url": "packs/audio.oraciones.micael.json.gz",
+      "bytes": 10490141,
+      "sha256": "d4fba16103a98429737c9606638e8e331dbab39cda70e29a15d71bb4ae260a75",
+      "authority": "devotional",
+      "collection": "Voces de oración",
+      "source": {
+        "name": "Voz «Micael» generada con Juglar (Qwen3-TTS) a partir de los textos de prayers.es",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/prayers",
+        "retrievedAt": "2026-11-22T00:00:00.000Z",
+        "notes": "Audio sintético; los pasajes bíblicos son de la Santa Biblia libre Latinoamericana (dominio público)."
+      }
+    },
+    {
+      "id": "audio.oraciones.narrador",
+      "kind": "audio",
+      "version": "2026.11.22",
+      "title": "Voz de oración: Narrador (hombre)",
+      "description": "Oraciones, misterios del Rosario y pasajes leídos con la voz «Narrador (hombre)». Narrador de audiolibros, hombre de unos 40 años, voz grave, cálida y resonante, español latinoamericano neutro, dicción impecable, ritmo pausado y envolvente.",
+      "language": "es",
+      "url": "packs/audio.oraciones.narrador.json.gz",
+      "bytes": 10622209,
+      "sha256": "649b73e4da5cc13085f32b65fe1b3cf91674675b3559c302e217c10365ca2acd",
+      "authority": "devotional",
+      "collection": "Voces de oración",
+      "source": {
+        "name": "Voz «Narrador (hombre)» generada con Juglar (Qwen3-TTS) a partir de los textos de prayers.es",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/prayers",
+        "retrievedAt": "2026-11-22T00:00:00.000Z",
+        "notes": "Audio sintético; los pasajes bíblicos son de la Santa Biblia libre Latinoamericana (dominio público)."
+      }
+    },
     {
       "id": "bible.BLL",
       "kind": "bible",
@@ -214,6 +298,28 @@
       }
     },
     {
+      "id": "doc.imitacion-de-cristo",
+      "kind": "document",
+      "version": "2026.11.23",
+      "title": "Imitación de Cristo",
+      "language": "la",
+      "url": "packs/doc.imitacion-de-cristo.json.gz",
+      "bytes": 107284,
+      "sha256": "324da233eccab0ee174acfa2815bfce26322adc9a834e35615d81bf57e60e815",
+      "authority": "spiritual_classic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en latín (la.wikisource.org)",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://la.wikisource.org/w/index.php?title=De_imitatione_Christi&oldid=129152",
+        "downloadUrl": "https://la.wikisource.org/w/api.php",
+        "originalSha256": "95992632fa23b039f8b9d122d637e6ef752c284f3cfeba2f027cf5cf85096525",
+        "retrievedAt": "2026-11-23T05:15:21.008Z",
+        "notes": "Autores de la transcripción: historial de la página (https://la.wikisource.org/w/index.php?title=De_imitatione_Christi&action=history). Original latino (no hay traducción española de dominio público con transcripción completa verificable en Wikisource; ver README). La atribución a Tomás de Kempis es tradicional y discutida por la crítica. Se conservan los números de párrafo del texto."
+      }
+    },
+    {
       "id": "doc.libro-de-la-vida-teresa",
       "kind": "document",
       "version": "2026.11.20",
@@ -388,6 +494,27 @@
         "originalSha256": "56aff91b2c960f079b31bce3ad5545307333aa69ffdf9a72135ed19e8e3a5248",
         "retrievedAt": "2026-11-20T16:15:45.925Z",
         "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Versos_sencillos&action=history). "
+      }
+    },
+    {
+      "id": "prayers.es",
+      "kind": "prayers",
+      "version": "2026.11.22",
+      "title": "Oraciones y Rosario",
+      "description": "Oraciones tradicionales de la Iglesia, devociones, novenas, Santo Rosario con sus veinte misterios y rutinas de oración, en español.",
+      "language": "es",
+      "url": "packs/prayers.es.json.gz",
+      "bytes": 138811,
+      "sha256": "3c8be084a4a82f80134048bbc67510d4e148a66c04312e4c0ca7a751135f45da",
+      "authority": "devotional",
+      "collection": "Oraciones",
+      "source": {
+        "name": "Libre Biblia — paquete oficial de oraciones (recopilación y textos propios)",
+        "license": "CC BY-SA 4.0 (recopilación y textos propios); oraciones tradicionales de dominio público. No incluye textos litúrgicos oficiales con derechos de autor.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/prayers",
+        "retrievedAt": "2026-11-22T00:00:00.000Z",
+        "notes": "Cada texto declara su naturaleza (litúrgica, oración de la Iglesia, devoción privada o piedad popular). No es texto litúrgico oficial."
       }
     }
   ]

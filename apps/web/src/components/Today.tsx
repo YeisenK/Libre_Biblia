@@ -18,6 +18,7 @@ import { renderVerseImage } from '@/lib/shareImage';
 import { copyText, shareOrDownloadImage, shareText } from '@/lib/share';
 import type { BibleVersion } from '@/lib/types';
 import { ChevronLeft, ChevronRight, HeartIcon } from './Icons';
+import { Loading } from './ui';
 import { LiturgyHeader } from './LiturgyHeader';
 import { Markdown } from './Markdown';
 import { StatusBadges } from './StatusBadges';
@@ -28,7 +29,7 @@ export function Today() {
   const sp = useSearchParams();
   const today = useToday();
   const dParam = sp.get('d');
-  if (!today) return <p className="text-muted">Cargando…</p>;
+  if (!today) return <Loading />;
   const date = isIsoDate(dParam) && dParam <= today ? dParam : today;
   return <TodayInner date={date} today={today} />;
 }
@@ -105,8 +106,10 @@ function TodayInner({ date, today }: { date: string; today: string }) {
 
   return (
     <div className="mx-auto max-w-2xl">
-      <h1 className="h-page mb-1">Hoy</h1>
-      <p className="mb-3 text-muted" data-testid="today-date">{formatLongDate(date)}</p>
+      <header className="mb-5 animate-rise-in">
+        <p className="eyebrow mb-1">Hoy</p>
+        <h1 className="h-page" data-testid="today-date">{formatLongDate(date)}</h1>
+      </header>
 
       <nav aria-label="Días" className="mb-4 flex items-center justify-between gap-2">
         <button type="button" className="btn !px-2" onClick={() => go(shiftIso(date, -1))} aria-label="Día anterior">
@@ -150,22 +153,22 @@ function TodayInner({ date, today }: { date: string; today: string }) {
 
       {cycleShown && (
       <section className="mt-6" aria-label="Versículo del día">
-        {entryQ.isLoading && <p className="text-muted">Cargando…</p>}
+        {entryQ.isLoading && <Loading />}
         {noPack && (
-          <div className="card border-accent" data-testid="no-pack">
-            <p className="font-serif text-xl">Descarga el ciclo del versículo del día</p>
+          <div className="card-soft" data-testid="no-pack">
+            <p className="font-display text-[1.5rem] font-semibold">Descarga el ciclo del versículo del día</p>
             <p className="mt-1 text-sm text-muted">El versículo diario viene en un paquete que se guarda en este dispositivo; funciona sin conexión.</p>
             <Link href="/descargas/" className="btn btn-primary mt-3">Ir a Contenido</Link>
           </div>
         )}
-        {noEntry && <p className="card text-muted" data-testid="no-entry">El ciclo instalado no tiene entrada para esta fecha.</p>}
+        {noEntry && <p className="card-soft text-muted" data-testid="no-entry">El ciclo instalado no tiene entrada para esta fecha.</p>}
         {entry && found && (
           <article>
             <div className="mb-3 flex flex-wrap items-center gap-2 text-xs font-semibold">
               <span className="rounded-full bg-sunken px-2 py-0.5 text-muted">Devocional — no es Magisterio</span>
               <StatusBadges meta={{ status: found.status }} />
             </div>
-            <h2 className="font-serif text-2xl font-semibold">{entry.title}</h2>
+            <h2 className="font-display text-[1.9rem] font-semibold leading-tight">{entry.title}</h2>
             <p className="mb-4 text-sm text-muted">Tema: {entry.theme}</p>
 
             <VerseCard entry={entry} verse={verse} loading={verseQ.isLoading} noBibles={noBibles} preferred={preferred} />
@@ -199,20 +202,20 @@ function TodayInner({ date, today }: { date: string; today: string }) {
                 <HeartIcon /> {favQ.data ? 'En favoritos' : 'Guardar en favoritos'}
               </button>
             </div>
-            <p role="status" aria-live="polite" className="mt-2 min-h-5 text-sm text-accent">{msg}</p>
+            <p role="status" aria-live="polite" className="mt-2 min-h-5 text-sm text-muted">{msg}</p>
 
-            <h3 className="mb-1 mt-6 font-serif text-lg font-semibold">Contexto</h3>
+            <h3 className="mb-1 mt-6 font-display text-[1.15rem]">Contexto</h3>
             <p className="reading !text-base">{entry.context}</p>
-            <h3 className="mb-1 mt-6 font-serif text-lg font-semibold">Reflexión</h3>
+            <h3 className="mb-1 mt-6 font-display text-[1.15rem]">Reflexión</h3>
             <div className="!text-base"><Markdown text={entry.reflection} /></div>
-            <h3 className="mb-1 mt-2 font-serif text-lg font-semibold">Para meditar</h3>
+            <h3 className="mb-1 mt-2 font-display text-[1.15rem]">Para meditar</h3>
             <ol className="reading list-decimal pl-6 !text-base">
               {entry.questions.map((q, i) => (
                 <li key={i} className="mb-1">{q}</li>
               ))}
             </ol>
-            <h3 className="mb-1 mt-6 font-serif text-lg font-semibold">Oración</h3>
-            <p className="reading border-l-2 border-accent pl-4 italic !text-base">{entry.prayer}</p>
+            <h3 className="mb-1 mt-6 font-display text-[1.15rem]">Oración</h3>
+            <p className="reading border-l-2 border-line pl-4 italic !text-base">{entry.prayer}</p>
             {entry.related.length > 0 && <Related entry={entry} version={verse?.version.code ?? preferred} versions={versionsQ.data ?? []} />}
           </article>
         )}
@@ -221,7 +224,7 @@ function TodayInner({ date, today }: { date: string; today: string }) {
 
       {!!favsQ.data?.length && (
         <section className="mt-8" aria-label="Favoritos">
-          <h2 className="mb-2 font-serif text-lg font-semibold">Favoritos</h2>
+          <h2 className="mb-2 font-display text-[1.15rem]">Favoritos</h2>
           <ul className="flex flex-col gap-1" data-testid="daily-favs">
             {favsQ.data.map((f) => (
               <li key={f.date}>
@@ -236,7 +239,7 @@ function TodayInner({ date, today }: { date: string; today: string }) {
       )}
       {!!seenQ.data?.length && (
         <section className="mt-8" aria-label="Días vistos">
-          <h2 className="mb-2 font-serif text-lg font-semibold">Días anteriores</h2>
+          <h2 className="mb-2 font-display text-[1.15rem]">Días anteriores</h2>
           <ul className="flex flex-col gap-1" data-testid="daily-history">
             {seenQ.data.slice(0, 60).map((h) => (
               <li key={h.date}>
@@ -271,17 +274,17 @@ function VerseCard({ entry, verse, loading, noBibles, preferred }: { entry: Dail
   const bookName = (osis: string) => CANON.find((b) => b.osis === osis)?.names.es ?? osis;
   if (noBibles)
     return (
-      <div className="card" data-testid="verse-card">
-        <p className="font-serif text-xl">{entry.ref}</p>
+      <div className="card-soft" data-testid="verse-card">
+        <p className="font-display text-[1.5rem] font-semibold">{entry.ref}</p>
         <p className="mt-1 text-sm text-muted">Instala una Biblia en Contenido para leer aquí el texto del versículo.</p>
         <Link href="/descargas/" className="btn mt-3">Ir a Contenido</Link>
       </div>
     );
-  if (loading) return <p className="text-muted">Cargando…</p>;
+  if (loading) return <Loading />;
   if (!verse)
     return (
-      <div className="card" data-testid="verse-card">
-        <p className="font-serif text-xl">{entry.ref}</p>
+      <div className="card-soft" data-testid="verse-card">
+        <p className="font-display text-[1.5rem] font-semibold">{entry.ref}</p>
         <p className="mt-1 text-sm text-muted">Ninguna de tus Biblias instaladas contiene este pasaje. Puedes descargar otra en Contenido.</p>
       </div>
     );
@@ -290,7 +293,7 @@ function VerseCard({ entry, verse, loading, noBibles, preferred }: { entry: Dail
   const psalmNote = parsed?.book === 'Ps' && needsConversion(entryScheme(entry.psalmNumbering), own);
   const multi = verse.verses.length > 1;
   return (
-    <figure className="card" data-testid="verse-card">
+    <figure className="card-soft" data-testid="verse-card">
       <blockquote className="reading">
         {verse.verses.map((v) => (
           <span key={`${v.chapter}.${v.verse}`}>
@@ -321,7 +324,7 @@ function Related({ entry, version, versions }: { entry: DailyEntry; version: str
   const vf = schemeOf(versions.find((v) => v.code === version)?.versification);
   return (
     <section className="mt-6" aria-label="Pasajes relacionados">
-      <h3 className="mb-2 font-serif text-lg font-semibold">Relacionadas</h3>
+      <h3 className="mb-2 font-display text-[1.15rem]">Relacionadas</h3>
       <ul className="flex flex-wrap gap-2">
         {entry.related.map((r) => {
           const ref = tryParseReference(r);
@@ -341,7 +344,7 @@ function Related({ entry, version, versions }: { entry: DailyEntry; version: str
 function MassReadingsSection({ mass, versions, preferred }: { mass: MassReadings; versions: BibleVersion[]; preferred: string | null }) {
   return (
     <section className="mt-6" aria-labelledby="mass-h" data-testid="mass-readings">
-      <h2 id="mass-h" className="mb-2 font-serif text-lg font-semibold">Lecturas de la Misa</h2>
+      <h2 id="mass-h" className="mb-2 font-display text-[1.15rem]">Lecturas de la Misa</h2>
       <ul className="flex flex-col gap-1">
         {mass.readings.map((r) => {
           const version = pickVersionFor(spanFor(r.ref, null).book, versions, preferred);
@@ -388,23 +391,23 @@ function GospelSection(p: {
   const bookName = (osis: string) => CANON.find((b) => b.osis === osis)?.names.es ?? osis;
   return (
     <section className="mt-6" aria-label="Evangelio del día" data-testid="gospel-section">
-      <h2 className="font-serif text-2xl font-semibold">Evangelio del día</h2>
+      <h2 className="font-display text-[1.9rem] font-semibold leading-tight">Evangelio del día</h2>
       <p className="mb-4 text-sm text-muted">{p.title}</p>
       {p.noBibles ? (
-        <div className="card" data-testid="verse-card">
-          <p className="font-serif text-xl">{p.ref0}</p>
+        <div className="card-soft" data-testid="verse-card">
+          <p className="font-display text-[1.5rem] font-semibold">{p.ref0}</p>
           <p className="mt-1 text-sm text-muted">Instala una Biblia en Contenido para leer aquí el texto del Evangelio.</p>
           <Link href="/descargas/" className="btn mt-3">Ir a Contenido</Link>
         </div>
       ) : p.loading ? (
-        <p className="text-muted">Cargando…</p>
+        <Loading />
       ) : !passage ? (
-        <div className="card" data-testid="verse-card">
-          <p className="font-serif text-xl">{p.ref0}</p>
+        <div className="card-soft" data-testid="verse-card">
+          <p className="font-display text-[1.5rem] font-semibold">{p.ref0}</p>
           <p className="mt-1 text-sm text-muted">Ninguna de tus Biblias instaladas contiene este pasaje. Puedes descargar otra en Contenido.</p>
         </div>
       ) : (
-        <figure className="card" data-testid="verse-card">
+        <figure className="card-soft" data-testid="verse-card">
           <blockquote className="reading">
             {passage.verses.map((v) => (
               <span key={`${v.chapter}.${v.verse}`}>
@@ -444,7 +447,7 @@ function GospelSection(p: {
           {p.cycleOpen ? 'Ocultar el ciclo temático' : 'Ver el ciclo temático'}
         </button>
       </div>
-      <p role="status" aria-live="polite" className="mt-2 min-h-5 text-sm text-accent">{p.msg}</p>
+      <p role="status" aria-live="polite" className="mt-2 min-h-5 text-sm text-muted">{p.msg}</p>
     </section>
   );
 }

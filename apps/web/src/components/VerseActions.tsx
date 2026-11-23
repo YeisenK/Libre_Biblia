@@ -64,17 +64,17 @@ export function VerseActions({ verse, version, book, chapter, onClose }: Props) 
 
   return (
     <Modal open onClose={onClose} title={ref}>
-      <blockquote className="reading mb-4 border-l-2 border-accent pl-3 text-base">{verse.text}</blockquote>
+      <blockquote className="reading mb-5 border-l-2 border-line pl-4 !text-[1.05rem] italic">{verse.text}</blockquote>
       <ul className="flex flex-col gap-2">
         {items.map((i) => (
           <li key={i.label}>
-            <button type="button" className="btn w-full !justify-start" disabled={busy} onClick={() => void run(i.action)}>
+            <button type="button" className="btn w-full !justify-start !rounded-xl" disabled={busy} onClick={() => void run(i.action)}>
               {i.label}
             </button>
           </li>
         ))}
       </ul>
-      <p role="status" aria-live="polite" className="mt-3 min-h-5 text-sm text-accent">
+      <p role="status" aria-live="polite" className="mt-3 min-h-5 text-sm text-muted">
         {msg}
       </p>
     </Modal>

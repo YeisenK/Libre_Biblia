@@ -1,0 +1,135 @@
+{
+  "id": "virgen-del-pilar",
+  "title": "Novena a Nuestra Señora del Pilar",
+  "group": "marian",
+  "description": "Nueve días con la Virgen del Pilar de Zaragoza, columna firme de la fe, antes de su fiesta del 12 de octubre.",
+  "image": {
+    "icon": "crown",
+    "tint": "#6C7FA8"
+  },
+  "introduction": "La devoción a la Virgen del Pilar, en Zaragoza, es una de las más antiguas de España. Según una piadosa tradición, el apóstol Santiago el Mayor, desanimado en su predicación junto al Ebro, recibió el consuelo de la Virgen María, que se le apareció sobre un pilar de jaspe y le pidió que se levantara allí una capilla. Esta tradición, que sitúa el hecho hacia el año 40, no es una aparición reconocida como tal por la Iglesia ni se apoya en documentos de la época: los relatos escritos son medievales. La devoción, en cambio, es muy antigua y firme.\n\nLa actual Basílica-Catedral de Nuestra Señora del Pilar, de época barroca, guarda la columna y una pequeña imagen de la Virgen con el Niño, besada por generaciones de peregrinos. Es patrona de Zaragoza, de la Guardia Civil y, para muchos, de los pueblos hispanos. San Juan Pablo II visitó el santuario en 1982 y de nuevo en 1984. Su fiesta se celebra el 12 de octubre.\n\nEsta novena es piedad popular, libre y voluntaria; la tradición del Pilar se vive como devoción, no como dogma de fe.",
+  "purpose": "Pedir a la Virgen del Pilar que nos sostenga en la fe y la perseverancia, como columna firme en medio de las dificultades; fortalecer nuestro compromiso misionero y la unidad entre los pueblos hispanos; y encomendar a las familias. Prepara la fiesta del 12 de octubre y puede culminar en la Misa y la confesión.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 10,
+    "day": 12,
+    "label": "Fiesta de Nuestra Señora del Pilar"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Virgen del Pilar, madre cercana, que consolaste a Santiago en su cansancio apostólico, ven en nuestra ayuda. Que esta novena fortalezca nuestra fe, nos haga perseverantes y nos acerque a tu Hijo, Jesús. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un apóstol cansado",
+      "reading": "Hch 1,8",
+      "reflection": "La tradición cuenta que Santiago, desalentado ante los pocos frutos de su predicación, fue consolado por la Virgen. Es una escena cercana: incluso los apóstoles conocieron el cansancio y la duda. La misión no consiste en tener éxito, sino en ser fiel y confiar en que Dios da el crecimiento.\n\nHoy podemos pensar en aquello que nos desanima: la poca respuesta en el trabajo, la falta de fe en nuestro entorno, los fracasos personales. Jesús prometió a sus discípulos la fuerza del Espíritu para ser sus testigos. Dejemos que María, madre atenta, nos devuelva el ánimo para seguir adelante con paciencia y esperanza.",
+      "prayer": "Virgen del Pilar, tú que consolaste a Santiago, consuélame en mi desánimo. Devuélveme la esperanza cuando los frutos tarden. Enséñame a sembrar con fidelidad y a esperar en Dios, que hace crecer. Hazme perseverante y alegre en el servicio. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Columna de la fe",
+      "reading": "1 Tm 3,15",
+      "reflection": "San Pablo llama a la Iglesia «columna y fundamento de la verdad». El pilar sobre el que, según la tradición, se posó María es un símbolo de firmeza. Ella es columna en el sentido de que su fe no vaciló: acogió la Palabra, la guardó y la siguió hasta la cruz.\n\nEn un mundo cambiante necesitamos puntos de apoyo. La fe no consiste solo en sentimientos, sino en una adhesión firme a Cristo, que permanece. Hoy podemos agradecer a las personas que han sido columna en nuestra vida: padres, catequistas, sacerdotes, amigos. Y pedir ser nosotros apoyo para otros, con una fe sencilla pero estable.",
+      "prayer": "Madre del Pilar, columna de mi fe, sostenme en las dudas. Que mi adhesión a Cristo sea firme y alegre. Haz que sea apoyo para quienes tienen sus fuerzas cansadas y fidelidad en lo cotidiano. Que la oración y los sacramentos sean mi apoyo. Amén."
+    },
+    {
+      "day": 3,
+      "title": "La casa sobre roca",
+      "reading": "Mt 7,24-27",
+      "reflection": "Jesús compara a quien escucha su palabra y la cumple con un hombre prudente que edifica sobre roca. Cuando llegan lluvias y vientos, la casa no cae. María es ejemplo de esa solidez: oyó la Palabra y la puso en práctica.\n\nLas tormentas llegan a todos: enfermedades, crisis familiares, pérdidas. No siempre las evitamos, pero sí podemos construir nuestra vida sobre algo firme. La oración diaria, los sacramentos, la caridad y la lectura del Evangelio son cimientos. Hoy podemos revisar cuáles de esos cimientos hemos descuidado y pedir ayuda a la Virgen para reforzarlos.",
+      "prayer": "Virgen fiel, enséñame a edificar mi vida sobre la roca que es Cristo. Que no me limite a oír su palabra, sino que la ponga en práctica. Que mi casa, mi familia y mi corazón resistan las tormentas. Dame prudencia para elegir siempre lo que perdura. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Salir a anunciar",
+      "reading": "Lc 10,1-9",
+      "reflection": "Jesús envía a sus discípulos de dos en dos, sin alforja ni exceso de recursos, con la paz como saludo. La tradición del Pilar está unida al origen de la evangelización de España: esta comenzó en España, según la tradición, con Santiago, y desde allí llegó a muchas tierras.\n\nTodos estamos llamados a anunciar el Evangelio con la vida y la palabra. No hace falta ser grandes oradores. Basta un testimonio coherente, una invitación amable, una disposición a escuchar. Hoy podemos rezar por los misioneros que dejan su tierra y por quienes en nuestra parroquia enseñan la fe a los niños y a los jóvenes. Y preguntarnos cuál es nuestra pequeña misión cotidiana.",
+      "prayer": "Virgen del Pilar, bendice a los misioneros y a quienes anuncian el Evangelio. Dame valentía para dar testimonio con sencillez, y paz en el corazón para ofrecerla a otros. Que mi vida sea una invitación a conocer a Cristo. Envíame con tu bendición. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Un solo pueblo, muchas lenguas",
+      "reading": "Hch 2,5-11",
+      "reflection": "En Pentecostés, personas de distintos pueblos escuchaban a los apóstoles hablar en su propia lengua. La Iglesia es universal, y la fiesta del 12 de octubre es también ocasión de recordar los lazos de fe entre muchos países de habla hispana.\n\nLa historia de la evangelización en América tuvo luces y sombras, y reconocerlo con honestidad forma parte de una memoria cristiana madura. La fe nos llama a la fraternidad entre pueblos, al respeto de las culturas y al cuidado de los más pobres. Hoy podemos pedir por la unidad entre naciones hermanas, por los migrantes y por la justicia, bajo la mirada de María.",
+      "prayer": "Madre de muchos pueblos, haz que la fe nos una más allá de las fronteras. Que aprendamos a respetarnos, a escucharnos y a compartir. Cuida de los migrantes y de quienes dejan su tierra buscando una vida mejor. Bendice a los pueblos que te invocan. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Intercesora atenta",
+      "reading": "Jn 2,1-11",
+      "reflection": "En Caná, María percibe la necesidad de los novios y se la presenta a Jesús. La devoción a la Virgen del Pilar es la de un pueblo que acude a su madre con confianza en toda necesidad. Su intercesión no sustituye a Cristo, sino que nos lleva a él.\n\nHoy podemos hacer una lista sencilla de personas e intenciones que queremos presentarle: enfermos, familias en crisis, quienes buscan trabajo, difuntos. No es una fórmula mágica; es confiar en que una madre sabe interceder. Y, como en Caná, dejar que su consejo nos oriente: «Haced lo que él os diga». La oración confiada abre nuestro corazón a lo que Dios quiere.",
+      "prayer": "Virgen del Pilar, intercede por mis intenciones y por quienes llevo en el corazón. Preséntalas a tu Hijo con tu ternura de madre. Y ayúdame a aceptar su voluntad con confianza, haciendo lo que él me diga. Gracias, madre, porque nunca dejas de escucharme. Amén."
+    },
+    {
+      "day": 7,
+      "title": "La familia de Nazaret",
+      "reading": "Lc 2,41-52",
+      "reflection": "La Sagrada Familia vivió también preocupaciones: la pérdida de Jesús en el Templo causó angustia a María y José. Después, el niño volvió con ellos y les estuvo sujeto. María guardaba todo en su corazón. Nazaret es la escuela de la vida familiar.\n\nMuchas familias hoy sufren tensiones, distancias o dificultades económicas. Hoy podemos rezar juntos, aunque sea brevemente: un Padrenuestro, un Ave María. Y pedir que nuestro hogar sea un lugar de diálogo, perdón y alegría sencilla. La Virgen del Pilar, como madre de familias, acompaña los hogares con firmeza y ternura.",
+      "prayer": "Virgen de Nazaret, cuida de mi familia. Que reinen en nuestro hogar la paz, el perdón y la oración. Protege a los hijos, sostén a los padres, acompaña a los ancianos y a quienes están solos. Haz de nuestra casa un pequeño Nazaret. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Nada nos separará del amor de Cristo",
+      "reading": "Rm 8,35-39",
+      "reflection": "San Pablo afirma que ni la tribulación, ni la angustia, ni la persecución podrán separarnos del amor de Cristo. Esa certeza es la columna de la esperanza cristiana. A veces nos sentimos débiles, pero la fuerza no viene de nosotros, sino de quien nos ama.\n\nLa devoción al Pilar ha acompañado a generaciones en tiempos difíciles, como guerras, enfermedades y exilios. Hoy podemos presentar a la Virgen nuestras luchas actuales y pedirle que nos sostenga. Ella no promete que no habrá cruz, pero sí que no estamos solos. La esperanza se alimenta de pequeños actos de fidelidad cada día.",
+      "prayer": "Madre de la esperanza, sé mi apoyo cuando todo se tambalee. Que nada me separe del amor de Cristo. Dame fortaleza en la prueba, serenidad en la inquietud y confianza en el Señor, que vence al mal. Quédate a mi lado, madre, hoy y siempre. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Con María, en la Iglesia",
+      "reading": "Hch 1,12-14",
+      "reflection": "Los apóstoles, junto con María, perseveraban en la oración esperando al Espíritu. La Virgen del Pilar nos conduce a vivir la fe en comunidad: con la Misa, la Palabra, los sacramentos y la caridad. Ella no nos aísla en una devoción privada, sino que nos introduce en la Iglesia.\n\nAl terminar la novena, damos gracias a Dios por la compañía de María. Para la fiesta del 12 de octubre, podemos participar en la Misa, acercarnos al sacramento de la reconciliación y hacer un gesto concreto de caridad. Que lo vivido en estos días no sea un recuerdo pasajero, sino una fe más firme y agradecida.",
+      "prayer": "Virgen del Pilar, gracias por tu protección. Haz que viva mi fe con perseverancia, en comunión con la Iglesia. Intercede por el Papa, por los obispos y por todos los pueblos que te invocan. Condúcenos a Jesús. Que viva siempre agradecido por tu compañía. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a Nuestra Señora del Pilar",
+      "text": "Santa María del Pilar, madre de Jesús y madre nuestra, columna firme de nuestra fe, sostén a tus hijos en la prueba. Protege a las familias, a los pueblos que te invocan, a los misioneros y a quienes custodian nuestra seguridad. Haz que, como Santiago, no nos desanimemos en el anuncio del Evangelio, y que, a tu lado, permanezcamos fieles a tu Hijo Jesucristo, que vive y reina por los siglos. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Tradición piadosa del Pilar (relatos medievales; no aparición definida por la Iglesia)"
+    },
+    {
+      "label": "Cabildo Metropolitano de Zaragoza: Basílica del Pilar"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "pilar",
+    "zaragoza",
+    "octubre",
+    "hispanidad"
+  ]
+}

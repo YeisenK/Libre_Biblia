@@ -1,0 +1,137 @@
+{
+  "id": "por-los-difuntos",
+  "title": "Novena por los difuntos",
+  "group": "souls",
+  "description": "Nueve días de oración por un ser querido fallecido o por las almas del purgatorio, en la esperanza de la resurrección.",
+  "image": {
+    "icon": "candle",
+    "tint": "#5a5f73"
+  },
+  "introduction": "Desde los primeros siglos, los cristianos rezan por sus difuntos. El Catecismo enseña que quienes mueren en la gracia de Dios, pero imperfectamente purificados, pasan después de la muerte por una purificación para alcanzar la santidad necesaria y entrar en el gozo del cielo; esta es la doctrina del purgatorio (CIC 1030-1031). La Iglesia «recomienda la limosna, las indulgencias y las obras de penitencia en favor de los difuntos» y, ante todo, «el sacrificio eucarístico» (CIC 1032).\n\nEl 2 de noviembre, la Iglesia celebra la Conmemoración de todos los fieles difuntos, fecha que se remonta a san Odilón, abad de Cluny, hacia el año 998. Las novenas de difuntos son una práctica de piedad popular, muy arraigada en el mundo hispano, que acompaña a la familia durante el duelo.\n\nEsta novena puede rezarse por un difunto concreto, sustituyendo «nuestro hermano N.» por su nombre, o por todos los difuntos, especialmente los más olvidados. Se recomienda unirla a la celebración de la Misa por los difuntos, que es el sufragio más valioso. No pretende fijar el destino de nadie: confiamos todo a la misericordia de Dios.",
+  "purpose": "Ofrecer a Dios nuestra oración por los difuntos y consolar a quienes los lloran, en la esperanza cristiana de la resurrección.\n\nEs una práctica de piedad popular, libre y voluntaria. No pretende determinar el destino de nadie ni sustituye a la Misa por los difuntos; ofrece un modo de acompañar el duelo con la fe de la Iglesia.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 11,
+    "day": 2,
+    "label": "Conmemoración de todos los fieles difuntos"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios, Padre de misericordia, tú eres el Señor de la vida y de la muerte. Te encomendamos a nuestro hermano N. (o a todos los fieles difuntos). Escucha nuestra oración, perdona sus faltas y acógelo en tu paz. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "La esperanza que no defrauda",
+      "reading": "Jn 11,17-27",
+      "reflection": "Ante la muerte de Lázaro, Jesús declara: «Yo soy la resurrección y la vida». Marta cree, aun con dolor. La fe cristiana no quita el llanto, pero lo ilumina con la esperanza. Comenzamos la novena presentando a Dios a la persona a la que queremos encomendar. Recordémosla con gratitud: lo que fue, lo que nos dio. El duelo es una forma de amor. No tenemos que ocultar la tristeza; podemos ofrecerla a Dios con confianza. Pidamos fe como la de Marta para creer que la muerte no es la última palabra. Guarda unos minutos de silencio con la lectura de hoy y pregúntate, con sinceridad, qué te dice el Señor y qué gesto concreto puedes ofrecerle durante este día.",
+      "prayer": "Señor, tú eres la resurrección y la vida. Te encomiendo a nuestro hermano N.; recíbelo en tu misericordia y consuela mi corazón. Dame la fe de Marta para creer, aun con lágrimas, que quien cree en ti vivirá, y que la muerte no tiene la última palabra. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Jesús llora con nosotros",
+      "reading": "Jn 11,32-44",
+      "reflection": "Jesús lloró ante la tumba de su amigo. Dios no es indiferente a nuestro dolor. En el duelo, sentimientos de tristeza, rabia o vacío son normales. Jesús los comprende y los acompaña. Hoy permitámonos expresar lo que sentimos: en oración, con alguien de confianza, en silencio. Hablemos a Dios con sinceridad. Y confiemos en que Aquel que llamó a Lázaro «¡sal fuera!» tiene poder sobre la muerte. Pidamos que quienes están de luto sientan su cercanía y encuentren consuelo en la comunidad. Relee despacio el pasaje bíblico y deja que una frase se quede contigo. Después, entrégale a Dios lo que te preocupa y pide luz para dar hoy un paso sencillo.",
+      "prayer": "Jesús, que lloraste por tu amigo, acompaña a quienes lloran. Consuela a las familias en duelo y dales paz. Te pido también por los difuntos que nadie recuerda: acógelos en tu misericordia. Y a quienes los lloramos, danos la esperanza de la resurrección. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Misericordia y perdón",
+      "reading": "Sal 130; Lc 23,39-43",
+      "reflection": "Todos necesitamos la misericordia de Dios. El salmo dice: «Si llevas cuenta de las culpas, Señor, ¿quién podrá subsistir? Pero de ti procede el perdón». Jesús prometió al buen ladrón: «Hoy estarás conmigo en el paraíso». Pedimos para nuestro difunto el perdón de sus faltas, y también nosotros perdonamos a quien nos hizo daño, y, si hace falta, a él o a ella. Confiamos en que Dios es más grande que nuestras debilidades. La oración por los difuntos nos enseña a depositar en la misericordia lo que no podemos resolver. Detente un momento y agradece lo que has recibido en este día de oración. Elige un propósito pequeño y realista, y confíalo a la gracia de Dios, que completa lo que empezamos.",
+      "prayer": "Padre, perdona los pecados de nuestro hermano N. y los míos. Que tu misericordia sea su descanso y nuestra paz. Enséñame a perdonar lo que haya quedado herido entre nosotros y a confiar en que tu bondad es más grande que cualquier debilidad. Amén."
+    },
+    {
+      "day": 4,
+      "title": "La purificación del amor",
+      "reading": "1 Co 3,11-15; 2 M 12,43-46",
+      "reflection": "La Iglesia enseña que los que mueren en la amistad con Dios, pero aún necesitan purificarse, son ayudados por nuestros sufragios. El Catecismo habla de esta purificación (CIC 1030-1031) y apoya la costumbre de rezar por los difuntos, con apoyo en el Libro segundo de los Macabeos. No sabemos cómo es, ni cuánto dura; no necesitamos imaginarlo con miedo. Podemos concebirlo como el amor de Dios que sana y prepara para la plenitud. Oremos hoy por las almas que más necesitan de nuestras oraciones, especialmente las olvidadas, sin saber sus nombres. Guarda unos minutos de silencio con la lectura de hoy y pregúntate, con sinceridad, qué te dice el Señor y qué gesto concreto puedes ofrecerle durante este día.",
+      "prayer": "Dios de amor, purifica y lleva a tu gloria a todas las almas que esperan. Que nuestra oración les ayude a entrar pronto en tu luz. Acuérdate sobre todo de aquellos a quienes nadie nombra, y conserva en nosotros el deseo de rezar por ellos. Amén."
+    },
+    {
+      "day": 5,
+      "title": "La Misa por los difuntos",
+      "reading": "Lc 22,14-20; Jn 6,51-58",
+      "reflection": "El mejor sufragio por los difuntos es la Eucaristía: en ella se hace presente el sacrificio de Cristo (CIC 1032, 1371). La Misa por los difuntos une la oración de la comunidad con la entrega del Señor. Si podemos, pidamos que se celebre una Misa por nuestro difunto y participemos en ella. Quien comulga, además, se une más profundamente a Cristo y, en Él, a todos los que han muerto en su paz: es la comunión de los santos. Este día, hagamos una intención especial en nuestra oración al escuchar la Palabra y recibir la comunión. Relee despacio el pasaje bíblico y deja que una frase se quede contigo. Después, entrégale a Dios lo que te preocupa y pide luz para dar hoy un paso sencillo.",
+      "prayer": "Señor Jesús, que te entregas en la Eucaristía, acoge a nuestros difuntos en tu mesa del cielo. Que nuestra Misa sea ofrenda por su descanso eterno. Une nuestras oraciones a la tuya y haz que, al recibirte, nos sintamos unidos a ellos en tu amor. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Comunión de los santos",
+      "reading": "Hb 12,1-2; Rm 14,7-9",
+      "reflection": "Los vivos y los difuntos formamos un solo Cuerpo en Cristo. «Ni la vida ni la muerte nos separan del amor de Dios» (cf. Rm 8,38-39). Por eso podemos rezar por los difuntos, y los santos del cielo rezan por nosotros. El vínculo de amor no se rompe. Recordemos hoy a nuestros antepasados, familiares y amigos fallecidos. Quizá podemos visitar su tumba, encender una vela, mirar una fotografía, contar una historia en familia. La memoria agradecida es una forma de oración. Que su recuerdo nos inspire a vivir mejor. Detente un momento y agradece lo que has recibido en este día de oración. Elige un propósito pequeño y realista, y confíalo a la gracia de Dios, que completa lo que empezamos.",
+      "prayer": "Dios de vivos, une en tu amor a quienes estamos en la tierra y a los que ya están contigo. Que la comunión de los santos nos consuele. Te damos gracias por nuestros antepasados, familiares y amigos fallecidos; que su recuerdo nos mantenga en tu camino. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Obras de misericordia por los difuntos",
+      "reading": "Tb 12,8-9; Mt 25,34-40",
+      "reflection": "Tobit enseñaba que la limosna libra de la muerte. La tradición cristiana ofrece obras de caridad por los difuntos: limosnas, visitas a enfermos, ayudas a los pobres. El Catecismo recuerda que la caridad es una forma de ayudar a los difuntos (CIC 1032). Hoy podemos elegir una obra concreta, en memoria de nuestro difunto: una donación, un acto de servicio, una visita. Así su recuerdo se convierte en bien para otros. Lo que él o ella amó puede seguir dando fruto a través de nosotros. Ofrezcamos esa obra con humildad y amor. Guarda unos minutos de silencio con la lectura de hoy y pregúntate, con sinceridad, qué te dice el Señor y qué gesto concreto puedes ofrecerle durante este día.",
+      "prayer": "Señor, acepta esta obra de caridad por nuestro hermano N. Que el bien que hagamos en su memoria sea ofrenda de amor y descanso para él. Haz que lo que él amó siga dando fruto y que el servicio a los demás nos haga más semejantes a ti. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Vigilantes y confiados",
+      "reading": "Mt 25,1-13; Lc 12,35-40",
+      "reflection": "Pensar en los difuntos nos recuerda que también nosotros caminamos hacia el encuentro con Dios. La parábola de las doncellas invita a estar preparados, no por miedo, sino con la lámpara encendida del amor y de la fe. Es un buen momento para revisar nuestra vida: ¿hay reconciliaciones pendientes?, ¿hemos agradecido a quienes amamos? Acudir al sacramento de la reconciliación, cuando necesitamos, es un modo de prepararse. Que el recuerdo de nuestros muertos nos enseñe a vivir con gratitud, a no postergar el bien y a esperar con confianza. Relee despacio el pasaje bíblico y deja que una frase se quede contigo. Después, entrégale a Dios lo que te preocupa y pide luz para dar hoy un paso sencillo.",
+      "prayer": "Señor, enséñame a vivir cada día con la lámpara encendida. Que el recuerdo de los difuntos me ayude a amar más y a esperar en ti. Dame un corazón reconciliado, sin deudas pendientes con nadie, y agradecido por las personas que me has dado. Amén."
+    },
+    {
+      "day": 9,
+      "title": "La casa del Padre",
+      "reading": "Jn 14,1-3; Ap 21,1-5",
+      "reflection": "Jesús dice: «En la casa de mi Padre hay muchas moradas… voy a prepararos sitio». El Apocalipsis promete que Dios «enjugará toda lágrima de sus ojos» y que «ya no habrá muerte ni luto». Concluimos esta novena con esperanza. No sabemos cómo, pero creemos que nuestros difuntos están en manos de Dios y que un día nos reuniremos. Damos gracias por la vida de nuestro hermano N., por lo que nos dio, y le decimos nuestro adiós en la fe. Seguiremos rezando por él cada vez que recordemos, particularmente en la Misa. Que Dios nos conceda paz. Detente un momento y agradece lo que has recibido en este día de oración. Elige un propósito pequeño y realista, y confíalo a la gracia de Dios, que completa lo que empezamos.",
+      "prayer": "Padre, gracias por la vida de nuestro hermano N. Acógelo en tu casa, donde no hay llanto ni dolor, y concédenos reunirnos con él en tu gloria. Mientras seguimos en camino, sostén nuestra esperanza y haznos fieles en el amor. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración por los difuntos",
+      "text": "Señor Jesús, que dijiste: «Yo soy la resurrección y la vida; el que cree en mí, aunque haya muerto, vivirá», acoge a nuestros difuntos en tu reino de luz y de paz. Consuela a quienes los lloramos, y concédenos esperar el reencuentro en ti. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia. Se recomienda ofrecer una Misa por el difunto y, si es posible, recibir la comunión.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "requiem-aeternam",
+      "times": 3
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Catecismo de la Iglesia Católica, 1030-1032 (purgatorio y sufragios) y 1371 (la Eucaristía, sacrificio por los difuntos)"
+    },
+    {
+      "label": "2 M 12,43-46; Jn 11; 1 Co 15"
+    },
+    {
+      "label": "Conmemoración de todos los fieles difuntos (2 de noviembre), Misal Romano"
+    }
+  ],
+  "saints": [],
+  "tags": [
+    "novena",
+    "difuntos",
+    "purgatorio",
+    "2 de noviembre"
+  ]
+}

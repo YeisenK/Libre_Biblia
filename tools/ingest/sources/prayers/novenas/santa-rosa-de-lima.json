@@ -1,0 +1,134 @@
+{
+  "id": "santa-rosa-de-lima",
+  "title": "Novena a santa Rosa de Lima",
+  "group": "saints",
+  "description": "Nueve días con la primera santa de América, patrona de Latinoamérica y Filipinas, mujer de oración, penitencia y caridad con los pobres.",
+  "image": {
+    "icon": "crown",
+    "tint": "#b0687a"
+  },
+  "introduction": "Isabel Flores de Oliva nació en Lima el 20 de abril de 1586; fue llamada Rosa desde niña, según la tradición por la belleza de su rostro. Desde joven quiso consagrarse a Dios. Ingresó en la Tercera Orden de santo Domingo y vivió en la casa familiar, en un pequeño retiro que ella misma construyó en el huerto. Entre la oración, la penitencia y el trabajo (cultivaba flores y hacía labores de aguja para ayudar a su familia), atendió a enfermos y pobres. Murió en Lima el 24 de agosto de 1617, con treinta y un años.\n\nClemente IX la beatificó en 1668 y Clemente X la canonizó el 12 de abril de 1671: fue la primera santa de América. Clemente X la declaró patrona de América, de Filipinas y de las Indias (1670); también es patrona de Lima y del Perú. Su fiesta se celebra el 23 de agosto; en el calendario universal, es memoria.\n\nSu espiritualidad, marcada por las prácticas penitenciales de su tiempo, se entiende mejor hoy desde su centro: el amor apasionado a Cristo y el servicio a los pobres. La Iglesia propone su santidad, no la imitación de cada una de sus mortificaciones.",
+  "purpose": "Pedir, por intercesión de santa Rosa, un amor entregado a Cristo, fidelidad en la oración y caridad hacia los pobres y enfermos, así como la paz de nuestros pueblos.\n\nEs piedad popular, libre y voluntaria. No exige imitar las penitencias de la santa ni garantiza resultados, y no sustituye a la liturgia ni a los sacramentos.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 8,
+    "day": 23,
+    "label": "Memoria de santa Rosa de Lima, virgen"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios nuestro, que en santa Rosa de Lima quisiste mostrar la fuerza de tu amor en una vida sencilla y entregada, concédenos buscarte sobre todas las cosas y servir a nuestros hermanos. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Una joven de Lima",
+      "reading": "Jr 1,4-8",
+      "reflection": "Rosa nació en una familia numerosa de Lima, en tiempos del virreinato. Desde pequeña mostró inclinación a la oración. Dios elige a personas jóvenes y sencillas, como Jeremías, a quien dice: «No digas: soy un muchacho». La santidad no espera a la madurez. Pensemos en los jóvenes de nuestros pueblos, en sus búsquedas y dificultades. Pidamos que descubran la llamada de Dios y que las comunidades los acompañen con confianza. Y, cada uno, preguntémonos: ¿qué espera Dios de mí hoy, en el lugar y el tiempo concretos en que vivo?",
+      "prayer": "Señor, que llamas a jóvenes y ancianos, bendice a los jóvenes de nuestra tierra. Santa Rosa, intercede para que descubran su vocación y la vivan con generosidad. Acompaña a quienes educan y orientan a los jóvenes, para que sepan escucharlos y darles buen ejemplo. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Elegir a Cristo",
+      "reading": "Mt 13,44-46",
+      "reflection": "Rosa era admirada por su belleza y la pretendían como esposa, pero ella había decidido pertenecer a Cristo. Resistió presiones familiares y sociales. La parábola del tesoro escondido nos habla de quien lo vende todo por alegría. La elección por Cristo no es renuncia triste, sino descubrimiento de lo que vale más. No todos estamos llamados a la vida consagrada, pero todos hemos de decidir qué ocupa el centro. Examinemos nuestras prioridades y pidamos claridad para elegir lo que verdaderamente da vida. Escribamos hoy qué ocupa el primer lugar en nuestro corazón y si está allí por elección o por costumbre.",
+      "prayer": "Jesús, tesoro de mi vida, ayúdame a elegirte sobre todas las cosas. Santa Rosa, dame libertad frente a las presiones y alegría en la entrega. Que mis decisiones de hoy, grandes o pequeñas, nazcan del deseo de pertenecerte y no del temor a lo que digan. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Oración y soledad",
+      "reading": "Mt 6,5-6",
+      "reflection": "Rosa se retiraba a una pequeña ermita que había construido en el huerto de su casa, para orar a solas. «Cuando ores, entra en tu cuarto, cierra la puerta y ora a tu Padre en lo secreto». La oración callada es raíz de toda obra buena. En tiempos de prisa y ruido, necesitamos un rincón de silencio, un espacio y un tiempo. Quizá pueda ser unos minutos al día ante una imagen, una Biblia abierta o simplemente en silencio. Que la constancia, más que la duración, sea nuestro propósito.",
+      "prayer": "Padre, que ves en lo secreto, enséñame a hacer silencio y a orar con constancia. Santa Rosa, acompáñame en mis momentos de soledad con Dios. Que un rato diario de silencio sea mi refugio, y que desde él salga con paz al encuentro de los demás. Amén."
+    },
+    {
+      "day": 4,
+      "title": "El trabajo de sus manos",
+      "reading": "Pr 31,10-31; 2 Ts 3,10-12",
+      "reflection": "Rosa trabajaba cultivando flores y cosiendo para ayudar a la economía familiar, que atravesaba apuros. Unió oración y trabajo sin separar lo sagrado de lo cotidiano. Su vida enseña que cualquier tarea honrada, hecha con amor, puede ser ofrenda. Pensemos en quienes trabajan duro para sostener a sus familias, en los desempleados y en los trabajadores informales de nuestras ciudades. Pidamos por ellos y ofrezcamos nuestras tareas de hoy. Que lo cotidiano sea lugar de encuentro con Dios. Ofrezcamos hoy la primera tarea de la mañana como una pequeña oración, aunque sea con un gesto o con una frase breve.",
+      "prayer": "Señor, bendice el trabajo de mis manos y el de quienes sostienen a sus familias. Santa Rosa, enséñame a ofrecer mis tareas con alegría y honradez. Que ningún trabajador sea explotado y que nadie deje de recibir el pan que ha ganado con su esfuerzo. Amén."
+    },
+    {
+      "day": 5,
+      "title": "La Tercera Orden y santa Catalina",
+      "reading": "Lc 10,38-42",
+      "reflection": "Rosa ingresó a los veinte años en la Tercera Orden de santo Domingo, tomando como modelo a santa Catalina de Siena. Vivía en el mundo, con la regla dominicana. Muestra que la santidad es posible fuera del claustro: en el hogar, en el trabajo, en la ciudad. Como Marta y María, unió acción y contemplación. Hoy los laicos están llamados a la plenitud de la vida cristiana. Pensemos cómo vivir nuestra vocación en medio del mundo, con oración y servicio, y apoyemos a nuestros grupos parroquiales y comunidades de laicos.",
+      "prayer": "Señor, que tu Iglesia sea rica en santos laicos. Santa Rosa, ayúdame a vivir mi fe en el mundo, unido a la oración y al servicio. Que los laicos encuentren en su trabajo, su familia y su barrio el lugar de su santidad. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Penitencia y sentido",
+      "reading": "Mc 8,34-38; Rm 12,1",
+      "reflection": "Rosa practicó mortificaciones severas, propias de la espiritualidad de su época. La Iglesia reconoce su amor a Cristo, pero no propone imitar todo lo que ella hizo. Nos enseña que la penitencia cristiana tiene sentido cuando está unida al amor y a la caridad. Hoy, ayunar con prudencia, moderar el consumo, renunciar a una comodidad para ayudar a otro, son formas sanas de penitencia. Pidamos discernimiento para vivir el sacrificio con alegría y equilibrio, sin daño para la salud, y siempre orientado a Cristo y al prójimo. Antes de proponernos nada, conviene consultarlo con un sacerdote o con alguien de confianza que nos ayude a no excedernos.",
+      "prayer": "Señor, enséñame una penitencia sana y llena de amor. Santa Rosa, ayúdame a renunciar a lo que me aparta de Dios y a ofrecerlo por los demás. Aleja de mí toda exageración que dañe mi salud o mi caridad, y dame la medida del amor. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Servicio a los pobres",
+      "reading": "Mt 25,34-40; St 1,27",
+      "reflection": "En su casa, Rosa acogía a enfermos, ancianos y niños desamparados; ella y su madre los atendían y cuidaban. La religión pura, dice Santiago, es visitar a huérfanos y viudas en su tribulación. Pensemos en los pobres de nuestra ciudad, a veces olvidados, y en cómo podemos servirlos. Cualquier gesto cuenta: un alimento, ropa, un rato de compañía. Pidamos para que nuestras comunidades sean casas abiertas, donde los necesitados encuentren acogida y dignidad. Preguntémonos con calma a quién tenemos cerca que necesite hoy ayuda, aunque sea solo una conversación, y no aplacemos la respuesta.",
+      "prayer": "Señor Jesús, que te haces presente en los pobres, abre mis ojos y mis manos. Santa Rosa, enséñame a servir con ternura y constancia. Que ningún pobre llame en vano a nuestra puerta y que nuestras casas sean lugares de acogida. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Patrona de América",
+      "reading": "Hch 1,8; Mt 28,19-20",
+      "reflection": "Santa Rosa fue proclamada patrona de América y de Filipinas. Su santidad, nacida en Lima, es don para toda la Iglesia. La fe llegó a América en un contexto complejo, con luces y sombras. Agradecemos el Evangelio recibido y pedimos perdón por las injusticias cometidas. Oremos por los pueblos de Hispanoamérica, por su paz, por la protección de los más pobres y por la unidad de los cristianos. Que la fe, que hizo florecer santos como Rosa, siga dando frutos de justicia y de fraternidad en nuestro continente. Ofrezcamos hoy una oración concreta por nuestro país y por quienes lo gobiernan, y un gesto de servicio en nuestro barrio.",
+      "prayer": "Señor, bendice a los pueblos de América. Santa Rosa, patrona de nuestro continente, intercede por la paz, la justicia y la fe de nuestras naciones. Por los gobernantes, los educadores y los jóvenes de este continente, para que busquen el bien común. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Muerte y gloria",
+      "reading": "Ap 21,1-7; Flp 1,21-24",
+      "reflection": "Rosa murió el 24 de agosto de 1617, en casa de la familia Maza, en Lima. Su funeral fue multitudinario: la gente quería despedir a la «santa» de la ciudad. «Para mí, vivir es Cristo y morir es una ganancia», escribió san Pablo. Concluimos la novena agradeciendo el don de santa Rosa. Pidamos la gracia de vivir con la mirada puesta en Dios, de preparar nuestra muerte con serenidad y de recordar con esperanza a quienes nos precedieron. Demos gracias hoy por una persona de nuestra familia o comunidad cuya fe nos ha sostenido.",
+      "prayer": "Dios de vida, gracias por santa Rosa de Lima. Que su ejemplo nos guíe a vivir para ti y nos conduzca a la gloria del cielo. Acuérdate de nuestros difuntos y haz que recordemos con esperanza a quienes nos precedieron en la fe. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a santa Rosa de Lima",
+      "text": "Santa Rosa de Lima, flor de santidad de nuestra América, ruega por nosotros. Enséñanos a amar a Cristo con todo el corazón, a perseverar en la oración y a servir a los pobres. Protege a nuestros pueblos, a las familias y a los jóvenes, y alcanza para todos la paz. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Clemente IX, beatificación (1668); Clemente X, patronato sobre América, Filipinas y las Indias (1670) y canonización (12-IV-1671)"
+    },
+    {
+      "label": "Martirologio Romano, 23 de agosto"
+    },
+    {
+      "label": "Archivo y proceso de canonización de Rosa de Santa María (Lima)"
+    }
+  ],
+  "saints": [
+    "santa-rosa-de-lima"
+  ],
+  "tags": [
+    "novena",
+    "Lima",
+    "23 de agosto"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "virgen-del-rosario",
+  "title": "Novena a Nuestra Señora del Rosario",
+  "group": "marian",
+  "description": "Nueve días para meditar la vida de Cristo con María, preparando la memoria de Nuestra Señora del Rosario del 7 de octubre.",
+  "image": {
+    "icon": "rosary",
+    "tint": "#9A4F5F"
+  },
+  "introduction": "La memoria de Nuestra Señora del Rosario se celebra el 7 de octubre. Su origen está ligado a la batalla naval de Lepanto, el 7 de octubre de 1571, tras la cual el papa san Pío V instituyó una fiesta de acción de gracias dedicada a Nuestra Señora de la Victoria. Su sucesor, Gregorio XIII, la convirtió (hacia 1573) en fiesta del Santo Rosario para las iglesias que tuvieran un altar del Rosario; Clemente XI la extendió a toda la Iglesia en 1716 y san Pío X la fijó el 7 de octubre. El papa León XIII dedicó numerosos documentos al Rosario y recomendó el mes de octubre para rezarlo.\n\nLa oración del Rosario fue tomando forma durante siglos, a partir de la repetición del Ave María y la meditación de la vida de Cristo. La tradición que atribuye su entrega a santo Domingo es una piadosa tradición, no un hecho históricamente comprobado. En 2002, san Juan Pablo II, en la carta apostólica *Rosarium Virginis Mariae*, propuso los misterios luminosos y lo describió como «compendio del Evangelio», como ya había hecho Pablo VI.\n\nEsta novena es piedad popular, libre y voluntaria; invita a rezar el Rosario, no lo sustituye.",
+  "purpose": "Redescubrir el Rosario como oración bíblica y contemplativa, aprendiendo de María a mirar a Cristo en cada etapa de su vida, y pedir por la Iglesia y por la paz. Cada día puede acompañarse con una decena o el Rosario completo; culmina en la Misa de la memoria del 7 de octubre.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 10,
+    "day": 7,
+    "label": "Memoria de Nuestra Señora del Rosario"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Santa María, Madre de Dios, enséñanos a contemplar a Jesús con tus ojos. Que esta novena nos lleve a rezar el Rosario con el corazón, meditando los misterios de la vida de tu Hijo. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Una oración bíblica",
+      "reading": "Lc 1,28.42",
+      "reflection": "Las primeras palabras del Ave María son bíblicas: el saludo del ángel Gabriel y el elogio de Isabel. Con ellas empieza el Rosario, y lo que sigue es un recorrido por el Evangelio. Rezar el Rosario es repasar, con María, los momentos decisivos de la vida de Jesús.\n\nAlgunos piensan que es una repetición mecánica. En realidad, las Ave Marías son como el fondo musical que permite contemplar. Mientras los labios rezan, el corazón mira a Cristo. Hoy podemos rezar una decena despacio, tomando un misterio y deteniéndonos en una escena del Evangelio. Con paciencia, esta oración nos enseña a estar en presencia de Dios.",
+      "prayer": "Madre del Rosario, enséñame a rezar el Rosario con atención y cariño. Que no se reduzca a palabras, sino que sea contemplación de Cristo. Ayúdame a perseverar, aunque a veces me distraiga o me canse. Que cada Ave María sea un paso hacia Jesús. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Anunciación: el sí de María",
+      "reading": "Lc 1,26-38",
+      "reflection": "El primer misterio gozoso nos sitúa en Nazaret. Un ángel saluda a una joven con las palabras «llena de gracia». María pregunta, escucha y responde con confianza: «Hágase en mí según tu palabra». Todo el Rosario brota de este sí.\n\nRezar este misterio es aprender a decir sí a Dios en lo concreto de cada día. A veces Dios pide cosas que no entendemos: un cambio de planes, una responsabilidad nueva, una renuncia. María nos enseña que la fe no es entender todo, sino fiarse. Hoy podemos pensar qué nos pide el Señor ahora y pedir la gracia de la humildad, el fruto tradicional de este misterio.",
+      "prayer": "Virgen de Nazaret, enséñame a decir sí a Dios. Dame humildad para aceptar su voluntad, valor para cumplirla y paz para esperar. Que mi vida sea, como la tuya, un hágase en respuesta a su amor. Que tu ejemplo me dé valentía cuando me cueste. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Visitación: la alegría de servir",
+      "reading": "Lc 1,39-56",
+      "reflection": "Recién recibido el anuncio, María va a servir a Isabel. Lleva a Jesús dentro y su presencia llena de gozo a su prima, y el niño salta en su vientre. El Magnificat que sigue es el canto de quien reconoce las maravillas de Dios.\n\nEste misterio nos invita a la caridad concreta: acompañar a quien lo necesita, sin ruido y con alegría. Y a la gratitud, que cura el egoísmo. Hoy podemos preguntarnos a quién podemos visitar, llamar o ayudar. Podemos también rezar el Magnificat, agradeciendo. El amor al prójimo, fruto de este misterio, es la señal más clara de que llevamos a Cristo con nosotros.",
+      "prayer": "Madre de la visita, haz que lleve la alegría de Cristo a los demás. Dame un corazón dispuesto a servir sin buscar reconocimiento. Enséñame a cantar con gratitud lo que Dios hace en mi vida. Que mi gratitud se vuelva servicio. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Nacimiento: Dios se hace pequeño",
+      "reading": "Lc 2,1-20",
+      "reflection": "En Belén no hay lugar en la posada, y el Salvador nace en un pesebre. Los primeros en enterarse son pastores, gente sencilla. María lo envuelve en pañales y lo guarda en el corazón. Dios se hace pequeño, para que nadie tenga miedo de acercarse.\n\nEste misterio nos enseña la pobreza de espíritu y el desprendimiento: no necesitamos mucho para encontrar a Dios. Nos llama a acoger a los pequeños y a quienes no tienen lugar. Hoy podemos pensar cómo vivir con más sencillez, y a quién podemos hacer sitio en nuestra vida. Contemplemos al Niño con la ternura de María y de José.",
+      "prayer": "Madre de Belén, enséñame a contemplar a Jesús con ternura. Que me desprenda de lo que sobra y me abra a lo esencial. Haz que acoja a los pequeños y a los pobres, donde Dios se hace presente. Que la sencillez del pesebre llene mi hogar. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Presentación: ofrecer la vida",
+      "reading": "Lc 2,22-35",
+      "reflection": "María y José llevan a Jesús al Templo para presentarlo al Señor. Simeón, hombre justo, reconoce en el niño la luz de las naciones y anuncia a María que una espada atravesará su alma. Desde el principio, el gozo y el dolor van unidos en su vida.\n\nEste misterio nos invita a ofrecer a Dios lo que más queremos: nuestros hijos, nuestra familia, nuestro tiempo. También a aceptar que seguir a Cristo implica cruz y esperanza. Hoy podemos presentar al Señor nuestra jornada y a las personas queridas. Y pedir la gracia de la obediencia y de la pureza de corazón, frutos de este misterio.",
+      "prayer": "Señor, te presento mi vida, mi familia y mis proyectos. Haz de mí una ofrenda agradable. Con María, aprendo a aceptar lo que no entiendo y a esperar tu luz. Que Cristo ilumine mi camino. Que ninguna prueba me aparte de su luz. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Caná: haced lo que él os diga",
+      "reading": "Jn 2,1-11",
+      "reflection": "En las bodas de Caná, María observa, intercede y dirige a los criados a Jesús. Es el primer signo de Cristo, uno de los misterios luminosos del Rosario. Ella no pide un milagro concreto; presenta una necesidad y confía.\n\nEste misterio es una escuela de intercesión y de obediencia. Hay muchas «faltas de vino» en nuestra vida y en el mundo: falta de alegría, de paz, de esperanza. Podemos presentarlas a Jesús con María y hacer lo que él nos diga en el Evangelio. Hoy podemos escoger una necesidad concreta y rezar una decena por ella, con confianza.",
+      "prayer": "Madre atenta, presenta a tu Hijo lo que nos falta. Enséñame a pedir con confianza y a hacer lo que él me diga. Que el agua de mi vida se transforme en vino de alegría y de fe. Gracias, madre, por tu mirada atenta a nuestras necesidades. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Al pie de la cruz",
+      "reading": "Jn 19,25-27",
+      "reflection": "Entre los misterios dolorosos, la cruz es el centro. María está de pie junto a su Hijo moribundo. Jesús nos la da como madre. Su presencia silenciosa nos recuerda que el amor llega hasta el final.\n\nEste misterio nos conduce al corazón del Evangelio: el amor que se entrega. Rezarlo es acompañar a Cristo en su pasión y a todos los que hoy sufren. Hoy podemos presentar a María a los enfermos, a los que lloran y a los que han perdido la esperanza. Pedir fortaleza en la prueba, la contrición de los pecados y el amor a la cruz de Cristo, que es camino de vida.",
+      "prayer": "Madre dolorosa, acompáñame al pie de la cruz. Gracias por no abandonarme en mis penas. Enséñame a permanecer junto a quienes sufren y a confiar en la victoria del amor de tu Hijo. Dame tu fortaleza cuando no encuentre consuelo. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Resurrección y Pentecostés",
+      "reading": "Hch 1,12-14",
+      "reflection": "Los misterios gloriosos nos recuerdan que el amor vence a la muerte. Cristo resucita y el Espíritu desciende sobre los apóstoles. María aparece en medio de ellos, orando, en el cenáculo. La Iglesia nace en oración con ella.\n\nEstos misterios son los de la esperanza y la alegría pascual. Quien reza el Rosario se une al cenáculo, pide el Espíritu Santo y renueva su fe en la vida eterna. Hoy podemos pedir la fe, la esperanza y el amor, y dar gracias por el don del Espíritu. Y recordar a nuestros difuntos con la seguridad de que Cristo ha vencido la muerte.",
+      "prayer": "Madre del cenáculo, ruega con nosotros para que venga el Espíritu Santo. Aviva mi fe en la resurrección, fortalece mi esperanza y enciende mi caridad. Que viva con alegría pascual y comparta ese gozo con otros. Enséñame a esperar con serenidad. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Asunción y Coronación",
+      "reading": "Ap 12,1",
+      "reflection": "«Una mujer vestida del sol, con la luna bajo sus pies y una corona de doce estrellas». La Iglesia ve en esta imagen la gloria de María, asunta en cuerpo y alma al cielo. Es la primicia de lo que Dios prepara para todos los que le siguen.\n\nAl concluir la novena, mirar el destino de María nos llena de esperanza: la vida cristiana tiene una meta de plenitud. Los frutos de estos misterios son la gracia de una buena muerte y la devoción a María. Hoy podemos dar gracias por lo vivido, proponernos rezar el Rosario con más constancia y celebrar la memoria del 7 de octubre con la Misa y la confesión si es posible.",
+      "prayer": "Reina del cielo, gracias por acompañarnos en este camino. Alcánzame la perseverancia en el Rosario y la gracia de una vida fiel. Y cuando llegue mi hora, condúceme a la gloria, junto a tu Hijo Jesucristo. Dame también un corazón agradecido por tu intercesión. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a Nuestra Señora del Rosario",
+      "text": "Virgen del Rosario, madre de Cristo y madre nuestra, gracias por enseñarnos a orar contemplando la vida de tu Hijo. Danos perseverancia para rezar cada día, y que cada Ave María nos acerque al Evangelio. Intercede por la Iglesia, por la paz del mundo y por nuestras familias. Haz que, meditando los misterios de Cristo, imitemos lo que contienen y alcancemos lo que prometen. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "oracion-final-rosario"
+    },
+    {
+      "prayer": "salve"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Juan Pablo II, carta apostólica Rosarium Virginis Mariae (16-10-2002)"
+    },
+    {
+      "label": "Pablo VI, exhortación apostólica Marialis cultus (1974), nn. 42-55"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), nn. 197-202"
+    },
+    {
+      "label": "Calendario romano: 7 de octubre, memoria de Nuestra Señora del Rosario"
+    }
+  ],
+  "tags": [
+    "rosario",
+    "octubre",
+    "lepanto"
+  ]
+}

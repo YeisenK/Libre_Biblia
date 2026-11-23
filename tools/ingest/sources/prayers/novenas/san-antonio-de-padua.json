@@ -1,0 +1,134 @@
+{
+  "id": "san-antonio-de-padua",
+  "title": "Novena a san Antonio de Padua",
+  "group": "saints",
+  "description": "Nueve días con el santo predicador, doctor evangélico, para aprender a vivir la Palabra y la caridad con los pobres.",
+  "image": {
+    "icon": "book",
+    "tint": "#7a5a36"
+  },
+  "introduction": "Fernando de Bulhões nació en Lisboa hacia 1195. Ingresó entre los canónigos regulares de San Agustín y, al ver llegar a Coímbra los cuerpos de los primeros mártires franciscanos de Marruecos (1220), pidió entrar en la Orden de los Hermanos Menores y tomó el nombre de Antonio. Destacó como predicador y maestro de teología, con un profundo conocimiento de la Escritura. Murió en las cercanías de Padua el 13 de junio de 1231, con unos treinta y seis años.\n\nGregorio IX lo canonizó el 30 de mayo de 1232, menos de un año después de su muerte. Pío XII lo proclamó doctor de la Iglesia el 16 de enero de 1946 con el título de «Doctor Evangélico». Es muy venerado en el mundo hispano y portugués, y la piedad popular lo invoca para recuperar objetos perdidos y para ayudar a los pobres («el pan de san Antonio»).\n\nSu fiesta es el 13 de junio. Esta novena medita sus virtudes: amor a la Palabra, predicación, humildad y caridad.",
+  "purpose": "Pedir, por intercesión de san Antonio, amor a la Palabra de Dios, coherencia entre lo que se cree y lo que se vive, y generosidad con los pobres.\n\nEs una práctica de piedad popular, libre y voluntaria. Invocar al santo por lo perdido o por los pobres no garantiza resultados, y la novena no sustituye a la Misa ni a los sacramentos.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 6,
+    "day": 13,
+    "label": "Memoria de san Antonio de Padua, presbítero y doctor de la Iglesia"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios todopoderoso, que hiciste de san Antonio un predicador insigne del Evangelio y amigo de los pobres, concédenos vivir lo que creemos y anunciar con la vida tu Palabra. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "La llamada de un joven",
+      "reading": "Mc 1,16-20",
+      "reflection": "Fernando era un joven de familia acomodada en Lisboa. Dejó su ambiente para consagrarse a Dios entre los agustinos y luego se hizo franciscano. Cada vocación implica dejar algo para seguir a Cristo. Los apóstoles dejaron las redes; Antonio dejó seguridades y proyectos. Preguntémonos qué nos pide el Señor hoy: no necesariamente una gran renuncia, sino la disponibilidad de escuchar y responder. Agradezcamos nuestra vocación y pidamos a Dios que nos ayude a discernir su voluntad con libertad, sin miedo a perder lo que nos ata. Hoy, ante una decisión pendiente, podemos orar con una pregunta sencilla: ¿qué me pide el Señor, y qué me da miedo dejar?",
+      "prayer": "San Antonio, que respondiste al llamado de Dios con generosidad, ayúdame a discernir mi camino y a decir sí al Señor con libertad y alegría. Libérame del miedo a perder lo que tengo y dame un corazón disponible para lo que tú quieras. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Amor a la Escritura",
+      "reading": "Sal 119,9-16",
+      "reflection": "Antonio estudió y meditó la Biblia con pasión. Sus sermones están llenos de citas bíblicas y de imágenes sencillas. Para él, la Palabra es luz para quien camina. El salmista dice: «Guardo tus palabras en mi corazón para no pecar contra ti». Pensemos en nuestro trato con la Escritura: ¿la leemos, la meditamos? Una buena práctica es leer cada día un breve pasaje del Evangelio y preguntarnos: ¿qué me dice el Señor hoy? Pidamos a san Antonio hambre de la Palabra y docilidad para ponerla en práctica. Elijamos hoy un versículo y repitámoslo durante la jornada; una frase bien guardada acompaña más que muchas lecturas apresuradas.",
+      "prayer": "Señor, que tu Palabra sea lámpara para mis pasos. San Antonio, enséñame a leerla con amor y a vivirla con fidelidad. Que en mis dudas, en mis alegrías y en mis cansancios sepa volver a tu Palabra y encontrar en ella tu voz. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Humildad del servidor",
+      "reading": "Lc 14,7-11",
+      "reflection": "Según la tradición, Antonio vivió al principio entre los franciscanos en tareas humildes, sin dar a conocer su formación, hasta que, en una ordenación en Forlì, improvisó un sermón brillante que sorprendió a todos. Jesús enseña que «el que se humilla será enaltecido». La humildad no es pensar mal de uno mismo, sino verse con verdad ante Dios. Hoy preguntemos si buscamos reconocimiento o servir. Aceptemos los oficios pequeños y los momentos de espera como preparación que Dios utiliza, a su tiempo, para su obra. No pasa nada por ser desconocidos un tiempo: Dios también obra en lo escondido y prepara a quienes llama.",
+      "prayer": "San Antonio, humilde servidor, enséñame a aceptar los trabajos sencillos y a esperar el momento de Dios sin buscar aplausos. Que mientras espero no me amargue ni me compare, sino que prepare mi corazón con paciencia y alegría. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Predicar con las obras",
+      "reading": "Mt 5,13-16; St 2,14-17",
+      "reflection": "Antonio decía que la predicación debe ir acompañada de obras: de nada sirven las palabras bellas si la vida no las confirma. En sus sermones advertía contra la avaricia y la injusticia. Santiago pregunta: «¿De qué sirve decir que se tiene fe si no se tienen obras?». Todos predicamos con nuestro ejemplo, en casa, en el trabajo, entre amigos. Examinemos si lo que creemos se refleja en lo que hacemos. Pidamos coherencia, para que nuestra vida sea una invitación sencilla a encontrarse con Jesús. Escojamos hoy una obra concreta que respalde lo que decimos creer: un perdón, una ayuda, un compromiso cumplido.",
+      "prayer": "San Antonio, predicador del Evangelio, ayúdame a vivir lo que creo y a que mis obras reflejen mi fe. Que mis palabras no vayan por delante de mi conducta y que mi forma de vivir invite a otros a creer. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Amigo de los pobres",
+      "reading": "Lc 14,12-14; Mt 25,35-40",
+      "reflection": "En Padua, san Antonio defendió a los deudores insolventes y a los pobres frente a la usura. De ahí viene la costumbre del «pan de san Antonio»: dar limosna a los necesitados en agradecimiento por gracias recibidas. La caridad no es adorno de la fe, sino su fruto. Hoy pensemos en las necesidades cercanas: personas sin trabajo, enfermos, ancianos solos. Podemos ayudar con tiempo, con compañía o con un gesto económico. Que nuestra oración nos lleve a ver el rostro de Cristo en el pobre y a actuar con generosidad.",
+      "prayer": "San Antonio, amigo de los pobres, abre mis manos y mi corazón a los necesitados. Que sepa compartir lo que tengo con alegría. Haz que no pase de largo ante quien pasa necesidad y que mi ayuda sea discreta, constante y sin condiciones. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Buscar lo perdido",
+      "reading": "Lc 15,1-10",
+      "reflection": "La devoción popular invoca a san Antonio para encontrar objetos perdidos. Más allá de esa costumbre, el Evangelio nos habla de la oveja y la moneda perdidas: Dios busca lo que se ha extraviado y se alegra al encontrarlo. Podemos aprovechar esta devoción para pedir lo más importante: encontrar la fe, la esperanza, el camino de vuelta a Dios o a una persona con quien nos hemos distanciado. Pensemos qué hemos «perdido» en nuestra vida espiritual y pidamos la gracia de reencontrarlo, con la ayuda de la misericordia del Señor.",
+      "prayer": "San Antonio, ayúdame a encontrar lo que he perdido, sobre todo la paz del corazón y la cercanía con Dios. Que Jesús me encuentre y me reconduzca a Él. Y si hoy busco algo que he extraviado, dame calma para encontrarlo sin angustia. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Devoción al Niño Jesús",
+      "reading": "Lc 2,15-20; Mt 18,1-5",
+      "reflection": "La iconografía representa a san Antonio con el Niño Jesús en brazos, imagen popular surgida en la tradición posterior. Expresa su cercanía con el misterio de la Encarnación: Dios se hizo pequeño. Los pastores, tras ver al Niño, glorificaron a Dios. Contemplemos hoy la ternura de Dios que se hace cercano. Pidamos un corazón sencillo, capaz de maravillarse, y gratitud por el don de Jesús. Esta devoción nos invita a mirar a los niños con respeto y a cuidar de los más vulnerables como a Cristo. Una forma de vivir esta devoción es dedicar hoy un rato a un niño o a un enfermo, escuchándolo sin prisa.",
+      "prayer": "San Antonio, que contemplaste el misterio del Dios hecho niño, enséñame a asombrarme ante Jesús y a cuidar de los pequeños. Haz que mi corazón se mantenga sencillo ante Dios, y que sepa proteger a los niños y a los más débiles. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Doctor del Evangelio",
+      "reading": "Mt 28,18-20; 2 Tm 4,1-5",
+      "reflection": "Pío XII lo declaró doctor de la Iglesia por la profundidad evangélica de sus sermones. Pablo exhorta a Timoteo: «Proclama la Palabra, insiste a tiempo y a destiempo». Antonio predicó en Italia y en Francia, enfrentando errores con claridad y con caridad. Hoy la Iglesia necesita voces que anuncien el Evangelio con alegría. Cada bautizado es enviado. Pensemos en maneras sencillas de compartir la fe: una conversación, un consejo, una invitación a la Misa. Pidamos valentía y delicadeza para hablar de Jesús con respeto. Doctor significa maestro fiable: la Iglesia lo propone para que aprendamos a anunciar con palabras sostenidas por la vida.",
+      "prayer": "San Antonio, doctor del Evangelio, concédeme valentía y mansedumbre para anunciar a Cristo con mi palabra y mi vida. Que mis palabras lleven a Jesús y no a mí mismo, y que sepa callar cuando mi vida debe hablar. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Una muerte serena",
+      "reading": "Jn 12,24-26; Sal 116,15",
+      "reflection": "San Antonio murió en Arcella, cerca de Padua, el 13 de junio de 1231, rodeado de sus hermanos, mientras cantaba un himno a la Virgen, según la tradición. Murió joven, pero había cumplido su misión. La fecundidad de la vida no depende de su duración. Jesús dice que el grano de trigo que cae en tierra y muere da mucho fruto. Concluimos la novena dando gracias por san Antonio y su ejemplo. Pidamos que nuestra vida, breve o larga, sea fecunda en amor, y encomendemos a nuestros difuntos a la misericordia de Dios.",
+      "prayer": "Dios Padre, gracias por san Antonio. Que su ejemplo nos ayude a vivir con fecundidad y a esperar en tu misericordia hasta el encuentro contigo. Recibe a nuestros difuntos en tu paz y haz que nuestro paso por la tierra deje frutos de bien. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a san Antonio",
+      "text": "San Antonio, predicador de la Palabra y amigo de los pobres, ruega por nosotros. Que aprendamos a escuchar el Evangelio, a vivirlo con humildad y a compartir lo que tenemos. Ayúdanos a encontrar lo que hemos perdido, sobre todo la paz y la fe, y a caminar siempre hacia Cristo. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Vida primera o Assidua (c. 1232) y tradición franciscana"
+    },
+    {
+      "label": "Pío XII, carta apostólica Exsulta, Lusitania felix (16-I-1946), doctor de la Iglesia"
+    },
+    {
+      "label": "Martirologio Romano, 13 de junio"
+    }
+  ],
+  "saints": [
+    "san-antonio-de-padua"
+  ],
+  "tags": [
+    "novena",
+    "doctor de la Iglesia",
+    "13 de junio"
+  ]
+}

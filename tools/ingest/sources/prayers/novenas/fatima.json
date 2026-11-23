@@ -1,0 +1,140 @@
+{
+  "id": "fatima",
+  "title": "Novena a Nuestra Señora de Fátima",
+  "group": "marian",
+  "description": "Nueve días con la Virgen de Fátima, maestra de oración, penitencia y paz, antes de su fiesta del 13 de mayo.",
+  "image": {
+    "icon": "rosary",
+    "tint": "#8A6F9E"
+  },
+  "introduction": "Entre el 13 de mayo y el 13 de octubre de 1917, en la Cova da Iria, cerca de Fátima (Portugal), la Virgen María se apareció, según el testimonio de los tres pastorcitos Lucía dos Santos, Francisco y Jacinta Marto, el día 13 de cada mes (en agosto, el 19). Antes, en 1916, los niños habían recibido tres visitas de un ángel que los preparó con oraciones de adoración y reparación. El 13 de octubre, miles de personas presenciaron el llamado «milagro del sol».\n\nEl obispo de Leiria declaró las apariciones «dignas de fe» el 13 de octubre de 1930 y autorizó el culto. Francisco y Jacinta murieron de niños, en 1919 y 1920. Juan Pablo II los beatificó el 13 de mayo de 2000 en Fátima, y el papa Francisco los canonizó el 13 de mayo de 2017. Sor Lucía murió en 2005.\n\nEl mensaje de Fátima, desde la fe de la Iglesia, es un llamado a la oración, especialmente el Rosario, a la conversión, a la penitencia y a la paz. Esta novena es piedad popular, libre y voluntaria; las apariciones privadas no añaden nada a la Revelación en Cristo.",
+  "purpose": "Escuchar la llamada de María a la oración, la conversión y la reparación, orar por la paz y por quienes se alejan de Dios, y aprender de los pequeños videntes la sencillez de la fe. Culmina en la Misa de la memoria del 13 de mayo y, si se desea, en la reconciliación.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 5,
+    "day": 13,
+    "label": "Memoria de Nuestra Señora de Fátima"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios mío, yo creo, adoro, espero y te amo. Te pido perdón por los que no creen, no adoran, no esperan y no te aman. (Oración que, según las Memorias de Lucía, el Ángel enseñó a los pastorcitos en 1916; las traducciones al español varían ligeramente.)\n\nVirgen de Fátima, madre y maestra, enséñanos a orar con el corazón y a ofrecer cada día por la paz y la salvación de todos. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El Ángel de la Paz",
+      "reading": "Sal 95,6",
+      "reflection": "En 1916, antes de las apariciones de la Virgen, un ángel preparó a los tres niños con una enseñanza sencilla: adorar a Dios, pedirle perdón por quienes no lo aman y ofrecerle sacrificios. Es una pedagogía que comienza por Dios mismo: «Venid, postrémonos en adoración».\n\nMuchos hemos perdido el sentido de la adoración. Vivimos aprisa y hablamos mucho con Dios, pero lo escuchamos poco. Hoy podemos detenernos unos instantes en silencio ante el Señor, ante un crucifijo o ante el Santísimo si es posible, y decir con sencillez: creo, adoro, espero y te amo. La oración humilde es el primer paso del mensaje de Fátima.",
+      "prayer": "Dios mío, creo en ti, te adoro, espero en ti y te amo. Enséñame a postrarme ante ti con sencillez. Por intercesión de María, haz que mi oración sea verdadera y que ofrezca mi día por quienes no te conocen. Amén."
+    },
+    {
+      "day": 2,
+      "title": "«No tengáis miedo»",
+      "reading": "Lc 1,30",
+      "reflection": "En la primera aparición, según Lucía, la Señora dijo a los niños que no tuvieran miedo. Eran tres pastorcitos humildes, sin instrucción, y se encontraron con una presencia luminosa. La Virgen, como el ángel de Nazaret, comienza pidiendo confianza.\n\nEl miedo puede paralizarnos: a la enfermedad, al futuro, a lo que piensen los demás, a creer en voz alta. El mensaje de Fátima no es de terror, sino de esperanza: Dios nos quiere salvar y nos acompaña. Hoy podemos presentar a María nuestros miedos concretos y pedirle la confianza que tuvieron los niños: ir tras ella con sencillez, sin saber el final.",
+      "prayer": "Madre amable, no permitas que el miedo me domine. Dame la confianza de los pequeños para escuchar a Dios y seguir su voluntad. Que mi fe sea sencilla, valiente y alegre, aun cuando sea incomprendida, y que sepa descansar en tu cuidado materno. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Ofrecer el sufrimiento",
+      "reading": "Col 1,24",
+      "reflection": "Los niños aprendieron a ofrecer a Dios sus renuncias y sus dificultades, sobre todo las burlas y presiones que sufrieron. San Pablo dice que completa en su carne lo que falta a los padecimientos de Cristo. No significa que la cruz de Cristo sea insuficiente, sino que podemos unirnos a su amor redentor.\n\nOfrecer no es buscar sufrir: es dar sentido a lo inevitable y vivirlo con amor. Hoy podemos tomar una molestia pequeña —el cansancio, una espera, una crítica— y ofrecerla al Señor por alguien. La Iglesia llama a esto unir nuestras penas al sacrificio de Cristo. Es un modo de amar, no una forma de castigo.",
+      "prayer": "Señor Jesús, te ofrezco mis esfuerzos, mis cansancios y mis dificultades de hoy. Únelos a tu cruz y haz que den fruto de amor. Por intercesión de Francisco y Jacinta, enséñame a vivir con generosidad lo que no puedo evitar. Amén."
+    },
+    {
+      "day": 4,
+      "title": "El Rosario cada día",
+      "reading": "Hch 1,14",
+      "reflection": "En las apariciones, según el testimonio de Lucía, María pidió con insistencia rezar el Rosario. Esta oración sencilla, accesible a todos, nos hace contemplar la vida de Cristo con los ojos de su Madre. Los Apóstoles perseveraban en la oración con María, y la Iglesia hace lo mismo cuando reza el Rosario.\n\nEl Rosario no es repetición vacía: es un modo de estar con Jesús y María mientras las manos y los labios se ocupan. Hoy podemos rezarlo despacio, aunque sea una decena, escogiendo un misterio y pidiendo la gracia que lo acompaña. Quien reza el Rosario con constancia descubre una paz que no depende de las circunstancias.",
+      "prayer": "Virgen del Rosario, enséñame a rezar con amor tu Rosario. Que cada Ave María me acerque a Jesús, y cada misterio ilumine mi vida. Haz que lo rece con perseverancia, en familia si es posible, y por la paz del mundo. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Conversión del corazón",
+      "reading": "Mc 1,15",
+      "reflection": "La Virgen de Fátima insiste en la conversión: volverse a Dios y dejar lo que nos aleja de él. No es una invitación a la angustia, sino a una vida nueva. El pecado hiere a Dios, a los demás y a nosotros mismos; la conversión sana.\n\nLa conversión empieza por cosas concretas: perdonar, ser sinceros, dejar un hábito dañino, volver a la Misa dominical, acercarnos a la confesión. Hoy podemos escoger un cambio pequeño y posible. Dios no pide proezas, pide un sí sincero. Los pastorcitos, con su ejemplo, nos muestran que la santidad no es cosa de grandes, sino de corazones disponibles.",
+      "prayer": "Señor, tú que llamas a todos a la conversión, dame un corazón nuevo. Muéstrame qué debo cambiar y dame fuerzas para hacerlo. Con el amparo de María, quiero volver a ti con sinceridad y confianza, y comenzar hoy mismo, aunque sea con un paso pequeño. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Orar por los pecadores",
+      "reading": "1 Tm 2,1-4",
+      "reflection": "Los niños aprendieron a rezar por los pecadores, para que Dios los atrajera a sí. San Pablo pide que se hagan oraciones por todos los hombres, porque Dios quiere que todos se salven. Es una oración que mira más allá de nuestro círculo, con espíritu de misericordia y no de juicio.\n\nTodos somos pecadores y todos necesitamos la misericordia. Rezar por otros nos hace más humildes y más cercanos. Hoy podemos pensar en alguien alejado de Dios, de la Iglesia o de nosotros, y rezar por él con cariño. Sin presionarlo ni juzgarlo, la oración confiada abre puertas que nuestras palabras no pueden abrir.",
+      "prayer": "Misericordioso Dios, te encomiendo a quienes se han alejado de ti, y a mí mismo. Que tu amor los alcance y los atraiga. Por intercesión de la Virgen de Fátima, haz que sea siempre testigo de tu misericordia, paciente con los demás como tú lo eres conmigo. Amén."
+    },
+    {
+      "day": 7,
+      "title": "La fe de los pequeños",
+      "reading": "Mt 18,1-4",
+      "reflection": "Jesús puso a un niño en medio de los discípulos y dijo que quien no se haga como ellos no entrará en el Reino. Francisco y Jacinta murieron muy jóvenes y la Iglesia los ha proclamado santos, el 13 de mayo de 2017, sin haber sido mártires: son los niños no mártires canonizados más jóvenes de la historia de la Iglesia.\n\nSu santidad fue sencilla: oración, sacrificios por amor, alegría, fidelidad a lo que creían haber recibido. Nos recuerdan que nunca es pronto ni tarde para ser santos. Hoy podemos pedir la sencillez de corazón y rezar por los niños, por su educación en la fe y por su protección.",
+      "prayer": "Señor, que quieres que nos hagamos como niños, ayúdame a vivir con sencillez y confianza. Por intercesión de san Francisco y santa Jacinta, protege a los niños, cuida a sus familias y haz que crezcan en tu amor, en la verdad y en la alegría. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Rezar por la paz",
+      "reading": "Jn 14,27",
+      "reflection": "Fátima se sitúa en un tiempo de guerra. En 1917 Europa estaba sumergida en la Primera Guerra Mundial, y la Virgen pidió oración por la paz. Hoy sigue habiendo conflictos, violencia y odio en muchas partes del mundo.\n\nJesús dijo: «La paz os dejo, mi paz os doy; no como la da el mundo». Su paz comienza en el corazón reconciliado y se extiende a la familia, al trabajo y a las naciones. Hoy podemos rezar por los países en guerra, por los refugiados y por quienes trabajan por la reconciliación. Y empezar nosotros mismos por buscar la paz en nuestras relaciones cercanas.",
+      "prayer": "Reina de la paz, intercede por el mundo herido por la guerra. Concede a los gobernantes sabiduría, a los pueblos reconciliación y a nosotros un corazón pacífico. Que seamos constructores de paz en casa y en la sociedad, y que sepamos perdonar y pedir perdón con humildad. Amén."
+    },
+    {
+      "day": 9,
+      "title": "El Corazón de María, refugio",
+      "reading": "Lc 2,34-35",
+      "reflection": "Simeón anunció a María que una espada atravesaría su alma. Su corazón conoció el amor y el dolor, y por eso comprende a los nuestros. En Fátima, según el relato de Lucía, la Virgen habló de su Corazón Inmaculado como refugio y camino que nos lleva a Dios.\n\nEs una devoción centrada en Cristo: el corazón de María late al ritmo del de Jesús. Al concluir la novena, podemos agradecer lo vivido y encomendar nuestra vida a María con confianza. Que la memoria del 13 de mayo nos encuentre en la Misa y, si lo deseamos, reconciliados. Salimos de aquí con una tarea sencilla: rezar, convertirnos, ofrecer y amar.",
+      "prayer": "Corazón Inmaculado de María, refugio nuestro, acógenos. Gracias por tu mensaje de oración y de paz. Condúcenos siempre a Jesús, tu Hijo, y ayúdanos a vivir como hijos de Dios, fieles hasta el final, con la alegría y la sencillez de los pastorcitos. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a Nuestra Señora de Fátima",
+      "text": "Santísima Virgen de Fátima, que viniste a recordarnos que Dios nos ama y que quiere nuestra conversión, enséñanos a rezar cada día, a ofrecer nuestros sacrificios y a vivir como hijos de Dios. Intercede por la paz del mundo, por los pecadores, por los enfermos y por quienes sufren la guerra. Que, imitando a Francisco y Jacinta, nos dejemos conducir por ti hasta Jesús, tu Hijo, que vive y reina por los siglos. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "oracion-fatima"
+    },
+    {
+      "prayer": "salve"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Santuario de Fátima: historia de las apariciones y proceso de reconocimiento (1930)"
+    },
+    {
+      "label": "Santa Sede: canonización de Francisco y Jacinta Marto (13-5-2017)"
+    },
+    {
+      "label": "Congregación para la Doctrina de la Fe, Comentario teológico al Mensaje de Fátima (2000)"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "fatima",
+    "mayo",
+    "rosario"
+  ]
+}

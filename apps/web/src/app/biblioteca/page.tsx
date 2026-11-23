@@ -3,54 +3,79 @@ import Link from 'next/link';
 import { useQuery } from '@tanstack/react-query';
 import { AUTHORITY_LABEL } from '@/components/PackSource';
 import { useInstalledPacks } from '@/hooks/useBible';
+import { useSettings } from '@/hooks/useSettings';
+import { isPrimaryLanguage } from '@/lib/languages';
 import { getDb } from '@/lib/db';
+import { Cover, EmptyState, ScreenHeader, Section } from '@/components/ui';
 import { documentHref } from '@/lib/links';
+import { LibraryDownloads } from '@/components/LibraryDownloads';
 
-export default function Page() {
-  const packs = useInstalledPacks();
+type Pack = NonNullable<ReturnType<typeof useInstalledPacks>['data']>[number];
+
+function PackGrid({ list, title }: { list: Pack[]; title: string }) {
   const docs = useQuery({ queryKey: ['documents'], queryFn: () => getDb().documents.toArray(), staleTime: Infinity });
   const docById = new Map(docs.data?.map((d) => [d.id, d]));
-  const groups = new Map<string, NonNullable<typeof packs.data>>();
-  for (const p of packs.data ?? []) {
-    const key = p.collection ?? (p.kind === 'bible' ? 'Biblias' : 'General');
-    groups.set(key, [...(groups.get(key) ?? []), p]);
-  }
-
   return (
-    <div className="mx-auto max-w-3xl">
-      <h1 className="h-page mb-1">Biblioteca</h1>
-      <p className="mb-6 text-muted">Contenido instalado en este dispositivo, por colección.</p>
-      {packs.isSuccess && packs.data.length === 0 && (
-        <div className="card">
-          <p className="mb-3 text-muted">No hay contenido instalado todavía.</p>
-          <Link href="/descargas/" className="btn btn-primary">Ir a Contenido</Link>
-        </div>
-      )}
-      {[...groups].sort((a, b) => a[0].localeCompare(b[0], 'es')).map(([title, list]) => (
-        <section key={title} className="mb-6" aria-label={title}>
-          <h2 className="mb-2 font-serif text-lg font-semibold">{title}</h2>
-          <ul className="flex flex-col gap-2">
+  <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3">
             {list.map((p) => {
               const d = docById.get(p.id);
-              const href = p.kind === 'bible' ? `/leer/?v=${encodeURIComponent(p.code ?? '')}` : documentHref(p.id);
+              const isBible = p.kind === 'bible';
+              const href = isBible ? `/leer/?v=${encodeURIComponent(p.code ?? '')}` : documentHref(p.id);
               return (
                 <li key={p.id}>
-                  <Link href={href} className="card block hover:bg-sunken">
-                    <span className="font-serif text-xl">{p.title}</span>
-                    {d?.subtitle && <span className="block text-sm text-muted">{d.subtitle}</span>}
-                    <span className="mt-1 block text-xs text-muted">
+                  <Link href={href} className="tap block">
+                    <Cover title={p.title} subtitle={isBible ? (p.code ?? p.language) : (d?.author?.name ?? p.language)} seed={title} icon={isBible ? 'cross' : 'book'} />
+                    <span className="mt-2 block truncate text-[14px] font-medium">{p.title}</span>
+                    <span className="block truncate text-[12px] text-muted">
                       {d?.author?.name ? `${d.author.name} · ` : ''}
                       {d?.period ? `${d.period} · ` : ''}
-                      {AUTHORITY_LABEL[p.authority]} · {p.language}
+                      {AUTHORITY_LABEL[p.authority]}
                       {d ? ` · ${d.sectionCount} secciones` : ''}
                     </span>
                   </Link>
                 </li>
               );
             })}
-          </ul>
-        </section>
+  </ul>
+  );
+}
+
+export default function Page() {
+  const packs = useInstalledPacks();
+  const { settings } = useSettings();
+  const otherPacks: NonNullable<typeof packs.data> = [];
+  const groups = new Map<string, NonNullable<typeof packs.data>>();
+  for (const p of packs.data ?? []) {
+    // Oraciones y audio tienen su sitio en Orar, no en la biblioteca de lectura.
+    if (p.kind === 'prayers' || p.kind === 'audio') continue;
+    if (!settings.showOtherLanguageBibles && !isPrimaryLanguage({ code: p.code ?? p.id, language: p.language })) {
+      otherPacks.push(p);
+      continue;
+    }
+    const key = p.collection ?? (p.kind === 'bible' ? 'Biblias' : 'General');
+    groups.set(key, [...(groups.get(key) ?? []), p]);
+  }
+
+  return (
+    <div className="mx-auto max-w-3xl">
+      <ScreenHeader title="Tu biblioteca" subtitle="Biblias y obras instaladas en este dispositivo, por colección." />
+      {packs.isSuccess && packs.data.length === 0 && (
+        <EmptyState icon="book" title="Tu biblioteca está vacía" >
+          Descarga abajo una Biblia o una obra para leerla sin conexión.
+        </EmptyState>
+      )}
+      {[...groups].sort(([a], [b]) => (a === 'Biblias' ? -1 : b === 'Biblias' ? 1 : a.localeCompare(b, 'es'))).map(([title, list]) => (
+        <Section key={title} title={title} className="!mb-10">
+          <PackGrid list={list} title={title} />
+        </Section>
       ))}
+      {otherPacks.length > 0 && (
+        <details className="mb-8">
+          <summary className="cursor-pointer py-2 font-display text-[1.25rem]">Otros idiomas ({otherPacks.length})</summary>
+          <PackGrid list={otherPacks} title="Otros idiomas" />
+        </details>
+      )}
+      <LibraryDownloads />
     </div>
   );
 }

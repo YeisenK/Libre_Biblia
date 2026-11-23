@@ -1,0 +1,140 @@
+[
+  {
+    "id": "consagracion-sagrado-corazon",
+    "title": "Consagración al Sagrado Corazón",
+    "categories": [
+      "devociones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor Jesucristo, Redentor del mundo, me consagro a tu Sagrado Corazón. Recibe mi vida, mi familia, mis trabajos y mis proyectos. Reina en mi corazón y enséñame a amar como tú amas. Que tu voluntad sea mi guía y tu Evangelio la norma de mi vida. Amén.",
+    "context": "La devoción al Corazón de Jesús contempla el amor de Cristo, simbolizado en su Corazón traspasado (Jn 19,34; CIC 478). Es una devoción privada, libre y recomendable.",
+    "scripture": [
+      "Jn 19,34"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "acto-de-reparacion-sagrado-corazon",
+    "title": "Acto de reparación al Sagrado Corazón",
+    "categories": [
+      "devociones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Dulcísimo Jesús, cuya inmensa caridad hacia los hombres recibe ingratitud, olvido y desprecio, mira nuestra humilde reparación. Te ofrecemos nuestro amor y nuestro deseo de reparar, con una vida fiel, las ofensas cometidas contra tu Corazón. Perdona nuestros pecados y conduce a todos los hombres a tu misericordia. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "jaculatorias-sagrado-corazon",
+    "title": "Jaculatorias al Sagrado Corazón",
+    "categories": [
+      "devociones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Sagrado Corazón de Jesús, en vos confío.\nJesús, manso y humilde de corazón, haz nuestro corazón semejante al tuyo.\nCorazón de Jesús, horno ardiente de caridad, ten misericordia de nosotros.",
+    "context": "Las jaculatorias son invocaciones breves que se repiten a lo largo del día («oración del corazón», CIC 2668).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "via-crucis",
+    "title": "Vía Crucis",
+    "altTitles": [
+      "Camino de la cruz"
+    ],
+    "categories": [
+      "devociones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "popular_piety",
+    "text": "En cada estación se dice:\n\n**V.** Te adoramos, Cristo, y te bendecimos.\n**R.** Que por tu santa cruz redimiste al mundo.\n\nSe medita brevemente la escena y se reza un Padre Nuestro, un Ave María y un Gloria.\n\n**Las catorce estaciones tradicionales**\n\n1. Jesús es condenado a muerte.\n2. Jesús carga con la cruz.\n3. Jesús cae por primera vez.\n4. Jesús encuentra a su santísima Madre.\n5. El Cireneo ayuda a Jesús a llevar la cruz.\n6. La Verónica limpia el rostro de Jesús.\n7. Jesús cae por segunda vez.\n8. Jesús consuela a las mujeres de Jerusalén.\n9. Jesús cae por tercera vez.\n10. Jesús es despojado de sus vestiduras.\n11. Jesús es clavado en la cruz.\n12. Jesús muere en la cruz.\n13. Jesús es bajado de la cruz y entregado a su Madre.\n14. Jesús es colocado en el sepulcro.",
+    "context": "Ejercicio de piedad popular que recorre en espíritu el camino de Jesús al Calvario; es especialmente propio de la Cuaresma y los viernes. Algunas estaciones (la Verónica, las tres caídas, el encuentro con la Madre) proceden de la tradición y no de los evangelios. El Directorio sobre la piedad popular (2001) lo recomienda (nn. 131-135).",
+    "sources": [
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 20
+  },
+  {
+    "id": "santa-faz",
+    "title": "A la Santa Faz de Jesús",
+    "altTitles": [
+      "Oración a la Santa Faz",
+      "Rostro de Cristo"
+    ],
+    "categories": [
+      "devociones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "«Tu rostro buscaré, Señor; no me escondas tu rostro.» (Sal 27,8-9)\n\nSeñor Jesús, rostro del Padre y rostro del hombre sufriente,\nquiero buscarte y contemplarte.\nMírame con tu mirada de misericordia\ny haz que yo sepa reconocer tu rostro en los pobres y los que sufren.\nQue tu luz brille sobre mí\ny me conceda tu paz. (cf. Nm 6,25-26)\nAmén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "context": "La devoción a la Santa Faz contempla el rostro de Cristo: «Quien me ve a mí, ve al Padre» (Jn 14,9). Santa Teresa del Niño Jesús y de la Santa Faz (1873-1897) la vivió profundamente; su fiesta es el 1 de octubre. Esta entrada ofrece una oración propia y sencilla, que no es de santa Teresita; sus propias oraciones a la Santa Faz (en dominio público en el original francés) pueden consultarse en las ediciones de sus obras. Juan Pablo II invitó a contemplar el rostro de Cristo en *Novo millennio ineunte* (2001) y en *Rosarium Virginis Mariae*.",
+    "scripture": [
+      "Sal 27,8-9",
+      "Nm 6,24-26",
+      "Jn 14,9"
+    ],
+    "saints": [
+      "Teresa del Niño Jesús"
+    ],
+    "sources": [
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      },
+      {
+        "label": "Juan Pablo II, Rosarium Virginis Mariae (2002)",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html"
+      }
+    ],
+    "minutes": 2
+  }
+]

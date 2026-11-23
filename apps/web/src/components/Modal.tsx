@@ -48,21 +48,21 @@ export function Modal({ open, onClose, title, children, variant = 'sheet', wide 
   const round = variant === 'sheet' ? 'rounded-t-2xl md:rounded-2xl' : 'rounded-2xl';
   return (
     <div className={`fixed inset-0 z-50 flex justify-center ${pos}`}>
-      <div className="absolute inset-0 animate-fade-in bg-black/50" onClick={onClose} aria-hidden="true" />
+      <div className="absolute inset-0 animate-fade-in bg-black/55 backdrop-blur-[2px]" onClick={onClose} aria-hidden="true" />
       <div
         ref={ref}
         role="dialog"
         aria-modal="true"
         aria-label={title}
-        className={`pb-safe relative flex max-h-[85dvh] w-full flex-col border border-line bg-surface shadow-xl ${wide ? 'md:max-w-2xl' : 'md:max-w-md'} ${round} ${anim}`}
+        className={`pb-safe relative flex max-h-[85dvh] w-full flex-col border border-line bg-surface shadow-lift ${wide ? 'md:max-w-2xl' : 'md:max-w-md'} ${round} ${anim}`}
       >
-        <div className="flex items-center justify-between border-b border-line px-4 py-2">
-          <h2 className="font-serif text-lg font-semibold">{title}</h2>
+        <div className="flex items-center justify-between border-b border-line px-5 py-2">
+          <h2 className="font-display text-[1.15rem]">{title}</h2>
           <button type="button" onClick={onClose} className="btn !min-w-[44px] !border-transparent !bg-transparent !px-2" aria-label="Cerrar">
             <CloseIcon />
           </button>
         </div>
-        <div className="overflow-y-auto overscroll-contain p-4">{children}</div>
+        <div className="overflow-y-auto overscroll-contain p-5">{children}</div>
       </div>
     </div>
   );

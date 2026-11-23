@@ -1,0 +1,127 @@
+{
+  "id": "san-miguel-arcangel",
+  "title": "Novena a san Miguel Arcángel",
+  "group": "angels",
+  "description": "Nueve días con el arcángel que defiende la causa de Dios, para pedir su ayuda en el combate espiritual.",
+  "image": {
+    "icon": "shield",
+    "tint": "#2f4f7f"
+  },
+  "introduction": "El nombre de Miguel significa «¿Quién como Dios?». La Escritura lo presenta como jefe de los ángeles: el libro de Daniel lo llama «el gran príncipe que defiende a tu pueblo» (Dn 12,1), la carta de Judas lo muestra disputando con el diablo (Jds 9) y el Apocalipsis describe su combate contra el dragón (Ap 12,7-9). La Iglesia lo ha venerado desde antiguo como protector del pueblo de Dios.\n\nHoy su fiesta se celebra el **29 de septiembre**, junto a Gabriel y Rafael (desde la reforma litúrgica de 1969). La conocida oración «San Miguel Arcángel, defiéndenos en la batalla» procede de León XIII: en 1884 mandó rezar para toda la Iglesia unas oraciones tras la Misa rezada y en 1886 se añadió la de san Miguel; esas oraciones se suprimieron en 1964.\n\nEl Catecismo enseña que los ángeles existen y que «toda la vida de la Iglesia se beneficia de la ayuda misteriosa y poderosa de los ángeles» (n. 334). Esta novena es piedad popular libre. Respeta el *Directorio sobre la piedad popular y la liturgia* (2001, n. 217): solo se invoca por su nombre a los tres arcángeles de la Escritura.",
+  "purpose": "Pedir la ayuda de san Miguel en la lucha contra el mal, la fidelidad a la fe y la protección de la Iglesia, sin olvidar que toda victoria pertenece a Cristo.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 9,
+    "day": 29,
+    "label": "Santos Arcángeles Miguel, Gabriel y Rafael"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "san-miguel-arcangel"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Catecismo de la Iglesia Católica, 328-336"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), 215-217"
+    },
+    {
+      "label": "León XIII, oraciones después de la Misa (1884-1886)"
+    }
+  ],
+  "saints": [
+    "Miguel Arcángel"
+  ],
+  "tags": [
+    "arcángeles",
+    "29 de septiembre"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "¿Quién como Dios?",
+      "reading": "Ap 12,7-12",
+      "reflection": "El nombre de Miguel es una pregunta que se convierte en grito de fe: «¿Quién como Dios?». Nadie puede ocupar el lugar de Dios, ni el poder ni el dinero ni el propio yo. En esta pregunta está la raíz de la humildad.\n\nComenzamos la novena reconociendo que Dios es Dios. El Apocalipsis presenta el combate en el cielo: Miguel y sus ángeles luchan contra el dragón. La victoria no es suya: «Ellos lo vencieron por la sangre del Cordero». Hoy ponemos a Cristo en el centro. Pedimos a san Miguel que nos ayude a vivir con ese mismo reconocimiento y a rechazar toda soberbia.",
+      "prayer": "San Miguel Arcángel, tú que proclamaste que nadie es como Dios, ayúdame a vivir la humildad. Que no me deje seducir por el orgullo ni por la autosuficiencia. Ruega por mí para que ponga siempre a Dios en el primer lugar. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Ángeles al servicio de Dios",
+      "reading": "Heb 1,13-14",
+      "reflection": "«¿No son todos espíritus al servicio de Dios, enviados para ayudar a los que han de heredar la salvación?» La carta a los Hebreos recuerda que los ángeles no son competidores de Cristo, sino servidores. Su función es llevar nuestra mirada al Señor.\n\nHoy damos gracias por esta realidad escondida que la fe nos revela. El Catecismo habla de los ángeles como seres espirituales, personales e inmortales, que contemplan a Dios y cumplen su voluntad. San Miguel, el primero entre ellos en la Escritura, es modelo de servicio fiel. Pedimos aprender de él a obedecer con alegría y a servir sin protagonismo.",
+      "prayer": "Dios de los ángeles, gracias por tus mensajeros fieles. Concédeme aprender de san Miguel a servirte con sencillez y obediencia. Que sepa que no estoy solo en el camino y que tú me envías ayuda. Amén."
+    },
+    {
+      "day": 3,
+      "title": "El combate espiritual",
+      "reading": "Ef 6,10-17",
+      "reflection": "«Nuestra lucha no es contra enemigos de carne y sangre, sino contra los poderes de este mundo de tinieblas.» San Pablo habla de una armadura: la verdad, la justicia, la fe, la salvación y la Palabra de Dios. No hay que vivir obsesionados con el mal, pero tampoco ingenuos.\n\nHoy pensamos en nuestras luchas: tentaciones, desánimo, malos hábitos. Para ello la Iglesia nos da armas sencillas: la oración, los sacramentos, la Escritura, la comunidad. San Miguel nos recuerda que el combate es real y que no peleamos solos. Pedimos su ayuda para ser fuertes, humildes y perseverantes.",
+      "prayer": "San Miguel, defiéndenos en el combate. Sé nuestro amparo contra la maldad y las asechanzas del maligno. Reviste mi vida con la armadura de Dios: la verdad, la justicia y la fe. Que no me deje vencer por el desánimo. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Defensor del pueblo de Dios",
+      "reading": "Dn 12,1-3",
+      "reflection": "«En aquel tiempo se levantará Miguel, el gran príncipe que defiende a los hijos de tu pueblo.» Daniel anuncia un tiempo de angustia, pero también de esperanza: «Muchos de los que duermen en el polvo se despertarán».\n\nLa tradición cristiana ha visto en Miguel un protector del pueblo de Dios, y la Iglesia lo ha invocado en tiempos de peligro y persecución. Hoy rezamos por la Iglesia, por el Papa y los obispos, por las comunidades que sufren. Y nos encomendamos nosotros mismos y a nuestras familias. Que ante cualquier prueba mantengamos una esperanza firme en la resurrección.",
+      "prayer": "San Miguel, protector del pueblo de Dios, cuida a la Iglesia y a nuestras familias. Defiende a los perseguidos y fortalece a los pastores. Haz que nuestra esperanza no se apague, y que confiemos en la promesa de la vida eterna. Amén."
+    },
+    {
+      "day": 5,
+      "title": "La humildad ante la tentación",
+      "reading": "Mt 4,1-11",
+      "reflection": "Jesús, tentado en el desierto, responde con la Palabra: «Está escrito». No discute ni negocia. Esta es la mejor lección para el combate espiritual: responder a la tentación con la verdad de Dios y en la humildad que sabe que no puede por sí solo.\n\nHoy pensamos en nuestras tentaciones más frecuentes y las ponemos ante Cristo y ante san Miguel. Quien se conoce no se escandaliza de sus debilidades, pero tampoco las alimenta. La confesión frecuente y la oración constante son defensas eficaces. Pedimos reconocer nuestras flaquezas sin desesperarnos, y volver siempre a Dios.",
+      "prayer": "Señor Jesús, que venciste la tentación con la Palabra, enséñame a responder como tú. San Miguel, ayúdame a reconocer mis debilidades y a recurrir a Dios sin demora. No permitas que me aparte de la gracia. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Miguel y la Virgen María",
+      "reading": "Lc 1,26-38",
+      "reflection": "La Virgen María es más grande que cualquier ángel, porque es la Madre del Señor. Gabriel se inclina ante ella: «Alégrate, llena de gracia». Los ángeles, con Miguel a la cabeza, honran a María como Reina. Quien invoca a Miguel no se aparta de María; ella nos lleva siempre a Cristo.\n\nHoy rezamos el Ave María con atención por las intenciones de la novena. Pedimos a María que, con su humildad, nos acompañe en el combate. En el Apocalipsis, la Mujer y el dragón aparecen en la misma escena que Miguel (Ap 12). La tradición ve en ello la certeza de que el mal no triunfará.",
+      "prayer": "Santa María, Reina de los ángeles, ruega por mí. Con san Miguel, ayúdame a vencer el mal y a seguir a tu Hijo. Cúbreme con tu manto en la lucha y llévame siempre a Jesús. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Miguel y las almas al final de la vida",
+      "reading": "Sab 3,1-9",
+      "reflection": "«Las almas de los justos están en manos de Dios, y ningún tormento los alcanzará.» El antiguo ofertorio de la Misa de difuntos pedía: «el abanderado san Miguel las lleve a la luz santa». Es una antigua tradición que confía a Miguel el acompañamiento en la hora de la muerte.\n\nHoy rezamos por nuestros difuntos, por los enfermos graves y por nosotros mismos, para el día de nuestro paso. No es una meditación para asustar: la muerte, para el creyente, es encuentro con Cristo. Pedimos a san Miguel que nos asista en esa hora, y que aprendamos a vivir cada día en preparación serena para ese encuentro.",
+      "prayer": "San Miguel, ayúdame a vivir preparado para el encuentro con Dios. Acompaña a los moribundos y a los difuntos, y llévalos a la luz. Que en la hora de mi muerte me asista tu protección, y que muera confiado en la misericordia de Cristo. Amén."
+    },
+    {
+      "day": 8,
+      "title": "La victoria de Cristo",
+      "reading": "Col 2,13-15",
+      "reflection": "San Pablo anuncia que Cristo «despojó a los principados y potestades y los exhibió en espectáculo público, incorporándolos a su cortejo triunfal». El mal ya está vencido en la cruz, aunque su derrota se manifiesta poco a poco en la historia.\n\nEsta es la verdadera razón de nuestra confianza. San Miguel combate en nombre de Cristo y para su gloria; no hay dualismo entre dos fuerzas iguales. Hoy nos dejamos sostener por esa victoria. Nos preguntamos en qué terreno nos creemos derrotados, y lo entregamos a Cristo. Su gracia basta, y los ángeles son sus servidores para ayudarnos a perseverar.",
+      "prayer": "Cristo, vencedor del mal, en ti confío. Que tu victoria sea mi fuerza. Con san Miguel quiero servirte con alegría, sin temor al enemigo. No permitas que me separe de ti, ahora ni nunca. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Alabanza y gratitud",
+      "reading": "Sal 103,19-22",
+      "reflection": "«Bendigan al Señor, ustedes sus ángeles, poderosos ejecutores de sus órdenes.» El salmo invita a los ángeles a alabar, y nos invita a unirnos a ellos. En cada Misa, el Santo, Santo, Santo nos incorpora al canto de los ángeles.\n\nTerminamos la novena con acción de gracias. Damos gracias por la ayuda recibida, visible o invisible, por los ángeles que nos acompañan y por el combate que nos hace crecer. Y nos comprometemos a una vida más fiel: Misa dominical, confesión frecuente, oración diaria y caridad concreta. Así continuamos lo que comenzamos: poner a Dios en primer lugar.",
+      "prayer": "Bendito seas, Señor, por tus ángeles. Gracias por san Miguel, por su protección y por su ejemplo. Que me una a su alabanza en la Misa y en la vida, y que viva con fidelidad hasta el día en que te contemple en el cielo. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

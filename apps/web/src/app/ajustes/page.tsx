@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { useQueryClient } from '@tanstack/react-query';
 import { useRef, useState } from 'react';
 import { DailySettings } from '@/components/DailySettings';
+import { PrayerSettings } from '@/components/prayer/PrayerSettings';
+import { Banner, ScreenHeader, Toggle } from '@/components/ui';
 import { Modal } from '@/components/Modal';
 import { StorageUsage } from '@/components/StorageUsage';
 import { useVersions } from '@/hooks/useBible';
@@ -17,9 +19,9 @@ function Seg<T extends string>({ label, value, options, onChange }: { label: str
   return (
     <div className="mb-4">
       <p className="mb-1 text-sm font-medium">{label}</p>
-      <div role="group" aria-label={label} className="inline-flex flex-wrap overflow-hidden rounded-lg border border-line">
+      <div role="group" aria-label={label} className="inline-flex flex-wrap gap-1 rounded-2xl bg-sunken p-1">
         {options.map((o) => (
-          <button key={o.id} type="button" aria-pressed={value === o.id} onClick={() => onChange(o.id)} className={`min-h-[44px] px-3 text-sm ${value === o.id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
+          <button key={o.id} type="button" aria-pressed={value === o.id} onClick={() => onChange(o.id)} className={`min-h-[40px] rounded-xl px-3.5 text-[13.5px] font-medium transition-colors ${value === o.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
             {o.label}
           </button>
         ))}
@@ -81,10 +83,10 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-2xl">
-      <h1 className="h-page mb-3">Ajustes</h1>
+      <ScreenHeader back="/mas/" title="Ajustes" subtitle="Apariencia, lectura, oración y tus datos. Todo se guarda en este dispositivo." />
 
-      <section className="card mb-4" aria-labelledby="ap">
-        <h2 id="ap" className="mb-3 font-serif text-lg font-semibold">Apariencia y lectura</h2>
+      <section className="card-soft mb-5" aria-labelledby="ap">
+        <h2 id="ap" className="mb-3 font-display text-[1.15rem]">Apariencia y lectura</h2>
         <Seg<UserSettings['theme']> label="Tema" value={s.theme} onChange={(theme) => update({ theme })} options={[{ id: 'system', label: 'Sistema' }, { id: 'light', label: 'Claro' }, { id: 'dark', label: 'Oscuro' }, { id: 'sepia', label: 'Sepia' }]} />
         <label className="mb-4 block text-sm font-medium">
           Tamaño de letra ({Math.round(s.fontScale * 100)}%)
@@ -96,13 +98,18 @@ export default function Page() {
         </label>
         <Seg<UserSettings['margin']> label="Márgenes" value={s.margin} onChange={(margin) => update({ margin })} options={[{ id: 'narrow', label: 'Estrechos' }, { id: 'normal', label: 'Normales' }, { id: 'wide', label: 'Amplios' }]} />
         <Seg<UserSettings['readingMode']> label="Modo de lectura" value={s.readingMode} onChange={(readingMode) => update({ readingMode })} options={[{ id: 'chapter', label: 'Capítulo' }, { id: 'verse', label: 'Versículo' }, { id: 'continuous', label: 'Continuo' }]} />
-        <p className="reading mt-2 rounded-lg bg-sunken p-3 !text-base">
+        <p className="reading mt-2 rounded-2xl bg-sunken p-4 !text-base">
           <sup className="verse-num">1</sup>Vista previa del texto de lectura con el tamaño e interlineado elegidos.
         </p>
       </section>
 
-      <section className="card mb-4" aria-labelledby="vs">
-        <h2 id="vs" className="mb-3 font-serif text-lg font-semibold">Versiones</h2>
+      <PrayerSettings />
+
+      <section className="card-soft mb-5" aria-labelledby="vs">
+        <h2 id="vs" className="mb-3 font-display text-[1.15rem]">Versiones</h2>
+        <div className="-mx-4 mb-3 border-b border-line pb-1">
+          <Toggle checked={s.showOtherLanguageBibles} onChange={(showOtherLanguageBibles) => update({ showOtherLanguageBibles })} label="Mostrar Biblias en otros idiomas" detail="Por defecto solo se ven las Biblias en español y la Vulgata latina. Las demás siguen instaladas." />
+        </div>
         {versions.data?.length === 0 && <p className="text-sm text-muted">No hay Biblias instaladas. <Link className="text-accent underline" href="/descargas/">Ir a Contenido</Link></p>}
         {!!versions.data?.length && (
           <>
@@ -119,7 +126,7 @@ export default function Page() {
               <legend className="mb-1 text-sm font-medium">Versiones paralelas (hasta 4)</legend>
               <div className="flex flex-wrap gap-2">
                 {versions.data.map((v) => (
-                  <label key={v.code} className={`btn cursor-pointer ${s.parallelVersions.includes(v.code) ? '!border-accent !bg-sunken' : ''}`}>
+                  <label key={v.code} className={`btn cursor-pointer ${s.parallelVersions.includes(v.code) ? '!border-accent !bg-sunken !text-accent' : ''}`}>
                     <input type="checkbox" className="sr-only" checked={s.parallelVersions.includes(v.code)} onChange={() => toggleParallel(v.code)} />
                     {v.code}
                   </label>
@@ -132,8 +139,8 @@ export default function Page() {
 
       <DailySettings />
 
-      <section className="card mb-4" aria-labelledby="bk">
-        <h2 id="bk" className="mb-1 font-serif text-lg font-semibold">Copia de seguridad</h2>
+      <section className="card-soft mb-5" aria-labelledby="bk">
+        <h2 id="bk" className="mb-1 font-display text-[1.15rem]">Copia de seguridad</h2>
         <p className="mb-3 text-sm text-muted">Marcadores, historial, posición de lectura, ajustes y favoritos e historial del versículo del día (no incluye el contenido descargado).</p>
         <div className="flex flex-wrap gap-2">
           <button className="btn" onClick={() => void doExport()}>Exportar copia (JSON)</button>
@@ -142,16 +149,16 @@ export default function Page() {
             <input ref={fileRef} type="file" accept=".json,application/json" className="sr-only" onChange={(e) => e.target.files?.[0] && void doImport(e.target.files[0])} />
           </label>
         </div>
-        {msg && <p role={msg.ok ? 'status' : 'alert'} className={`mt-2 text-sm ${msg.ok ? '' : 'text-danger'}`}>{msg.text}</p>}
+        {msg && <Banner tone={msg.ok ? 'ok' : 'error'} className="mt-3">{msg.text}</Banner>}
       </section>
 
-      <section className="card mb-4" aria-labelledby="st">
-        <h2 id="st" className="mb-1 font-serif text-lg font-semibold">Almacenamiento y datos</h2>
+      <section className="card-soft mb-5" aria-labelledby="st">
+        <h2 id="st" className="mb-1 font-display text-[1.15rem]">Almacenamiento y datos</h2>
         <div className="mb-3"><StorageUsage refreshKey={usageKey} /></div>
         <button className="btn !text-danger" onClick={() => { setWipePacks(false); setWipe(true); }}>Borrar todos los datos…</button>
       </section>
 
-      <ul className="flex flex-col gap-2 text-sm">
+      <ul className="mt-6 flex flex-col gap-2 text-sm">
         <li><Link className="text-accent underline" href="/descargas/">Contenido y repositorios</Link></li>
         <li><Link className="text-accent underline" href="/fuentes/">Fuentes y licencias</Link></li>
       </ul>

@@ -1,0 +1,121 @@
+{
+  "id": "preciosa-sangre",
+  "title": "Novena a la Preciosísima Sangre de Cristo",
+  "group": "christ",
+  "description": "Nueve días de meditación sobre la sangre de Cristo derramada por nuestra redención, para el mes de julio.",
+  "image": {
+    "icon": "cross",
+    "tint": "#8c2f39"
+  },
+  "introduction": "La Escritura habla de la sangre de Cristo como el signo de su entrega total: «Esta es mi sangre, la sangre de la alianza, que se derrama por muchos para el perdón de los pecados» (Mt 26,28). La carta a los Hebreos presenta a Cristo que entra una vez para siempre en el santuario «con su propia sangre» (Heb 9,12), y san Pedro recuerda que fuimos rescatados «con una sangre preciosa» (1 Pe 1,18-19).\n\nLa devoción se difundió sobre todo desde el siglo XIX: san Gaspar del Búfalo fundó en 1815 los Misioneros de la Preciosísima Sangre, y Pío IX extendió la fiesta a toda la Iglesia en 1849. Durante muchos años se celebró en el calendario el 1 de julio, y por eso el mes de julio se ha dedicado a esta devoción.\n\nConviene saber que, tras la reforma litúrgica de 1969, **ya no existe una fiesta universal fija** de la Preciosísima Sangre: su contenido se integró en la solemnidad del Santísimo Cuerpo y Sangre de Cristo (Corpus Christi). Por eso esta novena no depende de una fecha, y se suele rezar en julio. Es piedad popular libre y voluntaria, que apunta a la Eucaristía y no la sustituye.",
+  "purpose": "Agradecer el precio de nuestra redención, unirnos a la ofrenda eucarística de Cristo y pedir la gracia de la reconciliación, la fortaleza en el sufrimiento y la unidad.",
+  "nature": "popular_piety",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Catecismo de la Iglesia Católica, 1365-1367 y 1992"
+    },
+    {
+      "label": "Pablo VI, motu proprio Mysterii paschalis (1969), que promulga el Calendario romano general reformado"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), 175-179"
+    }
+  ],
+  "saints": [
+    "Gaspar del Búfalo"
+  ],
+  "tags": [
+    "julio",
+    "preciosa sangre",
+    "eucaristía"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "La sangre de la alianza",
+      "reading": "Ex 24,3-8",
+      "reflection": "En el Sinaí, Moisés rocía al pueblo con la sangre de los sacrificios y dice: «Esta es la sangre de la alianza que el Señor ha hecho con ustedes». En la sangre se sella una relación: Dios se une a su pueblo.\n\nJesús retoma esas palabras en la última cena, y ofrece su propia sangre como alianza nueva y definitiva. Comenzamos la novena entendiendo que no es una mera devoción a un símbolo: es la gratitud por una alianza que Dios sella con su propia vida. Hoy damos gracias porque Dios nunca rompe su palabra, aun cuando nosotros la rompemos.",
+      "prayer": "Señor, que sellaste con tu sangre una alianza nueva y eterna, gracias por tu fidelidad. Renueva mi pacto contigo: que viva como hijo tuyo, agradecido y leal. Que esta novena me acerque a la Eucaristía con un corazón más atento. Amén."
+    },
+    {
+      "day": 2,
+      "title": "La última cena",
+      "reading": "Lc 22,14-20",
+      "reflection": "«Este cáliz es la nueva alianza en mi sangre, que se derrama por ustedes.» Jesús se anticipa a su pasión y la convierte en un don: nadie le quita la vida, la entrega. Desde esa noche la Iglesia repite sus palabras en cada Misa.\n\nEn la Eucaristía, la sangre de Cristo se hace presente para ser alimento y perdón. Hoy pensamos en cómo participamos en la Misa: ¿con atención, con deseo, con gratitud? Pedimos una fe más viva en la presencia real y un deseo más grande de comulgar con las debidas disposiciones. La devoción a la sangre de Cristo nos remite siempre al altar.",
+      "prayer": "Jesús, que te ofreces en cada Misa, aumenta mi fe en tu presencia. Que participe en la Eucaristía con atención y amor, y que me alimente de ti para vivir lo que celebro. Gracias por quedarte con nosotros. Amén."
+    },
+    {
+      "day": 3,
+      "title": "La agonía de Getsemaní",
+      "reading": "Lc 22,39-46",
+      "reflection": "En el huerto, Jesús ora con tal angustia que «su sudor era como gotas de sangre que caían al suelo». Él, que no teme el dolor, comparte con nosotros el miedo, la soledad y la lucha. Y entrega su voluntad: «No se haga mi voluntad, sino la tuya».\n\nHoy ponemos ante Cristo nuestras agonías: la enfermedad, los duelos, las decisiones difíciles, los temores. Él sabe lo que es y nos acompaña. No tiene que ser fácil para ser fiel. Pedimos la fuerza para decir «hágase tu voluntad» incluso cuando cuesta, y rezamos por los que viven hoy su propio huerto de dolor.",
+      "prayer": "Jesús, que sudaste sangre en Getsemaní, acompaña a quienes sufren angustia y miedo. Dame fortaleza para aceptar tu voluntad cuando me cuesta. No me dejes solo en la prueba. Que, como tú, ponga mi confianza en el Padre. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Las llagas que nos curan",
+      "reading": "1 Pe 2,21-25",
+      "reflection": "«Por sus heridas fueron ustedes curados.» San Pedro, citando a Isaías, presenta la pasión como un camino de sanación. La sangre de Cristo es el signo de que el dolor no es la última palabra: Dios lo ha tomado sobre sí.\n\nHoy llevamos a Cristo nuestras heridas: físicas, afectivas, familiares. No hace falta ocultarlas. Las ponemos junto a las suyas, para que Él las transforme sin quitarlas de golpe pero llenándolas de sentido. También pensamos en las heridas que hemos causado a otros, y pedimos la gracia de reparar. Quien se sabe sanado se vuelve sanador.",
+      "prayer": "Señor Jesús, tus heridas nos han curado. Te presento las mías, las que veo y las que callo. Sánalas con tu gracia. Y haz que yo sea cuidadoso con las de mis hermanos, que sepa consolar y reparar el mal que he causado. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Redimidos y perdonados",
+      "reading": "Ef 1,3-10",
+      "reflection": "«En él, por su sangre, tenemos la redención, el perdón de los pecados.» San Pablo comienza su carta a los efesios con un himno de acción de gracias: Dios nos eligió, nos adoptó y nos perdonó, y todo «por la riqueza de su gracia».\n\nNuestra liberación tuvo un precio: la entrega de Cristo. No para asustarnos, sino para que valoremos la gracia y nos dejemos perdonar. Hoy pensamos en el sacramento de la reconciliación, donde esa sangre actúa: el perdón no es un trámite, sino el efecto de una entrega amorosa. Pedimos el valor de acudir a él con confianza, sin miedo ni vergüenza.",
+      "prayer": "Padre, por la sangre de tu Hijo me has perdonado. Gracias por tu gracia sin medida. Dame humildad para reconocer mis pecados y confianza para acudir a la confesión. Que viva como un redimido, libre y agradecido. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Purificados y reconciliados",
+      "reading": "Heb 9,11-14",
+      "reflection": "El autor de Hebreos compara los sacrificios antiguos con el de Cristo, que «con el Espíritu eterno se ofreció a sí mismo sin mancha a Dios» y purifica nuestra conciencia «de las obras muertas». La sangre de Cristo no solo perdona: renueva por dentro y nos hace capaces de servir al Dios vivo.\n\nHoy pedimos esta limpieza interior: de los rencores, de la pereza, de las cargas de culpa que ya Dios ha perdonado. Y pedimos ser reconciliados con quienes nos han herido. La comunión con Dios se prolonga en la comunión con los hermanos. Que el perdón que recibimos se convierta en perdón que damos.",
+      "prayer": "Cristo, sumo sacerdote, que te ofreciste por nosotros, purifica mi conciencia y renueva mi corazón. Quita de mí el rencor y la culpa. Concédeme perdonar de corazón a quien me ha ofendido, y vivir al servicio del Dios vivo. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Los mártires y el cordero",
+      "reading": "Ap 7,9-17",
+      "reflection": "Una multitud inmensa, vestida de blanco, ha «lavado sus vestiduras y las ha blanqueado en la sangre del Cordero». Es la imagen de los mártires y de todos los que han permanecido fieles en la prueba. Su fuerza no viene de ellos, sino del Cordero.\n\nHoy recordamos a los cristianos que, aún en nuestros días, sufren persecución, y a todos los que dan testimonio con sus vidas en la fidelidad cotidiana. Rezamos por ellos y pedimos perseverancia. El Cordero «los guiará hacia fuentes de aguas vivas, y Dios enjugará toda lágrima de sus ojos». Esa esperanza sostiene nuestros esfuerzos.",
+      "prayer": "Cordero de Dios, por cuya sangre nos salvamos, sostén a los cristianos perseguidos y a todos los que sufren por ser fieles. Dame perseverancia en mi camino. Que un día pueda estar con ellos ante tu trono, sin llanto ni dolor. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Una sangre que nos une",
+      "reading": "Ef 2,11-22",
+      "reflection": "«Ahora, en Cristo Jesús, ustedes que antes estaban lejos, han sido acercados por la sangre de Cristo.» Él ha derribado el muro de la enemistad y ha hecho de dos pueblos uno solo. La sangre de Cristo no solo salva a individuos, sino que construye comunidad.\n\nHoy rezamos por la unidad en la Iglesia, entre los cristianos y entre los pueblos. Y examinamos las divisiones concretas que vivimos: en la familia, en el trabajo, en la parroquia. Pedimos ser constructores de puentes y no de muros. La Eucaristía, donde comulgamos del mismo cáliz, es la fuente y el modelo de esa unidad.",
+      "prayer": "Señor, tú derribaste el muro que nos separaba. Haz que yo sea constructor de paz y de unidad en mi hogar y en mi comunidad. Cura las divisiones entre tus hijos y reúnenos a todos en tu cuerpo. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Caminar en la luz",
+      "reading": "1 Jn 1,5-9",
+      "reflection": "«Si caminamos en la luz, como él está en la luz, estamos en comunión unos con otros, y la sangre de su Hijo Jesús nos purifica de todo pecado.» Con esta promesa concluimos. Caminar en la luz es vivir con sinceridad, reconocer nuestro pecado y dejarnos perdonar.\n\nLa novena termina, pero la devoción continúa en lo cotidiano: una Misa vivida con amor, la confesión frecuente, la ofrenda del sufrimiento en unión con Cristo, el servicio a los necesitados. Damos gracias por estos días y pedimos que lo que hemos contemplado dé fruto duradero, y que nunca olvidemos el precio de nuestra salvación.",
+      "prayer": "Señor Jesús, gracias por tu sangre derramada por mí. Concédeme caminar siempre en tu luz, vivir con sinceridad y servir con alegría. Que esta novena dé fruto en mi vida y me conduzca a ti. A ti la gloria por siempre. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

@@ -1,0 +1,60 @@
+// Catálogo de arte: un cuadro de Wikimedia Commons por entrada.
+// keys[0] es la clave principal (da nombre al archivo .webp); el resto reutilizan la imagen.
+// focus = object-position CSS y, a la vez, centro del recorte vertical/horizontal.
+export const CATALOG = [
+  // --- Misterios gozosos ---
+  { keys: ['mystery:joyful-1'], file: 'La anunciación (Murillo, h. 1660).jpg', title: 'La Anunciación', artist: 'Bartolomé Esteban Murillo', year: 'h. 1660', focus: '50% 40%' },
+  { keys: ['mystery:joyful-2'], file: 'Rogier van der Weyden - Visitation - WGA25716.jpg', title: 'La Visitación', artist: 'Rogier van der Weyden', year: '1435-1440', focus: '50% 45%' },
+  { keys: ['mystery:joyful-3', 'set:joyful', 'category:accion-de-gracias'], file: 'Adoración de los pastores (Murillo).jpg', title: 'La Adoración de los pastores', artist: 'Bartolomé Esteban Murillo', year: 'h. 1650', focus: '50% 50%' },
+  { keys: ['mystery:joyful-4'], file: 'Fra Angelico - Presentation of Jesus in the Temple (Cell 10) - WGA00544.jpg', title: 'La Presentación en el Templo', artist: 'Fra Angelico', year: 'h. 1440-1442', focus: '50% 50%' },
+  { keys: ['mystery:joyful-5'], file: 'Albrecht Dürer - Jesus among the Doctors - Google Art Project.jpg', title: 'Jesús entre los doctores', artist: 'Alberto Durero', year: '1506', focus: '50% 40%' },
+  // --- Misterios luminosos ---
+  { keys: ['mystery:luminous-1'], file: 'El bautismo de Cristo (El Greco, 1597).jpg', title: 'El Bautismo de Cristo', artist: 'El Greco', year: '1596-1600', focus: '50% 40%' },
+  { keys: ['mystery:luminous-2', 'category:comida'], file: 'Veronese, The Marriage at Cana (1563).jpg', title: 'Las bodas de Caná', artist: 'Pablo Veronés', year: '1563', focus: '50% 50%' },
+  { keys: ['mystery:luminous-3'], file: 'Bloch-SermonOnTheMount.jpg', title: 'El Sermón de la Montaña', artist: 'Carl Heinrich Bloch', year: '1877', focus: '50% 45%' },
+  { keys: ['mystery:luminous-4', 'set:luminous'], file: 'Transfiguration Raphael.jpg', title: 'La Transfiguración', artist: 'Rafael Sanzio', year: '1516-1520', focus: '50% 30%' },
+  { keys: ['mystery:luminous-5', 'category:sacramentos'], file: 'La Última Cena (Juan de Juanes) (restaurada).jpg', title: 'La Última Cena', artist: 'Juan de Juanes', year: 'h. 1562', focus: '50% 50%' },
+  // --- Misterios dolorosos ---
+  { keys: ['mystery:sorrowful-1', 'category:momentos-dificiles'], file: 'El Greco - Jesús en el Huerto de los Olivos, 1600-1607.jpg', title: 'La Oración en el huerto', artist: 'El Greco', year: '1600-1607', focus: '50% 40%' },
+  { keys: ['mystery:sorrowful-2'], file: 'The Flagellation of Christ-Caravaggio (1607).jpg', title: 'La Flagelación de Cristo', artist: 'Caravaggio', year: '1607', focus: '50% 50%' },
+  { keys: ['mystery:sorrowful-3'], file: 'Ribera - La Coronación de espinas, D005984.jpg', title: 'La Coronación de espinas', artist: 'José de Ribera', year: 's. XVII', focus: '50% 40%' },
+  { keys: ['mystery:sorrowful-4'], file: 'El Greco - Christ Carrying the Cross - Google Art Project.jpg', title: 'Cristo con la cruz a cuestas', artist: 'El Greco', year: 'h. 1590-1595', focus: '50% 40%' },
+  { keys: ['mystery:sorrowful-5', 'set:sorrowful', 'novena:preciosa-sangre'], file: 'Cristo crucificado.jpg', title: 'Cristo crucificado', artist: 'Diego Velázquez', year: '1631-1632', focus: '50% 40%' },
+  // --- Misterios gloriosos ---
+  { keys: ['mystery:glorious-1', 'novena:divina-misericordia'], file: 'Bartolomé Esteban Murillo - Resurrección del Señor - Google Art Project.jpg', title: 'La Resurrección del Señor', artist: 'Bartolomé Esteban Murillo', year: 'h. 1650-1660', focus: '50% 35%' },
+  { keys: ['mystery:glorious-2'], file: 'La Ascensión, de Juan de Flandes (Museo del Prado).jpg', title: 'La Ascensión', artist: 'Juan de Flandes', year: '1514-1519', focus: '50% 45%' },
+  { keys: ['mystery:glorious-3', 'novena:espiritu-santo', 'category:espiritu-santo', 'category:novenas'], file: 'Pentecostés (El Greco, c. 1600) Prado.jpg', title: 'Pentecostés', artist: 'El Greco', year: 'h. 1600', focus: '50% 40%' },
+  { keys: ['mystery:glorious-4'], file: 'Domenikos Theotokópoulos, called El Greco - The Assumption of the Virgin - Google Art Project.jpg', title: 'La Asunción de la Virgen', artist: 'El Greco', year: '1577-1579', focus: '50% 40%' },
+  { keys: ['mystery:glorious-5', 'set:glorious'], file: 'Diego Velázquez - Coronation of the Virgin - Prado.jpg', title: 'La Coronación de la Virgen', artist: 'Diego Velázquez', year: 'h. 1635-1636', focus: '50% 40%' },
+  // --- Novenas y categorías ---
+  { keys: ['novena:inmaculada-concepcion', 'home:default', 'category:virgen-maria'], file: 'Murillo - Inmaculada Concepción de los Venerables o de Soult (Museo del Prado, 1678).jpg', title: 'La Inmaculada Concepción de Soult', artist: 'Bartolomé Esteban Murillo', year: 'h. 1678', focus: '50% 35%' },
+  { keys: ['novena:virgen-del-rosario', 'novena:fatima', 'category:rosarios-coronillas'], file: 'Virgen del Rosario (Murillo).jpg', title: 'La Virgen del Rosario', artist: 'Bartolomé Esteban Murillo', year: 'h. 1650', focus: '50% 40%' },
+  { keys: ['novena:angel-de-la-guarda', 'category:angeles'], file: 'Lienzo del altar del Ángel de la Guarda (Catedral de Sevilla).jpg', title: 'El Ángel de la Guarda', artist: 'Bartolomé Esteban Murillo', year: 'h. 1665', focus: '50% 40%' },
+  { keys: ['novena:cristo-rey', 'category:fundamentales'], file: "El Greco (Domenikos Theotokopoulos) - Christ Blessing ('The Saviour of the World') - Google Art Project.jpg", title: 'Cristo bendiciendo (El Salvador del mundo)', artist: 'El Greco', year: 'h. 1600', focus: '50% 35%' },
+  { keys: ['novena:nino-jesus'], file: 'BuenPastorMurillo1660.jpg', title: 'El Buen Pastor (Niño Jesús)', artist: 'Bartolomé Esteban Murillo', year: 'h. 1660', focus: '50% 40%' },
+  { keys: ['novena:sagrado-corazon', 'category:devociones'], file: 'SacredHeartBatoni.jpg', title: 'El Sagrado Corazón de Jesús', artist: 'Pompeo Batoni', year: '1767', focus: '50% 40%' },
+  { keys: ['novena:san-antonio-de-padua'], file: 'La visión de San Antonio, de Bartolomé Esteban Murillo (Capilla de San Antonio de la catedral de Sevilla).jpg', title: 'La visión de san Antonio de Padua', artist: 'Bartolomé Esteban Murillo', year: '1656', focus: '50% 45%' },
+  { keys: ['novena:san-benito', 'category:liturgia-horas'], file: 'Angelico - Perugia Altarpiece – Saint Benedict and Peter the Martyr.jpg', title: 'San Benito (Retablo de Perusa)', artist: 'Fra Angelico', year: 'h. 1438', focus: '30% 40%' },
+  { keys: ['novena:san-francisco-de-asis', 'category:santos', 'novena:san-martin-de-porres'], file: 'Francisco de Zurbarán - San francisco de Asís en éxtasis.jpg', title: 'San Francisco de Asís en éxtasis', artist: 'Francisco de Zurbarán', year: 'h. 1635-1640', focus: '50% 40%' },
+  { keys: ['novena:san-gabriel-arcangel'], file: 'Angelico, prado.jpg', title: 'La Anunciación (arcángel san Gabriel)', artist: 'Fra Angelico', year: 'h. 1426', focus: '25% 45%' },
+  { keys: ['novena:san-jose'], file: 'Murillo-san jose con el niño.jpg', title: 'San José con el Niño', artist: 'Bartolomé Esteban Murillo', year: 'h. 1670-1675', focus: '50% 40%' },
+  { keys: ['category:familia'], file: 'Sagrada Familia del pajarito (Murillo).jpg', title: 'La Sagrada Familia del pajarito', artist: 'Bartolomé Esteban Murillo', year: 'h. 1650', focus: '50% 50%' },
+  { keys: ['novena:san-juan-diego'], file: 'Miguel Cabrera - Altarpiece of the Virgin of Guadalupe with Saint John the Baptist, Fray Juan de Zumárraga and Juan Diego - Google Art Project.jpg', title: 'Retablo de la Virgen de Guadalupe con san Juan Diego', artist: 'Miguel Cabrera', year: '1751', focus: '50% 40%' },
+  { keys: ['novena:san-judas-tadeo'], file: 'Ribera - San Judas Tadeo, P001092.jpg', title: 'San Judas Tadeo', artist: 'José de Ribera', year: 's. XVII', focus: '50% 35%' },
+  { keys: ['novena:san-miguel-arcangel', 'category:proteccion'], file: 'GuidoReni MichaelDefeatsSatan.jpg', title: 'San Miguel Arcángel derrota a Satanás', artist: 'Guido Reni', year: '1636', focus: '50% 40%' },
+  { keys: ['novena:san-rafael-arcangel'], file: 'Verrocchio workshop - Tobias and the Angel - NG.jpg', title: 'Tobías y el ángel (san Rafael)', artist: 'Taller de Verrocchio', year: 'h. 1470-1475', focus: '50% 40%' },
+  { keys: ['novena:santa-rosa-de-lima'], file: 'Sta Rosa de Lima por Claudio Coello.jpg', title: 'Santa Rosa de Lima', artist: 'Claudio Coello', year: '1683', focus: '50% 40%' },
+  { keys: ['novena:santa-teresita'], file: 'Teresa-de-Lisieux.jpg', title: 'Santa Teresa de Lisieux', artist: 'Fotografía anónima', year: '1895', focus: '50% 30%' },
+  { keys: ['novena:virgen-del-carmen'], file: 'Juan Rodríguez Juárez - The Virgin of the Carmen with Saint Theresa and Saint John of the Cross - Google Art Project.jpg', title: 'La Virgen del Carmen con santa Teresa y san Juan de la Cruz', artist: 'Juan Rodríguez Juárez', year: 'h. 1700', focus: '50% 40%' },
+  { keys: ['novena:virgen-del-pilar'], file: 'Venida de la Virgen del Pilar a Zaragoza (boceto) por Francisco de Goya.jpg', title: 'La venida de la Virgen del Pilar a Zaragoza (boceto)', artist: 'Francisco de Goya', year: 's. XVIII', focus: '50% 40%' },
+  { keys: ['novena:por-los-difuntos', 'category:difuntos'], file: 'Juan de Valdés Leal - In Ictu Oculi - WGA24214.jpg', title: 'In ictu oculi', artist: 'Juan de Valdés Leal', year: '1672', focus: '50% 40%' },
+  { keys: ['novena:lourdes'], file: 'Virgilio Tojetti 1877 Our Lady of Lourdes.jpg', title: 'Nuestra Señora de Lourdes', artist: 'Virgilio Tojetti', year: '1877', focus: '50% 40%' },
+  { keys: ['novena:guadalupe'], file: 'Virgen de Guadalupe mirando de frente.jpg', title: 'Nuestra Señora de Guadalupe (imagen de la tilma)', artist: 'Anónimo', year: 's. XVI', focus: '50% 40%' },
+  { keys: ['novena:perpetuo-socorro'], file: 'Nuestra Señora del Perpetuo Socorro.jpg', title: 'Nuestra Señora del Perpetuo Socorro', artist: 'Icono de tradición bizantino-cretense', focus: '50% 40%' },
+  { keys: ['category:latin'], file: 'Saint Jerome Writing-Caravaggio (1605-6).jpg', title: 'San Jerónimo escribiendo', artist: 'Caravaggio', year: '1605-1606', focus: '50% 40%' },
+  // --- Momentos del día ---
+  { keys: ['moment:morning', 'category:manana'], file: 'Amanecer, 1646–47, Claude Lorrain.jpg', title: 'Amanecer', artist: 'Claudio de Lorena', year: '1646-1647', focus: '50% 50%' },
+  { keys: ['moment:midday'], file: 'Vincent van Gogh - Wheat Field with Cypresses - Google Art Project.jpg', title: 'Campo de trigo con cipreses', artist: 'Vincent van Gogh', year: '1889', focus: '50% 50%' },
+  { keys: ['moment:afternoon', 'category:tarde'], file: 'Jean-François Millet - The Angelus - Google Art Project.jpg', title: 'El Ángelus', artist: 'Jean-François Millet', year: '1857-1859', focus: '50% 50%' },
+  { keys: ['moment:night', 'category:noche'], file: 'Vincent van Gogh - Starry Night - Google Art Project.jpg', title: 'La noche estrellada', artist: 'Vincent van Gogh', year: '1889', focus: '50% 50%' },
+];

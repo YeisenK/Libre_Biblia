@@ -189,4 +189,18 @@ export const WORKS_SPIRITUAL: WorkSpec[] = [
       ['Super flumina Babylonis', 'Super flumina Babylonis'],
     ]) }],
   },
+  {
+    slug: 'imitacion-de-cristo', title: 'Imitación de Cristo', subtitle: 'De imitatione Christi (texto latino original)', genre: 'devotional', language: 'la',
+    author: { name: 'Tomás de Kempis', born: '1380', died: '1471' }, region: 'Europa septentrional', country: 'Países Bajos', period: 'Siglo XIV',
+    collection: C_ESPIRITUAL, authority: 'spiritual_classic', wikiLang: 'la',
+    edition: 'Texto latino transcrito en Wikisource (De imitatione Christi, cuatro libros). La página de Wikisource indica «editio: incognita» y «fons: incognitus»; no se identifica editor ni fecha de edición',
+    mainPage: 'De imitatione Christi',
+    parts: [
+      { kind: 'group', title: 'Liber primus', parts: [{ kind: 'chapters', page: 'De imitatione Christi/I' }] },
+      { kind: 'group', title: 'Liber secundus', parts: [{ kind: 'chapters', page: 'De imitatione Christi/II' }] },
+      { kind: 'group', title: 'Liber tertius', parts: [{ kind: 'chapters', page: 'De imitatione Christi/III' }] },
+      { kind: 'group', title: 'Liber quartus', parts: [{ kind: 'chapters', page: 'De imitatione Christi/IV' }] },
+    ],
+    extraNotes: 'Original latino (no hay traducción española de dominio público con transcripción completa verificable en Wikisource; ver README). La atribución a Tomás de Kempis es tradicional y discutida por la crítica. Se conservan los números de párrafo del texto.',
+  },
 ];

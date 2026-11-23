@@ -1,0 +1,127 @@
+{
+  "id": "nino-jesus",
+  "title": "Novena al Niño Jesús",
+  "group": "christ",
+  "description": "Nueve días para acercarnos al misterio de la Encarnación y contemplar al Hijo de Dios hecho niño.",
+  "image": {
+    "icon": "star",
+    "tint": "#c9a43d"
+  },
+  "introduction": "Que Dios se haya hecho niño es el corazón de la Navidad: «La Palabra se hizo carne y habitó entre nosotros» (Jn 1,14). La contemplación del Niño Jesús es antigua; san Francisco de Asís preparó en Greccio, en 1223, un pesebre vivo para la noche de Navidad, y desde entonces los belenes se han extendido por todo el mundo cristiano.\n\nEsta novena se reza antes de la solemnidad de la **Natividad del Señor (25 de diciembre)** y sigue la devoción al Niño Jesús, expresada en distintas formas: el Niño Jesús de Praga, la infancia espiritual de santa Teresita de Lisieux y, en el mundo hispano, el **Divino Niño**, imagen venerada sobre todo en Colombia, en el barrio 20 de Julio de Bogotá, donde el sacerdote salesiano Juan del Rizzo impulsó la devoción a partir de 1935, aproximadamente. Se trata de una devoción popular, no litúrgica.\n\nEs piedad popular libre y voluntaria. Contempla al Niño para entender el amor de Dios que se hace pequeño, y no sustituye la Misa de Navidad ni los sacramentos.",
+  "purpose": "Preparar el corazón para la Navidad, contemplar el misterio de la Encarnación y pedir la sencillez, la confianza y la ternura de la infancia espiritual.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 12,
+    "day": 25,
+    "label": "Natividad del Señor"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Catecismo de la Iglesia Católica, 456-463 y 525-526"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), 106-123"
+    },
+    {
+      "label": "Santa Teresa del Niño Jesús, Historia de un alma"
+    }
+  ],
+  "saints": [
+    "Francisco de Asís",
+    "Teresa del Niño Jesús"
+  ],
+  "tags": [
+    "navidad",
+    "divino niño",
+    "encarnación"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "La Palabra se hizo carne",
+      "reading": "Jn 1,1-14",
+      "reflection": "El Evangelio de Juan abre con una afirmación sobrecogedora: aquel que existía desde el principio «se hizo carne y habitó entre nosotros». El Dios que no cabe en el universo cabe en los brazos de una madre.\n\nComenzamos la novena con asombro. En la Encarnación Dios no manda un mensaje, sino que llega Él mismo. Hoy nos detenemos ante esa cercanía: Dios eligió ser vulnerable, necesitado de cuidado y de calor. Pedimos la gracia de no acostumbrarnos a este misterio, y de recibirlo cada día con gratitud, como un niño recibe un regalo.",
+      "prayer": "Palabra eterna del Padre, que te hiciste niño por nosotros, te adoro con asombro. Haz que no me acostumbre a tu cercanía y que sepa acogerte con sencillez. Que esta novena prepare mi corazón para recibirte en la Navidad. Amén."
+    },
+    {
+      "day": 2,
+      "title": "El anuncio a María",
+      "reading": "Lc 1,26-38",
+      "reflection": "El Hijo de Dios quiere nacer con el «sí» de una joven. María pregunta, escucha y responde: «Hágase en mí según tu palabra». Todo comienza en el silencio de Nazaret.\n\nContemplamos a la Madre que lleva en su seno al Niño. Su disponibilidad nos enseña cómo preparar la Navidad: no con prisas ni adornos, sino con un espacio interior para acoger. Hoy podemos preguntarnos qué le estamos diciendo a Dios, y qué espacio le dejamos. Pedimos a María que nos enseñe a guardar la Palabra en el corazón y a decir «sí» a lo que se nos pide.",
+      "prayer": "Santa María, Madre del Niño Dios, enséñame tu «sí» sencillo y confiado. Prepara mi corazón como lo hiciste con tu seno, para acoger a Jesús. Ruega por mí, para que la Navidad llegue a mi casa como un verdadero encuentro. Amén."
+    },
+    {
+      "day": 3,
+      "title": "José, el custodio",
+      "reading": "Mt 1,18-25",
+      "reflection": "José se encuentra ante un misterio que no entiende. Es un hombre justo y piensa en actuar con discreción. Pero el ángel le dice: «No temas». Él obedece sin decir una palabra, y recibe al Niño como suyo, poniéndole el nombre de Jesús.\n\nEl silencio de José es una forma de oración. Fue custodio, protector y trabajador, y dio a Jesús un hogar y un oficio. Hoy rezamos por los padres, los tutores y los educadores de niños, y también por quienes cuidan sin ser reconocidos. Pedimos fe para acoger los planes de Dios aunque no los entendamos.",
+      "prayer": "San José, custodio del Hijo de Dios, enséñame a confiar en medio de la incertidumbre. Protege a las familias, a los niños y a quienes los cuidan. Que sepa servir en silencio y ser fiel a lo que Dios me pide. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Camino a Belén",
+      "reading": "Lc 2,1-7",
+      "reflection": "María y José viajan a Belén por una orden del emperador. No hay lugar para ellos en la posada, y el Rey de reyes nace en un pesebre. El Evangelio no adorna: dice que Jesús nace pobre, entre animales, en la periferia del imperio.\n\nHoy pensamos en los que no tienen un lugar: migrantes, desplazados, personas sin hogar, familias que no encuentran puerta abierta. El Niño se identifica con ellos. Preguntémonos qué lugar damos a Jesús en nuestro día, y qué puerta podemos abrir a quien llama. La Navidad nos pide hospitalidad concreta, más allá de las palabras.",
+      "prayer": "Niño Jesús, nacido en la pobreza, te pido por los que no tienen techo ni acogida. Abre mi corazón y mi casa a quien necesita ayuda. Que en esta Navidad haya un lugar para ti en mi vida y en la de quienes me rodean. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Los pastores",
+      "reading": "Lc 2,8-20",
+      "reflection": "Los primeros en saber la noticia son unos pastores, gente humilde que vela de noche. «No teman, les traigo una buena noticia, una gran alegría.» Corren a Belén y encuentran al Niño en el pesebre, y vuelven «glorificando y alabando a Dios».\n\nDios se revela a los pequeños y a los sencillos. Hoy pedimos ese mismo corazón: la prontitud de ir, la capacidad de maravillarnos y el deseo de contar lo visto. La alegría de la Navidad no depende de los regalos, sino de haber encontrado a Dios. Pedimos compartir esta noticia con quienes más la necesitan.",
+      "prayer": "Señor, que revelaste tu nacimiento a los pastores, concédeme su sencillez y su prontitud. Que sepa reconocerte en lo pequeño, y llevar la alegría de la Navidad a mi familia y a quienes viven en tristeza. Gloria a ti, Niño Dios. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Los Magos",
+      "reading": "Mt 2,1-12",
+      "reflection": "Unos sabios de Oriente siguen una estrella hasta encontrar al Niño y, al verlo, «se postraron y lo adoraron». Le ofrecen oro, incienso y mirra. Su viaje es largo, y tienen que preguntar, equivocarse de ciudad y rehacer el camino.\n\nEs la imagen de quien busca a Dios con sinceridad. Hoy pensamos en nuestra propia búsqueda, y en los regalos que podemos ofrecer: nuestro tiempo, nuestras capacidades, nuestro perdón. El mayor es el corazón. Y recordemos que, tras el encuentro, los Magos «volvieron a su tierra por otro camino»: quien encuentra a Cristo no sigue igual.",
+      "prayer": "Jesús, a quien buscaron los Magos, guíame con tu luz. Acepta lo que te ofrezco: mi tiempo, mi trabajo y mi corazón. Concédeme que, tras encontrarte, vuelva a mi vida diaria por un camino nuevo, más cercano a ti y más generoso con los demás. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Si no cambian y se hacen como niños",
+      "reading": "Mt 18,1-4",
+      "reflection": "Los discípulos discuten quién será el mayor. Jesús pone a un niño en medio y dice: «Si no cambian y se hacen como niños, no entrarán en el reino de los cielos». La infancia espiritual, que santa Teresita de Lisieux vivió y enseñó, no es infantilismo, sino confianza total en el Padre.\n\nHoy meditamos sobre el orgullo y la autosuficiencia, y sobre la libertad de quien se sabe amado. Un niño no teme pedir ni depender. Pedimos la gracia de rezar con sencillez, de reconocer nuestra necesidad y de abandonarnos en Dios sin tantas cuentas ni defensas.",
+      "prayer": "Jesús, que te hiciste pequeño, enséñame la confianza de los niños. Quita de mí el orgullo y la desconfianza. Que sepa pedir con sencillez, dar con alegría y confiar siempre en que el Padre cuida de mí, incluso cuando no entiendo su camino. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Dejen que los niños vengan a mí",
+      "reading": "Mc 10,13-16",
+      "reflection": "Los discípulos quieren alejar a los niños, pero Jesús se indigna: «Dejen que los niños vengan a mí… Y tomándolos en brazos, los bendecía». Para Él, los niños no son un estorbo, sino modelo.\n\nHoy rezamos por todos los niños: los que son queridos y los que no lo son, los enfermos, los que viven en guerra, los que no han nacido y los que sufren abusos o abandono. Cuidar su vida, su fe y su dignidad es una tarea de todos. Pedimos que la Navidad despierte en nosotros ternura y compromiso concretos por la infancia.",
+      "prayer": "Señor Jesús, amigo de los niños, bendice y protege a todos los pequeños del mundo. Cuida a los que sufren, a los enfermos y a los abandonados. Haz que sepamos acogerlos, educarlos y defenderlos con amor, y que nunca olvidemos que en cada niño te recibimos a ti. Amén."
+    },
+    {
+      "day": 9,
+      "title": "El Niño nos da la paz",
+      "reading": "Is 9,1-6",
+      "reflection": "«Un niño nos ha nacido, un hijo se nos ha dado… Príncipe de la paz.» Isaías anuncia que la esperanza del pueblo vendrá en forma de niño. Pasados los siglos, los ángeles de Belén cantan: «paz en la tierra a los hombres que Dios ama».\n\nLa paz de Cristo comienza en lo pequeño: en una familia reconciliada, en una palabra amable, en la disposición a perdonar. Concluimos la novena pidiendo esa paz para nuestros hogares y para un mundo herido por la violencia. Y damos gracias por el don de Jesús, que se entrega por nosotros desde el pesebre hasta la cruz.",
+      "prayer": "Niño Dios, Príncipe de la paz, gracias por este tiempo de preparación. Concede la paz a mi corazón, a mi familia y a los pueblos en guerra. Haz que viva esta Navidad con alegría verdadera, y que te lleve conmigo todos los días. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

@@ -1,11 +1,11 @@
 import Dexie, { type Table } from 'dexie';
-import type { Authority, CatalogEntry, DailyEntry, PackSource } from '@bc/shared';
+import type { Authority, CatalogEntry, DailyEntry, MysterySet, PackSource, PrayerMoment, PrayersPack } from '@bc/shared';
 import type { UserSettings } from './settings';
 import type { ChapterIndex } from './chapters';
 
 export interface InstalledPack {
   id: string;
-  kind: 'bible' | 'document' | 'daily';
+  kind: 'bible' | 'document' | 'daily' | 'prayers' | 'audio';
   version: string;
   title: string;
   description?: string;
@@ -136,6 +136,90 @@ export interface DailyHistoryRow {
   packId: string | null;
   seenAt: string;
 }
+/** Paquete de oraciones instalado: se guarda entero (es pequeño) y se carga en memoria. */
+export interface PrayerPackRow {
+  id: string;
+  pack: PrayersPack;
+}
+/** Clip de audio de oración (de un paquete `audio`). */
+export interface AudioClipRow {
+  packId: string;
+  key: string;
+  voice: string;
+  mime: string;
+  seconds: number;
+  blob: Blob;
+}
+export interface AudioPackRow {
+  packId: string;
+  forPack: string;
+  voice: { id: string; label: string; description?: string };
+  title: string;
+  clips: number;
+  source: PackSource;
+}
+
+// ── Vida de oración (datos personales, incluidos en la copia de seguridad) ──
+
+/** Elemento de rutina: "prayer:<id>", "novena:<id>", "rosary", "gospel", "verse" */
+export type RoutineItemKey = string;
+export interface RoutineRow {
+  id: string;
+  title: string;
+  moment: PrayerMoment;
+  items: RoutineItemKey[];
+  /** Recordatorio local */
+  reminder: { enabled: boolean; time: string; days: number[] } | null;
+  order: number;
+  createdAt: string;
+  updatedAt: string;
+}
+/** Elemento marcado como hecho un día concreto. Clave: `${date}|${routineId}|${item}` */
+export interface RoutineLogRow {
+  key: string;
+  date: string; // YYYY-MM-DD local
+  routineId: string;
+  item: RoutineItemKey;
+  doneAt: string;
+}
+export interface PrayerFavoriteRow {
+  /** "prayer:<id>" | "novena:<id>" | "mystery:<set>-<n>" */
+  key: string;
+  title: string;
+  savedAt: string;
+}
+/** Progreso de una novena (una fila por novena; al reiniciarla se sobrescribe). */
+export interface NovenaProgressRow {
+  novenaId: string;
+  startedAt: string; // ISO
+  /** Días completados: número de día → fecha local YYYY-MM-DD */
+  done: Record<number, string>;
+  intention?: string;
+  completedAt: string | null;
+  updatedAt: string;
+}
+/** Rosario en curso o terminado. */
+export interface RosarySessionRow {
+  id: string;
+  set: MysterySet;
+  mode: 'digital' | 'physical';
+  /** Índice del paso actual en el recorrido generado */
+  step: number;
+  /** Firma de las opciones con que se generó el recorrido (para no desalinear al reanudar) */
+  optionsKey: string;
+  startedAt: string;
+  updatedAt: string;
+  completedAt: string | null;
+  intention?: string;
+}
+/** Oración leída o rezada (para «recientes» y estadísticas). */
+export interface PrayerHistoryRow {
+  id?: number;
+  key: string; // "prayer:<id>", "novena:<id>:<day>", "rosary:<set>"
+  title: string;
+  at: string;
+}
+
 export interface RepositoryRow {
   url: string;
   name?: string;
@@ -159,6 +243,15 @@ export class AppDb extends Dexie {
   dailyMeta!: Table<DailyMetaRow, string>;
   dailyFavorites!: Table<DailyFavoriteRow, string>;
   dailyHistory!: Table<DailyHistoryRow, string>;
+  prayerPacks!: Table<PrayerPackRow, string>;
+  audioPacks!: Table<AudioPackRow, string>;
+  audioClips!: Table<AudioClipRow>;
+  routines!: Table<RoutineRow, string>;
+  routineLog!: Table<RoutineLogRow, string>;
+  prayerFavorites!: Table<PrayerFavoriteRow, string>;
+  novenaProgress!: Table<NovenaProgressRow, string>;
+  rosarySessions!: Table<RosarySessionRow, string>;
+  prayerHistory!: Table<PrayerHistoryRow, number>;
 
   constructor(name = 'bc-local') {
     super(name);
@@ -180,6 +273,17 @@ export class AppDb extends Dexie {
       dailyMeta: 'packId',
       dailyFavorites: 'date, savedAt',
       dailyHistory: 'date, seenAt',
+    });
+    this.version(3).stores({
+      prayerPacks: 'id',
+      audioPacks: 'packId, forPack',
+      audioClips: '[packId+key], packId, key',
+      routines: 'id, order, moment',
+      routineLog: 'key, date, routineId',
+      prayerFavorites: 'key, savedAt',
+      novenaProgress: 'novenaId, updatedAt',
+      rosarySessions: 'id, updatedAt, completedAt',
+      prayerHistory: '++id, at, key',
     });
   }
 }

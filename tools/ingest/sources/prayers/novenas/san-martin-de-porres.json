@@ -1,0 +1,134 @@
+{
+  "id": "san-martin-de-porres",
+  "title": "Novena a san Martín de Porres",
+  "group": "saints",
+  "description": "Nueve días con el humilde fraile dominico de Lima, hermano de los enfermos y de los pobres, ejemplo de caridad sin distinción.",
+  "image": {
+    "icon": "hands",
+    "tint": "#6b5a4a"
+  },
+  "introduction": "Martín de Porres nació en Lima el 9 de diciembre de 1579, hijo de un caballero español, Juan de Porres, y de Ana Velázquez, una mujer panameña libre de ascendencia africana. Por su origen sufrió desprecio, pero aprendió el oficio de barbero y cirujano-sangrador. A los quince años entró en el convento dominico del Rosario, en Lima, como «donado», y más tarde profesó como hermano lego. Allí atendió enfermos, alimentó a los pobres y cuidó de los niños abandonados, y fundó un colegio para huérfanos. Murió el 3 de noviembre de 1639.\n\nFue beatificado por Gregorio XVI en 1837 y canonizado por Juan XXIII el 6 de mayo de 1962; se le considera el primer santo mulato de América. Se le invoca como patrono de la justicia social, de la convivencia entre razas y de quienes trabajan en la sanidad. La tradición le atribuye hechos prodigiosos y una gran ternura hacia los animales, que pertenecen a la tradición piadosa. Su fiesta se celebra el 3 de noviembre.",
+  "purpose": "Pedir a Dios, por intercesión de san Martín, humildad, caridad con los enfermos y pobres, y respeto por la dignidad de toda persona sin distinción de origen.\n\nEs una devoción popular y voluntaria. Se reza con la confianza de que Dios escucha, sin prometer curaciones ni favores concretos, y sin sustituir la atención médica, la liturgia ni los sacramentos.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 11,
+    "day": 3,
+    "label": "Memoria de san Martín de Porres, religioso"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor Jesús, que diste a san Martín de Porres un corazón humilde y misericordioso, haz que sepamos reconocer tu rostro en los enfermos y pobres, y servirlos con alegría. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Hijo de dos mundos",
+      "reading": "Ga 3,26-28",
+      "reflection": "Martín nació en una sociedad colonial marcada por jerarquías de origen y color. Su padre tardó años en reconocerlo; él padeció desprecio por su condición. Sin embargo, no respondió con amargura. San Pablo afirma que en Cristo «ya no hay judío ni griego, esclavo ni libre». Todos somos hijos de Dios. Pensemos en nuestras actitudes ante quienes son distintos o vienen de otro lugar, y pidamos la gracia de ver en cada uno a un hermano. Que esta novena nos ayude a vencer los prejuicios y a construir una convivencia más justa.",
+      "prayer": "San Martín, que sufriste desprecio sin perder la dulzura, ayúdame a vencer mis prejuicios y a ver a todos como hermanos en Cristo. Quita de mi corazón el desprecio y la indiferencia, y haz que mi trato hacia todos sea digno y amable. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Aprendiz de barbero y sanador",
+      "reading": "Mt 10,5-8",
+      "reflection": "De joven, Martín aprendió con un barbero-cirujano las artes de curar. Puso ese saber al servicio de los pobres de Lima, sin pedir nada a cambio. Jesús envía a sus discípulos a curar a los enfermos: «Gratis habéis recibido, dad gratis». Hoy damos gracias por quienes ejercen la medicina y los cuidados con vocación. Pensemos en nuestros propios dones, grandes o pequeños, y en cómo pueden servir a los demás. Pidamos por los profesionales de la salud, para que su trabajo se viva como servicio, y por los enfermos que no pueden acceder a atención.",
+      "prayer": "San Martín, patrono de quienes sanan, bendice a médicos, enfermeras y cuidadores. Que pongan sus dones al servicio de los enfermos, especialmente de los pobres. Y por los que no pueden pagar un tratamiento: que no les falte quien los atienda con respeto. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Entrar como donado",
+      "reading": "Lc 14,7-11",
+      "reflection": "Por su origen, Martín no pudo profesar de inmediato como hermano; ingresó en el convento como «donado», realizando tareas humildes: barrer, cuidar la enfermería, atender la ropería. Aceptó ese lugar sin quejarse. Más tarde, tras años de vida ejemplar, fue admitido a la profesión religiosa como hermano lego. Jesús enseña a ocupar el último puesto. La humildad de Martín no fue resignación, sino libertad interior. Preguntémonos si aceptamos con paz los lugares y oficios discretos, y si servimos sin buscar reconocimiento. Pensemos en los oficios que a veces despreciamos, en casa o en el trabajo, y ofrezcámoslos hoy con paz como un servicio a Cristo.",
+      "prayer": "Señor, enséñame, por intercesión de san Martín, a aceptar con paz los trabajos humildes y a servir sin buscar reconocimiento. Que no me ofenda ocupar el último lugar y que, a tu lado, descubra que servir es una forma de estar cerca de ti. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Servir a los enfermos",
+      "reading": "Mt 25,31-40",
+      "reflection": "En la enfermería del convento, Martín atendía a todos sin distinción: españoles, indígenas, negros, ricos y pobres. Cuenta la tradición que se ocupaba incluso de los que otros rechazaban. Jesús declara: «Estuve enfermo y me visitasteis». Visitar, escuchar, acompañar y cuidar son formas de amar. Hoy pensemos en alguien enfermo o solo a quien podemos acompañar: una llamada, una visita, una oración. El servicio a los enfermos nos purifica del egoísmo y nos acerca a Cristo, que sufre en cada persona que sufre. Hoy, una llamada o una visita breve a un enfermo o a una persona mayor puede ser nuestra mejor oración.",
+      "prayer": "San Martín, que serviste a los enfermos con ternura, enséñame a visitar, escuchar y cuidar. Que vea a Cristo en quien sufre. Dame tiempo y paciencia para quien está enfermo o solo, y que mi visita le lleve algo de tu consuelo. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Alimentar a los pobres",
+      "reading": "Is 58,6-10",
+      "reflection": "Martín repartía comida a los pobres de Lima y, según la tradición recogida en su proceso, socorría cada día a muchos necesitados, pidiendo limosna entre los ricos para ellos. Fundó también un colegio para huérfanos. Isaías dice: «Parte tu pan con el hambriento… entonces brillará tu luz como la aurora». La caridad que se hace con perseverancia, sin presumir, es luz. Revisemos hoy nuestras costumbres: ¿compartimos lo que tenemos? Una ayuda regular a una persona o a una institución benéfica puede ser un modo concreto de imitar a san Martín. Más que una gran cifra, cuenta la constancia: una pequeña ayuda sostenida vale más que un gesto aislado.",
+      "prayer": "San Martín, amigo de los pobres, haz que sea generoso y constante en compartir. Que mi luz brille en las obras de misericordia. Que no me falte generosidad cuando el pobre llame a mi puerta, y que mi ayuda sea sencilla y sin alarde. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Ternura con todas las criaturas",
+      "reading": "Gn 1,26-31; Sal 104,10-24",
+      "reflection": "La tradición cuenta que Martín cuidaba de los animales, incluso de los ratones y perros del convento. Aunque estos relatos son piadosos, reflejan una sensibilidad: la creación es don de Dios y merece respeto. El papa Francisco nos invita en *Laudato si’* a cuidar la casa común. Hoy demos gracias por la naturaleza y por los animales que nos acompañan. Pensemos en gestos concretos de cuidado: no malgastar, respetar el entorno, tratar con bondad a los seres vivos. Quien aprende a amar lo pequeño aprende a amar a las personas.",
+      "prayer": "Señor, creador de todo, por intercesión de san Martín, enséñame a respetar y cuidar tu creación y a tratar a todos los seres con bondad. Y que el cuidado de la naturaleza forme parte de mi modo de agradecerte lo que has creado. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Devoción y penitencia",
+      "reading": "Mc 1,35; Mt 6,16-18",
+      "reflection": "Martín pasaba largas horas en oración, en especial ante el Santísimo y el crucifijo, y practicaba la penitencia con discreción. Fray Martín tenía devoción al Rosario, propio de su orden. Su acción nacía de su oración. Si servimos sin orar, nos agotamos; si oramos sin servir, nos encerramos. Busquemos hoy un momento de silencio ante el Señor, aunque sea breve, para que nuestro obrar surja del encuentro con Él. Que la oración nos haga sensibles a quienes nos rodean y nos dé fuerza para amar con perseverancia. No hace falta mucho tiempo: unos minutos de silencio antes de empezar el día pueden ordenar lo que haremos después.",
+      "prayer": "Señor, haz que mi servicio nazca de la oración. San Martín, enséñame a unir contemplación y caridad. Que el trato diario contigo, aunque sea breve, dé forma a mis decisiones y alimente mi caridad con quien me necesita, aun cuando esté cansado. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Constructor de paz",
+      "reading": "Mt 5,9; Ef 2,14-18",
+      "reflection": "Martín fue consejero de muchos y reconciliaba a quienes estaban enfrentados. Aunque nació en un contexto de desigualdad, vivió la fraternidad con naturalidad. Es invocado como patrono de la justicia social y de la armonía entre razas. Jesús llama bienaventurados a los que trabajan por la paz. Pensemos en conflictos que nos rodean: en la familia, en el trabajo, en la comunidad. ¿Qué pequeño gesto de reconciliación podemos dar? Pidamos por la paz entre los pueblos y por la superación de toda forma de discriminación. Empecemos por lo cercano: una conversación pendiente, una injusticia pequeña que podemos reparar, una palabra que reconcilia.",
+      "prayer": "San Martín, hermano universal, ayúdame a ser constructor de paz. Que trabaje por la justicia y la reconciliación donde vivo. Que no me quede en palabras: dame la valentía de dar el primer paso hacia quien está distanciado de mí. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Una vida entregada",
+      "reading": "Jn 12,24-26; Ap 14,13",
+      "reflection": "Martín murió en Lima el 3 de noviembre de 1639, rodeado de sus hermanos y de gran parte del pueblo, que lo veneraba como santo. Su fama de caridad trascendió los muros del convento. Fue canonizado por Juan XXIII el 6 de mayo de 1962. Concluimos esta novena dando gracias por su ejemplo y por todos los santos sencillos que hacen visible el amor de Dios. Su fiesta cae junto a la conmemoración de los difuntos: recordemos hoy a nuestros muertos y pidamos la gracia de entregar nuestra vida en el servicio, sin esperar grandes obras, sino fidelidad en lo cotidiano.",
+      "prayer": "Padre, gracias por san Martín de Porres. Que su ejemplo nos enseñe a servir con humildad y alegría, y a esperar el encuentro contigo. Por todos los que, sin ser conocidos, entregaron su vida al servicio de los demás, y por nuestros difuntos. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a san Martín de Porres",
+      "text": "San Martín de Porres, hermano de los pobres y de los enfermos, enséñanos la humildad del servicio y el respeto por cada persona. Pide por quienes sufren discriminación, por los enfermos, por los que cuidan de ellos y por la paz entre los pueblos. Que, como tú, hagamos del amor de Cristo el centro de nuestras vidas. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Juan XXIII, canonización de Martín de Porres (6-V-1962)"
+    },
+    {
+      "label": "Proceso de beatificación y crónicas dominicas limeñas; Orden de Predicadores (dominicos)"
+    },
+    {
+      "label": "Francisco, Laudato si’ (2015)"
+    }
+  ],
+  "saints": [
+    "san-martin-de-porres"
+  ],
+  "tags": [
+    "novena",
+    "Lima",
+    "3 de noviembre"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "san-judas-tadeo",
+  "title": "Novena a san Judas Tadeo",
+  "group": "saints",
+  "description": "Nueve días con el apóstol Judas Tadeo, fiel amigo de Jesús, para pedir fortaleza y esperanza en las dificultades.",
+  "image": {
+    "icon": "candle",
+    "tint": "#4d6b4a"
+  },
+  "introduction": "Judas, llamado Tadeo, es uno de los Doce apóstoles (Lc 6,16; Hch 1,13; Mt 10,3). No debe confundirse con Judas Iscariote, el traidor. En la Última Cena preguntó a Jesús: «Señor, ¿qué ha pasado para que a nosotros te vayas a manifestar y no al mundo?» (Jn 14,22). La tradición lo identifica con el autor de la Carta de Judas, que se presenta como «siervo de Jesucristo y hermano de Santiago» y exhorta a «luchar por la fe transmitida a los santos» (Jds 1,3).\n\nSegún tradiciones antiguas, predicó en Mesopotamia y Persia y murió mártir, quizá junto con Simón el Cananeo; la Iglesia los celebra juntos el 28 de octubre. Según la tradición, sus reliquias, junto con las de Simón, se veneran en la basílica de San Pedro, en Roma.\n\nLa devoción popular lo invoca en las situaciones difíciles y desesperadas, quizá porque su nombre se confundía con el del traidor y se le invocaba poco. Esta fama es tradición popular: la Iglesia no asegura resultados concretos. Más bien nos invita a pedir con confianza y a aceptar la voluntad de Dios. Esta novena medita su vida y su carta.",
+  "purpose": "Pedir al Señor, por intercesión del apóstol san Judas Tadeo, fortaleza, esperanza y perseverancia en la fe, especialmente en momentos de prueba.\n\nEs una práctica de piedad popular, libre y voluntaria. Aunque se invoque al santo en causas difíciles, la Iglesia no promete resultados concretos: se trata de pedir con confianza y aceptar la voluntad de Dios, sin sustituir la Misa ni la confesión.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 10,
+    "day": 28,
+    "label": "Fiesta de los santos Simón y Judas, apóstoles"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor Jesús, que llamaste a Judas Tadeo a ser apóstol tuyo, escucha nuestra oración. Danos su perseverancia en la fe y la esperanza que no defrauda. Que se cumpla en nosotros tu voluntad. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Llamado entre los Doce",
+      "reading": "Lc 6,12-16",
+      "reflection": "Antes de elegir a los Doce, Jesús pasó la noche orando. Entre ellos está Judas, hijo de Santiago, llamado Tadeo. Su vocación no fue por méritos, sino por llamada gratuita. Del apóstol sabemos poco, y eso nos enseña que la santidad no depende de la fama. Dios llama a personas sencillas y las envía. Hoy agradecemos nuestro bautismo, que también es una llamada, y pedimos escuchar la voz del Señor en lo cotidiano. No hace falta ser extraordinarios; basta ser fieles a lo que Él nos confía, día tras día.",
+      "prayer": "Señor, que llamaste a Judas Tadeo por su nombre, ayúdame a escuchar tu llamada en mi vida diaria. Hazme fiel en lo pequeño y agradecido por tu elección. Sé que me conoces por mi nombre; haz que responda con sencillez y que no me compare con otros, y que dé gracias por mi bautismo. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Amigo del Señor",
+      "reading": "Jn 15,12-17",
+      "reflection": "Jesús dice a sus discípulos: «Ya no os llamo siervos, os llamo amigos». San Judas conoció esa amistad de cerca: comió con Jesús, lo escuchó y compartió su camino. La oración cristiana es, ante todo, trato de amistad con Dios. Quien ora aprende a hablar con Jesús como con alguien que escucha. Esta novena es una ocasión para cultivar esa cercanía. No necesitamos fórmulas complicadas; basta presentar al Señor lo que llevamos en el corazón y escuchar en silencio, sabiendo que Él nos ha elegido primero. Un buen propósito para hoy es reservar un rato breve de conversación con Jesús, sin prisa y sin guion, como se habla con un amigo.",
+      "prayer": "Jesús, amigo fiel, gracias por llamarme amigo. Enséñame a estar contigo en la oración, a hablarte con sencillez y a escucharte con atención. Que la amistad contigo sea mi descanso en la prueba y mi alegría en lo cotidiano, y que no deje de buscarte aunque me sienta distraído. Amén."
+    },
+    {
+      "day": 3,
+      "title": "La pregunta de Judas",
+      "reading": "Jn 14,15-24",
+      "reflection": "En la Última Cena, Judas pregunta cómo se manifestará Jesús a los discípulos y no al mundo. Jesús responde: «El que me ama guardará mi palabra, y mi Padre lo amará, y vendremos a él y haremos morada en él». San Judas nos enseña a preguntar con sinceridad. Dios no se ofende por nuestras dudas honestas. La respuesta del Señor es hermosa: Dios quiere habitar en quien lo ama y vive su palabra. Pidamos hoy no tanto señales, sino un corazón abierto a la presencia de Dios en la Escritura, la Eucaristía y el prójimo.",
+      "prayer": "San Judas, que preguntaste al Señor con sinceridad, ayúdame a llevar mis dudas a Jesús con confianza. Que su palabra habite en mí y guíe mis pasos. Dame la humildad de preguntar y la paciencia de esperar, y haz que mis dudas me acerquen a ti y no me alejen. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Servidor, no protagonista",
+      "reading": "Jds 1,1-2",
+      "reflection": "La carta se abre con humildad: «Judas, siervo de Jesucristo y hermano de Santiago». No se llama apóstol ni destaca su parentesco con el Señor; se presenta como siervo. Servir es la forma más alta de seguir a Cristo, que vino «a servir y no a ser servido». En un mundo que busca reconocimiento, san Judas nos propone otra medida: ser útiles al Evangelio sin hacer ruido. Pensemos en quién necesita nuestra ayuda concreta hoy, y hagámoslo sin esperar nada a cambio, como un modo de dar gracias a Dios.",
+      "prayer": "San Judas, siervo de Cristo, enséñame la humildad del servicio. Que busque ayudar sin buscar aplausos y reconozca a Jesús en quien me necesita. Líbrame del afán de figurar y enséñame a alegrarme con el bien que hacen otros, sin envidia ni comparaciones. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Luchar por la fe",
+      "reading": "Jds 1,3-4.17-19",
+      "reflection": "Judas exhorta a «luchar por la fe transmitida a los santos de una vez para siempre». No es una lucha violenta, sino la fidelidad a lo recibido: conocerlo, vivirlo, transmitirlo. En tiempos de confusión, la fe necesita cuidado: la oración, los sacramentos, el estudio y la comunidad. También necesita testigos coherentes. Pidamos la gracia de conocer mejor nuestra fe y de compartirla con respeto y caridad. Que no nos dejemos llevar por la indiferencia ni por el desánimo, sino que nos mantengamos firmes, apoyados unos en otros. Tal vez convenga hoy abrir el Catecismo o un libro de formación y leer unas páginas: conocer la fe es una forma de amarla.",
+      "prayer": "San Judas, que animaste a mantener la fe recibida, fortalece la mía. Ayúdame a conocerla, vivirla y transmitirla con respeto y alegría. Que no me avergüence de lo que creo ni lo imponga con dureza; dame firmeza en la verdad y delicadeza con las personas. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Edificar sobre la fe santísima",
+      "reading": "Jds 1,20-21",
+      "reflection": "«Vosotros, queridos, edificándoos sobre vuestra fe santísima, orando en el Espíritu Santo, manteneos en el amor de Dios, aguardando la misericordia de nuestro Señor Jesucristo para vida eterna». En un solo versículo aparecen la fe, la oración, el amor y la esperanza. La vida cristiana se construye día a día, como una casa. Cada oración, cada acto de caridad, cada perdón es una piedra. Revisemos hoy en qué punto está nuestra construcción y qué necesita ser reforzado: la constancia en la oración, el amor al prójimo o la confianza en Dios.",
+      "prayer": "Espíritu Santo, por intercesión de san Judas, ayúdame a edificar mi vida sobre la fe, a orar con constancia y a permanecer en el amor de Dios. Sostén mi constancia cuando me falten ganas, y recuérdame que la casa se levanta piedra a piedra, con tu gracia. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Misericordia con los que dudan",
+      "reading": "Jds 1,22-23",
+      "reflection": "Judas pide: «Tened misericordia con los que dudan; a unos salvadlos arrebatándolos del fuego; de otros tened compasión con cautela». La fe se comparte con cuidado y delicadeza. Todos pasamos por momentos de duda; quien duda no es enemigo, sino hermano que necesita compañía. Esta es una invitación a la paciencia y a la ternura con quienes se han alejado de la Iglesia o atraviesan una crisis. Un testimonio sereno vale más que una discusión. Pidamos por las personas que conocemos que viven lejos de Dios, y que nuestro trato les muestre su misericordia.",
+      "prayer": "San Judas, enséñame a acompañar con misericordia a quienes dudan o se han alejado. Que mi palabra sea suave y mi ejemplo, sincero. Por ellos te pido hoy: que encuentren personas pacientes y que, a su tiempo, sientan tu llamada a volver. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Esperanza en la prueba",
+      "reading": "Rm 5,1-5",
+      "reflection": "San Pablo dice que la tribulación produce paciencia, la paciencia virtud probada, y esta, esperanza, «y la esperanza no defrauda». La devoción popular acude a san Judas en los momentos difíciles; podemos hacerlo con confianza, recordando que la esperanza cristiana no es garantía de que todo salga como deseamos, sino certeza de que Dios no nos abandona. Presentemos hoy con sinceridad aquello que nos pesa, y pidamos paz para aceptar y fuerza para afrontar. La oración no cambia a Dios, pero nos cambia a nosotros y nos abre a su gracia.",
+      "prayer": "Señor, por intercesión de san Judas, te presento lo que me preocupa. Dame esperanza, paciencia y paz, y la gracia de aceptar tu voluntad. Que ni la prisa ni el desánimo me hagan olvidar que tú no abandonas a quien confía en ti, aunque tarde en ver la respuesta. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Alabanza final",
+      "reading": "Jds 1,24-25",
+      "reflection": "La carta termina con una alabanza: «Al que puede guardaros sin caída y presentaros ante su gloria sin mancha y rebosantes de alegría, al Dios único, nuestro Salvador, gloria, majestad, poder y autoridad, por Jesucristo nuestro Señor». Concluimos la novena dando gracias, no solo por lo pedido, sino por Dios mismo. San Judas, apóstol y, según la tradición, mártir, nos enseña que todo termina en la alabanza. Agradezcamos a Dios estos días de oración, los santos que nos acompañan y la vida eterna que nos espera. Que lo vivido nos ayude a perseverar con alegría.",
+      "prayer": "Dios nuestro, gracias por estos días de oración y por el testimonio del apóstol san Judas Tadeo. Guárdanos en tu amor y condúcenos a tu gloria. Que cuanto hemos pedido, y también lo que no sabíamos pedir, quede en tus manos. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a san Judas Tadeo",
+      "text": "Glorioso apóstol san Judas Tadeo, siervo fiel y amigo de Jesús, presento ante ti mis necesidades y las de quienes amo. Intercede por nosotros ante el Señor, para que, en medio de las dificultades, no perdamos la esperanza y sepamos aceptar con fe su voluntad. Ayúdanos a vivir como discípulos de Cristo y a permanecer en su amor. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Lc 6,16; Jn 14,22; Hch 1,13; Carta de Judas"
+    },
+    {
+      "label": "Martirologio Romano, 28 de octubre: santos Simón y Judas, apóstoles"
+    }
+  ],
+  "saints": [
+    "san-judas-tadeo"
+  ],
+  "tags": [
+    "novena",
+    "apóstol",
+    "28 de octubre"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "san-juan-diego",
+  "title": "Novena a san Juan Diego Cuauhtlatoatzin",
+  "group": "saints",
+  "description": "Nueve días con el mensajero de la Virgen de Guadalupe, primer santo indígena de América, modelo de humildad y fidelidad.",
+  "image": {
+    "icon": "star",
+    "tint": "#4a6b6a"
+  },
+  "introduction": "Cuauhtlatoatzin («el águila que habla») nació en 1474 en Cuautitlán, en el valle de México, y fue bautizado, hacia 1524, con el nombre de Juan Diego. Según el *Nican Mopohua*, relato en náhuatl de las apariciones (publicado en 1649 y atribuido tradicionalmente a Antonio Valeriano; su datación y autoría se discuten), el 9 de diciembre de 1531 la Virgen María se le apareció en el cerro del Tepeyac y le pidió que transmitiera al obispo fray Juan de Zumárraga el deseo de que se le construyera allí una casa. La tradición narra los encuentros de los días siguientes, y la imagen de la tilma. La historicidad de los detalles ha sido objeto de estudio y debate entre historiadores; la Iglesia valora el profundo significado espiritual del acontecimiento y su arraigo en la fe de los pueblos de América.\n\nJuan Diego vivió después de forma retirada, cerca de la ermita, atendiendo el culto, y murió hacia 1548. Juan Pablo II lo beatificó el 6 de mayo de 1990 y lo canonizó el 31 de julio de 2002, en la Basílica de Guadalupe, siendo el primer santo indígena de América. Su fiesta litúrgica se celebra el 9 de diciembre. Esta novena medita su vida con sencillez.",
+  "purpose": "Pedir, por intercesión de san Juan Diego, humildad, fidelidad a la misión recibida, respeto por los pueblos originarios y amor filial a la Virgen María.\n\nEs una práctica de piedad popular, libre y voluntaria, que no añade obligaciones ni asegura resultados, y que acompaña, sin sustituirlas, la liturgia y los sacramentos.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 12,
+    "day": 9,
+    "label": "Memoria de san Juan Diego Cuauhtlatoatzin"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios nuestro, que en tu bondad elegiste a san Juan Diego, humilde y fiel, para ser mensajero de la Madre de tu Hijo, concédenos acoger su mensaje con sencillez y vivirlo con amor. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un hombre sencillo",
+      "reading": "1 Co 1,26-29",
+      "reflection": "Juan Diego era un macehual, un indígena de condición sencilla. Dios lo escogió para ser mensajero. San Pablo recuerda a los corintios que «Dios ha escogido lo necio del mundo para confundir a los sabios». Su elección nos recuerda que los criterios de Dios son distintos a los del mundo. Pensemos en las personas sencillas que nos rodean y en lo que podemos aprender de ellas. Pidamos la gracia de valorar a los pequeños y de dejar que Dios hable, también, a través de quienes menos cuentan en nuestra sociedad.",
+      "prayer": "Señor, que eliges a los humildes, enséñame a valorar a las personas sencillas y a reconocer tu voz en ellas. San Juan Diego, ruega por nosotros. Que mis ojos se abran a la sabiduría de los humildes y que no desprecie a nadie por su condición. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Escuchar a la Madre",
+      "reading": "Lc 1,26-38",
+      "reflection": "Según la tradición, la Virgen se dirigió a Juan Diego con ternura, llamándolo «el más pequeño de mis hijos». Él escuchó con respeto. María es modelo de escucha: «Hágase en mí según tu palabra». Una oración mariana auténtica nos lleva a escuchar a Dios. Dediquemos hoy unos minutos a un diálogo sencillo con la Virgen, como se habla a una madre. Presentémosle nuestras preocupaciones y pidámosle que nos conduzca a Jesús. Aprendamos de Juan Diego a acoger lo que Dios quiere decirnos, sin prejuicios y con confianza. Hoy podemos rezar un Ave María despacio, escuchando cada palabra, y dejar que ella nos conduzca a su Hijo.",
+      "prayer": "Virgen María, madre de Jesús y madre nuestra, ayúdame a escuchar la voz de Dios. San Juan Diego, enséñame a acoger su mensaje con sencillez. Que su ternura me lleve a tu Hijo y me enseñe a rezar con confianza de hijo. Amén."
+    },
+    {
+      "day": 3,
+      "title": "La misión encomendada",
+      "reading": "Ex 3,10-12; Jr 1,4-10",
+      "reflection": "La tradición cuenta que Juan Diego sintió el peso de la misión: ¿quién era él para presentarse ante el obispo? Moisés y Jeremías también se sintieron incapaces. Dios responde: «Yo estaré contigo». Cuando una tarea nos supera, es normal tener miedo. La confianza no consiste en sentirse capaz, sino en saber que no vamos solos. Pensemos en alguna responsabilidad que nos asusta: un compromiso en la parroquia, una conversación difícil, una decisión. Pidamos el valor de aceptar y el apoyo de Dios y de los hermanos. Si hoy nos asusta una responsabilidad, nombrémosla ante Dios y pidamos ayuda concreta a alguien de confianza.",
+      "prayer": "Señor, cuando me sienta incapaz, recuérdame que estás conmigo. San Juan Diego, ayúdame a cumplir con fidelidad lo que se me confía. Que no huya de lo que me pides por sentirme pequeño, y que cuente con tu ayuda y con la de mis hermanos. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Perseverar ante el rechazo",
+      "reading": "Lc 11,5-10",
+      "reflection": "El relato tradicional narra que Juan Diego no fue escuchado a la primera: tuvo que volver, esperar y repetir su mensaje. Jesús enseña, con la parábola del amigo inoportuno, la importancia de la insistencia. En la vida cristiana habrá incomprensiones y demoras. Perseverar no es obstinación, sino fidelidad paciente. Pensemos en proyectos o relaciones que requieren paciencia, y no desistamos por el primer obstáculo. La perseverancia tiene como base la fe en que Dios obra a su tiempo, y se fortalece con la oración. Pensemos en alguien a quien debemos volver a escuchar o a visitar, aunque la primera vez no haya salido bien.",
+      "prayer": "Señor, dame paciencia y perseverancia. San Juan Diego, que volviste una y otra vez, ayúdame a no desanimarme ante las dificultades. Que mi fe resista las esperas y que no me canse de hacer el bien aunque no vea resultados inmediatos. Amén."
+    },
+    {
+      "day": 5,
+      "title": "El tío enfermo",
+      "reading": "Lc 10,25-37",
+      "reflection": "Según la tradición, Juan Diego acudía a buscar un sacerdote para su tío Juan Bernardino, gravemente enfermo, cuando la Virgen salió a su encuentro. El cuidado de los enfermos de la familia es una expresión concreta del amor. Dios no deja a los suyos sin consuelo. Pensemos en quienes padecen enfermedad, en sus cuidadores y en las dificultades para acceder a atención médica o espiritual. Visitemos o llamemos a un enfermo. Pidamos que María, salud de los enfermos, los acompañe, y que nunca falte quien los atienda con ternura. Dediquemos hoy unos minutos a rezar por un enfermo que conozcamos, llamándolo por su nombre.",
+      "prayer": "Madre de Dios, cuida de los enfermos y de quienes los cuidan. San Juan Diego, intercede por ellos. Consuela a quienes velan junto a un enfermo, y concede alivio y paz a nuestros familiares y amigos que sufren, según tu voluntad. Amén."
+    },
+    {
+      "day": 6,
+      "title": "La tilma y las flores",
+      "reading": "Mt 6,28-30; Cant 2,10-13",
+      "reflection": "Se narra que, en pleno diciembre, Juan Diego recogió flores en el cerro y las llevó en su tilma al obispo, y que se imprimió en ella la imagen de la Virgen. Las flores, en la cultura náhuatl, evocan lo sagrado y la belleza. La imagen de Guadalupe es una catequesis visual que ha ayudado a muchos a descubrir la cercanía de Dios. Demos gracias por la belleza de la creación y por los signos que Dios nos da. Pidamos ojos para ver la presencia de Dios en lo cotidiano.",
+      "prayer": "Dios de la belleza, gracias por tus signos de ternura. San Juan Diego, ayúdame a descubrir la presencia de Dios en lo sencillo. Que no me pierda en la prisa y sepa reconocer cada día alguna flor, alguna señal, alguna gracia que me sale al paso. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Una Iglesia con rostro propio",
+      "reading": "Hch 2,5-12; Ap 7,9-10",
+      "reflection": "El mensaje de Guadalupe ha sido leído como un signo de encuentro entre pueblos: la Virgen se presentó con rasgos que los indígenas reconocían. La Iglesia es una, pero se expresa en culturas diversas. En Pentecostés cada pueblo oyó el anuncio en su propia lengua. Hoy pedimos respeto por las culturas y lenguas indígenas, y por sus derechos, tantas veces vulnerados. Que la fe no sea imposición, sino encuentro. Pidamos por los pueblos originarios de América y por quienes trabajan por su dignidad y su desarrollo. Informémonos sobre las comunidades indígenas de nuestro país y apoyemos, según podamos, a quienes defienden sus derechos.",
+      "prayer": "Señor, que en tu Iglesia caben todos los pueblos, bendice a las comunidades indígenas. San Juan Diego, intercede por su dignidad y sus derechos. Que ningún pueblo sea despreciado ni olvidado, y que tu Iglesia sepa escuchar a todas las culturas. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Servir en lo escondido",
+      "reading": "Lc 17,7-10; Mt 6,1-4",
+      "reflection": "Después de los acontecimientos del Tepeyac, Juan Diego vivió retirado junto a la ermita, cuidando el lugar y dedicándose a la oración. No buscó honores. Jesús enseña: «Cuando hayáis hecho todo, decid: somos siervos inútiles; hemos hecho lo que teníamos que hacer». El servicio verdadero no espera recompensa. Pensemos en nuestra manera de servir en la parroquia, la familia o el trabajo. Pidamos humildad para colaborar sin protagonismo y para alegrarnos de los frutos, aunque no sean nuestros. El Evangelio llama grande a quien sirve; hoy, hagamos algo útil que nadie vaya a agradecernos.",
+      "prayer": "Señor, enséñame a servir sin buscar aplausos. San Juan Diego, que viviste a la sombra de la Virgen, intercede por mi humildad. Haz que mi servicio sea discreto, sin buscar mi nombre, y que me alegre con el bien que hacen otros. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Santo para América",
+      "reading": "Ap 7,9-14; Sal 16,5-11",
+      "reflection": "Juan Pablo II canonizó a Juan Diego el 31 de julio de 2002 y lo propuso como modelo de fe y humildad. En la Basílica de Guadalupe, miles de peregrinos lo veneran. Su fiesta, el 9 de diciembre, precede en tres días a la de Nuestra Señora de Guadalupe (12 de diciembre). Concluimos dando gracias por este testigo, y por la Virgen que nos conduce a Jesús. Pidamos permanecer fieles, servir a los pobres y vivir unidos a la Iglesia. Que, como Juan Diego, sepamos llevar el mensaje de Cristo a quienes lo esperan.",
+      "prayer": "Dios nuestro, gracias por san Juan Diego. Que su ejemplo nos enseñe humildad, fidelidad y amor a la Virgen, y nos lleve a Jesús. Por la Iglesia de América y por sus pueblos, para que vivan en justicia y fraternidad. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a san Juan Diego",
+      "text": "San Juan Diego, hermano humilde y fiel, ruega por nosotros. Enséñanos a escuchar a María, a confiar en la misión que Dios nos encomienda y a respetar la dignidad de todos los pueblos. Ayúdanos a llevar a Jesús a quienes más lo necesitan y a ser mensajeros de paz. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Juan Pablo II, homilía de canonización de Juan Diego (31-VII-2002)",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2002/documents/hf_jp-ii_hom_20020731_canonization-mexico.html"
+    },
+    {
+      "label": "Nican Mopohua (relato en náhuatl, publicado en 1649; atribuido tradicionalmente a Antonio Valeriano)"
+    },
+    {
+      "label": "Martirologio Romano, 9 de diciembre"
+    }
+  ],
+  "saints": [
+    "san-juan-diego"
+  ],
+  "tags": [
+    "novena",
+    "Guadalupe",
+    "9 de diciembre"
+  ]
+}

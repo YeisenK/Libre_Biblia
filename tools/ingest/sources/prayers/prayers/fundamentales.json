@@ -1,0 +1,333 @@
+[
+  {
+    "id": "senal-de-la-cruz",
+    "title": "Señal de la cruz",
+    "altTitles": [
+      "Por la señal de la santa cruz",
+      "Signum Crucis"
+    ],
+    "categories": [
+      "fundamentales",
+      "manana",
+      "noche"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+    "variants": [
+      {
+        "id": "larga",
+        "label": "Fórmula tradicional «Por la señal…»",
+        "text": "Por la señal de la santa cruz,\nde nuestros enemigos líbranos, Señor, Dios nuestro.\nEn el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén.",
+        "note": "Forma que se suele rezar al comenzar la oración personal; la fórmula breve («En el nombre del Padre…») es la de la liturgia."
+      }
+    ],
+    "latin": "Per signum crucis de inimicis nostris libera nos, Deus noster.\nIn nomine Patris, et Filii, et Spiritus Sancti. Amen.",
+    "context": "Es el gesto con que el cristiano comienza y termina su oración: confiesa a Dios Trinidad y se pone bajo la cruz de Cristo. Se hace con la mano derecha, tocando la frente, el pecho y los hombros. Desde la antigüedad los cristianos se signan con la cruz; el Catecismo recuerda que la vida cristiana comienza «en el nombre del Padre, y del Hijo, y del Espíritu Santo» (CIC 232-233, 2157).",
+    "scripture": [
+      "Mt 28,19"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "padre-nuestro",
+    "title": "Padre Nuestro",
+    "altTitles": [
+      "Oración del Señor",
+      "Pater Noster"
+    ],
+    "categories": [
+      "fundamentales",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad\nen la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos\na los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal.\nAmén.",
+    "latin": "Pater noster, qui es in caelis,\nsanctificetur nomen tuum;\nadveniat regnum tuum;\nfiat voluntas tua,\nsicut in caelo et in terra.\nPanem nostrum quotidianum da nobis hodie;\net dimitte nobis debita nostra,\nsicut et nos dimittimus debitoribus nostris;\net ne nos inducas in tentationem;\nsed libera nos a malo. Amen.",
+    "variants": [
+      {
+        "id": "tradicional",
+        "label": "Forma tradicional",
+        "text": "Padre nuestro, que estás en los cielos,\nsantificado sea tu nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad\nasí en la tierra como en el cielo.\nDánoslo hoy nuestro pan de cada día;\ny perdónanos nuestras deudas,\ncomo también nosotros perdonamos a nuestros deudores;\ny no nos dejes caer en la tentación,\nmas líbranos del mal. Amén.",
+        "note": "Redacción que muchos aprendieron en la catequesis tradicional, con «deudas/deudores» (como en el griego de Mt 6,12, «opheilémata») y «dánoslo hoy… mas líbranos del mal». No es la redacción de los misales actuales: el texto litúrgico en español dice «perdona nuestras ofensas… a los que nos ofenden». Sigue en uso en la piedad personal."
+      },
+      {
+        "id": "liturgica-doxologia",
+        "label": "Con la doxología de la Misa",
+        "text": "Padre nuestro, que estás en el cielo,\nsantificado sea tu Nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad\nen la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos\na los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal.\n\n\nTuyo es el reino,\ntuyo el poder y la gloria,\npor siempre, Señor.",
+        "note": "En la Misa, tras el embolismo del sacerdote («Líbranos de todos los males…»), el pueblo añade esta aclamación. No figura en los manuscritos más antiguos de Mt 6,13, pero ya la recoge la Didaqué y la liturgia la usa desde antiguo (cf. CIC 2760); muchas tradiciones cristianas la añaden."
+      }
+    ],
+    "context": "La oración que Jesús enseñó a sus discípulos. El Catecismo la llama «resumen de todo el Evangelio» (CIC 2761) y le dedica toda la cuarta parte (CIC 2759-2865). Aparece en dos formas en los evangelios: la más larga de Mateo (6,9-13) y la más breve de Lucas (11,2-4).\n\n**Texto vigente.** En España, el texto de las dos primeras formas es el del Misal Romano (3.ª edición en castellano, de la Conferencia Episcopal Española), de uso obligatorio desde las misas vespertinas del sábado 4 de marzo de 2017 (domingo I de Cuaresma, 5 de marzo): la recognitio de la Santa Sede es de 8 de diciembre de 2015 y la edición se publicó por decreto de 25 de julio de 2016. La sexta petición se reza «no nos dejes caer en la tentación», fórmula usada en España desde hace décadas. Los misales de los países de América son aprobados por cada conferencia episcopal; esta aplicación no ha podido comprobar cada uno, por lo que, para la celebración, debe seguirse el Misal de la propia conferencia episcopal.\n\n**Sobre la sexta petición.** En otras lenguas se ha revisado la traducción de esa petición (en Francia, desde el primer domingo de Adviento de 2017, se reza «ne nous laisse pas entrer en tentation»; la Conferencia Episcopal Italiana aprobó en 2018 «non abbandonarci alla tentazione»). En su catequesis de 2019 el papa Francisco comentó esta petición y mencionó la versión alternativa «no nos abandones a la tentación».",
+    "scripture": [
+      "Mt 6,9-13",
+      "Lc 11,2-4"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Francisco, Audiencia general del 1 de mayo de 2019 (catequesis sobre el Padrenuestro)",
+        "url": "https://www.vatican.va/content/francesco/es/audiences/2019/documents/papa-francesco_20190501_udienza-generale.html"
+      },
+      {
+        "label": "Conferencia Episcopal Española (liturgia y textos oficiales)",
+        "url": "https://www.conferenciaepiscopal.es"
+      },
+      {
+        "label": "Misal Romano, 3.ª ed. en castellano: entrada en vigor el 5 de marzo de 2017 (Gaudium Press)",
+        "url": "https://es.gaudiumpress.org/content/85801-entra-en-vigor-en-espana-la-3a-edicion-en-castellano-del-misal-romano/"
+      },
+      {
+        "label": "Presentación de la 3.ª ed. del Misal Romano, obligatorio desde marzo de 2017 (COPE)",
+        "url": "https://www.cope.es/religion/hoy-en-dia/iglesia-espanola/noticias/presentacion-edicion-del-misal-romano-castellano-obligatorio-desde-marzo-2017-20161007_1879389"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "ave-maria",
+    "title": "Ave María",
+    "altTitles": [
+      "Dios te salve, María",
+      "Salutación angélica",
+      "Ave Maria"
+    ],
+    "categories": [
+      "fundamentales",
+      "virgen-maria",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Dios te salve, María, llena eres de gracia,\nel Señor es contigo;\nbendita tú eres entre todas las mujeres,\ny bendito es el fruto de tu vientre, Jesús.\nSanta María, Madre de Dios,\nruega por nosotros, pecadores,\nahora y en la hora de nuestra muerte.\nAmén.",
+    "latin": "Ave Maria, gratia plena, Dominus tecum;\nbenedicta tu in mulieribus,\net benedictus fructus ventris tui, Iesus.\nSancta Maria, Mater Dei,\nora pro nobis peccatoribus,\nnunc et in hora mortis nostrae. Amen.",
+    "context": "Une el saludo del ángel Gabriel (Lc 1,28), las palabras de Isabel (Lc 1,42) y una súplica añadida por la Iglesia: «Santa María, Madre de Dios, ruega por nosotros pecadores…». Es la oración central del Rosario. Su forma actual quedó fijada en el Breviario Romano de 1568. El Catecismo la comenta en CIC 2676-2677.",
+    "scripture": [
+      "Lc 1,28",
+      "Lc 1,42"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "gloria",
+    "title": "Gloria al Padre",
+    "altTitles": [
+      "Gloria Patri",
+      "Doxología menor"
+    ],
+    "categories": [
+      "fundamentales",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre,\npor los siglos de los siglos. Amén.",
+    "latin": "Gloria Patri, et Filio, et Spiritui Sancto.\nSicut erat in principio, et nunc, et semper,\net in saecula saeculorum. Amen.",
+    "context": "Breve alabanza trinitaria que concluye los salmos en la Liturgia de las Horas y cada decena del Rosario. Es una de las doxologías más antiguas de la Iglesia.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "credo-apostoles",
+    "title": "Credo de los Apóstoles",
+    "altTitles": [
+      "Símbolo de los Apóstoles",
+      "Symbolum Apostolorum"
+    ],
+    "categories": [
+      "fundamentales",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Creo en Dios, Padre todopoderoso, Creador del cielo y de la tierra.\n\nCreo en Jesucristo, su único Hijo, nuestro Señor,\nque fue concebido por obra y gracia del Espíritu Santo,\nnació de santa María Virgen,\npadeció bajo el poder de Poncio Pilato,\nfue crucificado, muerto y sepultado,\ndescendió a los infiernos,\nal tercer día resucitó de entre los muertos,\nsubió a los cielos\ny está sentado a la derecha de Dios, Padre todopoderoso.\nDesde allí ha de venir a juzgar a vivos y muertos.\n\nCreo en el Espíritu Santo,\nla santa Iglesia católica,\nla comunión de los santos,\nel perdón de los pecados,\nla resurrección de la carne\ny la vida eterna.\nAmén.",
+    "latin": "Credo in Deum Patrem omnipotentem, Creatorem caeli et terrae,\net in Iesum Christum, Filium eius unicum, Dominum nostrum,\nqui conceptus est de Spiritu Sancto, natus ex Maria Virgine,\npassus sub Pontio Pilato, crucifixus, mortuus, et sepultus,\ndescendit ad inferos, tertia die resurrexit a mortuis,\nascendit ad caelos, sedet ad dexteram Dei Patris omnipotentis,\ninde venturus est iudicare vivos et mortuos.\nCredo in Spiritum Sanctum,\nsanctam Ecclesiam catholicam,\nSanctorum communionem,\nremissionem peccatorum,\ncarnis resurrectionem,\nvitam aeternam. Amen.",
+    "context": "Profesión de fe bautismal de la Iglesia de Roma, la más antigua y sencilla. Se atribuye a los apóstoles solo en el sentido de que resume fielmente su fe (CIC 194-196); no se sabe que la compusieran ellos. Es el Credo que se reza al comienzo del Rosario.",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "credo-niceno",
+    "title": "Credo niceno-constantinopolitano",
+    "altTitles": [
+      "Credo de la Misa",
+      "Símbolo niceno-constantinopolitano",
+      "Credo in unum Deum"
+    ],
+    "categories": [
+      "fundamentales",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Creo en un solo Dios, Padre todopoderoso,\ncreador del cielo y de la tierra,\nde todo lo visible y lo invisible.\n\nCreo en un solo Señor, Jesucristo,\nHijo único de Dios,\nnacido del Padre antes de todos los siglos:\nDios de Dios, Luz de Luz,\nDios verdadero de Dios verdadero,\nengendrado, no creado,\nde la misma naturaleza del Padre,\npor quien todo fue hecho;\nque por nosotros los hombres\ny por nuestra salvación bajó del cielo,\ny por obra del Espíritu Santo\nse encarnó de María, la Virgen, y se hizo hombre;\ny por nuestra causa fue crucificado\nen tiempos de Poncio Pilato,\npadeció y fue sepultado,\ny resucitó al tercer día, según las Escrituras,\ny subió al cielo,\ny está sentado a la derecha del Padre;\ny de nuevo vendrá con gloria\npara juzgar a vivos y muertos,\ny su reino no tendrá fin.\n\nCreo en el Espíritu Santo,\nSeñor y dador de vida,\nque procede del Padre y del Hijo,\nque con el Padre y el Hijo\nrecibe una misma adoración y gloria,\ny que habló por los profetas.\n\nCreo en la Iglesia,\nque es una, santa, católica y apostólica.\nConfieso que hay un solo bautismo\npara el perdón de los pecados.\nEspero la resurrección de los muertos\ny la vida del mundo futuro.\nAmén.",
+    "latin": "Credo in unum Deum, Patrem omnipotentem, factorem caeli et terrae, visibilium omnium et invisibilium.\nEt in unum Dominum Iesum Christum, Filium Dei unigenitum, et ex Patre natum ante omnia saecula. Deum de Deo, lumen de lumine, Deum verum de Deo vero, genitum, non factum, consubstantialem Patri: per quem omnia facta sunt. Qui propter nos homines et propter nostram salutem descendit de caelis. Et incarnatus est de Spiritu Sancto ex Maria Virgine, et homo factus est.\nCrucifixus etiam pro nobis sub Pontio Pilato; passus, et sepultus est, et resurrexit tertia die, secundum Scripturas, et ascendit in caelum, sedet ad dexteram Patris. Et iterum venturus est cum gloria, iudicare vivos et mortuos, cuius regni non erit finis.\nEt in Spiritum Sanctum, Dominum et vivificantem, qui ex Patre Filioque procedit. Qui cum Patre et Filio simul adoratur et conglorificatur: qui locutus est per prophetas.\nEt unam, sanctam, catholicam et apostolicam Ecclesiam. Confiteor unum baptisma in remissionem peccatorum. Et exspecto resurrectionem mortuorum, et vitam venturi saeculi. Amen.",
+    "context": "Fruto de los concilios de Nicea (325) y Constantinopla (381). Es el Credo que se proclama en la Misa de domingos y solemnidades. Aquí se ofrece como oración personal; para la celebración debe seguirse el texto del Misal vigente en cada país, cuyas ediciones pueden diferir ligeramente.",
+    "rubric": "En la Misa se reza los domingos y solemnidades. Para la celebración, utilícese el texto del Misal aprobado.",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Conferencia Episcopal Española (liturgia y textos oficiales)",
+        "url": "https://www.conferenciaepiscopal.es"
+      }
+    ],
+    "minutes": 3
+  },
+  {
+    "id": "acto-de-fe",
+    "title": "Acto de fe",
+    "categories": [
+      "fundamentales",
+      "manana"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "prayer",
+    "text": "Dios mío, creo firmemente todo lo que has revelado\ny la santa Iglesia nos enseña,\nporque tú eres la verdad misma\ny no puedes engañarte ni engañarnos.\nAmén.",
+    "context": "Expresa la virtud teologal de la fe: creer a Dios que se revela (CIC 1814-1816). Es una de las fórmulas breves de los «actos de las virtudes teologales» de la piedad tradicional.",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "acto-de-esperanza",
+    "title": "Acto de esperanza",
+    "categories": [
+      "fundamentales",
+      "manana"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "prayer",
+    "text": "Dios mío, espero de tu bondad,\npor tus promesas y por los méritos de Jesucristo,\nla vida eterna y las gracias necesarias para alcanzarla,\nporque tú eres infinitamente bueno\ny fiel a tus promesas.\nAmén.",
+    "context": "Expresa la virtud teologal de la esperanza: desear y esperar de Dios la vida eterna, apoyados en la gracia (CIC 1817-1821).",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "acto-de-caridad",
+    "title": "Acto de caridad",
+    "categories": [
+      "fundamentales",
+      "manana"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "prayer",
+    "text": "Dios mío, te amo sobre todas las cosas,\nporque eres infinitamente bueno y digno de todo amor;\ny por amor a ti amo a mi prójimo como a mí mismo.\nAmén.",
+    "context": "Expresa la virtud teologal de la caridad, «el vínculo de la perfección» (Col 3,14; CIC 1822-1829): amar a Dios sobre todas las cosas y al prójimo como a uno mismo (Mc 12,30-31).",
+    "scripture": [
+      "Mc 12,30-31"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "acto-de-adoracion",
+    "title": "Acto de adoración",
+    "categories": [
+      "fundamentales",
+      "accion-de-gracias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor, Dios del cielo y de la tierra,\nte adoro con humildad\ny reconozco que eres el único Dios,\ncreador y Señor de todas las cosas.\nRecibe mi alabanza, mi gratitud y mi vida.\nAmén.",
+    "context": "La adoración es la primera actitud de la criatura ante su Creador (CIC 2096-2097).",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  }
+]

@@ -3,23 +3,33 @@
 @tailwind utilities;
 
 :root, :root[data-theme='light'] {
-  --bg: 250 247 240; --surface: 255 254 251; --sunken: 241 236 225;
-  --fg: 33 30 26; --muted: 98 91 80; --line: 222 214 198;
-  --accent: 31 58 95; --accent-fg: 255 255 255; --mark: 255 226 130; --danger: 164 38 38; --warn: 140 80 0;
+  --bg: 255 255 255; --surface: 255 255 255; --sunken: 243 243 245; --raised: 255 255 255;
+  --fg: 17 17 20; --muted: 107 107 118; --line: 231 231 235;
+  --accent: 59 91 219; --accent-fg: 255 255 255; --ink: 17 17 20; --ink-fg: 255 255 255;
+  --gold: 176 138 62; --gold-soft: 246 239 224;
+  --mark: 255 232 140; --danger: 190 40 40; --warn: 150 90 0; --ok: 40 125 80;
+  --night: 10 10 14; --night-2: 26 26 36;
   color-scheme: light;
 }
-:root[data-theme='dark'] {
-  --bg: 20 22 26; --surface: 28 31 36; --sunken: 14 15 18;
-  --fg: 232 228 219; --muted: 160 160 156; --line: 52 56 63;
-  --accent: 140 178 232; --accent-fg: 14 18 26; --mark: 120 96 20; --danger: 240 120 120; --warn: 240 190 100;
+:root[data-theme='dark'], .theme-prayer {
+  --bg: 13 13 17; --surface: 23 23 29; --sunken: 30 30 38; --raised: 30 30 38;
+  --fg: 242 242 245; --muted: 154 154 166; --line: 38 38 46;
+  --accent: 142 162 255; --accent-fg: 13 13 17; --ink: 242 242 245; --ink-fg: 13 13 17;
+  --gold: 201 164 92; --gold-soft: 44 38 26;
+  --mark: 110 90 20; --danger: 240 120 120; --warn: 240 190 100; --ok: 120 200 150;
+  --night: 8 8 11; --night-2: 22 22 30;
   color-scheme: dark;
 }
 :root[data-theme='sepia'] {
-  --bg: 242 230 204; --surface: 248 239 218; --sunken: 232 218 187;
-  --fg: 59 44 28; --muted: 107 90 66; --line: 211 193 157;
-  --accent: 110 56 24; --accent-fg: 255 248 232; --mark: 240 200 90; --danger: 150 30 30; --warn: 125 65 5;
+  --bg: 244 234 212; --surface: 249 242 224; --sunken: 235 223 195; --raised: 252 247 232;
+  --fg: 59 44 28; --muted: 112 95 70; --line: 218 202 168;
+  --accent: 120 60 28; --accent-fg: 255 248 232; --ink: 59 44 28; --ink-fg: 249 242 224;
+  --gold: 150 104 30; --gold-soft: 236 218 174;
+  --mark: 240 200 90; --danger: 150 30 30; --warn: 125 65 5; --ok: 60 100 50;
+  --night: 30 22 14; --night-2: 58 42 28;
   color-scheme: light;
 }
+.theme-prayer { background: rgb(var(--bg)); color: rgb(var(--fg)); }
 
 html { -webkit-text-size-adjust: 100%; }
 body {
@@ -32,17 +42,30 @@ body {
 mark { background: rgb(var(--mark)); color: inherit; border-radius: 2px; padding: 0 1px; }
 
 @layer components {
-  .btn { @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-lg border border-line bg-surface px-4 text-sm font-medium transition-colors hover:bg-sunken disabled:cursor-not-allowed disabled:opacity-50; }
-  .btn-primary { @apply border-transparent bg-accent text-accent-fg hover:opacity-90 hover:bg-accent; }
+  .btn { @apply inline-flex min-h-[44px] items-center justify-center gap-2 rounded-xl border border-line bg-transparent px-4 text-sm font-medium transition-colors hover:bg-sunken disabled:cursor-not-allowed disabled:opacity-50; }
+  .btn-primary { @apply min-h-[48px] rounded-full border-transparent bg-ink px-6 text-[15px] font-semibold text-ink-fg hover:bg-ink hover:opacity-90; }
   .btn-danger { @apply border-transparent bg-danger text-white hover:bg-danger hover:opacity-90; }
-  .input { @apply min-h-[44px] w-full rounded-lg border border-line bg-surface px-3 text-base text-fg placeholder:text-muted; }
-  .card { @apply rounded-xl border border-line bg-surface p-4; }
-  .h-page { @apply font-serif text-2xl font-semibold tracking-tight; }
+  .input { @apply min-h-[44px] w-full rounded-xl border border-line bg-surface px-3 text-base text-fg placeholder:text-muted; }
+  .card { @apply rounded-2xl border border-line bg-surface p-4; }
+  .h-page { @apply font-display text-[1.9rem] leading-[1.15]; }
+  .eyebrow { @apply text-[12px] font-medium text-muted; }
+  .card-soft { @apply rounded-2xl border border-line bg-surface p-4; }
+  .tap { @apply transition-[transform,background-color,opacity] duration-150 active:scale-[0.985]; }
+  /* Fondos sobrios por momento del día */
+  .bg-moment-morning { background: linear-gradient(160deg, #3a3340 0%, #17141c 70%); color: #f6f1ea; }
+  .bg-moment-midday { background: linear-gradient(160deg, #2b3646 0%, #12161d 70%); color: #eef2f7; }
+  .bg-moment-afternoon { background: linear-gradient(160deg, #3d2e32 0%, #17121a 70%); color: #f7efe9; }
+  .bg-moment-night { background: linear-gradient(160deg, #1d2030 0%, #0a0a0f 75%); color: #eeeef3; }
+  .bg-sacred { background: linear-gradient(160deg, #1b1b25 0%, #09090d 80%); color: #f0f0f4; }
+
   .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
 }
+.font-display { font-weight: 700; letter-spacing: -0.02em; }
 
+.prayer-text { font-family: var(--font-serif), Georgia, serif; font-size: calc(1.15rem * var(--prayer-scale, 1)); line-height: 1.7; }
+.prayer-text p + p { margin-top: .9em; }
 .reading { font-family: var(--font-serif), Georgia, serif; font-size: calc(1.125rem * var(--font-scale, 1)); line-height: var(--line-height, 1.7); }
-.verse-num { font-family: var(--font-sans), system-ui; font-size: .62em; vertical-align: super; color: rgb(var(--muted)); margin-right: .25em; font-weight: 600; }
+.verse-num { font-family: var(--font-sans), system-ui; font-size: .62em; vertical-align: super; color: rgb(var(--accent)); margin-right: .25em; font-weight: 600; }
 .verse-hl { background: rgb(var(--mark) / .55); border-radius: 4px; }
 
 @media (prefers-reduced-motion: reduce) { * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }

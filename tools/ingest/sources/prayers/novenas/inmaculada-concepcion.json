@@ -1,0 +1,134 @@
+{
+  "id": "inmaculada-concepcion",
+  "title": "Novena a la Inmaculada Concepción",
+  "group": "marian",
+  "description": "Nueve días para preparar la solemnidad del 8 de diciembre, contemplando a María llena de gracia desde su concepción.",
+  "image": {
+    "icon": "star",
+    "tint": "#3F6BA5"
+  },
+  "introduction": "La Iglesia cree que María, desde el primer instante de su concepción, fue preservada de toda mancha de pecado original en previsión de los méritos de Cristo, su Hijo y Redentor. Esta verdad fue definida como dogma por el papa Pío IX el 8 de diciembre de 1854, en la bula *Ineffabilis Deus*, aunque la fiesta se celebraba en Oriente y Occidente desde siglos atrás. Su fundamento está en el saludo del ángel: «Alégrate, llena de gracia» (Lc 1,28), y en la lectura que la Iglesia hace de Gn 3,15 y de Ef 1,3-6.\n\nCuatro años después, en 1858, la Virgen se presentó en Lourdes a santa Bernardita con las palabras «Yo soy la Inmaculada Concepción», lo que la Iglesia ha recibido como un eco del dogma. La Inmaculada es patrona principal de España y de otros países, y de Estados Unidos.\n\nEsta novena se reza tradicionalmente del 29 de noviembre al 7 de diciembre. No es un acto litúrgico: es piedad popular, libre, que prepara la fiesta y encaja bien con el Adviento.",
+  "purpose": "Dar gracias a Dios por la gracia con que preparó a María para ser Madre del Salvador, aprender de ella la pureza de corazón y la disponibilidad ante Dios, y vivir el Adviento con su mirada. Culmina de forma natural en la Misa de la solemnidad y, si se desea, en la confesión.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 12,
+    "day": 8,
+    "label": "Solemnidad de la Inmaculada Concepción de la Virgen María"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios y Padre nuestro, que preparaste a la Virgen María una morada digna de tu Hijo, concédenos, por su intercesión, un corazón limpio y atento a tu Palabra. Hoy comenzamos este día de novena para acoger mejor la venida de Cristo. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "La llena de gracia",
+      "reading": "Lc 1,26-28",
+      "reflection": "El ángel no llama a María por su nombre, sino «llena de gracia». Antes de cualquier mérito suyo, es el amor de Dios el que la ha mirado y la ha preparado. Así comienza todo en la vida cristiana: no con lo que hacemos, sino con lo que Dios hace primero por nosotros. La Iglesia ve en esta expresión el fundamento de la Inmaculada Concepción.\n\nAl empezar la novena, pidamos aprender a vivir desde la gracia y no desde la ansiedad de merecer. Dios nos conoce y nos llama por lo que quiere hacer de nosotros. María nos enseña a recibir con gratitud.",
+      "prayer": "Virgen María, llena de gracia, enséñame a reconocer que todo lo bueno que hay en mi vida es don de Dios. Quita de mí la desconfianza y el orgullo de creer que me basto solo. Ayúdame a recibir cada día con gratitud el amor del Padre, para que mi vida sea, como la tuya, una respuesta humilde a su gracia. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Preservada del pecado",
+      "reading": "Gn 3,15",
+      "reflection": "Desde antiguo la Iglesia ha leído en el anuncio del Génesis la promesa de una mujer cuyo linaje vencería al mal. María, unida a su Hijo, es esa mujer: Dios la preservó del pecado original en previsión de la redención de Cristo. No es una excepción que la aleje de nosotros, sino la primicia de lo que la gracia quiere hacer con toda la humanidad.\n\nHoy podemos mirar nuestras heridas y tentaciones sin desesperar. El pecado no tiene la última palabra. La victoria de Cristo, que alcanzó a María desde el principio, nos alcanza también a nosotros en los sacramentos y en el perdón.",
+      "prayer": "Madre Inmaculada, tú que nunca conociste la sombra del pecado, mira con compasión mis caídas y mis cansancios. Obtén para mí la gracia de levantarme siempre, de acudir al perdón de tu Hijo y de no acostumbrarme al mal. Que la victoria de Cristo sea también la mía. Amén."
+    },
+    {
+      "day": 3,
+      "title": "El sí de la humildad",
+      "reading": "Lc 1,29-38",
+      "reflection": "La pureza de María no es frialdad, sino entrega. Ante un anuncio que la desborda, pregunta con sinceridad y luego responde: «Aquí está la esclava del Señor; hágase en mí según tu palabra». Su humildad no consiste en pensar poco de sí misma, sino en dejar a Dios ser Dios en su vida.\n\nTodos tenemos proyectos y temores que nos hacen decir «ahora no» a Dios. María nos enseña que el sí confiado abre espacio a lo imposible. Hoy podemos pensar qué nos pide el Señor y dónde nos resistimos. Pidamos la humildad de quien se sabe amado y por eso se fía.",
+      "prayer": "Señora mía, que dijiste sí sin reservas, enséñame a escuchar la voluntad de Dios y a aceptarla aunque no la comprenda del todo. Que mi respuesta sea sencilla y confiada, y que mi vida se vuelva hospitalidad para Cristo. Hágase en mí su palabra. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Pureza de corazón",
+      "reading": "Mt 5,8",
+      "reflection": "«Bienaventurados los limpios de corazón, porque ellos verán a Dios». La pureza que celebramos en María no se reduce a lo corporal: es transparencia, un corazón sin doblez que busca solo a Dios y al bien del prójimo. Quien mira así ve la realidad y a las personas con respeto, sin usarlas.\n\nVivimos rodeados de ruido, imágenes y deseos que dividen el corazón. Pedir pureza es pedir unidad interior. Podemos examinar con calma qué miradas, palabras y pensamientos necesitamos purificar, sin angustia, con la confianza de que Dios limpia lo que se le presenta con sinceridad.",
+      "prayer": "Virgen purísima, alcánzame un corazón sencillo y limpio. Aparta de mí la mirada que utiliza, la palabra que hiere y el pensamiento que divide. Que busque solo a Dios y vea en cada persona a un hermano. Que Jesús, a quien llevaste en tu seno, purifique mi interior. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Madre de la esperanza",
+      "reading": "Is 7,14",
+      "reflection": "Cuando la historia parecía cerrada, Dios prometió una señal: una virgen daría a luz un hijo, «Dios con nosotros». El Adviento es el tiempo de esa espera. María es quien espera mejor: lleva en su seno la esperanza del mundo y la acompaña en silencio.\n\nNuestra esperanza no es optimismo ingenuo, sino fe en que Dios cumple lo que promete. Pensemos en aquello que hoy parece sin salida en nuestra vida, familia o comunidad. Ponerlo en manos de María es aprender a esperar con paciencia activa, atentos a los signos de la llegada de Cristo.",
+      "prayer": "Madre de la esperanza, tú que esperaste al Salvador con fe y con amor, enséñanos a vivir este Adviento con el corazón despierto. Sostén a quienes están cansados de esperar y a quienes han perdido la ilusión. Que nunca falte en nosotros la certeza de que Dios viene. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Servidora del hermano",
+      "reading": "Lc 1,39-45",
+      "reflection": "Apenas recibe el anuncio, María se pone en camino hacia casa de Isabel. Quien ha sido llenado de gracia no se encierra en sí mismo: sale a servir. Su primera obra tras la Anunciación es la visita, la ayuda concreta, la alegría compartida.\n\nLa verdadera devoción a la Inmaculada se mide por la caridad. Hoy podemos buscar un gesto concreto de servicio: una llamada, una visita, una ayuda a quien la necesita en casa o en el trabajo. María nos enseña que la gracia recibida es para darla, y que el encuentro con Dios nos pone en marcha hacia los demás.",
+      "prayer": "Virgen de la visita, que fuiste con prontitud a servir a tu prima, haz que no me quede encerrado en mis asuntos. Dame ojos para ver las necesidades de los otros y manos dispuestas a ayudar. Que mi fe se haga caridad concreta. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Magnificat: la alegría del que confía",
+      "reading": "Lc 1,46-55",
+      "reflection": "El canto de María nace de una experiencia: Dios ha mirado la pequeñez de su sierva y ha hecho en ella maravillas. La Inmaculada no se atribuye nada; todo lo devuelve en alabanza. Su alegría no es superficial, sino fruto de saberse en manos de Dios, que derriba soberbios y levanta a los humildes.\n\nAlabar a Dios nos cura del resentimiento y de la queja. Hoy podemos hacer una lista de agradecimientos, también por lo pequeño. Quien aprende a dar gracias descubre que su vida está llena de dones. Podemos rezar con calma el Magnificat, haciendo nuestras sus palabras.",
+      "prayer": "Madre mía, que proclamas la grandeza del Señor, enséñame a vivir agradecido. Que mi alma glorifique a Dios y mi espíritu se alegre en él, incluso en la dificultad. Ayúdame a reconocer sus maravillas en mi vida y a confiar en su misericordia. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Al pie de la cruz",
+      "reading": "Jn 19,25-27",
+      "reflection": "La que fue preservada del pecado no fue preservada del dolor. María estuvo de pie junto a la cruz, unida a su Hijo en el sufrimiento y en la esperanza. Allí Jesús la entregó como madre al discípulo amado, y en él a todos nosotros.\n\nLa santidad no nos libra de las pruebas, pero nos da la fuerza para permanecer. Quien sufre puede mirar a María y descubrir que no está solo. Hoy podemos presentarle nuestras cruces y las de nuestros hermanos: enfermedades, duelos, soledades. Ella no ofrece explicaciones fáciles, ofrece compañía y fortaleza.",
+      "prayer": "Madre dolorosa, que permaneciste junto a la cruz, acompáñame en mis pruebas y en las de quienes sufren. Dame la fortaleza de no huir del dolor ajeno y la confianza de que Cristo vence al final. Recíbeme como hijo tuyo. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Madre de la Iglesia",
+      "reading": "Hch 1,12-14",
+      "reflection": "Los Apóstoles esperaban el Espíritu Santo perseverando en la oración, «con María, la madre de Jesús». La Inmaculada acompaña a la Iglesia naciente y sigue acompañándola hoy. Es madre que reúne, que sostiene la oración común y que nos conduce siempre a su Hijo.\n\nAl terminar la novena, damos gracias por lo vivido y nos ponemos otra vez en camino. Mañana celebramos que Dios hizo grandes cosas en ella. Pidámosle que nos preparemos para la solemnidad con un corazón agradecido, participando en la Misa y, si es posible, acercándonos al sacramento de la reconciliación.",
+      "prayer": "Madre de la Iglesia, Inmaculada Concepción, gracias por tu compañía en estos días. Intercede por la Iglesia, por el Papa, por nuestros pastores y por nuestras familias. Haznos testigos gozosos de Cristo y guíanos hasta la Navidad con el corazón renovado. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a la Inmaculada Concepción",
+      "text": "Virgen Santísima, concebida sin pecado, llena de gracia y bendita entre todas las mujeres, te damos gracias porque en ti Dios nos muestra lo que su amor puede hacer en una criatura. Enséñanos a decir sí, como tú, a la voluntad del Padre; ayúdanos a vivir limpios de corazón y atentos al hermano que sufre. Acompaña nuestro Adviento y llévanos a Jesús, tu Hijo, que vive y reina por los siglos de los siglos. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "salve"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Pío IX, bula Ineffabilis Deus (8-12-1854)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, nn. 490-493"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "adviento",
+    "inmaculada",
+    "diciembre"
+  ]
+}

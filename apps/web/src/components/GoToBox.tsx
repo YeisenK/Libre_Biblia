@@ -26,13 +26,13 @@ export function GoToBox({ version, label = 'Ir a referencia', onDone }: { versio
 
   return (
     <form onSubmit={submit} role="search" aria-label={label} className="w-full">
-      <label htmlFor={id} className="mb-1 block text-sm font-medium text-muted">
+      <label htmlFor={id} className="eyebrow mb-2 block">
         {label}
       </label>
       <div className="flex gap-2">
         <input
           id={id}
-          className="input"
+          className="min-h-[48px] w-full rounded-full bg-sunken px-4 text-base placeholder:text-muted"
           value={value}
           onChange={(e) => setValue(e.target.value)}
           placeholder="Rom 8,28 · Jn 3,16"
@@ -42,7 +42,7 @@ export function GoToBox({ version, label = 'Ir a referencia', onDone }: { versio
           aria-invalid={!!error}
           aria-describedby={error ? `${id}-err` : undefined}
         />
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary !rounded-full !px-6">
           Ir
         </button>
       </div>

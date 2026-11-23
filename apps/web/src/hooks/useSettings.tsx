@@ -49,6 +49,7 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
     };
     apply();
     root.style.setProperty('--font-scale', String(settings.fontScale));
+    root.style.setProperty('--prayer-scale', String(settings.prayerFontScale ?? 1));
     root.style.setProperty('--line-height', String(settings.lineHeight));
     mq.addEventListener('change', apply);
     return () => mq.removeEventListener('change', apply);

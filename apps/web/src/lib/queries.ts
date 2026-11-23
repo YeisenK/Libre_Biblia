@@ -5,6 +5,19 @@ import { alignParallel } from './chapters';
 import { getDb, type AppDb } from './db';
 import type { BibleVersion, BookInfo, ChapterData, ParallelData, Verse } from './types';
 
+/** Rango de lengua (ADR-018): español 0, latín 1, resto 2. */
+export function languageRank(language: string | undefined): number {
+  const l = (language ?? '').toLowerCase();
+  if (l.startsWith('es')) return 0;
+  if (l.startsWith('la')) return 1;
+  return 2;
+}
+
+/** Orden de versiones: español primero, luego latín, luego el resto; dentro de cada grupo, por código. */
+export function compareVersions(a: { code: string; language?: string }, b: { code: string; language?: string }): number {
+  return languageRank(a.language) - languageRank(b.language) || a.code.localeCompare(b.code);
+}
+
 export async function listVersions(db: AppDb = getDb()): Promise<BibleVersion[]> {
   const metas = await db.bibleMeta.toArray();
   return metas
@@ -22,7 +35,7 @@ export async function listVersions(db: AppDb = getDb()): Promise<BibleVersion[]>
       source: m.source,
       books: Object.keys(m.index).filter((b) => (m.index[b]?.length ?? 0) > 0),
     }))
-    .sort((a, b) => a.code.localeCompare(b.code));
+    .sort(compareVersions);
 }
 
 export async function listBooks(code: string, db: AppDb = getDb()): Promise<BookInfo[]> {

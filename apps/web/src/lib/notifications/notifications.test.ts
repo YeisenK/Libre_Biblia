@@ -163,3 +163,45 @@ describe('notificaciones nativas (plugin simulado)', () => {
     vi.unstubAllGlobals();
   });
 });
+
+describe('recordatorios de rutinas', () => {
+  const routine = (over: Partial<import('../db').RoutineRow> = {}): import('../db').RoutineRow => ({
+    id: 'r1', title: 'Mañana', moment: 'morning', items: ['a', 'b', 'c', 'd', 'e'], reminder: { enabled: true, time: '07:00', days: [1, 5] }, order: 0, createdAt: '', updatedAt: '', ...over,
+  });
+  const now = new Date('2026-11-20T10:00:00Z'); // viernes 04:00 en México
+
+  it('programa solo los días elegidos, con texto y ruta /orar/', async () => {
+    const plan = await buildPlan({ now, settings: base, verseFor: async () => null, routines: [routine()], days: 7 });
+    expect(plan.map((p) => p.at.toISOString())).toEqual(['2026-11-20T13:00:00.000Z', '2026-11-23T13:00:00.000Z']);
+    expect(plan[0]).toMatchObject({ kind: 'routine', title: 'Tu oración de la mañana', body: 'Mañana: 5 oraciones', path: '/orar/' });
+  });
+
+  it('funciona con las notificaciones generales desactivadas y sin chocar de ids', async () => {
+    const off = { ...base, notifyEnabled: false };
+    const plan = await buildPlan({ now, settings: off, verseFor, routines: [routine(), routine({ id: 'r2', moment: 'any', title: 'Mi rutina', items: ['x'], reminder: { enabled: true, time: '21:00', days: [0, 1, 2, 3, 4, 5, 6] } })] });
+    expect(plan.every((p) => p.kind === 'routine')).toBe(true);
+    expect(plan.find((p) => p.title === 'Mi rutina')!.body).toBe('1 oración');
+    const all = await buildPlan({ now, settings: base, verseFor, routines: [routine()], days: 7 });
+    expect(new Set(all.map((p) => p.id)).size).toBe(all.length);
+    expect(all.filter((p) => p.kind === 'routine').every((p) => p.id >= 10_000)).toBe(true);
+  });
+
+  it('ignora recordatorios apagados, sin días, sin elementos o con hora inválida', async () => {
+    const rs = [routine({ reminder: { enabled: false, time: '07:00', days: [5] } }), routine({ reminder: { enabled: true, time: '07:00', days: [] } }), routine({ items: [] }), routine({ reminder: { enabled: true, time: '7h', days: [5] } }), routine({ reminder: null })];
+    expect(await buildPlan({ now, settings: { ...base, notifyEnabled: false }, verseFor, routines: rs })).toEqual([]);
+  });
+
+  it('sync programa recordatorios aunque el versículo esté desactivado', async () => {
+    const { syncNotifications } = await import('./sync');
+    const { AppDb } = await import('../db');
+    const { DEFAULT_SETTINGS } = await import('../settings');
+    const db = new AppDb('test-notify-routine');
+    nativeFlag.v = true;
+    plugin.schedule.mockReset();
+    await db.routines.put(routine());
+    plugin.checkPermissions.mockResolvedValue({ display: 'granted' });
+    plugin.getPending.mockResolvedValue({ notifications: [] });
+    expect(await syncNotifications({ ...DEFAULT_SETTINGS, notifyEnabled: false, timeZone: 'America/Mexico_City' }, now, db)).toBe('scheduled');
+    expect(plugin.schedule.mock.calls.at(-1)![0].notifications[0]).toMatchObject({ title: 'Tu oración de la mañana', extra: { path: '/orar/' } });
+  });
+});

@@ -1,0 +1,285 @@
+'use client';
+/** /novena/?id=<id>[&day=N]: introducción, día de la novena, progreso y navegación entre días. */
+import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { NATURE_HELP, NATURE_LABEL, NOVENA_GROUP_LABEL, type Novena, type PrayerStep } from '@bc/shared';
+import { useDefaultVersion, useVersions } from '@/hooks/useBible';
+import { usePrayerCatalog } from '@/hooks/usePrayers';
+import { useSettings } from '@/hooks/useSettings';
+import { getDb } from '@/lib/db';
+import { loadMassPassage, spanFor, spanOfPassage } from '@/lib/daily/mass';
+import { readerHref } from '@/lib/links';
+import { prayerText, splitReadings, type PrayerCatalog } from '@/lib/prayers/catalog';
+import { toggleFavorite, useIsFavorite } from '@/lib/prayers/favorites';
+import { abandonNovena, calendarDay, currentDay, daysBehind, doneCount, feastTiming, markDayDone, restartNovena, startNovena, unmarkDay } from '@/lib/prayers/novenas';
+import { Markdown } from '../Markdown';
+import { Modal } from '../Modal';
+import { HeartIcon } from '../Icons';
+import { CheckIcon } from '../icons/Sacred';
+import { EmptyState, HeroCard, IconButton, NatureBadge, ProgressBar, ScreenHeader, Section, TextSizeControl } from '../ui';
+import { PrayerAddToRoutine } from './PrayerAddToRoutine';
+import { PrayerText } from './PrayerText';
+import { useNovenaProgress, useToday } from './RoutineData';
+import { plural } from './RoutineItems';
+
+const btnPrimary = 'tap inline-flex min-h-[52px] w-full items-center justify-center gap-2 rounded-full bg-fg px-6 text-[16px] font-medium text-bg disabled:opacity-60';
+const btnGhost = 'tap inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full px-5 text-[15px] font-medium ring-1 ring-line hover:bg-sunken';
+
+function Steps({ steps, cat, variants }: { steps: PrayerStep[]; cat: PrayerCatalog; variants: Record<string, string> }) {
+  return (
+    <div className="space-y-6">
+      {steps.map((s, i) => {
+        if ('prayer' in s) {
+          const p = cat.prayerById.get(s.prayer);
+          const title = s.title ?? p?.title ?? s.prayer;
+          return (
+            <div key={i}>
+              <h3 className="mb-2 flex flex-wrap items-baseline gap-2 font-display text-[1.25rem] font-semibold">
+                {title}
+                {s.times && s.times > 1 && <span className="rounded-md border border-line px-1.5 py-px font-sans text-[12px] font-medium text-muted">{s.times} veces</span>}
+              </h3>
+              {p ? <PrayerText text={prayerText(p, variants)} /> : <p className="text-sm text-muted">Esta oración todavía no está en tu devocionario.</p>}
+            </div>
+          );
+        }
+        return (
+          <div key={i}>
+            {s.title && <h3 className="mb-2 font-display text-[1.25rem] font-semibold">{s.title}</h3>}
+            <PrayerText text={s.text} />
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function Reading({ reference }: { reference: string }) {
+  const { settings } = useSettings();
+  const version = useDefaultVersion();
+  const versions = useVersions();
+  const preferred = settings.dailyBible ?? version;
+  const q = useQuery({
+    queryKey: ['novena-reading', reference, preferred, versions.data?.length],
+    enabled: !!versions.data,
+    queryFn: async () => {
+      try {
+        return await loadMassPassage(getDb(), reference, versions.data!, preferred);
+      } catch {
+        return null;
+      }
+    },
+  });
+  const p = q.data;
+  let href: string | null = null;
+  try {
+    if (p) {
+      const span = spanOfPassage(p);
+      href = readerHref({ v: p.version.code, b: span.book, c: span.chapter, vs: span.verseStart ?? null, ve: span.chapterEnd ? null : (span.verseEnd ?? null) });
+    } else if (versions.data?.length) {
+      const span = spanFor(reference, versions.data.find((v) => v.code === preferred) ?? versions.data[0]!);
+      href = readerHref({ v: preferred, b: span.book, c: span.chapter, vs: span.verseStart ?? null, ve: span.chapterEnd ? null : (span.verseEnd ?? null) });
+    }
+  } catch {
+    href = null;
+  }
+  return (
+    <div className="card-soft">
+      <p className="eyebrow mb-1">Lectura bíblica</p>
+      <p className="font-display text-[1.3rem] font-semibold">{p?.label ?? reference}</p>
+      {p && (
+        <p className="prayer-text mt-3">
+          {p.verses.map((v) => (
+            <span key={`${v.chapter}:${v.verse}`}>
+              <sup className="mr-1 font-sans text-[0.6em] text-muted">{v.verse}</sup>
+              {v.text.trim()}{' '}
+            </span>
+          ))}
+        </p>
+      )}
+      {p?.fallback && <p className="mt-2 text-[12px] text-muted">Texto de {p.version.name ?? p.version.code}.</p>}
+      {!p && !q.isLoading && <p className="mt-1 text-[13px] text-muted">Instala una Biblia en español en Contenido para leer el texto aquí.</p>}
+      {href && <Link href={href} className="tap mt-3 inline-flex min-h-[44px] items-center rounded-full px-4 text-sm font-medium ring-1 ring-line hover:bg-sunken">Abrir en el lector</Link>}
+    </div>
+  );
+}
+
+export function NovenaDetail() {
+  const sp = useSearchParams();
+  const id = sp.get('id') ?? '';
+  const dayParam = Number(sp.get('day'));
+  const router = useRouter();
+  const { data: cat, isLoading } = usePrayerCatalog();
+  const { settings, update } = useSettings();
+  const today = useToday();
+  const progress = useNovenaProgress(id);
+  const fav = useIsFavorite(`novena:${id}`);
+  const [intention, setIntention] = useState('');
+  const [confirm, setConfirm] = useState<null | 'restart' | 'abandon'>(null);
+  const [busy, setBusy] = useState(false);
+
+  if (isLoading || progress === undefined) return <div className="h-40 animate-pulse rounded-2xl bg-sunken" aria-hidden />;
+  const novena: Novena | undefined = cat?.novenaById.get(id);
+  if (!cat || !novena) {
+    return (
+      <div className="mx-auto max-w-3xl">
+        <ScreenHeader back="/novenas/" title="Novena" />
+        <EmptyState icon="candle" title="No encontramos esta novena" action={<Link href="/novenas/" className={btnGhost}>Ver todas las novenas</Link>}>Puede que el devocionario todavía se esté instalando.</EmptyState>
+      </div>
+    );
+  }
+
+  const total = novena.days.length;
+  const p = progress ?? undefined;
+  const running = !!p && !p.completedAt;
+  const finished = !!p?.completedAt;
+  const cur = currentDay(p, total);
+  const inDay = Number.isInteger(dayParam) && dayParam >= 1 && dayParam <= total;
+  const href = (d?: number) => `/novena/?id=${encodeURIComponent(id)}${d ? `&day=${d}` : ''}`;
+  const timing = novena.feast ? feastTiming(novena.feast, today, total) : null;
+
+  const begin = async () => {
+    setBusy(true);
+    await startNovena(id, intention);
+    router.push(href(1));
+  };
+
+  const actions = (
+    <>
+      <TextSizeControl value={settings.prayerFontScale} onChange={(v) => update({ prayerFontScale: v })} />
+      <IconButton label={fav ? 'Quitar de favoritos' : 'Guardar en favoritos'} active={fav} onClick={() => void toggleFavorite(`novena:${id}`, novena.title)}>
+        <span className={fav ? '[&_svg]:fill-current' : ''}><HeartIcon /></span>
+      </IconButton>
+    </>
+  );
+
+  // ── Vista de un día ───────────────────────────────────────────────
+  if (inDay) {
+    const d = novena.days.find((x) => x.day === dayParam) ?? novena.days[dayParam - 1]!;
+    const isDone = !!p?.done[dayParam];
+    const suggested = p && running ? calendarDay(p, total, today) : null;
+    const finish = async () => {
+      setBusy(true);
+      const row = await markDayDone(novena, dayParam, { date: today, title: novena.title });
+      setBusy(false);
+      if (!row.completedAt && dayParam < total) router.replace(href(dayParam + 1));
+      else router.replace(href());
+    };
+    return (
+      <div className="mx-auto max-w-2xl">
+        <ScreenHeader back={href()} eyebrow={`${novena.title} · Día ${dayParam} de ${total}`} title={d.title ?? `Día ${dayParam}`} actions={actions} />
+        <div className="mb-6 flex items-center gap-1.5" role="group" aria-label="Días de la novena">
+          {novena.days.map((x) => (
+            <Link key={x.day} href={href(x.day)} aria-label={`Día ${x.day}${p?.done[x.day] ? ' (hecho)' : ''}`} aria-current={x.day === dayParam ? 'page' : undefined} className={`tap grid h-9 min-w-0 flex-1 place-items-center rounded-full text-[12px] font-semibold ring-1 ${x.day === dayParam ? 'bg-fg text-bg ring-fg' : p?.done[x.day] ? 'bg-ok/15 text-ok ring-ok/30' : 'bg-surface ring-line'}`}>
+              {p?.done[x.day] && x.day !== dayParam ? <CheckIcon size={14} /> : x.day}
+            </Link>
+          ))}
+        </div>
+        {p?.intention && <p className="mb-6 rounded-2xl bg-sunken px-4 py-3 text-[14px]"><span className="eyebrow mr-2">Tu intención</span>{p.intention}</p>}
+        {suggested && cur && suggested > cur && !isDone && daysBehind(p!, total, today) > 0 && <p className="mb-6 text-[13px] text-muted" role="status">Por el calendario tocaría el día {suggested}; puedes seguir a tu ritmo.</p>}
+
+        <article className="space-y-10 pb-4">
+          {novena.opening.length > 0 && (
+            <Section title="Oraciones iniciales" className="!mb-0"><Steps steps={novena.opening} cat={cat} variants={settings.prayerVariants} /></Section>
+          )}
+          {d.reading && splitReadings(d.reading).map((r) => <Reading key={r} reference={r} />)}
+          <Section title="Reflexión" className="!mb-0"><div className="prayer-text"><Markdown text={d.reflection} /></div></Section>
+          <Section title="Oración del día" className="!mb-0"><PrayerText text={d.prayer} /></Section>
+          {novena.closing.length > 0 && (
+            <Section title="Oraciones finales" className="!mb-0"><Steps steps={novena.closing} cat={cat} variants={settings.prayerVariants} /></Section>
+          )}
+        </article>
+
+        <div className="mt-8 space-y-3">
+          {isDone ? (
+            <div className="flex items-center justify-between gap-3 rounded-2xl bg-ok/10 px-4 py-3 text-ok">
+              <span className="flex items-center gap-2 font-medium"><CheckIcon size={20} /> Día completado</span>
+              <button type="button" onClick={() => void unmarkDay(id, dayParam)} className="tap min-h-[44px] rounded-full px-3 text-sm underline">Desmarcar</button>
+            </div>
+          ) : (
+            <button type="button" disabled={busy} onClick={() => void finish()} className={btnPrimary}><CheckIcon size={20} /> Día completado</button>
+          )}
+          <div className="flex gap-3">
+            {dayParam > 1 ? <Link href={href(dayParam - 1)} className={`${btnGhost} flex-1`}>Día anterior</Link> : <span className="flex-1" />}
+            {dayParam < total ? <Link href={href(dayParam + 1)} className={`${btnGhost} flex-1`}>Día siguiente</Link> : <Link href={href()} className={`${btnGhost} flex-1`}>Volver a la novena</Link>}
+          </div>
+          <div className="flex"><PrayerAddToRoutine itemKey={`novena:${id}`} title={novena.title} /></div>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Introducción ──────────────────────────────────────────────────
+  return (
+    <div className="mx-auto max-w-2xl">
+      <ScreenHeader back="/novenas/" eyebrow={NOVENA_GROUP_LABEL[novena.group]} title={novena.title} subtitle={novena.description} actions={actions} />
+      <div className="mb-6 flex flex-wrap items-center gap-2">
+        <NatureBadge label={NATURE_LABEL[novena.nature]} title={NATURE_HELP[novena.nature]} />
+        <span className="text-[13px] text-muted">{plural(total, 'día', 'días')}{novena.feast && ` · ${novena.feast.label}`}</span>
+      </div>
+      <p className="mb-6 text-[13px] leading-relaxed text-muted">{NATURE_HELP[novena.nature]}</p>
+
+      <HeroCard tone="sacred" icon={novena.image?.icon ?? 'candle'} eyebrow={finished ? 'Novena completada' : running ? 'En curso' : 'Para empezar'} title={finished ? 'Has terminado la novena' : running ? `Día ${cur ?? total} de ${total}` : 'Nueve días de oración'} subtitle={running && p ? `${doneCount(p)} de ${total} días hechos` : timing && timing.daysUntilStart > 0 ? `Para la fiesta (${novena.feast!.label}) conviene empezar el ${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${timing.startDate}T00:00:00Z`))}.` : undefined} className="mb-6">
+        {running && p && <ProgressBar value={doneCount(p) / total} className="mb-4 !bg-white/30" />}
+        {!running && !finished && (
+          <>
+            <label htmlFor="intention" className="mb-1 block text-[12px] font-semibold uppercase tracking-wider opacity-80">Tu intención (opcional)</label>
+            <input id="intention" value={intention} maxLength={200} onChange={(e) => setIntention(e.target.value)} placeholder="Por quién o por qué rezas" className="mb-3 min-h-[48px] w-full rounded-2xl bg-white/90 px-4 text-[16px] text-[#2b2118] placeholder:text-[#2b2118]/50 focus:outline-none focus:ring-2 focus:ring-white" />
+          </>
+        )}
+        {running ? (
+          <Link href={href(cur ?? total)} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white/90 px-6 text-[16px] font-semibold text-[#2b2118]">Continuar: día {cur ?? total}</Link>
+        ) : finished ? (
+          <button type="button" onClick={() => setConfirm('restart')} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white/90 px-6 text-[16px] font-semibold text-[#2b2118]">Volver a hacerla</button>
+        ) : (
+          <button type="button" disabled={busy || total === 0} onClick={() => void begin()} className="tap inline-flex min-h-[52px] w-full items-center justify-center rounded-full bg-white/90 px-6 text-[16px] font-semibold text-[#2b2118] disabled:opacity-60">Comenzar la novena</button>
+        )}
+      </HeroCard>
+
+      {p?.intention && <p className="mb-6 rounded-2xl bg-sunken px-4 py-3 text-[14px]"><span className="eyebrow mr-2">Tu intención</span>{p.intention}</p>}
+
+      {(running || finished) && (
+        <Section title="Los días">
+          <div className="grid grid-cols-5 gap-2 sm:grid-cols-9">
+            {novena.days.map((x) => (
+              <Link key={x.day} href={href(x.day)} aria-label={`Día ${x.day}${p?.done[x.day] ? ' (hecho)' : ''}`} className={`tap grid h-12 place-items-center rounded-2xl text-[15px] font-semibold ring-1 ${p?.done[x.day] ? 'bg-ok/15 text-ok ring-ok/30' : x.day === cur ? 'bg-fg text-bg ring-fg' : 'bg-surface ring-line'}`}>
+                {p?.done[x.day] ? <CheckIcon size={18} /> : x.day}
+              </Link>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {novena.introduction && <Section title="Origen e historia"><div className="prayer-text"><Markdown text={novena.introduction} /></div></Section>}
+      {novena.purpose && <Section title="Finalidad"><div className="prayer-text"><Markdown text={novena.purpose} /></div></Section>}
+
+      {(novena.attribution || (novena.sources && novena.sources.length > 0)) && (
+        <Section title="Fuentes y atribución">
+          {novena.attribution && <p className="mb-2 text-[14px] text-muted">{novena.attribution}</p>}
+          {novena.sources && (
+            <ul className="list-disc space-y-1 pl-5 text-[14px] text-muted">
+              {novena.sources.map((s, i) => <li key={i}>{s.url ? <a href={s.url} target="_blank" rel="noreferrer" className="underline">{s.label}</a> : s.label}</li>)}
+            </ul>
+          )}
+        </Section>
+      )}
+
+      <div className="mb-8 flex flex-wrap gap-3">
+        <PrayerAddToRoutine itemKey={`novena:${id}`} title={novena.title} />
+        {running && <button type="button" onClick={() => setConfirm('restart')} className={btnGhost}>Reiniciar</button>}
+        {p && <button type="button" onClick={() => setConfirm('abandon')} className={btnGhost}>{finished ? 'Quitar del progreso' : 'Abandonar'}</button>}
+      </div>
+
+      <Modal open={confirm !== null} onClose={() => setConfirm(null)} title={confirm === 'restart' ? '¿Empezar de nuevo?' : '¿Abandonar la novena?'} variant="dialog">
+        <p className="mb-4 text-sm text-muted">{confirm === 'restart' ? 'Se borrará el progreso actual y volverás al día 1. Se conserva tu intención.' : 'Se borrará el progreso de esta novena. Podrás empezarla otra vez cuando quieras.'}</p>
+        <div className="flex flex-wrap gap-2">
+          <button type="button" className="tap min-h-[44px] rounded-full bg-fg px-5 text-sm font-medium text-bg" onClick={() => { const c = confirm; setConfirm(null); void (c === 'restart' ? restartNovena(id).then(() => router.push(href(1))) : abandonNovena(id)); }}>
+            {confirm === 'restart' ? 'Sí, empezar de nuevo' : 'Sí, abandonar'}
+          </button>
+          <button type="button" onClick={() => setConfirm(null)} className="tap min-h-[44px] rounded-full px-5 text-sm ring-1 ring-line">Cancelar</button>
+        </div>
+      </Modal>
+    </div>
+  );
+}

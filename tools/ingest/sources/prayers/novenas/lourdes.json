@@ -1,0 +1,137 @@
+{
+  "id": "lourdes",
+  "title": "Novena a Nuestra Señora de Lourdes",
+  "group": "marian",
+  "description": "Nueve días con la Virgen de Lourdes, consuelo de los enfermos, para preparar la fiesta del 11 de febrero y la Jornada Mundial del Enfermo.",
+  "image": {
+    "icon": "hands",
+    "tint": "#4F7FA8"
+  },
+  "introduction": "Entre el 11 de febrero y el 16 de julio de 1858, la joven Bernadette Soubirous, de catorce años, afirmó haber visto dieciocho veces a «una Señora» en la gruta de Massabielle, junto a Lourdes (Francia). El 25 de marzo, la Señora le dijo en occitano: «Que soy era Immaculada Councepciou» («Yo soy la Inmaculada Concepción»), cuatro años después de la definición del dogma por Pío IX. Pidió oración, penitencia y que se construyera allí una capilla; manó una fuente.\n\nEl obispo de Tarbes, monseñor Laurence, tras una investigación, reconoció las apariciones el 18 de enero de 1862 y autorizó el culto. Bernadette entró en las Hermanas de la Caridad de Nevers, murió en 1879 y fue canonizada en 1933. Lourdes es hoy uno de los grandes santuarios marianos, meta de enfermos y peregrinos.\n\nEn 1992, san Juan Pablo II instituyó la Jornada Mundial del Enfermo, que se celebra desde 1993 cada año el 11 de febrero, memoria de Nuestra Señora de Lourdes. Esta novena es piedad popular, libre y voluntaria.",
+  "purpose": "Confiar a la Virgen a los enfermos, a quienes los cuidan y a nuestras propias fragilidades; crecer en la oración, la conversión y la solidaridad con los que sufren. No promete curaciones: pide la gracia de vivir la enfermedad y el cuidado con fe y esperanza. Culmina en la Misa de la memoria, donde muchas comunidades celebran la Unción de los enfermos.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 2,
+    "day": 11,
+    "label": "Memoria de Nuestra Señora de Lourdes y Jornada Mundial del Enfermo"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Santa María, Inmaculada, salud de los enfermos, nos ponemos en tu presencia. Tú, que sonreíste a una niña pobre, mírame también a mí. Que esta novena nos acerque a Cristo, médico del cuerpo y del alma. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Una niña pobre",
+      "reading": "1 Co 1,26-29",
+      "reflection": "Bernadette era la mayor de una familia muy pobre, enfermiza y casi sin instrucción. Dios la eligió precisamente a ella. San Pablo lo había dicho: Dios escoge lo débil del mundo para confundir a los fuertes. Lourdes comienza con una lección de humildad.\n\nLa fuerza de la fe no depende de nuestros recursos ni de nuestra salud. A veces nos sentimos pequeños, poco útiles, cansados de nuestras limitaciones. Hoy podemos dar gracias porque Dios no nos quiere perfectos, sino disponibles. En la fragilidad de Bernadette, como en la de tantos enfermos de hoy, se manifiesta algo del misterio de la cruz.",
+      "prayer": "Señor, que miras a los pequeños, gracias porque me recibes tal como soy. Por intercesión de santa Bernardita, ayúdame a aceptar mi pequeñez sin amargura y a ponerla en tus manos. Que mi debilidad sea camino para tu gracia. Amén."
+    },
+    {
+      "day": 2,
+      "title": "La Señora que sonríe y reza",
+      "reading": "Lc 18,1-8",
+      "reflection": "Bernadette contó que la Señora llevaba un rosario entre las manos y que se unía al Gloria mientras ella rezaba. No hay en las apariciones espectáculo, sino oración sencilla. La Virgen enseña con su ejemplo la perseverancia.\n\nJesús nos invita a orar siempre sin desanimarnos. Cuando estamos enfermos o preocupados, rezar a veces parece inútil. Pero la oración no es magia: es relación con Dios, que nos escucha y nos fortalece de maneras que no siempre prevemos. Hoy podemos dedicar unos minutos al Rosario o a un Ave María meditada, uniéndonos a tantos enfermos y peregrinos que rezan en Lourdes.",
+      "prayer": "Madre de la oración, enséñame a rezar con sencillez y constancia. Cuando me falten las palabras o la fuerza, que baste mi presencia ante Dios. Acompaña a quienes rezan desde una cama de hospital y haz que nadie se sienta solo. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Penitencia y conversión",
+      "reading": "Mc 1,14-15",
+      "reflection": "Uno de los mensajes de Lourdes, según el testimonio de Bernadette, fue la llamada a la penitencia. Es la misma invitación de Jesús al comienzo de su predicación: «Convertíos y creed en el Evangelio». No se trata de castigos externos, sino de cambiar el corazón y volver a Dios.\n\nLa conversión es un camino diario. Hoy podemos examinar con serenidad qué actitudes nos alejan de Dios y de los demás: rencores, egoísmo, indiferencia. Dios no se cansa de perdonar. Si hace tiempo que no nos acercamos al sacramento de la reconciliación, esta novena es una buena ocasión para hacerlo, sin miedo, con confianza en su misericordia.",
+      "prayer": "Señor Jesús, médico de las almas, cúrame de mis pecados y de mi dureza de corazón. Dame la gracia de convertirme sinceramente. Por intercesión de María Inmaculada, ayúdame a acercarme con confianza a tu perdón y a comenzar de nuevo. Amén."
+    },
+    {
+      "day": 4,
+      "title": "El agua de la fuente",
+      "reading": "Jn 4,13-14",
+      "reflection": "En la gruta, la Señora pidió a Bernadette que bebiera y se lavara en la fuente. La joven escarbó la tierra y brotó un manantial. Para muchos peregrinos, el agua de Lourdes es signo del Bautismo y de la vida nueva; la Iglesia no la considera medicina mágica, sino un recuerdo de que Cristo es agua viva.\n\nJesús prometió a la samaritana un agua que sacia para siempre. Nuestra sed más profunda no se calma con cosas, sino con la presencia de Dios. Hoy podemos hacer la señal de la cruz con agua bendita, recordando nuestro Bautismo y pidiendo a Cristo que sacie nuestra sed de paz, de sentido y de amor.",
+      "prayer": "Jesús, fuente de agua viva, sacia mi sed de ti. Por María, que nos acerca a tu manantial, renueva en mí la gracia del Bautismo y la alegría de ser hijo de Dios. Lava mis culpas, calma mis angustias y hazme fuente de consuelo para otros. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Inmaculada Concepción",
+      "reading": "Lc 1,28",
+      "reflection": "«Yo soy la Inmaculada Concepción». Con estas palabras la Señora se dio a conocer. La Iglesia las ha recibido como una confirmación del dogma definido en 1854: María fue preservada del pecado desde su concepción, por pura gracia de Dios en previsión de los méritos de Cristo.\n\nEsta verdad nos habla de nuestra dignidad: Dios quiere hacer en nosotros lo que hizo en María, aunque en nuestro caso a través del perdón y la gracia a lo largo de la vida. Hoy podemos agradecer la belleza del plan de Dios y pedir que su gracia nos transforme. Contemplar a la Inmaculada es descubrir hacia dónde nos lleva el amor de Dios.",
+      "prayer": "Santa María, Inmaculada, gracias por mostrarnos la obra de Dios en ti. Haz que yo también me deje transformar por su gracia. Que mi vida refleje, aunque sea tenuemente, la belleza de un corazón entregado a Dios, y que me atreva a confiar en que él completa lo que empieza en mí. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Consuelo de los enfermos",
+      "reading": "Mt 11,28-30",
+      "reflection": "«Venid a mí todos los que estáis cansados y agobiados, y yo os aliviaré». Jesús no oculta el sufrimiento ni lo banaliza. En Lourdes, miles de enfermos son recibidos con ternura. No todos se curan en el cuerpo, pero muchos regresan con paz interior y una nueva manera de vivir su enfermedad.\n\nSi estamos enfermos, podemos ofrecer a Cristo nuestro cansancio. Si cuidamos a alguien, podemos pedir paciencia y fuerzas. La Iglesia reconoce con prudencia ciertos hechos extraordinarios en Lourdes, pero el mayor milagro suele ser silencioso: el amor que sostiene a una familia, la esperanza que no se apaga.",
+      "prayer": "Salud de los enfermos, ruega por todos los que sufren en el cuerpo o en el espíritu. Dales alivio, esperanza y compañía. Y a quienes los cuidan, concédeles paciencia y ternura. Que Cristo, nuestro consuelo, nos sostenga a todos. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Una capilla y una procesión",
+      "reading": "Hch 2,42-47",
+      "reflection": "La Señora pidió que se construyera una capilla y que se acudiera allí en procesión. Es decir, quiso un pueblo reunido, que camina y reza junto. La fe no es solo un asunto privado: se vive en comunidad, con la Eucaristía, la oración compartida y la ayuda mutua.\n\nLourdes lo muestra: voluntarios, camilleros, enfermos y sanos conviven en igualdad. Hoy podemos preguntarnos cómo participamos en nuestra comunidad cristiana y si hay alguien que se siente aislado. Un enfermo de nuestra parroquia, un anciano solo, un vecino hospitalizado necesitan que alguien los acompañe. La comunidad es ese manto de cuidado que la Virgen desea.",
+      "prayer": "Virgen de Lourdes, ayúdanos a ser una comunidad que camina unida, atenta a los más frágiles. Que ningún enfermo ni anciano quede olvidado. Haznos peregrinos de esperanza, dispuestos a llevar a otros hasta Jesús, y atentos para sostener a quien no puede caminar solo. Amén."
+    },
+    {
+      "day": 8,
+      "title": "El buen samaritano",
+      "reading": "Lc 10,25-37",
+      "reflection": "Jesús responde a «¿quién es mi prójimo?» con la historia de un hombre que se detiene ante un herido. En Lourdes y en tantos hospitales y hogares, hay personas que se detienen: médicos, enfermeras, voluntarios, familiares. Cuidar es una forma concreta de amar y de seguir a Cristo.\n\nLa Jornada Mundial del Enfermo nos recuerda que la enfermedad es también ocasión para que la sociedad y la Iglesia se hagan más humanas. Hoy podemos pensar en un gesto concreto: visitar, llamar, preparar una comida, acompañar a una cita médica. A veces lo que más necesita un enfermo no es una solución, sino que alguien se quede a su lado.",
+      "prayer": "Señor Jesús, buen samaritano, haz que mis ojos vean a quien sufre y mis pies no pasen de largo. Bendice a quienes consagran su vida a cuidar. Dame un corazón compasivo y manos útiles. Por intercesión de la Virgen de Lourdes, haz que nuestra comunidad sea siempre un lugar de cuidado. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Esperanza que no defrauda",
+      "reading": "Ap 21,1-4",
+      "reflection": "El último libro de la Biblia promete que Dios enjugará toda lágrima y que no habrá más muerte ni dolor. Lourdes es un signo de esa promesa. Allí la fragilidad no se esconde, sino que se presenta con dignidad ante Dios.\n\nAl terminar la novena, damos gracias por lo vivido y nos ponemos otra vez en camino. Podemos participar en la Misa de la memoria de la Virgen de Lourdes y, quien lo necesite, solicitar la Unción de los enfermos, que es un sacramento de consuelo y fortaleza, no solo para el final de la vida. Que la esperanza sea nuestro equipaje, junto a María, Salud de los enfermos.",
+      "prayer": "Nuestra Señora de Lourdes, gracias por tu cercanía. Concédenos la esperanza de que Dios enjugará toda lágrima. Cuida de los enfermos, de los moribundos y de sus familias. Y llévanos a todos, un día, a la alegría eterna con tu Hijo Jesús. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a Nuestra Señora de Lourdes",
+      "text": "Santa María, Inmaculada, Virgen de Lourdes, que te mostraste a la pequeña Bernadette en la gruta de Massabielle, te encomendamos a los enfermos, a sus familias y a quienes los atienden. Alivia el dolor, sostén la esperanza, y haznos servidores de quienes sufren. Enséñanos a rezar, a convertirnos y a confiar en tu Hijo, Jesucristo, nuestro Señor, que vive y reina por los siglos de los siglos. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Mons. Laurence, obispo de Tarbes: reconocimiento de las apariciones (18-1-1862)"
+    },
+    {
+      "label": "Santuario de Lourdes: historia de las apariciones"
+    },
+    {
+      "label": "Juan Pablo II: instauración de la Jornada Mundial del Enfermo (1992)"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "lourdes",
+    "enfermos",
+    "febrero"
+  ]
+}

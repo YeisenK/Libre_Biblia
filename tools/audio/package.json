@@ -1,0 +1,10 @@
+{
+  "name": "@bc/audio",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generador de paquetes de audio de oración con las voces de Juglar (md2audio / Qwen3-TTS)",
+  "scripts": {
+    "generar": "../ingest/node_modules/.bin/tsx src/cli.ts",
+    "test": "../ingest/node_modules/.bin/tsc -p tsconfig.json --noEmit"
+  }
+}

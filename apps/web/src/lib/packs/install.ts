@@ -44,7 +44,7 @@ export function entryFromPack(pack: ContentPack, bytes: number, sha256: string):
     bytes,
     sha256,
     authority: bible ? 'scripture' : m.authority,
-    ...(bible ? { collection: 'Biblias' } : pack.kind === 'daily' ? { collection: 'Versículo del día' } : m.collection ? { collection: m.collection } : {}),
+    ...(bible ? { collection: 'Biblias' } : pack.kind === 'daily' ? { collection: 'Versículo del día' } : pack.kind === 'prayers' ? { collection: 'Oraciones' } : pack.kind === 'audio' ? { collection: 'Voces de oración' } : m.collection ? { collection: m.collection } : {}),
     ...(m.description ? { description: m.description } : {}),
     ...(b?.translationStatus ? { translationStatus: b.translationStatus } : {}),
     ...(b?.ecclesiasticalApproval !== undefined ? { ecclesiasticalApproval: b.ecclesiasticalApproval } : {}),
@@ -123,6 +123,23 @@ export async function installPack(
       });
       await db.installedPacks.put(rec);
     });
+  } else if (pack.kind === 'prayers') {
+    await db.transaction('rw', [db.installedPacks, db.prayerPacks], async () => {
+      await db.prayerPacks.put({ id: pack.id, pack });
+      await db.installedPacks.put(rec);
+    });
+  } else if (pack.kind === 'audio') {
+    const clips = pack.clips;
+    await db.transaction('rw', [db.installedPacks, db.audioPacks, db.audioClips], async () => {
+      await db.audioClips.where('packId').equals(pack.id).delete();
+      let n = 0;
+      for (const c of clips) {
+        await db.audioClips.put({ packId: pack.id, key: c.key, voice: pack.meta.voice.id, mime: c.mime, seconds: c.seconds, blob: base64ToBlob(c.data, c.mime) });
+        progress(++n, clips.length);
+      }
+      await db.audioPacks.put({ packId: pack.id, forPack: pack.meta.forPack, voice: pack.meta.voice, title: pack.meta.title, clips: clips.length, source: pack.meta.source });
+      await db.installedPacks.put(rec);
+    });
   } else {
     const rows: SectionRow[] = pack.sections.map((s, i) => ({ docId: pack.id, path: s.path, order: i, depth: s.depth, ...(s.title ? { title: s.title } : {}), text: s.text }));
     await db.transaction('rw', [db.installedPacks, db.documents, db.documentSections, db.searchIndexes], async () => {
@@ -155,8 +172,18 @@ export async function installPack(
   return rec;
 }
 
+function base64ToBlob(b64: string, mime: string): Blob {
+  const bin = atob(b64);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new Blob([bytes], { type: mime });
+}
+
 export async function removePack(db: AppDb, id: string) {
-  await db.transaction('rw', [db.installedPacks, db.bibleMeta, db.bibleVerses, db.documents, db.documentSections, db.searchIndexes, db.dailyEntries, db.dailyMeta], async () => {
+  await db.transaction('rw', [db.installedPacks, db.bibleMeta, db.bibleVerses, db.documents, db.documentSections, db.searchIndexes, db.dailyEntries, db.dailyMeta, db.prayerPacks, db.audioPacks, db.audioClips], async () => {
+    await db.prayerPacks.delete(id);
+    await db.audioPacks.delete(id);
+    await db.audioClips.where('packId').equals(id).delete();
     await db.dailyEntries.where('packId').equals(id).delete();
     await db.dailyMeta.delete(id);
     await db.bibleVerses.where('packId').equals(id).delete();

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "oracion-por-el-hogar",
+    "title": "Por el hogar",
+    "categories": [
+      "familia",
+      "proteccion"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor, bendice nuestro hogar. Que en él reine la fe, la paz, el respeto y la caridad. Protege a quienes viven aquí y a quienes nos visitan. Que nunca falten el pan, el perdón ni la esperanza. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-la-familia",
+    "title": "Por la familia",
+    "categories": [
+      "familia"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor, guarda a nuestra familia en tu amor. Danos paciencia para comprendernos, humildad para pedir perdón, generosidad para servirnos y fortaleza para superar las dificultades. Que Jesucristo sea el centro de nuestro hogar. Amén.",
+    "context": "El Catecismo llama a la familia «Iglesia doméstica» (CIC 1655-1658).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-esposos",
+    "title": "Por los esposos",
+    "categories": [
+      "familia"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor, bendice nuestro matrimonio.\nHaz que nos amemos con un amor fiel, paciente y generoso,\nque sepamos perdonarnos cada día\ny que nuestro hogar sea signo de tu amor.\nQue juntos te busquemos y juntos te sirvamos.\nPor Jesucristo, nuestro Señor. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "context": "El matrimonio cristiano es un sacramento al servicio de la comunión (CIC 1601-1666).",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-hijos",
+    "title": "Por los hijos",
+    "categories": [
+      "familia"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Padre bueno, tú nos has confiado a nuestros hijos.\nCuídalos y protégelos; haz que crezcan en sabiduría, en edad y en gracia (Lc 2,52).\nDanos paciencia para educarlos, ejemplo para guiarlos y confianza para soltarlos.\nQue encuentren en ti su camino.\nPor Jesucristo, nuestro Señor. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "scripture": [
+      "Lc 2,52"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-el-trabajo",
+    "title": "Por el trabajo y los estudios",
+    "categories": [
+      "familia",
+      "manana"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "prayer",
+    "text": "Señor, bendice mi trabajo y mis estudios. Concédeme inteligencia para aprender, constancia para esforzarme, honestidad para actuar y humildad para reconocer mis errores. Que mis capacidades sirvan al bien de los demás y a tu gloria. Amén.",
+    "context": "El trabajo humano participa de la obra creadora y redentora de Dios (CIC 2427).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-antes-de-viajar",
+    "title": "Antes de viajar",
+    "categories": [
+      "familia",
+      "proteccion"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor, acompáñame en este viaje. Guárdame de todo peligro, concédeme prudencia y haz que llegue con bien a mi destino. Protege también a quienes permanecen en casa y a todos los que comparten el camino. Por Jesucristo, nuestro Señor. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-la-paz",
+    "title": "Por la paz",
+    "categories": [
+      "familia",
+      "proteccion",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Dios de paz, aparta de los pueblos el odio, la violencia y la injusticia. Inspira a quienes gobiernan, protege a los inocentes y mueve nuestros corazones a trabajar por la reconciliación. Haznos constructores de paz. Por Jesucristo, nuestro Señor. Amén.",
+    "context": "«La paz es obra de la justicia y efecto de la caridad» (CIC 2304, cita a Gaudium et spes 78).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-el-papa-y-la-iglesia",
+    "title": "Por el Papa y la Iglesia",
+    "categories": [
+      "familia"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor, protege al Santo Padre, a los obispos, sacerdotes, diáconos, religiosos y a todo tu pueblo. Concédeles fidelidad al Evangelio, unidad en la caridad y valentía para anunciar a Cristo. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-las-vocaciones",
+    "title": "Por las vocaciones",
+    "categories": [
+      "familia"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor Jesús, Pastor eterno, envía trabajadores a tu mies. Despierta en los jóvenes la generosidad para responder a tu llamada y acompaña a quienes se preparan para el sacerdocio, la vida consagrada y el matrimonio cristiano. Amén.",
+    "scripture": [
+      "Mt 9,37-38"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-la-paz-san-francisco",
+    "title": "Señor, haz de mí un instrumento de tu paz",
+    "altTitles": [
+      "Oración por la paz (atribuida a san Francisco)"
+    ],
+    "categories": [
+      "fundamentales",
+      "proteccion"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor, haz de mí un instrumento de tu paz:\ndonde haya odio, ponga yo amor;\ndonde haya ofensa, ponga yo perdón;\ndonde haya discordia, ponga yo unión;\ndonde haya error, ponga yo verdad;\ndonde haya duda, ponga yo fe;\ndonde haya desesperación, ponga yo esperanza;\ndonde haya tinieblas, ponga yo luz;\ndonde haya tristeza, ponga yo alegría.\n\nOh, Maestro, que no busque tanto\nser consolado como consolar;\nser comprendido como comprender;\nser amado como amar.\nPorque dando se recibe,\nperdonando se es perdonado,\ny muriendo se resucita a la vida eterna. Amén.",
+    "context": "Se conoce popularmente como «oración de san Francisco», pero **no es de san Francisco de Asís**: no aparece en ninguno de sus escritos ni en las fuentes franciscanas antiguas. Su texto más antiguo conocido se publicó, sin firma, en diciembre de 1912 en la revista francesa *La Clochette*, con el título «Belle prière à faire pendant la messe»; se ha atribuido, sin certeza, a su fundador, el P. Esther Bouquerel. Se asoció a san Francisco al imprimirse en 1918 tras una estampa del santo, y se difundió después con esa atribución. Por eso no se le atribuye autor aquí; su contenido es plenamente evangélico.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Origen de la «Oración por la paz» (La Clochette, 1912)",
+        "url": "https://en.wikipedia.org/wiki/La_Clochette"
+      },
+      {
+        "label": "Christian Renoux, The Origin of the Peace Prayer of St. Francis",
+        "url": "https://franciscan-archive.org/franciscana/peace.html"
+      }
+    ],
+    "minutes": 2
+  }
+]

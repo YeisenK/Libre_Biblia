@@ -1,0 +1,271 @@
+{
+  "sets": [
+    {
+      "set": "joyful",
+      "title": "Misterios gozosos",
+      "weekdays": [
+        1,
+        6
+      ],
+      "description": "Contemplan la infancia de Jesús, desde la Anunciación hasta el Niño perdido y hallado. Tradicionalmente, lunes y sábado."
+    },
+    {
+      "set": "luminous",
+      "title": "Misterios luminosos",
+      "weekdays": [
+        4
+      ],
+      "description": "Contemplan la vida pública de Jesús, «misterios de la luz». Los propuso san Juan Pablo II en 2002. Jueves."
+    },
+    {
+      "set": "sorrowful",
+      "title": "Misterios dolorosos",
+      "weekdays": [
+        2,
+        5
+      ],
+      "description": "Contemplan la pasión y muerte de Cristo. Tradicionalmente, martes y viernes."
+    },
+    {
+      "set": "glorious",
+      "title": "Misterios gloriosos",
+      "weekdays": [
+        3,
+        0
+      ],
+      "description": "Contemplan la resurrección de Cristo y la gloria de María. Tradicionalmente, miércoles y domingo."
+    }
+  ],
+  "mysteries": [
+    {
+      "set": "joyful",
+      "n": 1,
+      "title": "La Encarnación del Hijo de Dios",
+      "ref": "Lc 1,26-38",
+      "fruit": "La humildad",
+      "reflection": "El ángel saluda a una joven de Nazaret con un nombre nuevo: «llena de gracia». María se turba, pregunta y, al fin, responde con toda su persona: «Hágase en mí según tu palabra». En ese «sí» sencillo el Hijo de Dios comienza a ser uno de nosotros. Contempla su humildad: no se apoya en sus fuerzas, sino en la fidelidad de Dios. El Catecismo recuerda que María «se entregó totalmente a la persona y a la obra de su Hijo» (CIC 494). Pide a Dios un corazón disponible para acoger su voluntad, aun cuando no la comprendas del todo.",
+      "teaching": "Dios viene al mundo pidiendo el «sí» libre de una criatura."
+    },
+    {
+      "set": "joyful",
+      "n": 2,
+      "title": "La Visitación de Nuestra Señora a su prima santa Isabel",
+      "ref": "Lc 1,39-56",
+      "fruit": "El amor al prójimo",
+      "reflection": "Apenas ha concebido, María «se puso en camino y fue deprisa» a casa de Isabel. Quien lleva a Cristo no se queda con él: lo comparte y sirve. Isabel reconoce al Señor en María y el niño salta de gozo en su seno. De la alegría de las dos mujeres nace el Magníficat, la gran alabanza de María, que el Catecismo presenta como modelo de oración (CIC 2619). Medita cómo tu fe puede ponerse en camino hacia quien necesita compañía, ayuda o una palabra de ánimo.",
+      "teaching": "Quien recibe a Cristo sale al encuentro de los demás con alegría y servicio."
+    },
+    {
+      "set": "joyful",
+      "n": 3,
+      "title": "El Nacimiento del Hijo de Dios",
+      "ref": "Lc 2,1-20",
+      "fruit": "El desprendimiento de los bienes del mundo",
+      "reflection": "No hay sitio en la posada, y el Rey del universo nace entre animales y pañales. Los primeros en saberlo son pastores, gente sencilla que vela de noche. Dios elige la pobreza para venir hasta nosotros. «Jesús nació en la humildad de un establo, de una familia pobre» (CIC 525). Contempla al Niño con María y José, y pide un corazón libre de apegos, capaz de reconocer a Dios en lo pequeño y de ver en los pobres el rostro de Cristo.",
+      "teaching": "El Hijo de Dios se hace pobre para enriquecernos con su gracia."
+    },
+    {
+      "set": "joyful",
+      "n": 4,
+      "title": "La Presentación de Jesús en el templo",
+      "ref": "Lc 2,22-38",
+      "fruit": "La obediencia y la pureza de corazón",
+      "reflection": "María y José llevan al Niño al templo para presentarlo al Señor, como manda la Ley. Simeón lo toma en brazos y bendice a Dios: sus ojos han visto la salvación. También anuncia a María que una espada atravesará su alma. La fidelidad humilde de esta familia abre paso a la luz de las naciones. El Catecismo ve en este misterio la ofrenda de Jesús al Padre (CIC 529). Ofrece a Dios tu vida, con lo que tiene de luz y de dolor, y pide la gracia de la obediencia confiada.",
+      "teaching": "La vida se recibe de Dios y se le ofrece de nuevo, con confianza."
+    },
+    {
+      "set": "joyful",
+      "n": 5,
+      "title": "El Niño Jesús perdido y hallado en el templo",
+      "ref": "Lc 2,41-52",
+      "fruit": "La alegría de encontrar a Jesús",
+      "reflection": "Tres días de angustia terminan cuando María y José encuentran a Jesús en el templo, escuchando y preguntando a los maestros. «¿No sabíais que debo estar en la casa de mi Padre?». Aunque no comprenden, María «conservaba todo esto en su corazón». Jesús vuelve con ellos a Nazaret y vive sujeto a ellos. Este pasaje revela ya su misión y su obediencia (CIC 534). Pide la gracia de buscar siempre a Jesús, y de volver a él cuando lo hayas perdido de vista.",
+      "teaching": "Jesús pertenece al Padre y nos enseña a buscarlo con perseverancia."
+    },
+    {
+      "set": "luminous",
+      "n": 1,
+      "title": "El Bautismo de Jesús en el Jordán",
+      "ref": "Mt 3,13-17",
+      "fruit": "La apertura al Espíritu Santo",
+      "reflection": "Jesús se pone en la fila de los pecadores para ser bautizado por Juan. Al salir del agua se abren los cielos, el Espíritu desciende como una paloma y la voz del Padre proclama: «Este es mi Hijo amado». En este momento se manifiesta la Trinidad y Jesús inicia su misión pública. Por el bautismo, el cristiano es asimilado a Cristo y llamado a vivir como hijo de Dios (cf. CIC 536-537). Recuerda tu propio bautismo y renueva tu deseo de vivir como hijo de Dios, dócil al Espíritu.",
+      "teaching": "En el Jordán se manifiesta la Trinidad y Jesús inicia su misión."
+    },
+    {
+      "set": "luminous",
+      "n": 2,
+      "title": "La autorrevelación de Jesús en las bodas de Caná",
+      "ref": "Jn 2,1-12",
+      "fruit": "La confianza en Jesús por medio de María",
+      "reflection": "En una boda se acaba el vino. María se da cuenta, lo presenta a su Hijo y dice a los servidores: «Haced lo que él os diga». Jesús convierte el agua en vino y «manifestó su gloria; y sus discípulos creyeron en él». Es el primero de sus signos. El Catecismo ve aquí la intercesión de María y la bendición del matrimonio (CIC 1613, 2618). Contempla a María atenta a las necesidades de los demás. Presenta a Jesús lo que falta en tu vida y escucha lo que él te pide.",
+      "teaching": "María intercede y nos conduce a hacer lo que Cristo dice."
+    },
+    {
+      "set": "luminous",
+      "n": 3,
+      "title": "El anuncio del Reino de Dios invitando a la conversión",
+      "ref": "Mc 1,14-15",
+      "fruit": "La conversión",
+      "reflection": "«Se ha cumplido el plazo, está cerca el reino de Dios: convertíos y creed en el Evangelio». Con estas palabras Jesús empieza a predicar. El Reino no es una idea, sino una presencia: Dios reina donde se acoge su amor y se perdona. A lo largo de su vida pública Jesús cura, perdona los pecados y llama a todos a la conversión (CIC 543-546, 1427). Medita cuál es el giro que Dios te pide hoy, y confía en su misericordia, que hace posible el cambio.",
+      "teaching": "El Reino de Dios está cerca y nos llama a convertirnos y a creer."
+    },
+    {
+      "set": "luminous",
+      "n": 4,
+      "title": "La Transfiguración de Jesús",
+      "ref": "Mt 17,1-9",
+      "fruit": "El deseo de santidad",
+      "reflection": "En lo alto de un monte, Jesús se transfigura ante Pedro, Santiago y Juan: su rostro brilla como el sol. Moisés y Elías hablan con él y el Padre dice: «Este es mi Hijo amado; escuchadlo». La gloria de Cristo, anticipo de la resurrección, fortalece a los discípulos antes de la cruz (CIC 554-556). Pedro quisiera quedarse allí, pero hay que bajar del monte. Pide ser transformado por la escucha de Cristo y la fuerza para seguirlo, también en las horas oscuras.",
+      "teaching": "La gloria de Cristo anima a seguirlo hasta la cruz."
+    },
+    {
+      "set": "luminous",
+      "n": 5,
+      "title": "La institución de la Eucaristía",
+      "ref": "Lc 22,14-20",
+      "fruit": "La adoración",
+      "reflection": "En la última cena Jesús toma el pan y el cáliz y dice: «Esto es mi cuerpo… esta copa es la nueva alianza en mi sangre». Anticipa su entrega en la cruz y la deja a su Iglesia como memorial. La Eucaristía es «fuente y cima de toda la vida cristiana» (CIC 1324). Contempla este don con asombro y gratitud. Pide la gracia de participar en la Misa con fe y de agradecer a Cristo que se queda con nosotros hasta el fin de los tiempos.",
+      "teaching": "Cristo se entrega en la Eucaristía y permanece con su Iglesia."
+    },
+    {
+      "set": "sorrowful",
+      "n": 1,
+      "title": "La oración de Jesús en el huerto",
+      "ref": "Lc 22,39-46",
+      "fruit": "La conformidad con la voluntad de Dios",
+      "reflection": "En Getsemaní, Jesús siente tristeza y angustia. Se postra y ora: «Padre, si quieres, aparta de mí este cáliz; pero que no se haga mi voluntad, sino la tuya». Un ángel lo conforta, y su sudor cae como gotas de sangre. El Catecismo ve en esta oración la sumisión del Hijo al Padre (CIC 612, 2600). Acompaña a Jesús en su soledad. Cuando te toque sufrir o decidir, repite con él: «Hágase tu voluntad», y pide la gracia de velar y orar para no caer en la tentación.",
+      "teaching": "Jesús acepta la voluntad del Padre en la hora de la angustia."
+    },
+    {
+      "set": "sorrowful",
+      "n": 2,
+      "title": "La flagelación del Señor",
+      "ref": "Jn 19,1",
+      "fruit": "La pureza",
+      "reflection": "«Pilato tomó a Jesús y mandó azotarlo». El inocente es castigado como un malhechor. Isaías lo había anunciado: «Él fue traspasado por nuestras rebeldías, triturado por nuestros crímenes… y con sus cicatrices hemos sido curados» (Is 53,5). Cristo no solo padece injustamente, sino que lleva sobre sí nuestros pecados (CIC 601-602). Contempla con respeto este sufrimiento y pide que la gracia de Cristo purifique tu corazón y te dé fortaleza para vivir con limpieza de cuerpo y de alma.",
+      "teaching": "Cristo cargó con nuestros pecados para curarnos con sus heridas."
+    },
+    {
+      "set": "sorrowful",
+      "n": 3,
+      "title": "La coronación de espinas",
+      "ref": "Mt 27,27-31",
+      "fruit": "El valor y la humildad",
+      "reflection": "Los soldados visten a Jesús con un manto, le ponen una corona de espinas, una caña en la mano y se burlan de él: «¡Salve, rey de los judíos!». Es verdaderamente el Rey, pero su reino no es de este mundo y su trono será la cruz. Soporta la burla en silencio. Contempla su humildad y su mansedumbre. Pide la gracia de no buscar los honores del mundo, de soportar con paciencia las humillaciones y de reconocer a Cristo, Rey, en los despreciados.",
+      "teaching": "El Rey humillado manifiesta que su reino no es de este mundo."
+    },
+    {
+      "set": "sorrowful",
+      "n": 4,
+      "title": "Jesús con la cruz a cuestas camino del Calvario",
+      "ref": "Jn 19,16-17; Lc 23,26-32",
+      "fruit": "La paciencia",
+      "reflection": "Jesús carga con su cruz y sale hacia el Calvario. Un hombre de Cirene, Simón, es obligado a ayudarle; unas mujeres lloran. «El que quiera venir en pos de mí, que se niegue a sí mismo, tome su cruz cada día y me siga» (Lc 9,23). Jesús invita a sus discípulos a tomar su cruz y seguirlo (cf. CIC 618). Mira a Jesús con la cruz y pide la gracia de llevar con paciencia las tuyas, de ayudar a quien carga con las suyas y de no desanimarte.",
+      "teaching": "Seguir a Cristo implica tomar la cruz cada día."
+    },
+    {
+      "set": "sorrowful",
+      "n": 5,
+      "title": "La crucifixión y muerte de Nuestro Señor",
+      "ref": "Lc 23,33-46",
+      "fruit": "El perdón de las ofensas",
+      "reflection": "En la cruz Jesús perdona: «Padre, perdónalos, porque no saben lo que hacen». Promete el paraíso al ladrón arrepentido, entrega a su Madre a Juan y a Juan a su Madre, y expira: «Padre, a tus manos encomiendo mi espíritu». Su muerte es una ofrenda de amor para nuestra salvación (CIC 613-617). Quédate junto a la cruz con María. Da gracias por tanto amor y pide la gracia de perdonar a quienes te han ofendido, de confiar en el Padre y de morir en paz.",
+      "teaching": "Jesús muere por amor para reconciliarnos con el Padre."
+    },
+    {
+      "set": "glorious",
+      "n": 1,
+      "title": "La Resurrección del Señor",
+      "ref": "Mt 28,1-10",
+      "fruit": "La fe",
+      "reflection": "Al amanecer, las mujeres encuentran el sepulcro vacío. El ángel anuncia: «No está aquí, ha resucitado». Jesús sale a su encuentro y les dice: «No temáis». La resurrección es el centro de nuestra fe: «si Cristo no ha resucitado, vana es nuestra fe» (1 Co 15,14; cf. CIC 638-655). La muerte no tiene la última palabra. Alégrate con María y los discípulos, y pide una fe firme, que alimente tu esperanza y te haga testigo de Cristo vivo.",
+      "teaching": "Cristo ha resucitado y la muerte ha sido vencida."
+    },
+    {
+      "set": "glorious",
+      "n": 2,
+      "title": "La Ascensión del Señor",
+      "ref": "Hch 1,6-11",
+      "fruit": "La esperanza",
+      "reflection": "Cuarenta días después de la Pascua Jesús sube al cielo ante sus discípulos, que se quedan mirando. Dos ángeles les dicen que volverá del mismo modo. Antes les promete su Espíritu y les encarga ser sus testigos «hasta los confines de la tierra». Cristo ha entrado ya con su humanidad en la gloria: allí intercede por nosotros (CIC 659-667). Pide la esperanza del cielo, la que mueve a trabajar en este mundo sin quedarse «mirando al cielo», y la confianza en que Cristo está siempre con su Iglesia.",
+      "teaching": "Cristo, entronizado junto al Padre, nos abre el camino del cielo."
+    },
+    {
+      "set": "glorious",
+      "n": 3,
+      "title": "La venida del Espíritu Santo",
+      "ref": "Hch 2,1-13",
+      "fruit": "El amor a Dios y los dones del Espíritu",
+      "reflection": "Los apóstoles, reunidos con María, reciben el Espíritu Santo en Pentecostés, como viento recio y lenguas de fuego. Pasan del miedo a la valentía y anuncian a todos las maravillas de Dios. Nace la Iglesia misionera. El Espíritu sigue dando vida a la Iglesia y a cada cristiano (CIC 731-732). Invócalo con confianza: «Ven, Espíritu Santo». Pide sus dones, en especial el amor a Dios y al prójimo, y la docilidad para dejarte guiar.",
+      "teaching": "El Espíritu Santo da vida y fuerza a la Iglesia para la misión."
+    },
+    {
+      "set": "glorious",
+      "n": 4,
+      "title": "La Asunción de Nuestra Señora",
+      "ref": "Lc 1,46-55",
+      "fruit": "La gracia de una buena muerte",
+      "reflection": "Este misterio no se narra en la Escritura; la Iglesia lo cree desde antiguo y el papa Pío XII lo definió como dogma en 1950 (*Munificentissimus Deus*): la Virgen, concluido el curso de su vida terrena, fue elevada en cuerpo y alma a la gloria del cielo. Lo contemplamos con las palabras de su Magníficat: «el Poderoso ha hecho obras grandes en mí». María es la primicia de lo que Dios hará con todos (CIC 966). Pide su ayuda para vivir con esperanza y la gracia de una buena muerte.",
+      "teaching": "María, ya glorificada en cuerpo y alma, anticipa nuestra propia resurrección."
+    },
+    {
+      "set": "glorious",
+      "n": 5,
+      "title": "La Coronación de María Santísima como Reina de cielos y tierra",
+      "ref": "Ap 12,1",
+      "fruit": "La perseverancia y la confianza en María",
+      "reflection": "Este misterio tampoco tiene narración bíblica directa. La tradición lo contempla con la imagen del Apocalipsis: «una mujer vestida del sol, con la luna bajo sus pies y una corona de doce estrellas» (Ap 12,1). María ha sido «elevada por el Señor como Reina del universo» (CIC 966) y por su sí es Madre de la Iglesia. Su reino es de servicio y de intercesión. Acude a ella con confianza filial y pide la gracia de perseverar en el bien hasta alcanzar la corona de gloria.",
+      "teaching": "María, glorificada, intercede como Madre y Reina junto a su Hijo."
+    }
+  ],
+  "extras": [
+    {
+      "id": "fatima",
+      "title": "Oración de Fátima",
+      "place": "after_decade",
+      "prayer": "oracion-fatima",
+      "defaultOn": true,
+      "note": "Tradicional desde Fátima (1917). Opcional: puede omitirse."
+    },
+    {
+      "id": "jaculatoria-maria",
+      "title": "Jaculatoria mariana",
+      "place": "after_decade",
+      "prayer": "jaculatoria-maria",
+      "defaultOn": false,
+      "note": "Invocaciones breves de piedad popular. Opcional."
+    },
+    {
+      "id": "letania",
+      "title": "Letanía lauretana",
+      "place": "final",
+      "prayer": "letania-lauretana",
+      "defaultOn": true,
+      "note": "Costumbre extendida al final del Rosario; opcional."
+    },
+    {
+      "id": "oracion-final-rosario",
+      "title": "Oración final del Rosario",
+      "place": "final",
+      "prayer": "oracion-final-rosario",
+      "defaultOn": true
+    },
+    {
+      "id": "san-miguel",
+      "title": "San Miguel Arcángel",
+      "place": "final",
+      "prayer": "san-miguel-arcangel",
+      "defaultOn": false,
+      "note": "Oración atribuida a León XIII. Opcional."
+    },
+    {
+      "id": "intenciones-papa",
+      "title": "Por las intenciones del Papa",
+      "place": "final",
+      "prayer": "intenciones-papa",
+      "defaultOn": false,
+      "note": "Costumbre de oración por la Iglesia universal. Opcional."
+    }
+  ],
+  "introduction": "El **Santo Rosario** es una oración vocal y meditativa: se repiten con fe y calma el Padre Nuestro, el Ave María y el Gloria, mientras la mente contempla los misterios de la vida de Cristo con María. Se divide en cuatro series de cinco misterios (gozosos, luminosos, dolorosos y gloriosos).\n\nEs una **devoción mariana y cristocéntrica**: en palabras de Juan Pablo II, «compendio del Evangelio» que lleva a contemplar el rostro de Cristo con los ojos de María. No es una oración litúrgica: es piedad popular, libre y recomendable, que no sustituye la Misa, los sacramentos ni la Liturgia de las Horas.\n\n**Cómo rezarlo.** Señal de la cruz, Credo, un Padre Nuestro, tres Ave Marías y un Gloria; después, cinco decenas: se anuncia el misterio, se reza un Padre Nuestro, diez Ave Marías y un Gloria (a lo que se puede añadir la oración de Fátima). Se concluye con la Salve y, si se desea, la letanía lauretana y la oración final.\n\n**Días tradicionales.** Lunes y sábado, gozosos; martes y viernes, dolorosos; miércoles y domingo, gloriosos; jueves, luminosos (*Rosarium Virginis Mariae*, n. 38). Es una propuesta, no una norma.\n\n**Para saber más.** Pablo VI, *Marialis cultus* (1974), nn. 42-55; Juan Pablo II, *Rosarium Virginis Mariae* (2002); Directorio sobre la piedad popular y la liturgia (2001), nn. 197-202; Catecismo de la Iglesia Católica, 971 y 2678."
+}

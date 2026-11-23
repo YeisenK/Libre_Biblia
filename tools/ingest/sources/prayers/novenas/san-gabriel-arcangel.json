@@ -1,0 +1,123 @@
+{
+  "id": "san-gabriel-arcangel",
+  "title": "Novena a san Gabriel Arcángel",
+  "group": "angels",
+  "description": "Nueve días con el mensajero de la Anunciación, para aprender a escuchar y acoger la Palabra de Dios.",
+  "image": {
+    "icon": "angel",
+    "tint": "#4a6fa5"
+  },
+  "introduction": "Gabriel significa «fuerza de Dios». La Escritura lo nombra cuatro veces: en el libro de Daniel explica a un profeta las visiones (Dn 8,15-26) y le anuncia la llegada del Mesías (Dn 9,20-27); en el Evangelio de Lucas anuncia a Zacarías el nacimiento de Juan el Bautista (Lc 1,11-20) y a María el de Jesús (Lc 1,26-38). Su misión es siempre la misma: llevar una palabra de Dios.\n\nDesde la reforma litúrgica de 1969, su fiesta se celebra el **29 de septiembre**, con Miguel y Rafael (antes se celebraba el 24 de marzo). Pío XII lo declaró patrono de las telecomunicaciones en 1951, por su condición de mensajero.\n\nLa novena es piedad popular libre. Respeta el *Directorio sobre la piedad popular y la liturgia* (2001, n. 217): solo veneramos por su nombre a los arcángeles que nombra la Escritura. No existen promesas aseguradas ni prácticas particulares exigidas; la novena nos invita a escuchar a Dios como él hizo, con la ayuda de un mensajero fiel.",
+  "purpose": "Aprender a escuchar y acoger la Palabra de Dios, anunciarla con fidelidad y pedir la intercesión de san Gabriel por quienes trabajan en la comunicación y por las familias que esperan un hijo.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 9,
+    "day": 29,
+    "label": "Santos Arcángeles Miguel, Gabriel y Rafael"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Catecismo de la Iglesia Católica, 328-336 y 484-494"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), 215-217"
+    }
+  ],
+  "saints": [
+    "Gabriel Arcángel"
+  ],
+  "tags": [
+    "arcángeles",
+    "anunciación",
+    "29 de septiembre"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Fuerza de Dios",
+      "reading": "Dn 8,15-19",
+      "reflection": "Gabriel aparece por primera vez en la Biblia ante el profeta Daniel, que queda postrado de temor. El ángel le dice: «Levántate, que yo te explicaré lo que ocurrirá». Su nombre, «fuerza de Dios», indica que no actúa por sí mismo, sino con la fuerza del Señor.\n\nComenzamos la novena sabiendo que lo que Dios nos dice llega acompañado de fuerza para cumplirlo. Cuando Él pide algo, da también la gracia necesaria. Hoy ponemos ante Dios nuestros miedos y desánimos, y pedimos a san Gabriel que nos ayude a levantarnos como Daniel, a escuchar con atención y a no cerrarnos por temor.",
+      "prayer": "San Gabriel, mensajero de Dios, ayúdame a levantarme de mis miedos. Que escuche con confianza lo que el Señor quiere decirme, y que reciba de él la fuerza para cumplirlo. Ruega por mí. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Daniel y la espera del Mesías",
+      "reading": "Dn 9,20-27",
+      "reflection": "Mientras Daniel reza y confiesa los pecados de su pueblo, Gabriel llega «con rápido vuelo» y le dice: «Al comienzo de tus súplicas salió una palabra». El ángel le abre una esperanza: Dios no ha olvidado a su pueblo y enviará a su Ungido.\n\nDios escucha a quien reza con humildad y sinceridad. Hoy damos gracias por la espera de siglos que se cumplió en Jesucristo, y pedimos que en nuestra oración haya también arrepentimiento y confianza. A veces la respuesta tarda, pero la palabra de Dios ya está en camino. Rezar es abrir un espacio para esa respuesta.",
+      "prayer": "Señor, tú escuchas a quien te invoca con humildad. Escucha mi oración y las de mi familia. Gracias por enviar al Salvador y por no olvidar a tu pueblo. Dame paciencia para esperar tu respuesta. Que san Gabriel interceda por mí. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Zacarías y la duda",
+      "reading": "Lc 1,5-20",
+      "reflection": "Gabriel anuncia a Zacarías que Isabel dará a luz un hijo. Zacarías, sacerdote justo, duda: «¿Cómo estaré seguro de esto?». Gabriel responde: «Yo soy Gabriel, el que está ante Dios». Y lo deja mudo hasta el cumplimiento.\n\nIncluso las personas piadosas dudan. La duda no es pecado en sí; el riesgo es dejar que ahogue la confianza. Hoy pensamos en nuestras dudas de fe y de esperanza. Las presentamos al Señor sin esconderlas. Y valoramos el silencio de Zacarías: a veces Dios nos calla para que escuchemos mejor lo que realmente nos dice.",
+      "prayer": "Señor, tú conoces mis dudas. Fortalece mi fe y ayúdame a creer en tu promesa. Enséñame a callar para escuchar y a confiar en lo que no veo. San Gabriel, intercede por mí para que mi corazón se abra a la fe. Amén."
+    },
+    {
+      "day": 4,
+      "title": "La Anunciación",
+      "reading": "Lc 1,26-31",
+      "reflection": "«Alégrate, llena de gracia, el Señor está contigo.» Así saluda Gabriel a una joven de Nazaret. Su turbación es comprensible. El ángel le dice: «No temas». El mensaje es el mayor de la historia: Dios va a hacerse hombre.\n\nContemplamos la escena con asombro. Dios elige lo pequeño y lo escondido. Gabriel no impone: propone, explica y espera una respuesta libre. Hoy damos gracias por el misterio de la Encarnación, y rezamos el Ángelus o el Ave María con especial atención. Pedimos a María que interceda para que también nosotros sepamos recibir lo que Dios nos ofrece.",
+      "prayer": "Santa María, llena de gracia, tú recibiste el saludo del ángel con humildad. Ruega por mí para que reciba el mensaje de Dios con la misma apertura. Gabriel, ayúdame a descubrir lo que el Señor me pide hoy. Amén."
+    },
+    {
+      "day": 5,
+      "title": "El «sí» de María",
+      "reading": "Lc 1,32-38",
+      "reflection": "Gabriel explica a María lo que sucederá: «El Espíritu Santo vendrá sobre ti… para Dios nada hay imposible». Ella responde: «Aquí está la esclava del Señor; hágase en mí según tu palabra». Y el ángel «se retiró».\n\nLa misión de Gabriel termina cuando ella dice «sí». Es la libertad de María la que abre la puerta de la historia a Dios. Hoy pensamos en el «sí» pequeño que Dios nos pide: una conversación pendiente, un servicio, una renuncia, un perdón. No exige grandes gestos, sino disponibilidad. Pedimos a Gabriel ayuda para discernir el mensaje de Dios en lo cotidiano.",
+      "prayer": "Señor, dame la disponibilidad de María para responder «hágase» a lo que me pides. Que mi libertad esté al servicio de tu voluntad. San Gabriel, ayúdame a reconocer tu voz en lo cotidiano y a obedecerla con alegría. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Mensajero de buenas noticias",
+      "reading": "Lc 2,8-14",
+      "reflection": "Aunque en Belén el Evangelio no nombra a Gabriel, un ángel se presenta a los pastores con las mismas palabras: «No teman, les traigo una buena noticia». La misión del mensajero es comunicar alegría. Pío XII lo declaró en 1951 patrono de las telecomunicaciones.\n\nHoy pedimos un corazón y unas palabras que lleven buenas noticias: honestas, serviciales, respetuosas. Pensamos en nuestras conversaciones, en las redes sociales y en cómo usamos la palabra. Rezamos por periodistas, comunicadores, maestros y catequistas, para que comuniquen la verdad con caridad. Y nos preguntamos si lo que decimos construye o destruye.",
+      "prayer": "Señor, que mi palabra sea portadora de buenas noticias. Que no difunda mentiras ni murmuraciones, y que anime y consuele. San Gabriel, protege a quienes comunican, y ayúdame a ser mensajero de la verdad y de la alegría. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Las familias que esperan un hijo",
+      "reading": "Lc 1,39-45",
+      "reflection": "Tras la Anunciación, María visita a Isabel, y el niño salta en el vientre de su madre. Gabriel ha preparado dos anuncios de vida: el de Juan y el de Jesús. Por ello suele encomendarse a su intercesión a las familias que esperan un hijo.\n\nHoy rezamos por los padres que esperan un hijo y por los que desean tenerlo y no pueden; por las madres en peligro, por los niños no nacidos y por quienes sufren la pérdida de un hijo. La vida es un don que se acoge con gratitud. Pedimos que nuestras familias, aunque imperfectas, sean lugares donde la vida es recibida con alegría.",
+      "prayer": "Señor, dador de vida, bendice a las familias que esperan un hijo. Protege a las madres y a los niños no nacidos. Consuela a quienes desean un hijo y no llega, y a quienes lo han perdido. Que san Gabriel interceda por todos. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Escuchar y guardar la Palabra",
+      "reading": "Lc 11,27-28",
+      "reflection": "Una mujer exclama: «Dichoso el vientre que te llevó». Jesús responde: «Dichosos más bien los que escuchan la palabra de Dios y la cumplen». La verdadera grandeza de María es haberla escuchado y cumplido antes de concebirla.\n\nGabriel es un modelo de mensajero y María de oyente. Hoy pensamos en nuestra relación con la Palabra de Dios: ¿la leemos, la meditamos, la ponemos en práctica? Se puede comenzar con un pasaje breve cada día. La Palabra transforma lentamente. Pedimos que no se pierda en el ruido y que sea el centro de nuestro día.",
+      "prayer": "Señor, que escuche tu Palabra y la cumpla. Dame sed de ella y que sea lámpara para mis pasos. San Gabriel, que llevaste la Palabra a María, ayúdame a ponerla en práctica con constancia y alegría. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Todo ha de cumplirse",
+      "reading": "Lc 1,46-55",
+      "reflection": "María responde al mensaje con el Magníficat: «Mi alma glorifica al Señor». Es un himno de gratitud y de esperanza, donde Dios derriba a los poderosos y exalta a los humildes. La Anunciación abre un tiempo nuevo.\n\nConcluimos la novena dando gracias. Por la fuerza de Dios que nos sostiene, por su Palabra que nos guía y por el mensajero que nos la acerca. Podemos rezar el Magníficat con calma y dejar que sus palabras se conviertan en las nuestras. Y nos proponemos algo concreto: una escucha más atenta, una palabra más amable, un sí más generoso.",
+      "prayer": "Mi alma glorifica al Señor, y mi espíritu se alegra en Dios, mi salvador. Gracias, Padre, por tu fidelidad y por san Gabriel, tu mensajero. Que mi vida sea alabanza de tu gloria y cumpla en mí lo que has dicho. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

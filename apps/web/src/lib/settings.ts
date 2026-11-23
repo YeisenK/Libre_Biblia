@@ -6,6 +6,8 @@ export interface UserSettings {
   readingMode: 'chapter' | 'verse' | 'continuous';
   defaultVersion: string | null;
   parallelVersions: string[];
+  /** Mostrar Biblias que no están en español (ni la Vulgata latina). Por defecto no. */
+  showOtherLanguageBibles: boolean;
   /** Biblia con la que se muestra el versículo del día (null = la versión por defecto) */
   dailyBible: string | null;
   /** Qué se muestra como versículo del día: el Evangelio de la Misa (si hay datos) o el ciclo temático */
@@ -23,6 +25,23 @@ export interface UserSettings {
   notifyReadingTime: string;
   notifyPrayer: boolean;
   notifyPrayerTime: string;
+  // ── Oración ──
+  /** Santo Rosario: con cuentas en pantalla o con un rosario propio */
+  rosaryMode: 'digital' | 'physical';
+  rosaryReflections: boolean;
+  rosaryPassages: boolean;
+  /** ids de `RosaryExtra` activados (la oración de Fátima es «fatima») */
+  rosaryExtras: string[];
+  /** Variantes elegidas por oración: { "padre-nuestro": "espana" } */
+  prayerVariants: Record<string, string>;
+  /** Paquete de audio (voz) para oír las oraciones; null = sin voz */
+  prayerVoice: string | null;
+  /** Reproducir automáticamente el audio de cada paso del Rosario */
+  rosaryAutoplay: boolean;
+  /** Tamaño de letra en las pantallas de oración (independiente del lector bíblico) */
+  prayerFontScale: number;
+  /** Mostrar el texto latino debajo cuando exista */
+  prayerShowLatin: boolean;
 }
 
 export const DEFAULT_SETTINGS: UserSettings = {
@@ -33,6 +52,7 @@ export const DEFAULT_SETTINGS: UserSettings = {
   readingMode: 'chapter',
   defaultVersion: null,
   parallelVersions: [],
+  showOtherLanguageBibles: false,
   dailyBible: null,
   verseMode: 'gospel',
   timeZone: null,
@@ -45,6 +65,15 @@ export const DEFAULT_SETTINGS: UserSettings = {
   notifyReadingTime: '20:00',
   notifyPrayer: false,
   notifyPrayerTime: '07:00',
+  rosaryMode: 'digital',
+  rosaryReflections: true,
+  rosaryPassages: true,
+  rosaryExtras: ['fatima'],
+  prayerVariants: {},
+  prayerVoice: null,
+  rosaryAutoplay: false,
+  prayerFontScale: 1,
+  prayerShowLatin: false,
 };
 
 export const SETTINGS_KEY = 'bc.settings';

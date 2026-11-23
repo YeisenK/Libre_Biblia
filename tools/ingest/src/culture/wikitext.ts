@@ -2,14 +2,13 @@
  * Conversión de wikitext (MediaWiki / Wikisource) a texto plano.
  * Funciones puras, sin red. Nunca añade texto: solo elimina marcado.
  */
-import { decodeEntities } from '../thml';
 
 /** Plantillas cuyo primer argumento posicional es contenido (se conserva). */
 const UNWRAP = new Set([
   'bc', 'c', 'centrar', 'centro', 'centrado', 'cursiva', 'sc', 'versalita', 'versalitas', 'derecha',
   'sangría', 'sangria', 'cita', 'bloque', 'tachado', 'subrayado', 'poema', 'poesía', 'poesia', 'verso',
   'x-grande', 'grande', 'pequeño', 'pequeno', 'mayúsculas', 'mayusculas', 'versal', 'sub', 'sup', 'nobr',
-  'justificado', 'letra capital', 'capitular', 'lc', 'ct', 'cs', 'gota', 'may', 'menor', 'bd', 'fd', 'corr',
+  't', 'justificado', 'letra capital', 'capitular', 'lc', 'ct', 'cs', 'gota', 'may', 'menor', 'bd', 'fd', 'corr',
 ]);
 /** Plantillas de título: se convierten en marcador de encabezado. */
 const TITLE = /^t([1-6])$/i;
@@ -18,12 +17,47 @@ const DROP_RE = /^(línea|linea|listaref|reflist|pie|cp|ph|ancla|anclaje\+?|pág
 
 export const HMARK = '\u0001';
 
+/** Entidades HTML con nombre. Los espacios finos/angostos se normalizan a ' ' como &nbsp; (así el texto queda en espacios normales). */
+const NAMED: Record<string, string> = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', shy: '',
+  thinsp: ' ', ensp: ' ', emsp: ' ', hairsp: ' ', numsp: ' ', puncsp: ' ', zwnj: '', zwj: '', lrm: '', rlm: '',
+  mdash: '\u2014', ndash: '\u2013', hellip: '\u2026', laquo: '\u00ab', raquo: '\u00bb', iexcl: '\u00a1', iquest: '\u00bf',
+  middot: '\u00b7', ldquo: '\u201c', rdquo: '\u201d', lsquo: '\u2018', rsquo: '\u2019', sbquo: '\u201a', bdquo: '\u201e',
+  lsaquo: '\u2039', rsaquo: '\u203a', hyphen: '-', minus: '\u2212', times: '\u00d7', deg: '\u00b0', sect: '\u00a7', para: '\u00b6',
+  copy: '\u00a9', reg: '\u00ae', bull: '\u2022', prime: '\u2032', dagger: '\u2020', frac12: '\u00bd', frac14: '\u00bc', frac34: '\u00be',
+  oelig: '\u0153', aelig: '\u00e6', szlig: '\u00df',
+};
+/** Diacríticos de las entidades de letra acentuada (&eacute; &Agrave; &ccedil; &uuml; &ntilde;...). */
+const ACCENTS: Record<string, string> = { acute: '\u0301', grave: '\u0300', circ: '\u0302', uml: '\u0308', tilde: '\u0303', cedil: '\u0327', ring: '\u030a' };
+
+/** Decodifica entidades HTML numéricas y con nombre (&thinsp;, &eacute;, &#8201;, &#x2009;...) en una sola pasada. Las desconocidas se dejan tal cual. */
+export function decodeHtmlEntities(s: string): string {
+  return s.replace(/&(#x[0-9a-f]+|#\d+|[a-z][a-z0-9]*);/gi, (whole, e: string) => {
+    if (e[0] === '#') {
+      const cp = e[1] === 'x' || e[1] === 'X' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+      return Number.isFinite(cp) && cp > 0 && cp <= 0x10ffff ? String.fromCodePoint(cp) : whole;
+    }
+    if (e === 'OElig') return '\u0152';
+    if (e === 'AElig') return '\u00c6';
+    const named = NAMED[e.toLowerCase()];
+    if (named !== undefined) return named;
+    const m = /^([A-Za-z])(acute|grave|circ|uml|tilde|cedil|ring)$/.exec(e);
+    return m ? (m[1]! + ACCENTS[m[2]!]!).normalize('NFC') : whole;
+  });
+}
+
 export interface Collected { templates: Map<string, number>; header: Record<string, string> }
 
 function splitArgs(inner: string): string[] {
   return inner.split('|');
 }
 const isNamed = (a: string) => /^\s*[\p{L}\w\- ]{1,20}=/u.test(a);
+
+/** Texto limpio de un título: sin etiquetas (<br> = espacio, <sup>er</sup> = «er» pegado), sin negritas/cursivas ni entidades. */
+function cleanTitle(a: string): string {
+  return decodeHtmlEntities(a.replace(/<\s*br\s*\/?\s*>/gi, ' ').replace(/<[^>]*>/g, ''))
+    .replace(/'{2,5}/g, '').replace(/\s+/g, ' ').trim();
+}
 
 /** Procesa plantillas de dentro hacia fuera. */
 function resolveTemplates(s: string, c?: Collected): string {
@@ -46,8 +80,12 @@ function resolveTemplates(s: string, c?: Collected): string {
       }
       const t = TITLE.exec(lname);
       if (t) {
-        const txt = rest.filter((a) => !isNamed(a))[0] ?? '';
-        return `\n${HMARK}${t[1]}|${txt.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim()}${HMARK}\n`;
+        // Los argumentos posicionales numéricos ({{T|texto|85}}: tamaño de letra) no son texto.
+        const named = rest.filter((a) => !isNamed(a));
+        const pos = named.filter((a, i) => i === 0 || !/^\s*\d+(?:\.\d+)?\s*%?\s*$/.test(a)).map(cleanTitle).filter(Boolean);
+        // fr.wikisource: {{T3|resumen|CAPÍTULO I}} — con dos textos, el segundo es el rótulo y el primero el argumento, que sigue como línea.
+        const [lead, sub] = pos.length >= 2 ? [pos[1]!, pos[0]!] : [pos[0] ?? '', ''];
+        return `\n${HMARK}${t[1]}|${lead}${HMARK}\n${sub}${sub ? '\n' : ''}`;
       }
       if (lname === '--') return '\u2014';
       if (lname === '...') return '\u2026';
@@ -104,7 +142,7 @@ export function wikitextToText(src: string, opts: ConvertOptions = {}): string {
     .replace(/'{2,5}/g, '')
     .replace(/__[A-Z]+__/g, '')
     .replace(/^----+\s*$/gm, '');
-  s = decodeEntities(s);
+  s = decodeHtmlEntities(s);
   // encabezados de sección ==X== -> marcador (nivel = nº de '=')
   s = s.replace(/^(={2,6})\s*(.*?)\s*\1\s*$/gm, (_m, eq: string, t: string) => `${HMARK}${eq.length - 1}|${t}${HMARK}`);
   const lines = s.split('\n').map((l) => {

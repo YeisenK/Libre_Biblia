@@ -19,7 +19,7 @@ export function VersionSelect({
   return (
     <label className="inline-flex items-center gap-2 text-sm">
       <span className="sr-only">{label}</span>
-      <select className="input !w-auto max-w-[11rem] truncate" value={value} onChange={(e) => onChange(e.target.value)} aria-label={label}>
+      <select className="input !w-auto max-w-[11rem] truncate !rounded-full" value={value} onChange={(e) => onChange(e.target.value)} aria-label={label}>
         {versions.map((v) => {
           const missing = !!book && !v.books.includes(book);
           return (

@@ -1,0 +1,133 @@
+[
+  {
+    "id": "requiem-aeternam",
+    "title": "Descanso eterno (Requiem aeternam)",
+    "altTitles": [
+      "Dales, Señor, el descanso eterno",
+      "Requiem aeternam"
+    ],
+    "categories": [
+      "difuntos",
+      "latin"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "prayer",
+    "text": "Dales, Señor, el descanso eterno,\ny brille para ellos la luz perpetua.\nDescansen en paz. Amén.",
+    "latin": "Requiem aeternam dona eis, Domine,\net lux perpetua luceat eis.\nRequiescant in pace. Amen.",
+    "context": "Súplica por los difuntos, tomada del introito de la Misa de difuntos (que cita 4 Esd 2,34-35). La Iglesia reza por los difuntos desde la antigüedad (CIC 1030-1032; 2 M 12,45).",
+    "scripture": [
+      "2 M 12,45"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-un-difunto",
+    "title": "Por un difunto",
+    "categories": [
+      "difuntos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Dios de misericordia, recibe en tu presencia a tu siervo que ha partido de este mundo. Perdona sus pecados, purifícalo de toda culpa y concédele participar de la vida eterna, donde ya no hay dolor ni llanto, sino paz y alegría en tu presencia. Por Jesucristo, nuestro Señor. Amén.",
+    "context": "Oración de súplica por quien ha muerto, en la comunión de los santos (CIC 954-959, 1032).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-un-familiar-fallecido",
+    "title": "Por un familiar fallecido",
+    "categories": [
+      "difuntos",
+      "familia",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Padre de bondad, pongo en tus manos a mi familiar que ha muerto. Gracias por el tiempo que compartimos y por el bien que recibimos de su vida. Perdona sus faltas, acoge su alma y concede a nuestra familia consuelo y esperanza. Por Cristo, nuestro Señor. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "de-profundis",
+    "title": "De profundis (Salmo 129/130)",
+    "altTitles": [
+      "Desde lo hondo"
+    ],
+    "categories": [
+      "difuntos",
+      "momentos-dificiles",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Desde lo hondo a ti grito, Señor;\nSeñor, escucha mi voz;\nestén tus oídos atentos\na la voz de mi súplica.\n\nSi llevas cuenta de los delitos, Señor,\n¿quién podrá resistir?\nPero de ti procede el perdón,\ny así infundes respeto.\n\nMi alma espera en el Señor,\nespera en su palabra;\nmi alma aguarda al Señor,\nmás que el centinela la aurora.\n\nAguarde Israel al Señor,\ncomo el centinela la aurora;\nporque del Señor viene la misericordia,\nla redención copiosa;\ny él redimirá a Israel\nde todos sus delitos.",
+    "latin": "De profundis clamavi ad te, Domine;\nDomine, exaudi vocem meam.\nFiant aures tuae intendentes\nin vocem deprecationis meae.\nSi iniquitates observaveris, Domine,\nDomine, quis sustinebit?\nQuia apud te propitiatio est,\net propter legem tuam sustinui te, Domine.\nSustinuit anima mea in verbo eius;\nsperavit anima mea in Domino.\nA custodia matutina usque ad noctem,\nsperet Israel in Domino.\nQuia apud Dominum misericordia,\net copiosa apud eum redemptio.\nEt ipse redimet Israel\nex omnibus iniquitatibus eius.",
+    "context": "Salmo penitencial, uno de los siete, que la tradición reza por los difuntos. Numeración de la Vulgata y de los Setenta: 129; numeración hebrea: 130.",
+    "scripture": [
+      "Sal 130,1-8"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "oracion-proximos-a-morir",
+    "title": "Por quienes están próximos a morir",
+    "categories": [
+      "difuntos",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor Jesús, acompaña a quienes se encuentran cerca de la muerte. Dales paz, perdón y confianza en tu misericordia. Asiste a sus familias y concede que nadie muera sin el consuelo de tu amor. Amén.",
+    "context": "La Iglesia acompaña al moribundo con los sacramentos de la Penitencia, la Unción de los enfermos y el Viático (CIC 1524-1525).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  }
+]

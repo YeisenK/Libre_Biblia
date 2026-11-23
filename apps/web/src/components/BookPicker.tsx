@@ -43,7 +43,7 @@ export function BookPicker({ open, onClose, version, books, current, onSelect }:
   return (
     <Modal open={open} onClose={onClose} title={title} wide>
       {step.kind !== 'book' && (
-        <button type="button" className="btn mb-3" onClick={() => setStep(step.kind === 'verse' ? { kind: 'chapter', book: step.book } : { kind: 'book' })}>
+        <button type="button" className="btn mb-3 !rounded-full" onClick={() => setStep(step.kind === 'verse' ? { kind: 'chapter', book: step.book } : { kind: 'book' })}>
           ← {step.kind === 'verse' ? 'Capítulos' : 'Libros'}
         </button>
       )}
@@ -51,7 +51,7 @@ export function BookPicker({ open, onClose, version, books, current, onSelect }:
       {step.kind === 'book' &&
         groups.map((g) => (
           <section key={g.title} className="mb-4">
-            <h3 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">{g.title}</h3>
+            <h3 className="eyebrow mb-2">{g.title}</h3>
             <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
               {g.items.map((b) => {
                 const ok = present.has(b.osis);
@@ -62,7 +62,7 @@ export function BookPicker({ open, onClose, version, books, current, onSelect }:
                       disabled={!ok}
                       title={ok ? undefined : `No disponible en ${version}`}
                       onClick={() => setStep({ kind: 'chapter', book: b.osis })}
-                      className={`btn w-full !justify-between !px-3 text-left ${current?.book === b.osis ? '!border-accent' : ''}`}
+                      className={`btn w-full !justify-between !px-3 text-left ${current?.book === b.osis ? '!border-accent !bg-sunken' : ''}`}
                     >
                       <span className="truncate">{present.get(b.osis)?.name ?? b.names.es}</span>
                       {b.deuterocanonical && (
@@ -85,7 +85,7 @@ export function BookPicker({ open, onClose, version, books, current, onSelect }:
               <li key={n}>
                 <button
                   type="button"
-                  className={`btn w-full !px-0 ${current?.book === step.book && current.chapter === n ? '!border-accent' : ''}`}
+                  className={`btn w-full !px-0 ${current?.book === step.book && current.chapter === n ? '!border-accent !bg-sunken' : ''}`}
                   onClick={() => setStep({ kind: 'verse', book: step.book, chapter: n })}
                 >
                   {n}

@@ -1,0 +1,137 @@
+{
+  "id": "san-francisco-de-asis",
+  "title": "Novena a san Francisco de Asís",
+  "group": "saints",
+  "description": "Nueve días con el pobrecillo de Asís, hermano universal, para aprender la sencillez, la paz y el amor a la creación.",
+  "image": {
+    "icon": "dove",
+    "tint": "#7b6a45"
+  },
+  "introduction": "Francisco nació en Asís (Italia) hacia 1181 o 1182, hijo de un rico comerciante de telas. Tras una juventud mundana, la enfermedad, la cautividad en la guerra y un encuentro con un leproso lo llevaron a un cambio radical: según las fuentes franciscanas, ante el crucifijo de San Damián oyó la invitación a «reparar» la casa del Señor. Renunció a su herencia, abrazó la pobreza evangélica y reunió a los primeros hermanos, de los que nació la Orden de los Hermanos Menores. En 1224, en el monte Alvernia, recibió los estigmas, según el testimonio de Tomás de Celano y de san Buenaventura. Murió en la Porciúncula, junto a Asís, la noche del 3 de octubre de 1226.\n\nGregorio IX lo canonizó el 16 de julio de 1228. Pío XII lo proclamó, con santa Catalina de Siena, patrono primario de Italia (1939), y Juan Pablo II lo declaró patrono de los que promueven la ecología (1979). Su fiesta se celebra el 4 de octubre. Francisco el papa tomó su nombre en 2013.\n\nEsta novena recorre su camino con textos de las fuentes franciscanas y de los escritos del santo, indicando el origen de cada uno.",
+  "purpose": "Seguir a Cristo con sencillez, buscar la paz, amar la creación y servir a los pobres, a ejemplo de san Francisco.\n\nEs una devoción libre y voluntaria, no una obligación ni una garantía de resultados, y no sustituye a la liturgia ni a los sacramentos. Que el santo nos acerque al Evangelio, más que a una imagen idealizada de él.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 10,
+    "day": 4,
+    "label": "Fiesta de san Francisco de Asís"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Altísimo y glorioso Dios, que en san Francisco nos mostraste el rostro humilde de tu Hijo, ilumina las tinieblas de nuestro corazón y danos fe recta, esperanza cierta y caridad perfecta. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El joven de Asís",
+      "reading": "Lc 15,11-24",
+      "reflection": "Francisco vivió una juventud de fiestas y sueños de gloria militar. Fue prisionero en Perusa y enfermó gravemente; esa experiencia comenzó a descolocarlo. Como el hijo pródigo, «entró en sí mismo». A veces solo un quiebre nos hace revisar el rumbo. Pensemos en las circunstancias de nuestra vida que han sido ocasión de reflexión: una enfermedad, una pérdida, una crisis. Pidamos la gracia de aprender de ellas y de volver al Padre. Francisco nos enseña que nunca es tarde para empezar de nuevo y que Dios espera con los brazos abiertos.",
+      "prayer": "Padre, que acoges al que vuelve, ayúdame a entrar en mí mismo y a volver a ti. San Francisco, enséñame a empezar de nuevo. Dame humildad para reconocer mis errores y confianza para creer que siempre me esperas, aunque haya tardado en volver. Amén."
+    },
+    {
+      "day": 2,
+      "title": "El encuentro con el leproso",
+      "reading": "Mt 25,34-40",
+      "reflection": "En su Testamento, Francisco recuerda: «El Señor me dio a mí, hermano Francisco, comenzar a hacer penitencia así: cuando estaba en pecados, me parecía muy amargo ver a los leprosos; y el Señor mismo me llevó entre ellos… y lo que me parecía amargo se me convirtió en dulzura de alma y de cuerpo». Abrazar a quien repugna es abrazar a Cristo. Pensemos en las personas a las que evitamos. Pidamos la gracia de acercarnos sin miedo, con respeto, para descubrir en ellas el rostro del Señor. Pensemos en un gesto concreto de cercanía hacia alguien a quien solemos evitar: un saludo, una pregunta, un rato de escucha.",
+      "prayer": "Señor, dame valor para acercarme a quienes me incomodan. San Francisco, enséñame a ver a Cristo en el que sufre. Que mi miedo no sea la última palabra, y que mi mano no se retire cuando alguien necesite compañía. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Repara mi casa",
+      "reading": "Mt 7,24-27",
+      "reflection": "Ante el crucifijo de San Damián, Francisco oyó: «Francisco, repara mi casa, que, como ves, se derrumba». Al principio reconstruyó con piedras la ermita; luego comprendió que se trataba de la Iglesia entera. La Iglesia se renueva con la conversión de cada uno. Hoy pidamos qué «reparación» necesita nuestra vida y nuestra comunidad: una amistad rota, la oración abandonada, un servicio descuidado. No hace falta hacer grandes cosas; basta empezar con una piedra, con fidelidad, confiando en que Dios construye con lo que le ofrecemos. Un pequeño arreglo para hoy: recomponer un vínculo, retomar la oración del día o ayudar en algo concreto de la parroquia.",
+      "prayer": "Señor, que me llamas a reparar tu casa, empieza por mí. San Francisco, ayúdame a servir a la Iglesia con humildad. Dame constancia para arreglar lo que está a mi alcance, aunque sea pequeño y nadie lo note. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Pobreza evangélica",
+      "reading": "Mt 19,16-22; Flp 2,6-8",
+      "reflection": "Francisco renunció a la herencia de su padre ante el obispo de Asís y abrazó a la «Señora Pobreza». No despreció los bienes ni a quienes los tenían, sino que quiso vivir dependiendo solo de Dios. La pobreza franciscana es libertad: quien no posee, no es poseído. No todos estamos llamados a dejarlo todo, pero sí a desprendernos de lo que nos ata. Examinemos nuestro modo de consumir y de compartir. Pidamos sobriedad, confianza en la providencia y generosidad con los necesitados. Hoy podemos desprendernos de algo que nos sobra y entregarlo a quien lo necesita; el desapego se aprende dando.",
+      "prayer": "Señor, libérame del apego a las cosas. San Francisco, enséñame a vivir con sencillez y a compartir lo que tengo. Que mi riqueza verdadera seas tú, y que lo poco o mucho que tenga sea un medio para servir. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Hermanos de todos",
+      "reading": "Jn 13,34-35; Mt 23,8",
+      "reflection": "Francisco llamaba «hermanos» a todos: a los frailes, a los pobres, a los leprosos, al sultán de Egipto, a quien visitó en 1219 con ánimo de paz. Veía en cada persona un hijo del mismo Padre. Hoy, en un mundo con tantas divisiones, su ejemplo es un reto. Pensemos en nuestras relaciones: ¿tratamos como hermanos a quienes piensan distinto? Hagamos un gesto de acercamiento. La fraternidad empieza en cosas pequeñas: un saludo, una escucha, un perdón. Pidamos por la fraternidad entre las religiones y los pueblos. Un detalle de fraternidad para hoy: interesarse sinceramente por alguien con quien tenemos poco en común.",
+      "prayer": "Padre de todos, haznos hermanos. San Francisco, enséñame a acercarme con respeto a quien es distinto y a trabajar por la paz. Que nadie sea para mí un extraño, y que mis palabras y mis silencios construyan puentes entre las personas y no muros. Amén."
+    },
+    {
+      "day": 6,
+      "title": "El Cántico de las criaturas",
+      "reading": "Sal 148",
+      "reflection": "En 1224-1225, enfermo y casi ciego, Francisco compuso el *Cántico de las criaturas*: «Loado seas, mi Señor, con todas tus criaturas, especialmente el hermano sol… por la hermana luna y las estrellas… por el hermano viento… por la hermana agua… por el hermano fuego… por la hermana nuestra madre tierra». Es uno de los primeros textos poéticos en lengua italiana y un himno a la creación. El papa Francisco tomó de él el título de *Laudato si’*. Salgamos hoy a contemplar el cielo o las plantas, y demos gracias. Cuidar la creación es una forma de alabar a Dios.",
+      "prayer": "Altísimo Señor, alabado seas por todas tus criaturas. San Francisco, ayúdame a cuidar la creación y a verla como un regalo. Que la belleza de la creación me lleve a alabarte y a no dañarla por descuido o por comodidad. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Instrumento de paz",
+      "reading": "Mt 5,9; Jn 14,27",
+      "reflection": "Francisco saludaba: «El Señor te dé la paz». En sus *Admoniciones* dice: «Bienaventurados los pacíficos». Hoy muchos le atribuyen la «Oración por la paz», que no es suya: su primera aparición conocida es una oración anónima de 1912, de inspiración franciscana. Lo que sí es de Francisco es su vida: reconciliar, escuchar, no pagar mal con mal; recordemos su mediación en Gubbio entre la ciudad y el lobo, narrada en las *Florecillas*, relato piadoso. Pensemos en nuestras palabras: ¿construyen o dividen? Pidamos un corazón pacífico, que empiece por la paz interior y llegue a los demás.",
+      "prayer": "Señor, haznos artesanos de paz. San Francisco, enséñame a sembrar concordia donde haya división y a hablar con mansedumbre. Que sepa pedir perdón y perdonar primero, y que mi paz no dependa de tener razón ni de que los demás cambien. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Predicar con la vida",
+      "reading": "Mc 16,15; 1 Jn 3,18",
+      "reflection": "Se atribuye a Francisco la frase «Predicad el Evangelio y, si es necesario, usad palabras»; no hay constancia de que la dijera, aunque expresa bien su espíritu. En su *Regla no bulada* pide que los hermanos «prediquen con sus obras». Francisco predicó con su pobreza, su alegría y su cuidado de los demás. Pensemos en nuestro testimonio: ¿nuestra vida atrae a otros hacia Cristo? Hoy podemos elegir un gesto de bondad, de alegría o de servicio que hable sin palabras. La coherencia es la mejor predicación. Que lo que hagamos hoy hable por sí solo: una promesa cumplida, una tarea bien hecha, una atención inesperada.",
+      "prayer": "Señor, haz que mi vida sea anuncio de tu Evangelio. San Francisco, ayúdame a vivir con alegría y coherencia. Que mi conducta confirme lo que digo creer, y que no me avergüence de ti ni te anuncie con arrogancia. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Hermana muerte",
+      "reading": "Sal 116,15; 2 Co 5,1-8",
+      "reflection": "Francisco murió en la Porciúncula el 3 de octubre de 1226, cantando el salmo 141, según Tomás de Celano. En el *Cántico de las criaturas* añadió una estrofa: «Loado seas, mi Señor, por nuestra hermana la muerte corporal, de la que ningún hombre puede escapar». Para él, la muerte no era enemiga, sino paso al Padre. Concluimos la novena dando gracias por su vida. Pidamos vivir cada día con confianza, encomendar a Dios a nuestros difuntos y esperar con serenidad el encuentro final. Que la sencillez de Francisco nos acompañe.",
+      "prayer": "Padre, gracias por san Francisco de Asís. Concédenos vivir con sencillez, amar tu creación y esperar con paz la vida eterna. Alabado seas por nuestra hermana la muerte, y concédenos acabar nuestros días confiando en tu misericordia y en la compañía de los santos. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración ante el crucifijo",
+      "text": "**Oración ante el crucifijo de San Damián** (atribuida a san Francisco; *Escritos*; hay variantes de traducción)\n\nAltísimo y glorioso Dios, ilumina las tinieblas de mi corazón y dame una fe recta, una esperanza cierta y una caridad perfecta, sentido y conocimiento, Señor, para que cumpla tu santo y veraz mandamiento. Amén.\n\n*Nota: la popular «Oración por la paz» («Señor, hazme un instrumento de tu paz») no es de san Francisco: su primera aparición conocida es anónima, de diciembre de 1912, en la revista francesa La Clochette, y se le atribuyó después. Es una oración hermosa, de inspiración franciscana, pero no debe presentarse como escrito suyo.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "Tomás de Celano, Vida primera y Vida segunda; san Buenaventura, Leyenda mayor"
+    },
+    {
+      "label": "San Francisco de Asís, Testamento; Cántico de las criaturas; Regla no bulada (Escritos, dominio público)"
+    },
+    {
+      "label": "Juan Pablo II, carta apostólica Inter sanctos (1979): patrono de la ecología"
+    },
+    {
+      "label": "La oración «Señor, hazme un instrumento de tu paz»: primera aparición conocida en La Clochette (París, 1912), anónima"
+    }
+  ],
+  "saints": [
+    "san-francisco-de-asis"
+  ],
+  "tags": [
+    "novena",
+    "pobrecillo de Asís",
+    "4 de octubre"
+  ]
+}

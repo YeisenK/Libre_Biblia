@@ -23,7 +23,7 @@ export async function installFromCatalog(entry: CatalogEntry, catalogUrl: string
   dropIndexCache(entry.id);
   const rec = await installPack(db, pack, entry, { catalogUrl, onProgress: (f) => onProgress(f * 0.9, 'guardando') });
   onProgress(0.95, 'indexando');
-  if (rec.kind !== 'daily') await ensureIndex(rec.id, db).catch(() => undefined); // si falla se rehace al buscar
+  if (rec.kind === 'bible' || rec.kind === 'document') await ensureIndex(rec.id, db).catch(() => undefined); // si falla se rehace al buscar
   onProgress(1, 'indexando');
   return rec;
 }
@@ -34,7 +34,7 @@ export async function installFromFile(file: File, onProgress: (f: number, phase:
   const rec = await importPackFile(db, await file.arrayBuffer(), (f) => onProgress(f * 0.9, 'guardando'));
   dropIndexCache(rec.id);
   onProgress(0.95, 'indexando');
-  if (rec.kind !== 'daily') await ensureIndex(rec.id, db).catch(() => undefined);
+  if (rec.kind === 'bible' || rec.kind === 'document') await ensureIndex(rec.id, db).catch(() => undefined);
   return rec;
 }
 

@@ -57,8 +57,8 @@ export function DailySettings() {
   }
 
   return (
-    <section className="card mb-4" aria-labelledby="dv">
-      <h2 id="dv" className="mb-1 font-serif text-lg font-semibold">Versículo del día</h2>
+    <section className="card-soft mb-4" aria-labelledby="dv">
+      <h2 id="dv" className="mb-1 font-display text-[1.15rem]">Versículo del día</h2>
       <p className="mb-3 text-sm text-muted">La cabecera litúrgica (tiempo, celebración y color) se muestra siempre. El versículo depende solo de la fecha, sin aleatoriedad.</p>
 
       <fieldset className="mb-4" data-testid="verse-mode">

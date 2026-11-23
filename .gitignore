@@ -22,3 +22,5 @@ apps/mobile/android/keystore.properties
 apps/mobile/android/local.properties
 apps/mobile/dist/
 .idea/
+tools/audio/.cache/
+tools/art/.cache/

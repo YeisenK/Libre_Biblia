@@ -32,7 +32,7 @@ export async function ensureIndex(packId: string, db: AppDb = getDb()): Promise<
   if (hit) return hit;
   const pack = await db.installedPacks.get(packId);
   if (!pack) throw new Error(`Paquete no instalado: ${packId}`);
-  if (pack.kind === 'daily') throw new Error('El ciclo del versículo del día no se indexa para búsqueda');
+  if (pack.kind !== 'bible' && pack.kind !== 'document') throw new Error('Este paquete no se indexa para la búsqueda general');
   const opts = pack.kind === 'bible' ? bibleOptions : docOptions;
   const stored = await db.searchIndexes.get(packId);
   if (stored && stored.version === pack.version) {

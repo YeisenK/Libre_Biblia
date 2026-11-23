@@ -23,7 +23,7 @@ export function StatusBadges({ meta, className = '' }: { meta: StatusMeta; class
   return (
     <span className={`inline-flex flex-wrap gap-1 ${className}`}>
       {l.map((x) => (
-        <span key={x} className="rounded-full border border-warn px-2 py-0.5 text-xs font-semibold text-warn">
+        <span key={x} className="rounded-full bg-warn/10 px-2.5 py-0.5 text-[11px] font-semibold text-warn">
           {x}
         </span>
       ))}

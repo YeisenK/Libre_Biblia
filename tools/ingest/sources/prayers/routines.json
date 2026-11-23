@@ -1,0 +1,93 @@
+[
+  {
+    "id": "manana",
+    "title": "Mañana",
+    "moment": "morning",
+    "description": "Para comenzar el día en presencia de Dios.",
+    "items": [
+      "prayer:senal-de-la-cruz",
+      "prayer:ofrecimiento-del-dia",
+      "prayer:acto-de-fe",
+      "prayer:acto-de-esperanza",
+      "prayer:acto-de-caridad",
+      "prayer:angel-de-la-guarda",
+      "prayer:consagracion-a-maria",
+      "prayer:angelus",
+      "gospel"
+    ]
+  },
+  {
+    "id": "tarde",
+    "title": "Mediodía y tarde",
+    "moment": "afternoon",
+    "description": "Una pausa en la jornada y un momento de misericordia.",
+    "items": [
+      "prayer:pausa-del-mediodia",
+      "prayer:angelus",
+      "prayer:examen-breve",
+      "prayer:coronilla-divina-misericordia",
+      "prayer:accion-de-gracias-del-dia",
+      "verse"
+    ]
+  },
+  {
+    "id": "noche",
+    "title": "Noche",
+    "moment": "night",
+    "description": "Dar gracias, pedir perdón y descansar en Dios.",
+    "items": [
+      "prayer:senal-de-la-cruz",
+      "prayer:examen-de-conciencia",
+      "prayer:acto-de-contricion",
+      "prayer:accion-de-gracias-del-dia",
+      "prayer:padre-nuestro",
+      "prayer:visita-senor-esta-habitacion",
+      "prayer:en-tus-manos",
+      "prayer:nunc-dimittis",
+      "prayer:salve"
+    ]
+  },
+  {
+    "id": "breve-manana",
+    "title": "Mañana breve",
+    "moment": "morning",
+    "description": "Cinco minutos para comenzar el día.",
+    "items": [
+      "prayer:senal-de-la-cruz",
+      "prayer:ofrecimiento-del-dia",
+      "prayer:padre-nuestro",
+      "prayer:angel-de-la-guarda"
+    ]
+  },
+  {
+    "id": "rosario-diario",
+    "title": "Rosario del día",
+    "moment": "any",
+    "description": "El Santo Rosario con los misterios del día.",
+    "items": [
+      "rosary"
+    ]
+  },
+  {
+    "id": "breve-noche",
+    "title": "Noche breve",
+    "moment": "night",
+    "description": "Un cierre sencillo del día.",
+    "items": [
+      "prayer:senal-de-la-cruz",
+      "prayer:acto-de-contricion",
+      "prayer:visita-senor-esta-habitacion",
+      "prayer:salve"
+    ]
+  },
+  {
+    "id": "mediodia-breve",
+    "title": "Pausa del mediodía",
+    "moment": "midday",
+    "description": "Un minuto de presencia de Dios.",
+    "items": [
+      "prayer:pausa-del-mediodia",
+      "prayer:angelus"
+    ]
+  }
+]

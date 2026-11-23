@@ -1,0 +1,148 @@
+[
+  {
+    "id": "pausa-del-mediodia",
+    "title": "Pausa del mediodía",
+    "categories": [
+      "tarde"
+    ],
+    "moments": [
+      "midday"
+    ],
+    "nature": "devotion",
+    "text": "Detente un momento. Respira hondo y deja lo que tienes entre manos.\n\nSeñor, en mitad del día me acuerdo de ti.\nTú estás aquí, y no estoy solo.\nDame un corazón sereno para lo que queda de jornada.\nAyúdame a hacer bien lo que me corresponde y a no perder la paz.\n\nRezar un Padre Nuestro, o el Ángelus (o el Regina Coeli en Pascua).\n\nPor Jesucristo, nuestro Señor. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "context": "Una pausa breve para recobrar la presencia de Dios a mitad de la jornada; los antiguos monjes llamaban «sexta» a la oración de esa hora. Es una práctica libre.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "examen-breve",
+    "title": "Examen breve del día",
+    "altTitles": [
+      "Examen de la tarde"
+    ],
+    "categories": [
+      "tarde",
+      "noche"
+    ],
+    "moments": [
+      "afternoon"
+    ],
+    "nature": "devotion",
+    "text": "Una pausa de pocos minutos para mirar la jornada con Dios.\n\n1. **Ponte en presencia de Dios.** Haz la señal de la cruz y pide su luz.\n2. **Da gracias.** ¿Qué regalos he recibido desde esta mañana?\n3. **Mira el día.** ¿Cómo he vivido las horas transcurridas? ¿Dónde he sentido paz y dónde inquietud?\n4. **Pide perdón.** Reconoce con sencillez en qué has fallado en el amor a Dios o al prójimo.\n5. **Mira lo que queda.** Ofrece lo que resta del día y pide ayuda para vivirlo con fe.\n\nTermina con un Padre Nuestro.",
+    "attribution": "Esquema inspirado en el examen cotidiano de san Ignacio de Loyola (Ejercicios Espirituales, n.º 43). Redacción propia del proyecto (CC BY-SA 4.0).",
+    "context": "El examen breve es una forma sencilla de oración personal. No es el examen de conciencia para la confesión sacramental (véase «Examen de conciencia para la confesión»).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 5
+  },
+  {
+    "id": "accion-de-gracias-del-dia",
+    "title": "Acción de gracias del día",
+    "categories": [
+      "tarde",
+      "noche",
+      "accion-de-gracias"
+    ],
+    "moments": [
+      "afternoon",
+      "night"
+    ],
+    "nature": "devotion",
+    "text": "Te doy gracias, Padre, por este día:\npor la vida y la salud,\npor las personas que has puesto en mi camino,\npor lo que he aprendido y lo que he podido dar,\npor tu perdón cuando he fallado\ny por tu compañía en lo que no entiendo.\nBendito seas por siempre, Señor.\nAmén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "scripture": [
+      "1 Ts 5,18",
+      "Sal 136,1"
+    ],
+    "context": "«En todo den gracias» (1 Ts 5,18): la acción de gracias es una de las formas fundamentales de la oración cristiana (CIC 2637-2638).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "coronilla-divina-misericordia",
+    "title": "Coronilla de la Divina Misericordia",
+    "altTitles": [
+      "Coronilla a la Divina Misericordia"
+    ],
+    "categories": [
+      "tarde",
+      "rosarios-coronillas",
+      "devociones"
+    ],
+    "moments": [
+      "afternoon"
+    ],
+    "nature": "devotion",
+    "text": "Se reza con las cuentas de un rosario común. Se hace antes y después la señal de la cruz.\n\n**Al comenzar**\n\nUn Padre Nuestro, un Ave María y el Credo de los Apóstoles.\n\n**En cada una de las cinco decenas**\n\nEn la cuenta grande (la del Padre Nuestro):\n\n*Padre eterno, te ofrezco el Cuerpo y la Sangre, el Alma y la Divinidad de tu amadísimo Hijo, nuestro Señor Jesucristo, como propiciación de nuestros pecados y los del mundo entero.*\n\nEn cada una de las diez cuentas pequeñas (la de las Ave Marías):\n\n*Por su dolorosa Pasión, ten misericordia de nosotros y del mundo entero.*\n\n**Al terminar (tres veces)**\n\n*Santo Dios, Santo Fuerte, Santo Inmortal, ten piedad de nosotros y del mundo entero.*\n\nPuede concluirse con la jaculatoria: *Jesús, en ti confío.*",
+    "context": "Devoción privada difundida a partir de los escritos de santa Faustina Kowalska (1905-1938), religiosa polaca; la coronilla se recoge en su *Diario* (nn. 474-476 según la numeración habitual de las ediciones; el n.º 476 recoge la invocación final «Santo Dios…»). Esta aplicación no reproduce las traducciones modernas del Diario, que tienen derechos de autor, sino la fórmula de la coronilla, que es de uso común.\n\nLa Iglesia canonizó a santa Faustina el 30 de abril de 2000 y san Juan Pablo II estableció ese día el segundo domingo de Pascua como Domingo de la Divina Misericordia; la Congregación para el Culto Divino lo formalizó con un decreto el 23 de mayo de 2000. La coronilla es una devoción libre: no sustituye la Misa, la confesión ni el Rosario. No se le atribuyen aquí promesas ni indulgencias.",
+    "sources": [
+      {
+        "label": "Juan Pablo II, Homilía en la canonización de santa Faustina Kowalska (30 abril 2000)",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2000/documents/hf_jp-ii_hom_20000430_faustina.html"
+      },
+      {
+        "label": "Juan Pablo II, Regina Caeli del 30 de abril de 2000 (Domingo de la Divina Misericordia)",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/angelus/2000/documents/hf_jp-ii_reg_20000430.html"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 10,
+    "tags": [
+      "Faustina",
+      "misericordia"
+    ]
+  },
+  {
+    "id": "hora-de-la-misericordia",
+    "title": "Hora de la Misericordia (15 h)",
+    "altTitles": [
+      "La hora de la Misericordia"
+    ],
+    "categories": [
+      "tarde",
+      "devociones"
+    ],
+    "moments": [
+      "afternoon"
+    ],
+    "nature": "devotion",
+    "text": "A las tres de la tarde, o tan cerca de esa hora como puedas, detente un momento y recuerda la muerte de Jesús en la cruz.\n\n*Jesús, en ti confío.*\n\nSeñor Jesús, que moriste en la cruz por nosotros, ten misericordia de mí, de los que sufren y del mundo entero. Que tu misericordia sea mi refugio y mi esperanza. Amén.\n\nPuede rezarse también la Coronilla de la Divina Misericordia o un Vía Crucis breve.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0). La invocación «Jesús, en ti confío» es la inscripción de la imagen de la Divina Misericordia.",
+    "context": "Devoción privada, vinculada a los escritos de santa Faustina Kowalska (*Diario*, nn. 1320 y 1572, según la numeración habitual), que recuerda la hora de la muerte de Jesús (Mc 15,34-37). Es una invitación a una pausa de oración, no una obligación. La oración que se ofrece aquí es de redacción propia. No se atribuyen aquí promesas ni indulgencias a esta práctica.",
+    "scripture": [
+      "Mc 15,34-37"
+    ],
+    "sources": [
+      {
+        "label": "Juan Pablo II, Homilía en la canonización de santa Faustina Kowalska (30 abril 2000)",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2000/documents/hf_jp-ii_hom_20000430_faustina.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 3
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "id": "sagrado-corazon",
+  "title": "Novena al Sagrado Corazón de Jesús",
+  "group": "christ",
+  "description": "Nueve días para contemplar el amor de Cristo, simbolizado en su Corazón abierto en la cruz.",
+  "image": {
+    "icon": "heart",
+    "tint": "#9b2c2c"
+  },
+  "introduction": "La devoción al Corazón de Jesús hunde sus raíces en la Escritura: del costado abierto de Cristo en la cruz brotaron sangre y agua (Jn 19,34), y los Padres vieron allí el nacimiento de la Iglesia y de los sacramentos. La Edad Media la cultivó con santa Gertrudis y santa Matilde, y san Juan Eudes la impulsó en el siglo XVII.\n\nSanta Margarita María Alacoque, religiosa de la Visitación, tuvo entre 1673 y 1675 en Paray-le-Monial experiencias espirituales que la Iglesia ha acogido como devoción privada, con san Claudio de la Colombière como guía. Pío IX extendió la fiesta a toda la Iglesia en 1856; León XIII consagró el género humano al Corazón de Jesús en 1899; y Pío XII ofreció su fundamento teológico en la encíclica *Haurietis aquas* (1956).\n\nLa solemnidad es **movible**: se celebra el viernes siguiente al segundo domingo después de Pentecostés, es decir, diecinueve días después de Pentecostés. Por eso esta novena no lleva fecha fija: se comienza nueve días antes de la solemnidad. Es piedad popular, libre y voluntaria, que no sustituye la Misa ni la confesión.",
+  "purpose": "Contemplar el amor misericordioso de Cristo, responderle con confianza y reparación, y aprender de su Corazón «manso y humilde» (Mt 11,29). La devoción popular atribuye a santa Margarita María diversas «promesas»; esta novena no las presenta como garantías, sino que se apoya en la fe en el amor de Dios.",
+  "nature": "popular_piety",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pío XII, encíclica Haurietis aquas (1956)",
+      "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 478 y 766"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), 166-173"
+    }
+  ],
+  "saints": [
+    "Margarita María Alacoque",
+    "Claudio de la Colombière"
+  ],
+  "tags": [
+    "corazón de jesús",
+    "movible"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un amor que se hace carne",
+      "reading": "Jn 3,16-17",
+      "reflection": "«Tanto amó Dios al mundo que entregó a su Hijo único.» Todo el Evangelio parte de ahí: antes de pedirnos nada, Dios nos ha amado primero. El Corazón de Jesús es la señal visible de ese amor; no una idea abstracta, sino un amor humano y divino a la vez, capaz de conmoverse, de llorar y de dar la vida.\n\nComenzamos la novena sin prisa, dejando que esta verdad sencilla nos sostenga: no hay en nosotros nada que Cristo no quiera acoger. Hoy basta con detenernos unos minutos y repetir en silencio: «Tú me amas».",
+      "prayer": "Señor Jesús, que tanto nos amaste, abre mis ojos para reconocer tu amor en mi vida. Quita de mi corazón la duda y el miedo, y enséñame a confiar en ti. Que esta novena sea un tiempo de encuentro contigo, y no un simple cumplimiento. Haz mi corazón semejante al tuyo. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Manso y humilde de corazón",
+      "reading": "Mt 11,25-30",
+      "reflection": "Jesús nos invita: «Vengan a mí los que están cansados y agobiados, y yo los aliviaré». Y añade: «Aprendan de mí, que soy manso y humilde de corazón». El Maestro no nos manda un peso nuevo, sino que nos ofrece su compañía bajo el mismo yugo.\n\nHoy miramos nuestro cansancio: las preocupaciones, las tensiones, las heridas. Y miramos la mansedumbre de Cristo, que no aplasta ni humilla. Aprender de su Corazón es pedir una paciencia más grande con los demás y con nosotros mismos, y descansar en que Él lleva la mayor parte de la carga.",
+      "prayer": "Jesús, manso y humilde de corazón, te presento mi cansancio y mis preocupaciones. Dame tu descanso y tu paz. Enséñame a tratar con ternura a quienes viven conmigo, a no responder con dureza y a esperar en ti. Amén."
+    },
+    {
+      "day": 3,
+      "title": "El Buen Pastor que busca",
+      "reading": "Lc 15,1-7",
+      "reflection": "La parábola de la oveja perdida muestra un corazón que no se resigna a perder a nadie. El pastor deja a las noventa y nueve y va tras la que se extravió; cuando la encuentra, la carga sobre sus hombros con alegría. Esa alegría es la del Corazón de Jesús ante el pecador que vuelve.\n\nHoy podemos pensar en los momentos en que nos hemos alejado, y también en las personas que amamos y andan lejos de la fe. Cristo no nos busca para reprocharnos, sino para llevarnos a casa. Dejarnos encontrar es ya conversión, y el sacramento de la reconciliación es el lugar donde ese abrazo se hace concreto.",
+      "prayer": "Buen Pastor, tú me has buscado cuando yo me alejaba. Cárgame sobre tus hombros y llévame a tu casa. Te encomiendo a quienes se han apartado de ti, especialmente a los de mi familia. Que ninguno se pierda, y que yo sepa acercarme a tu misericordia con confianza. Amén."
+    },
+    {
+      "day": 4,
+      "title": "El Corazón abierto en la cruz",
+      "reading": "Jn 19,31-37",
+      "reflection": "Un soldado atraviesa con la lanza el costado de Jesús ya muerto, y brotan sangre y agua. El evangelista lo subraya con solemnidad: «El que lo vio lo atestigua». Desde antiguo la Iglesia ha reconocido ahí los sacramentos del Bautismo y la Eucaristía, y su propio nacimiento.\n\nEl Corazón de Jesús no solo estuvo abierto por la lanza: lo estuvo antes por la entrega. Hoy contemplamos la cruz con calma, sin buscar explicaciones, y recibimos lo que de ella mana: el perdón, la vida nueva, la comunión. Mirar «al que traspasaron» (Jn 19,37) es dejar que su amor nos traspase también a nosotros.",
+      "prayer": "Señor crucificado, de tu costado abierto brotó la vida para tu Iglesia. Gracias por el Bautismo y la Eucaristía. Concédeme mirar tu cruz con fe y gratitud, y recibir de tu Corazón el perdón que necesito. Que tu amor, entregado hasta el extremo, me enseñe a darme a los demás. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Amar hasta el extremo",
+      "reading": "Jn 13,1-15",
+      "reflection": "En la última cena, Jesús, «habiendo amado a los suyos, los amó hasta el extremo». Se levanta, se ciñe una toalla y lava los pies de sus discípulos. El Corazón de Cristo se muestra en un gesto humilde: el servicio.\n\nHoy meditamos sobre el amor concreto. No basta con sentirlo; se hace en lo pequeño, en tareas que nadie aplaude. Jesús nos dice: «Les he dado ejemplo para que ustedes hagan lo mismo». Preguntémonos a quién podemos servir hoy en casa, en el trabajo, en la comunidad, y quién puede estar esperando nuestra ayuda. La Eucaristía, que Él instituye esa noche, es la fuente de ese servicio.",
+      "prayer": "Jesús, que lavaste los pies de tus discípulos, enséñame a servir con sencillez. Quita de mí el orgullo y la pereza. Haz que descubra hoy a quién puedo ayudar y que lo haga con alegría. Que la Eucaristía me fortalezca para amar como tú amas. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Reparar con amor",
+      "reading": "Is 53,4-6",
+      "reflection": "El profeta contempla a un siervo que «soportó nuestros sufrimientos y cargó con nuestros dolores». En la tradición del Corazón de Jesús, la reparación no significa aplacar a un Dios enojado, sino responder con amor al amor que ha sido herido por el pecado y por la indiferencia, la nuestra y la ajena.\n\nReparar es unirnos a Cristo que se ofrece al Padre, y hacerlo en lo concreto: pedir perdón, enmendar un daño, rezar por quienes no rezan, acompañar a los que sufren. Pío XI habló de la reparación como una exigencia del amor. Hoy ofrecemos algún sacrificio sencillo por los pecadores y por los olvidados.",
+      "prayer": "Señor, tú cargaste con nuestros pecados y nos curaste con tus heridas. Quiero unirme a tu ofrenda: perdona mis faltas y las de todos, y acepta lo poco que te ofrezco hoy por amor. Que mi vida repare con bien el mal que hay en el mundo. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Un corazón que consuela",
+      "reading": "Mt 14,13-21",
+      "reflection": "Al saber de la muerte de Juan el Bautista, Jesús busca un lugar solitario. Pero la multitud lo sigue, y «al desembarcar, vio mucha gente, se compadeció de ellos y curó a los enfermos». Su propio dolor no le cierra el corazón a los demás.\n\nEsa compasión de Cristo se prolonga en quienes se dejan tocar por el sufrimiento ajeno. Hoy pensamos en los enfermos, los solos, los que lloran, los que no llegan a fin de mes. Jesús dijo a los discípulos: «Denles ustedes de comer». Nos pide poner a su disposición lo poco que tenemos para que Él lo multiplique.",
+      "prayer": "Jesús compasivo, tú ves a quienes sufren y te conmueves. Te encomiendo a los enfermos, a los pobres y a los que están solos. Haz de mí un instrumento de tu consuelo: que mis manos y mi tiempo, aunque sean pocos, sirvan a quien los necesita. Amén."
+    },
+    {
+      "day": 8,
+      "title": "La paz del Corazón de Cristo",
+      "reading": "Jn 14,23-31",
+      "reflection": "«La paz les dejo, mi paz les doy; no como la da el mundo.» La paz de Cristo no es ausencia de problemas, sino la certeza de que Él está con nosotros dentro de ellos. Brota de un corazón que confía plenamente en el Padre, incluso en Getsemaní y en la cruz.\n\nHoy llevamos al Corazón de Jesús lo que nos inquieta y se lo dejamos allí con confianza. No es indiferencia, sino abandono. Y pedimos también la paz para nuestras familias, para los países en guerra y para la Iglesia. Quien recibe esta paz se convierte en sembrador de paz: la palabra amable, el perdón ofrecido, la mediación humilde.",
+      "prayer": "Cristo, dador de paz, te entrego mis inquietudes. Que tu paz guarde mi corazón y mi hogar, y que yo sea instrumento de reconciliación. Te pido por los pueblos que sufren la guerra y por quienes trabajan por la justicia. No dejes que se turbe nuestro corazón ni tengamos miedo. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Consagrarse al amor de Cristo",
+      "reading": "Ef 3,14-19",
+      "reflection": "San Pablo pide que Cristo habite en nuestros corazones por la fe y que podamos «conocer el amor de Cristo, que excede todo conocimiento». La consagración al Sagrado Corazón, que León XIII propuso a toda la humanidad en 1899, quiere ser eso: entregar la propia vida a quien nos ha amado primero.\n\nConcluimos la novena con gratitud, no con la sensación de haber terminado, sino con el deseo de seguir. Entregar a Cristo nuestras alegrías y trabajos, vivir con la Eucaristía en el centro, acudir a la confesión, ser fieles en lo pequeño. Los frutos de una novena se miden en los días siguientes: en un corazón más manso, más confiado y más generoso.",
+      "prayer": "Corazón de Jesús, te ofrezco mi vida: mis pensamientos, palabras y obras, mis alegrías y mis penas. Arraiga mi fe en tu amor y haz que viva para ti. Gracias por estos nueve días. Que yo no me aparte de ti y que mi corazón, unido al tuyo, sea hogar para los demás. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

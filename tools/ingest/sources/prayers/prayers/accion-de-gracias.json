@@ -1,0 +1,35 @@
+[
+  {
+    "id": "te-deum",
+    "title": "Te Deum",
+    "altTitles": [
+      "A ti, oh Dios, te alabamos",
+      "Himno ambrosiano"
+    ],
+    "categories": [
+      "accion-de-gracias",
+      "liturgia-horas",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "liturgical",
+    "text": "A ti, oh Dios, te alabamos;\na ti, Señor, te reconocemos.\nA ti, eterno Padre, te venera toda la tierra.\n\nA ti los ángeles todos, los cielos y todas las potestades,\na ti los querubines y serafines\nproclaman sin cesar:\nSanto, Santo, Santo, Señor Dios de los ejércitos.\nLos cielos y la tierra están llenos\nde la majestad de tu gloria.\n\nA ti te alaba el glorioso coro de los apóstoles,\nel admirable número de los profetas,\nel blanco ejército de los mártires.\nA ti la santa Iglesia te confiesa por toda la tierra:\nPadre de inmensa majestad,\nHijo único, digno de adoración,\ny Espíritu Santo, Consolador.\n\nTú eres el Rey de la gloria, Cristo.\nTú eres el Hijo eterno del Padre.\nTú, para salvar al hombre, no desdeñaste el seno de la Virgen.\nTú, vencida la muerte, abriste a los creyentes el reino de los cielos.\nTú estás sentado a la derecha de Dios, en la gloria del Padre.\nCreemos que has de venir como juez.\n\nTe rogamos, pues, que ayudes a tus siervos,\na quienes redimiste con tu preciosa sangre.\nHaz que seamos contados con tus santos en la gloria eterna.\n\nSalva a tu pueblo, Señor, y bendice a tu heredad.\nSé su pastor y ensálzalo para siempre.\nCada día te bendecimos\ny alabamos tu nombre por siempre y para siempre.\nDígnate, Señor, guardarnos hoy sin pecado.\nTen piedad de nosotros, Señor, ten piedad de nosotros.\nQue tu misericordia, Señor, venga sobre nosotros,\ncomo esperamos de ti.\nEn ti, Señor, he esperado:\nno quede yo confundido para siempre.",
+    "latin": "Te Deum laudamus: te Dominum confitemur.\nTe aeternum Patrem omnis terra veneratur.\nTibi omnes Angeli, tibi caeli et universae Potestates:\ntibi Cherubim et Seraphim incessabili voce proclamant:\nSanctus, Sanctus, Sanctus Dominus Deus Sabaoth.\nPleni sunt caeli et terra maiestatis gloriae tuae.\nTe gloriosus Apostolorum chorus,\nte Prophetarum laudabilis numerus,\nte Martyrum candidatus laudat exercitus.\nTe per orbem terrarum sancta confitetur Ecclesia,\nPatrem immensae maiestatis;\nvenerandum tuum verum et unicum Filium;\nSanctum quoque Paraclitum Spiritum.\nTu Rex gloriae, Christe.\nTu Patris sempiternus es Filius.\nTu, ad liberandum suscepturus hominem, non horruisti Virginis uterum.\nTu, devicto mortis aculeo, aperuisti credentibus regna caelorum.\nTu ad dexteram Dei sedes, in gloria Patris.\nIudex crederis esse venturus.\nTe ergo quaesumus, tuis famulis subveni, quos pretioso sanguine redemisti.\nAeterna fac cum sanctis tuis in gloria numerari.\nSalvum fac populum tuum, Domine, et benedic hereditati tuae.\nEt rege eos, et extolle illos usque in aeternum.\nPer singulos dies benedicimus te;\net laudamus nomen tuum in saeculum, et in saeculum saeculi.\nDignare, Domine, die isto sine peccato nos custodire.\nMiserere nostri, Domine, miserere nostri.\nFiat misericordia tua, Domine, super nos, quemadmodum speravimus in te.\nIn te, Domine, speravi: non confundar in aeternum.",
+    "context": "Himno de acción de gracias de la Iglesia, anterior al siglo VI (la tradición lo atribuía a san Ambrosio y san Agustín, pero su autoría es incierta; hoy suele relacionarse con Niceta de Remesiana). Se canta en el Oficio de Lecturas de domingos y solemnidades, y para dar gracias por beneficios solemnes (el fin de año, una ordenación, la elección de un papa…).\n\nLa traducción española aquí ofrecida es propia y literal, hecha del latín; no reproduce la de la edición oficial de la Liturgia de las Horas, que tiene derechos.",
+    "rubric": "En la Liturgia de las Horas, se dice en el Oficio de Lecturas de los domingos (salvo en Cuaresma), en octavas y en solemnidades y fiestas.",
+    "attribution": "Autoría incierta; tradicionalmente atribuido a san Ambrosio y san Agustín.",
+    "sources": [
+      {
+        "label": "Conferencia Episcopal Española (liturgia y textos oficiales)",
+        "url": "https://www.conferenciaepiscopal.es"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      }
+    ],
+    "minutes": 5
+  }
+]

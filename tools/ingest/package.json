@@ -14,6 +14,7 @@
     "culture": "tsx src/cli.ts culture",
     "markdown": "tsx src/cli.ts markdown",
     "daily": "tsx src/cli.ts daily",
+    "prayers": "tsx src/cli.ts prayers",
     "versification": "tsx src/cli.ts versification"
   },
   "dependencies": {

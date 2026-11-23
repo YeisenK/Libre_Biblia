@@ -1,0 +1,123 @@
+{
+  "id": "espiritu-santo",
+  "title": "Novena al Espíritu Santo",
+  "group": "holy_spirit",
+  "description": "La novena más antigua: nueve días entre la Ascensión y Pentecostés, pidiendo los dones del Espíritu.",
+  "image": {
+    "icon": "dove",
+    "tint": "#b8860b"
+  },
+  "introduction": "Es la novena original de la Iglesia. Antes de subir al cielo, Jesús mandó a los apóstoles esperar en Jerusalén la promesa del Padre (Hch 1,4-5). Ellos volvieron al cenáculo y allí, dice san Lucas, «todos perseveraban unánimes en la oración, junto con algunas mujeres, con María, la madre de Jesús, y con sus hermanos» (Hch 1,14). Desde entonces la Iglesia ha repetido esos días de oración que van de la Ascensión a Pentecostés, y de ahí viene la costumbre de las novenas.\n\nLeón XIII la recomendó expresamente para toda la Iglesia en la carta *Provida Matris caritate* (1895), y volvió sobre el tema en *Divinum illud munus* (1897).\n\nLa solemnidad de Pentecostés es movible (cincuenta días después de Pascua), por lo que la novena comienza el viernes siguiente a la Ascensión, según el calendario. Es piedad popular, libre y voluntaria, con la que la comunidad se une a María y a los apóstoles en la espera. No sustituye la liturgia ni los sacramentos de la iniciación.",
+  "purpose": "Preparar el corazón para recibir una nueva efusión del Espíritu Santo, pedir sus siete dones y sus frutos, y renovar la gracia del Bautismo y de la Confirmación.",
+  "nature": "popular_piety",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "ven-espiritu-santo"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "ven-espiritu-santo"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "León XIII, Provida Matris caritate (1895) y Divinum illud munus (1897)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 731-741 y 1830-1832"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "pentecostés",
+    "movible",
+    "dones del espíritu santo"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Esperar la promesa con María",
+      "reading": "Hch 1,12-14",
+      "reflection": "Los apóstoles vuelven del monte de los Olivos y suben al piso superior. Allí «perseveraban unánimes en la oración». María está con ellos: la Madre acompaña a la Iglesia naciente, como había acompañado a Jesús.\n\nComenzamos la novena como ellos: esperando, sin saber exactamente cómo vendrá el Espíritu. La espera es parte de la fe. Hoy dejamos de lado prisas, planes y exigencias, y nos ponemos en actitud de apertura. Pedimos a María, que oraba con los apóstoles, que ore con nosotros y nos enseñe a esperar con paciencia lo que el Señor ha prometido.",
+      "prayer": "Santa María, Madre de la Iglesia, acompáñame en estos días de espera. Con los apóstoles quiero perseverar en la oración, unánime y paciente. Abre mi corazón a la acción del Espíritu Santo y enséñame a dejarme guiar por él. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Don de sabiduría",
+      "reading": "1 Cor 2,6-13",
+      "reflection": "La sabiduría es el don de saborear las cosas de Dios: no solo conocerlas, sino gustarlas y valorarlas como Él las valora. «Nosotros no hemos recibido el espíritu del mundo, sino el Espíritu que viene de Dios, para conocer lo que Dios nos ha dado.»\n\nHoy pedimos mirar la vida con los ojos de Dios: distinguir lo esencial de lo accesorio, descubrir su presencia en lo cotidiano y no ser esclavos de las modas. La sabiduría no es solo intelectual: es el gusto interior que nos hace buscar lo que verdaderamente nos hace felices. Se pide con humildad y se cultiva en la oración y en la Palabra.",
+      "prayer": "Espíritu Santo, dame el don de sabiduría. Enséñame a valorar las cosas como Dios las valora, a buscar lo esencial y a gustar tu presencia. Líbrame de la superficialidad y de la prisa. Que mi vida refleje lo que amo en ti. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Don de entendimiento",
+      "reading": "Lc 24,25-32",
+      "reflection": "Camino de Emaús, los discípulos no comprenden lo ocurrido. Jesús les explica las Escrituras y «les abrió el entendimiento». Sus corazones arden. El don de entendimiento es esa luz interior que nos hace penetrar en las verdades de la fe, sin pretender agotarlas.\n\nHoy pedimos comprender mejor la Palabra y lo que la Iglesia nos enseña, y también entender los acontecimientos de nuestra vida a la luz de Dios. El entendimiento nos ayuda a pasar de la letra al sentido. Podemos darle espacio: leer un pasaje bíblico con calma, estudiar el catecismo, dejar que una idea resuene en nosotros.",
+      "prayer": "Espíritu de verdad, ilumina mi mente para comprender tu Palabra y las enseñanzas de la fe. Abre mis ojos, como a los discípulos de Emaús, para reconocer a Cristo en las Escrituras y en el pan partido. Que mi corazón arda en ti. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Don de consejo",
+      "reading": "Hch 15,22-29",
+      "reflection": "Ante una decisión difícil, los apóstoles escriben: «Hemos decidido, el Espíritu Santo y nosotros». El consejo es el don que nos ayuda a discernir qué hacer y cómo, en las circunstancias concretas. No sustituye la prudencia, sino que la eleva.\n\nHoy pedimos luz para las decisiones que tenemos pendientes: vocación, familia, trabajo, relaciones. Y la humildad de pedir consejo a personas sabias y a la Iglesia. Un buen discernimiento combina oración, escucha, conocimiento de la situación y la disponibilidad para aceptar lo que se descubre. Es el modo normal en que el Espíritu conduce a quienes se dejan guiar.",
+      "prayer": "Espíritu Santo, don de consejo, guíame en las decisiones de mi vida. Dame prudencia para discernir, humildad para pedir ayuda y valentía para obrar lo que descubro. Que en cada elección busque tu voluntad y el bien de los demás. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Don de fortaleza",
+      "reading": "Hch 4,23-31",
+      "reflection": "Los apóstoles, amenazados, rezan juntos: «Señor, mira sus amenazas y concede a tus siervos anunciar tu palabra con toda valentía». Entonces el lugar tiembla y quedan llenos del Espíritu Santo. La fortaleza es la energía que nos permite ser fieles, aun cuando cuesta, y perseverar.\n\nHoy pedimos valor para vivir con coherencia: para decir la verdad con caridad, para resistir la tentación, para soportar la enfermedad o la contradicción. No es dureza, sino la firmeza de quien se sabe sostenido. Rezamos también por los cristianos que sufren persecución y por quienes hoy necesitan una fuerza que no tienen.",
+      "prayer": "Espíritu de fortaleza, sostén mi debilidad. Dame valentía para ser fiel a mi fe, para decir la verdad con caridad y para no rendirme ante las dificultades. Fortalece a los perseguidos y a los enfermos. Contigo, todo lo puedo. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Don de ciencia",
+      "reading": "Sab 13,1-9; Sal 19,2-5",
+      "reflection": "El don de ciencia nos hace ver las criaturas en relación con Dios. El salmista dice que «los cielos proclaman la gloria de Dios», y el libro de la Sabiduría reprocha a quienes, admirando la belleza de las cosas, no llegan a su Autor.\n\nHoy pedimos una mirada creyente sobre el mundo: saber valorar los bienes sin absolutizarlos, descubrir en la belleza el rastro de Dios y cuidar la creación como un don. El don de ciencia nos ayuda también a ver con realismo nuestros límites y pecados. Podemos salir hoy a contemplar algo creado, un árbol, el cielo, un rostro, y darle gracias.",
+      "prayer": "Espíritu Santo, dame el don de ciencia. Que sepa ver en las criaturas el reflejo de tu bondad y usarlas con gratitud y justicia. Ayúdame a cuidar la creación y a no poner mi corazón en lo que pasa. Gloria a ti, Creador de todo. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Don de piedad",
+      "reading": "Rom 8,14-17",
+      "reflection": "«Todos los que se dejan guiar por el Espíritu de Dios son hijos de Dios… y con él clamamos: ¡Abbá, Padre!» La piedad, como don, es el afecto filial hacia Dios y la ternura hacia los hermanos: nos hace rezar con confianza y tratar con respeto a todos.\n\nHoy pedimos un corazón de hijos. Rezar el Padre Nuestro despacio puede ser un buen ejercicio: reconocer que Alguien nos escucha. La piedad se manifiesta también en la reverencia en la liturgia, en el respeto a los mayores, en el cuidado de la familia y de los necesitados. Es lo contrario de una religiosidad fría o puramente formal.",
+      "prayer": "Espíritu de piedad, enséñame a decir «Abbá, Padre» con confianza. Dame un corazón sencillo y tierno hacia Dios y hacia los demás. Que mi oración no sea solo una costumbre, sino una conversación de hijo amado. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Don de temor de Dios",
+      "reading": "Sal 111,1-10; Prov 9,10",
+      "reflection": "«El temor del Señor es el principio de la sabiduría.» No se trata de miedo, sino de reverencia y de amor: el respeto de quien sabe que Dios es Dios, y el cuidado de no ofenderlo por amor. Es el don con el que el creyente se aparta del mal porque ama el bien.\n\nHoy pedimos ese santo temor, libre de ansiedad, que nos aleja de la superficialidad ante lo sagrado y de la presunción. Nos sitúa en nuestro lugar: criaturas amadas. Con este don crece la libertad interior, porque quien teme a Dios no teme a nadie más. Podemos hacer hoy un breve examen de conciencia y pedir perdón con confianza.",
+      "prayer": "Espíritu Santo, dame el don de temor de Dios: reverencia, amor filial y rechazo del pecado. Líbrame de la presunción y del miedo. Que sepa quién eres, quién soy yo, y que viva libre en tu presencia. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Frutos del Espíritu y Pentecostés",
+      "reading": "Gál 5,16-25; Hch 2,1-11",
+      "reflection": "En la víspera de Pentecostés contemplamos la escena: «De repente vino del cielo un ruido… y todos quedaron llenos del Espíritu Santo». Y vemos sus frutos, que san Pablo enumera: «amor, alegría, paz, paciencia, amabilidad, bondad, fidelidad, mansedumbre y dominio de sí».\n\nLos dones no son una experiencia aislada: se reconocen por los frutos. Hoy examinamos cuáles se dan en nuestra vida y cuáles pedimos. Concluimos la novena con gratitud y con apertura: el Espíritu vendrá como quiera y cuando quiera, y nos enviará a anunciar. Pedimos que Pentecostés sea el inicio de una vida más generosa y más gozosa.",
+      "prayer": "Ven, Espíritu Santo, llena mi corazón con tus frutos: amor, alegría, paz, paciencia, bondad. Renueva en mí la gracia del Bautismo y la Confirmación. Envíame a ser testigo de Cristo. Gracias por estos días de espera con María. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "san-miguel-arcangel",
+    "title": "San Miguel Arcángel",
+    "altTitles": [
+      "Oración de León XIII",
+      "Sancte Michael Archangele"
+    ],
+    "categories": [
+      "angeles",
+      "proteccion",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "San Miguel Arcángel, defiéndenos en la lucha; sé nuestro amparo contra la perversidad y las asechanzas del demonio. Que Dios manifieste sobre él su poder, es nuestra humilde súplica; y tú, Príncipe de la milicia celestial, con el poder que Dios te ha conferido, arroja al infierno a Satanás y a los demás espíritus malignos que andan por el mundo buscando la perdición de las almas. Amén.",
+    "latin": "Sancte Michael Archangele, defende nos in proelio; contra nequitiam et insidias diaboli esto praesidium. Imperet illi Deus, supplices deprecamur: tuque, Princeps militiae caelestis, Satanam aliosque spiritus malignos, qui ad perditionem animarum pervagantur in mundo, divina virtute in infernum detrude. Amen.",
+    "context": "Forma breve de la oración a san Miguel que se rezaba, junto con otras, tras la Misa rezada (las llamadas «oraciones leonianas»). León XIII prescribió esas oraciones en 1884 y en 1886 se añadió la invocación a san Miguel; su composición se atribuye a León XIII. Dejaron de ser obligatorias con la instrucción *Inter oecumenici* (26 de septiembre de 1964), aunque la oración nunca fue prohibida. Los relatos de una «visión» de León XIII proceden de testimonios indirectos y no se dan aquí por ciertos. Es una oración de petición de amparo en «la lucha» de la vida cristiana contra el mal (Ef 6,12; Ap 12,7-9).",
+    "attribution": "Atribuida a León XIII (forma breve de la oración).",
+    "scripture": [
+      "Ap 12,7-9",
+      "Ef 6,12"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Vatican News, san Miguel arcángel",
+        "url": "https://www.vaticannews.va/es/santos/09/29/s--miguel--arcangel.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "san-gabriel-arcangel",
+    "title": "San Gabriel Arcángel",
+    "categories": [
+      "angeles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "San Gabriel Arcángel, mensajero de Dios,\nayúdanos a escuchar con docilidad la Palabra del Señor y\na responder con generosidad a su llamada. Amén.",
+    "context": "Gabriel anunció a Zacarías el nacimiento de Juan (Lc 1,11-20) y a María el de Jesús (Lc 1,26-38). Fiesta: 29 de septiembre, junto con Miguel y Rafael.",
+    "scripture": [
+      "Lc 1,26-38"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "san-rafael-arcangel",
+    "title": "San Rafael Arcángel",
+    "categories": [
+      "angeles",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "San Rafael Arcángel, compañero de camino y servidor de la providencia divina, acompaña a quienes viajan, consuela a los enfermos y guíanos por caminos seguros. Amén.",
+    "context": "Rafael acompaña a Tobías en su viaje y sana a su padre (libro de Tobías). Es invocado por los viajeros y los enfermos.",
+    "scripture": [
+      "Tob 12,15"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "san-jose",
+    "title": "San José",
+    "categories": [
+      "santos",
+      "familia"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Glorioso san José, esposo de María y padre adoptivo de Jesús, intercede por nosotros. Enséñanos a vivir con fe, humildad, laboriosidad y obediencia a la voluntad de Dios. Protege a nuestras familias y acompaña a quienes trabajan para sostenerlas. Amén.",
+    "context": "Esposo de María y padre adoptivo de Jesús, patrono de la Iglesia universal (Pío IX, 1870). El Catecismo lo menciona en CIC 497, 532 y 1014.",
+    "scripture": [
+      "Mt 1,18-25"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "san-jose-buena-muerte",
+    "title": "San José, patrono de la buena muerte",
+    "categories": [
+      "santos",
+      "difuntos"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "devotion",
+    "text": "San José, que tuviste la dicha de morir asistido por Jesús y María, ruega por nosotros para que, al llegar nuestra última hora, recibamos los auxilios espirituales y muramos en la gracia de Dios. Amén.",
+    "context": "Por la tradición de que José murió asistido por Jesús y María, se le invoca como patrono de la buena muerte (CIC 1014).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "san-benito",
+    "title": "San Benito",
+    "categories": [
+      "santos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Glorioso san Benito, maestro de vida espiritual y testigo de la fuerza de la cruz, intercede por nosotros. Alcánzanos humildad, obediencia y perseverancia en el bien. Que nada antepongamos al amor de Cristo. Amén.",
+    "context": "San Benito de Nursia (hacia 480-547) es patrono de Europa (Pablo VI, 1964). Su Regla invita a «no anteponer nada al amor de Cristo» (Regla, cap. 4 y 72).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  }
+]

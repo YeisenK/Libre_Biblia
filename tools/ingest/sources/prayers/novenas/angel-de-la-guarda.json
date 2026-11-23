@@ -1,0 +1,125 @@
+{
+  "id": "angel-de-la-guarda",
+  "title": "Novena al Ángel de la Guarda",
+  "group": "angels",
+  "description": "Nueve días para agradecer la compañía del ángel que Dios confía a cada persona y aprender a vivir en su presencia.",
+  "image": {
+    "icon": "angel",
+    "tint": "#5b7fa6"
+  },
+  "introduction": "La Iglesia cree que cada persona cuenta con la protección de un ángel. Jesús dice: «Miren que no desprecien a uno de estos pequeños, porque les digo que sus ángeles en el cielo ven continuamente el rostro de mi Padre» (Mt 18,10). Otros textos acompañan esta fe: «Yo envío un ángel delante de ti para que te cuide» (Ex 23,20), «a sus ángeles ha dado órdenes para que te guarden en todos tus caminos» (Sal 91,11) y la liberación de Pedro (Hch 12,1-17). Los Padres de la Iglesia, como san Basilio, enseñaron que «cada fiel tiene a su lado un ángel como protector y pastor» (Catecismo, n. 336).\n\nLa memoria litúrgica de los Santos Ángeles Custodios se celebra el **2 de octubre**; Clemente X la extendió a toda la Iglesia en 1670. Es una devoción muy arraigada en la piedad popular, especialmente con los niños.\n\nEsta novena es libre y voluntaria. Respeta el *Directorio sobre la piedad popular y la liturgia* (2001, n. 217): no pone nombre al ángel, no inventa prácticas especiales ni promesas, y no sustituye a la liturgia ni a los sacramentos. Cada día pide que el ángel nos conduzca a Cristo.",
+  "purpose": "Dar gracias por la presencia de los ángeles custodios, pedir su ayuda en el camino hacia Dios y aprender a vivir en su compañía, sin pretender conocer más de lo que la Escritura y la Iglesia enseñan.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 10,
+    "day": 2,
+    "label": "Santos Ángeles Custodios"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "angel-de-la-guarda"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Catecismo de la Iglesia Católica, 328-336"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), 215-217"
+    },
+    {
+      "label": "Santo Tomás de Aquino, Summa Theologiae, I, q. 113"
+    }
+  ],
+  "tags": [
+    "ángeles custodios",
+    "2 de octubre",
+    "niños"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un don de Dios",
+      "reading": "Sal 91,9-12",
+      "reflection": "«A sus ángeles ha dado órdenes para que te guarden en todos tus caminos.» El salmista expresa la confianza de quien se sabe cuidado. La Iglesia enseña que Dios, en su providencia, nos da compañeros invisibles que nos ayudan a llegar a Él.\n\nComenzamos la novena con gratitud. No siempre percibimos esta ayuda, y no es necesario: la fe nos dice que está ahí. El ángel no es una mascota ni un amuleto, sino un servidor de Dios que nos orienta hacia Cristo. Hoy damos gracias por esta compañía escondida y por todos los modos en que Dios nos cuida, también por los que no vemos.",
+      "prayer": "Dios providente, gracias por el ángel que me has dado como compañero y protector. Haz que viva confiado en tu cuidado, que escuche sus inspiraciones y que, guiado por él, camine siempre hacia ti. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Los ángeles de los pequeños",
+      "reading": "Mt 18,1-10",
+      "reflection": "Jesús habla de los niños, y añade que «sus ángeles en el cielo ven continuamente el rostro de mi Padre». Los pequeños, los frágiles y los despreciados están especialmente cerca de Dios. Y los ángeles los custodian.\n\nHoy pensamos en los niños que nos rodean y en los que sufren. Muchos padres enseñan a sus hijos a rezar al ángel de la guarda: una oración breve que da seguridad. Podemos retomar esa costumbre, o enseñarla. Y recordamos nuestra responsabilidad: no escandalizar ni despreciar a los pequeños. Pedimos que los ángeles protejan a todos los niños y que nosotros los cuidemos.",
+      "prayer": "Padre, protege a todos los niños, especialmente a los que sufren abandono o violencia. Que sus ángeles los guarden y que nosotros sepamos cuidarlos con ternura. Ayúdame a recuperar la confianza sencilla de los pequeños. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Un ángel delante de ti",
+      "reading": "Ex 23,20-23",
+      "reflection": "«Yo envío un ángel delante de ti para que te cuide en el camino y te lleve al lugar que te he preparado.» Dios promete a su pueblo una guía en el desierto. Se le pide algo a cambio: «Respétalo y obedécele».\n\nLa vida es un camino, y un camino necesita rumbo. Hoy pensamos en las decisiones que tenemos pendientes y en nuestra disposición a escuchar. El ángel no decide por nosotros ni suprime nuestra libertad, pero inspira lo bueno. Pedimos sensibilidad para reconocer los buenos impulsos, la conciencia que nos advierte y las personas que Dios pone en nuestro camino. Y pedimos obedecer con prontitud lo que el Señor nos indica.",
+      "prayer": "Señor, tú me envías ayuda en el camino. Hazme dócil a las buenas inspiraciones y atento a mi conciencia. Que mi ángel me conduzca por tus sendas y que yo, con libertad, siga lo que tú me pides. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Liberados de la cárcel",
+      "reading": "Hch 12,1-17",
+      "reflection": "Pedro está preso, esperando la muerte, y duerme tranquilo. Un ángel lo despierta: «Levántate rápido… Ponte el cinturón y las sandalias». Las cadenas caen y las puertas se abren. Mientras tanto, la comunidad reza sin cesar por él.\n\nDios libera por medio de sus ángeles, y también por la oración de la comunidad. Hoy pensamos en nuestras cadenas: hábitos, miedos, resentimientos. Pedimos libertad. Y rezamos por quienes están presos, perseguidos o atados por las adicciones. Pedimos también la humildad de dejarnos ayudar, como Pedro, que tuvo que levantarse y ponerse las sandalias.",
+      "prayer": "Señor, tú libras a tus siervos de toda cadena. Rompe las que me atan y dame la gracia de colaborar con tu libertad. Protege a los presos, a los perseguidos y a los que sufren adicciones. Que sus ángeles los acompañen. Amén."
+    },
+    {
+      "day": 5,
+      "title": "El ángel que consuela",
+      "reading": "Lc 22,39-46",
+      "reflection": "En Getsemaní, «se le apareció un ángel del cielo que lo fortalecía». El Hijo de Dios, en su angustia, es consolado por un ángel. La ayuda de los ángeles no evita el sufrimiento, sino que ayuda a atravesarlo.\n\nHoy pensamos en nuestros momentos oscuros y en quienes han sido ángeles para nosotros, personas que nos acompañaron con una palabra o una presencia. En el lenguaje de la Biblia, «ángel» significa «mensajero». Pedimos poder ser, para otros, ese mensajero de consuelo. Y rezamos por quienes sufren enfermedad, duelo o soledad, para que no les falte quien los acompañe.",
+      "prayer": "Señor, tú aceptaste el consuelo de un ángel. Consuela a los que sufren y haz que no les falte compañía. Concédeme ser ángel para quien lo necesita: una palabra, un gesto o una presencia que lleve tu consuelo. Amén."
+    },
+    {
+      "day": 6,
+      "title": "El ángel y la conciencia",
+      "reading": "Sal 139,1-12",
+      "reflection": "«Señor, tú me sondeas y me conoces… ¿A dónde iré lejos de tu espíritu?» El salmista sabe que Dios lo acompaña en todas partes. La presencia del ángel de la guarda nos recuerda esa mirada de Dios, que no es de control, sino de amor.\n\nHoy hacemos un examen de conciencia sencillo: ¿cómo he vivido este día en presencia de Dios? Pedimos luz para ver nuestras faltas, sin desesperar, y la gracia de la confesión. El ángel nos lleva al arrepentimiento y a la reconciliación. San Bernardo de Claraval, gran maestro de esta devoción, invitaba a vivir con compostura y confianza, conscientes de estar siempre en presencia de los santos ángeles.",
+      "prayer": "Señor, tú me conoces y me acompañas. Dame luz para ver mi pecado y confianza para volver a ti en el sacramento de la reconciliación. Que mi ángel me ayude a vivir en tu presencia, con sinceridad y paz. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Alabar con los ángeles",
+      "reading": "Is 6,1-4; Ap 5,11-14",
+      "reflection": "Isaías ve a los serafines que proclaman «Santo, santo, santo», y el Apocalipsis contempla miles y miles de ángeles que alaban al Cordero. En cada Misa nos unimos a ese canto: los ángeles son los primeros adoradores.\n\nHoy meditamos sobre la liturgia como lugar de encuentro entre el cielo y la tierra. Los ángeles custodios nos acompañan, sobre todo, a la Eucaristía. Pedimos valorar más la Misa: llegar a tiempo, participar con atención, cantar con alegría. Y pedimos un corazón agradecido, capaz de alabar, porque quien alaba se reconcilia con la vida y con Dios.",
+      "prayer": "Santo, santo, santo, Señor Dios del universo. Con los ángeles y los santos quiero alabarte. Que viva la Misa como encuentro con el cielo, y que mi vida sea una alabanza constante a tu gloria. Amén."
+    },
+    {
+      "day": 8,
+      "title": "El ángel en la hora de la muerte",
+      "reading": "Lc 16,19-23",
+      "reflection": "Lázaro, el pobre, muere y «fue llevado por los ángeles al seno de Abraham». La tradición cristiana ha visto aquí la misión de los ángeles de acompañar a los justos al encuentro con Dios. La liturgia de difuntos lo recoge: «Que los ángeles te lleven al paraíso».\n\nHoy pensamos en la muerte con serenidad. No es un tema triste, sino parte de la vida y de la esperanza cristiana. Rezamos por nuestros difuntos, por los moribundos y por nosotros mismos. Pedimos vivir de modo que la muerte nos encuentre preparados, y confiamos en que Cristo, que venció la muerte, nos recibirá junto a los suyos.",
+      "prayer": "Señor, que los ángeles acompañen a los difuntos al paraíso. Ten misericordia de ellos y de los moribundos. Prepárame para el día de mi muerte y haz que me encuentre contigo con confianza y paz. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Camino de la casa del Padre",
+      "reading": "Jn 14,1-6",
+      "reflection": "«No se turbe su corazón… Yo soy el camino, la verdad y la vida.» Concluimos la novena recordando que el sentido de toda ayuda, humana o angélica, es llevarnos a Cristo, el único camino. El ángel de la guarda no sustituye al Señor, sino que lo señala.\n\nDamos gracias por estos nueve días y por esta compañía discreta. Nos proponemos rezar con más frecuencia la oración al ángel de la guarda, sobre todo al comenzar el día. Nos comprometemos a vivir con más atención y gratitud. Y miramos con esperanza al día en que, ya sin sombras, veremos a Dios cara a cara, con los santos y los ángeles.",
+      "prayer": "Señor Jesús, camino, verdad y vida, gracias por los ángeles que nos guían hacia ti. Que mi ángel me acompañe cada día y me lleve a la casa del Padre. Que nada me separe de tu amor ahora ni en la hora de mi muerte. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

@@ -6,6 +6,7 @@ import { packSources } from './pack';
 import { buildMarkdownPack } from './markdown';
 import { runCulture } from './culture/build';
 import { runCheck, runPack } from './daily';
+import { runPrayers } from './prayers';
 import { buildVersification } from './versification/build';
 import { WORKS, WORKS_SPIRITUAL } from './culture/works';
 
@@ -38,6 +39,14 @@ async function main() {
     if (sub === 'check') { if (runCheck({ from: flag('from'), to: flag('to'), quiet: args.includes('--quiet') })) process.exit(1); return; }
     if (sub === 'pack') { const w = runPack(); console.log(`[daily.ciclo-tematico] ${w.file}: ${w.bytes} bytes  sha256=${w.sha256}`); return; }
     throw new Error('Uso: daily <check [--from MM-DD --to MM-DD --quiet]|pack>');
+  }
+  if (cmd === 'prayers') {
+    const vi = args.indexOf('--version');
+    const r = runPrayers({ version: vi >= 0 ? args[vi + 1] : undefined });
+    const p = r.pack;
+    console.log(`[${p.id}] v${p.version}: ${p.categories.length} categorías, ${p.prayers.length} oraciones, ${p.novenas.length} novenas, ${p.rosary?.mysteries.length ?? 0} misterios, ${p.routines?.length ?? 0} rutinas`);
+    console.log(`  ${r.file}: ${r.bytes} bytes  sha256=${r.sha256}\n  copia: ${r.webCopy}`);
+    return;
   }
   if (cmd === 'markdown') {
     const flag = (k: string) => { const i = args.indexOf(`--${k}`); return i >= 0 ? args[i + 1] : undefined; };

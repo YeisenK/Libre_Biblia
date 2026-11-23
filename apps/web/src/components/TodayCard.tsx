@@ -37,25 +37,23 @@ export function TodayCard() {
   if (!day) return null;
   const g = q.data?.gospel ?? null;
   const r = q.data?.found ? { found: q.data.found, verse: q.data.verse ?? null } : null;
+  const title = g ? (g.passage ? g.passage.label : g.ref) : r ? (r.verse ? formatReference(r.verse.ref, { long: true }) : r.found.entry.ref) : null;
+  const text = g ? (g.passage ? firstWords(verseText(g.passage.verses), 150) : '') : r ? (r.verse ? firstWords(verseText(r.verse.verses), 150) : r.found.entry.title) : '';
   return (
-    <Link href="/hoy/" className="mb-6 block transition-opacity hover:opacity-90" data-testid="today-card" aria-label="Abrir Hoy">
+    <section className="mb-8" data-testid="today-card" aria-label="Evangelio del día">
       <LiturgyHeader day={day} compact />
-      <div className="card mt-2">
-        <span className="text-xs font-semibold uppercase tracking-wide text-muted">{g ? 'Evangelio del día' : 'Versículo del día'}</span>
-        {g ? (
+      <Link href="/hoy/" className="tap mt-3 block rounded-2xl border border-line bg-surface p-4" aria-label="Abrir Hoy">
+        <p className="eyebrow">{g ? 'Evangelio del día' : 'Versículo del día'}</p>
+        {title ? (
           <>
-            <span className="mt-1 block font-serif text-xl">{g.passage ? g.passage.label : g.ref}</span>
-            {g.passage && <span className="block text-sm text-muted">{firstWords(verseText(g.passage.verses), 110)}</span>}
-          </>
-        ) : r ? (
-          <>
-            <span className="mt-1 block font-serif text-xl">{r.verse ? formatReference(r.verse.ref, { long: true }) : r.found.entry.ref}</span>
-            <span className="block text-sm text-muted">{r.verse ? firstWords(verseText(r.verse.verses), 110) : r.found.entry.title}</span>
+            <p className="mt-1 font-serif text-[1.2rem] font-semibold leading-snug">{title}</p>
+            {text && <p className="mt-1.5 font-serif text-[15.5px] leading-relaxed text-muted">{text}</p>}
+            <p className="mt-3 text-[14px] font-medium text-accent">Leer</p>
           </>
         ) : (
-          <span className="mt-1 block text-sm text-muted">{q.isSuccess ? 'Descarga el ciclo del versículo del día en Contenido.' : 'Cargando…'}</span>
+          <p className="mt-1.5 text-[14px] text-muted">{q.isSuccess ? 'Descarga el ciclo del versículo del día en Contenido.' : 'Cargando…'}</p>
         )}
-      </div>
-    </Link>
+      </Link>
+    </section>
   );
 }

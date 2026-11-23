@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { useEffect, useState, type ReactNode } from 'react';
 import { SettingsProvider } from '@/hooks/useSettings';
 import { NotificationSync } from '@/components/NotificationSync';
+import { BundledPrayersBootstrap } from '@/hooks/usePrayers';
 import { initNative } from '@/lib/native/init';
 import { isNative } from '@/lib/native/platform';
 
@@ -29,6 +30,7 @@ export function Providers({ children }: { children: ReactNode }) {
     <QueryClientProvider client={qc}>
       <SettingsProvider>
         <NotificationSync />
+        <BundledPrayersBootstrap />
         {children}
       </SettingsProvider>
     </QueryClientProvider>

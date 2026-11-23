@@ -1,0 +1,171 @@
+[
+  {
+    "id": "oracion-en-tiempos-de-dificultad",
+    "title": "En tiempos de dificultad",
+    "categories": [
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor, tú conoces mis preocupaciones y mis límites. No permitas que el miedo me aparte de ti. Dame sabiduría para actuar, paciencia para esperar y fortaleza para afrontar lo que no puedo cambiar. Que se haga tu voluntad y no la mía. Amén.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-enfermos",
+    "title": "Por los enfermos",
+    "categories": [
+      "momentos-dificiles",
+      "sacramentos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Señor Jesucristo, médico de las almas y de los cuerpos, acompaña a quienes sufren enfermedad. Dales fortaleza, alivio y esperanza; guía a quienes los cuidan y a quienes trabajan por su recuperación. Que nunca les falte tu presencia. Amén.",
+    "context": "La Iglesia ora por los enfermos y les ofrece el sacramento de la Unción (CIC 1499-1532). El mismo Cristo se identifica con los enfermos (Mt 25,36).",
+    "scripture": [
+      "Mt 25,36"
+    ],
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-del-enfermo",
+    "title": "Oración del enfermo",
+    "categories": [
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor Jesús, tú conoces mi dolor y mi cansancio.\nNo me dejes solo en esta enfermedad.\nDame paciencia, paz en el corazón y esperanza.\nUne mi sufrimiento al tuyo en la cruz\ny haz que no pierda la confianza en tu amor.\nBendice a quienes me cuidan.\nHágase tu voluntad. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "context": "El sufrimiento unido a la pasión de Cristo adquiere sentido redentor (CIC 1521). Esta oración no promete curación; pide fortaleza y confianza.",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-en-la-angustia",
+    "title": "En la angustia",
+    "categories": [
+      "momentos-dificiles",
+      "proteccion"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Descarga en el Señor tu peso, y él te sostendrá. (Sal 55,23)\nEchad sobre él todo vuestro agobio, porque él cuida de vosotros. (1 P 5,7)\n\nSeñor, estoy inquieto y no sé qué hacer.\nTe entrego mis miedos y lo que no controlo.\nSerena mi corazón, enséñame a esperar\ny recuérdame que tú estás conmigo.\nJesús, en ti confío. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0). Los versículos son citas bíblicas en traducción propia.",
+    "context": "Los salmos de súplica enseñan a presentar a Dios la angustia sin disimularla (CIC 2559-2565, 2589).",
+    "scripture": [
+      "Sal 55,23",
+      "1 P 5,7"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "salmo-23",
+    "title": "El Señor es mi pastor (Salmo 22/23)",
+    "altTitles": [
+      "Salmo del buen pastor"
+    ],
+    "categories": [
+      "momentos-dificiles",
+      "proteccion"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "El Señor es mi pastor, nada me falta:\nen verdes praderas me hace recostar,\nme conduce a aguas tranquilas\ny repara mis fuerzas.\nAunque camine por valle oscuro,\nno temo mal alguno, porque tú vas conmigo:\ntu vara y tu cayado me dan seguridad.\n\n*(Selección de los versículos 1-4, en traducción propia. Para el salmo completo, lee la Biblia en la sección «Leer»).*",
+    "context": "Salmo de confianza, numerado 22 en la Vulgata y los Setenta y 23 en la numeración hebrea. Se lee en la Misa de difuntos y en los funerales.",
+    "scripture": [
+      "Sal 23,1-6"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "oracion-en-el-duelo",
+    "title": "En el duelo",
+    "categories": [
+      "momentos-dificiles",
+      "difuntos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Señor, hoy lloro la ausencia de quien amaba.\nTú también lloraste ante la tumba de tu amigo Lázaro (Jn 11,35).\nAcoge a mi ser querido en tu paz,\nconsuela mi dolor y el de mi familia\ny sostén mi esperanza en la resurrección.\nTú que enjugarás toda lágrima (Ap 21,4), ten misericordia de nosotros.\nAmén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "scripture": [
+      "Jn 11,35",
+      "Ap 21,4"
+    ],
+    "context": "La fe cristiana no suprime el duelo, pero lo ilumina con la esperanza de la resurrección (CIC 1681-1690).",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "hagase-tu-voluntad",
+    "title": "«Hágase tu voluntad»",
+    "categories": [
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "devotion",
+    "text": "Padre, si quieres, aparta de mí este cáliz;\npero que no se haga mi voluntad, sino la tuya. (Lc 22,42)\n\nJesús, tú también sentiste angustia y no la escondiste.\nDame tu confianza en el Padre. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0). La primera frase es de Lc 22,42.",
+    "scripture": [
+      "Lc 22,42"
+    ],
+    "context": "Oración de Jesús en Getsemaní (CIC 2600).",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "id": "san-rafael-arcangel",
+  "title": "Novena a san Rafael Arcángel",
+  "group": "angels",
+  "description": "Nueve días con el compañero de camino de Tobías, para pedir guía en el viaje de la vida y sanación para el cuerpo y el alma.",
+  "image": {
+    "icon": "angel",
+    "tint": "#3f7a5a"
+  },
+  "introduction": "Rafael significa «Dios sana». Su historia se cuenta en el libro de Tobías, un relato sapiencial del Antiguo Testamento: acompaña al joven Tobías en un viaje, lo protege, lo aconseja, cura la ceguera del padre y ayuda a formar una familia. Al final se revela: «Yo soy Rafael, uno de los siete ángeles que están siempre presentes y tienen entrada a la gloria del Señor» (Tb 12,15). El libro de Tobías forma parte del canon católico.\n\nDesde 1969 su fiesta se celebra el **29 de septiembre**, junto a Miguel y Gabriel; antes se celebraba el 24 de octubre. La tradición lo invoca en los viajes, en la salud y en la búsqueda de un buen matrimonio, siempre como intercesor, no como sanador independiente de Dios.\n\nLa novena es piedad popular libre. Respeta el *Directorio sobre la piedad popular y la liturgia* (2001, n. 217): solo se invoca por su nombre a los arcángeles de la Escritura, y no se promete nada garantizado. Los textos de cada día se inspiran en el relato de Tobías, siguiendo el camino del viaje.",
+  "purpose": "Pedir la compañía de san Rafael en los caminos de la vida, la sanación del cuerpo y del espíritu, y la bendición de las familias, siempre en la voluntad de Dios.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 9,
+    "day": 29,
+    "label": "Santos Arcángeles Miguel, Gabriel y Rafael"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Libro de Tobías (Tb 5-12)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 328-336"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001), 215-217"
+    }
+  ],
+  "saints": [
+    "Rafael Arcángel"
+  ],
+  "tags": [
+    "arcángeles",
+    "tobías",
+    "29 de septiembre"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Dios sana",
+      "reading": "Tb 3,1-17",
+      "reflection": "El libro comienza con dos oraciones: la de Tobit, ciego y desanimado, y la de Sara, afligida por una injusta humillación. Ambos piden a Dios morir, y «la oración de los dos fue escuchada en la presencia de la gloria de Dios, y fue enviado Rafael para curarlos».\n\nEl nombre de Rafael nos dice que Dios sana, y la novena comienza en la herida: la enfermedad, la tristeza, el fracaso. Presentar nuestras heridas a Dios es el primer paso de la curación. Hoy pensamos en lo que nos pesa y lo ponemos en oración, sin disimular. Dios escucha, y a su tiempo y a su modo envía ayuda.",
+      "prayer": "Señor, tú escuchas la oración de los afligidos. Te presento mis heridas y mis cansancios. Envía tu sanación a mi cuerpo y a mi espíritu. San Rafael, ruega por mí, y ayúdame a confiar en que Dios no me abandona. Amén."
+    },
+    {
+      "day": 2,
+      "title": "El compañero de viaje",
+      "reading": "Tb 5,1-17",
+      "reflection": "Tobías debe emprender un viaje, y busca un guía. Se presenta un joven, que dice llamarse Azarías: es Rafael, aunque nadie lo sabe. Dios nos envía ayuda con rostros cotidianos. Tobit bendice a su hijo: «Que un ángel bueno te acompañe».\n\nHoy pensamos en los caminos que recorremos: viajes, cambios, etapas nuevas, el trabajo, los estudios. Y en quienes nos han acompañado sin que lo notáramos. Pedimos ser buenos compañeros y reconocer a quienes Dios pone a nuestro lado. En la oración confiamos nuestros caminos al Señor y a su ángel, y pedimos protección para quienes viajan.",
+      "prayer": "Señor, tú me acompañas en el camino. Gracias por los compañeros que pones a mi lado. San Rafael, guía mis pasos, protege a quienes viajan y ayúdame a ser un buen compañero para los demás. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Un buen consejo",
+      "reading": "Tb 6,10-18",
+      "reflection": "Cerca ya de su destino, Rafael aconseja a Tobías sobre su futuro: le habla de Sara y de cómo comportarse. No le impone nada, sino que lo guía con claridad y con respeto por su libertad. Los consejos de Rafael piden rezar, ser pacientes y confiar en Dios.\n\nHoy pedimos buenos consejos y la humildad de recibirlos. A veces buscamos soluciones rápidas y no escuchamos. San Rafael nos enseña que el buen consejero orienta y no manipula. Rezamos por los jóvenes que buscan su camino y por quienes disciernen su vocación, para que encuentren a alguien que los acompañe con sabiduría y paciencia.",
+      "prayer": "Señor, envíame buenos consejeros y dame humildad para escucharlos. Que sepa orientar a otros sin imponer. San Rafael, acompaña a los jóvenes que buscan su camino y ayúdalos a encontrar la voluntad de Dios. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Sanar las relaciones",
+      "reading": "Tb 8,1-9",
+      "reflection": "Tobías y Sara, la noche de bodas, rezan juntos: «Bendito eres, Dios de nuestros padres… Concédenos llegar juntos a la ancianidad». Su matrimonio comienza con la oración, y Rafael ha sabido apartar el peligro que acechaba a Sara.\n\nHoy rezamos por los matrimonios y las familias, por las parejas en crisis y por quienes buscan un compañero de vida. La oración compartida es una fuente de fortaleza. Pedimos sanación en las relaciones heridas: perdón entre esposos, reconciliación entre hermanos, paz entre generaciones. Que nuestros hogares sean un lugar de bendición donde Dios esté presente.",
+      "prayer": "Señor, bendice a las familias y a los matrimonios. Sana las relaciones heridas y concede perdón y paz. San Rafael, acompaña a quienes buscan una vocación al matrimonio, y enséñanos a rezar juntos en casa. Amén."
+    },
+    {
+      "day": 5,
+      "title": "La sanación de los ojos",
+      "reading": "Tb 11,1-15",
+      "reflection": "Al regresar, Tobías unta con la hiel del pez los ojos de su padre y Tobit recupera la vista. Se abrazan llorando. Más allá del relato, la imagen es bella: Dios nos devuelve la luz que habíamos perdido.\n\nHoy rezamos por los enfermos del cuerpo y del alma, y por quienes los cuidan: médicos, enfermeros, familiares. No todos los enfermos sanan, pero todos pueden encontrar sentido y compañía. San Rafael, al que invocamos como intercesor, no sustituye a la medicina ni promete resultados: pedimos con humildad, y aceptamos la voluntad de Dios. También pedimos ver mejor lo que no vemos: las necesidades de los demás.",
+      "prayer": "Señor, médico de cuerpos y almas, cura a los enfermos y sostén a quienes los cuidan. Si no sanan, dales paz y compañía. San Rafael, ruega por ellos. Abre mis ojos para ver las necesidades de mis hermanos y actuar con caridad. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Bendecir a Dios y compartir",
+      "reading": "Tb 12,1-10",
+      "reflection": "Tobit y Tobías quieren recompensar a su compañero. Rafael responde: «Bendigan a Dios… Es bueno orar con ayuno, y hacer limosna y justicia. Más vale poco con justicia que mucho con injusticia». La limosna libra de la muerte.\n\nLa gratitud auténtica se dirige a Dios y se expresa en el servicio. Hoy preguntamos qué hemos recibido y qué podemos compartir: tiempo, bienes, atención. La limosna no es solo dinero: es compartir lo que somos. Y la oración que nace de la gratitud nos pone en el lugar justo. Pedimos aprender a dar sin esperar nada, y a agradecer sin guardar para nosotros las alabanzas.",
+      "prayer": "Bendito seas, Señor, por todo lo que me has dado. Enséñame a compartirlo con generosidad y justicia. San Rafael, que invitaste a bendecir a Dios y a hacer limosna, ayúdame a dar con alegría y sin buscar reconocimiento. Amén."
+    },
+    {
+      "day": 7,
+      "title": "«Yo soy Rafael»",
+      "reading": "Tb 12,11-22",
+      "reflection": "Rafael se revela: «Cuando orabas y enterrabas a los muertos, yo presentaba tu oración ante el Señor… Yo soy Rafael, uno de los siete ángeles que están siempre presentes». Los hombres caen de rodillas. El ángel les dice: «No teman. La paz sea con ustedes. Bendigan a Dios por siempre».\n\nLa revelación no es para asustar, sino para dirigir la mirada hacia Dios. Hoy damos gracias por la ayuda invisible que Dios nos da y por quienes presentan nuestras oraciones. Y recordamos que toda gloria pertenece al Señor. Nos preguntamos si valoramos nuestras obras de misericordia, aunque pasen inadvertidas, porque están ante Dios.",
+      "prayer": "Señor, gracias por los ángeles que presentan nuestras oraciones y nos acompañan. Que mis obras, sobre todo las ocultas, te sean agradables. San Rafael, enséñame a bendecir a Dios siempre y a vivir en su paz. Amén."
+    },
+    {
+      "day": 8,
+      "title": "El canto de acción de gracias",
+      "reading": "Tb 13,1-11",
+      "reflection": "Tobit compone un cántico: «Bendito sea Dios que vive eternamente y cuyo reino dura por los siglos. Él castiga y se compadece, hunde hasta el abismo y saca de él». Aun después de la prueba, la alabanza es la respuesta de un corazón curado.\n\nHoy damos gracias por los momentos en que Dios nos ha levantado, y por los que aún no entendemos. Aprendemos que la sanación no siempre es inmediata, pero Dios sigue trabajando. Podemos escribir tres motivos de gratitud de este año. Y rezamos por quienes aún están en el camino, para que no pierdan la esperanza ni la fe.",
+      "prayer": "Bendito eres, Dios, que sanas y levantas. Gracias por tu cuidado en mis pruebas. Que la alabanza sea mi respuesta cotidiana. San Rafael, acompaña a quienes aún esperan una curación, y haz que no pierdan la esperanza. Amén."
+    },
+    {
+      "day": 9,
+      "title": "El regreso a casa",
+      "reading": "Tb 14,1-7",
+      "reflection": "El libro termina con Tobit, ya anciano, que recomienda a su hijo: «Sirve a Dios con sinceridad, y haz lo que le agrada». Ha cumplido el camino y recoge los frutos: una familia unida, una fe probada, una esperanza para su pueblo.\n\nConcluimos la novena mirando el camino completo: salimos con inquietud, volvimos con más confianza. En la vida hay despedidas, esfuerzos y regresos, y en todo ello Dios camina con nosotros. Damos gracias a san Rafael por su compañía y nos comprometemos a ser compañeros de otros. Y encomendamos nuestro último viaje a la misericordia de Dios.",
+      "prayer": "Señor, gracias por haberme acompañado en este camino de oración. Que siga sirviéndote con sinceridad y comparta tu compañía con los demás. San Rafael, guíame hasta el final del viaje, y llévame a la casa del Padre. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

@@ -1,0 +1,69 @@
+[
+  {
+    "id": "bendicion-mesa",
+    "title": "Bendición de la mesa",
+    "altTitles": [
+      "Bendecid, Señor",
+      "Benedictio mensae"
+    ],
+    "categories": [
+      "comida",
+      "familia",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Bendícenos, Señor, y bendice estos alimentos\nque vamos a tomar, recibidos de tu bondad.\nPor Cristo, nuestro Señor. Amén.",
+    "variants": [
+      {
+        "id": "solidaria",
+        "label": "Forma ampliada",
+        "text": "Bendice, Señor, estos alimentos y a quienes los han preparado.\nDa pan a quienes tienen hambre\ny hambre de justicia a quienes tienen pan.\nPor Cristo, nuestro Señor. Amén.",
+        "note": "Fórmula libre del Devocionario del proyecto."
+      }
+    ],
+    "latin": "Benedic, Domine, nos et haec tua dona,\nquae de tua largitate sumus sumpturi.\nPer Christum Dominum nostrum. Amen.",
+    "context": "Bendecir la mesa es una costumbre antigua del hogar cristiano: reconocer que el pan viene de Dios. Se acompaña de la señal de la cruz.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "accion-de-gracias-comida",
+    "title": "Acción de gracias después de comer",
+    "altTitles": [
+      "Gratiarum actio"
+    ],
+    "categories": [
+      "comida",
+      "familia",
+      "accion-de-gracias",
+      "latin"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "Te damos gracias, Dios todopoderoso,\npor todos tus beneficios,\ntú que vives y reinas por los siglos de los siglos. Amén.\n\nQue las almas de los fieles difuntos,\npor la misericordia de Dios, descansen en paz. Amén.",
+    "variants": [
+      {
+        "id": "solidaria",
+        "label": "Forma ampliada",
+        "text": "Te damos gracias, Señor, por estos alimentos y por todos tus beneficios.\nAcuérdate de quienes pasan necesidad\ny haznos generosos para compartir.\nPor Cristo, nuestro Señor. Amén.",
+        "note": "Fórmula libre del Devocionario del proyecto."
+      }
+    ],
+    "latin": "Agimus tibi gratias, omnipotens Deus,\npro universis beneficiis tuis,\nqui vivis et regnas in saecula saeculorum. Amen.\n\nFidelium animae per misericordiam Dei requiescant in pace. Amen.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  }
+]

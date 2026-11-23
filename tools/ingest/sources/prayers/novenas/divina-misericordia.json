@@ -1,0 +1,113 @@
+{
+  "id": "divina-misericordia",
+  "title": "Novena a la Divina Misericordia",
+  "group": "christ",
+  "description": "Nueve días, desde el Viernes Santo hasta el sábado anterior a la fiesta de la Misericordia, rezando cada día por un grupo de personas.",
+  "image": {
+    "icon": "heart",
+    "tint": "#b45f3c"
+  },
+  "introduction": "Santa Faustina Kowalska (1905-1938), religiosa polaca de la Congregación de las Hermanas de la Beata Virgen María de la Misericordia, anotó en su *Diario* que en 1937 sintió que Jesús le pedía rezar una novena previa a la fiesta de la Misericordia, y que cada día debía llevarle un grupo distinto de personas. El pasaje se encuentra en los números 1209-1229 del *Diario*.\n\nLa novena **comienza el Viernes Santo** y termina el **sábado anterior al segundo domingo de Pascua**, de modo que es una fiesta movible (fecha según el año). San Juan Pablo II canonizó a Faustina el 30 de abril de 2000 y estableció ese domingo, el segundo de Pascua, como fiesta de la Divina Misericordia para toda la Iglesia. Sobre la devoción, lee también *Dives in misericordia* (1980).\n\nSe trata de una **devoción privada aprobada**, no una oración litúrgica ni obligatoria. Las intenciones de cada día aquí están resumidas con palabras propias, porque las traducciones del *Diario* tienen derechos de autor. Cada día concluye con la Coronilla de la Divina Misericordia.",
+  "purpose": "Confiar a la misericordia de Dios a todas las personas, empezando por los más necesitados de ella, y crecer en la confianza en Cristo, en la misericordia con el prójimo y en la vida sacramental.",
+  "nature": "devotion",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Intención",
+      "text": "Se medita la intención del día y se pide a Jesús misericordioso que acoja a las personas por las que se reza. Las intenciones proceden de la tradición recogida en el Diario de santa Faustina."
+    }
+  ],
+  "closing": [
+    {
+      "prayer": "coronilla-divina-misericordia"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Santa Faustina Kowalska, Diario, n.º 1209-1229"
+    },
+    {
+      "label": "San Juan Pablo II, homilía de canonización de santa Faustina (30 de abril de 2000)",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2000/documents/hf_jp-ii_hom_20000430_faustina.html"
+    },
+    {
+      "label": "San Juan Pablo II, encíclica Dives in misericordia (1980)"
+    }
+  ],
+  "saints": [
+    "Faustina Kowalska"
+  ],
+  "tags": [
+    "misericordia",
+    "pascua",
+    "movible"
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Toda la humanidad, en especial los pecadores",
+      "reading": "Jn 3,16-17",
+      "reflection": "La novena comienza el Viernes Santo, junto a la cruz: ahí la misericordia de Dios se muestra del modo más claro. La primera intención abarca a toda la humanidad, empezando por los pecadores, y Jesús pide que los llevemos a su misericordia (cf. Diario de santa Faustina, n.º 1209-1229).\n\nNadie queda fuera, ni siquiera quienes se creen lejos o indignos. Hoy hacemos lo que Cristo pide: pensar en personas concretas, y también en nosotros mismos, que somos pecadores perdonados. La misericordia no minimiza el pecado, lo vence con amor. Confiar en ello abre la puerta a la conversión y al sacramento de la reconciliación.",
+      "prayer": "Jesús misericordioso, hoy te presento a toda la humanidad, y en especial a los pecadores, empezando por mí. Que nadie desespere de tu perdón. Dame un corazón compasivo, que no juzgue, sino que acompañe y rece por todos. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Sacerdotes y personas consagradas",
+      "reading": "Mt 9,35-38",
+      "reflection": "La segunda intención es por los sacerdotes y los religiosos (cf. Diario de santa Faustina, n.º 1209-1229). Son hombres y mujeres que han entregado su vida al servicio de Dios y de la Iglesia, y que a menudo cargan con soledad, cansancio y críticas.\n\nHoy rezamos por quienes nos han bautizado, absuelto y acompañado, y por quienes consagran su vida en la clausura o en la misión. Rezamos también por las vocaciones, porque «la mies es abundante y los obreros pocos». Podemos agradecerles de forma concreta: una palabra de ánimo, un gesto de cercanía. Que la misericordia que administran a otros los alcance también a ellos.",
+      "prayer": "Señor, te pido por los sacerdotes y las personas consagradas. Dales fortaleza, alegría y fidelidad. Cuida a los que sufren dudas o cansancio y suscita nuevas vocaciones. Que sean testigos de tu misericordia y que yo sepa agradecerles su entrega. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Los fieles devotos",
+      "reading": "Sal 103,1-13",
+      "reflection": "La tercera intención es por los fieles devotos, quienes se esfuerzan por vivir la fe (cf. Diario de santa Faustina, n.º 1209-1229). También ellos necesitan misericordia: pueden caer en la rutina, en la autosuficiencia o en la dureza hacia los demás.\n\nRezamos por quienes sostienen la vida de las comunidades: catequistas, lectores, familias, voluntarios y ancianos que rezan en silencio. Pedimos que no se cansen, que su fe sea cada día más viva y que su práctica sea siempre expresión de amor. Pedimos también la humildad de reconocer que quien mucho ha recibido debe mucho a la gracia, y no a sus méritos.",
+      "prayer": "Padre de misericordia, bendice a quienes te sirven con fidelidad. Aviva su fe y su esperanza, y presérvalos de la rutina y de la soberbia. Que yo sea también un fiel que se deja querer por ti y que acoge a los demás con bondad. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Quienes aún no conocen a Jesús",
+      "reading": "Hch 17,22-31",
+      "reflection": "La cuarta intención reúne a quienes no conocen a Cristo o no creen en Él (cf. Diario de santa Faustina, n.º 1209-1229). San Pablo, ante los atenienses, no empieza con reproches, sino reconociendo su búsqueda religiosa: «Dios no está lejos de cada uno de nosotros».\n\nHoy rezamos por los pueblos que no han oído hablar de Jesús, por los que lo conocen mal, por los indiferentes y los que dicen no creer. La Iglesia reconoce que Dios desea la salvación de todos. Nos corresponde el respeto, el diálogo, el testimonio y la oración. Que nuestra vida, más que nuestras palabras, deje ver la ternura del Dios en quien creemos.",
+      "prayer": "Dios de misericordia, tú quieres que todos se salven. Te pido por quienes no te conocen o no creen en ti. Que encuentren tu luz por caminos que solo tú conoces, y que yo sea testigo humilde y respetuoso de tu amor. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 5,
+      "title": "La unidad de los cristianos",
+      "reading": "Jn 17,20-23",
+      "reflection": "La quinta intención se dirige a los cristianos separados de la comunión plena de la Iglesia (cf. Diario de santa Faustina, n.º 1209-1229). Aquí se hablaba de «herejes y cismáticos»; la Iglesia de hoy prefiere hablar de hermanos separados, bautizados que comparten con nosotros mucho de la fe en Cristo.\n\nJesús rezó para que «todos sean uno». La división de los cristianos es una herida y un escándalo, y su curación es un don que pedimos con paciencia, humildad y conversión del corazón. Hoy rezamos por el diálogo y la amistad entre los cristianos, y también por reconocer en nuestra propia vida lo que contribuye a dividir.",
+      "prayer": "Señor Jesús, tú pediste la unidad de tus discípulos. Cura las divisiones entre los cristianos y concédenos humildad para el diálogo y la reconciliación. Que tu Espíritu nos conduzca a la plena comunión y que nuestro testimonio sea creíble. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Los mansos, los humildes y los niños",
+      "reading": "Mt 18,1-5",
+      "reflection": "La sexta intención es por los mansos, los humildes y los niños (cf. Diario de santa Faustina, n.º 1209-1229). Jesús los pone como modelo: «Si no cambian y se hacen como niños, no entrarán en el reino de los cielos».\n\nRezamos por los niños, especialmente por los que sufren abandono, violencia o falta de cuidados, y por quienes los educan. Rezamos también por las personas sencillas, que no cuentan en el mundo pero son grandes ante Dios. La mansedumbre no es debilidad: es la fuerza de quien confía. Hoy pedimos recuperar la sencillez de la infancia espiritual, hecha de confianza y de transparencia.",
+      "prayer": "Jesús, manso y humilde, bendice a los niños y a las personas sencillas. Protege a los más frágiles y a quienes los cuidan. Concédeme un corazón de niño, confiado en el Padre, libre de orgullo y de cálculo. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Quienes veneran y difunden la misericordia",
+      "reading": "Lc 6,36-38",
+      "reflection": "La séptima intención es por quienes veneran de manera especial la misericordia de Dios y la dan a conocer (cf. Diario de santa Faustina, n.º 1209-1229). Jesús dice: «Sean misericordiosos como su Padre es misericordioso».\n\nRezamos por quienes anuncian este mensaje: predicadores, catequistas, voluntarios de Cáritas, visitadores de enfermos y de presos. La misericordia es una forma de vida, hecha de gestos: perdonar, escuchar, dar de comer, aconsejar, soportar con paciencia. Hoy preguntémonos qué obra de misericordia puedo hacer esta semana, y pidamos la gracia de pasar de la admiración a la práctica.",
+      "prayer": "Padre misericordioso, bendice a quienes dan a conocer tu misericordia con palabras y con obras. Enséñame a ser misericordioso como tú: dispuesto a perdonar, a escuchar y a servir. Que mi vida sea una pequeña ventana abierta a tu amor. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Las almas del purgatorio",
+      "reading": "2 Mac 12,43-46",
+      "reflection": "La octava intención es por las almas del purgatorio (cf. Diario de santa Faustina, n.º 1209-1229). La Iglesia cree que quienes mueren en la amistad de Dios, pero necesitan purificarse, son ayudados por las oraciones de los vivos (Catecismo, 1030-1032). El libro de los Macabeos muestra ya esa práctica de rezar por los difuntos.\n\nHoy rezamos por nuestros familiares y amigos fallecidos, y por quienes no tienen quien rece por ellos. El purgatorio no es un castigo arbitrario, sino la última obra del amor de Dios que nos prepara para el encuentro. Es una invitación a confiar la vida y la muerte a su misericordia.",
+      "prayer": "Señor, Dios de misericordia, te pido por mis difuntos y por todos los que esperan verte. Purifícalos con tu amor y llévalos a tu luz. Concédeles el descanso eterno. Y a mí, ayúdame a vivir de modo que esté preparado para encontrarme contigo. Jesús, en ti confío. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Las almas tibias",
+      "reading": "Ap 3,14-22",
+      "reflection": "La novena concluye con las almas tibias (cf. Diario de santa Faustina, n.º 1209-1229). A la comunidad de Laodicea, el Señor le dice: «No eres frío ni caliente… pero yo estoy a la puerta y llamo. Si alguien me abre, entraré y cenaré con él».\n\nLa tibieza es ese cansancio espiritual que no se rebela contra Dios, pero tampoco lo busca: se reza por costumbre, se va a Misa sin prisa y sin amor. Esta intención nos incluye a casi todos en algún momento. Hoy escuchamos su llamada a la puerta y le abrimos de nuevo. La Fiesta de la Misericordia, que se acerca, es una ocasión para volver a los sacramentos con un corazón renovado.",
+      "prayer": "Jesús, que llamas a la puerta de mi corazón, sacúdeme de mi tibieza. Enciende en mí el deseo de ti, la sed de tu Palabra y la alegría de los sacramentos. Hoy te abro de nuevo. Quédate conmigo, y renueva mi amor. Jesús, en ti confío. Amén."
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia (CC BY-SA 4.0). Reflexiones y oraciones diarias de autoría propia."
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "fundamentales",
+    "title": "Oraciones fundamentales",
+    "description": "Las oraciones y los credos que todo cristiano aprende primero.",
+    "icon": "cross",
+    "order": 1
+  },
+  {
+    "id": "manana",
+    "title": "Mañana",
+    "description": "Para comenzar el día en presencia de Dios.",
+    "icon": "sun",
+    "order": 2
+  },
+  {
+    "id": "tarde",
+    "title": "Mediodía y tarde",
+    "description": "Una pausa para volver a Dios en mitad de la jornada.",
+    "icon": "sun",
+    "order": 3
+  },
+  {
+    "id": "noche",
+    "title": "Noche",
+    "description": "Para dar gracias, pedir perdón y descansar en Dios.",
+    "icon": "moon",
+    "order": 4
+  },
+  {
+    "id": "comida",
+    "title": "Antes y después de comer",
+    "description": "Bendecir la mesa y dar gracias.",
+    "icon": "bread",
+    "order": 5
+  },
+  {
+    "id": "espiritu-santo",
+    "title": "Espíritu Santo",
+    "description": "Invocaciones al Espíritu Santo.",
+    "icon": "dove",
+    "order": 6
+  },
+  {
+    "id": "virgen-maria",
+    "title": "Virgen María",
+    "description": "Oraciones marianas tradicionales.",
+    "icon": "heart",
+    "order": 7
+  },
+  {
+    "id": "angeles",
+    "title": "Ángeles",
+    "description": "El Ángel de la Guarda y los arcángeles.",
+    "icon": "angel",
+    "order": 8
+  },
+  {
+    "id": "santos",
+    "title": "Santos",
+    "description": "Oraciones a san José y a otros santos.",
+    "icon": "star",
+    "order": 9
+  },
+  {
+    "id": "difuntos",
+    "title": "Difuntos",
+    "description": "Por quienes han muerto y por quienes los lloran.",
+    "icon": "candle",
+    "order": 10
+  },
+  {
+    "id": "familia",
+    "title": "Familia",
+    "description": "Por el hogar, los esposos, los hijos y los que trabajan.",
+    "icon": "family",
+    "order": 11
+  },
+  {
+    "id": "proteccion",
+    "title": "Protección",
+    "description": "Pedir amparo a Dios, a la Virgen y a los ángeles.",
+    "icon": "shield",
+    "order": 12
+  },
+  {
+    "id": "accion-de-gracias",
+    "title": "Acción de gracias",
+    "description": "Alabar y dar gracias a Dios.",
+    "icon": "hands",
+    "order": 13
+  },
+  {
+    "id": "momentos-dificiles",
+    "title": "Momentos difíciles",
+    "description": "Enfermedad, angustia, duelo y prueba.",
+    "icon": "heart",
+    "order": 14
+  },
+  {
+    "id": "rosarios-coronillas",
+    "title": "Rosarios y coronillas",
+    "description": "Oraciones que se rezan con cuentas.",
+    "icon": "rosary",
+    "order": 15
+  },
+  {
+    "id": "novenas",
+    "title": "Novenas",
+    "description": "Nueve días de oración confiada. Piedad popular.",
+    "icon": "candle",
+    "order": 16
+  },
+  {
+    "id": "devociones",
+    "title": "Devociones tradicionales",
+    "description": "Sagrado Corazón, Santa Faz, Divina Misericordia y otras.",
+    "icon": "crown",
+    "order": 17
+  },
+  {
+    "id": "liturgia-horas",
+    "title": "Liturgia de las Horas",
+    "description": "La oración de la Iglesia a lo largo del día.",
+    "icon": "hours",
+    "order": 18
+  },
+  {
+    "id": "sacramentos",
+    "title": "Sacramentos",
+    "description": "Preparación y acción de gracias: confesión y comunión.",
+    "icon": "cross",
+    "order": 19
+  },
+  {
+    "id": "latin",
+    "title": "Oraciones en latín",
+    "description": "Las principales oraciones en su forma latina tradicional.",
+    "icon": "book",
+    "order": 20
+  }
+]

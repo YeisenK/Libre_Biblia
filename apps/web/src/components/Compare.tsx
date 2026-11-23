@@ -1,4 +1,5 @@
 'use client';
+import { Banner, Loading, ScreenHeader } from './ui';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
 import { useState } from 'react';
@@ -56,23 +57,23 @@ function CompareInner() {
 
   return (
     <div>
-      <h1 className="h-page mb-3">Comparar versiones</h1>
+      <ScreenHeader title="Comparar versiones" subtitle="Lee el mismo pasaje en hasta cuatro versiones, verso a verso." />
       <div className="mb-4 flex flex-wrap items-center gap-2">
-        <button type="button" className="btn" onClick={() => setPicker(true)} disabled={!booksQ.data} aria-haspopup="dialog">
-          <span className="font-serif text-base font-semibold">
+        <button type="button" className="btn !rounded-full" onClick={() => setPicker(true)} disabled={!booksQ.data} aria-haspopup="dialog">
+          <span className="font-display text-lg font-semibold">
             {bookName} {chapter}
           </span>
           <ChevronDown />
         </button>
       </div>
       <fieldset className="mb-6">
-        <legend className="mb-1 text-sm font-medium text-muted">Versiones (2 a 4)</legend>
+        <legend className="eyebrow mb-2">Versiones (2 a 4)</legend>
         <div className="flex flex-wrap gap-2">
           {all.map((v) => {
             const has = v.books.includes(book);
             const on = selected.includes(v.code);
             return (
-              <label key={v.code} className={`btn cursor-pointer ${on ? '!border-accent !bg-sunken' : ''} ${!has ? 'opacity-50' : ''}`} title={has ? `${v.name}${statusLabels(v).map((l) => ` · ${l}`).join('')}` : `${v.code} no contiene este libro`}>
+              <label key={v.code} className={`btn cursor-pointer !rounded-full ${on ? '!border-accent !bg-sunken !text-accent' : ''} ${!has ? 'opacity-50' : ''}`} title={has ? `${v.name}${statusLabels(v).map((l) => ` · ${l}`).join('')}` : `${v.code} no contiene este libro`}>
                 <input type="checkbox" className="sr-only" checked={on} disabled={!has || (!on && selected.length >= 4)} onChange={() => toggle(v.code)} />
                 {v.code}
                 {statusLabels(v).length > 0 && <span className="text-xs font-semibold text-warn">{v.translationStatus === 'draft' ? 'Borrador' : 'Sin aprobación'}</span>}
@@ -87,7 +88,7 @@ function CompareInner() {
         const v = all.find((x) => x.code === c);
         return !!v && (statusLabels(v).length > 0 || !!v.notice);
       }) && (
-        <ul className="card mb-4 flex flex-col gap-2 text-sm" aria-label="Estado de las versiones" data-testid="compare-status">
+        <ul className="card-soft mb-4 flex flex-col gap-2 text-sm" aria-label="Estado de las versiones" data-testid="compare-status">
           {selected.map((c) => all.find((x) => x.code === c)).filter((v) => v && (statusLabels(v).length > 0 || v.notice)).map((v) => (
             <li key={v!.code}>
               <span className="font-semibold">{v!.code}</span> <StatusBadges meta={v!} />
@@ -99,15 +100,13 @@ function CompareInner() {
       {book === 'Ps' && selected.some((c) => needsConversion(schemeOf(all.find((x) => x.code === c)?.versification), schemeOf(all.find((x) => x.code === selected[0])?.versification))) && (
         <p className="mb-4 text-sm text-muted" data-testid="psalm-note">Las versiones usan numeraciones distintas de los Salmos (hebrea y Vulgata). Se alinean verso a verso; el número de salmo de cada versión aparece en su columna.</p>
       )}
-      {selected.length < 2 && <p className="card text-muted">Elige al menos dos versiones que contengan este libro.</p>}
-      {q.isLoading && <p className="text-muted">Cargando…</p>}
+      {selected.length < 2 && <Banner>Elige al menos dos versiones que contengan este libro.</Banner>}
+      {q.isLoading && <Loading />}
       {q.isError && (
-        <p className="card" role="alert">
-          No se pudo cargar la comparación. {(q.error as Error).message}
-        </p>
+        <Banner tone="error">No se pudo cargar la comparación. {(q.error as Error).message}</Banner>
       )}
       {q.data && (
-        <div className="overflow-hidden rounded-xl border border-line">
+        <div className="overflow-hidden rounded-2xl bg-surface shadow-soft ring-1 ring-line/70">
           <div className="hidden bg-sunken text-sm font-semibold md:grid" style={{ gridTemplateColumns: `3rem repeat(${q.data.versions.length}, minmax(0,1fr))` }} role="row">
             <div className="p-2" />
             {q.data.versions.map((v) => (

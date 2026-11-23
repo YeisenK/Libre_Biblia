@@ -1,0 +1,137 @@
+{
+  "id": "san-benito",
+  "title": "Novena a san Benito de Nursia",
+  "group": "saints",
+  "description": "Nueve días con el padre del monacato occidental, patrono de Europa, guiados por su Regla y por el sentido de su medalla.",
+  "image": {
+    "icon": "shield",
+    "tint": "#5b4a3a"
+  },
+  "introduction": "Benito nació en Nursia (Italia central) hacia el año 480. Tras estudiar en Roma, se retiró a una cueva en Subiaco y después fundó el monasterio de Montecasino, donde murió hacia el 547. Conocemos su vida por el libro II de los *Diálogos* de san Gregorio Magno. Escribió la *Regla*, código de vida comunitaria resumido después en «Ora et labora» (fórmula posterior, no literal de la Regla).\n\nPablo VI lo proclamó patrono de Europa el 24 de octubre de 1964. Su fiesta se celebra el 11 de julio.\n\n**La medalla de san Benito.** Es un sacramental: signo sagrado que, por la oración de la Iglesia, dispone a recibir la gracia, pero que no actúa mágicamente. Muestra al santo con la cruz y la Regla; en la cruz figuran C S P B («Cruz del santo padre Benito») y C S S M L («Sea la santa cruz mi luz») y N D S M D («Que el dragón no sea mi guía»). Alrededor, V R S N S M V («Vade retro, Satana, nunquam suade mihi vana»; «Retrocede, Satanás, no me aconsejes cosas vanas») y S M Q L I V B («Sunt mala quae libas, ipse venena bibas»; «Lo que me ofreces es malo; bebe tú mismo tu veneno»). Son un acto de fe en Cristo, no un amuleto.",
+  "purpose": "Aprender de san Benito a buscar a Dios con escucha, obediencia y trabajo, y rechazar el mal confiando en la cruz de Cristo, no en objetos con poderes propios.\n\nEs piedad popular, libre y voluntaria. La medalla y las oraciones son signos de fe, nunca un amuleto ni una garantía de protección, y no sustituyen a la liturgia ni a los sacramentos.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 7,
+    "day": 11,
+    "label": "Memoria de san Benito, abad, patrono de Europa"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios nuestro, que hiciste de san Benito un maestro en el servicio divino, concédenos no anteponer nada al amor de Cristo y buscarte con sincero corazón. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Escucha, hijo",
+      "reading": "Pr 4,1-9",
+      "reflection": "La *Regla* comienza con una invitación: «Escucha, hijo, los preceptos del maestro e inclina el oído de tu corazón». Escuchar es la primera actitud de quien busca a Dios. En un mundo lleno de ruido, necesitamos silencio interior para oír. Benito propone una escuela del servicio del Señor, sin asperezas ni exceso, para aprender poco a poco. Pensemos en cuánto espacio dejamos al silencio, a la Palabra y a las personas que nos hablan. Que esta novena nos ayude a abrir el oído del corazón, escuchando con atención y respeto.",
+      "prayer": "San Benito, maestro de escucha, enséñame a hacer silencio y a oír la voz de Dios en la Escritura y en los demás. Que la Palabra y los demás encuentren en mí un oído atento y un corazón dispuesto a obedecer. Amén."
+    },
+    {
+      "day": 2,
+      "title": "La conversión de Subiaco",
+      "reading": "Lc 9,23-26",
+      "reflection": "Siendo joven, Benito dejó los estudios y se retiró a una cueva en Subiaco, buscando solo a Dios. Gregorio Magno cuenta que vivió «consigo mismo» bajo la mirada del Señor. No todos estamos llamados al desierto, pero todos necesitamos momentos de soledad con Dios para discernir lo esencial. Examinemos hoy qué cosas nos distraen y cuáles nos acercan al Señor. La conversión es un camino diario de ordenar la vida hacia Cristo, sin prisas ni desánimos, dejando que su gracia nos transforme. Hoy podemos escoger una sola cosa que nos distrae de lo esencial y reducirla durante el día, sin dramatismo, como primer paso.",
+      "prayer": "San Benito, que buscaste a Dios en la soledad, ayúdame a ordenar mi vida y a dejar lo que me aparta de Cristo. Dame constancia en mi conversión. Que no me desanime ante mis caídas y vuelva a ti cada mañana con confianza. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Nada antes que Cristo",
+      "reading": "Flp 3,7-14",
+      "reflection": "La *Regla* dice: «No anteponer nada al amor de Cristo» (cap. 4 y 72). Es el corazón de la espiritualidad benedictina. Pablo lo expresa así: todo lo demás lo considera pérdida ante la sublimidad de conocer a Cristo. Anteponer no es despreciar lo demás, sino ordenarlo: familia, trabajo y descanso encuentran su lugar cuando Cristo es el centro. Preguntémonos qué ocupa hoy el primer sitio en nuestro corazón y si necesita ser reordenado. Pidamos la gracia de amar a Cristo por encima de todo y, en Él, a todos. Un modo práctico de empezar el día con Cristo en el centro es dedicarle los primeros minutos, antes de revisar el móvil o las tareas.",
+      "prayer": "Señor Jesús, por intercesión de san Benito, que nada me aparte de tu amor. Ordena mis afectos y mis tareas para que Tú seas el centro. Que en mi familia, mi trabajo y mi descanso se note que tu amor va primero, y que sepa volver a él cuando me disperse. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Ora et labora",
+      "reading": "Col 3,12-17",
+      "reflection": "Aunque la fórmula «Ora et labora» es un resumen posterior, expresa bien el equilibrio benedictino: el Oficio divino, la lectura espiritual y el trabajo manual se alternan, de modo que «en todo sea Dios glorificado» (Regla 57). Pablo dice: «Todo lo que hagáis, de palabra o de obra, hacedlo todo en nombre del Señor Jesús». Esta unidad de vida es un reto en la rutina. Busquemos un modo de ofrecer el trabajo de hoy: una breve oración al empezar, una pausa para dar gracias, una tarea hecha con esmero. Así lo cotidiano se vuelve camino de santidad.",
+      "prayer": "San Benito, enséñame a unir oración y trabajo. Que ofrezca a Dios mis tareas de hoy y las haga bien, con paz y gratitud. Que mi trabajo, también el monótono o el cansado, sea una forma de alabarte y de servir a mis hermanos. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Obediencia y humildad",
+      "reading": "Flp 2,5-11",
+      "reflection": "Para Benito, la humildad es la escalera de doce grados que lleva al amor perfecto. La obediencia nace de la fe en Cristo, que «se humilló hasta la muerte». No es servilismo, sino libertad: quien escucha a Dios y a los hermanos se libera del propio capricho. En nuestras relaciones, obedecer es también saber ceder, pedir consejo, aceptar correcciones. Hoy reflexionemos sobre dónde nos cuesta más la humildad y pidamos a Dios que nos enseñe a servir con alegría, siguiendo el ejemplo de Jesús. Quizá hoy toque pedir consejo antes de decidir, o aceptar sin réplica una observación justa; son gestos pequeños de humildad.",
+      "prayer": "Jesús manso y humilde, por intercesión de san Benito, libérame del orgullo y enséñame a obedecer con amor y alegría. Dame la libertad de quien no necesita tener razón ni ser el primero, y la alegría de servir en lo escondido. Amén."
+    },
+    {
+      "day": 6,
+      "title": "La hospitalidad",
+      "reading": "Mt 25,31-40",
+      "reflection": "La *Regla* manda: «A todos los huéspedes que lleguen se les reciba como a Cristo» (cap. 53). Las abadías benedictinas fueron durante siglos refugio de viajeros, enfermos y pobres. Jesús lo dice: «Fui forastero y me acogisteis». La hospitalidad empieza por la atención al otro: una mirada, una escucha, una mesa compartida. Pensemos a quién podemos acoger hoy: un vecino solo, un recién llegado, un familiar distante. Acoger a los demás como a Cristo transforma nuestras casas y comunidades en lugares donde la gracia puede entrar. Si recibimos hoy una visita o una llamada inesperada, tratémosla como ocasión de acoger a Cristo, sin mostrar prisa.",
+      "prayer": "San Benito, que acogías a todos como a Cristo, abre mi corazón y mi casa a quien lo necesita. Que sepa reconocer al Señor en el huésped. Enséñame a ofrecer una mesa, una escucha o un rato de tiempo a quien llega sin avisar. Amén."
+    },
+    {
+      "day": 7,
+      "title": "La cruz y la medalla",
+      "reading": "Jn 3,14-17; 1 Co 1,18",
+      "reflection": "La medalla de san Benito es un sacramental: un signo de la fe de la Iglesia que nos recuerda la cruz de Cristo. Sus letras expresan: «Sea la santa cruz mi luz» y «Que el dragón no sea mi guía». *Vade retro Satana* es un rechazo del mal, no una fórmula mágica. Su fuerza no está en el metal ni en las letras, sino en la fe en Cristo crucificado y en la oración de la Iglesia. Quien la lleva se compromete a vivir el Evangelio. Contemplemos hoy la cruz como signo de amor y victoria, y renovemos la renuncia al pecado.",
+      "prayer": "Señor Jesús, que por tu cruz venciste al mal, que el signo de la cruz sea luz en mi camino. Líbrame del pecado y de toda tentación, y dame fe verdadera. Y que nunca vea en la medalla un amuleto, sino un recuerdo sencillo de tu cruz. Amén."
+    },
+    {
+      "day": 8,
+      "title": "La paz",
+      "reading": "Sal 34,12-15; Jn 14,27",
+      "reflection": "El lema «Pax» es característico de los monasterios benedictinos. Benito pide «buscar la paz y seguirla», como el salmista. La paz es obra de la justicia, del perdón y de la escucha, don de Cristo y tarea nuestra. Europa, de la que es patrono desde 1964, ha conocido guerras devastadoras. Pensemos en nuestras discordias personales y familiares, y en los conflictos del mundo. Pidamos ser constructores de paz, empezando por casa, con palabras suaves y gestos concretos de reconciliación. La paz se ejercita en lo concreto: hoy, evitemos una palabra dura y demos el primer paso para reconciliarnos con alguien.",
+      "prayer": "Señor, por intercesión de san Benito, haznos artesanos de paz. Reconcilia a las familias, a los pueblos y a las naciones, y danos tu paz. Que empiece por mi casa: que mi palabra apacigüe, y que mi oración alcance a quienes viven en guerra. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Una buena muerte",
+      "reading": "Lc 23,46; Jn 11,25-26",
+      "reflection": "Gregorio Magno cuenta que Benito, seis días antes de morir, pidió que le abrieran su sepultura y murió de pie, sostenido por sus monjes, con los brazos elevados al cielo, tras recibir el Cuerpo y la Sangre del Señor. Su muerte fue como su vida: orante y serena. La *Regla* aconseja «tener cada día presente la muerte». No es una idea sombría, sino una invitación a vivir con sentido. Agradezcamos la vida recibida y encomendemos a nuestros difuntos. Pidamos la gracia de vivir cada día como preparación para el encuentro con Dios.",
+      "prayer": "San Benito, que moriste en oración, alcánzame una vida fiel y un final en paz. Encomiendo a Dios a mis difuntos y confío en su misericordia. Dame la gracia de preparar cada día, en lo pequeño, el encuentro contigo. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a san Benito",
+      "text": "Padre y maestro san Benito, que quisiste que nada se antepusiera al amor de Cristo, enséñanos a escuchar, a obedecer y a trabajar en paz. Que la señal de la cruz nos proteja del mal y nos guíe hacia Dios. Intercede por la Iglesia, por Europa y por quienes buscan la paz. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0.",
+  "sources": [
+    {
+      "label": "San Gregorio Magno, Diálogos, libro II (vida de san Benito)"
+    },
+    {
+      "label": "Regla de san Benito (siglo VI)"
+    },
+    {
+      "label": "Pablo VI, proclamación de san Benito patrono de Europa (24-X-1964)"
+    },
+    {
+      "label": "Archiabadía de Montecasino / sacramentales: medalla de san Benito"
+    }
+  ],
+  "saints": [
+    "san-benito"
+  ],
+  "tags": [
+    "novena",
+    "medalla",
+    "11 de julio"
+  ]
+}

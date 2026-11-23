@@ -1,0 +1,135 @@
+{
+  "id": "santa-teresita",
+  "title": "Novena a santa Teresita del Niño Jesús",
+  "group": "saints",
+  "description": "Nueve días con santa Teresa de Lisieux, doctora de la Iglesia, para aprender su «caminito» de confianza y amor.",
+  "image": {
+    "icon": "heart",
+    "tint": "#a45b6a"
+  },
+  "introduction": "Teresa Martin nació en Alençon (Francia) el 2 de enero de 1873. A los quince años ingresó en el Carmelo de Lisieux, donde recibió el nombre de Teresa del Niño Jesús y de la Santa Faz. Murió de tuberculosis el 30 de septiembre de 1897, con veinticuatro años. Poco después se publicó su autobiografía, *Historia de un alma*, que se difundió por todo el mundo.\n\nFue canonizada por Pío XI el 17 de mayo de 1925 y proclamada, junto con san Francisco Javier, patrona universal de las misiones (1927). Juan Pablo II la declaró doctora de la Iglesia el 19 de octubre de 1997, con el título de «Doctora del Amor».\n\nSu «caminito» es una vía de infancia espiritual: confiar como un niño en el amor misericordioso de Dios, hacer con amor las cosas pequeñas de cada día y ofrecerse al Amor. Teresa dijo que su vocación era «el amor» en el corazón de la Iglesia (Manuscrito B). Su fiesta se celebra el 1 de octubre. Esta novena recorre ese camino con breves citas suyas, según traducciones españolas habituales.",
+  "purpose": "Aprender de santa Teresita la confianza filial en Dios, el amor en lo pequeño y la unión con la Iglesia misionera.\n\nEs una devoción libre y voluntaria, sin fórmulas ni compromisos obligatorios; su fruto no se mide por resultados, sino por una confianza más sencilla en Dios. No sustituye a la liturgia ni a los sacramentos.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 10,
+    "day": 1,
+    "label": "Memoria de santa Teresa del Niño Jesús, virgen y doctora de la Iglesia"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Padre misericordioso, que revelaste a santa Teresita los secretos de tu amor en la sencillez de la infancia espiritual, enséñanos a confiar en ti y a amar en lo pequeño. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El Dios que ama",
+      "reading": "1 Jn 4,7-16",
+      "reflection": "Teresa descubrió que Dios es Amor, y esa certeza orientó su vida. En su autobiografía escribe: «Comprendí que solo el amor hacía obrar a los miembros de la Iglesia» (Manuscrito B). Esta novena empieza con el mismo fundamento: antes de cualquier esfuerzo nuestro, hay un amor que nos precede. A veces creemos que tenemos que ganarnos a Dios; Teresa nos recuerda que ya somos amados. Dediquemos unos minutos a recordar momentos en los que hemos experimentado ese amor y demos gracias. Desde ahí, rezar y obrar es responder, no cumplir.",
+      "prayer": "Padre, gracias porque me amas antes de que yo haga algo. Santa Teresita, enséñame a descansar en ese amor y a responder con sencillez. Que cuanto emprenda hoy nazca de saberme querido y no de la necesidad de merecerlo. Amén."
+    },
+    {
+      "day": 2,
+      "title": "La infancia espiritual",
+      "reading": "Mt 18,1-4",
+      "reflection": "Jesús dice que quien no se haga como un niño no entrará en el reino de los cielos. Teresa entendió que ser pequeño no es inmadurez, sino reconocer nuestra necesidad y confiar. Se comparaba con un niño que no puede subir la escalera y es levantado por los brazos del padre. «El ascensor que debe elevarme al cielo son tus brazos, oh Jesús» (Manuscrito C). Hoy admitamos nuestras limitaciones sin vergüenza. No hemos de ser perfectos para ser amados; basta dejarnos llevar, pedir ayuda y confiar en la bondad de Dios.",
+      "prayer": "Jesús, haz que me deje llevar en tus brazos. Santa Teresita, ayúdame a ser pequeño ante Dios, sin miedo a mis límites. Que me deje levantar por ti cuando no pueda subir solo, y que acepte mis límites como el lugar de tu ayuda. Amén."
+    },
+    {
+      "day": 3,
+      "title": "Lo pequeño con gran amor",
+      "reading": "Lc 16,10; Lc 21,1-4",
+      "reflection": "Teresa no hizo cosas extraordinarias; hizo con amor las cosas pequeñas: una sonrisa, un gesto de paciencia, un servicio escondido. Para ella, hasta el gesto más menudo, hecho por amor, tenía valor ante Dios. Jesús alaba la ofrenda de la viuda, que dio poco, pero todo. Muchas de nuestras jornadas están hechas de tareas aparentemente insignificantes. Ofrezcámoslas como un pequeño sacrificio de amor: cada llamada atendida, cada comida preparada, cada espera soportada. Así, lo ordinario se vuelve camino de santidad. Hoy puede bastar un solo gesto, hecho con atención y sin ruido: ceder el turno, responder con amabilidad, terminar bien una tarea cansada.",
+      "prayer": "Señor, que haga hoy lo pequeño con gran amor. Santa Teresita, enséñame a ofrecer lo cotidiano con alegría y sin buscar reconocimiento. Que no desprecie lo pequeño: una palabra amable, una tarea acabada, una espera sin queja. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Caridad en la comunidad",
+      "reading": "Jn 13,34-35",
+      "reflection": "En el Carmelo, Teresa encontró hermanas difíciles de tratar. Decidió amarlas con obras: sonreír a la que le caía peor, soportar en silencio un ruido molesto, servir a una hermana anciana y exigente. Aprendió que la caridad concreta es la prueba del amor. Pensemos en quién nos resulta difícil: un familiar, un compañero, un vecino. Pidamos a Jesús su mirada para esa persona, y hagamos un gesto concreto de bondad, aunque sea pequeño. El amor empieza donde hay roce y se prueba en la paciencia. Nombremos hoy a esa persona ante Dios y roguemos por ella, aunque no sintamos afecto; rezar por alguien ya cambia la mirada.",
+      "prayer": "Jesús, dame tu mirada hacia quienes me cuestan. Santa Teresita, ayúdame a amar con gestos concretos y a tener paciencia con los demás. Que mi paciencia no dependa de caer bien, sino de verte a ti en cada persona. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Confianza en la prueba",
+      "reading": "Sal 23; Mt 14,28-31",
+      "reflection": "Teresa vivió una larga noche de la fe en sus últimos años: no sentía consuelo y le asaltaban dudas. Aun así, siguió amando y esperando. Su fe no dependía de sentimientos, sino de una decisión de confiar. Ella misma describió esa prueba como una oscuridad en la que, sin sentir nada, quiso seguir creyendo. Si nos toca atravesar un tiempo de sequedad o de dolor, no estamos solos: otros santos lo han vivido. Confiemos aunque no sintamos nada, y repitamos con sencillez una oración breve de confianza.",
+      "prayer": "Señor, en mis noches de oscuridad sostén mi confianza. Santa Teresita, acompáñame cuando no sienta nada y enséñame a seguir esperando. Y si la oscuridad se alarga, que mi pequeña fidelidad de cada día, aunque sea sin consuelo, sea mi manera de decirte que me fío de ti. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Mi vocación es el amor",
+      "reading": "1 Co 12,31–13,13",
+      "reflection": "Teresa deseaba ser misionera, sacerdote, mártir. Leyendo a san Pablo sobre la caridad descubrió su camino: «En el corazón de la Iglesia, mi madre, yo seré el amor» (Manuscrito B). Comprendió que, sin amor, todo carece de valor, y que el amor da sentido a cada vocación. Preguntémonos cuál es nuestra vocación concreta: familiar, laboral, consagrada. Sea cual sea, el amor es su núcleo. Pidamos descubrir cómo amar mejor en el lugar donde Dios nos ha puesto, sin comparaciones ni envidias, con generosidad y alegría. Hoy, en lugar de soñar con otra misión, busquemos la forma de amar mejor a quienes están ya a nuestro lado.",
+      "prayer": "Señor, enséñame mi vocación de amor. Santa Teresita, ayúdame a amar en el lugar concreto donde estoy y a vivir mi vida como respuesta a Dios. Dame una mirada sin envidias hacia la vocación de los demás y alegría en la mía. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Misionera desde el Carmelo",
+      "reading": "Mc 16,15-20; Hch 1,8",
+      "reflection": "Teresa nunca salió de Francia como misionera, pero la Iglesia la proclamó patrona de las misiones. Rezaba y se sacrificaba por misioneros y por los pecadores. Descubrió que la oración sostiene la evangelización y que todo bautizado participa de ella. Rezar por quienes anuncian el Evangelio en lugares lejanos, y especialmente por los misioneros que han trabajado en Hispanoamérica, es un modo de colaborar. Pensemos también en nuestro entorno inmediato: ¿cómo mostrar con la vida la alegría del Evangelio? Que nuestro testimonio sencillo anime a otros a descubrir a Cristo.",
+      "prayer": "Señor, bendice a los misioneros y a quienes aún no te conocen. Santa Teresita, intercede por la Iglesia y ayúdame a dar testimonio con sencillez. Por los misioneros, por los que sufren a causa del Evangelio y por quienes rezan en silencio por ellos. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Ofrecerse al Amor misericordioso",
+      "reading": "Lc 15,11-24",
+      "reflection": "El 9 de junio de 1895, Teresa se ofreció como víctima al Amor misericordioso de Dios, no por miedo a la justicia divina, sino por deseo de corresponder a su amor. Dios es el Padre del hijo pródigo, que corre al encuentro. Ella confiaba más en su misericordia que en sus méritos. Es un camino para los débiles y los que han fallado: nuestra pobreza es el lugar donde Dios actúa. Pensemos en nuestras faltas y entreguémoslas a la misericordia del Padre, y, si podemos, acudamos al sacramento de la reconciliación, donde su perdón se hace concreto.",
+      "prayer": "Padre misericordioso, acepto tu perdón y confío en tu amor. Santa Teresita, enséñame a ofrecerme a Dios con mis debilidades y a no tener miedo. Que reciba tu perdón sin esconder mis faltas y vuelva a ti con la confianza de un hijo. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Pasar el cielo haciendo el bien",
+      "reading": "Ap 7,9-17; Mt 25,34-40",
+      "reflection": "En su enfermedad final, Teresa afirmó que su misión comenzaría después de su muerte: «Quiero pasar mi cielo haciendo el bien sobre la tierra» (Últimas conversaciones, 17 de julio de 1897). La Iglesia cree en la comunión de los santos: quienes están con Dios interceden por nosotros. Concluimos la novena dando gracias por este camino de confianza y amor. Pidamos ser, como ella, signos de ternura de Dios. Que lo vivido en estos días no quede en un recuerdo, sino que se traduzca en pequeños propósitos: una oración diaria breve, un gesto de caridad, una confianza renovada.",
+      "prayer": "Dios Padre, gracias por santa Teresita y por su «caminito». Que su intercesión nos ayude a confiar y a amar cada día, hasta llegar a ti. Y que lo vivido en estos nueve días se convierta en una oración sencilla y diaria. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a santa Teresita",
+      "text": "Santa Teresita, que quisiste pasar tu cielo haciendo el bien en la tierra, ayúdanos a vivir tu «caminito» de confianza y amor. Enséñanos a ofrecer a Dios lo pequeño de cada día, a rezar por los misioneros y a abandonarnos en la misericordia del Padre. Amén.\n\n*Oración de autoría propia, preparada para Libre Biblia. La frase «Quiero pasar mi cielo haciendo el bien sobre la tierra» se recoge en las Últimas conversaciones de santa Teresa (17 de julio de 1897); su formulación varía algo según las ediciones.*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Licencia CC BY-SA 4.0. Citas breves de santa Teresa de Lisieux (Historia de un alma, manuscritos B y C; Últimas conversaciones) según traducciones españolas habituales; pueden variar ligeramente de una edición a otra.",
+  "sources": [
+    {
+      "label": "Santa Teresa del Niño Jesús, Historia de un alma (manuscritos A, B y C); Últimas conversaciones"
+    },
+    {
+      "label": "Juan Pablo II, carta apostólica Divini amoris scientia (19-X-1997), doctora de la Iglesia",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1997/documents/hf_jp-ii_apl_19101997_divini-amoris.html"
+    },
+    {
+      "label": "Canonización: Pío XI, 17-V-1925; patrona de las misiones: 1927"
+    }
+  ],
+  "saints": [
+    "santa-teresita"
+  ],
+  "tags": [
+    "novena",
+    "doctora de la Iglesia",
+    "1 de octubre"
+  ]
+}

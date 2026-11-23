@@ -1,0 +1,209 @@
+[
+  {
+    "id": "oracion-de-la-manana",
+    "title": "Oración de la mañana",
+    "categories": [
+      "manana"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "devotion",
+    "text": "Señor, te doy gracias por este nuevo día.\nPonlo todo en tus manos: mi trabajo, mis encuentros, mis alegrías y mis cansancios.\nDame tu luz para ver lo que debo hacer,\ntu paciencia para tratar bien a los demás\ny tu paz para confiar en ti.\nQue al terminar el día pueda decir: «Todo ha sido gracia».\nPor Jesucristo, nuestro Señor. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "context": "Plegaria sencilla y libre para comenzar la jornada; no es una fórmula oficial.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "ofrecimiento-del-dia",
+    "title": "Ofrecimiento del día",
+    "altTitles": [
+      "Ofrecimiento de obras"
+    ],
+    "categories": [
+      "manana",
+      "fundamentales"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "devotion",
+    "text": "Oh Jesús, por medio del Corazón Inmaculado de María,\nte ofrezco mis oraciones, obras y sufrimientos de este día,\nen reparación de nuestros pecados\ny por todas las intenciones por las que te ofreces continuamente\nen el santo sacrificio del altar.\nTe los ofrezco en particular\npor las intenciones del Santo Padre.\nAmén.",
+    "variants": [
+      {
+        "id": "breve",
+        "label": "Ofrecimiento de obras (forma breve)",
+        "text": "Señor, te ofrezco cuanto piense, diga y haga durante este día.\nQue mis trabajos, alegrías, dificultades y descansos\nestén unidos a Jesucristo\ny sean para tu gloria, para el bien de mis hermanos y para mi salvación.\nAmén.",
+        "note": "Fórmula libre y sencilla del Devocionario del proyecto."
+      }
+    ],
+    "context": "Es la forma de ofrecimiento diario vinculada tradicionalmente al Apostolado de la Oración. Ofrecer el día a Dios es una práctica antigua de la vida cristiana: unir el trabajo y las pruebas a la ofrenda de Cristo (CIC 2568-2569, 2655).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "angelus",
+    "title": "Ángelus",
+    "altTitles": [
+      "El Ángel del Señor",
+      "Angelus Domini"
+    ],
+    "categories": [
+      "manana",
+      "tarde",
+      "virgen-maria",
+      "latin"
+    ],
+    "moments": [
+      "morning",
+      "midday",
+      "afternoon"
+    ],
+    "nature": "devotion",
+    "text": "**V.** El Ángel del Señor anunció a María.\n**R.** Y concibió por obra del Espíritu Santo.\n\n*Dios te salve, María…*\n\n**V.** He aquí la esclava del Señor.\n**R.** Hágase en mí según tu palabra.\n\n*Dios te salve, María…*\n\n**V.** Y el Verbo se hizo carne.\n**R.** Y habitó entre nosotros.\n\n*Dios te salve, María…*\n\n**V.** Ruega por nosotros, santa Madre de Dios.\n**R.** Para que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo.\n\nOremos. Derrama, Señor, tu gracia en nuestros corazones, para que quienes hemos conocido, por el anuncio del Ángel, la encarnación de Cristo, tu Hijo, lleguemos, por su pasión y su cruz, a la gloria de la resurrección. Por el mismo Jesucristo, nuestro Señor. Amén.",
+    "latin": "**V.** Angelus Domini nuntiavit Mariae.\n**R.** Et concepit de Spiritu Sancto.\n\n*Ave Maria…*\n\n**V.** Ecce ancilla Domini.\n**R.** Fiat mihi secundum verbum tuum.\n\n*Ave Maria…*\n\n**V.** Et Verbum caro factum est.\n**R.** Et habitavit in nobis.\n\n*Ave Maria…*\n\n**V.** Ora pro nobis, sancta Dei Genetrix.\n**R.** Ut digni efficiamur promissionibus Christi.\n\nOremus. Gratiam tuam, quaesumus, Domine, mentibus nostris infunde; ut qui, Angelo nuntiante, Christi Filii tui incarnationem cognovimus, per passionem eius et crucem, ad resurrectionis gloriam perducamur. Per eundem Christum Dominum nostrum. Amen.",
+    "rubric": "Tradicionalmente se reza tres veces al día: al amanecer (6 h), al mediodía (12 h) y al atardecer (18 h), al toque de campanas. En el tiempo pascual se reza el Regina Coeli en lugar del Ángelus.",
+    "context": "Devoción que recuerda el misterio de la Encarnación. El Papa suele rezarlo con los fieles los domingos al mediodía. Pablo VI lo recomienda en *Marialis cultus* (n. 41) como oración de gran valor, centrada en el misterio de la Encarnación.",
+    "scripture": [
+      "Lc 1,26-38",
+      "Jn 1,14"
+    ],
+    "sources": [
+      {
+        "label": "Pablo VI, Marialis cultus (1974)",
+        "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      }
+    ],
+    "minutes": 3
+  },
+  {
+    "id": "regina-coeli",
+    "title": "Regina Coeli",
+    "altTitles": [
+      "Reina del cielo",
+      "Regina Caeli"
+    ],
+    "categories": [
+      "manana",
+      "tarde",
+      "virgen-maria",
+      "latin"
+    ],
+    "moments": [
+      "morning",
+      "midday",
+      "afternoon"
+    ],
+    "nature": "devotion",
+    "text": "Reina del cielo, alégrate, aleluya.\nPorque el Señor, a quien has merecido llevar, aleluya,\nha resucitado según su palabra, aleluya.\nRuega al Señor por nosotros, aleluya.\n\n**V.** Gózate y alégrate, Virgen María, aleluya.\n**R.** Porque verdaderamente ha resucitado el Señor, aleluya.\n\nOremos. Oh Dios, que por la resurrección de tu Hijo, nuestro Señor Jesucristo, has llenado el mundo de alegría, concédenos, por intercesión de su Madre, la Virgen María, llegar a los gozos eternos. Por Jesucristo, nuestro Señor. Amén.",
+    "latin": "Regina caeli, laetare, alleluia:\nQuia quem meruisti portare, alleluia,\nResurrexit sicut dixit, alleluia:\nOra pro nobis Deum, alleluia.\n\n**V.** Gaude et laetare, Virgo Maria, alleluia.\n**R.** Quia surrexit Dominus vere, alleluia.\n\nOremus. Deus, qui per resurrectionem Filii tui, Domini nostri Iesu Christi, mundum laetificare dignatus es: praesta, quaesumus, ut per eius Genetricem Virginem Mariam, perpetuae capiamus gaudia vitae. Per eundem Christum Dominum nostrum. Amen.",
+    "rubric": "Se reza en el tiempo pascual en lugar del Ángelus, a las mismas horas (tradicionalmente 6, 12 y 18 h).",
+    "context": "Antífona mariana pascual de origen medieval y autor desconocido. Se canta o reza en el tiempo de Pascua en lugar del Ángelus.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "angel-de-la-guarda",
+    "title": "Oración al Ángel de la Guarda",
+    "altTitles": [
+      "Ángel de Dios",
+      "Angele Dei"
+    ],
+    "categories": [
+      "manana",
+      "noche",
+      "angeles",
+      "proteccion",
+      "latin"
+    ],
+    "moments": [
+      "morning",
+      "night"
+    ],
+    "nature": "prayer",
+    "text": "Ángel de Dios, que eres mi custodio,\npues la bondad divina me ha encomendado a ti,\nilumíname, guárdame, dirígeme y gobiérname.\nAmén.",
+    "variants": [
+      {
+        "id": "infantil",
+        "label": "Forma popular infantil",
+        "text": "Ángel de la guarda, dulce compañía,\nno me desampares ni de noche ni de día.\nNo me dejes solo, que me perdería.\nAmén.",
+        "note": "Versión de tradición popular, muy extendida en España y América."
+      }
+    ],
+    "latin": "Angele Dei, qui custos es mei,\nme tibi commissum pietate superna,\nilumina, custodi, rege et guberna. Amen.",
+    "context": "La Iglesia enseña que «desde el comienzo hasta la hora de la muerte, la vida humana está rodeada de la custodia y de la intercesión de los ángeles» (CIC 336, que cita a san Basilio). La fiesta de los Santos Ángeles Custodios es el 2 de octubre.",
+    "scripture": [
+      "Sal 91,11",
+      "Mt 18,10"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "consagracion-a-maria",
+    "title": "Consagración a María («Oh Señora mía»)",
+    "altTitles": [
+      "Oh Señora mía, oh Madre mía",
+      "O Domina mea"
+    ],
+    "categories": [
+      "manana",
+      "virgen-maria",
+      "proteccion",
+      "latin"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "devotion",
+    "text": "Oh Señora mía, oh Madre mía,\nyo me ofrezco enteramente a vos,\ny en prueba de mi filial afecto\nos consagro en este día\nmis ojos, mis oídos, mi lengua, mi corazón,\nen una palabra, todo mi ser.\nYa que soy todo vuestro, oh Madre de bondad,\nguardadme y defendedme\ncomo cosa y posesión vuestra.\nAmén.",
+    "latin": "O Domina mea, o Mater mea, tibi me totum offero,\natque, ut me tibi probem devotum,\nconsecro tibi hodie oculos meos, aures meas, os meum, cor meum,\nplane me totum.\nQuoniam itaque tuus sum, o bona Mater,\nserva me, defende me, ut rem et possessionem tuam. Amen.",
+    "context": "Oración tradicional de ofrecimiento diario a la Virgen. La entrega a María no sustituye la consagración a Cristo, sino que conduce a él (CIC 967-970).",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 1
+  }
+]

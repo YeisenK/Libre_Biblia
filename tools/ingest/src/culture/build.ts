@@ -16,7 +16,9 @@ export type Part =
   | { kind: 'prefix'; prefix: string; first?: string[]; exclude?: string[]; depth?: number; titlePrefix?: string; verse?: boolean; tree?: boolean; titleMap?: Record<string, string> }
   | { kind: 'group'; title: string; parts: Part[]; depth?: number }
   | { kind: 'djvu'; index: string; from: number; to: number; verse?: boolean; leadTitle?: string; dropTitles?: string[]; keepLevel?: number; depth?: number }
-  | { kind: 'djvu-titles'; index: string; from: number; to: number; titlesPage: number; depth?: number };
+  | { kind: 'djvu-titles'; index: string; from: number; to: number; titlesPage: number; depth?: number }
+  /** Una página que contiene varios capítulos con encabezados «==…==»: una sección por encabezado de nivel ≤ keepLevel. */
+  | { kind: 'chapters'; page: string; depth?: number; keepLevel?: number };
 
 export interface WorkSpec {
   slug: string;
@@ -122,6 +124,23 @@ async function buildPart(w: Wiki, spec: WorkSpec, part: Part, stats: ResolveStat
           else if (cur) cur.lines.push(h.title);
         }
         if (cur && b.text) cur.lines.push(b.text);
+      }
+      flush();
+      break;
+    }
+    case 'chapters': {
+      const r = await resolvePageText(w, spec.slug, part.page, stats, collect);
+      if (!r) { log.omitted.push(`${part.page}: página inexistente`); break; }
+      const keep = part.keepLevel ?? 1;
+      let cur: { title?: string; lines: string[] } = { title: undefined, lines: [] };
+      const flush = () => add(cur.title, cur.lines.join('\n\n').trim(), depth, cur.title ?? part.page);
+      for (const b of splitByHeadings(r.text)) {
+        const h = b.heading;
+        if (h) {
+          if (h.level <= keep) { flush(); cur = { title: h.title, lines: [] }; }
+          else cur.lines.push(h.title);
+        }
+        if (b.text) cur.lines.push(b.text);
       }
       flush();
       break;

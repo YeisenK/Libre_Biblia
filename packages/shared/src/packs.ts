@@ -14,7 +14,9 @@ export const PACK_FORMAT_VERSION = 1;
 export const OFFICIAL_CATALOG_URL =
   'https://cdn.jsdelivr.net/gh/YeisenK/Libre_Biblia@main/content/catalog.json';
 
-export type PackKind = 'bible' | 'document' | 'daily';
+import type { AudioPack, PrayersPack } from './prayers';
+
+export type PackKind = 'bible' | 'document' | 'daily' | 'prayers' | 'audio';
 
 export type Authority =
   | 'scripture'
@@ -177,7 +179,7 @@ export interface DailyPack {
   entries: DailyEntry[];
 }
 
-export type ContentPack = BiblePack | DocumentPack | DailyPack;
+export type ContentPack = BiblePack | DocumentPack | DailyPack | PrayersPack | AudioPack;
 
 /** Validación estructural mínima de un paquete recién descargado. */
 export function assertPack(p: unknown): asserts p is ContentPack {
@@ -190,6 +192,12 @@ export function assertPack(p: unknown): asserts p is ContentPack {
     if (!o.meta || !Array.isArray((o as DocumentPack).sections)) throw new Error('Paquete de documento incompleto');
   } else if (o.kind === 'daily') {
     if (!o.meta || !Array.isArray((o as DailyPack).entries)) throw new Error('Paquete de versículo diario incompleto');
+  } else if (o.kind === 'prayers') {
+    const q = o as Partial<PrayersPack>;
+    if (!o.meta || !Array.isArray(q.prayers) || !Array.isArray(q.categories) || !Array.isArray(q.novenas)) throw new Error('Paquete de oraciones incompleto');
+  } else if (o.kind === 'audio') {
+    const a = o as Partial<AudioPack>;
+    if (!o.meta || !Array.isArray(a.clips) || !a.meta?.voice) throw new Error('Paquete de audio incompleto');
   } else {
     throw new Error('Tipo de paquete desconocido');
   }

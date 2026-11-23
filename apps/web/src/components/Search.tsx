@@ -9,6 +9,9 @@ import { documentHref, readerHref, refHref } from '@/lib/links';
 import { useDefaultVersion, useVersions } from '@/hooks/useBible';
 import { NoBibles } from './NoBibles';
 import { Modal } from './Modal';
+import { SearchIcon } from './Icons';
+import { PrayerSearch } from './prayer/PrayerSearch';
+import { Banner, EmptyState, Loading, ScreenHeader } from './ui';
 
 const MODES: { id: SearchMode; label: string }[] = [
   { id: 'words', label: 'Palabras' },
@@ -22,7 +25,7 @@ export function Search() {
   const versionsQ = useVersions();
   const defV = useDefaultVersion();
   const q = sp.get('q') ?? '';
-  const scope = sp.get('s') === 'docs' ? 'docs' : 'bible';
+  const scope = sp.get('s') === 'docs' ? 'docs' : sp.get('s') === 'oraciones' ? 'prayers' : 'bible';
   const mode = (sp.get('m') as SearchMode) || 'words';
   const picked = (sp.get('v') ?? '').split(',').filter(Boolean);
   const versions = picked.length ? picked : defV ? [defV] : [];
@@ -68,6 +71,18 @@ export function Search() {
 
   if (versionsQ.isSuccess && versionsQ.data.length === 0 && scope === 'bible') return <NoBibles />;
 
+  const SCOPES = [['bible', 'Biblia'], ['prayers', 'Oraciones'], ['docs', 'Biblioteca']] as const;
+  const scopeParam = (id: string) => (id === 'docs' ? 'docs' : id === 'prayers' ? 'oraciones' : null);
+  const scopeToggle = (
+    <div role="group" aria-label="Ámbito" className="flex w-full rounded-full bg-sunken p-1 md:w-fit">
+      {SCOPES.map(([id, label]) => (
+        <button key={id} type="button" aria-pressed={scope === id} onClick={() => push({ s: scopeParam(id) })} className={`min-h-[38px] flex-1 rounded-full px-4 text-[13px] font-medium transition-colors md:flex-none ${scope === id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
+          {label}
+        </button>
+      ))}
+    </div>
+  );
+
   const bd = bibleQ.data;
   const dd = docsQ.data;
   const total = scope === 'bible' ? bd?.total : dd?.total;
@@ -76,38 +91,34 @@ export function Search() {
   const loading = scope === 'bible' ? bibleQ.isFetching : docsQ.isFetching;
 
   return (
-    <div>
-      <h1 className="h-page mb-3">Buscar</h1>
-      <form onSubmit={submit} role="search" className="mb-4 flex gap-2">
-        <input className="input" type="search" value={text} onChange={(e) => setText(e.target.value)} placeholder={scope === 'bible' ? 'Palabras, frase o referencia (Jn 3,16)' : 'Buscar en la biblioteca'} aria-label="Consulta" />
-        <button className="btn btn-primary" type="submit">
-          Buscar
-        </button>
-      </form>
+    <div className="mx-auto max-w-3xl">
+      <ScreenHeader title="Buscar" subtitle="En el texto bíblico, en las oraciones o en tu biblioteca." />
+      <div className="mb-4">{scopeToggle}</div>
+      {scope === 'prayers' ? (
+        <PrayerSearch value={text} onChange={setText} />
+      ) : (
+        <form onSubmit={submit} role="search" className="mb-4 flex gap-2">
+          <label className="relative block min-w-0 flex-1">
+            <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-muted"><SearchIcon /></span>
+            <input className="min-h-[48px] w-full rounded-full bg-surface py-2 pl-12 pr-4 text-[15px] shadow-soft ring-1 ring-line placeholder:text-muted" type="search" value={text} onChange={(e) => setText(e.target.value)} placeholder={scope === 'bible' ? 'Palabras, frase o referencia (Jn 3,16)' : 'Buscar en la biblioteca'} aria-label="Consulta" />
+          </label>
+          <button className="btn btn-primary !rounded-full" type="submit">
+            Buscar
+          </button>
+        </form>
+      )}
 
-      <div className="mb-4 flex items-center justify-between gap-2 md:hidden">
-        <div role="group" aria-label="Ámbito" className="inline-flex w-fit shrink-0 overflow-hidden rounded-lg border border-line">
-          {([['bible', 'Biblia'], ['docs', 'Biblioteca']] as const).map(([id, label]) => (
-            <button key={id} type="button" aria-pressed={scope === id} onClick={() => push({ s: id === 'docs' ? 'docs' : null })} className={`min-h-[44px] px-3 text-sm ${scope === id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
-              {label}
-            </button>
-          ))}
+      {scope !== 'prayers' && (
+        <div className="mb-4 flex items-center justify-between gap-2 md:hidden">
+          <button type="button" className="btn !rounded-full" aria-haspopup="dialog" onClick={() => setFiltersOpen(true)}>
+            Filtros{activeFilters ? ` (${activeFilters})` : ''}
+          </button>
         </div>
-        <button type="button" className="btn" aria-haspopup="dialog" onClick={() => setFiltersOpen(true)}>
-          Filtros{activeFilters ? ` (${activeFilters})` : ''}
-        </button>
-      </div>
-      <div className="mb-4 hidden gap-3 sm:grid-cols-2 md:grid">
-        <div role="group" aria-label="Ámbito" className="inline-flex w-fit overflow-hidden rounded-lg border border-line">
-          {([['bible', 'Biblia'], ['docs', 'Biblioteca']] as const).map(([id, label]) => (
-            <button key={id} type="button" aria-pressed={scope === id} onClick={() => push({ s: id === 'docs' ? 'docs' : null })} className={`min-h-[44px] px-3 text-sm ${scope === id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
-              {label}
-            </button>
-          ))}
-        </div>
-        <div role="group" aria-label="Modo de búsqueda" className="inline-flex w-fit overflow-hidden rounded-lg border border-line">
+      )}
+      <div className={`mb-4 hidden gap-3 sm:grid-cols-2 ${scope === 'prayers' ? '' : 'md:grid'}`}>
+        <div role="group" aria-label="Modo de búsqueda" className="flex w-fit rounded-full bg-sunken p-1">
           {MODES.map((m) => (
-            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[44px] px-3 text-sm ${mode === m.id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
+            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[38px] rounded-full px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
               {m.label}
             </button>
           ))}
@@ -141,9 +152,9 @@ export function Search() {
       </div>
       <Modal open={filtersOpen} onClose={() => setFiltersOpen(false)} title="Filtros de búsqueda">
         <div className="flex flex-col gap-3">
-        <div role="group" aria-label="Modo de búsqueda" className="grid grid-cols-3 w-full overflow-hidden rounded-lg border border-line">
+        <div role="group" aria-label="Modo de búsqueda" className="grid w-full grid-cols-3 rounded-full bg-sunken p-1">
           {MODES.map((m) => (
-            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[44px] px-3 text-sm ${mode === m.id ? 'bg-accent text-accent-fg' : 'bg-surface hover:bg-sunken'}`}>
+            <button key={m.id} type="button" aria-pressed={mode === m.id} onClick={() => push({ m: m.id })} className={`min-h-[38px] rounded-full px-3 text-[13px] font-medium transition-colors ${mode === m.id ? 'bg-raised text-fg ring-1 ring-line' : 'text-muted'}`}>
               {m.label}
             </button>
           ))}
@@ -180,14 +191,10 @@ export function Search() {
         </div>
       </Modal>
 
-      {loading && <p className="text-muted">Buscando…</p>}
-      {err && (
-        <p className="card" role="alert">
-          No se pudo buscar. {err.message}
-        </p>
-      )}
-      {scope === 'docs' && dd && dd.total === 0 && <p className="text-muted">Sin resultados (¿hay documentos instalados en Contenido?).</p>}
-      {scope === 'bible' && bd && bd.total === 0 && <p className="text-muted">Sin resultados.</p>}
+      {scope !== 'prayers' && loading && <Loading>Buscando…</Loading>}
+      {scope !== 'prayers' && err && <Banner tone="error">No se pudo buscar. {err.message}</Banner>}
+      {scope === 'docs' && dd && dd.total === 0 && <EmptyState icon="book" title="Sin resultados">¿Hay obras instaladas en Contenido?</EmptyState>}
+      {scope === 'bible' && bd && bd.total === 0 && <EmptyState icon="book" title="Sin resultados">Prueba con otra palabra o con la búsqueda aproximada.</EmptyState>}
 
       {scope === 'bible' && bd && bd.total > 0 && (
         <section aria-live="polite">
@@ -207,14 +214,14 @@ export function Search() {
           )}
           {[...new Set(bd.hits.map((h) => h.book))].map((b) => (
             <div key={b} className="mb-5">
-              <h2 className="mb-2 font-serif text-lg font-semibold">
+              <h2 className="mb-2 font-display text-[1.15rem]">
                 {bookName(b)} <span className="text-sm font-normal text-muted">({bd.byBook.find((x) => x.book === b)?.count})</span>
               </h2>
               <ul className="flex flex-col gap-2">
                 {bd.hits.filter((h) => h.book === b).map((h) => (
                   <li key={`${h.version}-${h.chapter}-${h.verse}`}>
-                    <Link href={readerHref({ v: h.version, b: h.book, c: h.chapter, vs: h.verse })} className="card block hover:bg-sunken">
-                      <span className="text-sm font-semibold text-accent">
+                    <Link href={readerHref({ v: h.version, b: h.book, c: h.chapter, vs: h.verse })} className="tap card-soft block hover:bg-sunken/60">
+                      <span className="text-[13px] font-semibold text-accent">
                         {formatReference({ book: h.book, chapter: h.chapter, verseStart: h.verse })} <span className="font-normal text-muted">· {h.version}</span>
                       </span>
                       <span className="reading mt-1 block !text-base" dangerouslySetInnerHTML={{ __html: h.snippet }} />
@@ -244,8 +251,8 @@ export function Search() {
           <ul className="flex flex-col gap-2">
             {dd.hits.map((h) => (
               <li key={`${h.docId}-${h.path}`}>
-                <Link href={documentHref(h.docId, h.path)} className="card block hover:bg-sunken">
-                  <span className="text-sm font-semibold text-accent">
+                <Link href={documentHref(h.docId, h.path)} className="tap card-soft block hover:bg-sunken/60">
+                  <span className="text-[13px] font-semibold text-accent">
                     {h.docTitle}
                     {h.sectionTitle ? ` · ${h.sectionTitle}` : ` · ${h.path}`}
                   </span>
@@ -257,7 +264,7 @@ export function Search() {
         </section>
       )}
 
-      {pages > 1 && (
+      {scope !== 'prayers' && pages > 1 && (
         <nav aria-label="Paginación" className="mt-4 flex items-center justify-between">
           <button className="btn" disabled={page <= 1} onClick={() => push({ p: String(page - 1) })}>
             ← Anterior

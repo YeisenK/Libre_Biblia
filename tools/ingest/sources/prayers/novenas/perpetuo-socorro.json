@@ -1,0 +1,134 @@
+{
+  "id": "perpetuo-socorro",
+  "title": "Novena a Nuestra Señora del Perpetuo Socorro",
+  "group": "marian",
+  "description": "Nueve días ante el icono de la Madre del Perpetuo Socorro, refugio en las pruebas, antes de su fiesta del 27 de junio.",
+  "image": {
+    "icon": "candle",
+    "tint": "#B38A3C"
+  },
+  "introduction": "El icono de la Virgen del Perpetuo Socorro es una pintura de estilo bizantino sobre madera, de origen cretense, que se venera en la iglesia de San Alfonso, en Roma. Representa a María con el Niño Jesús en brazos y, a los lados, a los arcángeles Miguel y Gabriel, que muestran los instrumentos de la Pasión. El Niño, según la lectura tradicional asustado ante lo que ve, se aferra a la mano de su Madre y una de sus sandalias se desprende.\n\nLa tradición recoge que la imagen llegó a Roma a finales del siglo XV y que fue venerada en la iglesia de San Mateo. Según la tradición redentorista, el papa Pío IX pidió a los Misioneros Redentoristas que la dieran a conocer en el mundo, y en 1866 fue colocada en la iglesia de San Alfonso. Desde entonces se ha difundido por todos los continentes. Su fiesta, propia de los Redentoristas, se celebra el 27 de junio.\n\nLa devoción al Perpetuo Socorro es piedad popular: una forma sencilla de confiar a la Madre de Dios nuestras necesidades. Es libre y voluntaria, y no sustituye a la liturgia ni a los sacramentos.",
+  "purpose": "Acudir con confianza a María, nuestra madre y auxilio, en las necesidades del cuerpo y del alma; aprender a mirar a Cristo, que sufrió por amor; y fortalecernos en la esperanza. Prepara la fiesta del 27 de junio, con la Misa y, si se desea, la reconciliación.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 6,
+    "day": 27,
+    "label": "Nuestra Señora del Perpetuo Socorro"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Madre del Perpetuo Socorro, aquí me tienes ante tu imagen. Tú que sostienes a Jesús en tus brazos, sostenme también a mí en mis necesidades. Que esta novena avive mi confianza en ti y en tu Hijo. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Madre del Salvador",
+      "reading": "Lc 1,31-33",
+      "reflection": "El icono nos muestra a María con Jesús en brazos. No es una imagen de adorno: es una catequesis. La Madre presenta al Salvador y nos invita a mirarlo. Ella no se coloca en el centro, sino que señala a su Hijo con la mano, como quien dice: «Este es el camino».\n\nAl comenzar la novena, podemos poner nuestras manos y nuestra atención donde María las pone: en Jesús. Muchas de nuestras preocupaciones giran en torno a nosotros mismos. La devoción mariana nos descentra y nos lleva hacia Cristo, que es la respuesta de Dios a nuestras necesidades. Mirarlo con ella es aprender a confiar.",
+      "prayer": "Madre del Perpetuo Socorro, tú que me muestras a Jesús, ayúdame a mirarlo con fe. Que mis ojos y mi corazón se detengan en él. Que no me pierda en mis afanes, sino que descanse en su amor, contigo a mi lado. Amén."
+    },
+    {
+      "day": 2,
+      "title": "La mirada de la Madre",
+      "reading": "Lc 2,19",
+      "reflection": "En el icono, los ojos de María no miran al Niño, sino a quien contempla la imagen: a nosotros. Es una mirada serena, grave y tierna, que acompaña y compadece. Nos hace sentir mirados, conocidos y acogidos tal como somos.\n\nEn la oración ante el icono, podemos dejarnos mirar. Es un modo de rezar sin muchas palabras: permanecer ante la Virgen con lo que llevamos dentro, alegrías y heridas. Ella lo guarda todo en su corazón. Su mirada no juzga: levanta. Hoy podemos tener unos minutos de silencio ante una imagen, contemplando a María que nos mira con amor.",
+      "prayer": "Virgen mía, mírame con ojos misericordiosos. Conoces mi corazón y mis cansancios. No me juzgues, sostenme. Que bajo tu mirada aprenda a ser sincero con Dios y a confiar en su ternura. Enséñame a descansar en tu presencia, sin miedo y sin máscaras. Amén."
+    },
+    {
+      "day": 3,
+      "title": "El Niño y la sandalia",
+      "reading": "Lc 2,34-35",
+      "reflection": "En el icono, el Niño parece asustado por lo que le muestran los ángeles, y su sandalia se ha soltado mientras se aferra a la mano de María. La imagen refleja la humanidad de Jesús y la presencia de su Madre en el momento del temor.\n\nAnticipa lo que Simeón dijo a María: una espada atravesaría su alma. Sabe que su Hijo ha de sufrir y, sin embargo, lo sostiene. Es una escena para quienes pasan por momentos de miedo o dolor: no están solos. Una madre no evita todo sufrimiento, pero sostiene en medio de él. Hoy podemos ofrecer a María las situaciones que nos asustan.",
+      "prayer": "Madre del Perpetuo Socorro, sostén mi mano cuando tenga miedo. Enséñame a confiar en que no estoy solo ante lo que me atemoriza. Dame fortaleza como la tuya, y haz que mi miedo se vuelva oración. Haz que no me falte tu compañía de madre. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Los ángeles y los signos de la Pasión",
+      "reading": "Flp 2,5-8",
+      "reflection": "A ambos lados de la Virgen, los arcángeles presentan la cruz, los clavos, la lanza y la esponja. Recuerdan que Cristo, siendo de condición divina, se humilló hasta la muerte en cruz. La ternura de la Madre y el amor del Hijo se unen en el misterio de la redención.\n\nMirar los instrumentos de la Pasión no es buscar dolor por dolor, sino reconocer hasta dónde llegó el amor de Dios por nosotros. Hoy podemos agradecer a Cristo lo que sufrió y pedirle que nos enseñe a amar con generosidad. La cruz no es el final: tras ella viene la resurrección.",
+      "prayer": "Señor Jesús, que te humillaste por amor, gracias por tu pasión. Ayúdame a no olvidar cuánto me amas. Que la cruz sea mi esperanza y mi guía. Y que María, tu Madre y mía, me conduzca por ese camino. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Ayuda constante",
+      "reading": "Sal 121,1-8",
+      "reflection": "«Levanto mis ojos a los montes: ¿de dónde me vendrá el auxilio? El auxilio me viene del Señor». El título de Perpetuo Socorro expresa la certeza de que Dios, por medio de María, no deja de ayudar. Perpetuo quiere decir constante, sin interrupción, a cualquier hora.\n\nQuizá nos hemos sentido abandonados alguna vez. La fe nos dice que, aun cuando no veamos la solución, hay una presencia que nos acompaña. Hoy podemos hacer memoria de las veces en que hemos sido ayudados de maneras inesperadas: por una persona, un hallazgo, una fuerza interior. Reconocerlo nos devuelve la confianza para el presente.",
+      "prayer": "Dios, mi auxilio, gracias porque nunca me dejas. Por medio de María, socorro constante, ayúdame en lo que hoy me preocupa. Haz que reconozca tu mano en las ayudas que recibo y que yo mismo sea ayuda para los demás. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Redención abundante",
+      "reading": "Sal 130,7",
+      "reflection": "«Junto al Señor está la misericordia, la redención copiosa». Los Misioneros Redentoristas, a quienes se confió el icono, tienen como lema la abundante redención de Cristo. Dios no escatima su perdón ni su gracia.\n\nLa Virgen del Perpetuo Socorro es también refugio de quienes se sienten culpables o lejos de Dios. Ella nos lleva al encuentro con la misericordia de Cristo, especialmente en el sacramento de la reconciliación. Hoy podemos pensar si hay algo que necesitamos poner en manos del Señor y no nos hemos atrevido. La misericordia no pide perfección, sino un corazón arrepentido y confiado.",
+      "prayer": "Madre de misericordia, llévame al perdón de tu Hijo. No me dejes desanimar por mis caídas. Dame valor para acercarme al sacramento de la reconciliación y confianza en la redención abundante que Cristo ofrece. Haz que recuerde siempre que su perdón no tiene límite. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Dios es nuestro refugio",
+      "reading": "Sal 46,2-4",
+      "reflection": "«Dios es nuestro refugio y fortaleza, un auxilio en las angustias». Aunque tiemble la tierra, el creyente no pierde la calma. La confianza en la Virgen del Perpetuo Socorro es una forma de buscar refugio en Dios, que ha querido darnos a María como madre.\n\nLos momentos de tribulación pueden ser enfermedades, problemas económicos, conflictos, duelos. No existe una fórmula mágica que los suprima. Lo que sí existe es la compañía de Dios y de la Iglesia. Hoy podemos rezar con calma ante la imagen de María, entregando nuestras preocupaciones concretas, una por una, y pidiendo serenidad para afrontarlas.",
+      "prayer": "Refugio de los afligidos, a ti acudo en mis angustias. Dame serenidad para afrontar lo que me inquieta y confianza para seguir adelante. Que tu protección sea mi seguridad y que nunca deje de rezar. Que mi corazón se calme bajo tu amparo. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Ser socorro para otros",
+      "reading": "Mt 25,35-40",
+      "reflection": "«Tuve hambre y me disteis de comer». Jesús identifica su presencia con la de los necesitados. Quien se acoge a la Virgen del Perpetuo Socorro se compromete a ser socorro para otros, cada uno según sus posibilidades.\n\nPodemos buscar hoy una obra de misericordia concreta: visitar a un enfermo, escuchar a alguien que sufre, ayudar a una familia necesitada, orar por los difuntos. El socorro más valioso no siempre es grande: a veces es una presencia, un gesto amable, una llamada oportuna. Así la devoción se hace vida y la Virgen sigue socorriendo por medio de nuestras manos.",
+      "prayer": "Señor Jesús, que te haces presente en los pobres, dame ojos para verte en ellos. Que sea instrumento del socorro de tu Madre. Haz que mi ayuda sea sincera, humilde y constante. Por intercesión del Perpetuo Socorro. Y que mi vida sea un pequeño signo de tu ternura. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Dar a conocer a María y a Jesús",
+      "reading": "Mt 5,14-16",
+      "reflection": "Según la tradición redentorista, Pío IX encargó a los Redentoristas que dieran a conocer esta imagen en el mundo. La misión de toda devoción mariana es llevar a Cristo. «Vosotros sois la luz del mundo». Cada cristiano está llamado a hacer visible el amor de Dios con su vida.\n\nAl terminar la novena, podemos agradecer a la Virgen su compañía. Para la fiesta del 27 de junio, podemos participar en la Misa, rezar ante el icono y hacer algún gesto de caridad. Una buena manera de compartir esta devoción es invitar a alguien a rezar con nosotros o interesarnos por quien necesita consuelo. Que la Madre del Perpetuo Socorro nos acompañe siempre.",
+      "prayer": "Madre del Perpetuo Socorro, gracias por tu ayuda y tu compañía. Haz que sea luz para quienes me rodean. Concédeme la gracia de seguir a Cristo con perseverancia y de acudir a ti en toda necesidad. Que mi devoción sea sencilla, agradecida y llena de caridad. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a Nuestra Señora del Perpetuo Socorro",
+      "text": "Santa María, Madre del Perpetuo Socorro, que sostienes a tu Hijo y nos tiendes la mano, mira nuestras necesidades y acógenos. Ayúdanos en la enfermedad, en la pobreza, en el desánimo y en las pruebas de la fe. Enséñanos a mirar a Jesús, a confiar en su amor y a ser socorro para nuestros hermanos. Que, bajo tu amparo, alcancemos la gracia de seguir a Cristo hasta el final. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Misioneros Redentoristas: historia del icono del Perpetuo Socorro"
+    },
+    {
+      "label": "Tradición redentorista: encargo de Pío IX y colocación del icono en San Alfonso (1866)"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "perpetuo-socorro",
+    "junio",
+    "redentoristas"
+  ]
+}

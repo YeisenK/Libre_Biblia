@@ -42,12 +42,13 @@ Las obras son de dominio público. La transcripción procede de [Wikisource en e
 - **San Agustín:** *Confessiones*, en el latín original de la edición de Migne de 1841.
 - **Santa Teresa de Jesús:** *Libro de la vida* y poesías.
 - **San Juan de la Cruz:** *Cántico espiritual*, *Noche oscura*, *Llama de amor viva* y otros poemas.
+- **Tomás de Kempis:** *Imitación de Cristo* (*De imitatione Christi*), los cuatro libros en el texto latino original de Wikisource (la edición es desconocida; no hay traducción española verificable).
 
 ### Oración y devoción
 - **Devocionario católico:** oraciones fundamentales, la Misa, el Rosario, oraciones marianas, santos, Divina Misericordia, sacramentos, difuntos, bendiciones y oraciones en latín. Es una recopilación del autor del proyecto bajo CC BY-SA 4.0 y no sustituye a los libros litúrgicos oficiales.
 
 ### Pendiente
-Torres Amat, el Antiguo Testamento de Scío, el *Cantar de mio Cid* en una edición de dominio público, el *Popol Vuh* en la traducción de Ximénez, *Historia de un alma*, *Las moradas* y la *Imitación de Cristo*. En ningún caso existe todavía una transcripción libre y verificable, y **no se rellena ni se inventa texto**.
+Torres Amat, el Antiguo Testamento de Scío, el *Cantar de mio Cid* en una edición de dominio público, el *Popol Vuh* en la traducción de Ximénez, *Historia de un alma* y *Las moradas*. En ningún caso existe todavía una transcripción libre y verificable, y **no se rellena ni se inventa texto**.
 
 ## Publicar tu propio repositorio de contenido
 Basta con un `catalog.json` y paquetes `.json.gz` alojados en cualquier sitio estático con CORS (GitHub y jsDelivr, GitHub Pages, tu propio servidor). El formato está en [`content/README.md`](content/README.md) y los tipos en [`packages/shared/src/packs.ts`](packages/shared/src/packs.ts). En la app: *Contenido → Repositorios → Añadir*.

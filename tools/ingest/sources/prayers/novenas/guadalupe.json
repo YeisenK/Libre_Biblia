@@ -1,0 +1,137 @@
+{
+  "id": "guadalupe",
+  "title": "Novena a Nuestra Señora de Guadalupe",
+  "group": "marian",
+  "description": "Nueve días con la Virgen del Tepeyac, madre cercana de los pueblos de América, antes de su fiesta del 12 de diciembre.",
+  "image": {
+    "icon": "heart",
+    "tint": "#2F7F6F"
+  },
+  "introduction": "Según la tradición, entre el 9 y el 12 de diciembre de 1531 la Virgen María se apareció en el cerro del Tepeyac, cerca de la actual Ciudad de México, al indígena Juan Diego, y le pidió que se construyera allí un templo. Como señal para el obispo fray Juan de Zumárraga, la imagen de la Virgen quedó impresa en la tilma (ayate) de Juan Diego, que hoy se venera en la Basílica de Guadalupe. El relato más antiguo conservado, el *Nican Mopohua*, está escrito en náhuatl; su atribución y fecha de composición son objeto de estudio histórico.\n\nLa Iglesia ha aprobado y fomentado el culto: Juan Pablo II beatificó a Juan Diego en 1990 y lo canonizó el 31 de julio de 2002. San Pío X proclamó a la Virgen de Guadalupe patrona de la América Latina (hacia 1910); Pío XII la llamó «Emperatriz de las Américas» (1945); y Juan Pablo II la proclamó patrona de toda América en 1999, estableciendo su fiesta el 12 de diciembre en todo el continente.\n\nEsta novena es piedad popular, libre y voluntaria; no sustituye la Misa ni los sacramentos.",
+  "purpose": "Acudir a María como madre cercana, aprender su ternura hacia los pequeños y pedir su ayuda para vivir la fe en comunión, con respeto a todos los pueblos y culturas. Prepara la fiesta del 12 de diciembre, que se vive en la Misa y, si se desea, en la reconciliación.",
+  "nature": "popular_piety",
+  "feast": {
+    "month": 12,
+    "day": 12,
+    "label": "Fiesta de Nuestra Señora de Guadalupe"
+  },
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "prayer": "acto-de-contricion"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Santa María de Guadalupe, Madre de Dios y madre nuestra, nos ponemos bajo tu mirada. Como a Juan Diego, dinos al corazón que no estamos solos. Ayúdanos a escuchar a tu Hijo y a ponernos en camino con sencillez. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Una madre cercana",
+      "reading": "Jn 19,25-27",
+      "reflection": "En el relato tradicional, la Virgen se presenta a Juan Diego como «la siempre Virgen Santa María, madre del verdadero Dios». Es una madre que baja al encuentro, habla en la lengua del pueblo y se deja ver con rasgos cercanos. Así actúa Dios en Cristo: se acerca, se hace carne y habita entre nosotros.\n\nDesde la cruz, Jesús nos la dio como madre: «Ahí tienes a tu madre». Esta novena empieza con esa confianza sencilla. Podemos hoy decirle, sin adornos, lo que llevamos en el corazón. Ella escucha como escucha una madre: sin prisa, sin juicio y con deseo de ayudar.",
+      "prayer": "Madre del Tepeyac, aquí estoy, con mis alegrías y preocupaciones. Gracias por acercarte tanto a nosotros. Enséñame a hablarte con confianza de hijo y a dejarme guiar por ti hacia Jesús, tu Hijo. Que aprenda a descansar en tu regazo, también cuando no entienda lo que sucede. Amén."
+    },
+    {
+      "day": 2,
+      "title": "Dios elige a los pequeños",
+      "reading": "Mt 11,25-30",
+      "reflection": "Juan Diego era un hombre humilde, un macehual, y no se creía digno de la misión. Dios se fija precisamente en los pequeños. «Te doy gracias, Padre, porque has ocultado estas cosas a los sabios y las has revelado a los pequeños». La Iglesia lo canonizó como modelo de fe sencilla y de fidelidad.\n\nA veces pensamos que no tenemos nada que ofrecer. La historia de la salvación enseña lo contrario: Dios se vale de lo débil para mostrar su fuerza. Hoy podemos pedir que desaparezca la falsa humildad que nos paraliza y que crezca la confianza de quien se sabe llamado.",
+      "prayer": "Señor Jesús, manso y humilde de corazón, gracias por mirar a los pequeños. Por intercesión de san Juan Diego, ayúdame a servirte con lo poco que soy y a no avergonzarme de mi condición. Haz de mí un instrumento sencillo de tu amor, dispuesto a servir donde me necesites y sin buscar reconocimiento. Amén."
+    },
+    {
+      "day": 3,
+      "title": "«No tengas miedo»",
+      "reading": "Is 43,1-4",
+      "reflection": "Según la tradición, cuando Juan Diego tuvo miedo por la enfermedad de su tío, la Virgen le dijo que no se turbara ni temiera. Las palabras que se atribuyen a María en el relato, «¿No estoy yo aquí, que soy tu madre?», han consolado a generaciones. El temor es humano; lo importante es no quedarnos paralizados por él.\n\nLa Biblia repite muchas veces «no temas». Dios se hace presente en nuestras angustias. Hoy podemos escribir o recordar nuestros miedos concretos y ponerlos ante él con la ayuda de María. Confiar no suprime la dificultad, pero cambia la manera de atravesarla: ya no estamos solos.",
+      "prayer": "Madre de misericordia, a ti entrego mis miedos: a la enfermedad, a la soledad, al futuro. Recuérdame que estás a mi lado. Dame la serenidad de quien se sabe cuidado por Dios y la valentía para seguir adelante, un día a la vez, con los ojos puestos en tu Hijo. Amén."
+    },
+    {
+      "day": 4,
+      "title": "Haced lo que él os diga",
+      "reading": "Jn 2,1-11",
+      "reflection": "En Caná, María se da cuenta de que falta vino y lo presenta a Jesús sin alardes. Luego señala a los sirvientes: «Haced lo que él os diga». Esta es la misión de toda madre cristiana y la de la Virgen de Guadalupe: llevarnos a su Hijo. Ella no se queda con nuestra atención, la dirige hacia Jesús.\n\nHoy podemos presentarle necesidades concretas de nuestra familia y comunidad, como hizo ella en Caná. Y preguntarnos qué nos dice Jesús en el Evangelio que aún no hemos hecho. La confianza en María se vuelve fecunda cuando se convierte en obediencia gozosa a la palabra de Cristo.",
+      "prayer": "Madre atenta, que ves nuestras necesidades antes de que las digamos, preséntalas a tu Hijo. Y concédenos la gracia de escuchar su palabra y de hacer lo que él nos diga. Que su voluntad sea nuestro vino nuevo, y que nunca falte en nuestros hogares la alegría de la fe. Amén."
+    },
+    {
+      "day": 5,
+      "title": "Una casa para todos",
+      "reading": "Hch 2,42-47",
+      "reflection": "La Virgen pidió una casita sagrada, un lugar donde acoger, consolar y escuchar el llanto de sus hijos. Es la imagen de una Iglesia que sea casa abierta: con la mesa de la Eucaristía, la Palabra, la comunión fraterna y el cuidado de los necesitados.\n\nLa primera comunidad cristiana perseveraba en la enseñanza, el partir el pan y la oración, y compartía sus bienes. Hoy podemos preguntarnos qué hacemos para que nuestra parroquia y nuestra familia sean un hogar donde cualquiera se sienta acogido, sobre todo quien llega herido o de lejos.",
+      "prayer": "Madre de la Iglesia, ayúdanos a construir comunidades que sean casa y escuela de comunión. Que nadie se sienta extraño entre nosotros. Haz que nuestra parroquia acoja al pobre, al migrante, al que sufre, como tú lo harías, y donde cada uno encuentre un lugar y una palabra amable. Amén."
+    },
+    {
+      "day": 6,
+      "title": "Un solo corazón de muchos pueblos",
+      "reading": "Ap 7,9-10",
+      "reflection": "La imagen de Guadalupe ha sido leída como encuentro entre culturas. La fe llegó a pueblos distintos y se expresó en lenguas, cantos y símbolos propios. La Iglesia no es uniformidad, sino comunión de pueblos en torno a Cristo, como en la visión del Apocalipsis: una multitud de toda nación, raza y lengua.\n\nHoy podemos pedir respeto por quienes son distintos a nosotros: por sus lenguas, costumbres y modos de rezar. También podemos agradecer lo que hemos recibido de la fe de nuestros mayores. María nos enseña a unir sin borrar, a acoger sin imponer.",
+      "prayer": "Virgen de Guadalupe, madre de todos los pueblos, enséñanos a respetar y amar la diversidad de tus hijos. Que ninguna diferencia nos separe de los hermanos. Haz que, unidos en Cristo, seamos signo de paz entre las naciones, y busquemos juntos el bien de todos, empezando por los más débiles. Amén."
+    },
+    {
+      "day": 7,
+      "title": "Consuelo de los que sufren",
+      "reading": "Sal 23,1-4",
+      "reflection": "La Virgen del Tepeyac es invocada por los enfermos, los pobres, los migrantes y los que han perdido a alguien. En su rostro sereno y en su mirada baja muchos encuentran una compasión que no juzga. Ella nos recuerda al Buen Pastor que acompaña por el valle oscuro.\n\nHoy podemos rezar por quienes sufren cerca de nosotros: enfermos, deprimidos, familias rotas, desplazados por violencia o pobreza. Y pensar qué podemos hacer, sin esperar milagros ajenos: visitar, escuchar, ayudar. La compasión de María se prolonga en las manos de quienes se dejan conmover por ella.",
+      "prayer": "Madre del consuelo, tú que conoces el dolor, mira a quienes hoy lloran. Sé refugio para los enfermos, fuerza para los pobres, compañía para los solos. Y haznos a nosotros presencia consoladora, atenta y generosa, capaz de acompañar sin cansarse y sin pedir nada a cambio. Amén."
+    },
+    {
+      "day": 8,
+      "title": "Misioneros con María",
+      "reading": "Mt 28,16-20",
+      "reflection": "Juan Diego llevó el mensaje de la Virgen al obispo y volvió una y otra vez, a pesar de dudas y obstáculos. La fe recibida se vuelve misión: Jesús nos envía a anunciar, bautizar y enseñar, con la promesa de estar con nosotros todos los días.\n\nMisionero no es solo quien viaja lejos: lo es quien comparte con sencillez su esperanza en la familia, en el trabajo y entre los amigos. Hoy podemos pedir valentía para dar testimonio sin imponer, y amabilidad para escuchar. La Virgen de Guadalupe nos enseña a evangelizar con ternura y con respeto.",
+      "prayer": "Madre y Estrella de la evangelización, haz de nosotros discípulos misioneros. Danos palabras sencillas, gestos sinceros y constancia en las dificultades. Que llevemos a Cristo a quienes todavía no lo conocen y a quienes lo han olvidado, con humildad, alegría y perseverancia. Amén."
+    },
+    {
+      "day": 9,
+      "title": "Madre de América y de todos",
+      "reading": "Hch 1,12-14",
+      "reflection": "Los discípulos perseveraban unánimes en la oración, con María, la madre de Jesús. La Iglesia en América y en el mundo sigue reuniéndose así: unida en la oración, mirando a la Madre y esperando al Espíritu.\n\nAl terminar la novena damos gracias por lo vivido. Mañana o pasado celebraremos la fiesta de la Virgen de Guadalupe. Podemos ofrecerle nuestras intenciones y proponernos algo concreto: participar en la Misa de la fiesta, acercarnos a la confesión, visitar a alguien que sufre. Que la ternura de María no se quede en emoción, sino que se haga vida.",
+      "prayer": "Santa María de Guadalupe, gracias por tu cercanía y tu intercesión. Protege a América, a sus pueblos y a sus familias. Cuida a la Iglesia y a nuestros pastores. Y llévanos, siempre, de la mano de Jesús, tu Hijo y Señor nuestro. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración a Santa María de Guadalupe",
+      "text": "Santa María de Guadalupe, madre de Jesús y madre nuestra, que quisiste quedarte entre nosotros en el Tepeyac, mira a tus hijos de América y del mundo. Consuela a los que sufren, protege a las familias, sostén a los pobres y a los migrantes, y haznos instrumentos de unidad y de paz. Enséñanos a confiar en el amor de Dios y a llevar a Cristo a todos. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria",
+      "times": 3
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "text": "Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Texto preparado para Libre Biblia a partir de la tradición de la Iglesia. Las reflexiones y oraciones de cada día son de autoría propia del proyecto (CC BY-SA 4.0), no textos históricos.",
+  "sources": [
+    {
+      "label": "Nican Mopohua (relato tradicional, siglo XVI)"
+    },
+    {
+      "label": "Juan Pablo II, exhortación Ecclesia in America (1999)"
+    },
+    {
+      "label": "Santa Sede: canonización de san Juan Diego (31-7-2002)"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)"
+    }
+  ],
+  "tags": [
+    "guadalupe",
+    "diciembre",
+    "america"
+  ]
+}

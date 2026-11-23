@@ -1,0 +1,284 @@
+[
+  {
+    "id": "oracion-de-la-noche",
+    "title": "Oración de la noche",
+    "categories": [
+      "noche"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "devotion",
+    "text": "Señor, termina el día y me pongo en tu presencia.\nGracias por todo lo que he recibido.\nPerdóname lo que he hecho mal y lo que he dejado de hacer.\nBendice a los que quiero y a los que me han hecho daño.\nGuárdame esta noche y dame un descanso tranquilo,\npara que mañana pueda servirte con alegría.\nPor Jesucristo, nuestro Señor. Amén.",
+    "attribution": "Composición propia del proyecto Libre Biblia (CC BY-SA 4.0).",
+    "context": "Plegaria libre para cerrar la jornada. Puede acompañarse del examen de conciencia, un acto de contrición y el Padre Nuestro.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "examen-de-conciencia",
+    "title": "Examen de conciencia de la noche",
+    "altTitles": [
+      "Examen de conciencia"
+    ],
+    "categories": [
+      "noche",
+      "sacramentos"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "devotion",
+    "text": "Una guía para mirar el día con Dios, sin agobio. No es un formulario que haya que rellenar.\n\n1. **En presencia de Dios.** Señal de la cruz. Pídele luz: «Señor, ilumina mi conciencia».\n2. **Gratitud.** Recuerda los dones del día, grandes y pequeños.\n3. **Repaso tranquilo.** Recorre las horas del día: ¿cómo he tratado a Dios, al prójimo y a mí mismo? ¿He rezado? ¿He sido paciente, sincero y generoso? ¿He dejado de hacer un bien que podía hacer?\n4. **Dolor y petición de perdón.** Presenta a Dios tus faltas con confianza. Reza un acto de contrición.\n5. **Propósito.** Elige una cosa concreta para mañana.\n6. **Confianza.** Termina con el Padre Nuestro y una oración de entrega.\n\nSi has caído en un pecado grave, acude al sacramento de la Penitencia cuanto antes; el examen diario no lo sustituye.",
+    "context": "El examen diario es una práctica de la tradición espiritual cristiana (CIC 1454: «El examen de conciencia debe hacerse a la luz de la Palabra de Dios»). Para la confesión sacramental, véase «Examen de conciencia para la confesión».",
+    "attribution": "Redacción propia del proyecto (CC BY-SA 4.0), inspirada en la tradición ignaciana del examen.",
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 6
+  },
+  {
+    "id": "acto-de-contricion",
+    "title": "Acto de contrición",
+    "altTitles": [
+      "Señor mío Jesucristo",
+      "Actus contritionis"
+    ],
+    "categories": [
+      "noche",
+      "sacramentos",
+      "latin"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "prayer",
+    "text": "Señor mío Jesucristo,\nDios y hombre verdadero,\nCreador y Redentor mío,\npor ser tú quien eres\ny porque te amo sobre todas las cosas,\nme pesa de todo corazón haberte ofendido.\nPropongo firmemente nunca más pecar,\napartarme de todas las ocasiones de ofenderte,\nconfesarme y cumplir la penitencia que me fuere impuesta.\nOfrezco, Señor, mi vida, obras y trabajos\nen satisfacción de todos mis pecados;\ny así como lo suplico, así confío en tu bondad y misericordia infinita\nque me los perdonarás por los méritos de tu preciosísima sangre,\ny me darás gracia para enmendarme y perseverar\nen tu santo servicio hasta el fin de mi vida.\nAmén.",
+    "variants": [
+      {
+        "id": "dios-mio",
+        "label": "«Dios mío, me arrepiento…» (forma breve)",
+        "text": "Dios mío, me arrepiento de todo corazón de todos mis pecados\ny los aborrezco,\nporque al pecar no solo merezco las penas establecidas por ti justamente,\nsino principalmente porque te ofendí a ti,\nsumo bien y digno de ser amado sobre todas las cosas.\nPor eso propongo firmemente, con la ayuda de tu gracia,\nno volver a pecar y evitar las ocasiones próximas de pecado.\nAmén.",
+        "note": "Fórmula tradicional de uso común, de autor desconocido; es la versión castellana de la fórmula latina «Deus meus, ex toto corde paenitet me…» que figura en el campo latino. No se presenta como cita literal del Ritual de la Penitencia: la Iglesia no impone una redacción única; lo esencial es el dolor de los pecados, el propósito de la enmienda y la confianza en la misericordia."
+      },
+      {
+        "id": "publicano",
+        "label": "Oración del publicano (muy breve)",
+        "text": "Oh Dios, ten compasión de mí, que soy pecador. (Lc 18,13)",
+        "note": "Adaptación breve de las palabras del publicano en el Evangelio (Lc 18,13; traducción libre). Puede decirse en cualquier momento como acto de contrición breve, y en peligro de muerte."
+      }
+    ],
+    "latin": "Deus meus, ex toto corde paenitet me omnium meorum peccatorum, eaque detestor, quia peccando, non solum poenas a te iuste statutas promeritus sum, sed praesertim quia offendi te, summum bonum, ac dignum qui super omnia diligaris. Ideo firmiter propono, adiuvante gratia tua, de cetero me non peccaturum peccandique occasiones proximas fugiturum. Amen.",
+    "context": "La contrición es «un dolor del alma y una detestación del pecado cometido, con la resolución de no volver a pecar» (Concilio de Trento; CIC 1451). Es la contrición «perfecta» cuando nace del amor a Dios (CIC 1452). Este acto no sustituye la confesión sacramental de los pecados graves (CIC 1456).\n\nLa fórmula principal («Señor mío Jesucristo…») es una oración tradicional de la piedad hispana, de autor desconocido. Ninguna de las fórmulas de aquí se ofrece como cita literal del Ritual de la Penitencia (*Ordo Paenitentiae*, 1973), que tiene sus propias fórmulas oficiales (cuyas traducciones oficiales no se reproducen aquí) y no obliga a una redacción única.",
+    "scripture": [
+      "Lc 18,13",
+      "Sal 51,3"
+    ],
+    "sources": [
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Ritual de la Penitencia: doctrina de Trento y actos del penitente (Notitiae 2015, Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_notitiae-2015-quaderno-penitenza_sp.html"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "visita-senor-esta-habitacion",
+    "title": "Visita, Señor, esta habitación",
+    "altTitles": [
+      "Visita, Señor, esta casa",
+      "Visita, quaesumus, Domine",
+      "Antes de dormir"
+    ],
+    "categories": [
+      "noche",
+      "proteccion",
+      "liturgia-horas",
+      "latin"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "prayer",
+    "text": "Visita, Señor, esta habitación\ny aleja de ella todas las asechanzas del enemigo;\nque tus santos ángeles habiten en ella\ny nos guarden en paz,\ny que tu bendición permanezca siempre con nosotros.\nPor Cristo, nuestro Señor. Amén.",
+    "latin": "Visita, quaesumus, Domine, habitationem istam,\net omnes insidias inimici ab ea longe repelle;\nAngeli tui sancti habitent in ea, qui nos in pace custodiant;\net benedictio tua sit super nos semper.\nPer Christum Dominum nostrum. Amen.",
+    "context": "Es la oración conclusiva de las Completas, la oración de la noche de la Iglesia, en su forma latina tradicional. La traducción española que aquí se ofrece es propia y literal; no reproduce la de la edición oficial de la Liturgia de las Horas, que tiene derechos.",
+    "rubric": "Puede rezarse al acostarse, solo o en familia.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Conferencia Episcopal Española (liturgia y textos oficiales)",
+        "url": "https://www.conferenciaepiscopal.es"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "en-tus-manos",
+    "title": "En tus manos, Señor, encomiendo mi espíritu",
+    "altTitles": [
+      "In manus tuas"
+    ],
+    "categories": [
+      "noche",
+      "proteccion",
+      "latin"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "prayer",
+    "text": "**V.** En tus manos, Señor, encomiendo mi espíritu.\n**R.** En tus manos, Señor, encomiendo mi espíritu.\n\n**V.** Tú, el Dios leal, nos librarás.\n**R.** Encomiendo mi espíritu.\n\nGloria al Padre, y al Hijo, y al Espíritu Santo.\n\n**V.** En tus manos, Señor, encomiendo mi espíritu.",
+    "latin": "**V.** In manus tuas, Domine, commendo spiritum meum.\n**R.** In manus tuas, Domine, commendo spiritum meum.\n\n**V.** Redemisti nos, Domine, Deus veritatis.\n**R.** Commendo spiritum meum.\n\nGloria Patri, et Filio, et Spiritui Sancto.\n\n**V.** In manus tuas, Domine, commendo spiritum meum.",
+    "context": "Palabras de Jesús en la cruz (Lc 23,46), que citan el Salmo 31,6. Son el responsorio breve de las Completas. Aquí se ofrece una forma sencilla de uso personal; el texto oficial de la Liturgia de las Horas en español se encuentra en el breviario.",
+    "scripture": [
+      "Lc 23,46",
+      "Sal 31,6"
+    ],
+    "sources": [
+      {
+        "label": "Conferencia Episcopal Española (liturgia y textos oficiales)",
+        "url": "https://www.conferenciaepiscopal.es"
+      },
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "nunc-dimittis",
+    "title": "Cántico de Simeón (Nunc dimittis)",
+    "altTitles": [
+      "Nunc dimittis",
+      "Ahora, Señor, puedes dejar a tu siervo"
+    ],
+    "categories": [
+      "noche",
+      "liturgia-horas",
+      "latin"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "liturgical",
+    "text": "Ahora, Señor, según tu palabra,\npuedes dejar a tu siervo irse en paz,\nporque mis ojos han visto a tu Salvador,\nal que has presentado ante todos los pueblos:\nluz para alumbrar a las naciones\ny gloria de tu pueblo Israel.\n\nGloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre,\npor los siglos de los siglos. Amén.",
+    "latin": "Nunc dimittis servum tuum, Domine,\nsecundum verbum tuum in pace:\nquia viderunt oculi mei salutare tuum\nquod parasti ante faciem omnium populorum:\nlumen ad revelationem gentium,\net gloriam plebis tuae Israel.\n\nGloria Patri, et Filio, et Spiritui Sancto.\nSicut erat in principio, et nunc, et semper,\net in saecula saeculorum. Amen.",
+    "context": "Cántico del anciano Simeón al recibir en brazos al Niño Jesús en el templo (Lc 2,29-32). La Iglesia lo canta cada noche en las Completas, con la antífona «Sálvanos, Señor, despiertos; protégenos mientras dormimos…». La traducción es propia, a partir de Lucas; para el texto oficial de la Liturgia de las Horas, véase el breviario.",
+    "scripture": [
+      "Lc 2,29-32"
+    ],
+    "sources": [
+      {
+        "label": "Conferencia Episcopal Española (liturgia y textos oficiales)",
+        "url": "https://www.conferenciaepiscopal.es"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "salve",
+    "title": "Salve",
+    "altTitles": [
+      "Dios te salve, Reina y Madre",
+      "Salve Regina"
+    ],
+    "categories": [
+      "noche",
+      "virgen-maria",
+      "proteccion",
+      "latin"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "prayer",
+    "text": "Dios te salve, Reina y Madre de misericordia,\nvida, dulzura y esperanza nuestra;\nDios te salve.\nA ti llamamos los desterrados hijos de Eva;\na ti suspiramos, gimiendo y llorando,\nen este valle de lágrimas.\nEa, pues, Señora, abogada nuestra,\nvuelve a nosotros esos tus ojos misericordiosos;\ny después de este destierro,\nmuéstranos a Jesús, fruto bendito de tu vientre.\n¡Oh clementísima, oh piadosa, oh dulce Virgen María!\n\n**V.** Ruega por nosotros, santa Madre de Dios.\n**R.** Para que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo.",
+    "latin": "Salve, Regina, mater misericordiae;\nvita, dulcedo, et spes nostra, salve.\nAd te clamamus, exsules filii Hevae.\nAd te suspiramus, gementes et flentes\nin hac lacrimarum valle.\nEia ergo, advocata nostra,\nillos tuos misericordes oculos ad nos converte.\nEt Iesum, benedictum fructum ventris tui,\nnobis post hoc exsilium ostende.\nO clemens, o pia, o dulcis Virgo Maria.\n\n**V.** Ora pro nobis, sancta Dei Genetrix.\n**R.** Ut digni efficiamur promissionibus Christi.",
+    "context": "Antífona mariana de la Iglesia latina que cierra las Completas. Según la tradición del Breviario Romano, la Salve se usa después de Pentecostés hasta el Adviento; en otros tiempos se canta el Alma Redemptoris Mater (Adviento y Navidad), el Ave Regina caelorum (hasta la Semana Santa) o el Regina caeli (Pascua). Su autoría es discutida: se ha atribuido a Hermann el Tullido y a Ademaro de Le Puy (siglo XI), sin que haya certeza. Se reza al final del Rosario.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+        "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+      }
+    ],
+    "minutes": 2
+  },
+  {
+    "id": "jesus-jose-y-maria",
+    "title": "Jesús, José y María",
+    "categories": [
+      "noche",
+      "santos",
+      "familia"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "devotion",
+    "text": "Jesús, José y María,\nos doy el corazón y el alma mía.\n\nJesús, José y María,\nasistidme en mi última agonía.\n\nJesús, José y María,\ncon vos descanse en paz el alma mía.\nAmén.",
+    "context": "Jaculatoria popular, rezada tradicionalmente al acostarse, para pedir la ayuda de la Sagrada Familia en la hora de la muerte. Es de piedad popular, en español.",
+    "sources": [
+      {
+        "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "completas",
+    "title": "Completas: oración de la noche de la Iglesia",
+    "altTitles": [
+      "Completas",
+      "Liturgia de las Horas: Completas"
+    ],
+    "categories": [
+      "noche",
+      "liturgia-horas"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "liturgical",
+    "text": "Las Completas son la última hora de la jornada en la Liturgia de las Horas. Esta ficha es una **guía de su estructura**; no reproduce el texto oficial en español, que tiene derechos de los coeditores litúrgicos. Para rezarlas completas, usa el breviario o la edición oficial de tu Conferencia Episcopal.\n\n**Estructura**\n\n1. **Introducción.** *V.* Dios mío, ven en mi auxilio. *R.* Señor, date prisa en socorrerme. Gloria al Padre… Aleluya (salvo en Cuaresma).\n2. **Examen de conciencia** (breve), con un acto penitencial o el «Yo confieso».\n3. **Himno.** Por ejemplo, *Te lucis ante terminum*.\n4. **Salmodia.** Con sus antífonas. Cada día tiene sus salmos propios (por ejemplo, el 4, el 90 (91) y el 133 (134)).\n5. **Lectura breve** de la Sagrada Escritura.\n6. **Responsorio breve:** *En tus manos, Señor, encomiendo mi espíritu* (Lc 23,46).\n7. **Cántico evangélico de Simeón (Nunc dimittis)** (Lc 2,29-32), con la antífona «Sálvanos, Señor, despiertos…».\n8. **Oración conclusiva.** Por ejemplo, «Visita, Señor, esta habitación…».\n9. **Bendición** y **antífona mariana** (Salve Regina, Alma Redemptoris Mater, Ave Regina caelorum o Regina caeli, según el tiempo).\n\n**Elementos que puedes rezar por separado en esta aplicación**\n\n- «En tus manos, Señor, encomiendo mi espíritu».\n- Cántico de Simeón (Nunc dimittis).\n- «Visita, Señor, esta habitación…».\n- Salve.",
+    "context": "Las Completas son la oración con que la Iglesia cierra la jornada, antes del descanso nocturno. La Liturgia de las Horas es oración pública de la Iglesia, por encargo de la cual la rezan los ministros ordenados y los religiosos; los fieles laicos están invitados a rezarla (CIC 1174-1178).",
+    "rubric": "Se reza al final del día, antes del descanso nocturno.",
+    "sources": [
+      {
+        "label": "Liturgia de las Horas (edición oficial en español, Conferencia Episcopal)",
+        "url": "https://www.conferenciaepiscopal.es"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      }
+    ],
+    "minutes": 10
+  }
+]
