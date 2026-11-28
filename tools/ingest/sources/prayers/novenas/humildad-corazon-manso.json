@@ -1,0 +1,127 @@
+{
+  "id": "humildad-corazon-manso",
+  "title": "Novena por la humildad",
+  "group": "virtues",
+  "description": "Nueve días para crecer en humildad: verdad sobre uno mismo, gratitud y servicio, con María y con Cristo manso y humilde.",
+  "image": {
+    "icon": "heart",
+    "tint": "#8a7a5b"
+  },
+  "introduction": "«Aprended de mí, que soy manso y humilde de corazón» (Mt 11,29). La tradición cristiana, desde san Benito hasta santa Teresa de Jesús («la humildad es andar en verdad»), ve en la humildad el cimiento de las demás virtudes. El Magníficat de María es su mejor escuela.",
+  "purpose": "Pedir un corazón que se conozca con verdad, agradezca lo recibido y sirva sin buscar aplauso. Humildad no es despreciarse, sino verse como Dios nos ve.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Jesús, manso y humilde de corazón, haz mi corazón semejante al tuyo. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un corazón como el de Cristo",
+      "reading": "Mt 11,28-30",
+      "reflection": "Jesús no ofrece una humildad humillante, sino descanso. Su mansedumbre es fuerza serena. Hoy le pido que me enseñe sin prisa.",
+      "prayer": "Jesús, manso y humilde, tómame como discípulo."
+    },
+    {
+      "day": 2,
+      "title": "La verdad sobre mí",
+      "reading": "Sal 139,1-4",
+      "reflection": "Dios me conoce a fondo y me ama. Humildad es aceptar esa mirada sin disfraces: ni más ni menos de lo que soy.",
+      "prayer": "Señor, que no me engañe ni con la vanidad ni con el desprecio de mí mismo."
+    },
+    {
+      "day": 3,
+      "title": "Todo es don",
+      "reading": "1 Co 4,7",
+      "reflection": "¿Qué tienes que no hayas recibido? Reconocer los dones como regalo cambia el orgullo en gratitud.",
+      "prayer": "Gracias, Señor, por lo que soy y tengo. Todo viene de ti."
+    },
+    {
+      "day": 4,
+      "title": "Magníficat",
+      "reading": "Lc 1,46-55",
+      "reflection": "María canta que Dios mira la pequeñez de su esclava. Su humildad es alegría, no encogimiento.",
+      "prayer": "Madre, enséñame a cantar a Dios con tu sencillez."
+    },
+    {
+      "day": 5,
+      "title": "El último lugar",
+      "reading": "Lc 14,7-11",
+      "reflection": "Jesús invita a no buscar los primeros puestos. Hoy observo dónde busco reconocimiento y lo dejo en manos de Dios.",
+      "prayer": "Señor, libérame de la necesidad de aparentar."
+    },
+    {
+      "day": 6,
+      "title": "Servir como el Maestro",
+      "reading": "Jn 13,3-5.12-15",
+      "reflection": "Jesús lava los pies de sus discípulos. El servicio concreto y discreto es la prueba de la humildad.",
+      "prayer": "Jesús, dame ojos para ver a quién puedo servir hoy."
+    },
+    {
+      "day": 7,
+      "title": "Aceptar la corrección",
+      "reading": "Pr 12,1",
+      "reflection": "Quien ama la corrección ama el saber. Recibir una crítica justa con paz es una escuela de humildad.",
+      "prayer": "Dios mío, dame un corazón dócil y sin resentimiento."
+    },
+    {
+      "day": 8,
+      "title": "Sin compararme",
+      "reading": "Gál 6,3-4",
+      "reflection": "Cada uno examine su propia obra, sin compararse. La envidia y la vanidad nacen de mirar de reojo.",
+      "prayer": "Señor, que me alegre del bien de los demás como del mío."
+    },
+    {
+      "day": 9,
+      "title": "Gloriarme en el Señor",
+      "reading": "2 Co 12,9-10",
+      "reflection": "Cuando soy débil, entonces soy fuerte. La humildad se apoya en la gracia, que se manifiesta en la debilidad.",
+      "prayer": "Padre, que mi fuerza sea tu gracia. A ti la gloria."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Señor, que me gloríe solo en ti. Haz de mí un servidor alegre y sencillo. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "tags": [
+    "humildad corazon manso",
+    "novena",
+    "composición de Lux"
+  ]
+}

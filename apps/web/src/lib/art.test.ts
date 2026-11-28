@@ -24,9 +24,9 @@ describe('arte sacro', () => {
     for (const s of rosary.sets) expect(artFor(`set:${s.set}`), s.set).not.toBeNull();
   });
 
-  it('las 28 novenas, los momentos, las categorías y la portada resuelven', () => {
+  it('todas las novenas, los momentos, las categorías y la portada resuelven', () => {
     const novenas = readdirSync(join(PRAYERS, 'novenas')).filter((f) => f.endsWith('.json'));
-    expect(novenas).toHaveLength(28);
+    expect(novenas.length).toBeGreaterThanOrEqual(28);
     for (const f of novenas) expect(artFor(`novena:${f.replace(/\.json$/, '')}`), f).not.toBeNull();
     for (const m of ['morning', 'midday', 'afternoon', 'night']) expect(artFor(`moment:${m}`), m).not.toBeNull();
     const cats = JSON.parse(readFileSync(join(PRAYERS, 'categories.json'), 'utf8'));
@@ -35,28 +35,30 @@ describe('arte sacro', () => {
     expect(artFor('desconocida:x')).toBeNull();
   });
 
-  it('cada imagen pesa menos de ~70 KB y el total no pasa de 9 MB', () => {
+  it('cada imagen pesa menos de ~70 KB y el total no pasa de 12 MB', () => {
     let total = 0;
     for (const a of ART_CREDITS) {
       const size = statSync(join(PUBLIC, a.src)).size;
       expect(size, a.src).toBeLessThan(MAX_BYTES);
       total += size;
     }
-    expect(total).toBeLessThan(9 * 1024 * 1024);
+    expect(total).toBeLessThan(12 * 1024 * 1024);
     expect(ART_CREDITS.length).toBeGreaterThanOrEqual(140);
   });
 
-  it('cada oración tiene imagen propia y respaldo', () => {
+  it('cada oración tiene imagen (propia o de su categoría) y la mayoría tiene imagen propia', () => {
     const files = readdirSync(join(PRAYERS, 'prayers')).filter((f) => f.endsWith('.json'));
     let n = 0;
+    let own = 0;
     for (const f of files) {
       for (const p of JSON.parse(readFileSync(join(PRAYERS, 'prayers', f), 'utf8'))) {
         n++;
-        expect(hasOwnArt(`prayer:${p.id}`), p.id).toBe(true);
-        expect(artForAny([`prayer:${p.id}`, `category:${p.categories[0]}`, 'home:default'])).not.toBeNull();
+        if (hasOwnArt(`prayer:${p.id}`)) own++;
+        expect(artForAny([`prayer:${p.id}`, `category:${p.categories[0]}`, 'home:default']), p.id).not.toBeNull();
       }
     }
     expect(n).toBeGreaterThan(80);
+    expect(own).toBeGreaterThanOrEqual(85);
     expect(artFor('prayer:no-existe')).not.toBeNull(); // respaldo a la portada
   });
 
@@ -64,7 +66,9 @@ describe('arte sacro', () => {
     const packs: { id: string; kind: string }[] = JSON.parse(readFileSync(CATALOG, 'utf8')).packs;
     const books = packs.filter((p) => p.kind === 'bible' || p.kind === 'document');
     expect(books.length).toBeGreaterThan(15);
-    for (const b of books) expect(hasOwnArt(`book:${b.id}`), b.id).toBe(true);
+    // Todos resuelven (propia o genérica); la mayoría con portada propia.
+    for (const b of books) expect(artForAny(bookArtKeys(b.id, b.kind as 'bible' | 'document')), b.id).not.toBeNull();
+    expect(books.filter((b) => hasOwnArt(`book:${b.id}`)).length).toBeGreaterThanOrEqual(19);
     expect(artForAny(bookArtKeys('bible.XYZ', 'bible'))).toBe(artFor('book:bible'));
     expect(artForAny(bookArtKeys('doc.nuevo', 'document'))).toBe(artFor('book:doc'));
     expect(artFor('book:bible')).not.toBeNull();

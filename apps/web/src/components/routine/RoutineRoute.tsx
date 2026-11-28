@@ -77,7 +77,7 @@ function RoutineIntro({ routine, doneSet, onStart }: { routine: RoutineRow; done
             );
           })}
         </ListGroup>
-        <div className="sticky bottom-[calc(5rem+env(safe-area-inset-bottom))] z-10 mt-6 md:bottom-6">
+        <div className="sticky bottom-[calc(5rem+var(--sab))] z-10 mt-6 md:bottom-6">
           <button type="button" onClick={onStart} className="flex min-h-[58px] w-full items-center justify-center rounded-full bg-ink text-[17px] font-semibold text-ink-fg">
             {label}
           </button>

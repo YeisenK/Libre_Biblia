@@ -6,16 +6,18 @@ import type { UserSettings } from '../settings';
 import { schemeOf, toVersion, type Scheme } from '../versify';
 
 /** Opciones nacionales del calendario litúrgico tomadas de los ajustes. */
-export const liturgyOptionsOf = (s: Partial<Pick<UserSettings, 'epiphanySunday' | 'ascensionSunday' | 'corpusSunday'>>): LiturgyOptions => ({
-  epiphanySunday: !!s.epiphanySunday,
-  ascensionSunday: !!s.ascensionSunday,
-  corpusSunday: !!s.corpusSunday,
+export const liturgyOptionsOf = (s: Partial<Pick<UserSettings, 'calendar' | 'epiphanySunday' | 'ascensionSunday' | 'corpusSunday'>>): LiturgyOptions => ({
+  calendar: s.calendar ?? 'mx',
+  // null/undefined = valor por defecto del calendario
+  ...(s.epiphanySunday != null ? { epiphanySunday: s.epiphanySunday } : {}),
+  ...(s.ascensionSunday != null ? { ascensionSunday: s.ascensionSunday } : {}),
+  ...(s.corpusSunday != null ? { corpusSunday: s.corpusSunday } : {}),
 });
 
 /** Numeración en que están escritas las citas del leccionario. */
 export const MASS_SCHEME: Scheme = schemeOf(LECTIONARY_VERSIFICATION);
 
-export const massReadingsOf = (iso: string, s: Partial<Pick<UserSettings, 'epiphanySunday' | 'ascensionSunday' | 'corpusSunday'>>): MassReadings | null => getReadings(iso, liturgyOptionsOf(s));
+export const massReadingsOf = (iso: string, s: Partial<Pick<UserSettings, 'calendar' | 'epiphanySunday' | 'ascensionSunday' | 'corpusSunday'>>): MassReadings | null => getReadings(iso, liturgyOptionsOf(s));
 
 export const gospelOf = (m: MassReadings | null): MassReading | null => m?.readings.find((r) => r.type === 'gospel') ?? null;
 

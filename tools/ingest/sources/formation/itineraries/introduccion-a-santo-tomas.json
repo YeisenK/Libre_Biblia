@@ -1,0 +1,143 @@
+{
+ "id": "introduccion-a-santo-tomas",
+ "title": "Introducción a santo Tomás de Aquino",
+ "description": "Quién fue santo Tomás, qué es la Suma teológica y algunas de sus ideas clave. Itinerario de lectura: el texto del Aquinate se consulta en ediciones externas.",
+ "level": "intermedio",
+ "lessons": [
+  {
+   "title": "Vida y obra",
+   "body": [
+    "Tomás de Aquino (hacia 1225-1274), dominico, maestro en París y Nápoles, escribió la Suma teológica, la Suma contra gentiles y comentarios a Aristóteles y a la Escritura. Fue canonizado en 1323 y proclamado doctor de la Iglesia. León XIII, en Aeterni Patris (1879), recomendó su doctrina para la formación teológica."
+   ],
+   "ccc": [],
+   "bible": [],
+   "readings": [
+    [
+     "church",
+     "aeterni-patris",
+     "Aeterni Patris"
+    ]
+   ],
+   "questions": [
+    "¿Por qué León XIII recomendó a santo Tomás?"
+   ]
+  },
+  {
+   "title": "Fe y razón",
+   "body": [
+    "Para santo Tomás, la gracia no destruye la naturaleza sino que la perfecciona: la razón y la fe no se contradicen, porque ambas proceden de Dios. Esta armonía es una constante del magisterio (CEC 159) y es tema de Fides et ratio."
+   ],
+   "ccc": [
+    159
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "31-35",
+     "Vías de acceso a Dios"
+    ],
+    [
+     "church",
+     "fides-et-ratio",
+     "Fides et ratio"
+    ]
+   ],
+   "questions": [
+    "¿Qué quiere decir que la gracia perfecciona la naturaleza?"
+   ]
+  },
+  {
+   "title": "Las cinco vías",
+   "body": [
+    "La Suma teológica propone cinco vías para mostrar que Dios existe a partir de realidades del mundo: movimiento, causalidad, contingencia, grados de perfección y orden. El Catecismo se refiere a estas «pruebas» como caminos para llegar a Dios por la razón (CEC 31-34)."
+   ],
+   "ccc": [
+    31,
+    32,
+    34
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "31-36",
+     "Cómo conocer a Dios"
+    ]
+   ],
+   "questions": [
+    "¿Qué pretenden mostrar las cinco vías y qué no pretenden?"
+   ]
+  },
+  {
+   "title": "Analogía y lenguaje sobre Dios",
+   "body": [
+    "Nuestro lenguaje sobre Dios es analógico: lo que decimos de las criaturas se dice de Dios de modo eminente, no unívoco. El Catecismo recoge esta enseñanza (CEC 40-43)."
+   ],
+   "ccc": [
+    40,
+    42,
+    43
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "39-43",
+     "Cómo hablar de Dios"
+    ]
+   ],
+   "questions": [
+    "¿Por qué no se puede hablar de Dios de modo unívoco?"
+   ]
+  },
+  {
+   "title": "Gracia, virtudes y ley",
+   "body": [
+    "La moral tomista se centra en la felicidad, las virtudes y la ley. El Catecismo incorpora las virtudes cardinales y teologales (CEC 1803-1829) y la doctrina de la ley natural (CEC 1954-1960)."
+   ],
+   "ccc": [
+    1803,
+    1954
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "1803-1845",
+     "Las virtudes"
+    ],
+    [
+     "ccc",
+     "1950-1986",
+     "La ley moral"
+    ]
+   ],
+   "questions": [
+    "¿Qué es una virtud?"
+   ]
+  },
+  {
+   "title": "Eucaristía y sacramentos",
+   "body": [
+    "Santo Tomás compuso textos litúrgicos eucarísticos y expuso la doctrina de la presencia real con el término «transubstanciación», que la Iglesia asume (CEC 1376). Su pensamiento sigue siendo una guía, aunque la Iglesia no lo impone como sistema único."
+   ],
+   "ccc": [
+    1376
+   ],
+   "bible": [
+    "Jn 6,51"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "1373-1381",
+     "La presencia de Cristo en la Eucaristía"
+    ]
+   ],
+   "questions": [
+    "¿Qué significa transubstanciación?"
+   ]
+  }
+ ]
+}

@@ -3,7 +3,7 @@
  * Si dos paquetes traen el mismo id, gana el instalado después (permite que un
  * repositorio de terceros corrija o amplíe sin tocar el oficial).
  */
-import type { Mystery, MysterySet, Novena, Prayer, PrayerCategory, PrayersPack, RosaryData, RoutineTemplate } from '@bc/shared';
+import type { Practice, Mystery, MysterySet, Novena, Prayer, PrayerCategory, PrayersPack, RosaryData, RoutineTemplate } from '@bc/shared';
 import { getDb, type AppDb } from '../db';
 import { gunzipToText, parsePack, sha256Hex } from '../packs/pack';
 import { entryFromPack, installPack } from '../packs/install';
@@ -17,6 +17,8 @@ export interface PrayerCatalog {
   novenaById: Map<string, Novena>;
   rosary: RosaryData | null;
   routines: RoutineTemplate[];
+  practices: Practice[];
+  practiceById: Map<string, Practice>;
   empty: boolean;
 }
 
@@ -25,12 +27,14 @@ export function buildCatalog(packs: PrayersPack[]): PrayerCatalog {
   const prayers = new Map<string, Prayer>();
   const novenas = new Map<string, Novena>();
   const routines = new Map<string, RoutineTemplate>();
+  const practices = new Map<string, Practice>();
   let rosary: RosaryData | null = null;
   for (const p of packs) {
     for (const c of p.categories) cats.set(c.id, c);
     for (const x of p.prayers) prayers.set(x.id, x);
     for (const n of p.novenas) novenas.set(n.id, n);
     for (const r of p.routines ?? []) routines.set(r.id, r);
+    for (const x of p.practices ?? []) practices.set(x.id, x);
     if (p.rosary) rosary = p.rosary;
   }
   const categories = [...cats.values()].sort((a, b) => a.order - b.order);
@@ -43,6 +47,8 @@ export function buildCatalog(packs: PrayersPack[]): PrayerCatalog {
     novenaById: novenas,
     rosary,
     routines: [...routines.values()],
+    practices: [...practices.values()],
+    practiceById: practices,
     empty: prayers.size === 0,
   };
 }

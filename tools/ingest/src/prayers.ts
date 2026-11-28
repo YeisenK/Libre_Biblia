@@ -14,6 +14,7 @@ import {
   type PrayerCategory,
   type PrayerStep,
   type PrayersPack,
+  type Practice,
   type RosaryData,
   type RoutineTemplate,
 } from '@bc/shared';
@@ -22,13 +23,15 @@ import { PKG_ROOT } from './paths';
 
 export const PRAYERS_DIR = join(PKG_ROOT, 'sources', 'prayers');
 export const PRAYERS_PACK_ID = 'prayers.es';
-export const PRAYERS_VERSION = '2026.11.22';
+export const PRAYERS_VERSION = '2026.11.26.1';
 export const WEB_PACKS_DIR = join(PKG_ROOT, '..', '..', 'apps', 'web', 'public', 'packs');
 
 export const CATEGORY_ICONS = ['cross', 'sun', 'moon', 'rosary', 'dove', 'heart', 'star', 'candle', 'shield', 'bread', 'family', 'hours', 'book', 'angel', 'crown', 'hands'];
-const NATURES = ['liturgical', 'prayer', 'devotion', 'popular_piety'];
+const NATURES = ['liturgical', 'prayer', 'devotion', 'popular_piety', 'saint', 'contemporary', 'original'];
 const MOMENTS = ['morning', 'midday', 'afternoon', 'night', 'any'];
-const NOVENA_GROUPS = ['marian', 'angels', 'christ', 'holy_spirit', 'saints', 'souls', 'other'];
+const NOVENA_GROUPS = ['marian', 'angels', 'christ', 'holy_spirit', 'saints', 'souls', 'other', 'virtues', 'work_vocation', 'family', 'health'];
+/** Rótulo obligatorio de las composiciones propias (`nature: 'original'`). */
+export const ORIGINAL_LABEL = 'Composición de Lux';
 const SETS = ['joyful', 'luminous', 'sorrowful', 'glorious'];
 const KEBAB = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
@@ -38,6 +41,7 @@ export interface PrayerSources {
   novenas: Novena[];
   rosary?: RosaryData;
   routines: RoutineTemplate[];
+  practices?: Practice[];
 }
 
 const readJson = <T>(file: string): T => {
@@ -61,6 +65,7 @@ export function loadPrayerSources(dir: string = PRAYERS_DIR): PrayerSources {
     novenas: jsonFiles(join(dir, 'novenas')).flatMap((f) => arr(readJson<Novena | Novena[]>(join(dir, 'novenas', f)))),
     rosary: existsSync(rosFile) ? readJson<RosaryData>(rosFile) : undefined,
     routines: existsSync(rouFile) ? readJson<RoutineTemplate[]>(rouFile) : [],
+    practices: jsonFiles(join(dir, 'practices')).flatMap((f) => arr(readJson<Practice | Practice[]>(join(dir, 'practices', f)))),
   };
 }
 
@@ -107,6 +112,12 @@ export function validatePrayers(src: PrayerSources): string[] {
     for (const one of splitReferences(ref)) if (!tryParseReference(one)) err(`${where}: referencia bíblica no analizable «${one}»`);
   };
 
+  // Las composiciones propias deben ir rotuladas, ancladas en la Escritura y sin atribuirse a un santo
+  const checkOriginal = (w: string, x: { nature: string; attribution?: string; scripture?: string[]; sources?: { label: string }[]; text?: string }) => {
+    if (x.nature !== 'original') return;
+    if (!x.attribution?.includes(ORIGINAL_LABEL)) err(`${w}: nature «original» sin el rótulo «${ORIGINAL_LABEL}» en attribution`);
+  };
+
   // oraciones
   const prayerIds = new Set<string>();
   for (const p of src.prayers) {
@@ -130,6 +141,7 @@ export function validatePrayers(src: PrayerSources): string[] {
       if (blank(v.note)) err(`${w}: variante ${v.id} sin nota de origen`);
     }
     for (const r of p.scripture ?? []) checkRef(w, r);
+    checkOriginal(w, p);
     for (const s of p.sources ?? []) if (blank(s.label)) err(`${w}: fuente sin etiqueta`);
   }
 
@@ -158,6 +170,16 @@ export function validatePrayers(src: PrayerSources): string[] {
       if (d.reading) checkRef(`${w} día ${d.day}`, d.reading);
     });
     if (n.feast && !(n.feast.month >= 1 && n.feast.month <= 12 && n.feast.day >= 1 && n.feast.day <= 31)) err(`${w}: fiesta con fecha inválida`);
+    if (n.nature === 'original') {
+      if (!n.attribution?.includes(ORIGINAL_LABEL)) err(`${w}: nature «original» sin el rótulo «${ORIGINAL_LABEL}» en attribution`);
+      const seen = new Set<string>();
+      for (const d of n.days ?? []) {
+        if (!d.reading) err(`${w} día ${d.day}: novena original sin pasaje bíblico`);
+        const k = d.reflection?.trim();
+        if (k && seen.has(k)) err(`${w} día ${d.day}: meditación repetida`);
+        if (k) seen.add(k);
+      }
+    }
     checkSteps(`${w} (apertura)`, n.opening);
     checkSteps(`${w} (cierre)`, n.closing);
   }
@@ -208,6 +230,62 @@ export function validatePrayers(src: PrayerSources): string[] {
       else if (m[1] === 'novena' && !novenaIds.has(m[2]!)) err(`${w}: novena inexistente «${m[2]}»`);
     }
   }
+  errs.push(...validatePractices(src, prayerIds));
+  return errs;
+}
+
+/** Prácticas guiadas: ids únicos, oraciones y citas existentes, rótulo de las composiciones propias. */
+export function validatePractices(src: PrayerSources, prayerIds: Set<string>): string[] {
+  const errs: string[] = [];
+  const ids = new Set<string>();
+  const KINDS = ['examen', 'confession', 'adoration', 'stations'];
+  const SK = ['text', 'prayer', 'reading', 'reflection', 'silence', 'questions', 'station'];
+  for (const p of src.practices ?? []) {
+    const w = `práctica ${p.id}`;
+    if (!KEBAB.test(p.id ?? '')) errs.push(`práctica «${p.id}»: id no es kebab-case`);
+    if (ids.has(p.id)) errs.push(`práctica duplicada: ${p.id}`);
+    ids.add(p.id);
+    if (!KINDS.includes(p.kind)) errs.push(`${w}: kind no válido`);
+    if (blank(p.title) || blank(p.description)) errs.push(`${w}: título o descripción vacíos`);
+    if (!NATURES.includes(p.nature)) errs.push(`${w}: nature no válida`);
+    if (p.nature === 'original') {
+      if (!p.attribution?.includes(ORIGINAL_LABEL)) errs.push(`${w}: nature «original» sin el rótulo «${ORIGINAL_LABEL}» en attribution`);
+      if (!p.sources?.length) errs.push(`${w}: nature «original» sin fuentes`);
+    }
+    if (!p.steps?.length) errs.push(`${w}: sin pasos`);
+    const sids = new Set<string>();
+    for (const s of p.steps ?? []) {
+      const ws = `${w} paso ${s.id}`;
+      if (!KEBAB.test(s.id ?? '')) errs.push(`${ws}: id no es kebab-case`);
+      if (sids.has(s.id)) errs.push(`${ws}: duplicado`);
+      sids.add(s.id);
+      if (!SK.includes(s.kind)) errs.push(`${ws}: kind no válido`);
+      if (blank(s.title)) errs.push(`${ws}: sin título`);
+      if (s.kind === 'prayer' && (!s.prayer || !prayerIds.has(s.prayer))) errs.push(`${ws}: oración inexistente «${s.prayer}»`);
+      if (s.kind === 'reading') {
+        if (blank(s.reading)) errs.push(`${ws}: lectura sin referencia`);
+        else for (const one of splitReferences(s.reading!)) if (!tryParseReference(one)) errs.push(`${ws}: referencia bíblica no analizable «${one}»`);
+      }
+      if (s.reading && s.kind !== 'reading') for (const one of splitReferences(s.reading)) if (!tryParseReference(one)) errs.push(`${ws}: referencia bíblica no analizable «${one}»`);
+      if (s.kind === 'questions' && !s.questions?.length) errs.push(`${ws}: sin preguntas`);
+      if (s.kind === 'silence' && !(typeof s.seconds === 'number' && s.seconds > 0)) errs.push(`${ws}: silencio sin seconds`);
+      if (['text', 'reflection', 'station'].includes(s.kind) && blank(s.text)) errs.push(`${ws}: sin texto`);
+    }
+  }
+  return errs;
+}
+
+/** Exigencias editoriales de las composiciones propias: cita bíblica real y fuentes (Escritura/Catecismo). */
+export function checkOriginalAnchoring(src: PrayerSources): string[] {
+  const errs: string[] = [];
+  for (const p of src.prayers) {
+    if (p.nature !== 'original') continue;
+    if (!p.scripture?.length) errs.push(`oración ${p.id}: nature «original» sin cita bíblica en scripture`);
+    if (!p.sources?.length) errs.push(`oración ${p.id}: nature «original» sin fuentes`);
+  }
+  for (const n of src.novenas) {
+    if (n.nature === 'original' && !n.sources?.length) errs.push(`novena ${n.id}: nature «original» sin fuentes`);
+  }
   return errs;
 }
 
@@ -238,6 +316,7 @@ export function buildPrayersPack(src: PrayerSources, version: string = PRAYERS_V
     novenas: byId(src.novenas),
     ...(src.rosary ? { rosary: src.rosary } : {}),
     routines: src.routines,
+    ...(src.practices?.length ? { practices: [...src.practices].sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0)) } : {}),
   };
 }
 
@@ -252,7 +331,7 @@ export interface PrayersBuildResult {
 /** Lee, valida, escribe el paquete, actualiza el catálogo y copia el archivo a la app web. */
 export function runPrayers(opts: { version?: string; dir?: string; packsDir?: string; webDir?: string; catalogFile?: string } = {}): PrayersBuildResult {
   const src = loadPrayerSources(opts.dir);
-  const errors = validatePrayers(src);
+  const errors = [...validatePrayers(src), ...checkOriginalAnchoring(src)];
   if (errors.length) throw new Error(`Fuentes de oraciones no válidas (${errors.length}):\n- ${errors.join('\n- ')}`);
   const pack = buildPrayersPack(src, opts.version);
   const w = writePack(PRAYERS_PACK_ID, pack, opts.packsDir);

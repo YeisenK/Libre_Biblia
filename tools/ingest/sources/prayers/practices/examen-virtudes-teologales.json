@@ -1,0 +1,106 @@
+{
+ "id": "examen-virtudes-teologales",
+ "kind": "examen",
+ "title": "Según las virtudes teologales",
+ "description": "Fe, esperanza y caridad: las virtudes que nos unen directamente a Dios.",
+ "group": "Según las virtudes",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 10,
+ "ccc": [
+  "1812-1829"
+ ],
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "text",
+   "title": "Antes de empezar",
+   "text": "Ponte en presencia de Dios, que no te examina para condenarte sino para sanarte. Lee las preguntas despacio y quédate solo con las que te hablen. Marcar una pregunta no significa que sea pecado grave: es una ayuda para recordar. Si dudas de la gravedad de algo, díselo con sencillez al sacerdote: él te ayudará.\n\n**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "fe",
+   "kind": "questions",
+   "title": "Fe",
+   "questions": [
+    {
+     "text": "¿Creo de verdad lo que la Iglesia enseña, o solo lo que me conviene?"
+    },
+    {
+     "text": "¿Cuido mi formación cristiana, leo la Escritura, el Catecismo?"
+    },
+    {
+     "text": "¿Confieso mi fe con mi vida, o la escondo?"
+    },
+    {
+     "text": "¿He tenido dudas voluntarias o he ignorado la fe por pereza?"
+    }
+   ],
+   "ccc": "1814-1816"
+  },
+  {
+   "id": "esperanza",
+   "kind": "questions",
+   "title": "Esperanza",
+   "questions": [
+    {
+     "text": "¿Confío en la misericordia y en las promesas de Dios, también en las pruebas?"
+    },
+    {
+     "text": "¿Me dejo vencer por la desesperanza, la tristeza o el cinismo?"
+    },
+    {
+     "text": "¿Presumo de mis fuerzas o de la bondad de Dios sin convertirme?"
+    },
+    {
+     "text": "¿Vivo mirando al cielo o solo a lo de aquí?"
+    }
+   ],
+   "ccc": "1817-1821"
+  },
+  {
+   "id": "caridad",
+   "kind": "questions",
+   "title": "Caridad",
+   "questions": [
+    {
+     "text": "¿Amo a Dios por encima de todo, con oración y obediencia?"
+    },
+    {
+     "text": "¿Amo a mi prójimo, también a quien me cae mal o me ha hecho daño?"
+    },
+    {
+     "text": "¿He hecho obras de misericordia concretas?"
+    },
+    {
+     "text": "¿Hay en mi corazón rencor, envidia o desprecio?"
+    },
+    {
+     "text": "¿Pongo a los demás por delante de mi comodidad?"
+    }
+   ],
+   "ccc": "1822-1829"
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

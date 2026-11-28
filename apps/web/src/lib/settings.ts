@@ -14,10 +14,12 @@ export interface UserSettings {
   verseMode: 'gospel' | 'cycle';
   /** Zona horaria IANA opcional; null = la del dispositivo */
   timeZone: string | null;
-  /** Opciones nacionales del calendario litúrgico */
-  epiphanySunday: boolean;
-  ascensionSunday: boolean;
-  corpusSunday: boolean;
+  /** Calendario litúrgico: 'general' o un propio ('mx'). Por defecto México. */
+  calendar: string;
+  /** Traslados nacionales: null = el valor por defecto del calendario elegido (México: Epifanía y Ascensión en domingo, Corpus en jueves) */
+  epiphanySunday: boolean | null;
+  ascensionSunday: boolean | null;
+  corpusSunday: boolean | null;
   /** Notificaciones locales */
   notifyEnabled: boolean;
   notifyVerseTime: string; // HH:MM
@@ -25,9 +27,25 @@ export interface UserSettings {
   notifyReadingTime: string;
   notifyPrayer: boolean;
   notifyPrayerTime: string;
+  /** Notificaciones litúrgicas (generadas desde el calendario; máx. 2 al día) */
+  notifySaint: boolean;
+  notifySaintTime: string;
+  notifyCelebrations: boolean;
+  notifyCelebrationsTime: string;
+  notifySeasons: boolean;
+  notifySeasonsTime: string;
+  notifySeasonContent: boolean;
+  notifyNovenas: boolean;
+  notifyNovenasTime: string;
+  notifyRosary: boolean;
+  notifyRosaryTime: string;
   // ── Oración ──
   /** Santo Rosario: con cuentas en pantalla o con un rosario propio */
   rosaryMode: 'digital' | 'physical';
+  /** Rosario físico: mostrar la guía de qué cuenta tomar y la explicación de cómo usar el rosario */
+  rosaryPhysicalGuide: boolean;
+  /** Rosario físico: el audio de «diez Ave Marías» suena diez veces seguidas (tres en las cuentas iniciales) */
+  rosaryRepeatAves: boolean;
   rosaryReflections: boolean;
   rosaryPassages: boolean;
   /** ids de `RosaryExtra` activados (la oración de Fátima es «fatima») */
@@ -50,27 +68,41 @@ export const DEFAULT_SETTINGS: UserSettings = {
   lineHeight: 1.7,
   margin: 'normal',
   readingMode: 'chapter',
-  defaultVersion: null,
+  defaultVersion: 'BLL', // Biblia en español incluida en la app (completa); si no está, el lector usa la primera en español
   parallelVersions: [],
   showOtherLanguageBibles: false,
   dailyBible: null,
   verseMode: 'gospel',
   timeZone: null,
-  epiphanySunday: false,
-  ascensionSunday: true, // México y España la trasladan al domingo
-  corpusSunday: true, // México y España lo trasladan al domingo
+  calendar: 'mx',
+  epiphanySunday: null,
+  ascensionSunday: null,
+  corpusSunday: null,
   notifyEnabled: false,
   notifyVerseTime: '08:00',
   notifyReading: false,
   notifyReadingTime: '20:00',
   notifyPrayer: false,
   notifyPrayerTime: '07:00',
+  notifySaint: false,
+  notifySaintTime: '07:30',
+  notifyCelebrations: false,
+  notifyCelebrationsTime: '08:00',
+  notifySeasons: false,
+  notifySeasonsTime: '08:00',
+  notifySeasonContent: false,
+  notifyNovenas: false,
+  notifyNovenasTime: '09:00',
+  notifyRosary: false,
+  notifyRosaryTime: '19:00',
   rosaryMode: 'digital',
+  rosaryPhysicalGuide: true,
+  rosaryRepeatAves: false,
   rosaryReflections: true,
   rosaryPassages: true,
   rosaryExtras: ['fatima'],
   prayerVariants: {},
-  prayerVoice: null,
+  prayerVoice: 'audio.oraciones.fraile', // voz Fraile incluida en la app
   rosaryAutoplay: false,
   prayerFontScale: 1,
   prayerShowLatin: false,
@@ -79,7 +111,9 @@ export const DEFAULT_SETTINGS: UserSettings = {
 export const SETTINGS_KEY = 'bc.settings';
 
 export function mergeSettings(base: UserSettings, patch: Partial<UserSettings> | null | undefined): UserSettings {
-  return { ...base, ...(patch ?? {}) };
+  // Ajustes guardados antes de los calendarios propios: sus traslados eran los valores por defecto de entonces, no una elección; pasan a depender del calendario.
+  const legacy = patch && !('calendar' in patch) && ('epiphanySunday' in patch || 'corpusSunday' in patch || 'ascensionSunday' in patch);
+  return { ...base, ...(legacy ? { ...patch, epiphanySunday: null, ascensionSunday: null, corpusSunday: null } : (patch ?? {})) };
 }
 
 export function resolveTheme(theme: UserSettings['theme'], prefersDark: boolean): 'light' | 'dark' | 'sepia' {

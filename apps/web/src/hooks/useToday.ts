@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { liturgicalDay, type LiturgicalDay, type MassReadings } from '@bc/shared';
-import { massReadingsOf } from '@/lib/daily/mass';
+import { liturgyOptionsOf, massReadingsOf } from '@/lib/daily/mass';
 import { todayIso } from '@/lib/daily/date';
 import { useSettings } from './useSettings';
 
@@ -21,7 +21,7 @@ export function useToday(): string | null {
 export function useLiturgicalDay(iso: string | null): LiturgicalDay | null {
   const { settings: s } = useSettings();
   if (!iso) return null;
-  return liturgicalDay(iso, { epiphanySunday: s.epiphanySunday, ascensionSunday: s.ascensionSunday, corpusSunday: s.corpusSunday });
+  return liturgicalDay(iso, liturgyOptionsOf(s));
 }
 
 /** Lecturas de la Misa de la fecha (solo referencias); null si no hay datos para ese día. */

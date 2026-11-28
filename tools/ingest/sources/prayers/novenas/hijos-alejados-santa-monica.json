@@ -1,0 +1,135 @@
+{
+  "id": "hijos-alejados-santa-monica",
+  "title": "Novena por los hijos y los seres queridos alejados de la fe",
+  "group": "family",
+  "description": "Nueve días con santa Mónica para quienes rezan por un hijo o un ser querido que ha dejado la fe.",
+  "image": {
+    "icon": "family",
+    "tint": "#8a6a6a"
+  },
+  "introduction": "Santa Mónica (hacia 331-387), madre de san Agustín, es modelo de perseverancia orante. Según las *Confesiones*, rezó y lloró durante muchos años por su hijo, que vivió alejado de la fe, y vio su conversión y bautismo en 387. Murió ese mismo año en Ostia, de regreso a África. Su memoria se celebra el 27 de agosto, el día antes de la de Agustín. Es patrona de las madres y de los que rezan por sus hijos.\n\nEl Catecismo recuerda que los padres son los primeros educadores en la fe (CIC 2223) y que la oración perseverante agrada a Dios (CIC 2742-2743). No se trata de forzar la libertad de nadie, sino de sostener con amor y oración a quien Dios sigue buscando.",
+  "purpose": "Pedir la gracia de la perseverancia, la ternura y la paciencia para quien reza por un hijo, hermano, cónyuge o amigo alejado de Dios. No promete la conversión por una fórmula: Dios respeta la libertad. Sí promete que la oración nunca es inútil, porque cambia a quien reza y abre un camino a la gracia. Cuida también tu paz: no eres responsable de las decisiones del otro.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Padre bueno, que esperas siempre al que se aleja, te presento a quien amo y no vive en tu amistad. Durante estos días, con santa Mónica, quiero rezar con paciencia y esperanza. Convierte primero mi corazón. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Presentar a quien amo",
+      "reading": "Lc 7,11-15",
+      "reflection": "Jesús vio a una madre que lloraba por su hijo y se compadeció. Hoy pongo ante Él el nombre de la persona por quien rezo. Él ve lo que yo no veo.",
+      "prayer": "Señor Jesús, mira a quien amo y se ha alejado. Tú lo conoces mejor que yo. Cuídalo."
+    },
+    {
+      "day": 2,
+      "title": "La espera del padre",
+      "reading": "Lc 15,11-24",
+      "reflection": "El padre de la parábola no obliga ni deja de esperar. Aprendemos su actitud: libertad, espera y abrazo. Nada de reproches vacíos.",
+      "prayer": "Padre, dame tu manera de esperar. Que mi amor no se convierta en reproche ni en chantaje."
+    },
+    {
+      "day": 3,
+      "title": "Las lágrimas no se pierden",
+      "reading": "Sal 126,5-6",
+      "reflection": "«Los que sembraron con lágrimas cosecharán entre cantares.» Mónica lloró durante años. Dios no desperdicia lágrimas ni oraciones.",
+      "prayer": "Señor, recoge mis lágrimas y mis oraciones. Haz fecundo lo que no veo."
+    },
+    {
+      "day": 4,
+      "title": "Hablar con tacto",
+      "reading": "Ef 4,29",
+      "reflection": "«Que no salga de vuestra boca palabra dañina, sino la que edifica.» A menudo conviene hablar más con Dios del hijo que con el hijo de Dios.",
+      "prayer": "Señor, pon en mi boca palabras que construyan. Enséñame a callar y a hablar a su tiempo."
+    },
+    {
+      "day": 5,
+      "title": "Testimonio de vida",
+      "reading": "1 P 3,1-2",
+      "reflection": "La coherencia convence más que los discursos. Hoy examino si mi vida muestra la alegría de creer.",
+      "prayer": "Jesús, que mi vida hable de ti. Perdóname las incoherencias y ayúdame a mejorar."
+    },
+    {
+      "day": 6,
+      "title": "Libertad y gracia",
+      "reading": "Jn 6,44",
+      "reflection": "«Nadie puede venir a mí si el Padre no lo atrae.» La conversión es obra de Dios y de la libertad del otro. Descanso en eso: no soy yo quien convierte.",
+      "prayer": "Padre, atráelo con tu amor. Respeto su libertad y confío en tu gracia."
+    },
+    {
+      "day": 7,
+      "title": "Pedir a la comunidad",
+      "reading": "Mt 18,19-20",
+      "reflection": "«Si dos de vosotros se ponen de acuerdo para pedir, mi Padre se lo concederá.» Pido a mi comunidad, a la Virgen y a los santos que recen conmigo.",
+      "prayer": "Santa Mónica, María, Madre de Dios, rezad con nosotros. Que no desfallezca nuestra oración."
+    },
+    {
+      "day": 8,
+      "title": "Cuidar mi paz",
+      "reading": "Mt 6,34",
+      "reflection": "Cargar con el peso de otro puede desgastar. Entrego al Señor lo que no puedo resolver y cuido mi descanso, mi salud y mi propia vida de fe.",
+      "prayer": "Señor, tomo lo que me corresponde y dejo en tus manos el resto. Dame paz."
+    },
+    {
+      "day": 9,
+      "title": "Confiar hasta el final",
+      "reading": "Rm 8,28",
+      "reflection": "«Todo contribuye al bien de los que aman a Dios.» Mónica vio la conversión de su hijo y murió en paz. Termino con gratitud y confianza, sin saber cuándo ni cómo.",
+      "prayer": "Gracias, Señor. Confío a tu amor a mi ser querido. Hágase tu voluntad. Santa Mónica, ruega por nosotros."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Santa Mónica, madre perseverante, ruega por nosotros y por nuestros seres queridos. Alcánzanos paciencia, ternura y esperanza; y que Dios, que nunca se cansa, los guíe de nuevo a casa. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "San Agustín, Confesiones, libros III, V, VI, IX"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 2223 y 2742-2743"
+    }
+  ],
+  "tags": [
+    "hijos",
+    "santa Mónica",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 8,
+    "day": 27,
+    "label": "Memoria de santa Mónica"
+  },
+  "saints": [
+    "monica-de-hipona"
+  ]
+}

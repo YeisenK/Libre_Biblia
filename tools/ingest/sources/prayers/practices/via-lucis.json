@@ -1,0 +1,143 @@
+{
+ "id": "via-lucis",
+ "kind": "stations",
+ "title": "Vía Lucis",
+ "group": "Camino",
+ "description": "El camino de la luz: catorce estaciones desde la Resurrección hasta Pentecostés, con meditaciones propias.",
+ "nature": "popular_piety",
+ "attribution": "Composición de Lux: las meditaciones son propias. La lista de estaciones es la tradicional; las lecturas se toman de la Biblia instalada por referencia.",
+ "rubric": "Piedad popular, especialmente en el tiempo pascual. No existe un texto oficial único; las estaciones siguen una forma extendida.",
+ "sources": [
+  {
+   "label": "Vía Lucis: forma de 14 estaciones (Catholic.net)",
+   "url": "https://es.catholic.net/op/articulos/15609/via-lucis.html"
+  },
+  {
+   "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+   "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+  },
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  }
+ ],
+ "minutes": 30,
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "prayer",
+   "title": "Ven, Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "introduccion",
+   "kind": "text",
+   "title": "Cómo hacerlo",
+   "text": "La Vía Lucis recorre catorce momentos entre la Resurrección y Pentecostés. Es un ejercicio de piedad popular reciente (impulsado por el salesiano Sabino Palumbieri) que el Directorio sobre la piedad popular (2001) menciona entre las prácticas que ayudan a vivir la Pascua. **No existe una lista oficial única**: aquí seguimos una forma extendida. En cada estación: **V.** Aleluya, ¡Cristo ha resucitado! **R.** ¡Verdaderamente ha resucitado!"
+  },
+  {
+   "id": "e01",
+   "kind": "station",
+   "title": "1.ª estación: ¡Cristo vive: ha resucitado!",
+   "reading": "Mt 28,1-7",
+   "text": "El sepulcro está abierto y el ángel anuncia lo que cambia la historia. La resurrección es el fundamento de nuestra fe (cf. 1 Co 15,14).\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e02",
+   "kind": "station",
+   "title": "2.ª estación: El encuentro con María Magdalena",
+   "reading": "Jn 20,10-18",
+   "text": "«¡María!» Basta que el Resucitado la llame por su nombre para que lo reconozca. Cristo nos conoce y nos llama personalmente.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e03",
+   "kind": "station",
+   "title": "3.ª estación: Jesús se aparece a las mujeres",
+   "reading": "Mt 28,8-10",
+   "text": "Con miedo y con gran alegría corren a anunciarlo. El primer anuncio pascual lo hacen quienes no tenían voz pública.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e04",
+   "kind": "station",
+   "title": "4.ª estación: Los soldados custodian el sepulcro de Cristo",
+   "reading": "Mt 28,11-15",
+   "text": "Ante el sepulcro vacío, algunos prefieren comprar el silencio. La verdad de la Resurrección no se puede callar con dinero.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e05",
+   "kind": "station",
+   "title": "5.ª estación: Pedro y Juan contemplan el sepulcro vacío",
+   "reading": "Jn 20,3-10",
+   "text": "Ven los lienzos en el suelo. El discípulo amado «vio y creyó». Creer es dejarse conducir más allá de lo que se ve.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e06",
+   "kind": "station",
+   "title": "6.ª estación: Jesús en el cenáculo muestra sus llagas a los apóstoles",
+   "reading": "Lc 24,36-43",
+   "text": "«La paz esté con ustedes.» Muestra las llagas: el cuerpo glorioso conserva las marcas de su amor.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e07",
+   "kind": "station",
+   "title": "7.ª estación: En el camino de Emaús",
+   "reading": "Lc 24,13-32",
+   "text": "Dos discípulos caminan tristes y no lo reconocen. Su corazón arde cuando explica las Escrituras y lo conocen al partir el pan.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e08",
+   "kind": "station",
+   "title": "8.ª estación: Jesús da a los apóstoles el poder de perdonar los pecados",
+   "reading": "Jn 20,19-23",
+   "text": "«A quienes perdonen los pecados, les quedan perdonados.» De la Pascua nace el sacramento de la Reconciliación.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e09",
+   "kind": "station",
+   "title": "9.ª estación: Jesús fortalece la fe de Tomás",
+   "reading": "Jn 20,26-29",
+   "text": "«Señor mío y Dios mío.» Jesús no reprocha la duda de Tomás: le muestra las llagas y lo conduce a la fe.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e10",
+   "kind": "station",
+   "title": "10.ª estación: Jesús resucitado en el lago de Galilea",
+   "reading": "Jn 21,1-6",
+   "text": "Los discípulos han pescado toda la noche sin éxito. Al amanecer, Jesús está en la orilla y su palabra hace fecundo el trabajo.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e11",
+   "kind": "station",
+   "title": "11.ª estación: Jesús confirma a Pedro en el amor",
+   "reading": "Jn 21,15-19",
+   "text": "«¿Me amas?» Tres veces para sanar tres negaciones. Jesús confía su rebaño a quien se reconoce débil.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e12",
+   "kind": "station",
+   "title": "12.ª estación: La despedida: Jesús encarga su misión a los apóstoles",
+   "reading": "Mt 28,16-20",
+   "text": "«Yo estoy con ustedes todos los días.» La misión no se hace en soledad: el Señor acompaña a su Iglesia.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e13",
+   "kind": "station",
+   "title": "13.ª estación: Jesús asciende al cielo",
+   "reading": "Hch 1,9-11",
+   "text": "Los apóstoles miran al cielo y los ángeles los vuelven a la tierra. Cristo no se aleja: se hace presente de otra manera.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "e14",
+   "kind": "station",
+   "title": "14.ª estación: La venida del Espíritu Santo en Pentecostés",
+   "reading": "Hch 2,1-4",
+   "text": "Viento, fuego y lenguas. El Espíritu hace nacer a la Iglesia y da valentía para anunciar a Cristo.\n\n*Gloria al Padre, al Hijo y al Espíritu Santo.*"
+  },
+  {
+   "id": "final",
+   "kind": "prayer",
+   "title": "Gloria",
+   "prayer": "gloria"
+  }
+ ]
+}

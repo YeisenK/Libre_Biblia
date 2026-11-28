@@ -1,0 +1,130 @@
+{
+  "id": "fortaleza-momentos-dificiles",
+  "title": "Novena de fortaleza en los momentos difíciles",
+  "group": "health",
+  "description": "Para atravesar una prueba con firmeza, apoyándose en la gracia y en la comunidad.",
+  "image": {
+    "icon": "shield",
+    "tint": "#4f5f7a"
+  },
+  "introduction": "La Escritura enseña que la fortaleza es don del Espíritu Santo (Is 11,2) y virtud cardinal (CIC 1808, 1831). Los mártires y los santos no fueron invulnerables: fueron sostenidos. La fortaleza cristiana no es dureza, sino capacidad de seguir en el bien en medio de la dificultad.",
+  "purpose": "Pedir resistencia, claridad y esperanza ante una prueba (pérdida, enfermedad, crisis, injusticia). No promete que la prueba termine rápido; pide la fuerza para atravesarla. Si la situación es de peligro o de riesgo para tu salud, busca ayuda concreta de inmediato.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, mi fuerza es poca. Sostenme con tu Espíritu. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "No tengo fuerzas",
+      "reading": "Is 40,29-31",
+      "reflection": "Él da fuerzas al cansado y acrecienta el vigor del débil. Los que esperan en el Señor renuevan sus fuerzas. Reconozco mi límite.",
+      "prayer": "Señor, doy lo que tengo; dame tú lo que me falta."
+    },
+    {
+      "day": 2,
+      "title": "Dios es mi roca",
+      "reading": "Sal 18,2-3",
+      "reflection": "El Señor es mi roca, mi fortaleza y mi libertador. Apoyarme en él no es evadirme, sino enraizarme.",
+      "prayer": "Dios mío, sé mi roca."
+    },
+    {
+      "day": 3,
+      "title": "No temas",
+      "reading": "Jos 1,9",
+      "reflection": "«Sé fuerte y valiente, que el Señor tu Dios estará contigo dondequiera que vayas.» El valor no es ausencia de miedo, sino avanzar con él.",
+      "prayer": "Señor, conviérteme el miedo en valentía."
+    },
+    {
+      "day": 4,
+      "title": "La armadura de Dios",
+      "reading": "Ef 6,10-13",
+      "reflection": "Fortaleceos en el Señor. La lucha espiritual se afronta con verdad, justicia, paz, fe y la Palabra. Pido protección contra el desánimo.",
+      "prayer": "San Miguel, defiéndenos en la lucha."
+    },
+    {
+      "day": 5,
+      "title": "Fuerza en la debilidad",
+      "reading": "2 Co 12,9-10",
+      "reflection": "«Mi gracia te basta; mi poder se realiza en la debilidad.» Se puede ser fuerte llorando, descansando y pidiendo ayuda.",
+      "prayer": "Jesús, que tu poder se muestre en mi flaqueza."
+    },
+    {
+      "day": 6,
+      "title": "La comunidad que sostiene",
+      "reading": "Ex 17,11-13",
+      "reflection": "Aarón y Jur sostienen los brazos de Moisés. Pido y acepto el apoyo de familiares, amigos y comunidad.",
+      "prayer": "Señor, no me dejes solo y hazme apoyo de otros."
+    },
+    {
+      "day": 7,
+      "title": "Perseverar en la oración",
+      "reading": "Lc 18,1-5",
+      "reflection": "Orar siempre sin desfallecer. Si no puedo mucho, una palabra basta: «Jesús, ayúdame».",
+      "prayer": "Señor, que no deje de orar."
+    },
+    {
+      "day": 8,
+      "title": "La cruz y la resurrección",
+      "reading": "Jn 16,33",
+      "reflection": "«En el mundo tendréis tribulación; pero confiad: yo he vencido al mundo.» La prueba no es la última palabra.",
+      "prayer": "Cristo resucitado, sé mi victoria."
+    },
+    {
+      "day": 9,
+      "title": "Gratitud y confianza",
+      "reading": "Rm 8,37-39",
+      "reflection": "Nada podrá separarnos del amor de Dios en Cristo. Termino dando gracias por haber llegado hasta aquí.",
+      "prayer": "Señor, gracias por sostenerme. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios mío, tú que estás conmigo en la prueba, dame fortaleza hasta el final y gratitud cuando pase. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-miguel-arcangel"
+  ],
+  "tags": [
+    "fortaleza momentos dificiles",
+    "novena",
+    "composición de Lux"
+  ]
+}

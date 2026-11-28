@@ -50,10 +50,19 @@ function lines(nodes: Inline[]): Inline[][] {
   return out;
 }
 
-function Line({ line }: { line: Inline[] }) {
+function Line({ line, group }: { line: Inline[]; group?: boolean }) {
   const m = splitMarker(line);
   if (!m) return <span className="block">{inline(line)}</span>;
   const resp = m.who === 'R';
+  if (group) {
+    // Modo grupo: la guía lee la parte V. y todos responden la parte R. (más destacada)
+    return (
+      <span className={`my-1 flex items-baseline gap-3 rounded-xl px-3 py-1.5 ${resp ? 'bg-accent/10 font-semibold' : 'bg-sunken'}`} data-part={resp ? 'todos' : 'guia'}>
+        <span className="w-12 shrink-0 font-sans text-[0.6em] font-bold uppercase tracking-wide text-accent">{resp ? 'Todos' : 'Guía'}</span>
+        <span className="min-w-0">{inline(m.rest)}</span>
+      </span>
+    );
+  }
   return (
     <span className={`flex gap-3 ${resp ? 'ml-3 border-l-2 border-accent/60 pl-3 font-medium' : ''}`}>
       <span className="mt-[0.35em] w-5 shrink-0 font-sans text-[0.62em] font-semibold text-accent" aria-label={resp ? 'Respuesta' : 'Versículo'}>{m.who}.</span>
@@ -62,13 +71,13 @@ function Line({ line }: { line: Inline[] }) {
   );
 }
 
-function block(b: Block, i: number): ReactNode {
+function block(b: Block, i: number, group?: boolean): ReactNode {
   switch (b.t) {
     case 'p': {
       const ls = lines(b.c);
       return (
         <p key={i} className="mb-4">
-          {ls.map((l, k) => <Line key={k} line={l} />)}
+          {ls.map((l, k) => <Line key={k} line={l} group={group} />)}
         </p>
       );
     }
@@ -77,7 +86,7 @@ function block(b: Block, i: number): ReactNode {
     case 'hr':
       return <hr key={i} className="my-6 border-line" />;
     case 'quote':
-      return <blockquote key={i} className="mb-4 border-l-2 border-accent/60 pl-4 italic">{b.c.map(block)}</blockquote>;
+      return <blockquote key={i} className="mb-4 border-l-2 border-accent/60 pl-4 italic">{b.c.map((x, k) => block(x, k, group))}</blockquote>;
     case 'ul':
       return <ul key={i} className="mb-4 list-disc pl-6">{b.items.map((it, k) => <li key={k}>{inline(it)}</li>)}</ul>;
     case 'ol':
@@ -85,6 +94,6 @@ function block(b: Block, i: number): ReactNode {
   }
 }
 
-export function PrayerText({ text, className = '' }: { text: string; className?: string }) {
-  return <div className={`prayer-text ${className}`}>{parseMarkdown(text).map(block)}</div>;
+export function PrayerText({ text, className = '', group = false }: { text: string; className?: string; group?: boolean }) {
+  return <div className={`prayer-text ${className}`}>{parseMarkdown(text).map((b, i) => block(b, i, group))}</div>;
 }

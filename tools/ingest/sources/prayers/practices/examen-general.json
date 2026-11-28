@@ -1,0 +1,124 @@
+{
+ "id": "examen-general",
+ "kind": "examen",
+ "title": "Preparación general",
+ "description": "Un examen breve y claro, en tres relaciones (Dios, prójimo y yo), para quien se confiesa con regularidad.",
+ "group": "Para empezar",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 10,
+ "ccc": [
+  "1454",
+  "1853-1861"
+ ],
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "text",
+   "title": "Antes de empezar",
+   "text": "Ponte en presencia de Dios, que no te examina para condenarte sino para sanarte. Lee las preguntas despacio y quédate solo con las que te hablen. Marcar una pregunta no significa que sea pecado grave: es una ayuda para recordar. Si dudas de la gravedad de algo, díselo con sencillez al sacerdote: él te ayudará.\n\n**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "g1",
+   "kind": "questions",
+   "title": "Mi relación con Dios",
+   "questions": [
+    {
+     "text": "¿Mantengo vida de oración? ¿He dejado a Dios en un rincón?"
+    },
+    {
+     "text": "¿Voy a Misa los domingos y fiestas de precepto?"
+    },
+    {
+     "text": "¿He faltado a la fe por palabra o por omisión?"
+    },
+    {
+     "text": "¿He tratado con respeto lo sagrado y el nombre de Dios?"
+    }
+   ],
+   "ccc": "2083-2141",
+   "reading": "Mc 12,30"
+  },
+  {
+   "id": "g2",
+   "kind": "questions",
+   "title": "Mi relación con el prójimo",
+   "questions": [
+    {
+     "text": "¿Hay personas a las que he hecho daño con palabras, omisiones o actos?"
+    },
+    {
+     "text": "¿He guardado rencor o me he negado a perdonar?"
+    },
+    {
+     "text": "¿He sido justo con lo ajeno y veraz en lo que digo?"
+    },
+    {
+     "text": "¿He cumplido mis deberes con mi familia, trabajo o estudios?"
+    }
+   ],
+   "ccc": "2196-2557",
+   "reading": "Mc 12,31"
+  },
+  {
+   "id": "g3",
+   "kind": "questions",
+   "title": "Mi relación conmigo mismo",
+   "questions": [
+    {
+     "text": "¿Cuido mi cuerpo y mi vida como don de Dios?"
+    },
+    {
+     "text": "¿Vivo la castidad propia de mi estado?"
+    },
+    {
+     "text": "¿Me domino en comida, bebida, pantallas y descanso?"
+    },
+    {
+     "text": "¿Dejo que la soberbia, la ira, la envidia o la pereza gobiernen mis decisiones?"
+    }
+   ],
+   "ccc": "1776-1802"
+  },
+  {
+   "id": "g4",
+   "kind": "questions",
+   "title": "Omisiones: el bien que no he hecho",
+   "questions": [
+    {
+     "text": "¿Qué bien podía haber hecho y dejé pasar?"
+    },
+    {
+     "text": "¿Dónde he sido indiferente ante alguien que me necesitaba?"
+    },
+    {
+     "text": "¿Qué talentos he enterrado por miedo o pereza?"
+    }
+   ],
+   "ccc": "1853",
+   "reading": "Mt 25,31-46"
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

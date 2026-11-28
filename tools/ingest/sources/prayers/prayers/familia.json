@@ -45,7 +45,8 @@
     "id": "oracion-por-los-esposos",
     "title": "Por los esposos",
     "categories": [
-      "familia"
+      "familia",
+      "relaciones"
     ],
     "moments": [
       "any"
@@ -66,7 +67,8 @@
     "id": "oracion-por-los-hijos",
     "title": "Por los hijos",
     "categories": [
-      "familia"
+      "familia",
+      "relaciones"
     ],
     "moments": [
       "any"
@@ -90,7 +92,9 @@
     "title": "Por el trabajo y los estudios",
     "categories": [
       "familia",
-      "manana"
+      "manana",
+      "trabajo",
+      "escuela"
     ],
     "moments": [
       "morning"
@@ -107,14 +111,18 @@
         "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "san-jose"
+    ]
   },
   {
     "id": "oracion-antes-de-viajar",
     "title": "Antes de viajar",
     "categories": [
       "familia",
-      "proteccion"
+      "proteccion",
+      "circunstancias"
     ],
     "moments": [
       "any"
@@ -134,7 +142,8 @@
     "categories": [
       "familia",
       "proteccion",
-      "momentos-dificiles"
+      "momentos-dificiles",
+      "circunstancias"
     ],
     "moments": [
       "any"

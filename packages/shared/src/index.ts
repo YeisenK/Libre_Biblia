@@ -6,3 +6,6 @@ export * from './liturgy';
 export * from './versification';
 export * from './lectionary';
 export * from './prayers';
+export * from './saints';
+export * from './formation';
+export * from './hours';

@@ -1,4 +1,4 @@
-# Lista de publicación en Google Play (Libre Biblia)
+# Lista de publicación en Google Play (Lux)
 
 Identificador: `io.github.yeisenk.librebiblia` · Versión inicial: 1 (0.1.0) · Idioma por defecto: español (Latinoamérica, `es-419`).
 
@@ -15,7 +15,7 @@ Identificador: `io.github.yeisenk.librebiblia` · Versión inicial: 1 (0.1.0) ·
    Salida: `apps/mobile/dist/app-release.aab` (a Play) y `app-release.apk` (pruebas). Comprueba: `jarsigner -verify apps/mobile/dist/app-release.aab`.
 
 ## 1. Crear la app (Play Console > Crear app)
-- Nombre: **Libre Biblia** · Idioma predeterminado: Español (Latinoamérica) – es-419 · Aplicación · Gratuita.
+- Nombre: **Lux** · Idioma predeterminado: Español (Latinoamérica) – es-419 · Aplicación · Gratuita.
 - Declara las políticas del desarrollador y las leyes de exportación de EE. UU.
 
 ## 2. Ficha de Play Store (Crecimiento > Presencia en Play Store > Ficha de Play Store principal)

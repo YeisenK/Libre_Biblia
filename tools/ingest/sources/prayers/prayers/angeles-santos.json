@@ -36,7 +36,10 @@
         "url": "https://www.vaticannews.va/es/santos/09/29/s--miguel--arcangel.html"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "san-miguel-arcangel"
+    ]
   },
   {
     "id": "san-gabriel-arcangel",
@@ -62,7 +65,10 @@
         "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "san-gabriel-arcangel"
+    ]
   },
   {
     "id": "san-rafael-arcangel",
@@ -89,7 +95,10 @@
         "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "san-rafael-arcangel"
+    ]
   },
   {
     "id": "san-jose",
@@ -116,7 +125,10 @@
         "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "san-jose"
+    ]
   },
   {
     "id": "san-jose-buena-muerte",
@@ -140,7 +152,10 @@
         "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "san-jose"
+    ]
   },
   {
     "id": "san-benito",
@@ -159,6 +174,9 @@
         "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "benito-de-nursia"
+    ]
   }
 ]

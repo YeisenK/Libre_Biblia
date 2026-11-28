@@ -4,6 +4,8 @@ import { useEffect, useState, type ReactNode } from 'react';
 import { SettingsProvider } from '@/hooks/useSettings';
 import { NotificationSync } from '@/components/NotificationSync';
 import { BundledPrayersBootstrap } from '@/hooks/usePrayers';
+import { BundledPacksBootstrap } from '@/hooks/useBundled';
+import { Welcome } from '@/components/onboarding/Welcome';
 import { initNative } from '@/lib/native/init';
 import { isNative } from '@/lib/native/platform';
 
@@ -31,7 +33,9 @@ export function Providers({ children }: { children: ReactNode }) {
       <SettingsProvider>
         <NotificationSync />
         <BundledPrayersBootstrap />
+        <BundledPacksBootstrap />
         {children}
+        <Welcome />
       </SettingsProvider>
     </QueryClientProvider>
   );

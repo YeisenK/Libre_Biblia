@@ -1,0 +1,392 @@
+[
+ {
+  "id": "nicea-i",
+  "n": 1,
+  "name": "I de Nicea",
+  "years": "325",
+  "place": "Nicea (Bitinia)",
+  "popes": "Silvestre I (papa); convocado por el emperador Constantino",
+  "themes": [
+   "Arrianismo",
+   "divinidad del Hijo",
+   "fecha de la Pascua"
+  ],
+  "documents": [
+   "Símbolo de Nicea («consustancial al Padre»)",
+   "20 cánones"
+  ],
+  "context": "Primer concilio ecuménico. Ante la difusión del arrianismo, que negaba la plena divinidad del Hijo, los obispos confesaron que el Hijo es de la misma naturaleza que el Padre y trataron la fecha de la Pascua y cuestiones disciplinares.",
+  "url": "https://es.wikipedia.org/wiki/Primer_Concilio_de_Nicea",
+  "urlOfficial": false
+ },
+ {
+  "id": "constantinopla-i",
+  "n": 2,
+  "name": "I de Constantinopla",
+  "years": "381",
+  "place": "Constantinopla",
+  "popes": "Dámaso I (papa); emperador Teodosio I",
+  "themes": [
+   "Divinidad del Espíritu Santo",
+   "arrianismo"
+  ],
+  "documents": [
+   "Símbolo niceno-constantinopolitano",
+   "cánones"
+  ],
+  "context": "Completó la profesión de fe de Nicea con la doctrina sobre el Espíritu Santo; el texto que resulta es el Credo que se reza en la Misa. La recepción en Occidente de sus cánones fue gradual.",
+  "url": "https://es.wikipedia.org/wiki/Primer_Concilio_de_Constantinopla",
+  "urlOfficial": false
+ },
+ {
+  "id": "efeso",
+  "n": 3,
+  "name": "de Éfeso",
+  "years": "431",
+  "place": "Éfeso",
+  "popes": "Celestino I",
+  "themes": [
+   "Nestorianismo",
+   "unidad de Cristo",
+   "Theotokos"
+  ],
+  "documents": [
+   "Condena de Nestorio",
+   "cartas de san Cirilo de Alejandría",
+   "cánones"
+  ],
+  "context": "Declaró que María es Madre de Dios (Theotokos) porque el Hijo de Dios, una sola persona, nació de ella como hombre; condenó la doctrina de Nestorio.",
+  "url": "https://es.wikipedia.org/wiki/Concilio_de_Éfeso",
+  "urlOfficial": false
+ },
+ {
+  "id": "calcedonia",
+  "n": 4,
+  "name": "de Calcedonia",
+  "years": "451",
+  "place": "Calcedonia",
+  "popes": "León I (el Magno)",
+  "themes": [
+   "Dos naturalezas de Cristo",
+   "monofisismo"
+  ],
+  "documents": [
+   "Definición de fe de Calcedonia",
+   " Tomus ad Flavianum de León Magno"
+  ],
+  "context": "Definió que Cristo es una sola persona en dos naturalezas, divina y humana, sin confusión, sin cambio, sin división y sin separación. Es piedra de toque de la cristología.",
+  "url": "https://es.wikipedia.org/wiki/Concilio_de_Calcedonia",
+  "urlOfficial": false
+ },
+ {
+  "id": "constantinopla-ii",
+  "n": 5,
+  "name": "II de Constantinopla",
+  "years": "553",
+  "place": "Constantinopla",
+  "popes": "Vigilio (papa); emperador Justiniano",
+  "themes": [
+   "Tres Capítulos",
+   "interpretación de Calcedonia"
+  ],
+  "documents": [
+   "Anatematismos"
+  ],
+  "context": "Buscó reconciliar a los monofisitas condenando los llamados Tres Capítulos y fijando una lectura de Calcedonia en continuidad con Cirilo.",
+  "url": "https://es.wikipedia.org/wiki/Segundo_Concilio_de_Constantinopla",
+  "urlOfficial": false
+ },
+ {
+  "id": "constantinopla-iii",
+  "n": 6,
+  "name": "III de Constantinopla",
+  "years": "680-681",
+  "place": "Constantinopla",
+  "popes": "Agatón y León II",
+  "themes": [
+   "Monotelismo",
+   "dos voluntades en Cristo"
+  ],
+  "documents": [
+   "Definición de las dos voluntades y operaciones de Cristo"
+  ],
+  "context": "Condenó el monotelismo: Cristo tiene dos voluntades y dos operaciones, divina y humana, sin oposición entre ellas.",
+  "url": "https://es.wikipedia.org/wiki/Tercer_Concilio_de_Constantinopla",
+  "urlOfficial": false
+ },
+ {
+  "id": "nicea-ii",
+  "n": 7,
+  "name": "II de Nicea",
+  "years": "787",
+  "place": "Nicea",
+  "popes": "Adriano I",
+  "themes": [
+   "Iconoclasia",
+   "veneración de las imágenes"
+  ],
+  "documents": [
+   "Definición sobre las imágenes"
+  ],
+  "context": "Definió la legitimidad de la veneración (no adoración) de las imágenes sagradas, distinguiendo la veneración de la adoración debida solo a Dios.",
+  "url": "https://es.wikipedia.org/wiki/Segundo_Concilio_de_Nicea",
+  "urlOfficial": false
+ },
+ {
+  "id": "constantinopla-iv",
+  "n": 8,
+  "name": "IV de Constantinopla",
+  "years": "869-870",
+  "place": "Constantinopla",
+  "popes": "Adriano II",
+  "themes": [
+   "Cisma de Focio"
+  ],
+  "documents": [
+   "Cánones"
+  ],
+  "context": "Concilio sobre la deposición de Focio del patriarcado de Constantinopla; la Iglesia católica lo cuenta como el octavo ecuménico, no las Iglesias ortodoxas.",
+  "url": "https://es.wikipedia.org/wiki/Cuarto_Concilio_de_Constantinopla",
+  "urlOfficial": false
+ },
+ {
+  "id": "letran-i",
+  "n": 9,
+  "name": "I de Letrán",
+  "years": "1123",
+  "place": "Roma (Letrán)",
+  "popes": "Calixto II",
+  "themes": [
+   "Simonía",
+   "investiduras",
+   "celibato del clero"
+  ],
+  "documents": [
+   "Cánones"
+  ],
+  "context": "Primer concilio ecuménico celebrado en Occidente, tras el Concordato de Worms; confirmó la disciplina contra la simonía y la reforma gregoriana.",
+  "url": "https://es.wikipedia.org/wiki/Primer_Concilio_de_Letrán",
+  "urlOfficial": false
+ },
+ {
+  "id": "letran-ii",
+  "n": 10,
+  "name": "II de Letrán",
+  "years": "1139",
+  "place": "Roma (Letrán)",
+  "popes": "Inocencio II",
+  "themes": [
+   "Fin del cisma de Anacleto II",
+   "disciplina del clero"
+  ],
+  "documents": [
+   "Cánones"
+  ],
+  "context": "Puso fin al cisma provocado por el antipapa Anacleto II y renovó las normas de disciplina eclesiástica.",
+  "url": "https://es.wikipedia.org/wiki/Segundo_Concilio_de_Letrán",
+  "urlOfficial": false
+ },
+ {
+  "id": "letran-iii",
+  "n": 11,
+  "name": "III de Letrán",
+  "years": "1179",
+  "place": "Roma (Letrán)",
+  "popes": "Alejandro III",
+  "themes": [
+   "Elección del papa",
+   "herejías"
+  ],
+  "documents": [
+   "Decreto sobre la elección papal por dos tercios de los cardenales",
+   " cánones"
+  ],
+  "context": "Fijó la mayoría de dos tercios de los cardenales para elegir al papa y trató de la reforma del clero y de movimientos heréticos.",
+  "url": "https://es.wikipedia.org/wiki/Tercer_Concilio_de_Letrán",
+  "urlOfficial": false
+ },
+ {
+  "id": "letran-iv",
+  "n": 12,
+  "name": "IV de Letrán",
+  "years": "1215",
+  "place": "Roma (Letrán)",
+  "popes": "Inocencio III",
+  "themes": [
+   "Profesión de fe",
+   "confesión anual",
+   "transubstanciación"
+  ],
+  "documents": [
+   "Constituciones (confesión y comunión anual)"
+  ],
+  "context": "Gran concilio de reforma: profesión de fe contra los cátaros, obligación de confesar y comulgar al menos una vez al año y uso del término «transubstanciación».",
+  "url": "https://es.wikipedia.org/wiki/Cuarto_Concilio_de_Letrán",
+  "urlOfficial": false
+ },
+ {
+  "id": "lyon-i",
+  "n": 13,
+  "name": "I de Lyon",
+  "years": "1245",
+  "place": "Lyon",
+  "popes": "Inocencio IV",
+  "themes": [
+   "Conflicto con Federico II",
+   "cruzada"
+  ],
+  "documents": [
+   "Cánones"
+  ],
+  "context": "Concilio marcado por el conflicto entre el papado y el emperador Federico II.",
+  "url": "https://es.wikipedia.org/wiki/Primer_Concilio_de_Lyon",
+  "urlOfficial": false
+ },
+ {
+  "id": "lyon-ii",
+  "n": 14,
+  "name": "II de Lyon",
+  "years": "1274",
+  "place": "Lyon",
+  "popes": "Gregorio X",
+  "themes": [
+   "Unión con los griegos",
+   "elección papal"
+  ],
+  "documents": [
+   "Constitución sobre el cónclave"
+  ],
+  "context": "Buscó la unión con los griegos, que no se mantuvo, y reguló el cónclave para la elección papal.",
+  "url": "https://es.wikipedia.org/wiki/Segundo_Concilio_de_Lyon",
+  "urlOfficial": false
+ },
+ {
+  "id": "vienne",
+  "n": 15,
+  "name": "de Vienne",
+  "years": "1311-1312",
+  "place": "Vienne (Francia)",
+  "popes": "Clemente V",
+  "themes": [
+   "Orden del Temple",
+   "reforma"
+  ],
+  "documents": [
+   "Constituciones"
+  ],
+  "context": "Se ocupó de la supresión de la Orden del Temple y de cuestiones de reforma.",
+  "url": "https://es.wikipedia.org/wiki/Concilio_de_Vienne",
+  "urlOfficial": false
+ },
+ {
+  "id": "constanza",
+  "n": 16,
+  "name": "de Constanza",
+  "years": "1414-1418",
+  "place": "Constanza",
+  "popes": "Gregorio XII; Martín V",
+  "themes": [
+   "Cisma de Occidente",
+   "conciliarismo"
+  ],
+  "documents": [
+   "Decretos Haec sancta y Frequens",
+   " condena de Wyclif y Hus"
+  ],
+  "context": "Puso fin al Cisma de Occidente. Su validez como ecuménico depende de la convocatoria de Gregorio XII y de Martín V.",
+  "url": "https://es.wikipedia.org/wiki/Concilio_de_Constanza",
+  "urlOfficial": false
+ },
+ {
+  "id": "florencia",
+  "n": 17,
+  "name": "de Basilea-Ferrara-Florencia",
+  "years": "1431-1445",
+  "place": "Basilea, Ferrara, Florencia",
+  "popes": "Eugenio IV",
+  "themes": [
+   "Unión con los griegos"
+  ],
+  "documents": [
+   "Decreto de unión Laetentur caeli (1439)"
+  ],
+  "context": "Proclamó brevemente la unión con los griegos, armenios y otros, que no perduró.",
+  "url": "https://es.wikipedia.org/wiki/Concilio_de_Basilea-Ferrara-Florencia",
+  "urlOfficial": false
+ },
+ {
+  "id": "letran-v",
+  "n": 18,
+  "name": "V de Letrán",
+  "years": "1512-1517",
+  "place": "Roma (Letrán)",
+  "popes": "Julio II; León X",
+  "themes": [
+   "Reforma",
+   "inmortalidad del alma"
+  ],
+  "documents": [
+   "Bulas"
+  ],
+  "context": "Último concilio antes de la Reforma protestante; no logró la reforma pretendida.",
+  "url": "https://es.wikipedia.org/wiki/Quinto_Concilio_de_Letrán",
+  "urlOfficial": false
+ },
+ {
+  "id": "trento",
+  "n": 19,
+  "name": "de Trento",
+  "years": "1545-1563",
+  "place": "Trento",
+  "popes": "Paulo III; Julio III; Pío IV",
+  "themes": [
+   "Reforma católica",
+   "justificación",
+   "sacramentos",
+   "canon bíblico"
+  ],
+  "documents": [
+   "Decretos sobre la Escritura, el pecado original, la justificación, los sacramentos y los seminarios"
+  ],
+  "context": "Respuesta a la Reforma protestante: definió el canon de la Escritura, la justificación, los sacramentos y creó los seminarios.",
+  "url": "https://es.wikipedia.org/wiki/Concilio_de_Trento",
+  "urlOfficial": false
+ },
+ {
+  "id": "vaticano-i",
+  "n": 20,
+  "name": "Vaticano I",
+  "years": "1869-1870",
+  "place": "Roma (Vaticano)",
+  "popes": "Pío IX",
+  "themes": [
+   "Fe y razón",
+   "primado e infalibilidad"
+  ],
+  "documents": [
+   "Constituciones Dei Filius y Pastor aeternus"
+  ],
+  "context": "Definió la relación entre fe y razón y el primado y la infalibilidad del Romano Pontífice; quedó interrumpido por la guerra franco-prusiana.",
+  "url": "https://www.vatican.va/archive/hist_councils/i-vatican-council/index_sp.htm",
+  "urlOfficial": true
+ },
+ {
+  "id": "vaticano-ii",
+  "n": 21,
+  "name": "Vaticano II",
+  "years": "1962-1965",
+  "place": "Roma (Vaticano)",
+  "popes": "Juan XXIII; Pablo VI",
+  "themes": [
+   "Renovación de la Iglesia",
+   "liturgia",
+   "diálogo"
+  ],
+  "documents": [
+   "16 documentos: 4 constituciones, 9 decretos y 3 declaraciones"
+  ],
+  "context": "Concilio pastoral que renovó la liturgia, la eclesiología, la relación con el mundo y el ecumenismo.",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/index_sp.htm",
+  "urlOfficial": true
+ }
+]

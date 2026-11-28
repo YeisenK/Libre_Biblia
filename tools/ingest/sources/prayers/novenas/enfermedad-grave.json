@@ -1,0 +1,127 @@
+{
+  "id": "enfermedad-grave",
+  "title": "Novena por una persona gravemente enferma",
+  "group": "health",
+  "description": "Para pedir por la recuperación de una persona gravemente enferma, acompañar a la familia y aceptar la voluntad de Dios.",
+  "image": {
+    "icon": "candle",
+    "tint": "#5b7a8a"
+  },
+  "introduction": "La Iglesia reza por los enfermos y les ofrece la Unción (Sant 5,14-15; CIC 1499-1532). Pedir la curación es legítimo y bueno, y Jesús mismo curó a muchos; también es parte de la fe confiar en que Dios acompaña cuando la curación no llega. Esta novena es distinta de la dedicada a quien sufre en primera persona.",
+  "purpose": "Orar por un enfermo grave, por quienes lo cuidan y por los médicos. No promete la curación ni la presenta como consecuencia de rezar más o mejor. Si el enfermo lo desea, se le puede ofrecer la visita del sacerdote y la Unción.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor Jesús, tú que curaste a los enfermos, mira a quien amo y se encuentra grave. Te lo encomiendo. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Ponerlo en manos de Dios",
+      "reading": "Mc 1,40-41",
+      "reflection": "El leproso se acerca con confianza y Jesús se conmueve. Presento ante Jesús el nombre de la persona enferma.",
+      "prayer": "Jesús, aquí está mi ser querido. Míralo con ternura."
+    },
+    {
+      "day": 2,
+      "title": "Amigos que lo llevan",
+      "reading": "Mc 2,3-5",
+      "reflection": "Cuatro hombres llevan al paralítico. Rezar por un enfermo es llevarlo ante Jesús. Mi oración es colaboración.",
+      "prayer": "Señor, que mi oración sea camilla que lo sostenga."
+    },
+    {
+      "day": 3,
+      "title": "Los que cuidan",
+      "reading": "Mt 25,35-36",
+      "reflection": "«Estuve enfermo y me visitasteis.» Pido por familiares, enfermeras, médicos y cuidadores.",
+      "prayer": "Dios mío, cuida a los que cuidan."
+    },
+    {
+      "day": 4,
+      "title": "El centurión",
+      "reading": "Mt 8,5-10",
+      "reflection": "«Di una sola palabra y mi criado quedará sano.» Es la oración de la confianza humilde.",
+      "prayer": "Señor, no soy digno, pero confío en tu palabra."
+    },
+    {
+      "day": 5,
+      "title": "El miedo y la angustia",
+      "reading": "Sal 56,4-5",
+      "reflection": "Cuando tengo miedo, en ti confío. El miedo ante la enfermedad es humano. Lo entrego hoy.",
+      "prayer": "Padre, dame paz en medio de la incertidumbre."
+    },
+    {
+      "day": 6,
+      "title": "La Unción de los enfermos",
+      "reading": "St 5,14-15",
+      "reflection": "«Llame a los presbíteros de la Iglesia.» La Unción es sacramento de consuelo y fortaleza para los enfermos, no solo para el final.",
+      "prayer": "Señor, que el enfermo reciba tu gracia y tu paz."
+    },
+    {
+      "day": 7,
+      "title": "Cuando no se cura",
+      "reading": "2 Co 12,8-9",
+      "reflection": "Pablo pide ser liberado y recibe: «Te basta mi gracia». Pedir la curación y aceptar el camino pueden convivir.",
+      "prayer": "Jesús, haz que acepte lo que no entiendo, sin perder la esperanza."
+    },
+    {
+      "day": 8,
+      "title": "La esperanza que no defrauda",
+      "reading": "Rm 5,3-5",
+      "reflection": "La esperanza no defrauda, porque el amor de Dios ha sido derramado en nuestros corazones. Ni la enfermedad ni la muerte nos separan de él.",
+      "prayer": "Espíritu Santo, derrama tu consuelo."
+    },
+    {
+      "day": 9,
+      "title": "Hágase tu voluntad",
+      "reading": "Lc 22,42",
+      "reflection": "«No se haga mi voluntad, sino la tuya.» Ofrezco todo a Dios con confianza filial.",
+      "prayer": "María, Salud de los enfermos, ruega por nosotros. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios de la vida, sostén al enfermo y consuela a su familia. Que cada uno experimente tu cercanía. Hágase tu voluntad. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "tags": [
+    "enfermedad grave",
+    "novena",
+    "composición de Lux"
+  ]
+}

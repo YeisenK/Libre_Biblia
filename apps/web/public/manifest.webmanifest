@@ -1,7 +1,7 @@
 {
-  "name": "Libre Biblia",
-  "short_name": "Libre Biblia",
-  "description": "Biblia, oración, Rosario y novenas: lectura, comparación de versiones, búsqueda y vida de oración católica.",
+  "name": "Lux",
+  "short_name": "Lux",
+  "description": "Lux: Biblia, oración, Rosario y novenas: lectura, comparación de versiones, búsqueda y vida de oración católica.",
   "lang": "es",
   "start_url": "/",
   "scope": "/",

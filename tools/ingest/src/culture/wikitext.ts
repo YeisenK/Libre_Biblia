@@ -152,6 +152,8 @@ export interface ConvertOptions {
   stripVerseNumbers?: boolean;
   /** Prosa con saltos de línea de composición: une las líneas de un mismo párrafo con un espacio (los párrafos siguen separados por línea en blanco; los versos de {{poem}} y los encabezados no se unen). */
   reflow?: boolean;
+  /** `<br />` al final de línea = fin de verso: se conserva como salto simple (no se une al reflujo ni duplica el salto del código). */
+  brIsVerse?: boolean;
 }
 
 export function wikitextToText(src: string, opts: ConvertOptions = {}): string {
@@ -178,7 +180,7 @@ export function wikitextToText(src: string, opts: ConvertOptions = {}): string {
   s = resolveTemplates(s, opts.collect);
   s = s
     .replace(/\{\{|\}\}/g, '')
-    .replace(/<\s*br\s*\/?\s*>/gi, '\n')
+    .replace(/[ \t]*<\s*br\s*\/?\s*>[ \t]*(?:\n[ \t]*)?/gi, opts.brIsVerse ? VERSE_NL : '\n')
     .replace(/<poem[^>]*>/gi, opts.reflow ? `\n${POEM_START}\n` : '\n')
     .replace(/<\/poem>/gi, opts.reflow ? `\n${POEM_END}\n` : '\n')
     .replace(/<\/(?:p|div|center|blockquote)>/gi, '\n')

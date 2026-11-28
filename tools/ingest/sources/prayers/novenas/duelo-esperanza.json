@@ -1,0 +1,132 @@
+{
+  "id": "duelo-esperanza",
+  "title": "Novena de duelo y esperanza",
+  "group": "souls",
+  "description": "Nueve días para quien llora la muerte de un ser querido, con la esperanza de la resurrección.",
+  "image": {
+    "icon": "candle",
+    "tint": "#5a5f73"
+  },
+  "introduction": "El duelo es un proceso humano que no tiene prisa ni atajos. La Iglesia acompaña a los que lloran con la oración por los difuntos, la Misa exequial y la esperanza de la resurrección (CIC 1681-1690, 1030-1032). Jesús mismo lloró ante la tumba de Lázaro (Jn 11,35). Llorar no es falta de fe.\n\nLa comunión de los santos nos une con los difuntos: podemos rezar por ellos y ellos por nosotros (CIC 958).",
+  "purpose": "Pedir consuelo para quien llora, descanso eterno para el difunto y esperanza. No hay un tiempo «correcto» de duelo. Si el dolor te paraliza o te lleva a pensamientos de hacerte daño, busca ayuda profesional y de personas de confianza.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios de misericordia, tú conoces mi dolor. Durante estos días te presento a mi ser querido y mi tristeza. Dale el descanso eterno y dame a mí consuelo y esperanza. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Llorar con Jesús",
+      "reading": "Jn 11,32-36",
+      "reflection": "Jesús lloró por Lázaro. No hace falta ocultar las lágrimas ni forzarse a ser fuerte. Hoy lloro con Él.",
+      "prayer": "Señor Jesús, llora conmigo. Que mis lágrimas sean oración."
+    },
+    {
+      "day": 2,
+      "title": "Presentar a mi ser querido",
+      "reading": "Sab 3,1-3",
+      "reflection": "«Las almas de los justos están en la mano de Dios.» Pongo el nombre de mi difunto en las manos de Dios y le agradezco lo que fue.",
+      "prayer": "Señor, te encomiendo a mi ser querido. Recíbelo en tu paz."
+    },
+    {
+      "day": 3,
+      "title": "Cuando duele",
+      "reading": "Sal 42,2-4",
+      "reflection": "«Mis lágrimas son mi pan de día y de noche.» El dolor es real. Rezo con las palabras del salmista, sin censura.",
+      "prayer": "Señor, me duele y no entiendo. Quédate conmigo."
+    },
+    {
+      "day": 4,
+      "title": "No estoy solo",
+      "reading": "Mt 5,4",
+      "reflection": "«Dichosos los que lloran, porque serán consolados.» El consuelo llega por la presencia de Dios y de las personas. Pido saber recibirlo y pedirlo.",
+      "prayer": "Señor, pon a mi lado a quien me consuele. Que no me aísle."
+    },
+    {
+      "day": 5,
+      "title": "Lo que queda sin decir",
+      "reading": "Rm 14,8",
+      "reflection": "«Si vivimos, vivimos para el Señor; si morimos, morimos para el Señor.» Dejo en manos de Dios lo que quedó pendiente: palabras, perdones, culpas.",
+      "prayer": "Señor, perdona lo que faltó. Sana mis remordimientos y haz paz entre nosotros."
+    },
+    {
+      "day": 6,
+      "title": "Orar por los difuntos",
+      "reading": "2 M 12,43-45",
+      "reflection": "La Iglesia reza por los difuntos desde antiguo. La Misa, el Rosario y las limosnas son formas de ayudarles (CIC 1032). Hoy ofrezco una oración o una Eucaristía por mi difunto.",
+      "prayer": "Señor, acoge a mi ser querido. Purifícalo si lo necesita y llévalo a la luz."
+    },
+    {
+      "day": 7,
+      "title": "La esperanza de la resurrección",
+      "reading": "1 Ts 4,13-14",
+      "reflection": "«No os aflijáis como los que no tienen esperanza.» Cristo resucitó y nos ha abierto el camino. Pido la esperanza.",
+      "prayer": "Cristo resucitado, afianza mi esperanza. Que crea en la vida eterna."
+    },
+    {
+      "day": 8,
+      "title": "Vivir con la ausencia",
+      "reading": "Is 25,8",
+      "reflection": "«Dios aniquilará la muerte para siempre.» Seguir viviendo no es olvidar. Pido fuerza para retomar mi vida con la memoria agradecida.",
+      "prayer": "Señor, ayúdame a seguir. Que lo vivido me dé fuerza, no amargura."
+    },
+    {
+      "day": 9,
+      "title": "Hasta volver a vernos",
+      "reading": "Ap 21,3-4",
+      "reflection": "«Dios mismo estará con ellos y enjugará toda lágrima.» Terminamos la novena en la esperanza del reencuentro en Dios.",
+      "prayer": "Gracias, Señor. Que descanse en tu paz, y que yo siga con esperanza."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dale, Señor, el descanso eterno, y brille para él la luz perpetua. Descanse en paz. Amén. Y a los que lloramos, danos tu consuelo y la esperanza de volver a vernos en ti. Por Cristo, nuestro Señor. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 958, 1030-1032 y 1681-1690"
+    },
+    {
+      "label": "Ritual de exequias (Ordo exsequiarum)"
+    }
+  ],
+  "tags": [
+    "duelo",
+    "difuntos",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 11,
+    "day": 2,
+    "label": "Conmemoración de todos los fieles difuntos"
+  }
+}

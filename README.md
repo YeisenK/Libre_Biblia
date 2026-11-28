@@ -1,4 +1,6 @@
-# Libre Biblia
+# Lux
+
+> Antes «Libre Biblia». El identificador técnico (`io.github.yeisenk.librebiblia`), la base de datos local y las URL del repositorio no cambian; ver [ADR-019](docs/adr/019-identidad-lux.md).
 
 Aplicación católica **libre** para leer y estudiar la Sagrada Escritura, rezar y conocer la cultura hispánica. Funciona en el **navegador** (PWA instalable) y en **Android** (Google Play), **sin cuentas, sin servidor, sin anuncios y sin rastreo**. Todo lo que guardas (marcadores, historial, ajustes) se queda en tu dispositivo.
 

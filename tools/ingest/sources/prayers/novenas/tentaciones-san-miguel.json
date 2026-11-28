@@ -1,0 +1,135 @@
+{
+  "id": "tentaciones-san-miguel",
+  "title": "Novena en las tentaciones y el combate espiritual",
+  "group": "virtues",
+  "description": "Nueve días con san Miguel arcángel para pedir fortaleza en la lucha contra el mal.",
+  "image": {
+    "icon": "shield",
+    "tint": "#7a4a3a"
+  },
+  "introduction": "«Estad firmes... pues nuestra lucha no es contra la carne y la sangre» (Ef 6,11-12). El Catecismo enseña que la vida del cristiano es un combate espiritual y que Cristo ha vencido ya al Maligno (CIC 409, 2846-2849). San Miguel («¿quién como Dios?») aparece en el libro de Daniel como el gran príncipe protector del pueblo (Dn 12,1), en la carta de Judas (v. 9) y en el Apocalipsis, donde con sus ángeles combate al dragón (Ap 12,7-9). La Iglesia lo honra el 29 de septiembre con Gabriel y Rafael, y la devoción popular le ha confiado la protección de la Iglesia.\n\nEl espíritu de esta novena no es el miedo al demonio, sino la confianza en Cristo y en los ángeles que Dios nos da.",
+  "purpose": "Pedir luz para reconocer la tentación, fuerza para resistirla y misericordia para levantarse. Sin fantasías ni obsesión con el demonio: la mayoría de las tentaciones se vencen con la oración, los sacramentos, la huida de la ocasión y el buen consejo.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor Jesús, vencedor del mal, me pongo bajo tu protección durante estos nueve días. Que san Miguel y los santos ángeles me ayuden a ver claro, a resistir y a no desanimarme. Contigo nada me asusta. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Nuestra lucha",
+      "reading": "Ef 6,10-12",
+      "reflection": "El combate cristiano es real, pero no estamos solos ni desprevenidos: «fortaleceos en el Señor». Empieza hoy con la certeza de que Cristo ya venció y de que la gracia basta.",
+      "prayer": "Señor, fortaléceme con tu poder. Que no me asuste la lucha ni me crea más fuerte de lo que soy. Contigo puedo."
+    },
+    {
+      "day": 2,
+      "title": "«¿Quién como Dios?»",
+      "reading": "Ap 12,7-9",
+      "reflection": "El nombre de Miguel es un grito de humildad: nadie es como Dios. La raíz de toda tentación es querer ocupar su lugar. Sólo la humildad desarma al orgullo.",
+      "prayer": "San Miguel, ayúdame a reconocer a Dios como Dios. Líbrame de la soberbia, raíz de mis caídas."
+    },
+    {
+      "day": 3,
+      "title": "Jesús en el desierto",
+      "reading": "Mt 4,1-4",
+      "reflection": "Jesús fue tentado y respondió con la Escritura. Hoy aprendemos de Él un arma sencilla: la Palabra de Dios, recordada y repetida. «No sólo de pan vive el hombre.»",
+      "prayer": "Señor, grava tu Palabra en mi memoria. Que en la prueba sepa responder con ella y no con mis excusas."
+    },
+    {
+      "day": 4,
+      "title": "Vigilar y orar",
+      "reading": "Mt 26,41",
+      "reflection": "«Velad y orad para no caer en la tentación.» La vigilancia se concreta en lo pequeño: ocasiones, horarios, compañías, redes. Orar es admitir que solo no puedo.",
+      "prayer": "Jesús, enséñame a velar. Que reconozca mis ocasiones y las deje a tiempo. Que rece cuando más me cueste."
+    },
+    {
+      "day": 5,
+      "title": "Dios es fiel",
+      "reading": "1 Co 10,13",
+      "reflection": "«Dios no permite que seáis tentados más de lo que podéis soportar.» Cada tentación trae también la salida. Confiar es creer que existe, aunque no la veas todavía.",
+      "prayer": "Dios fiel, creo que nunca me dejas sin salida. Ayúdame a descubrirla y a tomarla."
+    },
+    {
+      "day": 6,
+      "title": "El ángel, compañero",
+      "reading": "Sal 91,11-12",
+      "reflection": "«A sus ángeles ha dado órdenes para que te guarden.» Cada uno tiene un ángel custodio (CIC 336). Pedirle ayuda no es superstición, sino confianza en la providencia.",
+      "prayer": "Ángel de la guarda, acompáñame. Dime lo que debo evitar y empújame hacia lo bueno."
+    },
+    {
+      "day": 7,
+      "title": "Huir y no discutir",
+      "reading": "Gn 39,11-12",
+      "reflection": "El patriarca José dejó el manto y salió corriendo. A veces la mejor victoria es la huida: no discutir con la tentación, sino cambiar de lugar, de pensamiento o de actividad.",
+      "prayer": "Señor, dame la sensatez de huir cuando conviene y no jugar con fuego."
+    },
+    {
+      "day": 8,
+      "title": "El perdón después de caer",
+      "reading": "1 Jn 1,9",
+      "reflection": "«Si confesamos nuestros pecados, él es fiel y justo para perdonarnos.» El maligno acusa; Dios levanta. La confesión no es una derrota, sino una victoria de la gracia.",
+      "prayer": "Padre, cuando caiga no dejes que me quede en el suelo. Que acuda pronto a tu perdón y empiece de nuevo."
+    },
+    {
+      "day": 9,
+      "title": "Cristo, vencedor",
+      "reading": "Jn 16,33",
+      "reflection": "«En el mundo tendréis tribulación, pero confiad: yo he vencido al mundo.» Terminamos la novena sabiendo que el final de la historia ya está escrito. Quien persevera en Cristo no será derrotado.",
+      "prayer": "Cristo vencedor, gracias. Que persevere y llegue contigo al final. San Miguel, cuida de mí y de los míos."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San Miguel arcángel, defiéndenos en el combate; sé nuestro amparo contra la maldad y las asechanzas del demonio. Que Dios manifieste sobre él su poder, lo pedimos suplicantes; y tú, príncipe de la milicia celestial, por el poder divino, aparta a los espíritus malignos que rondan el mundo para perdición de las almas. Amén.\n\n*(Oración tradicional de León XIII; se recoge aquí sin su versión litúrgica oficial.)*"
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "León XIII, oración a san Miguel Arcángel (1886)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 328-336 y 2846-2849"
+    }
+  ],
+  "tags": [
+    "tentación",
+    "san Miguel",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 9,
+    "day": 29,
+    "label": "Fiesta de los santos arcángeles Miguel, Gabriel y Rafael"
+  },
+  "saints": [
+    "san-miguel-arcangel"
+  ]
+}

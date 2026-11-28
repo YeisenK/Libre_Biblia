@@ -1,0 +1,135 @@
+{
+  "id": "orientacion-profesional",
+  "title": "Novena por la orientación profesional",
+  "group": "work_vocation",
+  "description": "Para quien elige estudios, carrera u ocupación y quiere discernir con serenidad cómo servir.",
+  "image": {
+    "icon": "book",
+    "tint": "#4f6f8f"
+  },
+  "introduction": "Elegir una profesión es una decisión grande. La tradición cristiana habla de la vocación como llamada a servir con los talentos recibidos (parábola de los talentos, Mt 25,14-30). El Catecismo recuerda que cada uno debe trabajar para el bien de los demás y de la sociedad (CIC 2427-2428).",
+  "purpose": "Pedir luz para discernir: conocer los propios dones, escuchar a quien nos conoce y decidir con libertad. No promete señales extraordinarias: pide claridad, valentía y paz. Esta novena es distinta de la dedicada a la vocación religiosa o matrimonial.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, tú me has dado talentos y me llamas a ponerlos al servicio de los demás. Ilumina mi elección. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Una llamada para todos",
+      "reading": "Ef 2,10",
+      "reflection": "Somos obra de Dios, creados para realizar las obras buenas que él preparó. Toda vida tiene un sentido. Confío en que Dios no se desentiende de mi futuro.",
+      "prayer": "Señor, hazme ver que mi vida tiene un propósito."
+    },
+    {
+      "day": 2,
+      "title": "Los talentos",
+      "reading": "Mt 25,14-15",
+      "reflection": "A cada uno según su capacidad. Hoy hago una lista de mis habilidades y gustos, sin falsa modestia ni vanidad.",
+      "prayer": "Dios mío, ayúdame a conocerme y a no enterrar lo que me has dado."
+    },
+    {
+      "day": 3,
+      "title": "Servir y no solo triunfar",
+      "reading": "Mc 10,43-45",
+      "reflection": "El que quiera ser grande, que sea servidor. Me pregunto: ¿a quién puedo servir con lo que sé hacer?",
+      "prayer": "Jesús, que mi profesión sea un modo de amar."
+    },
+    {
+      "day": 4,
+      "title": "Escuchar a otros",
+      "reading": "Pr 15,22",
+      "reflection": "Fracasan los planes sin consulta; con muchos consejeros tienen éxito. Hablo con alguien con experiencia y con quien me conoce bien.",
+      "prayer": "Señor, dame humildad para escuchar y discernir los consejos."
+    },
+    {
+      "day": 5,
+      "title": "Sabiduría que se pide",
+      "reading": "St 1,5",
+      "reflection": "Si alguno de vosotros carece de sabiduría, que la pida a Dios, que da a todos generosamente. Pido luz con sencillez.",
+      "prayer": "Espíritu Santo, ilumina mi mente."
+    },
+    {
+      "day": 6,
+      "title": "Estudiar con constancia",
+      "reading": "Sab 7,7-8",
+      "reflection": "Invoqué y vino a mí el espíritu de sabiduría. Pedir luz no excluye estudiar, probar, informarse.",
+      "prayer": "Señor, dame constancia para formarme."
+    },
+    {
+      "day": 7,
+      "title": "Miedo al error",
+      "reading": "Pr 16,9",
+      "reflection": "El corazón del hombre planea su camino, pero el Señor dirige sus pasos. Ninguna elección es definitiva en el sentido de cerrar la acción de Dios.",
+      "prayer": "Padre, líbrame del miedo a equivocarme."
+    },
+    {
+      "day": 8,
+      "title": "Paz y libertad",
+      "reading": "Col 3,15",
+      "reflection": "Que la paz de Cristo reine en vuestros corazones. La paz profunda, sostenida en el tiempo, es un criterio de discernimiento.",
+      "prayer": "Jesús, dame paz para decidir con libertad."
+    },
+    {
+      "day": 9,
+      "title": "Ofrecer la decisión",
+      "reading": "Sal 37,5",
+      "reflection": "Encomienda tu camino al Señor; confía en él, y él actuará. Tomo mi decisión y la pongo en sus manos.",
+      "prayer": "Santo Tomás de Aquino, ruega por mí. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios mío, guía mi decisión y bendice el camino que emprenda. Que mi trabajo sea servicio y gloria tuya. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "tomas-de-aquino"
+  ],
+  "tags": [
+    "orientacion profesional",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 1,
+    "day": 28,
+    "label": "Memoria de santo Tomás de Aquino, presbítero y doctor de la Iglesia"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "paciencia-san-francisco-de-sales",
+  "title": "Novena por la paciencia y la mansedumbre",
+  "group": "virtues",
+  "description": "Nueve días con san Francisco de Sales, maestro de la dulzura, para pedir paciencia y humildad.",
+  "image": {
+    "icon": "dove",
+    "tint": "#6a8a7a"
+  },
+  "introduction": "San Francisco de Sales (1567-1622), obispo de Ginebra, sacerdote y doctor de la Iglesia desde 1877, enseñó que la santidad no es privilegio de monjes: es para todos, en lo cotidiano. En su *Introducción a la vida devota* (1609) trata de la paciencia, de la mansedumbre y de la humildad con gran realismo: aconseja pedir ayuda a Dios, empezar cada vez de nuevo y no desanimarse por las propias faltas. Es patrono de escritores y periodistas. Su fiesta es el 24 de enero.\n\nLa paciencia es fruto del Espíritu (Gal 5,22). Se aprende en las esperas, las contrariedades y la convivencia.",
+  "purpose": "Pedir paciencia con los demás y con uno mismo, y mansedumbre en la palabra y en los gestos. No se trata de reprimir el enojo, sino de educarlo; ni de soportar la injusticia o el maltrato, sino de responder con calma y verdad.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, manso y humilde de corazón, durante estos nueve días quiero aprender a esperar y a no responder con enojo. Por intercesión de san Francisco de Sales, dame paciencia con los otros y conmigo mismo. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Dios es paciente conmigo",
+      "reading": "2 P 3,9",
+      "reflection": "Dios «tiene paciencia con vosotros». Si Él espera, tengo motivos para esperar. Empiezo con gratitud por la paciencia que otros y Dios tienen conmigo.",
+      "prayer": "Señor, gracias por tu paciencia. Que ella sea mi modelo y mi consuelo."
+    },
+    {
+      "day": 2,
+      "title": "La paciencia, fruto del Espíritu",
+      "reading": "Ga 5,22-23",
+      "reflection": "La paciencia no es solo aguantar: es fruto del Espíritu y se pide. No la conquisto por puño, sino por gracia y entrenamiento diario.",
+      "prayer": "Espíritu Santo, haz crecer en mí la paciencia. Lo pido con humildad."
+    },
+    {
+      "day": 3,
+      "title": "Con los de casa",
+      "reading": "Col 3,12-13",
+      "reflection": "Revestíos de «paciencia, soportándoos unos a otros». La prueba mayor es con los más cercanos. Hoy rezo por quienes más me exigen paciencia.",
+      "prayer": "Señor, bendice a mi familia y a quienes conviven conmigo. Dame palabras suaves y corazón generoso."
+    },
+    {
+      "day": 4,
+      "title": "Con el tráfico y las esperas",
+      "reading": "St 5,7-8",
+      "reflection": "El agricultor espera el fruto de la tierra. Las pequeñas esperas (colas, retrasos, trámites) son ocasiones de entrenar la paciencia sin gritos.",
+      "prayer": "Señor, que viva las esperas de hoy como oración. Líbrame de la prisa que me endurece."
+    },
+    {
+      "day": 5,
+      "title": "Con mis propias faltas",
+      "reading": "Sal 103,8-10",
+      "reflection": "«El Señor es compasivo y misericordioso, lento a la ira.» San Francisco de Sales pedía no irritarse contra uno mismo. Reconocer, pedir perdón y empezar de nuevo.",
+      "prayer": "Señor, enséñame a ser paciente conmigo. Que mis caídas me hagan humilde y no me desanimen."
+    },
+    {
+      "day": 6,
+      "title": "La palabra suave",
+      "reading": "Pr 15,1",
+      "reflection": "«La respuesta suave aplaca la ira.» Antes de hablar con enojo, respiro y rezo. La mansedumbre no calla la verdad; la dice con caridad.",
+      "prayer": "Jesús, pon guardia a mis labios. Que mis palabras sean verdaderas, breves y amables."
+    },
+    {
+      "day": 7,
+      "title": "Sufrir con esperanza",
+      "reading": "Rm 5,3-5",
+      "reflection": "«La tribulación produce paciencia, la paciencia virtud probada, y esta, esperanza.» El sufrimiento no es bueno en sí mismo, pero Dios saca fruto de él cuando se vive con fe.",
+      "prayer": "Señor, en mis penas dame paciencia y esperanza. Que no me amargue."
+    },
+    {
+      "day": 8,
+      "title": "Humildad y mansedumbre",
+      "reading": "Mt 11,28-30",
+      "reflection": "«Aprended de mí, que soy manso y humilde de corazón.» Jesús une las dos virtudes: no hay mansedumbre sin humildad. Pido hoy el corazón de Cristo.",
+      "prayer": "Jesús, manso y humilde, haz mi corazón semejante al tuyo."
+    },
+    {
+      "day": 9,
+      "title": "Perseverar",
+      "reading": "Lc 8,15",
+      "reflection": "Los que dan fruto lo hacen «con perseverancia». Terminamos la novena con propósito concreto y realista, y con gratitud. Si falla, se recomienza: es la enseñanza de san Francisco de Sales.",
+      "prayer": "Gracias, Señor. Confirma mis propósitos y dame constancia. San Francisco de Sales, ruega por mí."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San Francisco de Sales, que enseñaste que la dulzura gana más que la fuerza, ruega por nosotros. Haznos pacientes en las pruebas, mansos en las palabras y perseverantes en el bien. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Francisco de Sales, Introducción a la vida devota (1609)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 2559 y 1829"
+    }
+  ],
+  "tags": [
+    "paciencia",
+    "mansedumbre",
+    "san Francisco de Sales",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 1,
+    "day": 24,
+    "label": "Memoria de san Francisco de Sales, obispo y doctor de la Iglesia"
+  },
+  "saints": [
+    "francisco-de-sales"
+  ]
+}

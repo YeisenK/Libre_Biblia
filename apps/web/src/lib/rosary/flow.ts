@@ -14,6 +14,11 @@ export interface RosaryOptions {
   passages: boolean;
   /** ids de `RosaryExtra` activados */
   extras: string[];
+  /**
+   * Rosario físico: las Ave Marías de cada decena (y las tres iniciales) son UN solo paso
+   * («reza diez Ave Marías»); el usuario las cuenta con sus cuentas y no pulsa Siguiente en cada una.
+   */
+  grouped?: boolean;
 }
 
 export interface RosaryStep {
@@ -85,7 +90,17 @@ export function buildSteps(rosary: RosaryData, set: MysterySet, opts: RosaryOpti
   }
   prayer('open-creed', ROSARY_PRAYER.creed, crucifix, 'Ahora reza el Credo', 'Con el crucifijo en la mano, reza el Credo de los Apóstoles.');
   prayer('open-pn', ROSARY_PRAYER.ourFather, { index: 1, type: 'large' }, 'Ahora reza el Padre Nuestro', 'Pasa a la cuenta grande que sigue al crucifijo y reza el Padre Nuestro.');
-  for (let k = 1; k <= 3; k++) {
+  if (opts.grouped) {
+    prayer(
+      'open-aves',
+      ROSARY_PRAYER.hailMary,
+      { index: 4, type: 'small' },
+      'Reza tres Ave Marías',
+      'Recorre las tres cuentas pequeñas que siguen y reza un Ave María en cada una. Al terminar la tercera, pulsa Siguiente.',
+      { title: 'Tres Ave Marías', hint: 'Tradicionalmente por la fe, la esperanza y la caridad' },
+    );
+  }
+  for (let k = 1; k <= (opts.grouped ? 0 : 3); k++) {
     const virtue = THEOLOGICAL[k - 1]!;
     prayer(
       `open-ave-${k}`,
@@ -125,7 +140,15 @@ export function buildSteps(rosary: RosaryData, set: MysterySet, opts: RosaryOpti
       physicalCue: d === 1 ? 'Toma la cuenta grande que sigue a la medalla y reza el Padre Nuestro.' : 'Toma la siguiente cuenta grande y reza el Padre Nuestro.',
       audioKey: `prayer:${ROSARY_PRAYER.ourFather}`,
     }, { prayerId: ROSARY_PRAYER.ourFather });
-    for (let k = 1; k <= 10; k++) {
+    if (opts.grouped) {
+      mk('aves', 'prayer', lastSmall, {
+        title: 'Diez Ave Marías',
+        instruction: 'Reza diez Ave Marías',
+        physicalCue: 'Recorre las diez cuentas pequeñas y reza un Ave María en cada una, contemplando el misterio. Al llegar a la décima, pulsa Siguiente.',
+        audioKey: `prayer:${ROSARY_PRAYER.hailMary}`,
+      }, { prayerId: ROSARY_PRAYER.hailMary });
+    }
+    for (let k = 1; k <= (opts.grouped ? 0 : 10); k++) {
       mk(`ave-${k}`, 'prayer', { index: decadeSmallBead(d, k), type: 'small' }, {
         title: titleOf(ROSARY_PRAYER.hailMary),
         instruction: `Ahora reza el Ave María (${k} de 10)`,
@@ -159,13 +182,13 @@ export function buildSteps(rosary: RosaryData, set: MysterySet, opts: RosaryOpti
 
 /** Firma de las opciones que determinan el recorrido (para reanudar sin desalinear). */
 export function optionsKey(o: RosaryOptions): string {
-  return `r${o.reflections ? 1 : 0}p${o.passages ? 1 : 0}x${[...new Set(o.extras)].sort().join('+')}`;
+  return `r${o.reflections ? 1 : 0}p${o.passages ? 1 : 0}x${[...new Set(o.extras)].sort().join('+')}${o.grouped ? '|g1' : ''}`;
 }
 
 export function parseOptionsKey(key: string): RosaryOptions | null {
-  const m = /^r([01])p([01])x(.*)$/.exec(key);
+  const m = /^r([01])p([01])x([^|]*)(\|g1)?$/.exec(key);
   if (!m) return null;
-  return { reflections: m[1] === '1', passages: m[2] === '1', extras: m[3] ? m[3].split('+') : [] };
+  return { reflections: m[1] === '1', passages: m[2] === '1', extras: m[3] ? m[3].split('+') : [], ...(m[4] ? { grouped: true } : {}) };
 }
 
 export interface RosaryProgress {
@@ -243,6 +266,9 @@ export const SET_ORDER: MysterySet[] = ['joyful', 'luminous', 'sorrowful', 'glor
 export const setTitle = (s: MysterySet) => MYSTERY_SET_LABEL[s];
 
 /** Todo el motor necesita saber de los ajustes: pasa de `UserSettings` a opciones. */
-export function optionsFromSettings(s: { rosaryReflections: boolean; rosaryPassages: boolean; rosaryExtras: string[] }): RosaryOptions {
-  return { reflections: s.rosaryReflections, passages: s.rosaryPassages, extras: s.rosaryExtras };
+export function optionsFromSettings(
+  s: { rosaryReflections: boolean; rosaryPassages: boolean; rosaryExtras: string[]; rosaryMode?: 'digital' | 'physical' },
+  mode: 'digital' | 'physical' | undefined = s.rosaryMode,
+): RosaryOptions {
+  return { reflections: s.rosaryReflections, passages: s.rosaryPassages, extras: s.rosaryExtras, ...(mode === 'physical' ? { grouped: true } : {}) };
 }

@@ -1,0 +1,1281 @@
+[
+ {
+  "id": "atanasio-de-alejandria",
+  "name": "San Atanasio de Alejandría",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-02",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Atanasio, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 296-298",
+   "place": "Alejandría"
+  },
+  "died": {
+   "date": "2 de mayo de 373",
+   "place": "Alejandría"
+  },
+  "century": 4,
+  "countries": [
+   "EG"
+  ],
+  "summary": "Obispo de Alejandría y defensor infatigable de la fe de Nicea frente al arrianismo, desterrado varias veces por su fidelidad.",
+  "biography": "Atanasio nació en Alejandría hacia los años 296-298 y recibió una buena formación clásica de gramática, retórica y filosofía. Muy joven entró al servicio del obispo Alejandro como secretario y consejero. Siendo todavía diácono lo acompañó al concilio de Nicea (325), donde se condenó la doctrina de Arrio, para quien el Hijo era una criatura. El concilio aceptó el término *homoousios* («de la misma sustancia») para expresar que el Hijo es verdaderamente Dios como el Padre; Atanasio no inventó la palabra, pero se convirtió en su campeón más tenaz. Pocos meses después de Nicea sucedió a Alejandro y fue consagrado obispo de Alejandría (328).\n\nSu episcopado, de unos cuarenta y cinco años, estuvo marcado por la oposición de los partidarios de Arrio, apoyados a menudo por los emperadores. Tras el sínodo de Tiro (335) fue enviado a Tréveris, en la Galia (336-338). Volvió, fue de nuevo expulsado hacia 340 y se refugió en Roma, de donde regresó en 346. Entre 356 y 362 vivió oculto en el desierto egipcio, protegido por los monjes. Hubo otras breves expulsiones bajo Juliano (362-363) y Valente (364). La tradición habla de cinco destierros que suman unos diecisiete años. La frase «Atanasio contra el mundo» resume, en tiempos posteriores, esa soledad.\n\nSu obra teológica gira en torno a una idea: solo si el Verbo es Dios puede salvar al hombre. En *Contra los paganos* y *Sobre la encarnación del Verbo* (escritos hacia 318-323) explica que el Hijo de Dios se hizo hombre para que el hombre pudiera participar de la vida divina. Escribió además la *Apología contra los arrianos*, las *Apologías* ante Constancio, la *Historia de los arrianos*, los *Discursos contra los arrianos* y las *Cartas a Serapión* sobre la divinidad del Espíritu Santo. En su carta pascual del año 367 enumeró los veintisiete libros del Nuevo Testamento tal como hoy los recibimos, uno de los testimonios más antiguos de ese canon.\n\nLa *Vida de Antonio*, redactada tras conocer el ambiente monástico del desierto, contribuyó a difundir el ideal monacal por Oriente y Occidente. Murió en paz en su cama, en Alejandría, el 2 de mayo de 373. La Iglesia lo cuenta entre los grandes Padres griegos y doctores de la Iglesia. Su vida enseña que la verdad de la fe no es un asunto de conveniencia política: se paga con la perseverancia, y se defiende al mismo tiempo con razones y con una vida sencilla y fraterna.",
+  "context": "Controversia arriana y política religiosa de los emperadores cristianos.",
+  "virtues": [
+   "Constancia",
+   "Fidelidad a la verdad",
+   "Valentía"
+  ],
+  "significance": "Defensor de la divinidad de Cristo; testigo del canon neotestamentario.",
+  "iconography": "Obispo con barba, báculo y libro; a veces con un dragón vencido.",
+  "works": [
+   {
+    "title": "Sobre la encarnación del Verbo"
+   },
+   {
+    "title": "Vida de Antonio"
+   },
+   {
+    "title": "Discursos contra los arrianos"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Athanasius»",
+    "url": "https://www.newadvent.org/cathen/02035a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La carta pascual del 367 (canon neotestamentario) y el título de doctor no figuran en la Catholic Encyclopedia consultada; proceden de conocimiento común de la patrística."
+ },
+ {
+  "id": "felipe-apostol",
+  "name": "San Felipe, apóstol",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-03",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santos Felipe y Santiago, apóstoles",
+    "color": "red"
+   },
+   {
+    "date": "05-04",
+    "rank": "feast",
+    "calendar": "mx",
+    "title": "Santos Felipe y Santiago, apóstoles",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Betsaida (Galilea)"
+  },
+  "died": {
+   "date": "siglo I (según la tradición)",
+   "place": "Hierápolis (Frigia), según la tradición"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "TR"
+  ],
+  "summary": "Apóstol de Betsaida, llamado por Jesús con las palabras «Sígueme»; en el evangelio de Juan lleva a Natanael y pide ver al Padre.",
+  "biography": "Felipe aparece en las cuatro listas de los Doce. Según el evangelio de Juan era de Betsaida, la ciudad de Andrés y Pedro, y fue llamado directamente por Jesús: «Sígueme» (Jn 1,43). Su respuesta fue inmediata: buscó a Natanael y lo invitó con una frase que ha quedado como lema de todo testimonio cristiano, «Ven y verás» (Jn 1,45-46). Su nombre es griego, lo que sugiere un ambiente galileo abierto a la cultura helenística.\n\nEl cuarto evangelio le da cierto protagonismo en tres escenas. Antes de la multiplicación de los panes, Jesús lo pone a prueba preguntándole dónde comprar pan para tanta gente, y Felipe responde con realismo contable: doscientos denarios no bastarían (Jn 6,5-7). Cuando unos griegos que subieron a la fiesta desean ver a Jesús, se acercan a él, y Felipe consulta con Andrés y ambos los llevan al Maestro (Jn 12,20-22). Y en la Última Cena le dice a Jesús: «Señor, muéstranos al Padre y nos basta», a lo que recibe la respuesta: «Quien me ha visto a mí ha visto al Padre» (Jn 14,8-9). La Catholic Encyclopedia lo describe como un hombre sincero, algo reservado y práctico.\n\nDespués de la resurrección los Hechos lo nombran entre los reunidos en el cenáculo (Hch 1,13), pero no cuentan más sobre él. Hay que cuidarse de confundirlo con Felipe el diácono, uno de los Siete, evangelizador de Samaría y bautizador del eunuco etíope (Hch 6 y 8). Las noticias posteriores son tardías y confusas: Polícrates de Éfeso, hacia el año 190, dice que Felipe fue sepultado en Hierápolis de Frigia junto con sus hijas; muchos historiadores modernos piensan que en realidad se refería al diácono. Los *Hechos de Felipe*, apócrifos, no tienen valor histórico, y relatos como su martirio por crucifixión o lapidación deben tomarse solo como tradición hagiográfica.\n\nLos restos atribuidos a Felipe y a Santiago el Menor fueron llevados a Roma y se veneran en la basílica de los Santos Apóstoles; de ahí que ambos compartan fiesta. En el calendario antiguo se celebraba el 1 de mayo; desde la reforma de 1969, el 3 de mayo en el Calendario Romano General. En México, donde el 3 de mayo se celebra la Santa Cruz, la fiesta de los dos apóstoles se celebra el 4 de mayo.\n\nLa figura de Felipe enseña a evangelizar a la manera del Evangelio: no con grandes razonamientos, sino invitando a otros a encontrarse con Cristo, y reconociendo con humildad que uno mismo necesita seguir creciendo en el conocimiento del Padre.",
+  "virtues": [
+   "Apertura",
+   "Invitación a otros a seguir a Cristo"
+  ],
+  "iconography": "Apóstol con una cruz alta o con panes (referencia a Jn 6); a veces con un dragón vencido, según la leyenda.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Philip the Apostle»",
+    "url": "https://www.newadvent.org/cathen/11799a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Muerte y sepultura (Hierápolis, modo del martirio) son tradición incierta; la fecha de nacimiento y muerte no se conoce."
+ },
+ {
+  "id": "santiago-el-menor",
+  "name": "Santiago el Menor, apóstol",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-03",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santos Felipe y Santiago, apóstoles",
+    "color": "red"
+   },
+   {
+    "date": "05-04",
+    "rank": "feast",
+    "calendar": "mx",
+    "title": "Santos Felipe y Santiago, apóstoles",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr",
+   "bishop"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Galilea"
+  },
+  "died": {
+   "date": "c. 62",
+   "place": "Jerusalén"
+  },
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Apóstol Santiago, hijo de Alfeo, identificado por la tradición con el «hermano del Señor» que presidió la Iglesia de Jerusalén; murió mártir hacia el año 62.",
+  "biography": "Los evangelios nombran a un apóstol llamado Santiago, hijo de Alfeo (Mt 10,3; Mc 3,18; Hch 1,13). La tradición lo llama «el Menor» (en griego *mikros*, «el pequeño» o «el joven») para distinguirlo de Santiago de Zebedeo. Aparte, el Nuevo Testamento habla de «Santiago, el hermano del Señor» (Gál 1,19), una de las «columnas» de la Iglesia de Jerusalén (Gál 2,9). La Catholic Encyclopedia sostiene como «muy probable» que se trate de la misma persona y que sea también Santiago hijo de María, mujer de Cleofás; no obstante, esa identificación se discute entre los estudiosos. «Hermano» se entiende aquí en el amplio sentido semítico de pariente cercano.\n\nCon esa salvedad, los datos son estos. Hacia el año 44 gozaba ya de gran autoridad en Jerusalén; Pedro, al salir de la cárcel, pidió que se avisara «a Santiago y a los hermanos» (Hch 12,17). En el concilio de Jerusalén (hacia el 49-51) dio, después de Pedro, su parecer: no imponer a los gentiles convertidos la circuncisión ni toda la Ley de Moisés, pero pedirles abstenerse de lo ofrecido a los ídolos, de la fornicación y de la sangre (Hch 15,13-21). Cuando Pablo subió por última vez a Jerusalén (hacia el 58), Santiago le aconsejó asumir un voto nazireo para mostrar a los judíos cristianos que no despreciaba la Ley (Hch 21,18-26). Esa mediación entre las dos sensibilidades de la Iglesia primitiva es una de sus mayores aportaciones.\n\nSobre su muerte hay dos relatos. Flavio Josefo cuenta que el sumo sacerdote Anano hizo lapidar a «Santiago, el hermano de Jesús llamado Cristo», probablemente hacia el año 62, aprovechando un vacío de gobierno romano. Hegesipo, en la segunda mitad del siglo II, cuenta una versión más detallada, citada por Eusebio: lo arrojaron desde el pináculo del Templo y lo remataron con el mazo de un batanero. Ambas versiones coinciden en el hecho básico, pero difieren en los pormenores.\n\nLa Carta de Santiago, incluida en el canon, se le atribuye por tradición. Insiste en que la fe sin obras está muerta, en el cuidado de los pobres, en el dominio de la lengua y en la oración por los enfermos con la unción (St 5,14-15), pasaje que la Iglesia ha visto como fundamento de ese sacramento. Su fiesta se une a la de Felipe porque ambos tienen sus reliquias en la basílica de los Santos Apóstoles de Roma; en México se celebra el 4 de mayo. Su ejemplo, de piedad austera, prudencia en el discernimiento y fidelidad hasta la muerte, interpela a quienes separan creer de obrar.",
+  "virtues": [
+   "Piedad",
+   "Prudencia",
+   "Fe operante"
+  ],
+  "iconography": "Apóstol con una maza de batanero (instrumento de su martirio) o un libro; a veces con cayado.",
+  "works": [
+   {
+    "title": "Carta de Santiago (atribución tradicional)"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1910), «St. James the Less»",
+    "url": "https://www.newadvent.org/cathen/08280a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La identificación del apóstol con el «hermano del Señor» es discutida; se presenta como la postura tradicional. La fecha de la muerte (c. 62) sale de Josefo."
+ },
+ {
+  "id": "matias-apostol",
+  "name": "San Matías, apóstol",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-14",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "San Matías, apóstol",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Judea"
+  },
+  "died": {
+   "date": "siglo I (según la tradición)",
+   "place": "Judea o Etiopía, según tradiciones diversas"
+  },
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Discípulo elegido por suerte para ocupar el lugar de Judas entre los Doce (Hch 1); lo demás de su vida es tradición incierta.",
+  "biography": "El único relato bíblico sobre Matías es Hechos 1,15-26. Tras la ascensión del Señor, Pedro propuso a la comunidad reunida, de unas ciento veinte personas, completar el grupo de los Doce con un testigo de la resurrección que hubiera acompañado a Jesús «desde el bautismo de Juan hasta el día en que fue levantado». Se presentaron dos: José, llamado Barsabás y también Justo, y Matías. Después de orar para que el Señor mostrara a quién había elegido, echaron suertes y la suerte cayó sobre Matías, que fue agregado a los once apóstoles.\n\nEl episodio muestra que Matías pertenecía al grupo más amplio de discípulos que había seguido a Jesús desde el principio; Eusebio de Cesarea, siguiendo una tradición antigua, lo cuenta entre los setenta y dos. A partir de ahí los Hechos no vuelven a mencionarlo, y la Catholic Encyclopedia reconoce que todo lo posterior es «vago y contradictorio». Nicéforo lo hace predicar en Judea y luego en «Etiopía» (la Cólquida, junto al mar Negro) y morir crucificado; otra tradición, recogida en la *Sinopsis* de Doroteo, lo sitúa entre pueblos antropófagos y lo hace morir en Sebastópolis; otra más lo da lapidado en Jerusalén y decapitado. Las *Actas de Andrés y Matías* son apócrifas y sin valor histórico. Clemente de Alejandría cita enseñanzas atribuidas a Matías sobre la necesidad de combatir la carne, y la antigüedad conoció un «Evangelio de Matías» hoy perdido, condenado como apócrifo en el decreto gelasiano. En algunos escritos se confunde con Mateo.\n\nSegún una tradición, Santa Elena, madre de Constantino, habría traído sus reliquias a Roma y parte de ellas a Tréveris, donde se veneran en la abadía benedictina de San Matías. El jesuita Bolando ya dudaba de que las reliquias romanas fueran del apóstol y no de otro Matías, obispo de Jerusalén hacia el año 120.\n\nLa Iglesia latina celebraba su fiesta el 24 de febrero. Con la reforma de 1969 se trasladó al 14 de mayo, para ubicarla entre la Ascensión y Pentecostés, en continuidad con el relato de Hechos; la Iglesia griega la celebra el 9 de agosto.\n\nLa elección de Matías enseña que la Iglesia discierne en la oración y con humildad: no se escoge al sucesor por mérito propio, sino que se le recibe como don. Su perfil discreto, sin milagros conocidos, recuerda también que muchos servidores del Evangelio trabajan sin ser recordados.",
+  "virtues": [
+   "Fidelidad a la vocación",
+   "Disponibilidad"
+  ],
+  "iconography": "Apóstol con hacha o alabarda (instrumento de su martirio según la tradición) y libro.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «St. Matthias»",
+    "url": "https://www.newadvent.org/cathen/10066a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Muerte y lugar de predicación son tradiciones contradictorias; se señalan como tales."
+ },
+ {
+  "id": "juan-de-avila",
+  "name": "San Juan de Ávila",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-10",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Juan de Ávila, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "doctor",
+   "mystic",
+   "missionary"
+  ],
+  "born": {
+   "date": "6 de enero de 1499 o 1500",
+   "place": "Almodóvar del Campo (Ciudad Real)"
+  },
+  "died": {
+   "date": "10 de mayo de 1569",
+   "place": "Montilla (Córdoba)"
+  },
+  "century": 16,
+  "countries": [
+   "ES"
+  ],
+  "canonization": {
+   "date": "31 de mayo de 1970",
+   "by": "Pablo VI",
+   "note": "Beatificado el 6 de abril de 1894 por León XIII; doctor de la Iglesia el 7 de octubre de 2012 (Benedicto XVI)."
+  },
+  "summary": "Presbítero andaluz, «Maestro Ávila», gran predicador, director de almas y reformador del clero; doctor de la Iglesia desde 2012.",
+  "biography": "Juan nació el 6 de enero de 1499 o 1500 en Almodóvar del Campo, en la diócesis de Toledo, en una familia acomodada. A los catorce años comenzó leyes en Salamanca, pero tras cuatro cursos abandonó los estudios en medio de una profunda conversión. Se retiró unos años a su pueblo, dedicado a la oración y a la penitencia, y en 1520 pasó a Alcalá de Henares para estudiar artes y teología, donde conoció el humanismo cristiano. Fue ordenado sacerdote en 1526 y celebró su primera misa en su parroquia natal, tras lo cual repartió su herencia entre los pobres. Quería ir a las Indias como misionero, pero el arzobispo de Sevilla le pidió que se quedara a predicar en Andalucía.\n\nDesde 1529 predicó en Sevilla, Córdoba, Granada, Écija, Baeza y otros lugares, con una elocuencia que removía conciencias, sobre todo contra el apego a la riqueza. Una predicación mal entendida le valió una denuncia ante la Inquisición; estuvo preso en 1531-1533 y fue absuelto. Durante la prisión empezó la primera redacción del *Audi, filia*. En 1536 el arzobispo de Granada lo llamó a su consejo; en esa ciudad, escuchando un sermón suyo, se convirtió hacia 1537 Juan Ciudad, el futuro san Juan de Dios. Su círculo de discípulos incluyó a sacerdotes y laicos, entre ellos fray Luis de Granada, y su amistad con los jesuitas contribuyó a su arraigo en España.\n\nSu preocupación central fue la renovación del clero: fundó colegios y apoyó la formación de sacerdotes preparados y pobres, y escribió *Memoriales* para el concilio de Trento (1551 y 1561) con propuestas de reforma. Su obra principal es el *Audi, filia* (el título proviene del salmo 44), un tratado de vida espiritual dirigido a doña Sancha Carrillo, que presenta el camino cristiano como confianza en el amor de Dios, escucha de su palabra y vida sacramental. Dejó también cartas, sermones y un tratado sobre el sacerdocio.\n\nEn 1554 se retiró de forma definitiva a Montilla (Córdoba); enfermo y sin dejar de aconsejar a muchos, murió allí el 10 de mayo de 1569. Fue beatificado por León XIII (1894), canonizado por Pablo VI (31 de mayo de 1970) y proclamado doctor de la Iglesia por Benedicto XVI el 7 de octubre de 2012. Pío XII lo había declarado patrono del clero secular español en 1946.\n\nJuan de Ávila enseña que la reforma de la Iglesia empieza por la santidad de sus pastores, que el predicador debe vivir lo que anuncia, y que la confianza en la misericordia de Dios, no el miedo, sostiene la vida cristiana.",
+  "virtues": [
+   "Celo apostólico",
+   "Pobreza",
+   "Oración",
+   "Formación del clero"
+  ],
+  "patronages": [
+   "Clero secular español (Pío XII, 1946)"
+  ],
+  "iconography": "Sacerdote con sotana, bonete y libro, predicando; a veces con un crucifijo.",
+  "works": [
+   {
+    "title": "Audi, filia"
+   },
+   {
+    "title": "Memoriales para el Concilio de Trento"
+   },
+   {
+    "title": "Cartas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Benedicto XVI, Carta apostólica para la proclamación de san Juan de Ávila como doctor de la Iglesia (7-X-2012)",
+    "url": "https://www.vatican.va/content/benedict-xvi/es/apost_letters/documents/hf_ben-xvi_apl_20121007_giovanni-avila.html"
+   },
+   {
+    "label": "Catholic Encyclopedia (1910), «Bl. John of Avila»",
+    "url": "https://www.newadvent.org/cathen/08469a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "cristobal-magallanes-y-companeros",
+  "name": "San Cristóbal Magallanes y compañeros mártires",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-21",
+    "rank": "memorial",
+    "calendar": "mx",
+    "title": "Santos Cristóbal Magallanes, presbítero, y compañeros, mártires",
+    "color": "red"
+   },
+   {
+    "date": "05-21",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Cristóbal Magallanes, presbítero, y compañeros, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "priest"
+  ],
+  "born": {
+   "date": "30 de julio de 1869 (Cristóbal)",
+   "place": "Rancho San Rafael, Totatiche, Jalisco"
+  },
+  "died": {
+   "date": "25 de mayo de 1927 (Cristóbal)",
+   "place": "Colotlán, Jalisco"
+  },
+  "century": 20,
+  "countries": [
+   "MX"
+  ],
+  "canonization": {
+   "date": "21 de mayo de 2000",
+   "by": "Juan Pablo II",
+   "note": "Beatificados el 22 de noviembre de 1992; canonizados 25 mártires, 22 sacerdotes y 3 laicos."
+  },
+  "summary": "Veinticinco mártires (veintidós sacerdotes y tres laicos) de la persecución religiosa mexicana, canonizados el 21 de mayo de 2000; la cabeza del grupo es el párroco Cristóbal Magallanes.",
+  "biography": "El 21 de mayo de 2000, Juan Pablo II canonizó a veinticinco mexicanos que murieron por su fe durante la persecución religiosa de las primeras décadas del siglo XX (el Martirologio fija el rango de 1915 a 1937): veintidós sacerdotes y tres laicos. Entre los sacerdotes figuran Cristóbal Magallanes Jara, Román Adame Rosales, Rodrigo Aguilar Alemán, Julio Álvarez Mendoza, Luis Batis Sáinz, Agustín Caloca Cortés, Mateo Correa Magallanes, Atilano Cruz Alvarado, Miguel de la Mora, Pedro Esqueda Ramírez, Margarito Flores García, José Isabel Flores Varela, David Galván Bermúdez, Pedro de Jesús Maldonado Lucero, Jesús Méndez Montoya, Justino Orona Madrigal, Sabás Reyes Salazar, José María Robles Hurtado, Toribio Romo González, Tranquilino Ubiarco Robles, David Uribe Velasco y Jenaro Sánchez Delgadillo. Los tres laicos son Manuel Morales, Salvador Lara Puente y David Roldán Lara.\n\nEn su homilía, el papa subrayó que la mayor parte pertenecía al clero secular, que no abandonaron su ministerio cuando la persecución arreciaba y que aceptaron el martirio con libertad y serenidad, perdonando a sus perseguidores. Murieron en distintos lugares y fechas, casi siempre sin un juicio regular; fueron acusados de apoyar a los rebeldes cristeros, algo que no se les pudo probar.\n\nCristóbal Magallanes nació el 30 de julio de 1869 en el rancho San Rafael, municipio de Totatiche (Jalisco), e ingresó al seminario de Guadalajara en 1888. Fue párroco de Totatiche, donde fundó escuelas y talleres, y en 1916 puso en marcha el Seminario Auxiliar de Nuestra Señora de Guadalupe. Predicó misiones populares entre los huicholes y promovió el desarrollo agrícola de la zona. Cuando el culto público fue suspendido en 1926, siguió su ministerio con discreción y, según sus biógrafos, exhortó a la gente a no tomar las armas.\n\nEl 21 de mayo de 1927 fue arrestado por soldados federales, por orden del general Francisco Goñi, cuando se dirigía a una comunidad cercana. Fue llevado a Colotlán, a disposición del jefe militar. En la casa municipal, el 25 de mayo de 1927, fue fusilado junto con su vicario Agustín Caloca, sin juicio. Según la tradición, antes de morir perdonó a sus verdugos y repartió sus pertenencias. Fue beatificado por Juan Pablo II el 22 de noviembre de 1992.\n\nLa memoria del grupo es obligatoria en México el 21 de mayo, y facultativa en el calendario general. Su testimonio es una referencia en la defensa de la libertad religiosa, y su ejemplo de perdón recuerda que la fe se vive hasta el final sin odio.",
+  "context": "Persecución religiosa en México, desde las Leyes de Reforma y la Constitución de 1917 hasta la Guerra Cristera (1926-1929).",
+  "virtues": [
+   "Fortaleza",
+   "Perdón a los enemigos",
+   "Fidelidad pastoral"
+  ],
+  "significance": "Mártires de la libertad religiosa en México.",
+  "iconography": "Sacerdotes con sotana y palma de martirio, y bandera de Cristo Rey; a veces ante un paredón.",
+  "sources": [
+   {
+    "label": "Juan Pablo II, homilía en la canonización de Cristóbal Magallanes y compañeros (21-V-2000)",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2000/documents/hf_jp-ii_hom_20000521_canonizations.html"
+   },
+   {
+    "label": "Catholic.net, «Cristóbal Magallanes y 24 compañeros, santos» (lista de los 25)",
+    "url": "https://es.catholic.net/op/articulos/34809/cristbal-magallanes-y-compaeros-santos.html"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Fechas y lugares de martirio de cada compañero no se verificaron individualmente; solo se detallan los de Cristóbal."
+ },
+ {
+  "id": "bernardino-de-siena",
+  "name": "San Bernardino de Siena",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-20",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Bernardino de Siena, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "missionary"
+  ],
+  "born": {
+   "date": "8 de septiembre de 1380",
+   "place": "Massa Marittima"
+  },
+  "died": {
+   "date": "20 de mayo de 1444",
+   "place": "L'Aquila"
+  },
+  "century": 15,
+  "countries": [
+   "IT"
+  ],
+  "order": "Franciscanos observantes",
+  "canonization": {
+   "date": "24 de mayo de 1450",
+   "by": "Nicolás V"
+  },
+  "summary": "Franciscano observante, «apóstol de Italia»: predicador popular, difusor de la devoción al Santo Nombre de Jesús y reformador de la orden.",
+  "biography": "Bernardino Albizzeschi nació el 8 de septiembre de 1380 en Massa (Massa Marittima), en la Toscana, y quedó huérfano de niño; lo criaron unos parientes en Siena. Estudió derecho civil y canónico y entró en una cofradía del hospital de Santa María della Scala. En 1400, durante una epidemia de peste, él y unos diez compañeros atendieron durante cuatro meses el hospital de Siena; el esfuerzo dejó su salud quebrantada de por vida. El 8 de septiembre de 1402 recibió el hábito franciscano en el convento observante, hizo su profesión un año después y fue ordenado sacerdote en 1404. Durante unos doce años vivió retirado, en oración y estudio, antes de dedicarse a predicar.\n\nDesde 1417, comenzando en Milán, recorrió Italia casi tres décadas, predicando en plazas y catedrales durante horas ante grandes multitudes. Su estilo era directo, con comparaciones tomadas de la vida diaria, y atacaba las luchas entre facciones, la usura, los juegos de azar y la superstición. Sus sermones, conservados en latín y en italiano, son una fuente valiosa sobre la sociedad del siglo XV. Su predicación sobre el trabajo, el comercio honrado y el uso justo del dinero influyó en el pensamiento económico posterior y, según la Catholic Encyclopedia, ayudó a preparar los Montes de Piedad, que prestaban a los pobres sin usura.\n\nSu devoción característica fue el Santo Nombre de Jesús. Pintaba las letras IHS, con rayos solares, sobre una tablilla que mostraba a los fieles al final de sus sermones, e incitaba a las ciudades en conflicto a sustituir los escudos de las facciones por ese monograma como signo de paz. En 1424 la usó en Volterra, y en 1427 fue acusado de superstición por esta práctica; el papa Martín V lo examinó en San Pedro el 8 de junio de 1427 y lo declaró inocente, y Eugenio IV anuló definitivamente el proceso en 1432.\n\nRehusó los obispados de Siena, Ferrara (1431) y Urbino (1435), para seguir predicando. En 1438 fue nombrado primer vicario general de los observantes italianos, y gobernó la orden hasta 1442, impulsando su crecimiento. Murió de agotamiento el 20 de mayo de 1444 en L'Aquila (Abruzos), de camino a una nueva misión, y fue canonizado el 24 de mayo de 1450 por Nicolás V, apenas seis años después.\n\nSu legado muestra cómo la fe puede transformar la vida pública: pacificó ciudades, defendió a los pobres frente a la usura y puso el nombre de Jesús en el centro de la piedad popular. Su monograma sigue visible en muchas iglesias.",
+  "virtues": [
+   "Elocuencia",
+   "Pobreza",
+   "Celo por la paz"
+  ],
+  "iconography": "Franciscano con la tablilla del nombre de Jesús (IHS) rodeado de rayos; con tres mitras a sus pies, símbolo de los obispados rechazados.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907), «St. Bernardine of Siena»",
+    "url": "https://www.newadvent.org/cathen/02505b.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "felipe-neri",
+  "name": "San Felipe Neri",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-26",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Felipe Neri, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder"
+  ],
+  "born": {
+   "date": "julio de 1515 (21 o 22 de julio, según las fuentes)",
+   "place": "Florencia"
+  },
+  "died": {
+   "date": "26 de mayo de 1595",
+   "place": "Roma"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Congregación del Oratorio",
+  "canonization": {
+   "date": "12 de marzo de 1622",
+   "by": "Gregorio XV"
+  },
+  "summary": "«Apóstol de Roma»: sacerdote alegre y humilde, fundador del Oratorio, que formó a jóvenes con oración, música y caridad.",
+  "biography": "Felipe Romolo Neri nació en Florencia en julio de 1515 (las fuentes dan el 21 o el 22) en una familia de notarios. A los dieciocho años dejó los negocios de un pariente en San Germano, cerca de Montecassino, y llegó a Roma en 1533 sin recursos. Vivió casi diecisiete años como laico: fue preceptor en una casa noble, estudió algo de filosofía y teología, y dedicó mucho tiempo a la oración nocturna, a visitar hospitales y a atender a peregrinos y convalecientes. Hacia 1544, en las catacumbas de San Sebastián, la tradición cuenta una experiencia espiritual en la que su corazón se habría dilatado; los médicos dijeron más tarde que tenía las costillas elevadas y el corazón agrandado.\n\nEn 1548 fundó junto con su confesor Persiano Rosa la cofradía de la Santísima Trinidad, que acogía a peregrinos y convalecientes. En 1551, por consejo de su confesor, fue ordenado sacerdote y se estableció en San Jerónimo de la Caridad. Desde allí confesó a multitud de personas y empezó a reunir a un grupo de jóvenes y adultos en una sala sobre la iglesia, el «oratorio», para orar, leer la Escritura y los Padres, cantar y discutir de modo sencillo. Entre sus discípulos hubo humanistas como el historiador César Baronio, cuyos *Anales eclesiásticos* nacieron de las conferencias del Oratorio, y músicos; de las laudes cantadas allí surgió el género musical del oratorio.\n\nSu espiritualidad era alegre, concreta y libre. Usaba el humor y a veces bromas para domar la vanidad en las personas, como hacer llevar la mitad de la barba rasurada o leer en voz alta mientras andaba por la calle con un libro de chistes. Organizaba visitas a las siete iglesias de Roma con refrigerio y música. Detrás de la sonrisa había penitencia, humildad y un profundo sentido de la presencia de Dios. Se negó a ser cardenal. Decía a sus discípulos que fuesen «humildes y alegres», sin pretender hacerse notar.\n\nEn 1575 Gregorio XIII reconoció la Congregación del Oratorio, una comunidad de presbíteros seculares sin votos, y le entregó Santa María in Vallicella, donde en 1577 se levantó la Chiesa Nuova. Felipe renunció al cargo de superior en 1593. Tras celebrar con gozo la misa de Corpus Christi, murió poco después de la medianoche del 26 de mayo de 1595, a los 79 años. Fue beatificado por Pablo V (1615) y canonizado el 12 de marzo de 1622 por Gregorio XV junto con Ignacio de Loyola, Francisco Javier, Teresa de Jesús e Isidro Labrador.\n\nFelipe Neri muestra que se puede educar en la fe con ternura, alegría y confianza en los jóvenes; su estilo, sin grandes estructuras, sigue vivo en los oratorios del mundo entero.",
+  "virtues": [
+   "Alegría",
+   "Humildad",
+   "Paternidad espiritual"
+  ],
+  "iconography": "Sacerdote con casulla, un lirio, libro y a veces un ángel; con corazón en llamas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «St. Philip Romolo Neri»",
+    "url": "https://www.newadvent.org/cathen/12018b.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La fecha de nacimiento difiere entre fuentes (21 o 22 de julio); la experiencia de 1544 es tradición hagiográfica."
+ },
+ {
+  "id": "beda-el-venerable",
+  "name": "San Beda el Venerable",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-25",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Beda el Venerable, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "doctor",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 673",
+   "place": "Monkton, cerca de Wearmouth (Northumbria)"
+  },
+  "died": {
+   "date": "25 de mayo de 735",
+   "place": "Jarrow"
+  },
+  "century": 8,
+  "countries": [
+   "GB"
+  ],
+  "order": "Benedictinos",
+  "summary": "Monje de Wearmouth-Jarrow, exegeta y primer gran historiador de Inglaterra; doctor de la Iglesia desde 1899.",
+  "biography": "Beda nació hacia 672 o 673 en tierras del monasterio de Wearmouth-Jarrow, en Northumbria. A los siete años fue confiado al abad Benito Biscop y después a Ceolfrido, y pasó el resto de su vida en los monasterios gemelos de Wearmouth y Jarrow, que poseían una de las mejores bibliotecas del Occidente de su época. Fue ordenado diácono en su año diecinueve y sacerdote en el treinta por Juan de Beverley. Él mismo escribió que, entre la observancia de la regla y el canto diario del oficio, su mayor placer era aprender, enseñar o escribir.\n\nSu obra abarca casi todo el saber de su tiempo. Escribió comentarios a casi toda la Escritura, basados sobre todo en los Padres latinos (Agustín, Jerónimo, Ambrosio, Gregorio Magno), de modo que transmitió su herencia al Medievo. Compuso tratados de gramática y métrica (*De arte metrica*), de cronología (*De temporum ratione*, 725), con una explicación del cálculo de la Pascua, y obras sobre la naturaleza, vidas de santos, homilías y poemas. Contribuyó a difundir el cómputo de los años desde la encarnación de Cristo (la era cristiana). Su *Historia eclesiástica del pueblo de los anglos*, terminada en 731, es la fuente principal sobre la cristianización de Inglaterra y le valió el título de «padre de la historia inglesa»; destaca por su cuidado en citar fuentes y distinguir lo seguro de lo transmitido.\n\nSabemos cómo murió por la carta de su discípulo Cutberto: enfermo desde la Cuaresma, siguió enseñando y trabajando hasta el final, dictando una traducción al inglés antiguo del evangelio de Juan, para que sus discípulos no leyeran falsedades. Murió en 735, en la vigilia de la Ascensión, que la tradición fija el 25 de mayo, cantando el *Gloria Patri*. Se recuerda su serenidad y la frase con la que animó a su escribiente a terminar pronto.\n\nEl título de «Venerable» se le daba ya en el siglo IX. Sus reliquias fueron llevadas en el siglo XI a la catedral de Durham, donde reposan en la capilla Galilea. León XIII lo declaró doctor de la Iglesia el 13 de noviembre de 1899 y fijó su fiesta el 27 de mayo; el calendario actual la sitúa el 25.\n\nBeda es un modelo de vida intelectual cristiana: estudio paciente, humildad ante los Padres, y la convicción de que enseñar a otros es una forma de servicio. Su historia sigue siendo una de las puertas principales de entrada a la Inglaterra anglosajona.",
+  "virtues": [
+   "Estudio",
+   "Humildad",
+   "Alegría en el trabajo"
+  ],
+  "iconography": "Monje benedictino con pluma y libro, escribiendo; a veces con una lámpara.",
+  "works": [
+   {
+    "title": "Historia eclesiástica del pueblo de los anglos"
+   },
+   {
+    "title": "De temporum ratione"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907), «The Venerable Bede»",
+    "url": "https://www.newadvent.org/cathen/02384a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La fecha de 25 de mayo y el traslado a Durham no figuran en la Catholic Encyclopedia consultada; proceden de la tradición recogida en la carta de Cutberto y de la historia de Durham."
+ },
+ {
+  "id": "pablo-vi",
+  "name": "San Pablo VI",
+  "fullName": "Giovanni Battista Montini",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-29",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pablo VI, papa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "pope"
+  ],
+  "born": {
+   "date": "26 de septiembre de 1897",
+   "place": "Concesio (Brescia)"
+  },
+  "died": {
+   "date": "6 de agosto de 1978",
+   "place": "Castel Gandolfo"
+  },
+  "century": 20,
+  "countries": [
+   "IT"
+  ],
+  "canonization": {
+   "date": "14 de octubre de 2018",
+   "by": "Francisco"
+  },
+  "summary": "Giovanni Battista Montini, papa de 1963 a 1978: condujo el Concilio Vaticano II hasta su clausura y aplicó sus reformas.",
+  "biography": "Giovanni Battista Montini nació el 26 de septiembre de 1897 en Concesio, cerca de Brescia, en una familia católica comprometida con la vida social. Fue ordenado sacerdote el 29 de mayo de 1920 en Brescia, obtuvo doctorados en derecho canónico (1922) y civil (1924), y el 24 de octubre de 1924 entró en la Secretaría de Estado, donde trabajó más de treinta años con Pío XI y Pío XII y fue sustituto desde 1937. Fue también asistente de los universitarios católicos italianos.\n\nEl 1 de noviembre de 1954 fue nombrado arzobispo de Milán, la mayor diócesis de Italia, y entró en ella el 6 de enero de 1955; promovió la «misión ciudadana» entre obreros y alejados. Juan XXIII lo creó cardenal el 15 de diciembre de 1958. El 21 de junio de 1963 fue elegido papa y tomó el nombre de Pablo. Reabrió el Concilio Vaticano II el 29 de septiembre de 1963 y lo concluyó el 8 de diciembre de 1965. En su pontificado impulsó la reforma litúrgica, el Sínodo de los Obispos y la renovación de la curia, y el diálogo ecuménico: en enero de 1964 se encontró en Jerusalén con el patriarca Atenágoras y el 7 de diciembre de 1965 se levantaron las excomuniones mutuas de 1054.\n\nFue el primer papa que visitó los cinco continentes. En 1964 viajó a Tierra Santa y a la India; en 1965 habló ante la ONU en Nueva York; en 1968 visitó Bogotá, en el primer viaje papal a América Latina. Sus encíclicas incluyen *Ecclesiam suam* (1964), sobre el diálogo de la Iglesia con el mundo, *Populorum progressio* (1967), sobre el desarrollo integral de los pueblos, y *Humanae vitae* (1968), sobre la transmisión de la vida, que suscitó una amplia controversia y le causó gran sufrimiento. Su exhortación *Evangelii nuntiandi* (1975) es considerada una carta magna de la evangelización.\n\nLos años posteriores al Concilio fueron difíciles, con la secularización y las tensiones internas. Murió el 6 de agosto de 1978, fiesta de la Transfiguración, en Castel Gandolfo; fue sepultado en las grutas vaticanas. Francisco lo beatificó el 19 de octubre de 2014 y lo canonizó el 14 de octubre de 2018, junto con Óscar Romero y otros cinco beatos. Su memoria libre se celebra el 29 de mayo, aniversario de su ordenación sacerdotal.\n\nPablo VI se describía como un servidor del Concilio y un hombre de diálogo. Su figura, a la vez reflexiva y valiente, enseña a conducir la Iglesia con fidelidad a la tradición y apertura a los signos de los tiempos.",
+  "context": "Posconcilio, secularización y crisis de la Iglesia en el Occidente de los años sesenta y setenta.",
+  "virtues": [
+   "Prudencia",
+   "Sufrimiento por la Iglesia",
+   "Fe en el diálogo"
+  ],
+  "significance": "Condujo la recepción del Concilio Vaticano II.",
+  "iconography": "Papa con mitra y palio, a veces con el báculo en forma de crucifijo que usó.",
+  "works": [
+   {
+    "title": "Evangelii nuntiandi"
+   },
+   {
+    "title": "Populorum progressio"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Vaticano, Biografía de Su Santidad Pablo VI",
+    "url": "https://www.vatican.va/content/paul-vi/it/biografia/documents/hf_p-vi_spe_20190722_biografia.html"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "mariana-de-jesus-paredes",
+  "name": "Santa Mariana de Jesús Paredes",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-26",
+    "rank": "optional",
+    "calendar": "ec",
+    "title": "Santa Mariana de Jesús Paredes, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "lay",
+   "mystic"
+  ],
+  "born": {
+   "date": "31 de octubre de 1618",
+   "place": "Quito"
+  },
+  "died": {
+   "date": "26 de mayo de 1645",
+   "place": "Quito"
+  },
+  "century": 17,
+  "countries": [
+   "EC"
+  ],
+  "canonization": {
+   "date": "9 de julio de 1950",
+   "by": "Pío XII",
+   "note": "Beatificada el 10 de noviembre de 1853 por Pío IX."
+  },
+  "summary": "Joven quiteña, «Azucena de Quito», que vivió retirada en oración y penitencia y se ofreció por su pueblo; primera santa de Ecuador.",
+  "biography": "Mariana de Jesús Paredes y Flores nació en Quito el 31 de octubre de 1618, en una familia criolla de origen español. Sus padres eran de linaje noble. Desde niña mostró una gran inclinación a la oración, a la mortificación y a la devoción a la Virgen. Según los testimonios recogidos en el proceso de beatificación, hacia los diez años hizo votos privados de pobreza, castidad y obediencia. Deseaba evangelizar o ingresar a un monasterio; cuando comprendió que ese no era el camino que Dios le señalaba, aceptó vivir en el mundo, en un retiro solitario dentro de su propia casa, de donde salía muy poco, sobre todo para ir a misa.\n\nSu vida fue de oración intensa y penitencias severas, que las biografías tradicionales describen con gran dureza: ayunos prolongados con muy poco alimento, y la Eucaristía como sostén principal. Hoy esas prácticas se leen a la luz de la espiritualidad barroca, y la Iglesia no las propone como modelo de imitación, sino como signo de su entrega total. Los testigos le atribuyen dones místicos: oración contemplativa, profecía y sanaciones. Pío XII, en su discurso de 1950 a los peregrinos, destacó el valor de la reparación como centro de su espiritualidad, en una época en la que apenas comenzaba a difundirse la devoción al Sagrado Corazón.\n\nMurió en Quito el 26 de mayo de 1645, a los veintiséis años. Según la tradición, en aquellos años Quito sufría terremotos y una epidemia, y Mariana se ofreció a Dios como víctima por la salvación de su pueblo; así lo recoge Pío XII al decir que murió ofreciendo su vida por él. La tradición añade que, en el lugar donde se había derramado su sangre (o sobre su tumba), brotó un lirio blanco, de donde viene el título de «Azucena de Quito». Esa es una leyenda piadosa que no puede documentarse históricamente.\n\nFue beatificada por Pío IX el 10 de noviembre de 1853 y canonizada por Pío XII el 9 de julio de 1950, convirtiéndose en la primera santa de Ecuador. Su fiesta se celebra el 26 de mayo. Ecuador la venera como «heroína nacional» y la propone como modelo para la juventud.\n\nMariana enseña que la santidad no depende de grandes obras externas, sino de la entrega total del corazón, y que la oración por el propio pueblo es una forma de servicio.",
+  "virtues": [
+   "Oración",
+   "Caridad con los pobres",
+   "Entrega"
+  ],
+  "iconography": "Joven con una azucena, crucifijo y calavera; vestida con hábito oscuro.",
+  "sources": [
+   {
+    "label": "Pío XII, Audiencia a los peregrinos de la canonización de Mariana de Jesús Paredes (10-VII-1950)",
+    "url": "https://www.vatican.va/content/pius-xii/es/speeches/1950/documents/hf_p-xii_spe_19500710_mariana-paredes.html"
+   },
+   {
+    "label": "Catholic Encyclopedia (1910), «Bl. Mary Anne de Paredes»",
+    "url": "https://www.newadvent.org/cathen/09753b.htm"
+   }
+  ],
+  "note": "Los detalles familiares (hermana, cuñado) y el vínculo con jesuitas o terciarios franciscanos no se verificaron y se omitieron. El rango «memoria libre» en el calendario de Ecuador (calendar 'ec') no se pudo cotejar con una fuente directa.",
+  "unverified": true
+ },
+ {
+  "id": "nereo-y-aquileo",
+  "name": "Santos Nereo y Aquileo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-12",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Nereo y Aquileo, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr"
+  ],
+  "born": null,
+  "died": {
+   "date": "siglo I-IV (fecha incierta)",
+   "place": "Roma"
+  },
+  "countries": [
+   "IT"
+  ],
+  "summary": "Dos soldados romanos convertidos al cristianismo que, según el epigrama del papa Dámaso, dejaron las armas y murieron mártires; sepultados en la catacumba de Domitila.",
+  "biography": "Nereo y Aquileo son dos mártires romanos cuyo culto es muy antiguo, pero cuya vida se conoce con poca precisión. Los calendarios romanos del siglo V, que pasaron al Martirologio Jeronimiano, ya registran sus nombres, y su sepulcro se encontraba en la catacumba de Domitila, en la vía Ardeatina, en Roma. Lo más antiguo y fiable que se conserva sobre ellos es el epigrama que hacia el año 380 el papa Dámaso mandó grabar en su sepulcro. Según ese texto, eran soldados al servicio de un poder tiránico; se convirtieron al cristianismo, abandonaron la milicia, arrojaron sus armas, y murieron por la fe.\n\nLa Catholic Encyclopedia señala que la fecha de su muerte no puede establecerse. A finales del siglo IV se construyó sobre su sepultura una basílica de tres naves, que el arqueólogo Giovanni Battista de Rossi descubrió en 1874. En ella se conservaron los pilares de un ciborio con relieves que representan su decapitación, y el nombre de Aquileo aparece grabado en una de las columnas. Este hallazgo confirma que su veneración fue pública y masiva en la Roma antigua.\n\nMás tarde, hacia el siglo VI, se compuso una *Pasión* que los convierte en eunucos y camareros de la noble Flavia Domitila, sobrina del emperador Domiciano. Según ese relato, la acompañaron al destierro en la isla de Ponza y fueron decapitados en Terracina, y se les vincula con otros mártires y con la leyenda de Simón el Mago. Los especialistas consideran esta *Pasión* legendaria y sin valor histórico; es una elaboración posterior que busca dar una biografía a dos nombres venerados. Por eso conviene distinguir entre lo documentado (soldados convertidos, mártires, tumba y basílica en la catacumba de Domitila) y lo legendario (relaciones con Domitila y Simón el Mago).\n\nFueron venerados en Roma durante siglos: en el siglo IX sus reliquias se trasladaron a la iglesia titular de Santos Nereo y Aquileo, junto a las termas de Caracalla, donde se conservan. Hoy la Iglesia los recuerda el 12 de mayo, el mismo día que a san Pancracio, con una memoria libre desde la reforma de 1969.\n\nSu ejemplo es el de dos hombres que reconocieron que el servicio a Cristo no se puede compatibilizar con la violencia al servicio de un poder que exige culto injusto, y que prefirieron perderlo todo antes que renegar de la fe. Sin conocer con certeza los detalles de su historia, la Iglesia ha guardado fielmente la memoria de su testimonio.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «Sts. Nereus and Achilleus, Domitilla and Pancratius»",
+    "url": "https://www.newadvent.org/cathen/10751a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "El traslado de reliquias al titulus de Santos Nereo y Aquileo (siglo IX) y el descubrimiento de 1874 proceden de conocimiento común y no de la fuente leída; el resto sí consta en la Catholic Encyclopedia."
+ },
+ {
+  "id": "pancracio",
+  "name": "San Pancracio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-12",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pancracio, mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr"
+  ],
+  "died": {
+   "date": "siglo III-IV (fecha incierta)",
+   "place": "Roma"
+  },
+  "countries": [
+   "IT"
+  ],
+  "summary": "Joven mártir romano, sepultado en la vía Aurelia, cuyo culto está atestiguado desde el siglo V; los detalles de su Pasión son legendarios.",
+  "biography": "San Pancracio (en latín *Pancratius*, del griego «el que todo lo domina») fue un joven mártir de Roma enterrado en un cementerio de la vía Aurelia, a unas dos millas de la ciudad. Su culto aparece en los calendarios romanos del siglo V y en el Martirologio Jeronimiano, que lo menciona el 12 de mayo, el mismo día que los santos Nereo y Aquileo. En el siglo IV se levantó una iglesia sobre su tumba, que subsiste, con reformas, en el Janículo. La memoria de la Iglesia ha conservado su nombre con constancia desde entonces.\n\nLo que se sabe de su vida concreta es muy poco. La Catholic Encyclopedia señala que la leyenda de su martirio es tardía y no tiene fiabilidad histórica, y que probablemente murió en la persecución de Valeriano (257-258) o en la de Diocleciano (304-306). Otro artículo la describe como la de un mártir muy joven. La tradición popular, basada en una *Pasión* posterior, dice que era un muchacho de unos catorce años nacido en Frigia (Asia Menor), huérfano y llevado a Roma por un tío, que fue bautizado y que, ante el emperador Diocleciano, se negó a ofrecer sacrificios a los dioses y fue decapitado. Esos datos son relato piadoso, no historia documentada.\n\nSu culto se difundió pronto. Gregorio Magno lo menciona en una homilía y el papa Símaco levantó una basílica en su honor. Agustín de Cantorbery, enviado por Gregorio, dedicó a san Pancracio una de las primeras iglesias de Inglaterra, la que hoy conocemos como iglesia de san Pancracio en Canterbury, sobre un antiguo templo. Reliquias suyas se repartieron por Europa, lo que explica nombres de lugares como la estación londinense de St Pancras. El cementerio de la vía Aurelia sufrió devastaciones sucesivas, la última en la Revolución francesa, cuando se dispersaron las reliquias de los mártires.\n\nHoy la Iglesia lo celebra el 12 de mayo como memoria libre. Aunque en la devoción popular se le atribuyen protecciones concretas, no hay fuentes antiguas que respalden patronazgos específicos, y por eso aquí no se enumeran.\n\nSu recuerdo enseña que la fidelidad a Cristo no depende de la edad: un muchacho pudo mostrar a los adultos de su tiempo la firmeza de quien prefiere perder la vida antes que la fe. Su nombre y su tumba, honrados durante diecisiete siglos, son la prueba de que los cristianos de Roma reconocieron en él a un auténtico testigo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «Sts. Nereus and Achilleus, Domitilla and Pancratius»",
+    "url": "https://www.newadvent.org/cathen/10751a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "La edad (14 años), el origen frigio y las menciones de Gregorio Magno, Símaco y la iglesia de Canterbury son tradición o conocimiento común, no leídos en la fuente; verificar con el Martirologio Romano o Acta Sanctorum."
+ },
+ {
+  "id": "nuestra-senora-de-fatima",
+  "name": "Nuestra Señora de Fátima",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "05-13",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Nuestra Señora de Fátima",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "century": 20,
+  "countries": [
+   "PT"
+  ],
+  "summary": "Advocación mariana vinculada a las apariciones de 1917 a tres pastorcillos en la Cova da Iria (Portugal); mensaje de oración, penitencia y conversión.",
+  "biography": "Nuestra Señora de Fátima es una advocación mariana ligada a los acontecimientos que tres niños pastores (Lucía dos Santos, y sus primos Francisco y Jacinta Marto) afirmaron vivir en la Cova da Iria, cerca de Fátima (Portugal), a partir del 13 de mayo de 1917. Según su relato, una «Señora más brillante que el sol» se les apareció cada mes, el día 13, hasta el 13 de octubre (con una excepción en agosto, el día 19), y les pidió oración, penitencia y la recitación del rosario por la paz del mundo y la conversión de los pecadores. Antes, en 1916, los niños habían contado la visita de un ángel que los preparó con oraciones de adoración.\n\nLas apariciones se dieron en plena Primera Guerra Mundial y en una época de conflicto religioso en Portugal. La noticia provocó interés y también hostilidad civil; los niños fueron incluso detenidos por breve tiempo. El 13 de octubre de 1917, una gran multitud acudió al lugar, y muchos testigos hablaron de un fenómeno solar extraordinario, el «milagro del sol». Francisco murió en 1919 y Jacinta en 1920, ambos muy jóvenes; Lucía se hizo religiosa y murió en 2005. Sus escritos son la fuente principal del contenido del mensaje.\n\nLa Iglesia no presenta las apariciones como parte de la Revelación pública, sino como una «revelación privada» que ayuda a vivir el Evangelio. Como explicó el comentario teológico publicado por la Congregación para la Doctrina de la Fe en el año 2000, su aprobación significa que el mensaje no contiene nada contrario a la fe ni a las buenas costumbres, y que los fieles pueden aceptarlo con prudencia. El obispo de Leiria declaró dignas de crédito las apariciones en 1930 y aprobó el culto; la memoria litúrgica se extendió a toda la Iglesia en 2002 (opcional, el 13 de mayo). Juan Pablo II, herido en el atentado del 13 de mayo de 1981, atribuyó su salvación a la protección de la Virgen y entregó la bala al obispo de Leiria-Fátima, que fue engarzada en la corona de la imagen. Beatificó a Francisco y Jacinta el 13 de mayo de 2000.\n\nEl mensaje de Fátima, tal como lo explica la Iglesia, es una llamada a la oración, a la penitencia y a la conversión, y a la devoción al Corazón Inmaculado de María. El texto de 2000 destaca la exhortación del ángel: «¡Penitencia, penitencia, penitencia!». Ningún católico está obligado a creer en las apariciones, pero el santuario, uno de los mayores centros de peregrinación del mundo, atrae a millones de personas.\n\nPara el creyente, Fátima recuerda que la Virgen conduce siempre a Cristo, que la oración sencilla tiene poder, y que Dios elige a los pequeños para sostener a la Iglesia en tiempos difíciles.",
+  "iconography": "Imagen de la Virgen con el manto blanco, la corona y el rosario en las manos, sobre una encina, con los tres pastorcillos arrodillados.",
+  "sources": [
+   {
+    "label": "Congregación para la Doctrina de la Fe, «El mensaje de Fátima» (26-VI-2000)",
+    "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20000626_message-fatima_sp.html"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "Se verificó en el texto vaticano: beatificación de Francisco y Jacinta (13-V-2000), atentado de 1981, naturaleza de revelación privada. Las fechas de 1916-1920, la declaración del obispo de Leiria en 1930 y la extensión del culto en 2002 proceden de fuentes secundarias (Estado Vaticano, Britannica) y no se leyeron en un documento primario."
+ },
+ {
+  "id": "jose-obrero",
+  "name": "San José Obrero",
+  "fullName": "San José, esposo de la Virgen María, obrero",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-01",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San José Obrero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "married",
+   "lay"
+  ],
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Memoria de san José como carpintero de Nazaret y modelo del trabajo humano, instituida por Pío XII el 1 de mayo de 1955.",
+  "biography": "La memoria de san José Obrero celebra a José, esposo de María y padre legal de Jesús, en su condición de artesano. Los evangelios lo presentan como un «hombre justo» (Mt 1,19) y dicen que Jesús era conocido como «el hijo del carpintero» (Mt 13,55). La palabra griega *tekton* designa en realidad al artesano que trabajaba la madera y otros materiales, quizá también la piedra, en una aldea de Galilea como Nazaret. Dado que el Evangelio atribuye a Jesús ese mismo entorno, el trabajo manual de la Sagrada Familia pasó a ser un tema esencial de la espiritualidad cristiana.\n\nLa fecha del 1 de mayo es reciente. El papa Pío XII la instituyó el 1 de mayo de 1955, al dirigirse a la Asociación Cristiana de Trabajadores Italianos reunida en la plaza de San Pedro, con el fin de que el mundo del trabajo tuviera un protector y un modelo y no perdiera una comprensión cristiana del trabajo humano. La celebración respondía a la fiesta civil del Día Internacional de los Trabajadores, que tenía una orientación ideológica ajena a la fe cristiana, ofreciendo así a los cristianos un sentido distinto para esa fecha: el trabajo como colaboración con la obra creadora de Dios y camino de santificación. En la reforma del calendario de 1969, la fiesta de 1955 se transformó en una memoria libre del Calendario Romano General, ya que la solemnidad principal de José se celebra el 19 de marzo.\n\nEl mensaje de la memoria es doble. Primero, que el trabajo tiene dignidad porque lo realizó el propio Hijo de Dios, que creció en un taller humilde; el trabajador no es un instrumento, sino una persona con vocación. Segundo, que la santidad puede alcanzarse en la vida ordinaria: José no dejó una sola palabra escrita en los evangelios, pero su silencio, su obediencia a los avisos de Dios y su cuidado de la familia lo muestran como un modelo de fidelidad concreta. En la tradición posterior, Juan Pablo II desarrolló esta enseñanza en la exhortación *Redemptoris custos* y en la encíclica *Laborem exercens* sobre el trabajo humano.\n\nPara el Calendario Romano, esta memoria no se coloca por encima de las del tiempo pascual, pero invita cada 1 de mayo a rezar por los trabajadores, por quienes no tienen empleo y por la justicia en las condiciones laborales. Se suele acompañar con bendiciones de herramientas y de talleres en muchas parroquias.\n\nSobre san José como figura bíblica y su fiesta del 19 de marzo remitimos a su ficha propia.",
+  "iconography": "San José con las herramientas del carpintero (sierra, escuadra, martillo) y el Niño Jesús; a veces con una vara florida.",
+  "sources": [
+   {
+    "label": "Vatican News, «San José Obrero» (santoral)",
+    "url": "https://www.vaticannews.va/en/saints/05/01/st-joseph--the-worker--spouse-of-the-blessede-virigin-mary---pat.html"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "La fuente vaticana confirma institución por Pío XII el 1-V-1955 y el oficio de carpintero. El rango de memoria libre en 1969, la mención a la plaza de San Pedro y a las encíclicas de Juan Pablo II no se leyeron en la fuente (conocimiento común); verificar."
+ },
+ {
+  "id": "juan-i-papa",
+  "name": "San Juan I, papa y mártir",
+  "fullName": "Juan I",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-18",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Juan I, papa y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "pope",
+   "martyr"
+  ],
+  "born": {
+   "place": "Toscana"
+  },
+  "died": {
+   "date": "18 o 19 de mayo de 526",
+   "place": "Rávena"
+  },
+  "century": 6,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Papa de 523 a 526, enviado por el rey ostrogodo Teodorico a Constantinopla, murió encarcelado en Rávena y la Iglesia lo venera como mártir.",
+  "biography": "Juan, nacido en la Toscana e hijo de un tal Constancio, fue elegido papa el 13 de agosto de 523, tras una vacante de siete días. Su pontificado duró dos años, nueve meses y siete días. Gobernaba Italia el rey ostrogodo Teodorico, arriano, que toleraba a los católicos, pero la situación política cambió a partir del año 523. Ese año el emperador Justino I, en Constantinopla, promulgó un severo decreto contra los arrianos, y Teodorico temió por la suerte de los arrianos de Oriente y por la de su propio reino.\n\nEn los primeros meses de 525, Teodorico envió a Constantinopla una embajada de senadores romanos y obligó al papa a encabezarla, con el fin de lograr que Justino retirase el edicto. Era la primera vez que un papa visitaba Constantinopla. Según la Catholic Encyclopedia, Juan fue recibido con gran honor: Justino se postró ante él, y el papa celebró la misa de Pascua el 19 de abril de 526 en la basílica de Santa Sofía según el rito latino. Logró que se suavizara la situación de los arrianos, pero no obtuvo que se les devolvieran las iglesias confiscadas, ni que los convertidos de nuevo al arrianismo recuperaran sus bienes.\n\nA su regreso a Italia, Teodorico lo hizo detener y encerrar en Rávena. Estaba irritado por el éxito de la embajada, que le parecía una muestra de confianza demasiado cordial entre el papa y el emperador, y acababa de mandar ejecutar a los senadores Boecio y Símaco, sospechosos de conspirar con Constantinopla. El papa murió en prisión, agotado por los esfuerzos del viaje y los malos tratos, el 18 o 19 de mayo de 526, según el cálculo más común. Su cuerpo fue trasladado a Roma y sepultado en la basílica de San Pedro. Teodorico murió pocos meses después, el 30 de agosto de 526.\n\nLa Iglesia latina lo cuenta entre sus mártires y lo recordaba el 27 de mayo; en el calendario actual la memoria es libre el 18 de mayo. Hay que decir con honestidad que no murió por una condena directa a causa de su fe, sino por las circunstancias de una prisión política y las dificultades de su viaje. Su título de mártir refleja que murió como consecuencia de las presiones de un rey que quería controlar la política de la Iglesia.\n\nSu historia muestra la fragilidad de la libertad de la Iglesia ante los poderes políticos, aun cuando actúa por una causa que no es suya. También ilustra la relación entre las Iglesias de Roma y de Constantinopla, en la época de la reconciliación tras el cisma acaciano, y la función de los papas como mediadores en conflictos entre los pueblos.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1910), «Pope St. John I»",
+    "url": "http://newadvent.org/cathen/08421a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "Ficha basada en una sola fuente (Catholic Encyclopedia). La extensa explicación del contexto y la fecha de muerte de Teodorico no se verificaron en una segunda fuente; el cisma acaciano (sanado en 519) es contexto de conocimiento común."
+ },
+ {
+  "id": "eugenio-de-mazenod",
+  "name": "San Eugenio de Mazenod",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-21",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Eugenio de Mazenod, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "founder",
+   "missionary"
+  ],
+  "born": {
+   "date": "1 de agosto de 1782",
+   "place": "Aix-en-Provence (Francia)"
+  },
+  "died": {
+   "date": "21 de mayo de 1861",
+   "place": "Marsella (Francia)"
+  },
+  "century": 19,
+  "countries": [
+   "FR"
+  ],
+  "order": "Oblatos de María Inmaculada",
+  "canonization": {
+   "date": "3 de diciembre de 1995",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Obispo de Marsella y fundador de los Misioneros Oblatos de María Inmaculada, dedicado a evangelizar a los pobres.",
+  "biography": "Eugenio de Mazenod nació el 1 de agosto de 1782 en Aix-en-Provence, en una familia de la nobleza. Cuando tenía unos ocho años, la Revolución Francesa obligó a los suyos a huir; pasaron cerca de once años en el exilio, sobre todo en Italia, donde la familia perdió gran parte de su fortuna. Volvió a Francia en 1802, a los veinte años, y atravesó una crisis espiritual que culminó en una conversión profunda, un Viernes Santo, ante el crucifijo, cuando sintió el peso de los pecados y la misericordia de Cristo. Decidió hacerse sacerdote y entró en el seminario de San Sulpicio, en París.\n\nFue ordenado sacerdote en Amiens el 21 de diciembre de 1811. En lugar de buscar un puesto cómodo, volvió a Aix y se dedicó a presos, jóvenes y campesinos, que habían quedado abandonados tras la Revolución, y predicó en provenzal, la lengua del pueblo. Reunió a algunos compañeros en lo que llamó los «Misioneros de Provenza», que se dedicaban a predicar misiones populares. El 17 de febrero de 1826, el papa León XII aprobó la nueva congregación con el nombre de Misioneros Oblatos de María Inmaculada, y Eugenio fue elegido superior general. Su lema fue «Evangelizare pauperibus misit me» («Me ha enviado a evangelizar a los pobres», Lc 4,18).\n\nEn 1832 fue ordenado obispo auxiliar de Marsella y, unos cinco años después, sucedió a su tío como obispo de esa ciudad. Como pastor, creó nuevas parroquias, impulsó la construcción de la catedral y del santuario de Nuestra Señora de la Guardia, y trajo a numerosas congregaciones religiosas para atender a los pobres, a los migrantes y a los enfermos. Sin dejar de gobernar la diócesis, dirigió a los Oblatos, que bajo su impulso se extendieron a Canadá, a los territorios del Ártico, a Ceilán, a Sudáfrica y a otros lugares. En 1856 Napoleón III lo nombró senador, un cargo que aceptó con reservas.\n\nMurió el 21 de mayo de 1861, a los setenta y nueve años. Fue beatificado en 1975 y canonizado por Juan Pablo II el 3 de diciembre de 1995, primer domingo de Adviento. El papa lo describió en su homilía como un «hombre del Adviento», porque dedicó su vida a preparar la venida de Cristo en los pobres.\n\nSu espiritualidad vincula el amor a Cristo con el amor a la Iglesia y con la cercanía a los más pobres; los Oblatos continúan su trabajo en decenas de países. Su ejemplo anima a quienes buscan unir la contemplación y la misión: una vida volcada hacia fuera, sostenida por la oración y la vida comunitaria.",
+  "sources": [
+   {
+    "label": "Santa Sede, «Eugenio de Mazenod (1782-1861)», biografía de canonización",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19951203_de-mazenod_en.html"
+   },
+   {
+    "label": "Juan Pablo II, homilía en la canonización de Eugène de Mazenod (3-XII-1995)",
+    "url": "https://www.vatican.va/content/john-paul-ii/it/homilies/1995/documents/hf_jp-ii_hom_19951203_de-mazenod.html"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "Datos de vida y fechas verificados en la biografía vaticana. Beatificación de 1975, la conversión «en Viernes Santo», el lema y la expansión de los Oblatos son conocimiento común (la homilía confirma la figura del «hombre del Adviento»); verificar con las fuentes de los Oblatos."
+ },
+ {
+  "id": "rita-de-casia",
+  "name": "Santa Rita de Casia",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-22",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Rita de Casia, religiosa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "married",
+   "mystic"
+  ],
+  "born": {
+   "date": "1386 (c.)",
+   "place": "Rocca Porena, cerca de Casia (Umbría)"
+  },
+  "died": {
+   "date": "1456 (22 de mayo)",
+   "place": "Casia (Umbría)"
+  },
+  "century": 15,
+  "countries": [
+   "IT"
+  ],
+  "order": "Orden de San Agustín",
+  "canonization": {
+   "date": "24 de mayo de 1900",
+   "by": "León XIII"
+  },
+  "summary": "Esposa, madre, viuda y religiosa agustina de Casia, que perdonó el asesinato de su marido y es venerada como intercesora en las causas difíciles.",
+  "biography": "Rita nació hacia 1386 en Rocca Porena, un pueblo de montaña de la diócesis de Espoleto, en Umbría. Sus padres eran, según la Catholic Encyclopedia, ancianos y caritativos. Ella quería ser monja, pero la obediencia a sus padres la llevó a casarse, a los doce años según esa fuente, con un hombre de carácter violento. Durante unos dieciocho años (cifra transmitida por la tradición) soportó los malos tratos con paciencia y fue madre de dos hijos gemelos. Su perseverancia consiguió suavizar a su marido, que se arrepintió antes de morir asesinado.\n\nDespués del crimen, Rita intentó impedir que sus hijos buscaran venganza, y rezó para que no cometieran un homicidio. Según la tradición, ambos murieron poco después, reconciliados con Dios. Ya viuda y sola, pidió ingresar en el convento agustino de Santa María Magdalena en Casia. Fue rechazada al principio, porque en aquella comunidad no se admitía a viudas, pero tras insistir, y con lo que la tradición describe como una intervención milagrosa, fue admitida. Vivió allí unos cuarenta años, entre la obediencia, la oración y el cuidado de las hermanas enfermas.\n\nLa tradición piadosa añade que, tras meditar ante un crucifijo, una espina de la corona de Cristo le hirió la frente, y que la herida le duró varios años. Es el motivo por el que se la pinta con una herida en la frente. También se la representa con rosas o con una rosa y un higo, que provienen de un episodio de su agonía narrado en tradiciones locales y que no puede verificarse. La Catholic Encyclopedia no los llama estigmas.\n\nMurió en el convento de Casia en 1456 (algunas fuentes dan 1457). Su sepulcro se hizo lugar de peregrinación y Urbano VIII permitió en 1637 su Misa y su Oficio. Fue canonizada el 24 de mayo de 1900 por León XIII. Su fiesta es el 22 de mayo.\n\nAunque se la conoce hoy como «santa de los imposibles» y patrona de las causas difíciles, esa fama es de devoción popular posterior y no se documenta en las fuentes antiguas. Lo que sí se puede afirmar es que Rita vivió en cada estado de vida, matrimonio, viudedad y vida religiosa, un camino de perdón y de reconciliación; su ejemplo es una invitación a responder al mal con paz.",
+  "iconography": "Religiosa agustina con una espina o herida en la frente, con un crucifijo, rosas y a veces un higo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1912), «St. Rita of Cascia»",
+    "url": "https://www.newadvent.org/cathen/13064a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "Una sola fuente leída. La edad de matrimonio (12 años) la da la Catholic Encyclopedia, pero la cronología (18 años de matrimonio, 40 años de convento) y la beatificación son tradición o no verificados. La Catholic Encyclopedia da 1456 y otra entrada 1457 para la muerte."
+ },
+ {
+  "id": "gregorio-vii",
+  "name": "San Gregorio VII",
+  "fullName": "Hildebrando de Soana",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-25",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Gregorio VII, papa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "pope",
+   "pastor"
+  ],
+  "born": {
+   "date": "entre 1020 y 1025",
+   "place": "Soana (Toscana)"
+  },
+  "died": {
+   "date": "25 de mayo de 1085",
+   "place": "Salerno"
+  },
+  "century": 11,
+  "countries": [
+   "IT",
+   "DE"
+  ],
+  "order": "Benedictino",
+  "canonization": {
+   "date": "1728",
+   "by": "Benedicto XIII",
+   "note": "Beatificado por Gregorio XIII en 1584."
+  },
+  "summary": "Papa de 1073 a 1085, impulsor de la reforma gregoriana y protagonista de la querella de las investiduras con el emperador Enrique IV.",
+  "biography": "Hildebrando nació entre 1020 y 1025 en Soana, en la Toscana, de origen humilde. Se formó en Roma y se vinculó con el movimiento de reforma de la Iglesia, que combatía la simonía (compra de cargos eclesiásticos) y el incumplimiento del celibato clerical. Sirvió como consejero de varios papas y fue un colaborador clave de Alejandro II. Cuando este murió, el 21 de abril de 1073, el pueblo de Roma aclamó a Hildebrando, que fue elegido el 22 de abril y consagrado el 29 de junio. Tomó el nombre de Gregorio VII en honor de su primer protector, Gregorio VI.\n\nSu pontificado se centró en la libertad de la Iglesia frente a los poderes civiles. Los príncipes seculares nombraban obispos y abades, y les entregaban el anillo y el báculo (la «investidura»), lo que subordinaba la Iglesia al poder político y favorecía la simonía. En el sínodo cuaresmal de 1075, Gregorio prohibió que los laicos entregaran investiduras eclesiásticas y excomulgó a los consejeros del rey Enrique IV de Alemania. Enrique respondió en 1076 en la dieta de Worms declarando depuesto al papa, y Gregorio lo excomulgó y liberó a sus súbditos del juramento de fidelidad. Presionado por los príncipes alemanes, Enrique cruzó los Alpes en pleno invierno y se presentó descalzo ante el castillo de Canossa, donde Gregorio, tras tres días, lo absolvió el 28 de enero de 1077, con la condición de que se sometiera a un concilio.\n\nEl conflicto se reanudó. En 1080, el papa excomulgó de nuevo a Enrique, que respondió nombrando antipapa a Guiberto de Rávena (Clemente III). En 1084 el rey entró en Roma y fue coronado emperador por el antipapa. Gregorio, que se había refugiado en el castillo de Sant'Angelo, fue rescatado por los normandos de Roberto Guiscardo, pero la ciudad sufrió un saqueo y el pueblo romano se volvió contra él. Se retiró a Montecassino y luego a Salerno, donde murió el 25 de mayo de 1085. Según el testimonio recogido, sus últimas palabras fueron: «He amado la justicia y odiado la iniquidad; por eso muero en el destierro».\n\nFue beatificado por Gregorio XIII en 1584 y canonizado por Benedicto XIII en 1728. Su reforma, llamada gregoriana, dejó un legado duradero: la independencia de la Iglesia, la reafirmación de la autoridad del papa y el fin gradual de la investidura laica. Se le atribuye también el documento *Dictatus papae* (1075), en el que se resumen sus tesis sobre la autoridad pontificia, aunque los historiadores discuten su carácter y destino exactos.\n\nSu figura es controvertida y compleja: algunos admiran su firmeza, otros critican su énfasis en el poder papal. Su lección permanente es que la Iglesia necesita libertad para anunciar el Evangelio sin sumisión a intereses políticos.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1910), «Pope St. Gregory VII»",
+    "url": "https://www.newadvent.org/cathen/06791c.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La Catholic Encyclopedia consultada no menciona el Dictatus papae; esa mención y el rescate normando son conocimiento común (verificar si se quiere afinar)."
+ },
+ {
+  "id": "maria-magdalena-de-pazzi",
+  "name": "Santa María Magdalena de Pazzi",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-25",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa María Magdalena de Pazzi, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "2 de abril de 1566",
+   "place": "Florencia"
+  },
+  "died": {
+   "date": "25 de mayo de 1607",
+   "place": "Florencia"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Carmelitas",
+  "canonization": {
+   "date": "28 de abril de 1669",
+   "by": "Clemente IX",
+   "note": "Beatificada en 1626 (Urbano VIII)."
+  },
+  "summary": "Carmelita florentina de intensa vida mística, cuyos éxtasis fueron transcritos por sus hermanas; modelo de amor eucarístico y de purificación interior.",
+  "biography": "Catalina de Pazzi nació en Florencia el 2 de abril de 1566, hija de Camilo Geri de Pazzi, de una de las familias más notables de la ciudad, y de una Buondelmonti. Desde niña se sintió atraída por el Santísimo Sacramento: a los diez años hizo su primera comunión y poco después prometió a Dios su virginidad. Cuando quiso ser religiosa, eligió el convento carmelita de Santa María de los Ángeles, de Florencia, porque allí se comulgaba a diario, algo poco común en aquel tiempo. Ingresó en diciembre de 1582.\n\nTomó el hábito en 1583 con el nombre de María Magdalena. Cayó gravemente enferma poco después y los médicos temieron por su vida; hizo su profesión religiosa el 29 de mayo de 1584, en peligro de muerte, y se recuperó. Después de la profesión tuvo, durante cuarenta días seguidos, éxtasis diarios. Desde entonces los éxtasis se repitieron hasta su muerte. Sus compañeras anotaron lo que decía durante ellos, y esas transcripciones, que ella no escribió ni revisó, se conocen como sus «obras» y recogen sus enseñanzas sobre el amor de Dios, la Trinidad y la Iglesia.\n\nEntre 1585 y 1590 pasó por un tiempo de gran desolación interior, con tentaciones y duras pruebas espirituales que, según el relato de su tiempo, también incluían ataques externos que se atribuían al demonio. Esa época es característica de la «noche oscura» de la tradición carmelitana. Sirvió a su comunidad como encargada de visitas, maestra, maestra de novicias durante seis años y, desde 1604, como superiora. Mostró una profunda preocupación por la reforma de la Iglesia y por la renovación de la vida cristiana en su ciudad, y escribió cartas a papas y a cardenales pidiendo la reforma de costumbres.\n\nEn los casi tres últimos años de su vida sufrió una larga enfermedad. Murió el 25 de mayo de 1607. Su proceso de beatificación comenzó en 1610 y se completó con Urbano VIII en 1626, y Clemente IX la canonizó el 28 de abril de 1669; su fiesta fue fijada el 27 de mayo y hoy se celebra el 25.\n\nSu espiritualidad une la contemplación con un fuerte sentido eclesial y eucarístico: ofrecía sus penas por la renovación de la Iglesia y la conversión de los pecadores. Como en tantas místicas de su época, las penitencias extremas que se narran en su biografía deben leerse como signo de una entrega total, no como modelo para imitar. Su vida enseña que el amor de Dios se vive en la fidelidad cotidiana de la comunidad, incluso en tiempos de oscuridad.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1910), «Saint Mary Magdalen de' Pazzi»",
+    "url": "https://www.newadvent.org/cathen/09762a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "agustin-de-cantorbery",
+  "name": "San Agustín de Cantorbery",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-27",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Agustín de Cantorbery, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "missionary",
+   "religious"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Roma (probable)"
+  },
+  "died": {
+   "date": "26 de mayo de 604",
+   "place": "Canterbury"
+  },
+  "century": 7,
+  "countries": [
+   "GB",
+   "IT"
+  ],
+  "order": "Benedictino",
+  "summary": "Prior del monasterio romano de San Andrés, enviado por Gregorio Magno en 596 para evangelizar a los anglosajones; primer arzobispo de Canterbury.",
+  "biography": "De Agustín de Cantorbery se sabe poco antes de su misión. La Catholic Encyclopedia indica que era probablemente un romano de buena posición, que se hizo monje en el monasterio de San Andrés del monte Celio, en Roma, fundado por Gregorio Magno, del que llegó a ser prior. Hacia 596 el papa lo eligió como jefe de una misión de unos cuarenta monjes destinada a evangelizar a los anglosajones de Inglaterra, que seguían en gran parte paganos. Según una tradición transmitida por Beda, Gregorio se había conmovido años antes al ver a unos jóvenes ingleses en el mercado de esclavos de Roma y decir que no eran «anglos» sino «ángeles».\n\nLa expedición partió en junio de 596. En Provenza, los monjes se desanimaron ante los relatos sobre la dureza de los anglosajones, y Agustín regresó a Roma para pedir que se cancelara el viaje; el papa le escribió el 23 de julio animándolos a seguir. En la primavera de 597 desembarcaron en la isla de Thanet, en Kent, donde el rey Etelberto, casado con la princesa franca cristiana Berta, les permitió predicar. Etelberto se bautizó, según la tradición, por Pentecostés de 597. Agustín fue consagrado obispo en la Galia por Virgilio, arzobispo de Arlés, y volvió a Kent. El día de Navidad de 597, según informó Gregorio, más de diez mil personas recibieron el bautismo.\n\nAgustín fundó su sede en Canterbury, la capital de Etelberto, en lugar de Londres, como había previsto Gregorio; allí estableció una comunidad con regla monástica y una iglesia, origen de la catedral. Hacia 601 recibió el palio y la autorización para organizar una jerarquía de obispos. Consultó al papa sobre cuestiones de liturgia, matrimonio y jurisdicción; las respuestas de Gregorio, conocidas como *Libellus responsionum*, son un documento pastoral importante, aunque su autenticidad ha sido discutida. Intentó también un entendimiento con los obispos británicos (celtas) en reuniones, que fracasaron por diferencias sobre la fecha de la Pascua, la forma del bautismo y la tarea de evangelizar a los sajones.\n\nAgustín murió el 26 de mayo de 604 y fue sepultado junto a la iglesia de San Pedro y San Pablo, que después recibió su nombre, en Canterbury. Su sucesor fue Lorenzo, que había viajado a Roma como mensajero. Su fiesta se celebra el 27 de mayo (en el calendario romano antiguo, el 28 de mayo).\n\nLa misión de Agustín, aunque tuvo dificultades y quedó incompleta, marcó el inicio de la Iglesia organizada entre los ingleses y de su unión con Roma. Su ejemplo muestra la paciencia de la misión: sembrar sin esperar frutos inmediatos y adaptarse a la cultura de las personas que se evangelizan, algo que Gregorio recomendó expresamente.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907), «St. Augustine of Canterbury»",
+    "url": "https://www.newadvent.org/cathen/02081a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "Una sola fuente. La anécdota de los «ángeles» (Beda) y el lugar de sepultura se dan por conocimiento común y deben contrastarse con la Historia eclesiástica de Beda."
+ },
+ {
+  "id": "visitacion-de-la-virgen-maria",
+  "name": "La Visitación de la Virgen María",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "05-31",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "La Visitación de la Virgen María",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Fiesta que recuerda la visita de María a su prima Isabel (Lc 1,39-56), el saludo de Isabel y el canto del Magníficat.",
+  "biography": "La fiesta de la Visitación recuerda el episodio narrado en el evangelio de Lucas (1,39-56). Tras la anunciación del ángel, María se pone en camino «con prontitud» hacia la montaña de Judea, a una ciudad de la región (la tradición la sitúa en Ain Karem, cerca de Jerusalén), para visitar a su prima Isabel, que esperaba un hijo en su vejez. Al escuchar el saludo de María, el niño saltó en el seno de Isabel, que, llena del Espíritu Santo, exclamó: «Bendita tú entre las mujeres y bendito el fruto de tu vientre. ¿Quién soy yo para que me visite la madre de mi Señor?» (Lc 1,41-43). María respondió con el canto del Magníficat, una de las grandes oraciones de la Iglesia (Lc 1,46-55), que proclama la fidelidad de Dios a los humildes. Se quedó con Isabel unos tres meses.\n\nLa tradición cristiana ha visto en este encuentro un modelo de servicio, de gozo y de fe. María lleva a Cristo a otros y es portadora de alegría; Juan Bautista, aún no nacido, reconoce y se alegra con la presencia de Jesús; Isabel proclama bienaventurada a María «porque ha creído». La Iglesia reza el Magníficat cada tarde en las Vísperas.\n\nLa celebración como fiesta litúrgica es relativamente tardía. La Catholic Encyclopedia sitúa el primer testimonio seguro en 1263, cuando el capítulo general de los franciscanos, a propuesta de san Buenaventura, la adoptó. En el siglo siguiente se celebraba en fechas distintas según el lugar (28 de abril, 27 de junio, 8 de julio y otras). En 1389 el papa Urbano VI la extendió a toda la Iglesia, esperando que, con la visita de María, Cristo visitara también a su Iglesia desgarrada por el Gran Cisma de Occidente; el decreto fue publicado por Bonifacio IX. Quedó fijada el 2 de julio, con vigilia y octava, hasta que san Pío V suprimió el oficio rimado, la vigilia y la octava, y Pío IX la elevó de rango en 1850.\n\nEn la reforma litúrgica posterior al Concilio Vaticano II, la fiesta fue trasladada al 31 de mayo, que coloca la visita de María a Isabel entre la fiesta de la Anunciación (25 de marzo) y la natividad de san Juan Bautista (24 de junio), en concordancia con el relato de Lucas, y cierra el mes mariano. Es una fiesta, no una solemnidad, y el color es blanco.\n\nLa Visitación enseña que la fe se expresa en la caridad concreta: María, que acaba de recibir el mayor don de Dios, no se encierra en sí misma, sino que sale al encuentro de quien necesita ayuda. Para el creyente, es una invitación a ser, como ella, portador de Cristo a los demás.",
+  "iconography": "María e Isabel abrazadas, a menudo con el niño que se adivina en el seno; en el fondo, un paisaje de colinas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1912), «Visitation of the Blessed Virgin Mary»",
+    "url": "https://www.newadvent.org/cathen/15480a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "La Catholic Encyclopedia consultada no menciona el traslado del 2 de julio al 31 de mayo en 1969 (confirmado de manera indirecta por Marialis cultus, citada en resultados de búsqueda, no leída). La localización en Ain Karem es tradición."
+ },
+ {
+  "id": "isidro-labrador",
+  "name": "San Isidro Labrador",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "05-15",
+    "rank": "optional",
+    "calendar": "mx",
+    "title": "San Isidro Labrador",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "c. 1070",
+   "place": "Madrid"
+  },
+  "died": {
+   "date": "15 de mayo de 1130",
+   "place": "Madrid"
+  },
+  "century": 12,
+  "countries": [
+   "ES",
+   "MX"
+  ],
+  "canonization": {
+   "date": "12 de marzo de 1622",
+   "by": "Gregorio XV"
+  },
+  "patronages": [
+   "Labradores y jornaleros del campo",
+   "Madrid"
+  ],
+  "summary": "Humilde jornalero agrícola madrileño del siglo XII, casado con María Toribia, modelo de santidad en el trabajo del campo.",
+  "biography": "Isidro nació hacia 1070 en Madrid, de familia humilde, y trabajó toda su vida como jornalero agrícola en una finca cercana a la villa, propiedad de Juan de Vargas. Se casó con María Toribia, venerada como santa María de la Cabeza, cuya cabeza se saca en procesión en tiempos de sequía. Tuvieron un hijo que murió joven. Su historia es la de un cristiano sencillo cuya santidad fue el cumplimiento fiel de sus deberes diarios: la oración al principio de la jornada, la misa, el respeto a su amo y la caridad con los pobres.\n\nSu primera biografía, la *Vida* escrita en 1265 por Juan Diácono, de la iglesia de San Andrés de Madrid, y ampliada en 1275, es de más de un siglo posterior a su muerte, y contiene muchas leyendas. Entre ellas, la más conocida es la de los ángeles que araban la tierra mientras él rezaba, de modo que su trabajo rendía como el de varios peones, según cuenta la leyenda para explicar sus retrasos denunciados por sus compañeros. Otros relatos refieren que hizo brotar una fuente de la tierra seca para calmar la sed de su amo, que resucitó a la hija del amo, o que sacó de un pozo a su hijo con vida tras una oración de sus padres. Se cuenta también que se apareció al rey Alfonso VIII en la víspera de la batalla de las Navas de Tolosa (1212) y le mostró un camino secreto. Estas narraciones son hagiográficas y no han sido verificadas históricamente; el testimonio que se conserva es la devoción sostenida del pueblo.\n\nMurió el 15 de mayo de 1130 en Madrid. Unos cuarenta años más tarde su cuerpo fue trasladado a la iglesia de San Andrés, y su sepulcro se convirtió en lugar de peregrinación. Se asociaron a su intercesión curaciones, incluida la del rey Felipe III, que se dice que sanó de una grave enfermedad al tocar sus reliquias. Fue canonizado el 12 de marzo de 1622 por Gregorio XV, el mismo día que Ignacio de Loyola, Francisco Javier, Teresa de Jesús y Felipe Neri. Es patrono de Madrid y de los labradores, y varias ciudades de España lo veneran como protector.\n\nEn México la memoria de san Isidro Labrador es libre y se celebra el 15 de mayo; en muchas comunidades rurales se bendicen en ese día los campos, las semillas y las yuntas de bueyes, y se organizan procesiones y fiestas con los animales, una costumbre muy extendida en Hispanoamérica.\n\nIsidro enseña que el trabajo del campo, humilde y repetitivo, puede ser un camino de santidad si se vive con oración, justicia y generosidad. Su figura da dignidad a quienes producen el alimento y recuerda que la tierra es un don de Dios que se cuida con respeto.",
+  "iconography": "Campesino con azadón o arado, con una yunta de bueyes y un ángel que ara a su lado; a veces con una espiga y un pozo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1910), «St. Isidore the Labourer»",
+    "url": "https://www.newadvent.org/cathen/08189a.htm"
+   },
+   {
+    "label": "Calendario litúrgico de México 2026 (gcatholic.org): rangos y títulos de las celebraciones de mayo",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales sobre el año litúrgico y el Calendario Romano General (marco de rangos)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "La Catholic Encyclopedia da la fecha de canonización (12 de marzo de 1622) y otra de sus entradas la fecha 22 de marzo; se mantiene el 12 de marzo. Las costumbres mexicanas de bendición de campos y animales proceden de conocimiento común, no leídas."
+ }
+]

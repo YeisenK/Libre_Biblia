@@ -1,0 +1,136 @@
+{
+  "id": "pareja-matrimonio-cristiano",
+  "title": "Novena para el discernimiento de la pareja y del matrimonio cristiano",
+  "group": "family",
+  "description": "Para quien desea formar un matrimonio cristiano: virtud, preparación y discernimiento, sin prometer resultados.",
+  "image": {
+    "icon": "heart",
+    "tint": "#a05a6a"
+  },
+  "introduction": "La vocación al matrimonio es un camino de santidad (CIC 1601-1666). La Escritura presenta a Tobías y Sara, que se preparan con oración, y a Rut, cuya fidelidad la hace parte de la historia de la salvación. El noviazgo se vive como tiempo de conocimiento y de crecimiento, no como una meta que se consigue con una oración.",
+  "purpose": "Pedir madurez y virtud para ser buen cónyuge, y discernir con libertad si el matrimonio es el propio camino. No promete encontrar pareja ni fija plazos: nadie puede obligar la libertad del otro. Si ya hay una persona concreta, ver la novena sobre el noviazgo con san Rafael. Si te sientes solo, habla con alguien de confianza.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, tú hiciste al hombre y a la mujer para amarse. Si es mi camino, prepárame; si no lo es, muéstramelo con paz. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Dios tiene un plan de amor",
+      "reading": "Gn 2,18",
+      "reflection": "No es bueno que el hombre esté solo. Estamos hechos para la comunión. Pero la soledad presente no es un fracaso, y la plenitud no depende de tener pareja.",
+      "prayer": "Señor, enséñame a vivir bien este tiempo, con o sin pareja."
+    },
+    {
+      "day": 2,
+      "title": "Ser antes de buscar",
+      "reading": "1 Sam 16,7",
+      "reflection": "El Señor mira el corazón. Más que buscar a la persona adecuada, me pregunto qué clase de persona soy y quiero llegar a ser.",
+      "prayer": "Dios mío, hazme una persona capaz de amar."
+    },
+    {
+      "day": 3,
+      "title": "Virtudes de un buen cónyuge",
+      "reading": "Col 3,12-14",
+      "reflection": "Revestíos de entrañas de misericordia, bondad, humildad, mansedumbre, paciencia. Escojo una virtud para trabajar.",
+      "prayer": "Jesús, forma mi corazón."
+    },
+    {
+      "day": 4,
+      "title": "Rut, fidelidad y valentía",
+      "reading": "Rt 1,16-17",
+      "reflection": "Rut escoge la fidelidad. Un amor sólido se funda en el compromiso y no solo en el sentimiento.",
+      "prayer": "Señor, enséñame a amar con lealtad."
+    },
+    {
+      "day": 5,
+      "title": "Tobías y Sara rezan",
+      "reading": "Tb 8,5-7",
+      "reflection": "Los jóvenes oran antes de comenzar su vida común. Pongo el amor humano bajo la luz de Dios.",
+      "prayer": "Bendito eres, Dios de nuestros padres. Bendice mi vida afectiva."
+    },
+    {
+      "day": 6,
+      "title": "Libertad de los dos",
+      "reading": "Jn 8,32",
+      "reflection": "La verdad os hará libres. Ningún amor sano coacciona. Rezo por la libertad del otro y por la mía.",
+      "prayer": "Señor, que no fuerce nada y que acepte tus tiempos."
+    },
+    {
+      "day": 7,
+      "title": "Pureza y respeto",
+      "reading": "1 Ts 4,3-5",
+      "reflection": "Cada uno sepa poseer su cuerpo con santidad y respeto. La sexualidad es don que se integra en el amor y en la entrega total del matrimonio.",
+      "prayer": "Dios mío, que viva mi afectividad con dignidad y respeto."
+    },
+    {
+      "day": 8,
+      "title": "Fe compartida",
+      "reading": "Am 3,3",
+      "reflection": "¿Caminan dos juntos sin haberse puesto de acuerdo? Rezo para que la fe sea cimiento común en un futuro matrimonio.",
+      "prayer": "Señor, que quien camine a mi lado camine hacia ti."
+    },
+    {
+      "day": 9,
+      "title": "Esperar sin ansiedad",
+      "reading": "Sal 27,14",
+      "reflection": "Espera en el Señor. Mientras tanto, sirvo, rezo, trabajo y cultivo amistades. Lo demás lo dejo en sus manos.",
+      "prayer": "San Rafael, compañero de camino, acompáñame. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios del amor, bendice mi camino, sea cual sea. Hazme capaz de amar con fidelidad y de recibir amor con gratitud. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-rafael-arcangel",
+    "santa-rita-de-casia"
+  ],
+  "tags": [
+    "pareja matrimonio cristiano",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 9,
+    "day": 29,
+    "label": "Fiesta de los santos arcángeles Miguel, Gabriel y Rafael"
+  }
+}

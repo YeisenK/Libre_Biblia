@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { gunzipSync } from 'node:zlib';
 import { describe, expect, it } from 'vitest';
 import { assertPack, type Novena, type Prayer } from '@bc/shared';
-import { buildPrayersPack, loadPrayerSources, runPrayers, splitReferences, validatePrayers, type PrayerSources } from '../src/prayers';
+import { buildPrayersPack, checkOriginalAnchoring, loadPrayerSources, runPrayers, splitReferences, validatePrayers, type PrayerSources } from '../src/prayers';
 
 const prayer = (id: string, extra: Partial<Prayer> = {}): Prayer => ({ id, title: id, categories: ['c'], nature: 'prayer', text: 'Texto. Amén.', ...extra });
 const novena = (id: string, days = 2): Novena => ({
@@ -118,5 +118,77 @@ describe('fuentes reales', () => {
     const cat = JSON.parse(readFileSync(opts.catalogFile, 'utf8'));
     expect(cat.packs.filter((p: { id: string }) => p.id === 'prayers.es')).toHaveLength(1);
     expect(JSON.parse(gunzipSync(readFileSync(r1.file)).toString()).kind).toBe('prayers');
+  });
+});
+
+describe('validatePrayers: composiciones propias y santos', () => {
+  const lux = { nature: 'original', attribution: 'Composición de Lux', scripture: ['Mt 11,29'], sources: [{ label: 's' }] } as Partial<Prayer>;
+  it('acepta una oración original rotulada y con cita', () => expect(errs((s) => Object.assign(s.prayers[0]!, lux))).toEqual([]));
+  it('exige el rótulo; la cita bíblica y las fuentes se comprueban aparte', () => {
+    expect(errs((s) => Object.assign(s.prayers[0]!, lux, { attribution: 'Tradición' }))[0]).toMatch(/rótulo/);
+    const mk = (extra: Partial<Prayer>): PrayerSources => ({ ...base(), prayers: [Object.assign(prayer('o'), lux, extra)] });
+    expect(checkOriginalAnchoring(mk({}))).toEqual([]);
+    expect(checkOriginalAnchoring(mk({ scripture: [] }))[0]).toMatch(/cita bíblica/);
+    expect(checkOriginalAnchoring(mk({ sources: [] }))[0]).toMatch(/fuentes/);
+  });
+  it('novena original: rótulo, pasaje y meditación distinta cada día', () => {
+    const e = errs((s) => { const n = s.novenas[0]!; n.nature = 'original'; n.sources = [{ label: 'x' }]; });
+    expect(e.some((m) => /rótulo/.test(m))).toBe(true);
+    expect(e.some((m) => /meditación repetida/.test(m))).toBe(true);
+    expect(errs((s) => { const n = s.novenas[0]!; n.nature = 'original'; n.attribution = 'Composición de Lux'; n.sources = [{ label: 'x' }]; n.days[1]!.reflection = 'otra'; n.days[0]!.reading = undefined; })[0]).toMatch(/sin pasaje/);
+  });
+  it('acepta los nuevos grupos de novena', () => expect(errs((s) => (s.novenas[0]!.group = 'virtues'))).toEqual([]));
+});
+
+describe('fuentes reales de oraciones', () => {
+  const src = loadPrayerSources();
+  it('son válidas', () => {
+    expect(validatePrayers(src)).toEqual([]);
+    expect(checkOriginalAnchoring(src)).toEqual([]);
+  });
+  it('las letanías están en la categoría letanias y usan V./R.', () => {
+    const ls = src.prayers.filter((p) => p.categories.includes('letanias'));
+    expect(ls.length).toBeGreaterThanOrEqual(8);
+    for (const l of ls) expect(/^R\. /m.test(l.text), l.id).toBe(true);
+  });
+  it('las invocaciones recientes de Loreto y san José están presentes', () => {
+    const t = (id: string) => src.prayers.find((p) => p.id === id)!.text;
+    for (const x of ['Madre de la misericordia', 'Madre de la esperanza', 'Consuelo de los migrantes']) expect(t('letania-lauretana')).toContain(x);
+    for (const x of ['Custodio del Redentor', 'Servidor de Cristo', 'Ministro de la salvación', 'Apoyo en las dificultades', 'Patrono de los exiliados', 'Patrono de los afligidos', 'Patrono de los pobres']) expect(t('letania-san-jose')).toContain(x);
+  });
+  it('la letanía de la humildad consta como atribuida', () => expect(src.prayers.find((p) => p.id === 'letania-de-la-humildad')!.attribution).toMatch(/Atribuida/));
+  it('las novenas originales tienen nueve días con meditación propia', () => {
+    for (const n of src.novenas.filter((x) => x.nature === 'original')) {
+      const len = n.id.startsWith('triduo-') ? 3 : 9;
+      expect(n.days.length, n.id).toBe(len);
+      expect(new Set(n.days.map((d) => d.reflection)).size, n.id).toBe(len);
+      expect(new Set(n.days.map((d) => d.prayer)).size, n.id).toBe(len);
+    }
+  });
+  it('cubren las necesidades pedidas (por id) y no duplican las anteriores', () => {
+    const ids = new Set(src.novenas.map((n) => n.id));
+    for (const id of ['fortalecer-voluntad', 'humildad-corazon-manso', 'desanimo-esperanza', 'dominio-propio-templanza', 'encontrar-trabajo-san-jose', 'estabilidad-laboral', 'estabilidad-economica', 'orientacion-profesional', 'decisiones-importantes', 'proyectos-responsabilidades', 'pareja-matrimonio-cristiano', 'preparacion-matrimonio', 'reconciliacion-familiar', 'padres-y-abuelos', 'heridas-afectivas', 'enfermedad-grave', 'ansiedad-angustia-tristeza', 'proteccion-familia', 'fortaleza-momentos-dificiles', 'triduo-sagrado-corazon', 'triduo-san-jose']) expect(ids.has(id), id).toBe(true);
+    // las novenas de L4 siguen ahí
+    for (const id of ['castidad-santa-maria-goretti', 'noviazgo-san-rafael', 'enfermedad-cristo-medico', 'por-los-difuntos']) expect(ids.has(id), id).toBe(true);
+  });
+  it('la novena de ansiedad avisa de buscar ayuda profesional sin inventar teléfonos', () => {
+    const n = src.novenas.find((x) => x.id === 'ansiedad-angustia-tristeza')!;
+    expect(n.purpose).toMatch(/profesional/);
+    expect(n.purpose).toMatch(/servicios de emergencia de tu país/);
+    expect(JSON.stringify(n)).not.toMatch(/\b\d{3}[ -]?\d{3}[ -]?\d{3,4}\b/);
+  });
+  it('las novenas originales no prometen resultados', () => {
+    for (const n of src.novenas.filter((x) => x.nature === 'original')) expect(JSON.stringify(n), n.id).not.toMatch(/garantiza|infalible|sin falta|concede(rá)? seguro/i);
+  });
+  it('consagraciones y coronillas con fuente y naturaleza declarada', () => {
+    for (const id of ['consagracion-sagrado-corazon-leon-xiii', 'consagracion-a-maria-montfort', 'consagracion-a-san-jose', 'coronilla-san-miguel', 'coronilla-siete-dolores', 'coronilla-llagas']) {
+      const p = src.prayers.find((x) => x.id === id)!;
+      expect(p, id).toBeTruthy();
+      expect(p.sources?.length, id).toBeGreaterThan(0);
+    }
+    expect(src.prayers.find((x) => x.id === 'consagracion-a-san-jose')!.attribution).toMatch(/Composición de Lux/);
+  });
+  it('los santos de novenas y oraciones son ids kebab-case', () => {
+    for (const x of [...src.novenas, ...src.prayers]) for (const s of x.saints ?? []) expect(s, x.id).toMatch(/^[a-z0-9]+(-[a-z0-9]+)*$/);
   });
 });

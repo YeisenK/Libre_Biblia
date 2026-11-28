@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import type { ComponentType, ReactNode } from 'react';
 import { useHideOnScroll } from '@/hooks/useHideOnScroll';
+import { LuxLogo } from './brand/LuxLogo';
 import { BookmarkIcon, ColumnsIcon, DownloadIcon, HomeIcon, InfoIcon, LibraryIcon, SearchIcon, SettingsIcon, SunIcon } from './Icons';
 import { BookOpenIcon, HandsIcon, MoreIcon } from './icons/Sacred';
 
@@ -15,12 +16,19 @@ const MAIN: { id: Dest; href: string; label: string; Icon: Icon }[] = [
   { id: 'orar', href: '/orar/', label: 'Orar', Icon: () => <HandsIcon size={22} /> },
   { id: 'biblia', href: '/leer/', label: 'Biblia', Icon: () => <BookOpenIcon size={22} /> },
   { id: 'biblioteca', href: '/biblioteca/', label: 'Biblioteca', Icon: () => <LibraryIcon /> },
-  { id: 'mas', href: '/mas/', label: 'Más', Icon: () => <MoreIcon size={22} /> },
+  { id: 'mas', href: '/mas/', label: 'Mi espacio', Icon: () => <MoreIcon size={22} /> },
 ];
+
+/**
+ * Pantallas que llegan en otras olas del plan Lux (docs/PLAN_LUX.md). Se activan (true) cuando la ruta existe;
+ * mientras tanto no se enlazan. Ola 1: /calendario (L2). Ola 3: /formacion, /galeria.
+ */
+export const ROUTE_READY: Record<string, boolean> = { '/calendario/': true, '/formacion/': true, '/galeria/': false };
 
 /** Accesos secundarios solo en la barra lateral de escritorio. */
 const SECONDARY: { href: string; label: string; Icon: Icon }[] = [
   { href: '/hoy/', label: 'Hoy', Icon: () => <SunIcon /> },
+  { href: '/calendario/', label: 'Calendario', Icon: () => <SunIcon /> },
   { href: '/buscar/', label: 'Buscar', Icon: () => <SearchIcon /> },
   { href: '/comparar/', label: 'Comparar', Icon: () => <ColumnsIcon /> },
   { href: '/marcadores/', label: 'Marcadores', Icon: () => <BookmarkIcon /> },
@@ -30,11 +38,11 @@ const SECONDARY: { href: string; label: string; Icon: Icon }[] = [
 ];
 
 const GROUPS: Record<Dest, string[]> = {
-  inicio: ['/hoy'],
+  inicio: ['/hoy', '/calendario', '/santo', '/santos'],
   orar: ['/orar', '/oracion', '/oraciones', '/novena', '/novenas', '/rutina', '/rutinas', '/rosario'],
   biblia: ['/leer', '/comparar', '/buscar'],
-  biblioteca: ['/biblioteca', '/documento'],
-  mas: ['/mas', '/marcadores', '/ajustes', '/descargas', '/fuentes'],
+  biblioteca: ['/biblioteca', '/documento', '/libro', '/importar', '/formacion', '/galeria'],
+  mas: ['/mas', '/favoritos', '/marcadores', '/diario', '/ajustes', '/descargas', '/fuentes'],
 };
 
 const norm = (p: string) => p.replace(/\/$/, '') || '/';
@@ -51,8 +59,8 @@ export function destinationOf(pathname: string): Dest | null {
 /** Marca de la app: solo el nombre, en sans. */
 function Brand() {
   return (
-    <Link href="/" className="font-display text-[1.35rem] leading-none" aria-label="Libre Biblia, inicio">
-      Libre Biblia
+    <Link href="/" aria-label="Lux, inicio">
+      <LuxLogo size={26} />
     </Link>
   );
 }
@@ -62,13 +70,16 @@ export function AppShell({ children }: { children: ReactNode }) {
   const dest = destinationOf(path);
   const hide = useHideOnScroll();
   // En la lectura larga la barra inferior se retira al bajar y vuelve al subir.
-  const reading = within(norm(path), '/leer') || within(norm(path), '/documento');
+  const reading = within(norm(path), '/leer') || within(norm(path), '/documento') || within(norm(path), '/libro');
   const barHidden = reading && hide;
   const dark = dest === 'orar' && !within(norm(path), '/rosario');
+  const secondary = SECONDARY.filter((i) => ROUTE_READY[i.href] ?? true);
   const secondaryActive = (href: string) => norm(path) === norm(href);
 
   return (
     <div className="min-h-dvh md:flex">
+      {/* Franja de fondo bajo la barra de estado (Android edge-to-edge): en lectura el texto no se dibuja bajo ella. */}
+      {reading && <div aria-hidden="true" data-testid="status-strip" className="pointer-events-none fixed inset-x-0 top-0 z-40 bg-bg md:hidden" style={{ height: 'var(--sat)' }} />}
       <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col border-r border-line bg-bg px-4 py-6 md:flex">
         <div className="mb-8 px-2">
           <Brand />
@@ -91,7 +102,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         </nav>
         <p className="eyebrow mb-2 mt-8 px-3">Atajos</p>
         <nav aria-label="Secundaria" className="flex flex-1 flex-col gap-0.5 overflow-y-auto">
-          {SECONDARY.map((i) => (
+          {secondary.map((i) => (
             <Link
               key={i.href}
               href={i.href}
@@ -106,7 +117,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       </aside>
 
       <div className="min-w-0 flex-1">
-        <main className="mx-auto w-full max-w-5xl px-5 pb-[calc(7rem+env(safe-area-inset-bottom))] pt-[max(1.25rem,env(safe-area-inset-top))] md:px-10 md:pb-16 md:pt-10">{children}</main>
+        <main className="mx-auto w-full max-w-5xl px-5 pb-[calc(7rem+var(--sab))] pt-[max(1.25rem,var(--sat))] md:px-10 md:pb-16 md:pt-10">{children}</main>
       </div>
 
       <nav

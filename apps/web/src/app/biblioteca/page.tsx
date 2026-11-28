@@ -10,6 +10,7 @@ import { Cover, EmptyState, ScreenHeader, Section } from '@/components/ui';
 import { documentHref } from '@/lib/links';
 import { bookArtKeys } from '@/lib/art';
 import { LibraryDownloads } from '@/components/LibraryDownloads';
+import { ImportedBooks } from '@/components/library/ImportedBooks';
 
 type Pack = NonNullable<ReturnType<typeof useInstalledPacks>['data']>[number];
 
@@ -48,7 +49,7 @@ export default function Page() {
   const groups = new Map<string, NonNullable<typeof packs.data>>();
   for (const p of packs.data ?? []) {
     // Oraciones y audio tienen su sitio en Orar, no en la biblioteca de lectura.
-    if (p.kind === 'prayers' || p.kind === 'audio') continue;
+    if (p.kind !== 'bible' && p.kind !== 'document') continue; // santoral, horas, formación, oraciones y voces tienen sus propias pantallas
     if (!settings.showOtherLanguageBibles && !isPrimaryLanguage({ code: p.code ?? p.id, language: p.language })) {
       otherPacks.push(p);
       continue;
@@ -60,6 +61,11 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-3xl">
       <ScreenHeader title="Tu biblioteca" subtitle="Biblias y obras instaladas en este dispositivo, por colección." />
+      <div className="-mt-2 mb-6 flex flex-wrap gap-2">
+        <Link href="/santo/" className="tap inline-flex min-h-[40px] items-center rounded-full border border-line px-4 text-[14px] hover:bg-sunken">Santoral</Link>
+        <Link href="/formacion/" className="tap inline-flex min-h-[40px] items-center rounded-full border border-line px-4 text-[14px] hover:bg-sunken">Formación</Link>
+      </div>
+      <ImportedBooks />
       {packs.isSuccess && packs.data.length === 0 && (
         <EmptyState icon="book" title="Tu biblioteca está vacía" >
           Descarga abajo una Biblia o una obra para leerla sin conexión.

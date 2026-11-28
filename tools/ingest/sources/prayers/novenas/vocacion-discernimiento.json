@@ -1,0 +1,127 @@
+{
+  "id": "vocacion-discernimiento",
+  "title": "Novena para discernir la vocación",
+  "group": "work_vocation",
+  "description": "Nueve días para escuchar a Dios y responder a su llamada, siguiendo a Samuel y a María.",
+  "image": {
+    "icon": "dove",
+    "tint": "#7a8a5a"
+  },
+  "introduction": "Todo cristiano tiene una vocación: la llamada a la santidad (CIC 825, 2013), que se concreta en un modo de vida: matrimonio, vida consagrada, sacerdocio o celibato en el mundo. Descubrirla es un proceso en el que intervienen la oración, la Palabra, los sacramentos, el consejo de personas de confianza y las circunstancias. La Escritura ofrece modelos: Samuel, que escucha a Dios y responde «Habla, Señor, que tu siervo escucha» (1 S 3,10); Isaías, «Aquí estoy, envíame» (Is 6,8); María, «Hágase en mí» (Lc 1,38).",
+  "purpose": "Pedir luz para conocer lo que Dios quiere y valentía para responder, sin obsesión ni escrúpulo. No sustituye al acompañamiento espiritual: conviene hablar con un sacerdote, una religiosa o un director espiritual de confianza. La vocación no es un enigma que se resuelva en nueve días, sino un camino.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, tú me llamas por mi nombre. Durante estos nueve días quiero escuchar y responder. Dame libertad interior, paz y confianza. Que no me deje llevar por el miedo ni por la comodidad. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Dios me llama por mi nombre",
+      "reading": "Is 43,1",
+      "reflection": "«Te he llamado por tu nombre; tú eres mío.» Antes de cualquier vocación hay una llamada al ser y al amor. Empiezo agradeciendo.",
+      "prayer": "Señor, gracias por llamarme. Quiero escucharte."
+    },
+    {
+      "day": 2,
+      "title": "Habla, Señor",
+      "reading": "1 S 3,1-10",
+      "reflection": "Samuel necesitó que Elí le ayudara a reconocer la voz. El discernimiento se hace acompañado. Pido un buen guía.",
+      "prayer": "Señor, ayúdame a reconocer tu voz. Pon a mi lado un buen acompañante."
+    },
+    {
+      "day": 3,
+      "title": "Aquí estoy, envíame",
+      "reading": "Is 6,1-8",
+      "reflection": "Isaías, ante la santidad de Dios, se siente indigno y es purificado. La vocación empieza con humildad. Pido disponibilidad.",
+      "prayer": "Señor, aquí estoy. Purifica mis labios y mi corazón, y envíame."
+    },
+    {
+      "day": 4,
+      "title": "El Sí de María",
+      "reading": "Lc 1,26-38",
+      "reflection": "María preguntó y luego respondió «Hágase». Preguntar no es desconfiar. Pido la libertad de María.",
+      "prayer": "María, Madre del Sí, enséñame a responder con libertad y confianza."
+    },
+    {
+      "day": 5,
+      "title": "Seguir a Jesús",
+      "reading": "Mc 1,16-20",
+      "reflection": "Los primeros discípulos dejaron las redes. Seguir a Cristo cuesta, pero da vida. Pido valor para dejar lo que me impide.",
+      "prayer": "Jesús, dame valor para dejar lo que me ata y seguirte."
+    },
+    {
+      "day": 6,
+      "title": "Los dones recibidos",
+      "reading": "1 Co 12,4-7",
+      "reflection": "«A cada uno se le da la manifestación del Espíritu para el bien común.» La vocación tiene que ver con los dones y las necesidades de la Iglesia y del mundo. Pienso en mis dones.",
+      "prayer": "Espíritu Santo, muéstrame mis dones. Que los ponga al servicio de los demás."
+    },
+    {
+      "day": 7,
+      "title": "Miedo y libertad",
+      "reading": "Jos 1,9",
+      "reflection": "«Sé fuerte y valiente... el Señor tu Dios está contigo.» El miedo es normal. Lo importante es no dejar que decida por mí. Pido libertad interior.",
+      "prayer": "Señor, libérame del miedo. Que decida por amor y no por temor."
+    },
+    {
+      "day": 8,
+      "title": "Paz y consuelo",
+      "reading": "Jn 14,27",
+      "reflection": "«Mi paz os dejo.» Un criterio de discernimiento es la paz profunda, que no es lo mismo que la comodidad. Pido discernir la paz verdadera.",
+      "prayer": "Señor, dame tu paz. Que reconozca lo que viene de ti."
+    },
+    {
+      "day": 9,
+      "title": "Confirmar y decidir",
+      "reading": "Lc 14,28",
+      "reflection": "«¿Quién de vosotros, queriendo edificar una torre, no calcula antes?» Decidir es un acto prudente: se consulta, se reza y se actúa. Termino con un paso concreto.",
+      "prayer": "Gracias, Señor. Confirma mi camino y dame fuerza para dar el siguiente paso. María, ruega por mí."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Señor, Dueño de la mies, envía obreros a tu mies y ayúdanos a responder a tu llamada. Dame a mí luz para conocer mi camino y fuerza para seguirlo. María, Madre del Sí, ruega por mí. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 825, 2013 y (llamada universal a la santidad)"
+    },
+    {
+      "label": "Francisco, exhortación Christus vivit (2019), cap. 9 «El discernimiento»"
+    }
+  ],
+  "tags": [
+    "vocación",
+    "discernimiento",
+    "novena",
+    "composición de Lux"
+  ]
+}

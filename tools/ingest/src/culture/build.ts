@@ -23,10 +23,22 @@ export interface PageOpts {
   headTitle?: number;
   /** Expresiones regulares (fuente): se descartan las líneas que las cumplan (leyendas de fotografías, rótulos editoriales). */
   dropMatching?: string[];
+  /**
+   * Solo en `pages`: cada página es un «libro» y sus capítulos no tienen página propia, sino líneas con rótulo
+   * («CAPÍTULO IV. título…»). Expresión regular (fuente) con dos grupos: (1) numeral del capítulo, (2) argumento.
+   * Los índices de capítulos (rótulos consecutivos) se descartan; cada capítulo pasa a ser una sección de un nivel más.
+   */
+  chapterRe?: string;
+  /** Pares [expresión regular (fuente), sustitución] para erratas sistemáticas de la transcripción (p. ej. «<» por ««»). */
+  replace?: [string, string][];
+  /** `<br />` = fin de verso (poemas escritos con <br /> dentro de prosa). */
+  brIsVerse?: boolean;
+  /** Con `headTitle`: descarta los encabezados de nivel ≥ N posteriores al título (rótulos editoriales modernos intercalados). */
+  dropHeadings?: number;
 }
 
 export type Part =
-  | ({ kind: 'pages'; titles: { title?: string; page: string }[]; depth?: number; verse?: boolean } & PageOpts)
+  | ({ kind: 'pages'; titles: { title?: string; page: string; /** descarta el texto previo al primer capítulo (con `chapterRe`) */ dropLead?: boolean }[]; depth?: number; verse?: boolean } & PageOpts)
   | ({ kind: 'prefix'; prefix: string; first?: string[]; /** etiquetas exactas, o `etiqueta/*` para incluir sus subpáginas */ exclude?: string[]; depth?: number; titlePrefix?: string; verse?: boolean; tree?: boolean; titleMap?: Record<string, string> } & PageOpts)
   | { kind: 'group'; title: string; parts: Part[]; depth?: number }
   | { kind: 'djvu'; index: string; from: number; to: number; verse?: boolean; leadTitle?: string; dropTitles?: string[]; keepLevel?: number; depth?: number }
@@ -57,12 +69,61 @@ export interface WorkSpec {
 }
 
 const ROMAN = /^[IVXLCDM]+$/;
+const ORDINALS: Record<string, string> = { PRIMERO: 'I', PRIMERA: 'I', UNO: 'I', SEGUNDO: 'II', TERCERO: 'III', CUARTO: 'IV', QUINTO: 'V', SEXTO: 'VI', SÉPTIMO: 'VII', SEPTIMO: 'VII', OCTAVO: 'VIII', NOVENO: 'IX', DÉCIMO: 'X', DECIMO: 'X' };
+
+/**
+ * Divide el texto de un libro en capítulos por rótulos de línea (`chapterRe`, ver PageOpts.chapterRe).
+ * Si el mismo numeral de capítulo reaparece más abajo, el primer rótulo es una entrada de índice y se descarta. Devuelve el texto previo al primer capítulo
+ * y los capítulos con título «Capítulo N» (numeral normalizado; «PRIMERO» -> I) y el argumento como primer párrafo.
+ */
+export function splitByChapterRe(text: string, chapterRe: string): { lead: string; chapters: { title: string; text: string }[] } {
+  const re = new RegExp(chapterRe, 'iu');
+  const lines = text.split('\n');
+  // numeral normalizado (PRIMERO -> I; «l» minúscula del OCR -> I)
+  const numeral = (l: string): string | null => {
+    const m = re.exec(l.trim());
+    if (!m) return null;
+    const raw = m[1]!.trim().replace(/l/g, 'I').toLocaleUpperCase('es');
+    return ORDINALS[raw] ?? raw;
+  };
+  const nums = lines.map(numeral);
+  const lead: string[] = [];
+  const chapters: { title: string; lines: string[] }[] = [];
+  let cur: { title: string; lines: string[] } | null = null;
+  lines.forEach((l, i) => {
+    const n = nums[i];
+    if (n !== null && n !== undefined) {
+      if (nums.indexOf(n, i + 1) >= 0) return; // el mismo numeral reaparece más abajo: este rótulo es del índice
+      const m = re.exec(l.trim())!;
+      cur = { title: `Capítulo ${n}`, lines: m[2]?.trim() ? [m[2].trim()] : [] };
+      chapters.push(cur);
+      return;
+    }
+    (cur ? cur.lines : lead).push(l);
+  });
+const tidy = (a: string[]) => a.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  // el índice (rótulos consecutivos) deja líneas en blanco al inicio: se limpian con tidy
+  // errata de numeración de la fuente (p. ej. «XXXVIII» entre XXVII y XXIX): si el numeral no es el esperado
+  // pero el siguiente sí es el esperado + 1, se corrige al esperado.
+  const val = (t: string) => romanVal(t.replace(/^Capítulo /, ''));
+  chapters.forEach((c, i) => {
+    const want = i + 1, next = chapters[i + 1];
+    if (val(c.title) !== want && next && val(next.title) === want + 1 && (i === 0 || val(chapters[i - 1]!.title) === want - 1)) c.title = `Capítulo ${toRoman(want)}`;
+  });
+  return { lead: tidy(lead), chapters: chapters.map((c) => ({ title: c.title, text: tidy(c.lines) })) };
+}
 const romanVal = (s: string) => {
   const v: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
   let t = 0;
   for (let i = 0; i < s.length; i++) { const a = v[s[i]!]!, b = v[s[i + 1]!] ?? 0; t += a < b ? -a : a; }
   return t;
 };
+function toRoman(n: number): string {
+  const t: [number, string][] = [[1000, 'M'], [900, 'CM'], [500, 'D'], [400, 'CD'], [100, 'C'], [90, 'XC'], [50, 'L'], [40, 'XL'], [10, 'X'], [9, 'IX'], [5, 'V'], [4, 'IV'], [1, 'I']];
+  let r = '';
+  for (const [v, sym] of t) while (n >= v) { r += sym; n -= v; }
+  return r;
+}
 export function naturalKey(label0: string): [number, number, string] {
   const label = label0.replace(/^\D+\s+(?=[IVXLCDM\d]+$)/, '');
   if (/^\d+$/.test(label)) return [1, parseInt(label, 10), label];
@@ -83,7 +144,7 @@ function retrievedAt(slug: string): string {
 export interface BuildLog { slug: string; omitted: string[]; notes: string[]; pagesMissing: string[]; lowQuality: number; pagesTotal: number; templatesDropped: Record<string, number> }
 
 /** Aplica `headTitle`: el primer encabezado de nivel ≥ N pasa a ser el título; los de nivel menor se descartan. */
-export function applyHeadTitle(text: string, level: number | undefined, fallback: string | undefined): { title: string | undefined; text: string } {
+export function applyHeadTitle(text: string, level: number | undefined, fallback: string | undefined, dropFrom?: number): { title: string | undefined; text: string } {
   if (!level) return { title: fallback, text: stripHeadingMarks(text) };
   let title: string | undefined;
   const lines: string[] = [];
@@ -91,11 +152,16 @@ export function applyHeadTitle(text: string, level: number | undefined, fallback
     if (b.heading) {
       if (b.heading.level < level) { /* título de parte: lo cubre el grupo */ }
       else if (title === undefined && b.heading.title) title = b.heading.title;
+      else if (dropFrom && b.heading.level >= dropFrom) { /* rótulo editorial de la edición moderna: se descarta */ }
       else lines.push(b.heading.title);
     }
     if (b.text) lines.push(b.text);
   }
   return { title: title ?? fallback, text: lines.join('\n\n').trim() };
+}
+
+function applyReplace(text: string, pairs: [string, string][] | undefined): string {
+  return (pairs ?? []).reduce((t, [re, to]) => t.replace(new RegExp(re, 'gu'), to), text);
 }
 
 function dropMatching(text: string, patterns: string[] | undefined): string {
@@ -104,7 +170,7 @@ function dropMatching(text: string, patterns: string[] | undefined): string {
   return text.split('\n').filter((l) => !res.some((r) => r.test(l))).join('\n').replace(/\n{3,}/g, '\n\n').trim();
 }
 
-const resolveOpts = (part: PageOpts & { verse?: boolean }) => ({ stripVerseNumbers: part.verse, reflow: part.reflow, exclude: part.excludeScan, pageParagraphs: part.pageParagraphs });
+const resolveOpts = (part: PageOpts & { verse?: boolean }) => ({ stripVerseNumbers: part.verse, reflow: part.reflow, brIsVerse: part.brIsVerse, exclude: part.excludeScan, pageParagraphs: part.pageParagraphs });
 
 async function buildPart(w: Wiki, spec: WorkSpec, part: Part, stats: ResolveStats, log: BuildLog, collect: Collected, baseDepth: number): Promise<Sec[]> {
   const depth = baseDepth + (part.depth ?? 0);
@@ -118,7 +184,15 @@ async function buildPart(w: Wiki, spec: WorkSpec, part: Part, stats: ResolveStat
       for (const t of part.titles) {
         const r = await resolvePageText(w, spec.slug, t.page, stats, collect, resolveOpts(part));
         if (!r) { log.omitted.push(`${t.page}: página inexistente`); continue; }
-        const h = applyHeadTitle(r.text, part.headTitle, t.title ?? t.page);
+        const h = applyHeadTitle(applyReplace(r.text, part.replace), part.headTitle, t.title ?? t.page, part.dropHeadings);
+        if (part.chapterRe) {
+          const sp = splitByChapterRe(dropMatching(h.text, part.dropMatching), part.chapterRe);
+          if (sp.chapters.length) {
+            out.push({ title: t.title ?? h.title, depth, text: t.dropLead ? '' : sp.lead });
+            for (const c of sp.chapters) add(c.title, c.text, depth + 1, `${t.page} ${c.title}`);
+            continue;
+          }
+        }
         add(t.title ?? h.title, dropMatching(h.text, part.dropMatching), depth, t.page);
       }
       break;

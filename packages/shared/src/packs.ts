@@ -15,8 +15,11 @@ export const OFFICIAL_CATALOG_URL =
   'https://cdn.jsdelivr.net/gh/YeisenK/Libre_Biblia@main/content/catalog.json';
 
 import type { AudioPack, PrayersPack } from './prayers';
+import type { SaintsPack } from './saints';
+import type { FormationPack } from './formation';
+import type { HoursPack } from './hours/types';
 
-export type PackKind = 'bible' | 'document' | 'daily' | 'prayers' | 'audio';
+export type PackKind = 'bible' | 'document' | 'daily' | 'prayers' | 'audio' | 'saints' | 'formation' | 'hours';
 
 export type Authority =
   | 'scripture'
@@ -179,7 +182,7 @@ export interface DailyPack {
   entries: DailyEntry[];
 }
 
-export type ContentPack = BiblePack | DocumentPack | DailyPack | PrayersPack | AudioPack;
+export type ContentPack = BiblePack | DocumentPack | DailyPack | PrayersPack | AudioPack | SaintsPack | FormationPack | HoursPack;
 
 /** Validación estructural mínima de un paquete recién descargado. */
 export function assertPack(p: unknown): asserts p is ContentPack {
@@ -198,6 +201,15 @@ export function assertPack(p: unknown): asserts p is ContentPack {
   } else if (o.kind === 'audio') {
     const a = o as Partial<AudioPack>;
     if (!o.meta || !Array.isArray(a.clips) || !a.meta?.voice) throw new Error('Paquete de audio incompleto');
+  } else if (o.kind === 'saints') {
+    const s = o as Partial<SaintsPack>;
+    if (!o.meta || !Array.isArray(s.saints)) throw new Error('Paquete de santoral incompleto');
+  } else if (o.kind === 'formation') {
+    const f = o as Partial<FormationPack>;
+    if (!o.meta || !f.ccc || !Array.isArray(f.documents) || !Array.isArray(f.itineraries)) throw new Error('Paquete de formación incompleto');
+  } else if (o.kind === 'hours') {
+    const h = o as Partial<HoursPack>;
+    if (!o.meta || !h.psalter || !h.hymns || !h.collects || !h.shortReadings) throw new Error('Paquete de Oración de las Horas incompleto');
   } else {
     throw new Error('Tipo de paquete desconocido');
   }

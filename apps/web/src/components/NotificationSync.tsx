@@ -31,7 +31,7 @@ export function NotificationSync() {
   // Firma de lo que influye en los recordatorios de rutina: se reprograma al editarlas.
   const routinesSig = useLiveQuery(async () => JSON.stringify((await getDb().routines.toArray()).map((r) => [r.id, r.title, r.moment, r.items.length, r.reminder])), [], '');
 
-  const key = JSON.stringify([routinesSig, s.notifyEnabled, s.notifyVerseTime, s.notifyReading, s.notifyReadingTime, s.notifyPrayer, s.notifyPrayerTime, s.timeZone, s.dailyBible, s.defaultVersion]);
+  const key = JSON.stringify([routinesSig, s.notifyEnabled, s.notifyVerseTime, s.notifyReading, s.notifyReadingTime, s.notifyPrayer, s.notifyPrayerTime, s.notifySaint, s.notifySaintTime, s.notifyCelebrations, s.notifyCelebrationsTime, s.notifySeasons, s.notifySeasonsTime, s.notifySeasonContent, s.notifyNovenas, s.notifyNovenasTime, s.notifyRosary, s.notifyRosaryTime, s.calendar, s.epiphanySunday, s.ascensionSunday, s.corpusSunday, s.timeZone, s.dailyBible, s.defaultVersion]);
   useEffect(() => {
     const t = setTimeout(() => {
       chain = chain.then(() => syncNotifications(s)).catch(() => undefined);

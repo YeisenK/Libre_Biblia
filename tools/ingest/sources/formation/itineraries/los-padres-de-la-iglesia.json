@@ -1,0 +1,129 @@
+{
+ "id": "los-padres-de-la-iglesia",
+ "title": "Los Padres de la Iglesia",
+ "description": "Una introducción a los Padres: quiénes son, qué aportaron y cómo leerlos.",
+ "level": "intermedio",
+ "lessons": [
+  {
+   "title": "Qué es un Padre de la Iglesia",
+   "body": [
+    "Se llama Padres a los escritores cristianos antiguos, de santidad reconocida y doctrina ortodoxa, que testimonian la fe de la Iglesia. Su autoridad es la de testigos de la Tradición, aunque no todo lo que escribieron sea doctrina de la Iglesia."
+   ],
+   "ccc": [],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "74-100",
+     "La Tradición apostólica"
+    ]
+   ],
+   "questions": [
+    "¿Qué criterios identifican a un Padre?"
+   ]
+  },
+  {
+   "title": "Padres apostólicos y apologistas",
+   "body": [
+    "Clemente de Roma, Ignacio de Antioquía y Policarpo escribieron entre los siglos I y II. Los apologistas, como san Justino, defendieron la fe ante el mundo pagano."
+   ],
+   "ccc": [],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "2473",
+     "Martirio"
+    ]
+   ],
+   "questions": [
+    "¿Qué aportó san Ignacio de Antioquía?"
+   ]
+  },
+  {
+   "title": "Padres griegos",
+   "body": [
+    "Atanasio, Basilio, Gregorio Nacianceno y Gregorio de Nisa, Juan Crisóstomo y Cirilo de Alejandría defendieron la fe trinitaria y cristológica (CEC 465-469)."
+   ],
+   "ccc": [
+    465,
+    469
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "church",
+     "in-unitate-fidei",
+     "In unitate fidei"
+    ]
+   ],
+   "questions": [
+    "¿Qué defendió san Atanasio?"
+   ]
+  },
+  {
+   "title": "Padres latinos",
+   "body": [
+    "Ambrosio, Jerónimo, Agustín y Gregorio Magno marcaron el pensamiento occidental. Agustín escribió las Confesiones y La ciudad de Dios, disponibles en la biblioteca de Lux."
+   ],
+   "ccc": [],
+   "bible": [],
+   "readings": [
+    [
+     "work",
+     "doc.confesiones-agustin",
+     "Confesiones"
+    ],
+    [
+     "work",
+     "doc.ciudad-de-dios",
+     "La ciudad de Dios"
+    ]
+   ],
+   "questions": [
+    "¿Por qué san Agustín es una figura central en Occidente?"
+   ]
+  },
+  {
+   "title": "Cómo leer a los Padres",
+   "body": [
+    "Los Padres leen la Escritura con los sentidos literal y espiritual (CEC 115-119). Conviene leerlos en su contexto histórico y en continuidad con el Magisterio."
+   ],
+   "ccc": [
+    115,
+    118
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "101-141",
+     "La Escritura"
+    ]
+   ],
+   "questions": [
+    "¿Cuáles son los sentidos de la Escritura?"
+   ]
+  },
+  {
+   "title": "Los Padres y la liturgia",
+   "body": [
+    "Los Padres comentaron los sacramentos en la catequesis mistagógica. La Iglesia conserva sus textos en la Liturgia de las Horas y en el leccionario (CEC 1075)."
+   ],
+   "ccc": [
+    1075
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "1066-1075",
+     "Introducción a la liturgia"
+    ]
+   ],
+   "questions": [
+    "¿Qué es la catequesis mistagógica?"
+   ]
+  }
+ ]
+}

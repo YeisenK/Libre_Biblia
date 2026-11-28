@@ -150,11 +150,11 @@ export async function expandPages(wiki: Wiki, slug: string, wt: string, stats: R
 
 export async function resolvePageText(
   wiki: Wiki, slug: string, title: string, stats: ResolveStats, collect?: Collected,
-  opts: { stripVerseNumbers?: boolean; reflow?: boolean; exclude?: PageExclude[]; pageParagraphs?: boolean } = {},
+  opts: { stripVerseNumbers?: boolean; reflow?: boolean; brIsVerse?: boolean; exclude?: PageExclude[]; pageParagraphs?: boolean } = {},
 ): Promise<{ text: string; revid: number } | null> {
   const p = await wiki.parsePage(slug, title);
   if (!p) return null;
   stats.raw.push(p.wikitext);
   const wt = await expandPages(wiki, slug, p.wikitext, stats, { exclude: opts.exclude, pageParagraphs: opts.pageParagraphs });
-  return { text: wikitextToText(wt, { collect, stripVerseNumbers: opts.stripVerseNumbers, reflow: opts.reflow }), revid: p.revid };
+  return { text: wikitextToText(wt, { collect, stripVerseNumbers: opts.stripVerseNumbers, reflow: opts.reflow, brIsVerse: opts.brIsVerse }), revid: p.revid };
 }

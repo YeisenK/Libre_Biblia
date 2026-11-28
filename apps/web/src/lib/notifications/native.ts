@@ -4,6 +4,30 @@ import type { PlannedNotification } from './plan';
 export type PermissionState = 'granted' | 'denied' | 'prompt' | 'unsupported';
 export const CHANNEL_ID = 'daily';
 
+/** Canales de Android (el usuario puede silenciarlos por separado en los ajustes del sistema). */
+const CHANNELS = [
+  { id: CHANNEL_ID, name: 'Palabra del día', description: 'Versículo del día y recordatorio de lectura' },
+  { id: 'prayer', name: 'Oración y rutinas', description: 'Recordatorios de oración, rutinas y Rosario' },
+  { id: 'liturgy', name: 'Liturgia y santos', description: 'Santo del día, fiestas, tiempos litúrgicos y novenas' },
+] as const;
+
+/** Presentación de cada tipo: canal, grupo y rótulo que Android muestra junto al nombre de la app. */
+const STYLE: Record<PlannedNotification['kind'], { channel: string; summary: string }> = {
+  verse: { channel: CHANNEL_ID, summary: 'Versículo del día' },
+  reading: { channel: CHANNEL_ID, summary: 'Lectura' },
+  prayer: { channel: 'prayer', summary: 'Oración' },
+  routine: { channel: 'prayer', summary: 'Tu rutina' },
+  rosary: { channel: 'prayer', summary: 'Santo Rosario' },
+  saint: { channel: 'liturgy', summary: 'Santo del día' },
+  celebration: { channel: 'liturgy', summary: 'Liturgia' },
+  season: { channel: 'liturgy', summary: 'Tiempo litúrgico' },
+  content: { channel: 'liturgy', summary: 'Para meditar' },
+  novena: { channel: 'liturgy', summary: 'Novena' },
+};
+/** Icono monocromo de la barra de estado (res/drawable/ic_stat_lux.xml) y su color de acento. */
+const SMALL_ICON = 'ic_stat_lux';
+const ICON_COLOR = '#E2B866';
+
 const norm = (s: string | undefined): PermissionState => (s === 'granted' ? 'granted' : s === 'denied' ? 'denied' : 'prompt');
 
 export async function notificationPermission(): Promise<PermissionState> {
@@ -41,7 +65,7 @@ function scheduleWeb(plan: PlannedNotification[], now: Date) {
     timers.push(
       setTimeout(() => {
         try {
-          const n = new Notification(p.title, { body: p.body, tag: `bc-${p.id}` });
+          const n = new Notification(p.title, { body: p.body, tag: `bc-${p.id}`, icon: '/icons/icon-192.png', badge: '/icons/icon-192.png' });
           n.onclick = () => {
             window.focus();
             window.dispatchEvent(new CustomEvent('bc:open-path', { detail: p.path }));
@@ -61,13 +85,19 @@ export async function applyPlan(plan: PlannedNotification[], now: Date = new Dat
     const pending = await LocalNotifications.getPending();
     if (pending.notifications.length) await LocalNotifications.cancel({ notifications: pending.notifications.map((n) => ({ id: n.id })) });
     if (!plan.length) return;
-    await LocalNotifications.createChannel({ id: CHANNEL_ID, name: 'Versículo del día y recordatorios', description: 'Versículo diario y recordatorios de lectura y oración', importance: 3, visibility: 1 });
+    for (const c of CHANNELS) await LocalNotifications.createChannel({ ...c, importance: 3, visibility: 1, lightColor: ICON_COLOR });
     await LocalNotifications.schedule({
       notifications: plan.map((p) => ({
         id: p.id,
         title: p.title,
         body: p.body,
-        channelId: CHANNEL_ID,
+        // Texto completo al desplegar la notificación y rótulo de categoría en la cabecera.
+        largeBody: p.body,
+        summaryText: STYLE[p.kind]?.summary,
+        group: STYLE[p.kind]?.summary,
+        smallIcon: SMALL_ICON,
+        iconColor: ICON_COLOR,
+        channelId: STYLE[p.kind]?.channel ?? CHANNEL_ID,
         schedule: { at: p.at, allowWhileIdle: false },
         // Sin alarmas exactas: no se pide el permiso «Alarmas y recordatorios».
         isExactNotification: false,

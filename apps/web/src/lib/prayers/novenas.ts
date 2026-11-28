@@ -14,7 +14,9 @@ export async function getProgress(novenaId: string, db: AppDb = getDb()): Promis
 /** Empieza una novena. Si ya hay una en curso se conserva; si estaba completada, se reinicia. */
 export async function startNovena(novenaId: string, intention?: string, db: AppDb = getDb(), now: Date = new Date()): Promise<NovenaProgressRow> {
   const cur = await db.novenaProgress.get(novenaId);
-  if (cur && !cur.completedAt) {
+  // Una novena programada para más adelante (sin días rezados) empieza al pulsar «Comenzar»
+  const scheduled = !!cur && cur.startedAt > now.toISOString() && Object.keys(cur.done).length === 0;
+  if (cur && !cur.completedAt && !scheduled) {
     if (intention !== undefined && intention !== cur.intention) {
       const upd = { ...cur, intention: intention.trim() || undefined, updatedAt: now.toISOString() };
       await db.novenaProgress.put(upd);
@@ -36,11 +38,18 @@ export async function restartNovena(novenaId: string, intention?: string, db: Ap
 
 export async function abandonNovena(novenaId: string, db: AppDb = getDb()): Promise<void> {
   await db.novenaProgress.delete(novenaId);
+  await db.routines.delete(`novena-reminder-${novenaId}`);
 }
 
-export async function listInProgress(db: AppDb = getDb()): Promise<NovenaProgressRow[]> {
-  const rows = (await db.novenaProgress.toArray()).filter((r) => !r.completedAt);
+/** Novenas en curso (empezadas). Las programadas para el futuro se listan aparte con `listScheduled`. */
+export async function listInProgress(db: AppDb = getDb(), now: Date = new Date()): Promise<NovenaProgressRow[]> {
+  const rows = (await db.novenaProgress.toArray()).filter((r) => !r.completedAt && !(r.startedAt > now.toISOString() && Object.keys(r.done).length === 0));
   return rows.sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+}
+
+export async function listScheduled(db: AppDb = getDb(), now: Date = new Date()): Promise<NovenaProgressRow[]> {
+  const rows = (await db.novenaProgress.toArray()).filter((r) => !r.completedAt && r.startedAt > now.toISOString() && Object.keys(r.done).length === 0);
+  return rows.sort((a, b) => a.startedAt.localeCompare(b.startedAt));
 }
 
 export async function listCompleted(db: AppDb = getDb()): Promise<NovenaProgressRow[]> {
@@ -83,6 +92,7 @@ export async function markDayDone(novena: Pick<Novena, 'id' | 'days'>, day: numb
   const all = Array.from({ length: total }, (_, i) => i + 1).every((d) => done[d]);
   const row: NovenaProgressRow = { ...base, done, updatedAt: now.toISOString(), completedAt: all ? now.toISOString() : null };
   await db.novenaProgress.put(row);
+  if (all) await db.routines.delete(`novena-reminder-${novena.id}`); // terminada: se apaga el recordatorio diario
   await recordPrayed(`novena:${novena.id}:${day}`, `${opts.title ?? novena.id} · día ${day}`, db, now);
   if (opts.markRoutine !== false) await markItemDone(novenaKey(novena.id), date, db);
   return row;

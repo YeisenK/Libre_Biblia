@@ -9,5 +9,9 @@ describe('destino activo de la navegación', () => {
     for (const p of ['/biblioteca/', '/documento/']) expect(destinationOf(p)).toBe('biblioteca');
     for (const p of ['/mas/', '/ajustes/', '/descargas/', '/marcadores/', '/fuentes/']) expect(destinationOf(p)).toBe('mas');
     expect(destinationOf('/hoy/')).toBe('inicio');
+    for (const p of ['/calendario/', '/santo/']) expect(destinationOf(p)).toBe('inicio');
+    for (const p of ['/favoritos/', '/diario/']) expect(destinationOf(p)).toBe('mas');
+    for (const p of ['/libro/', '/importar/']) expect(destinationOf(p)).toBe('biblioteca');
+    expect(destinationOf('/desconocida/')).toBeNull();
   });
 });

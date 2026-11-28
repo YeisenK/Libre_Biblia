@@ -1,0 +1,437 @@
+{
+ "collects": [
+  {
+   "id": "advent-1",
+   "name": "I domingo de Adviento",
+   "la": "Excita, quaesumus, Domine, potentiam tuam, et veni: ut ab imminentibus peccatorum nostrorum periculis, te mereamur protegente eripi, te liberante salvari. Per Dominum nostrum Iesum Christum, Filium tuum, qui tecum vivit et regnat in unitate Spiritus Sancti, Deus, per omnia saecula saeculorum. Amen.",
+   "es": "Despierta, Señor, te rogamos, tu poder y ven: para que, protegidos por ti, merezcamos ser arrancados de los peligros que nuestros pecados nos acarrean, y salvados por tu liberación. Por nuestro Señor Jesucristo, tu Hijo, que vive y reina contigo en la unidad del Espíritu Santo, Dios, por los siglos de los siglos. Amén.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "advent-2",
+   "name": "II domingo de Adviento",
+   "la": "Excita, Domine, corda nostra ad praeparandas Unigeniti tui vias: ut per eius adventum purificatis tibi mentibus servire mereamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Despierta, Señor, nuestros corazones para preparar los caminos de tu Hijo único, de modo que, por su venida, purificadas nuestras almas, merezcamos servirte. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "advent-3",
+   "name": "III domingo de Adviento",
+   "la": "Aurem tuam, quaesumus, Domine, precibus nostris accommoda, et mentis nostrae tenebras gratia tuae visitationis illustra. Per Dominum nostrum Iesum Christum.",
+   "es": "Inclina, Señor, te rogamos, tu oído a nuestras súplicas e ilumina con la gracia de tu visita las tinieblas de nuestra alma. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "advent-4",
+   "name": "IV domingo de Adviento y feria del 17 al 24 de diciembre",
+   "la": "Excita, quaesumus, Domine, potentiam tuam, et magna nobis virtute succurre: ut per auxilium gratiae tuae, quod nostra peccata praepediunt, indulgentiae tuae propitiatis acceleretur. Per Dominum nostrum Iesum Christum.",
+   "es": "Despierta, Señor, te rogamos, tu poder y socórrenos con gran fuerza: para que, con el auxilio de tu gracia, lo que nuestros pecados impiden sea acelerado por tu benigno perdón. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "advent",
+   "name": "Feria de Adviento",
+   "la": "Excita, Domine, corda nostra ad praeparandas Unigeniti tui vias: ut per eius adventum purificatis tibi mentibus servire mereamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Despierta, Señor, nuestros corazones para preparar los caminos de tu Hijo único, de modo que, por su venida, purificadas nuestras almas, merezcamos servirte. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "christmas",
+   "name": "Natividad del Señor",
+   "la": "Concede, quaesumus, omnipotens Deus: ut nos Unigeniti tui nova per carnem Nativitas liberet, quos sub peccati iugo vetusta servitus tenet. Per Dominum nostrum Iesum Christum.",
+   "es": "Concede, Dios todopoderoso, que el nuevo nacimiento de tu Hijo único en la carne nos libere a quienes retiene bajo el yugo del pecado la antigua esclavitud. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "christmas-season",
+   "name": "Tiempo de Navidad y Santa María, Madre de Dios",
+   "la": "Deus, qui salutis aeternae beatae Mariae virginitate fecunda humano generi praemia praestitisti: tribue, quaesumus, ut ipsam pro nobis intercedere sentiamus, per quam meruimus auctorem vitae suscipere, Dominum nostrum Iesum Christum, Filium tuum.",
+   "es": "Oh Dios, que por la virginidad fecunda de santa María diste al género humano los bienes de la salvación eterna: concédenos, te rogamos, sentir interceder por nosotros a aquella por quien merecimos recibir al autor de la vida, nuestro Señor Jesucristo, tu Hijo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "epiphany",
+   "name": "Epifanía del Señor",
+   "la": "Deus, qui hodierna die Unigenitum tuum gentibus stella duce revelasti: concede propitius; ut, qui iam te ex fide cognovimus, usque ad contemplandam speciem tuae celsitudinis perducamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que hoy revelaste a tu Hijo único a las naciones guiándolas con una estrella: concede propicio que quienes ya te conocemos por la fe seamos llevados hasta contemplar la hermosura de tu grandeza. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "baptism",
+   "name": "Bautismo del Señor",
+   "la": "Deus, cuius Unigenitus in substantia nostrae carnis apparuit: praesta, quaesumus; ut per eum, quem similem nobis foris agnovimus, intus reformari mereamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, cuyo Hijo único se manifestó en la sustancia de nuestra carne: concédenos, te rogamos, que por aquel a quien reconocimos semejante a nosotros por fuera, merezcamos ser renovados por dentro. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "lent",
+   "name": "Cuaresma (feria)",
+   "la": "Concede nobis, Domine, praesidia militiae christianae sanctis inchoare ieiuniis: ut contra spiritales nequitias pugnaturi, continentiae muniamur auxiliis. Per Dominum nostrum Iesum Christum.",
+   "es": "Concédenos, Señor, comenzar con santos ayunos las armas de la milicia cristiana, para que, destinados a luchar contra las asechanzas espirituales, seamos fortalecidos con los auxilios de la continencia. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "lent-sunday",
+   "name": "Domingo de Cuaresma",
+   "la": "Deus, qui Ecclesiam tuam annua quadragesimali observatione purificas: praesta familiae tuae; ut, quod a te obtinere abstinendo nititur, hoc bonis operibus exsequatur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que purificas a tu Iglesia con la observancia anual de la Cuaresma: concede a tu familia que lo que procura obtener de ti mediante la abstinencia, lo lleve a cabo con buenas obras. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "palm-sunday",
+   "name": "Domingo de Ramos y Semana Santa",
+   "la": "Omnipotens sempiterne Deus, qui humano generi, ad imitandum humilitatis exemplum, Salvatorem nostrum carnem sumere, et crucem subire fecisti: concede propitius; ut et patientiae ipsius habere documenta, et resurrectionis consortia mereamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios todopoderoso y eterno, que para dar al género humano un ejemplo de humildad quisiste que nuestro Salvador tomara carne y soportara la cruz: concede propicio que merezcamos tener las enseñanzas de su paciencia y la participación en su resurrección. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "holy-thursday",
+   "name": "Jueves Santo",
+   "la": "Deus, a quo et Iudas reatus sui poenam, et confessionis suae latro praemium sumpsit: concede nobis tuae propitiationis effectum; ut, sicut in passione sua Iesus Christus, Dominus noster, diversa utrisque intulit stipendia meritorum, ita nobis, ablato vetustatis errore, resurrectionis suae gratiam largiatur. Qui tecum vivit et regnat.",
+   "es": "Oh Dios, de quien Judas recibió el castigo de su culpa y el ladrón el premio de su confesión: concédenos el efecto de tu misericordia, para que, así como Jesucristo, nuestro Señor, en su pasión dio a cada uno su distinto salario según sus méritos, así a nosotros, quitado el error de la vieja condición, nos otorgue la gracia de su resurrección. Él, que vive y reina contigo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "good-friday",
+   "name": "Viernes Santo",
+   "la": "Respice, quaesumus, Domine, super hanc familiam tuam, pro qua Dominus noster Iesus Christus non dubitavit manibus tradi nocentium, et crucis subire tormentum. Qui tecum vivit et regnat.",
+   "es": "Mira, Señor, te rogamos, a esta tu familia, por la cual nuestro Señor Jesucristo no dudó en entregarse en manos de los culpables y sufrir el tormento de la cruz. Él, que vive y reina contigo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "holy-saturday",
+   "name": "Sábado Santo",
+   "la": "Deus, qui hanc sacratissimam noctem gloria Dominicae resurrectionis illustras: conserva in nova familiae tuae progenie adoptionis spiritum, ut corpore et mente tibi sincere famulemur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que iluminas esta noche santísima con la gloria de la resurrección del Señor: conserva en los nuevos hijos de tu familia el espíritu de adopción, para que te sirvamos con sinceridad en cuerpo y alma. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "easter",
+   "name": "Domingo de Pascua y octava",
+   "la": "Deus, qui hodierna die per Unigenitum tuum aeternitatis nobis aditum devicta morte reserasti: vota nostra, quae praeveniendo aspiras, etiam adiuvando prosequere. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que hoy, por tu Hijo único, vencida la muerte, nos abriste la entrada a la eternidad: acompaña con tu ayuda los deseos que tú mismo nos inspiras adelantándote a ellos. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "easter-season",
+   "name": "Tiempo de Pascua",
+   "la": "Deus, qui nos resurrectionis dominicae annua sollemnitate laetificas: concede propitius; ut per temporalia festa, quae agimus, pervenire ad gaudia aeterna mereamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que nos alegras cada año con la solemnidad de la resurrección del Señor: concede propicio que, por las fiestas temporales que celebramos, merezcamos llegar a los gozos eternos. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ascension",
+   "name": "Ascensión del Señor",
+   "la": "Concede, quaesumus, omnipotens Deus: ut, qui hodierna die Unigenitum tuum Redemptorem nostrum ad caelos ascendisse credimus, ipsi quoque mente in caelestibus habitemus. Per Dominum nostrum Iesum Christum.",
+   "es": "Concede, Dios todopoderoso, que quienes creemos que hoy tu Hijo único, nuestro Redentor, ha subido a los cielos, habitemos también nosotros con el corazón en las cosas celestiales. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "pentecost",
+   "name": "Pentecostés",
+   "la": "Deus, qui hodierna die corda fidelium Sancti Spiritus illustratione docuisti: da nobis in eodem Spiritu recta sapere, et de eius semper consolatione gaudere. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que hoy instruiste los corazones de los fieles con la luz del Espíritu Santo: danos gustar en ese mismo Espíritu lo recto y gozar siempre de su consuelo. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "trinity",
+   "name": "Santísima Trinidad",
+   "la": "Omnipotens sempiterne Deus, qui dedisti famulis tuis in confessione verae fidei, aeternae Trinitatis gloriam agnoscere, et in potentia maiestatis adorare Unitatem: quaesumus; ut eiusdem fidei firmitate ab omnibus semper muniamur adversis. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios todopoderoso y eterno, que concediste a tus siervos reconocer, en la confesión de la fe verdadera, la gloria de la Trinidad eterna y adorar la Unidad en el poder de su majestad: te rogamos que, por la firmeza de esa misma fe, seamos siempre protegidos de toda adversidad. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "corpus-christi",
+   "name": "Santísimo Cuerpo y Sangre de Cristo",
+   "la": "Deus, qui nobis sub sacramento mirabili passionis tuae memoriam reliquisti: tribue, quaesumus, ita nos corporis et sanguinis tui sacra mysteria venerari; ut redemptionis tuae fructum in nobis iugiter sentiamus. Qui vivis et regnas.",
+   "es": "Oh Dios, que en un sacramento admirable nos dejaste el memorial de tu pasión: concédenos, te rogamos, venerar de tal modo los sagrados misterios de tu Cuerpo y de tu Sangre, que sintamos continuamente en nosotros el fruto de tu redención. Tú que vives y reinas.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "sacred-heart",
+   "name": "Sagrado Corazón de Jesús",
+   "la": "Concede, quaesumus, omnipotens Deus: ut qui in sanctissimo dilecti Filii tui Corde gloriantes, praecipua in nos caritatis eius beneficia recolimus, eorum pariter et actu delectemur et fructu. Per Dominum nostrum Iesum Christum.",
+   "es": "Concede, Dios todopoderoso, que quienes, gloriándonos en el santísimo Corazón de tu Hijo amado, recordamos los principales beneficios de su caridad para con nosotros, nos gocemos igualmente de su acción y de su fruto. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "christ-king",
+   "name": "Cristo, Rey del Universo",
+   "la": "Omnipotens sempiterne Deus, qui in dilecto Filio tuo, universorum Rege, omnia instaurare voluisti: concede propitius; ut tota creatura, a servitute liberata, tuae maiestati deserviat ac te sine fine collaudet. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios todopoderoso y eterno, que quisiste restaurar todas las cosas en tu Hijo amado, Rey del universo: concede propicio que toda la creación, liberada de la servidumbre, sirva a tu majestad y te alabe sin fin. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "annunciation",
+   "name": "Anunciación del Señor",
+   "la": "Deus, qui de beatae Mariae Virginis utero Verbum tuum, angelo nuntiante, carnem suscipere voluisti: praesta supplicibus tuis; ut, qui vere eam Genetricem Dei credimus, eius apud te intercessionibus adiuvemur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que quisiste que tu Verbo tomara carne en el seno de la Virgen María por el anuncio del ángel: concede a tus suplicantes que, creyendo que ella es verdaderamente Madre de Dios, seamos ayudados por su intercesión ante ti. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "joseph",
+   "name": "San José",
+   "la": "Sanctissimae Genetricis tuae Sponsi, quaesumus, Domine, meritis adiuvemur: ut, quod possibilitas nostra non obtinet, eius nobis intercessione donetur. Qui vivis et regnas.",
+   "es": "Te rogamos, Señor, que nos ayuden los méritos del Esposo de tu santísima Madre, para que lo que nuestras fuerzas no alcanzan nos sea concedido por su intercesión. Tú que vives y reinas.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "john-baptist",
+   "name": "Natividad de san Juan Bautista",
+   "la": "Deus, qui praesentem diem honorabilem nobis in beati Ioannis nativitate fecisti: da populis tuis spiritualium gratiam gaudiorum; et omnium fidelium mentes dirige in viam salutis aeternae. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que hiciste venerable para nosotros este día con el nacimiento de san Juan: da a tu pueblo la gracia de los gozos espirituales y dirige el corazón de todos los fieles por el camino de la salvación eterna. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "peter-paul",
+   "name": "San Pedro y san Pablo",
+   "la": "Deus, qui hodiernam diem Apostolorum tuorum Petri et Pauli martyrio consecrasti: da Ecclesiae tuae eorum in omnibus sequi praeceptum, per quos religionis sumpsit exordium. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que consagraste este día con el martirio de tus apóstoles Pedro y Pablo: concede a tu Iglesia seguir en todo la enseñanza de aquellos por quienes recibió el comienzo de la fe. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "transfiguration",
+   "name": "Transfiguración del Señor",
+   "la": "Deus, qui fidei sacramenta in Unigeniti tui gloriosa Transfiguratione patrum testimonio roborasti, et adoptionem filiorum perfectam voce delapsa in nube lucida mirabiliter praesignasti: concede nobis famulis tuis; ut, ipsius dilecti Filii tui vocem audientes, eiusdem coheredes effici mereamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que en la gloriosa Transfiguración de tu Hijo único confirmaste los misterios de la fe con el testimonio de los padres, y anunciaste admirablemente con la voz bajada de la nube luminosa la adopción perfecta de los hijos: concede a tus siervos que, escuchando la voz de ese mismo Hijo amado, merezcamos llegar a ser sus coherederos. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "assumption",
+   "name": "Asunción de la Virgen María",
+   "la": "Veneranda nobis, Domine, huius est diei festivitas, in qua sancta Dei Genetrix mortem subiit temporalem, nec tamen mortis nexibus deprimi potuit, quae Filium tuum Dominum nostrum de se genuit incarnatum. Qui tecum vivit et regnat.",
+   "es": "Venerable es para nosotros, Señor, la fiesta de este día, en que la santa Madre de Dios sufrió la muerte temporal, sin que los lazos de la muerte pudieran retenerla a ella, que engendró de sí a tu Hijo, nuestro Señor, hecho carne. Él, que vive y reina contigo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "holy-cross",
+   "name": "Santa Cruz",
+   "la": "Deus, qui Unigenitum tuum crucis patibulum subire voluisti, ut inimici a nobis expelleres potestatem: concede nobis famulis tuis; ut resurrectionis gratiam consequamur. Per eundem Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que quisiste que tu Hijo único soportara el madero de la cruz para expulsar de nosotros el poder del enemigo: concede a tus siervos alcanzar la gracia de la resurrección. Por el mismo Jesucristo, nuestro Señor.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "all-saints",
+   "name": "Todos los Santos",
+   "la": "Omnipotens sempiterne Deus, qui nos omnium Sanctorum tuorum merita sub una tribuisti celebritate venerari: quaesumus; ut desideratam nobis tuae propitiationis abundantiam, multiplicatis intercessoribus, largiaris. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios todopoderoso y eterno, que nos concediste venerar en una sola celebración los méritos de todos tus santos: te rogamos que, multiplicados nuestros intercesores, nos des la abundancia de tu misericordia que deseamos. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "all-souls",
+   "name": "Conmemoración de los fieles difuntos",
+   "la": "Fidelium, Deus, omnium conditor et redemptor, animabus famulorum famularumque tuarum remissionem cunctorum tribue peccatorum: ut indulgentiam, quam semper optaverunt, piis supplicationibus consequantur. Qui vivis et regnas.",
+   "es": "Oh Dios, creador y redentor de todos los fieles, concede a las almas de tus siervos y siervas el perdón de todos sus pecados, para que alcancen, por nuestras piadosas súplicas, la indulgencia que siempre desearon. Tú que vives y reinas.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "immaculate-conception",
+   "name": "Inmaculada Concepción",
+   "la": "Deus, qui per immaculatam Virginis Conceptionem dignum Filio tuo habitaculum praeparasti: quaesumus; ut, qui ex morte eiusdem Filii tui praevisa eam ab omni labe praeservasti, nos quoque mundos eius intercessione ad te pervenire concedas. Per eundem Dominum.",
+   "es": "Oh Dios, que por la Concepción inmaculada de la Virgen preparaste una morada digna de tu Hijo: te rogamos que, así como la preservaste de toda mancha en previsión de la muerte de ese mismo Hijo, nos concedas llegar a ti limpios por su intercesión. Por el mismo Jesucristo, nuestro Señor.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "mary",
+   "name": "Santa María Virgen (común y memorias marianas)",
+   "la": "Concede nos famulos tuos, quaesumus, Domine Deus, perpetua mentis et corporis sanitate gaudere: et gloriosa beatae Mariae semper Virginis intercessione, a praesenti liberari tristitia, et aeterna perfrui laetitia. Per Dominum nostrum Iesum Christum.",
+   "es": "Concédenos a tus siervos, Señor Dios, gozar de perpetua salud de alma y cuerpo, y, por la gloriosa intercesión de la bienaventurada siempre Virgen María, ser liberados de la tristeza presente y disfrutar de la alegría eterna. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "apostles",
+   "name": "Apóstoles y evangelistas (común)",
+   "la": "Deus, qui nos per beatos Apostolos tuos ad agnitionem tui nominis venire tribuisti: da nobis, eorum gloriam in aeternum proficere, per quorum doctrinam fidei suscepimus rudimentum. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que por tus santos apóstoles nos concediste llegar al conocimiento de tu nombre: haz que su gloria progrese para nosotros eternamente, a quienes debemos, por su enseñanza, los primeros fundamentos de la fe. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "martyrs",
+   "name": "Mártires (común)",
+   "la": "Praesta, quaesumus, omnipotens Deus: ut, qui martyris tui natalitia colimus, et annua sollemnitate laetemur, et tantae fortitudinis proficiamus exemplo. Per Dominum nostrum Iesum Christum.",
+   "es": "Concede, Dios todopoderoso, que quienes celebramos el nacimiento al cielo de tu mártir nos alegremos con la solemnidad anual y progresemos con el ejemplo de tan gran fortaleza. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "saints",
+   "name": "Santos (común)",
+   "la": "Da, quaesumus, omnipotens Deus: ut, qui sanctorum tuorum natalitia colimus, eorum apud te intercessionibus ab omnibus malis imminentibus liberemur. Per Dominum nostrum Iesum Christum.",
+   "es": "Concede, Dios todopoderoso, que quienes celebramos el nacimiento al cielo de tus santos seamos librados, por su intercesión ante ti, de todos los males que nos amenazan. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "dedication",
+   "name": "Dedicación de una iglesia",
+   "la": "Deus, qui nobis per singulos annos huius sancti templi tui consecrationis reparas diem, et sacris semper mysteriis repraesentas incolumes: exaudi preces populi tui, et praesta; ut quisquis hoc templum beneficia petiturus ingreditur, cuncta se impetrasse laetetur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que cada año nos devuelves el día de la consagración de este tu santo templo y nos haces presentes, sanos y salvos, ante los sagrados misterios: escucha las súplicas de tu pueblo y concede que quien entre en este templo a pedir tus beneficios se alegre de haberlo obtenido todo. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-1",
+   "name": "Tiempo Ordinario (a)",
+   "la": "Omnipotens sempiterne Deus, qui caelestia simul et terrena moderaris, supplicationes populi tui clementer exaudi, et pacem tuam nostris concede temporibus. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios todopoderoso y eterno, que gobiernas a la vez lo celestial y lo terrenal, escucha con clemencia las súplicas de tu pueblo y concede tu paz a nuestros días. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-2",
+   "name": "Tiempo Ordinario (b)",
+   "la": "Omnipotens sempiterne Deus, dirige actus nostros in beneplacito tuo: ut in nomine dilecti Filii tui mereamur bonis operibus abundare. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios todopoderoso y eterno, dirige nuestras obras según tu beneplácito, para que en el nombre de tu Hijo amado merezcamos abundar en buenas obras. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-3",
+   "name": "Tiempo Ordinario (c)",
+   "la": "Deus, qui diligentibus te bona invisibilia praeparasti: infunde cordibus nostris tui amoris affectum; ut te in omnibus et super omnia diligentes, promissiones tuas, quae omne desiderium superant, consequamur. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que tienes preparados bienes invisibles para quienes te aman: infunde en nuestros corazones el afecto de tu amor, para que, amándote en todo y sobre todo, alcancemos tus promesas, que superan todo deseo. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-4",
+   "name": "Tiempo Ordinario (d)",
+   "la": "Deus virtutum, cuius est totum quod est optimum: insere pectoribus nostris amorem tui nominis, et praesta in nobis religionis augmentum; ut quae sunt bona nutrias, ac pietatis studio, quae sunt nutrita, custodias. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios de las virtudes, de quien viene todo lo que es óptimo: siembra en nuestros corazones el amor de tu nombre, concede en nosotros el aumento de la religión, para que alimentes lo que es bueno y, con el empeño de la piedad, custodies lo ya alimentado. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-5",
+   "name": "Tiempo Ordinario (e)",
+   "la": "Largire nobis, quaesumus, Domine, semper spiritum cogitandi quae recta sunt, propitius, et agendi: ut, qui sine te esse non possumus, secundum te vivere valeamus. Per Dominum nostrum Iesum Christum.",
+   "es": "Concédenos, Señor, te rogamos, propicio, el espíritu de pensar siempre lo que es recto y de obrarlo, para que quienes sin ti no podemos existir, podamos vivir según tu voluntad. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-6",
+   "name": "Tiempo Ordinario (f)",
+   "la": "Custodi, Domine, quaesumus, Ecclesiam tuam propitiatione perpetua: et quia sine te labitur humana mortalitas, tuis semper auxiliis et abstrahatur a noxiis et ad salutaria dirigatur. Per Dominum nostrum Iesum Christum.",
+   "es": "Guarda, Señor, te rogamos, a tu Iglesia con tu perpetua misericordia; y, puesto que sin ti vacila la fragilidad humana, sea siempre apartada por tu ayuda de lo dañino y dirigida a lo saludable. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-7",
+   "name": "Tiempo Ordinario (g)",
+   "la": "Protector in te sperantium, Deus, sine quo nihil est validum, nihil sanctum: multiplica super nos misericordiam tuam; ut, te rectore, te duce, sic bonis transeuntibus nunc, ut non amittamus aeterna. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, protector de los que esperan en ti, sin quien nada es sólido ni santo: multiplica sobre nosotros tu misericordia, para que, con tu gobierno y tu guía, usemos de los bienes pasajeros de modo que no perdamos los eternos. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "ordinary-8",
+   "name": "Tiempo Ordinario (h)",
+   "la": "Deus, qui omnipotentiam tuam parcendo maxime et miserando manifestas: multiplica super nos misericordiam tuam; ut, ad tua promissa currentes, caelestium bonorum facias esse consortes. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, que manifiestas sobre todo tu omnipotencia perdonando y compadeciéndote: multiplica sobre nosotros tu misericordia, para que, corriendo hacia tus promesas, nos hagas partícipes de los bienes celestiales. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "feria-lauds",
+   "name": "Laudes (feria)",
+   "la": "Actiones nostras, quaesumus, Domine, aspirando praeveni et adiuvando prosequere: ut cuncta nostra operatio a te semper incipiat, et per te coepta finiatur. Per Dominum nostrum Iesum Christum.",
+   "es": "Te rogamos, Señor, que te adelantes a nuestras acciones inspirándolas y las acompañes ayudándolas, para que toda nuestra obra comience siempre en ti y por ti llegue a su fin. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "feria-day",
+   "name": "Hora intermedia (feria)",
+   "la": "Actiones nostras, quaesumus, Domine, aspirando praeveni et adiuvando prosequere: ut cuncta nostra operatio a te semper incipiat, et per te coepta finiatur. Per Dominum nostrum Iesum Christum.",
+   "es": "Te rogamos, Señor, que te adelantes a nuestras acciones inspirándolas y las acompañes ayudándolas, para que toda nuestra obra comience siempre en ti y por ti llegue a su fin. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "feria-vespers",
+   "name": "Vísperas (feria)",
+   "la": "Deus, a quo sancta desideria, recta consilia, et iusta sunt opera: da servis tuis illam, quam mundus dare non potest, pacem; ut et corda nostra mandatis tuis dedita, et hostium sublata formidine, tempora sint tua protectione tranquilla. Per Dominum nostrum Iesum Christum.",
+   "es": "Oh Dios, de quien proceden los santos deseos, los rectos consejos y las obras justas: da a tus siervos aquella paz que el mundo no puede dar, para que, entregados nuestros corazones a tus mandatos y quitado el temor a los enemigos, nuestros días sean tranquilos bajo tu protección. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "feria-office",
+   "name": "Oficio de lectura (feria)",
+   "la": "Omnipotens sempiterne Deus, dirige actus nostros in beneplacito tuo: ut in nomine dilecti Filii tui mereamur bonis operibus abundare. Per Dominum nostrum Iesum Christum.",
+   "es": "Dios todopoderoso y eterno, dirige nuestras obras según tu beneplácito, para que en el nombre de tu Hijo amado merezcamos abundar en buenas obras. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "compline-1",
+   "name": "Completas",
+   "la": "Visita, quaesumus, Domine, habitationem istam, et omnes insidias inimici ab ea longe repelle: Angeli tui sancti habitent in ea, qui nos in pace custodiant; et benedictio tua sit super nos semper. Per Dominum nostrum Iesum Christum.",
+   "es": "Visita, Señor, te rogamos, esta morada y aleja de ella todas las asechanzas del enemigo; que habiten en ella tus santos ángeles, que nos guarden en paz, y que tu bendición esté siempre sobre nosotros. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  },
+  {
+   "id": "compline-2",
+   "name": "Completas (b)",
+   "la": "Illumina, quaesumus, Domine, tenebras nostras, et totius huius noctis insidias a nobis tua magna misericordia repelle. Per Dominum nostrum Iesum Christum.",
+   "es": "Ilumina, Señor, te rogamos, nuestras tinieblas y aleja de nosotros por tu gran misericordia todas las asechanzas de esta noche. Por nuestro Señor Jesucristo.",
+   "source": "Latín: Missale/Breviarium Romanum anteriores a 1970 (dominio público); transcrito de memoria editorial, pendiente de cotejo. Traducción: Composición de Lux."
+  }
+ ],
+ "byCelebration": {
+  "mary-mother-of-god": "christmas-season",
+  "christmas-sunday": "christmas-season",
+  "holy-family": "christmas-season",
+  "epiphany": "epiphany",
+  "baptism": "baptism",
+  "ash-wednesday": "lent",
+  "palm-sunday": "palm-sunday",
+  "holy-thursday": "holy-thursday",
+  "good-friday": "good-friday",
+  "holy-saturday": "holy-saturday",
+  "easter-sunday": "easter",
+  "ascension": "ascension",
+  "pentecost": "pentecost",
+  "trinity": "trinity",
+  "corpus-christi": "corpus-christi",
+  "sacred-heart": "sacred-heart",
+  "christ-king": "christ-king",
+  "nativity": "christmas",
+  "annunciation": "annunciation",
+  "joseph": "joseph",
+  "john-baptist": "john-baptist",
+  "peter-paul": "peter-paul",
+  "transfiguration": "transfiguration",
+  "assumption": "assumption",
+  "holy-cross": "holy-cross",
+  "holy-cross-mx": "holy-cross",
+  "all-saints": "all-saints",
+  "all-souls": "all-souls",
+  "immaculate-conception": "immaculate-conception",
+  "lateran": "dedication",
+  "advent-1": "advent-1",
+  "advent-2": "advent-2",
+  "advent-3": "advent-3",
+  "advent-4": "advent-4",
+  "conversion-paul": "apostles",
+  "chair-peter": "apostles",
+  "mark": "apostles",
+  "philip-james": "apostles",
+  "matthias": "apostles",
+  "thomas": "apostles",
+  "james": "apostles",
+  "bartholomew": "apostles",
+  "matthew": "apostles",
+  "simon-jude": "apostles",
+  "andrew": "apostles",
+  "john-evangelist": "apostles",
+  "luke": "apostles",
+  "archangels": "apostles",
+  "stephen": "martyrs",
+  "lawrence": "martyrs",
+  "innocents": "martyrs",
+  "felipe-de-jesus": "martyrs",
+  "jose-sanchez-del-rio": "martyrs",
+  "cristobal-magallanes": "martyrs",
+  "zuniga-flores": "martyrs",
+  "miguel-agustin-pro": "martyrs",
+  "bartolome-gutierrez": "martyrs",
+  "visitation": "mary",
+  "nativity-mary": "mary",
+  "sorrows": "mary",
+  "queenship": "mary",
+  "rosary": "mary",
+  "pilar": "mary",
+  "guadalupe": "mary",
+  "lourdes": "mary",
+  "immaculate-heart": "mary",
+  "mary-mother-church": "mary"
+ }
+}

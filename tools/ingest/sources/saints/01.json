@@ -1,0 +1,1137 @@
+[
+ {
+  "id": "santa-maria-madre-de-dios",
+  "name": "Santa María, Madre de Dios",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "01-01",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "Santa María, Madre de Dios",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "century": 5,
+  "summary": "Solemnidad del 1 de enero, octava de Navidad, que celebra la maternidad divina de María, proclamada en el concilio de Éfeso (431), y la Jornada Mundial de la Paz.",
+  "biography": "La solemnidad del 1 de enero celebra la maternidad divina de María. En la liturgia romana la fecha coincide con la octava de Navidad, y Pablo VI, en la exhortación *Marialis cultus* (1974), explica que fue fijada «según la antigua sugerencia de la Liturgia de Roma» para honrar la parte que tuvo María en el misterio de la salvación y la dignidad de la Madre, por quien hemos recibido al Autor de la vida.\n\nEl fundamento bíblico es sencillo. Lucas narra la Anunciación y la visita a Isabel, que saluda a María como «la madre de mi Señor» (Lc 1, 43), y Pablo escribe que Dios envió a su Hijo, «nacido de mujer» (Gál 4, 4). Si Jesús es verdadero Dios y verdadero hombre en una sola persona, la mujer que le dio la naturaleza humana es, con verdad, Madre de Dios, en griego *Theotokos*. El título no afirma que María sea origen de la divinidad, sino que su Hijo, persona divina, nació de ella.\n\nLa doctrina quedó fijada en el concilio de Éfeso, el tercer concilio ecuménico, celebrado en 431. Nestorio, obispo de Constantinopla, era acusado de rechazar el título de *Theotokos*, y Cirilo de Alejandría lo denunció ante el papa Celestino. Tras diez días de plazo para retractarse, que Nestorio no aceptó, el emperador Teodosio II convocó el concilio. En la primera sesión, el 22 de junio, Nestorio se negó a comparecer y los obispos lo condenaron con 198 firmas. Más tarde los legados papales confirmaron la sentencia en nombre de Celestino. La Enciclopedia Católica no detalla la definición dogmática, pero registra que algunas sesiones se celebraron en la iglesia dedicada a la Theotokos, y la tradición cristiana recuerda la alegría del pueblo de Éfeso al conocer la decisión.\n\nLa celebración actual del 1 de enero tiene una larga historia en la liturgia romana. Tras la reforma litúrgica se destacó la maternidad de María. Pablo VI la vinculó, además, con la Jornada Mundial de la Paz: el primer día del año se adora al Príncipe de la paz y se pide la paz por intercesión de la Reina de la paz.\n\nLa liturgia proclama en este día la bendición de Aarón (Nm 6, 22-27) y el evangelio de los pastores que encuentran a María, a José y al niño (Lc 2, 16-21). Teológicamente, la solemnidad recuerda que la salvación llega por el camino de la encarnación y que María acompaña a la Iglesia como madre, atenta, discreta y fiel: ella «conservaba todas estas cosas, meditándolas en su corazón» (Lc 2, 19). Muchos fieles comienzan el año confiándose a su cuidado y pidiendo la paz para el mundo.",
+  "context": "Controversia cristológica del siglo V y concilio de Éfeso (431); octava de Navidad en la liturgia romana.",
+  "significance": "Afirma la verdad de la encarnación (Jesús es Dios y hombre en una sola persona) y la dignidad de María; comienza el año civil con una jornada de oración por la paz.",
+  "iconography": "La Virgen con el Niño en brazos (tipo Theotokos u Odigitria), coronada o con manto azul.",
+  "sources": [
+   {
+    "label": "Pablo VI, exhortación apostólica «Marialis cultus» (2-II-1974), n. 5",
+    "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html"
+   },
+   {
+    "label": "Catholic Encyclopedia (1913), «Ephesus, Council of»",
+    "url": "https://www.newadvent.org/cathen/05491a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "basilio-magno",
+  "name": "San Basilio Magno",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-02",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Basilio Magno y Gregorio Nacianceno, obispos y doctores de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 329-330",
+   "place": "Cesarea de Capadocia"
+  },
+  "died": {
+   "date": "1 de enero de 379",
+   "place": "Cesarea de Capadocia"
+  },
+  "century": 4,
+  "countries": [
+   "TR"
+  ],
+  "summary": "Obispo de Cesarea y padre capadocio, organizador del monacato oriental y defensor de la divinidad del Espíritu Santo.",
+  "biography": "Basilio nació hacia el año 329 o 330 en Cesarea de Capadocia (actual Turquía), en una familia cristiana de buena posición. Su abuela Macrina, su hermana Macrina la Joven y sus hermanos Gregorio de Nisa y Pedro de Sebaste son también venerados como santos, de modo que la casa fue una pequeña escuela de santidad. Se formó en Cesarea, en Constantinopla y en Atenas, donde estudió retórica, filosofía y ciencias y trabó con Gregorio Nacianceno la amistad que marcó ambas vidas. Según la Enciclopedia Católica, fue bautizado por el obispo Dianio y ordenado lector a su regreso a Cesarea.\n\nTras recorrer los monasterios de Egipto, Siria y Palestina, se retiró hacia el 358 a una propiedad familiar junto al río Iris, en el Ponto, y allí vivió con algunos compañeros una vida de oración, trabajo manual y estudio de la Escritura. Sus *Reglas* mayores y menores, reunidas en el *Asceticon*, convirtieron esa experiencia en un modelo de vida comunitaria que prefiere el monasterio compartido al eremitismo solitario y que aún inspira a los monjes de Oriente. Con Gregorio compiló además la *Filocalia*, una antología de textos de Orígenes.\n\nOrdenado presbítero por el obispo Eusebio hacia el 363, colaboró con él y le sucedió en la sede de Cesarea en el 370. Gobernó una provincia amplia en plena crisis arriana: defendió la fe de Nicea contra Eunomio, a quien dedicó cinco libros hacia el 364, y escribió hacia el 375 el tratado *Sobre el Espíritu Santo*, donde sostiene que el Espíritu merece la misma adoración y gloria que el Padre y el Hijo. Su resistencia al poder imperial, que favorecía a los arrianos, le costó presiones y calumnias, pero no cedió en lo esencial.\n\nSu pastoral fue tan notable como su teología. A las afueras de Cesarea impulsó un conjunto de edificios asistenciales, conocido como la *Basiliada*, que acogía a forasteros sin recursos, enfermos pobres y gente que necesitaba aprender un oficio, y que sirvió de modelo a obras semejantes en otras diócesis. Sus homilías en defensa de los pobres y sus nueve homilías sobre el *Hexamerón* muestran un predicador que une la contemplación de la creación con la exigencia de justicia. Se conservan unas trescientas sesenta y seis cartas suyas. La liturgia bizantina que lleva su nombre tiene una autoría discutida: probablemente recoge su influencia más que un texto escrito por él.\n\nMurió el 1 de enero de 379, a los cincuenta años aproximadamente, agotado por el trabajo y las enfermedades. La Iglesia lo venera como uno de los tres Padres capadocios, junto con su hermano Gregorio de Nisa y su amigo Gregorio Nacianceno, y lo cuenta entre los doctores de la Iglesia. Su legado reúne tres dimensiones que raramente se dan juntas: el rigor doctrinal, la sabiduría monástica y la caridad organizada hacia los necesitados.",
+  "context": "Siglo IV: crisis arriana y consolidación de la fe de Nicea en Oriente; nacimiento del monacato comunitario.",
+  "virtues": [
+   "Fortaleza doctrinal",
+   "Caridad con los pobres",
+   "Vida ascética",
+   "Prudencia pastoral"
+  ],
+  "significance": "Padre capadocio, doctor de la Iglesia y legislador del monacato oriental; defendió la divinidad del Espíritu Santo.",
+  "iconography": "Obispo con vestiduras orientales, barba oscura y rostro ascético, con un libro o un rollo; a veces con una paloma, símbolo del Espíritu Santo.",
+  "works": [
+   {
+    "title": "Sobre el Espíritu Santo"
+   },
+   {
+    "title": "Homilías sobre el Hexamerón"
+   },
+   {
+    "title": "Reglas mayores y menores (Asceticon)"
+   },
+   {
+    "title": "Cartas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Basil the Great, Saint»",
+    "url": "https://www.newadvent.org/cathen/02330b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "gregorio-nacianceno",
+  "name": "San Gregorio Nacianceno",
+  "fullName": "Gregorio de Nacianzo, el Teólogo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-02",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Basilio Magno y Gregorio Nacianceno, obispos y doctores de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father",
+   "mystic"
+  ],
+  "born": {
+   "date": "c. 325-330",
+   "place": "Arianzo, cerca de Nacianzo (Capadocia)"
+  },
+  "died": {
+   "date": "c. 389-390",
+   "place": "Arianzo"
+  },
+  "century": 4,
+  "countries": [
+   "TR"
+  ],
+  "summary": "Poeta, orador y teólogo capadocio, llamado «el Teólogo» por su doctrina sobre la Trinidad; obispo de Constantinopla en 380-381.",
+  "biography": "Gregorio nació hacia el 325-330 en Arianzo, cerca de Nacianzo, en Capadocia. Era hijo de Gregorio, que llegó a ser obispo de Nacianzo tras convertirse por influencia de su esposa, y de Nonna, mujer de profunda fe. Según la Enciclopedia Católica no fue bautizado de niño y no se sabe con seguridad cuándo recibió el sacramento. Estudió en Cesarea, en Alejandría y en Atenas, donde conoció a Basilio, con quien mantuvo una amistad que él mismo describió después con extraordinaria belleza.\n\nSu vocación oscilaba entre la vida retirada y el servicio pastoral. Hacia la Navidad del 361 su padre lo obligó a aceptar el presbiterado, y él, con dolorosa conciencia de su responsabilidad, escribió una célebre apología de su huida. Más tarde Basilio lo consagró obispo de Sásima, pero Gregorio nunca tomó posesión de esa sede, y esa maniobra enfrió la relación entre ambos amigos. Fue después colaborador de su padre en Nacianzo.\n\nA comienzos de 379 llegó a Constantinopla, una ciudad dominada por los arrianos, para reorganizar a la pequeña comunidad católica. Predicó en una capilla, la Anastasia, y allí pronunció los *Cinco discursos teológicos* (380), en los que expone con precisión la fe en la Trinidad y la divinidad del Hijo y del Espíritu Santo; por ellos recibió el título de «el Teólogo». Cuando el emperador Teodosio devolvió las iglesias a los católicos en 380, Gregorio fue entronizado en Santa Sofía, pero su situación se complicó por la intriga de Máximo, un aspirante a la sede, que acabó expulsado.\n\nEn mayo de 381 presidió el concilio de Constantinopla, que reunió a unos ciento cincuenta obispos. Ante las disputas y su propio cansancio, presentó la renuncia en junio y dejó la sede a Nectario. Se retiró a Arianzo, donde dedicó los últimos años a la poesía y a la correspondencia; sus poemas, entre ellos un largo texto autobiográfico, son un testimonio único de su vida interior. Murió hacia el 389-390.\n\nSu aportación es doble. Como teólogo, fijó un vocabulario trinitario (una naturaleza, tres personas) que facilitó el consenso en torno a la fe nicena. Como orador y poeta, mostró que la mejor retórica clásica puede servir a la fe cristiana. Su espiritualidad, más contemplativa que política, es una lección sobre la tensión entre la vocación al silencio y las exigencias del ministerio; reconocía con humildad sus propios límites. Es uno de los tres Padres capadocios y doctor de la Iglesia, venerado también en Oriente como uno de los tres santos jerarcas.",
+  "context": "Controversia arriana y concilio de Constantinopla I (381), que completó el Credo de Nicea.",
+  "virtues": [
+   "Humildad",
+   "Amor a la verdad",
+   "Vida contemplativa",
+   "Amistad fiel"
+  ],
+  "significance": "Formuló con precisión la doctrina trinitaria que fijó el concilio de Constantinopla; modelo de teología unida a la oración.",
+  "iconography": "Obispo con omóforo y libro, de frente ancha y barba corta; en iconos bizantinos con rollo o evangelio.",
+  "works": [
+   {
+    "title": "Discursos teológicos (Or. 27-31)"
+   },
+   {
+    "title": "Cartas"
+   },
+   {
+    "title": "Poemas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Gregory of Nazianzus, Saint»",
+    "url": "https://www.newadvent.org/cathen/07010b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "santisimo-nombre-de-jesus",
+  "name": "El Santísimo Nombre de Jesús",
+  "status": "mystery",
+  "celebrations": [
+   {
+    "date": "01-03",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "El Santísimo Nombre de Jesús",
+    "color": "white"
+   }
+  ],
+  "categories": [],
+  "summary": "Memoria libre del 3 de enero que honra el nombre de Jesús («el Señor salva»), impuesto al niño a los ocho días de su nacimiento.",
+  "biography": "El nombre de Jesús (en hebreo, *Yeshua*, «el Señor salva») fue impuesto al niño, según Lucas 2, 21, a los ocho días de su nacimiento, el día de la circuncisión, tal como había indicado el ángel a María y a José (Lc 1, 31; Mt 1, 21). Por eso esta memoria se sitúa en los días de Navidad. Más tarde, Pablo escribe que Dios «le concedió el Nombre que está sobre todo nombre; de modo que al nombre de Jesús toda rodilla se doble» (Flp 2, 9-10), y Pedro proclama que «bajo el cielo no se ha dado a los hombres otro nombre por el que podamos salvarnos» (Hch 4, 12).\n\nLa devoción al santo Nombre es antigua, pero tuvo un gran impulso en la Edad Media. Según la Enciclopedia Católica, la fiesta propiamente dicha surgió a finales del siglo XV por iniciativa de algunos obispos de Alemania, Escocia, Inglaterra, España y Bélgica. El oficio y la misa, compuestos por Bernardino de Busti (m. 1500), fueron aprobados por Sixto IV. En 1530 se concedió a los franciscanos y se extendió por buena parte de la Iglesia, con fechas diversas: el 14 de enero entre franciscanos, carmelitas y agustinos, el 15 entre los dominicos, y el 7 de agosto en algunas diócesis inglesas.\n\nHacia 1643 los cartujos la obtuvieron para el segundo domingo después de la Epifanía, y el 20 de diciembre de 1721 se extendió a toda la Iglesia. Aquella fiesta del segundo domingo desapareció del calendario romano en la reforma litúrgica del siglo XX, y desde entonces el Calendario Romano General ofrece el 3 de enero la memoria libre de El Santísimo Nombre de Jesús, de modo que la devoción permanece vinculada al tiempo de Navidad.\n\nLa espiritualidad del Nombre de Jesús es la de la invocación: la oración del corazón, que repite «Señor Jesucristo, ten piedad», tiene una larga tradición en Oriente, y la letanía del Santo Nombre ha sido rezada en Occidente durante siglos. Invocar el Nombre no es una fórmula mágica, sino un modo de ponerse bajo la presencia de aquel que salva. En el Nombre de Jesús se bautiza, se perdona y se ora; por eso la Iglesia concluye sus oraciones «por Jesucristo nuestro Señor».\n\nLa Enciclopedia Católica señala también que el gran predicador Bernardino de Siena difundió el monograma IHS (las tres primeras letras del nombre de Jesús en griego), que se hizo después emblema de otras familias religiosas. La celebración invita a pronunciar el Nombre con reverencia, y a hacerlo con el corazón y con la vida, recordando que de él proviene la salvación y que toda la historia cristiana se orienta a confesar que «Jesucristo es Señor» para gloria de Dios Padre.",
+  "context": "Tiempo de Navidad; devoción medieval al Nombre de Jesús y reforma litúrgica del siglo XX.",
+  "significance": "Confesión de que en el nombre de Jesús está la salvación; fuente de la oración de invocación.",
+  "iconography": "Monograma IHS rodeado de rayos solares, a menudo con la cruz y tres clavos.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Feast of the Holy Name»",
+    "url": "https://www.newadvent.org/cathen/07420a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "epifania-del-senor",
+  "name": "La Epifanía del Señor",
+  "status": "mystery",
+  "celebrations": [
+   {
+    "date": "01-06",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "La Epifanía del Señor",
+    "color": "white"
+   }
+  ],
+  "categories": [],
+  "summary": "Solemnidad que celebra la manifestación de Cristo a los pueblos en la adoración de los Magos; en muchos países, entre ellos México, se traslada al domingo.",
+  "biography": "La Epifanía, palabra griega que significa «manifestación», celebra la revelación de Cristo a los pueblos. En el Calendario Romano General la solemnidad se fija el 6 de enero, aunque en muchos países, entre ellos México, se traslada al domingo entre el 2 y el 8 de enero. Su núcleo evangélico es la visita de los Magos de Oriente a Jesús recién nacido en Belén (Mt 2, 1-12): unos sabios paganos, guiados por una estrella, llegan a Jerusalén preguntando por el rey de los judíos, y tras hablar con Herodes encuentran al niño con María su madre, lo adoran y le ofrecen oro, incienso y mirra.\n\nEl evangelio no dice que fueran reyes ni cuántos eran: la tradición popular, a partir de los tres regalos, habla de tres y, con el tiempo, les dio los nombres de Melchor, Gaspar y Baltasar y la condición de reyes. Esos detalles pertenecen a la tradición piadosa y no al texto bíblico. La liturgia subraya que los Magos representan a los pueblos paganos que se acercan a Cristo y lo reconocen, y así se cumple la promesa del profeta Isaías sobre la luz que atrae a las naciones (Is 60, 1-6), que se lee en esta solemnidad.\n\nSegún la Enciclopedia Católica, la fiesta nació en la Iglesia de Oriente el 6 de enero, y las primeras referencias ciertas son de Clemente de Alejandría, aunque su origen exacto es incierto. En sus inicios conmemoraba varias manifestaciones de la gloria del Señor: el bautismo, el milagro de las bodas de Caná, la natividad y la adoración de los Magos, y el bautismo parece haber sido el más importante en un principio. Occidente la recibió después de fijar la Navidad el 25 de diciembre, y con el tiempo puso el acento en los Magos. A finales del siglo IV, en España, el día ya era festivo para los asuntos legales. Mons. Duchesne propone que la fecha se calculó retrospectivamente a partir de fechas pascuales, aunque el origen no es seguro.\n\nTodavía en Oriente se mantiene la bendición popular del agua. En la Iglesia latina las costumbres son muy variadas: la fiesta de los Reyes Magos, la Duodécima Noche, los regalos para los niños y, en México y en España, la rosca de Reyes.\n\nLa Epifanía tiene un significado teológico central. Si Navidad celebra el nacimiento del Salvador, la Epifanía muestra que ese niño es para toda la humanidad, de modo que la universalidad de la Iglesia queda inscrita en el comienzo mismo de la historia cristiana. La liturgia pide que, conociendo a Dios por la fe, lleguemos a contemplar su gloria. Se celebra con color blanco como solemnidad del Señor.",
+  "context": "Tiempo de Navidad; origen oriental de la fiesta y su recepción en Occidente en el siglo IV.",
+  "significance": "Manifestación de Cristo a los pueblos paganos: la salvación es universal.",
+  "iconography": "Adoración de los Magos: tres figuras con regalos ante la Virgen con el Niño, guiados por una estrella.",
+  "note": "En México y otros países la solemnidad se traslada al domingo entre el 2 y el 8 de enero (defaults.epiphanySunday del calendario mx). El Bautismo del Señor (fiesta, domingo siguiente) es una celebración móvil y no se incluye como ficha de fecha fija.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Epiphany»",
+    "url": "https://www.newadvent.org/cathen/05504c.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "raimundo-de-penafort",
+  "name": "San Raimundo de Peñafort",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-07",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Raimundo de Peñafort, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 1175",
+   "place": "Peñafort, cerca de Villafranca del Penedés (Cataluña)"
+  },
+  "died": {
+   "date": "6 de enero de 1275",
+   "place": "Barcelona"
+  },
+  "century": 13,
+  "countries": [
+   "ES"
+  ],
+  "order": "Orden de Predicadores",
+  "canonization": {
+   "date": "1601",
+   "by": "Clemente VIII"
+  },
+  "summary": "Canonista dominico catalán que compiló las Decretales de Gregorio IX y fue maestro general de su orden.",
+  "biography": "Raimundo nació hacia 1175 en Peñafort, en la zona de Villafranca del Penedés, cerca de Barcelona, en una familia noble de Cataluña. Estudió artes y derecho, enseñó derecho canónico desde 1195 aproximadamente y en 1210 viajó a Bolonia para completar su formación, donde fue también profesor durante unos tres años. Volvió a Barcelona como canónigo de la catedral y hacia 1222 tomó el hábito de la Orden de Predicadores, atraído, según la Enciclopedia Católica, por la predicación del beato Reginaldo.\n\nSu vida de fraile no lo apartó del trabajo jurídico y misionero. En Barcelona colaboró con san Pedro Nolasco en la fundación de la Orden de la Merced para la redención de cautivos. Promovió centros de estudio de lenguas orientales con el fin de predicar a musulmanes y judíos por medio del diálogo y la razón, una línea apostólica que dio fruto en frailes posteriores como Ramón Martí.\n\nEn 1229-1230 fue llamado a Roma por el papa Gregorio IX, que le confió el cargo de capellán y penitenciario. Con esa autoridad recibió el encargo de ordenar el enorme volumen de decretales dispersas y a veces contradictorias de los papas. El resultado, terminado en 1234, fue el *Liber Extra* o *Decretales de Gregorio IX*, que durante siglos fue la columna del derecho canónico latino y rigió hasta el Código de 1917. Rechazó el arzobispado de Tarragona que se le ofreció, prefiriendo la humildad del claustro.\n\nEn 1238 los dominicos lo eligieron maestro general. Aunque renunció a los dos años, revisó las Constituciones de la Orden en una forma más clara y precisa, y animó a Tomás de Aquino a escribir la *Suma contra los gentiles*, pensada para quienes debían debatir con musulmanes y judíos. También escribió la *Summa de casibus poenitentiae*, un manual para confesores que mezclaba rigor jurídico y misericordia pastoral y fue uno de los más influyentes de la Edad Media.\n\nRegresó a Barcelona y pasó sus últimos años en el convento, dedicado a la oración, la dirección de almas y el consejo a reyes y prelados. Murió el 6 de enero de 1275, siendo ya muy anciano. Fue canonizado por Clemente VIII en 1601. La leyenda de que cruzó el mar desde Mallorca sobre su capa es tardía y debe leerse como expresión popular del aprecio por su virtud, no como dato histórico. Su importancia está en haber unido derecho y misericordia: ordenó la ley de la Iglesia para que sirviera a la salvación de las almas.",
+  "context": "Siglo XIII: auge de las universidades, consolidación del derecho canónico y expansión de las órdenes mendicantes.",
+  "virtues": [
+   "Prudencia jurídica",
+   "Humildad",
+   "Celo apostólico"
+  ],
+  "significance": "Autor de la compilación jurídica que rigió la Iglesia latina durante siglos y de un manual fundamental de penitencia.",
+  "iconography": "Dominico con hábito blanco y capa negra; se le representa a veces cruzando el mar sobre su capa, según la leyenda de su viaje de Mallorca a Barcelona.",
+  "works": [
+   {
+    "title": "Decretales de Gregorio IX (Liber Extra)"
+   },
+   {
+    "title": "Summa de casibus poenitentiae"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Raymond of Pennafort, Saint»",
+    "url": "https://www.newadvent.org/cathen/12671c.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "hilario-de-poitiers",
+  "name": "San Hilario de Poitiers",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-13",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Hilario, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "inicios del siglo IV",
+   "place": "Poitiers (Galia)"
+  },
+  "died": {
+   "date": "c. 367-368",
+   "place": "Poitiers"
+  },
+  "century": 4,
+  "countries": [
+   "FR"
+  ],
+  "summary": "Obispo de Poitiers, defensor de la fe nicena en Occidente y autor del primer gran tratado latino sobre la Trinidad.",
+  "biography": "Hilario nació a comienzos del siglo IV en Poitiers, en la Galia, en una familia noble y probablemente pagana. Estudió las letras clásicas y, según la Enciclopedia Católica, la lectura de la Sagrada Escritura lo apartó de la idolatría y lo llevó al bautismo. Según la tradición estaba casado y tenía una hija; hacia el año 350 fue elegido obispo de Poitiers, y es el primero de esa sede del que existen noticias seguras.\n\nSu episcopado coincidió con el dominio del arrianismo apoyado por el emperador Constancio II. Hilario se unió a quienes defendían la fe de Nicea. En el sínodo de Béziers, en 356, dominado por los arrianos, no se le permitió siquiera hablar, y el emperador lo desterró a Frigia, en Asia Menor. Lejos de debilitarlo, el exilio lo enriqueció: allí entró en contacto con la teología griega, siguió de cerca las discusiones entre los obispos orientales y escribió sus obras principales. Su *Sobre los sínodos* trató de aproximar a los partidarios de Nicea con quienes dudaban por prejuicio verbal; en 359 asistió al sínodo de Seleucia.\n\nEntre sus escritos destaca *Sobre la Trinidad*, el primer gran tratado latino sobre este misterio, en el que combina profundidad bíblica y claridad conceptual; escribió también comentarios al Evangelio de Mateo y a los Salmos. Regresó a Poitiers en 361, donde lo recibieron con gran alegría y donde lo visitó Martín, su antiguo discípulo y futuro obispo de Tours. En 364 todavía intervino en Vercelli y Milán contra los arrianos y, expulsado de Milán por el emperador Valentiniano, volvió a su diócesis, donde murió hacia 367-368.\n\nLa fecha de su muerte es objeto de discusión: la Enciclopedia Católica señala que la opinión más aceptada la sitúa el 1 de noviembre, mientras el breviario la recordaba el 13 de enero. Su fiesta se celebró durante siglos el 14 de enero, y hoy se hace el día 13. Pío IX lo declaró doctor de la Iglesia universal. El apelativo de «Atanasio de Occidente» expresa bien su papel: fue un puente entre las Iglesias griega y latina y un defensor sereno de la divinidad de Cristo en un tiempo en que la fe de Nicea parecía derrotada.\n\nSu espiritualidad se nutre de la Escritura y de la alegría de la fe: para él, conocer a Dios es participar de su vida mediante la gracia, y toda la historia de la salvación es una pedagogía del Padre que quiere hacernos hijos. Esa convicción lo sostuvo durante el exilio y explica la serenidad con que defendió la verdad sin renunciar a la caridad hacia los adversarios.",
+  "context": "Crisis arriana en el Imperio de Constancio II; contactos entre la teología latina y la griega.",
+  "virtues": [
+   "Firmeza en la fe",
+   "Estudio de la Escritura",
+   "Paciencia en el destierro"
+  ],
+  "significance": "Primer gran teólogo trinitario latino, puente entre Oriente y Occidente; doctor de la Iglesia.",
+  "iconography": "Obispo con libro; a veces con una pluma de escribir, o aplastando una serpiente (herejía).",
+  "works": [
+   {
+    "title": "Sobre la Trinidad (De Trinitate)"
+   },
+   {
+    "title": "Sobre los sínodos"
+   },
+   {
+    "title": "Comentario a Mateo"
+   },
+   {
+    "title": "Tractatus super Psalmos"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Hilary of Poitiers, Saint»",
+    "url": "https://www.newadvent.org/cathen/07349b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "antonio-abad",
+  "name": "San Antonio abad",
+  "fullName": "San Antonio de Egipto, el Grande",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-17",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Antonio, abad",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "mystic"
+  ],
+  "born": {
+   "date": "c. 251",
+   "place": "Egipto (Heraclea Magna)"
+  },
+  "died": {
+   "date": "c. 356-357",
+   "place": "Desierto oriental de Egipto (monte Colzim, según la tradición)"
+  },
+  "century": 4,
+  "countries": [
+   "EG"
+  ],
+  "summary": "Padre del monacato cristiano, que vivió como anacoreta en el desierto egipcio y fue guía de multitud de discípulos.",
+  "biography": "La fuente principal sobre Antonio es la *Vida de Antonio*, escrita en griego y atribuida a san Atanasio, que los estudiosos consideran en lo esencial histórica y probablemente auténtica. Según ella, nació hacia el 251 en Coma, cerca de Heracleópolis Magna, en Egipto, en una familia cristiana y acomodada. Hacia los veinte años heredó la fortuna familiar y, al escuchar en la iglesia el Evangelio del joven rico («si quieres ser perfecto, vende lo que tienes…»), lo tomó como dirigido a él: repartió sus bienes y comenzó a vivir como asceta cerca de su pueblo, como era costumbre entonces.\n\nHacia 270 se estableció en unas tumbas, donde, según la *Vida*, sufrió duros ataques demoníacos, narrados con imágenes de bestias y tentaciones que luego inspiraron a artistas de todos los siglos. A los treinta y cinco años pasó el Nilo y se encerró durante unos veinte años en una fortaleza abandonada, en el monte Pispir. Hacia el 305 salió de su reclusión para guiar a los discípulos que se habían reunido a su alrededor y organizó durante algunos años a esos primeros monjes. Después se retiró de nuevo al desierto entre el Nilo y el mar Rojo, donde pasó unos cuarenta y cinco años; allí se levanta hoy el monasterio copto de San Antonio.\n\nNo fue un ermitaño aislado de la Iglesia. Fue a Alejandría en el 311 para animar a los mártires durante la persecución y hacia el 350 para apoyar a Atanasio contra los arrianos. Su fama de sabio y consejero atrajo visitantes y, según la *Vida*, el emperador Constantino le escribió. Su enseñanza insiste en el discernimiento de los espíritus, la oración constante, la humildad y la confianza en Cristo, que vence al demonio. Se le atribuye una regla, que probablemente recoge su doctrina sin haber sido redactada por él.\n\nMurió, según la *Vida*, a los 105 años; Jerónimo sitúa su muerte en 356-357. Pidió que su sepultura permaneciera oculta para evitar el culto a su cuerpo. La *Vida de Pablo* de san Jerónimo, que presenta a Pablo de Tebas como el primer ermitaño, tiene valor devocional pero no sirve como fuente histórica.\n\nAntonio no fue el primero en vivir como asceta ni fue legislador como Pacomio, pero la difusión de su *Vida* hizo de él el modelo del monje y el «padre de los monjes». Su culto se extendió en la Edad Media, y la tradición del cerdo y la campanilla en su iconografía se vincula con la orden hospitalaria de los antonianos, que atendía a los enfermos del «fuego de san Antonio». Su ejemplo recuerda que la santidad nace del Evangelio acogido sin condiciones.",
+  "context": "Egipto romano; primeras comunidades monásticas tras las persecuciones y antes de Nicea.",
+  "virtues": [
+   "Desapego",
+   "Oración perseverante",
+   "Discernimiento espiritual",
+   "Humildad"
+  ],
+  "significance": "Considerado el padre del monacato cristiano; su vida, narrada por Atanasio, difundió el ideal monástico en Oriente y Occidente.",
+  "iconography": "Anciano barbudo con hábito oscuro, bastón en forma de tau, campanilla y un cerdo a sus pies; llama o libro. Las «tentaciones de san Antonio» son tema muy frecuente en pintura.",
+  "works": [
+   {
+    "title": "Cartas (atribuidas)"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Anthony of the Desert, Saint»",
+    "url": "https://www.newadvent.org/cathen/01553d.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "fabian-papa",
+  "name": "San Fabián",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-20",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Fabián, papa y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "pope",
+   "martyr"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Roma"
+  },
+  "died": {
+   "date": "20 de enero de 250",
+   "place": "Roma"
+  },
+  "century": 3,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Papa de 236 a 250, martirizado al comienzo de la persecución de Decio.",
+  "biography": "Fabián fue obispo de Roma desde el año 236 hasta su muerte en 250, un pontificado de unos catorce años en una época de relativa paz para la Iglesia. Según el historiador Eusebio de Cesarea, que lo cuenta en su *Historia eclesiástica*, llegó del campo a Roma cuando se reunía el clero para elegir al nuevo obispo. Mientras se barajaban nombres de personas notables, una paloma se posó sobre su cabeza, y el pueblo, viendo en ello una señal del Espíritu Santo, lo aclamó por unanimidad aunque era un laico poco conocido. El relato tiene un carácter simbólico y debe leerse con esa cautela, pero revela el aprecio que se le tenía.\n\nSu gobierno se recuerda por la organización de la Iglesia romana. Según las tradiciones recogidas por la Enciclopedia Católica, dividió la ciudad en siete regiones confiadas cada una a un diácono, y nombró siete subdiáconos para reunir las actas de los mártires. Se le atribuyen también trabajos en las catacumbas y el traslado de los restos del papa Ponciano, desterrado en Cerdeña, a la catacumba de San Calixto. Fuentes posteriores dicen que en el 245 consagró siete obispos para la Galia, entre ellos Dionisio de París; esa noticia es más tardía y no es segura. Las *Decretales* que el Pseudo-Isidoro le atribuye son apócrifas.\n\nTuvo relaciones con las grandes figuras de su tiempo. Orígenes defendió ante él su ortodoxia, y Cipriano de Cartago menciona la condena del obispo Privato de Lambese pronunciada por Fabián. Esos testimonios muestran un obispo de Roma con autoridad reconocida más allá de su ciudad.\n\nLa paz terminó con la persecución de Decio, que impuso un sacrificio a los dioses del Estado. Fabián fue uno de los primeros en pagar con la vida: murió mártir el 20 de enero de 250, al comenzar la persecución. Fue sepultado en la cripta de los papas de la catacumba de San Calixto. En 1850 Giovanni Battista de Rossi descubrió allí su lápida griega con la inscripción «Fabián, obispo y mártir», un testimonio arqueológico directo y muy valioso.\n\nSu importancia para la Iglesia es la de un pastor que organizó pacíficamente una comunidad ya numerosa y que, llegada la prueba, dio testimonio con su sangre. Su memoria se celebra el 20 de enero junto con la de san Sebastián, ya desde la antigüedad, aunque la liturgia actual la considera una memoria libre. Su ejemplo muestra el valor de la administración paciente y de la fidelidad en los tiempos de calma, que prepara a la comunidad para la prueba.",
+  "context": "Fin del periodo de paz de mediados del siglo III; persecución de Decio (249-251).",
+  "virtues": [
+   "Fidelidad hasta el martirio",
+   "Buen gobierno"
+  ],
+  "significance": "Papa y mártir del siglo III; su inscripción sepulcral es testimonio arqueológico directo.",
+  "iconography": "Papa con tiara y palma del martirio; a veces con una paloma sobre la cabeza.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Fabian, Pope Saint»",
+    "url": "https://www.newadvent.org/cathen/05742d.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "sebastian",
+  "name": "San Sebastián",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-20",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Sebastián, mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Milán (según Ambrosio)"
+  },
+  "died": {
+   "date": "fecha incierta (tradicionalmente c. 288)",
+   "place": "Roma"
+  },
+  "century": 3,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Mártir romano venerado desde el siglo IV, cuya tumba en la vía Apia está atestiguada; su vida y su martirio con flechas proceden de actas legendarias tardías.",
+  "biography": "Sobre san Sebastián conviene distinguir con claridad lo documentado de lo legendario. Con seguridad se sabe que fue un mártir romano: el calendario del año 354 (*Depositio martyrum*) recuerda su sepultura en la vía Apia, y san Ambrosio, en el siglo IV, dice que era de Milán y que allí se le veneraba. En 367 se construyó una basílica sobre su tumba, y la actual basílica de San Sebastián Extramuros, una de las siete iglesias principales de Roma, se terminó en 1611 por iniciativa del cardenal Escipión Borghese. Esa es, en esencia, la base histórica.\n\nLas *Actas* o pasión que narran su vida son un texto escrito probablemente a comienzos del siglo V que antes se atribuía erróneamente a Ambrosio. Según ellas, Sebastián era oficial de la guardia imperial y ayudaba en secreto a los cristianos. Descubierto en el año 286, fue asaeteado por arqueros mauritanos; la viuda santa Irene lo recogió y lo curó, y finalmente fue matado a garrotazos. Estos pormenores no pueden confirmarse con fuentes contemporáneas y la Enciclopedia Católica los califica de no históricos, aunque reflejan la devoción popular.\n\nTambién la imagen que hoy asociamos con él es posterior. El primer mosaico conocido, de hacia el 682, lo muestra como un hombre barbado con atuendo cortesano y sin flechas; el joven bello atravesado por saetas es una creación del Renacimiento, que lo convirtió en tema predilecto del arte.\n\nSu culto como protector contra la peste se difundió en la Edad Media. Las flechas se tomaron como símbolo de la epidemia, y se cuenta que en Roma, en el 680, y más tarde en Milán, en 1575, y en Lisboa, en 1599, se obtuvieron favores al invocarlo. Parte de sus reliquias fue trasladada en el 826 a la abadía de San Medardo de Soissons, en Francia.\n\nEl valor espiritual de Sebastián no depende de los detalles legendarios. Representa al cristiano que, dentro de las estructuras del mundo, es fiel a Cristo hasta la muerte, y su veneración hace presente el testimonio de los primeros mártires de Roma, cuya memoria la Iglesia de Roma conservó con tanto cuidado que su tumba y su fiesta del 20 de enero están atestiguadas desde el siglo IV. La Iglesia no necesita adornar a sus testigos: basta recordar que existió un cristiano de Roma que prefirió la fidelidad a la vida, y cuyo ejemplo ha acompañado durante diecisiete siglos a los fieles en tiempos de prueba, de enfermedad y de peligro.",
+  "context": "Persecuciones del siglo III-IV; formación de los primeros calendarios de mártires en Roma.",
+  "virtues": [
+   "Valentía",
+   "Caridad con los presos"
+  ],
+  "significance": "Uno de los mártires romanos de culto más antiguo y popular; protector invocado en epidemias.",
+  "iconography": "Joven desnudo atado a un árbol o columna y asaeteado; la pintura renacentista lo hizo tema de belleza masculina y de lamento.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Sebastian, Saint»",
+    "url": "https://www.newadvent.org/cathen/13668a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "ines-de-roma",
+  "name": "Santa Inés",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-21",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa Inés, virgen y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "martyr"
+  ],
+  "born": {
+   "date": "fecha incierta (tradicionalmente c. 291)",
+   "place": "Roma"
+  },
+  "died": {
+   "date": "fecha incierta (tradicionalmente c. 304; quizá siglo III)",
+   "place": "Roma"
+  },
+  "century": 4,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Joven virgen romana martirizada hacia el 304; su culto aparece ya en el siglo IV.",
+  "biography": "Inés es una de las mártires más antiguas y veneradas de Roma, y su culto está bien documentado aunque los detalles de su vida sean escasos. El calendario romano del año 354 (*Depositio martyrum*) fija su fiesta el 21 de enero, y su tumba, junto a la vía Nomentana, dio origen a una catacumba y a una basílica. Los testigos principales son Ambrosio, que en su obra *Sobre las vírgenes* le da doce años y habla de su ejecución a espada; el papa Dámaso, que le dedicó un epígrafe en el que describe su decisión de declararse cristiana; y el poeta Prudencio, que le consagró un himno en su *Peristephanon*. Agustín le da trece años. Las fuentes concuerdan en que era muy joven.\n\nMás allá de esos datos, la historia se mezcla con la tradición. El episodio del prostíbulo, que narra Prudencio, pudo basarse en una leyenda popular. Las *Actas* posteriores, de la primera mitad del siglo V y conservadas en tres versiones, añaden que salió ilesa de las llamas y que finalmente fue decapitada. También la fecha de la persecución es incierta: antes se atribuía a Diocleciano (hacia el 304), pero hoy se propone una persecución del siglo III posterior a Decio, como hipótesis. Por eso las fechas tradicionales de nacimiento y muerte deben tomarse con cautela.\n\nCon todo, lo esencial es muy claro: una muchacha cristiana prefirió morir antes que renegar de Cristo, y la Iglesia de Roma la veneró de inmediato. Su nombre se pronuncia en el Canon romano de la misa, entre los mártires. Sobre su tumba, Constantina, hija del emperador Constantino, promovió la construcción de una basílica, que el papa Honorio (625-638) reedificó; conserva un mosaico en el ábside y un relieve del siglo IV.\n\nLa iconografía del cordero se vincula con la semejanza de su nombre con el latín *agna* (cordera) y con la imagen del Cordero de Dios. Es tradición medieval, y la costumbre de bendecir corderos el día de su fiesta, cuya lana sirve para tejer los palios, es también posterior, pero muy arraigada en Roma.\n\nSanta Inés significa para la Iglesia el testimonio de la pureza y de la fortaleza de la fe en una persona muy joven; su ejemplo ha inspirado a vírgenes consagradas y a fieles de todas las edades. Su fiesta cae el 21 de enero y se celebra como memoria obligatoria en el calendario universal, con color rojo. Su devoción muestra que el testimonio cristiano no depende de la edad ni de la fuerza, sino de la fidelidad a un amor que no admite compromisos, y que la memoria de una niña mártir puede sostener la fe de generaciones enteras.",
+  "context": "Persecución de Diocleciano (303-305) y devoción temprana a las vírgenes mártires romanas.",
+  "virtues": [
+   "Pureza",
+   "Fortaleza",
+   "Fidelidad a Cristo"
+  ],
+  "significance": "Una de las mártires más antiguas y veneradas de Roma, mencionada en el Canon romano.",
+  "iconography": "Joven con un cordero, palma del martirio y a veces la espada; larga cabellera.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Agnes of Rome, Saint and Martyr»",
+    "url": "https://www.newadvent.org/cathen/01214a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "vicente-de-zaragoza",
+  "name": "San Vicente de Zaragoza",
+  "fullName": "San Vicente, diácono y mártir",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-22",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Vicente, diácono y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "deacon",
+   "martyr"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Huesca o Zaragoza (tradición)"
+  },
+  "died": {
+   "date": "304 (según la Enciclopedia Católica)",
+   "place": "Valencia"
+  },
+  "century": 4,
+  "countries": [
+   "ES"
+  ],
+  "summary": "Diácono de Zaragoza martirizado en Valencia durante la persecución de Diocleciano; su culto se difundió muy pronto por todo el Imperio.",
+  "biography": "Vicente fue diácono de la Iglesia de Zaragoza bajo el obispo Valerio y murió mártir en Valencia durante la persecución de Diocleciano; la Enciclopedia Católica da el año 304. La tradición hispana lo hace natural de Huesca (Osca) o de Zaragoza: se da por padre a Eutricio y por madre a Enola, oriunda de Osca, pero estos datos provienen de relatos tardíos.\n\nLo seguro es la antigüedad y extensión de su culto. El poeta Prudencio le dedicó un himno, en el *Peristephanon*, que coincide en lo esencial con las demás versiones. San Agustín, en su sermón 275, testifica que sus actas se leían en las iglesias de África a finales del siglo IV. En la basílica de Salona, en Dalmacia, se conserva un pilar con una inscripción de los siglos V o VI en su honor, y en 542 el rey franco Childeberto llevó a París su estola y su dalmática, para las que levantó una iglesia que después se llamó Saint-Germain-des-Prés.\n\nLos pormenores del martirio proceden de actas redactadas en los siglos VIII o IX, a partir de la tradición. Según ellas, el gobernador Daciano, que ejecutaba los edictos imperiales, hizo arrestar al obispo Valerio y a su diácono, que hablaba en su nombre. Vicente habría sufrido sucesivos tormentos sin dejar de profesar su fe con una serenidad que desconcertó a sus verdugos, y murió en prisión en Valencia. Episodios como el cuervo que protege su cuerpo, el arrojo al mar o el lecho de plumas ofrecido como alivio forman parte de esas actas tardías y no tienen respaldo en fuentes contemporáneas.\n\nSea cual sea la forma exacta de su pasión, Vicente representa la fidelidad del diácono, servidor de la palabra y de los pobres, hasta el derramamiento de sangre. Agustín lo propone en su sermón como ejemplo de que la gracia de Dios vence al dolor, y el pueblo cristiano comprendió su martirio como una victoria de Cristo. Sus reliquias, disputadas entre varios lugares, se asocian sobre todo con Lisboa, adonde según la tradición fueron trasladadas en 1175; otras tradiciones (Castres, Cremona, Bari) son disputadas.\n\nEs honrado como patrón de Valencia, de Zaragoza y de Portugal, según la Enciclopedia Católica, y la tradición popular lo invoca entre viticultores y marineros. Su memoria del 22 de enero es hoy memoria libre en el calendario romano universal, aunque en España se celebra con gran solemnidad. La liturgia bizantina lo recuerda el 11 de noviembre, y su nombre figura en la Letanía de los Santos, signo de la extensión universal de su culto.",
+  "context": "Persecución de Diocleciano en la Hispania tarraconense (303-304).",
+  "virtues": [
+   "Fortaleza ante el tormento",
+   "Fidelidad al obispo"
+  ],
+  "significance": "Mártir hispano de culto universal desde la antigüedad, atestiguado por Prudencio y Agustín; modelo de diácono.",
+  "iconography": "Joven diácono con dalmática, palma, parrilla o rueda de molino; un cuervo a su lado.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Vincent, Saint»",
+    "url": "https://www.newadvent.org/cathen/15434b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "francisco-de-sales",
+  "name": "San Francisco de Sales",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-24",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Francisco de Sales, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "founder",
+   "mystic"
+  ],
+  "born": {
+   "date": "21 de agosto de 1567",
+   "place": "Castillo de Sales, Saboya"
+  },
+  "died": {
+   "date": "28 de diciembre de 1622",
+   "place": "Lyon"
+  },
+  "century": 16,
+  "countries": [
+   "FR",
+   "CH"
+  ],
+  "order": "Orden de la Visitación (cofundador)",
+  "canonization": {
+   "date": "1665",
+   "by": "Alejandro VII",
+   "note": "Beatificado en 1661; doctor de la Iglesia (Pío IX, 1877)."
+  },
+  "summary": "Obispo de Ginebra, maestro de la vida devota para todos los estados y cofundador de la Visitación.",
+  "biography": "Francisco nació el 21 de agosto de 1567 en Thorens, en Saboya, primogénito de una familia noble. Estudió humanidades y retórica con los jesuitas de París (1583-1588) y derecho en Padua, donde se doctoró en 1592. Atravesó en esos años una crisis espiritual, la obsesión de estar condenado, de la que salió confiando de modo total en la bondad de Dios, y esa experiencia marcó toda su espiritualidad. Renunció a la carrera que su padre le había preparado y fue ordenado sacerdote en 1593, tras ser nombrado prepósito del cabildo de Ginebra.\n\nEn 1594 se ofreció a evangelizar el Chablais, región calvinista, donde trabajó con valentía y mansedumbre, sin condenar a las personas. Recurrió también a hojas impresas, que se recogieron como *Las Controversias*. Logró la conversión de muchos en 1597-1598. Fue designado coadjutor del obispo de Ginebra en 1599 y consagrado obispo en 1602; como Ginebra era calvinista, residió en Annecy.\n\nComo obispo fue modelo de pastor: visitó las parroquias de montaña, predicó y confesó, catequizó a los niños y cuidó la formación del clero. En 1604 conoció en Dijon a Juana Francisca de Chantal, viuda, y con ella fundó la Orden de la Visitación, comunidad abierta a mujeres que no podían soportar las grandes austeridades; la primera casa se estableció en Annecy en 1610 (la Enciclopedia Católica da 1607 como año de fundación). Su correspondencia espiritual con ella y con muchas otras personas es un monumento de sabiduría práctica.\n\nSus dos grandes obras son la *Introducción a la vida devota* (o *Filotea*), pensada para laicos, y el *Tratado del amor de Dios*, en doce libros. En la primera sostiene que la devoción no es patrimonio de monjes ni de eremitas, sino que cada persona, en su estado y profesión, puede aspirar a la santidad. Su método consiste en pequeños actos de amor, en la dulzura y en la paciencia consigo mismo y con los demás. La Enciclopedia Católica la recuerda traducida a casi todas las lenguas todavía en vida del autor.\n\nMurió en Lyon el 28 de diciembre de 1622, a los cincuenta y seis años; su cuerpo fue llevado a Annecy y su corazón se conservó fuera de Annecy (Pío XI menciona Treviso). Fue beatificado en 1661 y canonizado por Alejandro VII en 1665. Pío IX lo declaró doctor de la Iglesia universal (carta apostólica de 1877), y Pío XI, en la encíclica *Rerum omnium perturbationem* (1923), lo proclamó patrono celestial de todos los escritores. Su doctrina sobre la vocación universal a la santidad anticipa la enseñanza del Concilio Vaticano II.",
+  "context": "Contrarreforma y convivencia tensa con el calvinismo; despertar de la espiritualidad laica.",
+  "virtues": [
+   "Dulzura",
+   "Equilibrio",
+   "Caridad pastoral"
+  ],
+  "significance": "Doctor del amor divino; popularizó la llamada a la santidad en la vida cotidiana, anticipo de la doctrina del Vaticano II.",
+  "patronages": [
+   "Escritores (Pío XI, 1923)"
+  ],
+  "iconography": "Obispo con roquete y muceta, un corazón ardiente o coronado de espinas y un libro; a veces con pluma.",
+  "works": [
+   {
+    "title": "Introducción a la vida devota"
+   },
+   {
+    "title": "Tratado del amor de Dios"
+   },
+   {
+    "title": "Las Controversias"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Francis de Sales, Saint»",
+    "url": "https://www.newadvent.org/cathen/06220a.htm"
+   },
+   {
+    "label": "Pío XI, encíclica «Rerum omnium perturbationem» (26-I-1923), patronazgo de los escritores",
+    "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_26011923_rerum-omnium-perturbationem.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "pablo-de-tarso",
+  "name": "San Pablo, apóstol",
+  "fullName": "Saulo de Tarso",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-25",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Conversión de san Pablo, apóstol",
+    "color": "white"
+   },
+   {
+    "date": "06-29",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "Santos Pedro y Pablo, apóstoles",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr",
+   "missionary"
+  ],
+  "born": {
+   "date": "c. 5-10 d. C.",
+   "place": "Tarso de Cilicia"
+  },
+  "died": {
+   "date": "c. 64-67",
+   "place": "Roma"
+  },
+  "century": 1,
+  "countries": [
+   "TR",
+   "IT",
+   "GR"
+  ],
+  "summary": "Apóstol de los gentiles, converso en el camino de Damasco, autor de trece cartas del Nuevo Testamento.",
+  "biography": "Pablo, llamado Saulo en su nombre hebreo, nació en Tarso de Cilicia en una familia judía piadosa y de tradición farisea, y poseía la ciudadanía romana. Se formó en Jerusalén, según Hechos con el maestro Gamaliel, y al principio persiguió a los seguidores de Jesús; presenció la lapidación de Esteban. Hacia el año 35, camino de Damasco, tuvo una experiencia de Cristo resucitado que cambió su vida; Hechos la narra tres veces y él mismo alude a ella en sus cartas. La caída del caballo es un añadido artístico que el texto no menciona. La Enciclopedia Católica sitúa la conversión hacia el 35, pero admite que las fechas posibles oscilan entre el 34 y el 37.\n\nTras su conversión y un tiempo en Arabia y Damasco, trabajó en Antioquía con Bernabé. Realizó tres grandes viajes misioneros, según Hechos, y fundó comunidades en Chipre, Galacia, Macedonia, Acaya y Asia, sobre todo Éfeso. Hacia el 50 participó en la asamblea de Jerusalén, donde se decidió que los gentiles no debían someterse a la Ley de Moisés, decisión capital para la apertura de la Iglesia al mundo pagano. Arrestado en Jerusalén, estuvo preso dos años en Cesarea bajo el procurador Félix, apeló al César y fue llevado a Roma, donde permaneció bajo custodia con cierta libertad hacia el 60-62.\n\nSus cartas son los escritos cristianos más antiguos que conservamos. La tradición de la Iglesia le atribuye trece (catorce con Hebreos, de autoría discutida), y la crítica moderna discute la autoría paulina directa de algunas, sobre todo las pastorales. Sus temas centrales son la justificación por la fe, la muerte y resurrección de Cristo como centro del Evangelio, la Iglesia como cuerpo de Cristo, la libertad cristiana y el amor como camino más excelente (1 Cor 13).\n\nMurió mártir en Roma, durante el reinado de Nerón; la Enciclopedia Católica propone hacia el 67, y la fecha es aproximada. Según la tradición fue decapitado en Aquae Salviae (hoy Tre Fontane) y sepultado en la vía Ostiense, donde se levanta la basílica de San Pablo Extramuros.\n\nLa fiesta del 25 de enero celebra su conversión, y se le recuerda con san Pedro el 29 de junio. Pablo es llamado el Apóstol de los gentiles. Su vida muestra que la gracia puede transformar al perseguidor en testigo, y su teología ha moldeado la fe, la liturgia y la mística cristianas. La fiesta del 25 de enero cierra la Semana de Oración por la unidad de los cristianos, un recuerdo oportuno de que su misión fue también reunir a judíos y gentiles en un solo cuerpo.",
+  "context": "Judaísmo del Segundo Templo y Imperio romano; primera expansión cristiana entre los gentiles.",
+  "virtues": [
+   "Celo apostólico",
+   "Valentía",
+   "Fe en Cristo",
+   "Humildad ante la gracia"
+  ],
+  "significance": "Apóstol de los gentiles; sus cartas son pilar de la teología y la vida cristiana.",
+  "iconography": "Hombre calvo y barbado, con una espada y un libro o rollos (cartas); la caída del caballo es un añadido artístico no mencionado en los Hechos.",
+  "works": [
+   {
+    "title": "Cartas de san Pablo"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Paul, Saint»",
+    "url": "https://www.newadvent.org/cathen/11567b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "timoteo",
+  "name": "San Timoteo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-26",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Timoteo y Tito, obispos",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "missionary"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Listra (Licaonia)"
+  },
+  "died": {
+   "date": "finales del siglo I (según la tradición)",
+   "place": "Éfeso"
+  },
+  "century": 1,
+  "countries": [
+   "TR"
+  ],
+  "summary": "Discípulo y colaborador de Pablo, destinatario de dos cartas pastorales, tradicionalmente primer obispo de Éfeso.",
+  "biography": "Timoteo es uno de los colaboradores más cercanos de Pablo y uno de los personajes mejor conocidos del Nuevo Testamento. Según Hechos 16, 1, era natural de Listra, en Licaonia; su madre, Eunice, era judía cristiana y su padre era griego. Pablo lo conoció en el segundo viaje, lo tomó consigo y, para facilitar la misión ante los judíos, lo circuncidó. La segunda carta a Timoteo recuerda la fe de su abuela Loida y de su madre y su iniciación temprana en las Escrituras.\n\nA partir de entonces acompañó a Pablo con frecuencia. Aparece como corremitente de varias cartas (1 y 2 Tesalonicenses, 2 Corintios, Filipenses, Colosenses y Filemón). Fue enviado como mensajero a Tesalónica, a Corinto y a Macedonia, y Pablo lo elogia sin reservas: lo llama «hijo querido» y dice que no tiene otro que comparta tan íntimamente sus sentimientos (Flp 2, 19-22). Según Hebreos 13, 23, Timoteo estuvo preso y fue puesto en libertad.\n\nLas dos cartas pastorales que se le dirigen, atribuidas tradicionalmente a Pablo, lo muestran al frente de la Iglesia de Éfeso, con instrucciones sobre el culto, los ministerios y la defensa de la sana doctrina. La Enciclopedia Católica sostiene la autoría paulina por el testimonio antiguo y reconoce las objeciones de la crítica moderna sobre vocabulario y organización eclesial. En todo caso, son documentos primordiales para comprender el paso de la misión itinerante al gobierno estable de las comunidades.\n\nLo que se dice de él más allá de la Escritura es tradición. Algunos lo identifican con el «ángel de la Iglesia de Éfeso» del Apocalipsis. El antiguo martirologio lo considera obispo de Éfeso, y una vida atribuida a Polícrates, obispo de Éfeso, cuenta que vivió con san Juan en esa ciudad y que, ya con más de ochenta años, fue golpeado mortalmente por paganos. Estos relatos son tardíos y no pueden verificarse.\n\nLa espiritualidad de Timoteo se resume en la fidelidad humilde: joven, tímido y de salud delicada (1 Tim 5, 23), recibió una enorme responsabilidad. Pablo le pide que no deje que lo desprecien por su juventud, que reavive el don de Dios recibido por la imposición de manos y que guarde el depósito de la fe. Es modelo de los pastores y de los colaboradores del Evangelio. La liturgia celebra a Timoteo y Tito juntos el 26 de enero, al día siguiente de la conversión de san Pablo, de quien fueron discípulos y colaboradores.",
+  "context": "Iglesia apostólica en Asia Menor; transición de la misión itinerante al gobierno estable de las comunidades.",
+  "virtues": [
+   "Fidelidad",
+   "Juventud generosa",
+   "Discreción"
+  ],
+  "significance": "Colaborador estrecho de Pablo; sus cartas fundamentan la reflexión sobre el ministerio ordenado.",
+  "iconography": "Obispo joven con libro de las Escrituras; a veces con piedras (lapidado, según la tradición).",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Epistles to Timothy and Titus»",
+    "url": "https://www.newadvent.org/cathen/14727b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "tito",
+  "name": "San Tito",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-26",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Timoteo y Tito, obispos",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "missionary"
+  ],
+  "born": {
+   "date": "siglo I (gentil)"
+  },
+  "died": {
+   "date": "finales del siglo I (según la tradición)",
+   "place": "Creta"
+  },
+  "century": 1,
+  "countries": [
+   "GR"
+  ],
+  "summary": "Colaborador gentil de san Pablo, destinatario de una carta pastoral y tradicionalmente primer obispo de Creta.",
+  "biography": "Tito fue un colaborador de san Pablo de origen pagano, y por eso se lo cita como ejemplo de la apertura de la misión a los gentiles. La epístola a los Gálatas (2, 1-3) cuenta que Pablo subió a Jerusalén con Bernabé y con Tito, hacia el año 50, y que este no fue obligado a circuncidarse, un gesto significativo en la disputa sobre la Ley. No se conoce con certeza su lugar de nacimiento; la tradición que lo hace natural de Antioquía no está documentada.\n\nLa segunda carta a los Corintios lo muestra como enviado de confianza de Pablo: fue a Corinto para organizar la colecta en favor de los pobres de Jerusalén y para restablecer la relación con una comunidad tensa. Pablo se alegró al encontrarlo en Macedonia, porque traía buenas noticias sobre cómo los corintios habían recibido su corrección; lo llama «compañero y colaborador» y elogia su celo y su cariño (2 Cor 7-8).\n\nLa carta a Tito lo presenta ya en Creta, adonde Pablo lo había dejado «para que acabaras de organizar lo que faltaba y establecieras presbíteros en cada ciudad» (Tit 1, 5). Se le pide enseñar la sana doctrina, vivir de forma ejemplar y combatir a los falsos maestros; la sociedad cretense tenía fama de poco fiable y el apóstol le encomienda una tarea difícil. La segunda a Timoteo (4, 10) indica que Tito partió luego hacia Dalmacia. Según la Enciclopedia Católica, la tradición antigua lo hace obispo de Creta hasta su muerte, con más de noventa años.\n\nLa tradición sitúa su muerte hacia el año 69, en Gortina, en Creta, y sus reliquias, trasladadas a Venecia durante el dominio otomano de la isla, están desde 1966 en la iglesia de San Tito de Heraclión, según la Wikipedia en español, que solo consulté para cotejar. Estos datos pertenecen a la tradición y no a las fuentes bíblicas. Es venerado por católicos, ortodoxos y anglicanos, con diversas fechas: el 25 de agosto en la tradición ortodoxa, el 26 de enero en el calendario romano y, en el santoral antiguo, el 4 de enero.\n\nLas pastorales (1 y 2 Timoteo y Tito) se atribuyen tradicionalmente a Pablo, y la Enciclopedia Católica defiende esa autoría con los testimonios de Policarpo, Ignacio, Ireneo y el Fragmento Muratoriano, aunque advierte que la crítica moderna la discute. Con independencia de ese debate, Tito es ejemplo del discípulo fiel que se ocupa de las tareas concretas de la comunidad: organizar, enseñar, reconciliar y administrar la caridad. Su figura recuerda que la Iglesia universal nace del encuentro entre judíos y gentiles y que la fe se vive en el servicio paciente.",
+  "context": "Primeras comunidades cristianas de Grecia y Creta; conflicto sobre la observancia de la Ley.",
+  "virtues": [
+   "Diplomacia pastoral",
+   "Celo",
+   "Fidelidad"
+  ],
+  "significance": "Ejemplo de colaborador apostólico y de la unidad de judíos y gentiles en la Iglesia.",
+  "iconography": "Obispo con báculo y libro; a veces con la carta a Tito.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Epistles to Timothy and Titus»",
+    "url": "https://www.newadvent.org/cathen/14727b.htm"
+   },
+   {
+    "label": "Wikipedia en español, «Tito de Creta» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://es.wikipedia.org/wiki/Tito_de_Creta"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "angela-merici",
+  "name": "Santa Ángela Merici",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-27",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Ángela Merici, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "founder"
+  ],
+  "born": {
+   "date": "21 de marzo de 1474",
+   "place": "Desenzano del Garda"
+  },
+  "died": {
+   "date": "27 de enero de 1540",
+   "place": "Brescia"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Compañía de Santa Úrsula (ursulinas)",
+  "canonization": {
+   "date": "1807",
+   "by": "Pío VII",
+   "note": "Beatificada en 1768 por Clemente XIII."
+  },
+  "summary": "Fundadora de la Compañía de Santa Úrsula, dedicada a la educación cristiana de las jóvenes.",
+  "biography": "Ángela nació el 21 de marzo de 1474, según la Enciclopedia Católica, en Desenzano, junto al lago de Garda, en Lombardía. Quedó huérfana a los diez años y fue acogida con su hermana mayor por un tío en Salò. La muerte repentina de la hermana la marcó: se hizo terciaria franciscana y redobló oraciones y penitencias por ella. Hacia los veinte años volvió a casa de su padre y convirtió su hogar en una escuela donde enseñaba la doctrina cristiana a las niñas del pueblo.\n\nSu santidad se construyó en la vida laica. Visitaba a los enfermos, mantenía una intensa vida de oración y se sentía llamada a cuidar de la educación religiosa de las jóvenes, en una época en que la ignorancia religiosa era muy frecuente. Según el relato tradicional, en un éxtasis recibió la revelación de fundar una asociación de vírgenes dedicadas a esa tarea; la visión de una escalera por la que subían ángeles y jóvenes es parte de la iconografía de la santa.\n\nEn 1524 peregrinó a Tierra Santa. Según la Enciclopedia Católica quedó ciega en la isla de Creta y recuperó la vista al rezar ante un crucifijo en el mismo lugar, a su regreso. En 1525 el papa Clemente VII quiso retenerla en Roma; ella prefirió volver a Brescia, evitando la publicidad.\n\nEl 25 de noviembre de 1535 reunió a doce jóvenes en una pequeña casa cerca de la iglesia de Santa Afra, en Brescia, y fundó la Compañía de Santa Úrsula. Fue una novedad: las integrantes no vivían en clausura, sino en sus casas, con una regla de vida de virginidad, obediencia y pobreza, y se dedicaban a la formación cristiana de las niñas. Sus escritos (*Regla*, *Recuerdos* y *Legados*) destacan la dulzura, el respeto a la libertad de cada persona y la confianza en la guía del Espíritu. Más tarde, el instituto adoptó la vida común y la clausura, y de él se derivan las ursulinas.\n\nMurió el 27 de enero de 1540 en Brescia, cinco años después de la fundación, y fue sepultada en la iglesia de Santa Afra. Fue beatificada por Clemente XIII en 1768 y canonizada por Pío VII en 1807. Su fiesta se celebraba el 31 de mayo y se trasladó al 27 de enero. Santa Ángela aparece como pionera de la educación femenina y de nuevas formas de consagración, y como inspiración para quienes ven en la enseñanza un servicio al Reino. Las ursulinas se extendieron por Europa y América y siguen educando a niñas y jóvenes.",
+  "context": "Renacimiento italiano y primeras reformas católicas previas a Trento.",
+  "virtues": [
+   "Visión pastoral",
+   "Prudencia",
+   "Confianza en la Providencia"
+  ],
+  "significance": "Pionera de la educación femenina cristiana y de nuevas formas de vida consagrada.",
+  "iconography": "Religiosa con hábito oscuro, a veces con una escalera (visión de ángeles y jóvenes), y una cruz.",
+  "works": [
+   {
+    "title": "Regla, Recuerdos y Legados"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Angela Merici, Saint»",
+    "url": "https://www.newadvent.org/cathen/01481a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "tomas-de-aquino",
+  "name": "Santo Tomás de Aquino",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-28",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santo Tomás de Aquino, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "doctor",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "c. 1225 (otros, 1227)",
+   "place": "Roccasecca, cerca de Aquino"
+  },
+  "died": {
+   "date": "7 de marzo de 1274",
+   "place": "Abadía de Fossanova"
+  },
+  "century": 13,
+  "countries": [
+   "IT",
+   "FR"
+  ],
+  "order": "Orden de Predicadores",
+  "canonization": {
+   "date": "18 de julio de 1323",
+   "by": "Juan XXII",
+   "note": "Doctor de la Iglesia (Pío V, 1567)."
+  },
+  "summary": "Teólogo dominico, autor de la Suma Teológica, llamado «Doctor Angélico».",
+  "biography": "Tomás nació en Roccasecca, cerca de Aquino, en el reino de Nápoles, hacia 1225 (la fecha más aceptada; otros proponen 1227), en una familia noble. Hacia 1230 fue confiado a los benedictinos de Montecasino, y hacia 1236 pasó a la Universidad de Nápoles, donde descubrió a Aristóteles y conoció a los dominicos. Entre 1240 y 1243 ingresó en la Orden de Predicadores, lo cual disgustó a su familia: sus hermanos lo secuestraron y lo tuvieron cerca de dos años retenido en Roccasecca, sin conseguir disuadirlo.\n\nLiberado, llegó hacia 1244-1245 a Colonia, donde fue discípulo de Alberto Magno, y lo acompañó a París. Hacia 1250 fue ordenado sacerdote y en 1252 comenzó a enseñar en París, comentando las *Sentencias* de Pedro Lombardo. Obtuvo el doctorado en teología en 1257 y se incorporó a la facultad en medio de las disputas sobre las órdenes mendicantes. Enseñó después en Orvieto, Roma, Viterbo y Nápoles y de nuevo en París; participó en capítulos generales de su orden en 1259 y 1263.\n\nEntre 1261 y 1264 escribió la *Suma contra los gentiles* y desde 1265 trabajó en la *Suma teológica*, que dejó inconclusa. Rechazó en 1265 el arzobispado de Nápoles, que le ofreció Clemente IV. Escribió comentarios a la Escritura y a Aristóteles, cuestiones disputadas y obras litúrgicas, entre ellas el oficio del Corpus Christi.\n\nSu método une fe y razón: la gracia no destruye la naturaleza, sino que la perfecciona. Asimiló la filosofía de Aristóteles, entonces recién redescubierta, y la puso al servicio de la teología, sin confundir ambos órdenes. Sus «cinco vías» son argumentos de la razón que preparan la fe; su doctrina de la analogía, de la ley natural y de los sacramentos sigue siendo referencia para la teología católica.\n\nEl 6 de diciembre de 1273, mientras celebraba la misa, tuvo una experiencia mística tras la cual dejó de escribir; según la tradición dijo que todo lo que había escrito le parecía «paja» comparado con lo que había visto. En enero de 1274 salió a pie hacia el Concilio de Lyon, convocado por Gregorio X, pero enfermó cerca de Terracina y murió el 7 de marzo en el monasterio cisterciense de Fossanova. Juan XXII lo canonizó el 18 de julio de 1323 y Pío V lo declaró doctor de la Iglesia en 1567. Es llamado Doctor Angélico y, por su combinación de estudio, oración y humildad, es modelo de quienes buscan la verdad; la Iglesia lo ha propuesto reiteradamente como maestro en la formación de los sacerdotes.",
+  "context": "Siglo XIII: universidades medievales, recepción de Aristóteles, órdenes mendicantes.",
+  "virtues": [
+   "Estudio",
+   "Humildad",
+   "Castidad",
+   "Oración"
+  ],
+  "significance": "Máximo representante de la escolástica; su síntesis de fe y razón es referencia de la teología católica.",
+  "iconography": "Dominico con un sol en el pecho, libro, pluma y paloma sobre el hombro; a veces una custodia.",
+  "works": [
+   {
+    "title": "Suma Teológica"
+   },
+   {
+    "title": "Suma contra los gentiles"
+   },
+   {
+    "title": "Oficio del Corpus Christi"
+   }
+  ],
+  "prayers": [
+   "anima-christi"
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Thomas Aquinas, Saint»",
+    "url": "https://www.newadvent.org/cathen/14663b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "juan-bosco",
+  "name": "San Juan Bosco",
+  "fullName": "Don Bosco",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "01-31",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Juan Bosco, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder"
+  ],
+  "born": {
+   "date": "16 de agosto de 1815",
+   "place": "Castelnuovo d'Asti (Piamonte)"
+  },
+  "died": {
+   "date": "31 de enero de 1888",
+   "place": "Turín"
+  },
+  "century": 19,
+  "countries": [
+   "IT"
+  ],
+  "order": "Salesianos de Don Bosco",
+  "canonization": {
+   "date": "1 de abril de 1934",
+   "by": "Pío XI",
+   "note": "Beatificado en 1929."
+  },
+  "summary": "Sacerdote turinés, fundador de los salesianos y educador de jóvenes con el sistema preventivo.",
+  "biography": "Juan Bosco nació el 16 de agosto de 1815 en Becchi, caserío cercano a Castelnuovo (Piamonte), en una familia campesina. Perdió a su padre siendo muy niño y creció bajo la guía de su madre, Margarita, mujer de gran fe y sentido común. Según sus *Memorias*, a los nueve años tuvo un sueño que le mostró su misión con los jóvenes. Trabajó como pastor y como aprendiz, y su deseo de estudiar lo llevó a Chieri y al seminario, donde entró en 1835. Tras seis años de estudio, fue ordenado sacerdote hacia 1841.\n\nEstablecido en Turín, ciudad en plena industrialización, vio la situación de muchos muchachos emigrados, sin trabajo y sin formación. El 8 de diciembre de 1841, fiesta de la Inmaculada, conoció a Bartolomé Garelli, y de esa amistad surgió el *Oratorio*, una realidad hecha de catequesis, juego, escuela y trabajo. Tras años de dificultades para encontrar sede, se estableció en Valdocco, donde, con la ayuda de su madre, abrió hospedajes, talleres y escuelas. En 1868 se consagró allí la iglesia de María Auxiliadora.\n\nFundó la Sociedad de San Francisco de Sales (los salesianos), que Pío IX aprobó provisionalmente en 1869 y definitivamente en 1874. Con santa María Mazzarello promovió también el instituto de las Hijas de María Auxiliadora para la educación de las niñas. Su método educativo, el sistema preventivo, se basa en la razón, la religión y el cariño: acompañar a los jóvenes antes de que caigan, ganarse su confianza y evitar los castigos, de modo que se gane el amor antes de inspirar temor, como recoge la Enciclopedia Católica.\n\nDon Bosco formó a jóvenes que llegaron a ser santos, como Domingo Savio, y escribió libros sencillos para el pueblo, entre ellos *El joven instruido* y vidas de santos, además de promover la prensa católica. Fue amigo de los obreros y de los desamparados. Sus biografías le atribuyen episodios extraordinarios (sueños, curaciones) que se relatan con diverso peso crítico.\n\nMurió el 31 de enero de 1888 en Turín. Pío X lo declaró venerable en 1907, Pío XI lo beatificó en 1929 y lo canonizó el 1 de abril de 1934. Su mensaje es la educación como obra de amor: ver en cada joven una promesa de Dios, hacerse presente en su vida y construir ambientes alegres donde se crezca en la fe. La Familia Salesiana está hoy presente en numerosos países, y la Iglesia lo venera como padre y maestro de la juventud.",
+  "context": "Industrialización de Turín y cuestión social en el Risorgimento italiano.",
+  "virtues": [
+   "Paternidad educativa",
+   "Alegría",
+   "Trabajo incansable"
+  ],
+  "significance": "Padre y maestro de la juventud; renovó la pedagogía cristiana.",
+  "iconography": "Sacerdote con sotana, rodeado de jóvenes, a menudo con un joven a su lado; a veces con un lirio.",
+  "works": [
+   {
+    "title": "Memorias del Oratorio de San Francisco de Sales"
+   },
+   {
+    "title": "El joven instruido"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Bosco, Saint Giovanni (John)»",
+    "url": "https://www.newadvent.org/cathen/02689d.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (enero; rango y título de la celebración, coincidente con el Calendario Romano General)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ }
+]

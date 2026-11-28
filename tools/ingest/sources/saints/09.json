@@ -1,0 +1,1334 @@
+[
+ {
+  "id": "gregorio-magno",
+  "name": "San Gregorio Magno",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-03",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Gregorio Magno, papa y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "pope",
+   "doctor",
+   "church_father",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 540",
+   "place": "Roma"
+  },
+  "died": {
+   "date": "12 de marzo de 604",
+   "place": "Roma"
+  },
+  "century": 6,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Papa de 590 a 604, monje y gran pastor, organizador de la Iglesia romana, autor de la «Regla pastoral» e impulsor de la misión a Inglaterra.",
+  "biography": "Gregorio nació hacia 540 en Roma, en una familia senatorial, en tiempos en que la península italiana sufría las consecuencias de la guerra entre bizantinos y ostrogodos y, poco después, la llegada de los lombardos. Hacia 573 desempeñaba el cargo de prefecto de la ciudad, la más alta magistratura civil de Roma. Poco después renunció a la carrera pública: según la Enciclopedia Católica, lo más probable es que hacia 574 se hiciera monje y transformara la casa familiar del monte Celio en el monasterio de San Andrés.\n\nEn 578 el papa Pelagio II lo ordenó diácono y en la primavera de 579 lo envió a Constantinopla como apocrisiario (representante permanente del papa ante el emperador), cargo que ejerció unos seis años. Regresado a Roma hacia 585-586, fue abad de San Andrés. Se cuenta, como tradición, que al ver en el foro a unos jóvenes ingleses esclavizados, se despertó en él el deseo de evangelizar Britania; consta que obtuvo permiso para partir con otros monjes, pero el pueblo romano reclamó su regreso.\n\nPelagio II murió en febrero de 590 y Gregorio fue elegido papa contra su voluntad. Fue consagrado el 3 de septiembre de 590, tras la confirmación del emperador. Gobernó la Iglesia en un momento de crisis: organizó la administración de los bienes eclesiásticos para alimentar a una Roma empobrecida, trató con los lombardos cuando el poder imperial no podía defender la ciudad, vigiló la disciplina del clero y celebró en julio de 595 su primer sínodo en San Pedro. Se llamó a sí mismo «siervo de los siervos de Dios». Impulsó la misión a Inglaterra, que encomendó a Agustín de Canterbury y a un grupo de monjes hacia 596.\n\nSu obra escrita es muy amplia: la *Regla pastoral*, manual para los obispos escrito al comienzo de su pontificado; los *Morales sobre Job*; los *Diálogos* (que contienen la principal noticia sobre san Benito); las *Homilías* sobre los evangelios y sobre Ezequiel, y un epistolario de catorce libros. Introdujo retoques en la liturgia romana, como añadidos al canon y la colocación del Padrenuestro antes de la fracción del pan; la extensión exacta de sus reformas se discute. En cambio, su vinculación personal con el canto «gregoriano» y con el sacramentario que lleva su nombre es una tradición muy debatida; la fuente más antigua que la afirma es Juan Diácono, mucho tiempo después.\n\nMurió el 12 de marzo de 604 y fue sepultado en San Pedro. La Iglesia lo cuenta entre los cuatro grandes doctores latinos y lo llama «Magno» por la hondura de su magisterio pastoral: para él, gobernar era servir, y la contemplación debía traducirse en caridad concreta.",
+  "virtues": [
+   "Humildad",
+   "Caridad con los pobres",
+   "Gobierno prudente"
+  ],
+  "iconography": "Papa con tiara y libro; una paloma junto al oído (leyenda de la inspiración, tardía).",
+  "works": [
+   {
+    "title": "Regla pastoral"
+   },
+   {
+    "title": "Morales sobre Job"
+   },
+   {
+    "title": "Diálogos"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Gregory I, Pope Saint»",
+    "url": "https://www.newadvent.org/cathen/06780a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Roma del siglo VI: guerra gótica, invasión lombarda, peste y debilidad del poder imperial de Constantinopla.",
+  "significance": "Uno de los cuatro grandes doctores latinos; modelo del obispo como pastor y servidor, e iniciador de la evangelización de Inglaterra."
+ },
+ {
+  "id": "teresa-de-calcuta",
+  "name": "Santa Teresa de Calcuta",
+  "fullName": "Agnes Gonxha Bojaxhiu",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-05",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Teresa de Calcuta, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "religious",
+   "founder"
+  ],
+  "born": {
+   "date": "26 de agosto de 1910",
+   "place": "Skopie (Imperio otomano; hoy Macedonia del Norte)"
+  },
+  "died": {
+   "date": "5 de septiembre de 1997",
+   "place": "Calcuta (India)"
+  },
+  "century": 20,
+  "countries": [
+   "MK",
+   "IN"
+  ],
+  "order": "Misioneras de la Caridad",
+  "canonization": {
+   "date": "4 de septiembre de 2016",
+   "by": "Francisco",
+   "note": "Beatificada el 19 de octubre de 2003 por Juan Pablo II."
+  },
+  "summary": "Religiosa de origen albanés, fundadora de las Misioneras de la Caridad y servidora de los más pobres de Calcuta; Nobel de la Paz 1979.",
+  "biography": "Agnes Gonxha Bojaxhiu nació el 26 de agosto de 1910 en Skopie, entonces en el Imperio otomano, la menor de los hijos de Nikola y Drane Bojaxhiu, familia albanesa católica. En 1928 ingresó en las Hermanas de Loreto, en Irlanda. En enero de 1929 llegó a Calcuta, donde enseñó; hizo sus votos perpetuos en 1937 y desde 1944 dirigió la escuela de Santa María, con el nombre religioso de Teresa.\n\nEl 10 de septiembre de 1946, durante un viaje en tren a Darjeeling, vivió lo que ella llamó «una llamada dentro de la llamada»: dejar el convento para servir a Cristo en los más pobres entre los pobres, en las calles de la ciudad. Obtenidos los permisos, comenzó su trabajo con un sencillo sari blanco de borde azul y el 7 de octubre de 1950 se estableció oficialmente en la archidiócesis de Calcuta la congregación de las Misioneras de la Caridad. A los votos religiosos habituales añadieron un cuarto: servir de todo corazón a los más pobres entre los pobres.\n\nLa obra creció desde escuelas al aire libre para niños hasta hogares para moribundos, para enfermos de lepra, para huérfanos y para abandonados, y se extendió por la India y por muchos países. Su testimonio le valió el reconocimiento mundial y el Premio Nobel de la Paz en 1979. Francisco, en la homilía de su canonización, destacó que fue una generosa dispensadora de la misericordia divina, que defendió la vida humana, la no nacida y la abandonada, que se inclinó sobre los moribundos reconociendo su dignidad y que no dudó en confrontar a los poderosos con la pobreza que habían creado.\n\nLa espiritualidad de Teresa unía la oración y la acción: la adoración eucarística diaria sostenía el servicio, y en cada pobre veía el rostro de Cristo. Escritos suyos publicados después de su muerte muestran que durante largos años vivió una sequedad interior y una sensación de lejanía de Dios, que sobrellevó con fidelidad; muchos han leído esa «oscuridad» como participación en la sed de Cristo en la cruz.\n\nMurió en Calcuta el 5 de septiembre de 1997. La causa de canonización se abrió en menos de dos años; el 20 de diciembre de 2002 Juan Pablo II aprobó los decretos sobre sus virtudes heroicas y sobre un milagro; fue beatificada el 19 de octubre de 2003 y canonizada por Francisco el 4 de septiembre de 2016, durante el Jubileo de la Misericordia. Su memoria libre se celebra el 5 de septiembre, aniversario de su muerte.",
+  "virtues": [
+   "Caridad",
+   "Fidelidad en la oscuridad",
+   "Sencillez"
+  ],
+  "iconography": "Religiosa con sari blanco de borde azul, rodeada de niños y pobres, con rosario.",
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de la Madre Teresa de Calcuta (beatificación, 2003)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20031019_madre-teresa_sp.html"
+   },
+   {
+    "label": "Francisco, homilía en la canonización de la Madre Teresa (4-IX-2016)",
+    "url": "https://www.vatican.va/content/francesco/en/homilies/2016/documents/papa-francesco_20160904_omelia-canonizzazione-madre-teresa.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "India del siglo XX: pobreza urbana extrema en Calcuta.",
+  "significance": "Icono mundial de la caridad cristiana hacia los más pobres, de la defensa de la vida y de la misericordia."
+ },
+ {
+  "id": "pedro-claver",
+  "name": "San Pedro Claver",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-09",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pedro Claver, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "missionary"
+  ],
+  "born": {
+   "date": "26 de junio de 1580 (la Enciclopedia Católica da 1581)",
+   "place": "Verdú (Lleida)"
+  },
+  "died": {
+   "date": "8 de septiembre de 1654",
+   "place": "Cartagena de Indias"
+  },
+  "century": 17,
+  "countries": [
+   "ES",
+   "CO"
+  ],
+  "order": "Compañía de Jesús",
+  "canonization": {
+   "date": "15 de enero de 1888",
+   "by": "León XIII"
+  },
+  "summary": "Jesuita catalán, «esclavo de los esclavos», que atendió a los africanos llegados a Cartagena de Indias.",
+  "biography": "Pedro Claver nació en Verdú, en la Cataluña rural, hijo de campesinos; la fecha suele darse como 26 de junio de 1580 en las fuentes jesuitas, aunque la Enciclopedia Católica escribe 1581. A los veinte años ingresó en el noviciado jesuita de Tarragona, y fue formado en la Compañía con el deseo de las misiones de América.\n\nFue enviado al Nuevo Reino de Granada y llegó a Cartagena de Indias en 1610. Aquel puerto era uno de los principales mercados de esclavos del Caribe: cada año desembarcaban millares de africanos tras una travesía en la que muchos morían. Allí fue discípulo del también jesuita Alonso de Sandoval, misionero de los esclavizados, y concluidos sus estudios fue ordenado sacerdote en Cartagena.\n\nSu ministerio consistió en salir al encuentro de los barcos negreros. Subía a bordo con alimentos y medicinas, ayudado por intérpretes, atendía a los enfermos y, cuando los recién llegados se habían recuperado un poco, les explicaba la fe y los bautizaba. La Enciclopedia Católica afirma que instruyó y bautizó a más de trescientos mil, cifra que debe leerse como estimación tradicional y no como cómputo exacto. Se firmaba, según la tradición jesuita, «esclavo de los negros para siempre».\n\nNo se limitaba a los bautismos: visitaba hospitales, cárceles y a los condenados a muerte, y acompañaba a los esclavizados en sus haciendas. Su caridad concreta era a la vez una denuncia silenciosa de la trata. Los últimos años de su vida estuvieron marcados por la enfermedad y por el olvido; murió el 8 de septiembre de 1654.\n\nFue canonizado por León XIII el 15 de enero de 1888 y, el 7 de julio de 1896, el mismo papa lo proclamó patrono especial de todas las misiones católicas entre los pueblos africanos. Su ejemplo recuerda que el Evangelio exige ver la dignidad de cada persona, también la de aquellos que el mundo trata como mercancía, y que la evangelización pasa por el cuidado del cuerpo y de la vida concreta del otro.",
+  "virtues": [
+   "Caridad",
+   "Humildad",
+   "Defensa de los oprimidos"
+  ],
+  "iconography": "Jesuita con sotana negra, crucifijo y ofreciendo agua o alimentos a esclavos africanos.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Peter Claver»",
+    "url": "https://www.newadvent.org/cathen/11763a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "patronages": [
+   "Misiones católicas entre los pueblos africanos (León XIII, 7 de julio de 1896)"
+  ],
+  "context": "Cartagena de Indias, principal puerto de entrada de esclavos africanos a la América hispana en el siglo XVII.",
+  "significance": "Testimonio evangélico frente a la esclavitud y la trata en América; patrono de las misiones entre africanos."
+ },
+ {
+  "id": "juan-crisostomo",
+  "name": "San Juan Crisóstomo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-13",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Juan Crisóstomo, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 347-349",
+   "place": "Antioquía de Siria"
+  },
+  "died": {
+   "date": "14 de septiembre de 407",
+   "place": "Comana (Ponto)"
+  },
+  "century": 4,
+  "countries": [
+   "TR",
+   "SY"
+  ],
+  "summary": "Patriarca de Constantinopla, el mayor predicador de la Iglesia antigua, llamado «Boca de Oro» y desterrado por defender a los pobres y la verdad.",
+  "biography": "Juan nació hacia 347 (algunos autores dan 349) en Antioquía de Siria, hijo de un alto oficial que murió pronto. Fue criado por su madre, Antusa, viuda joven, y estudió retórica con el pagano Libanio, el gran orador de la ciudad. Se convirtió bajo el obispo Melecio de Antioquía y hacia 367 fue nombrado lector; después vivió como asceta, incluso como ermitaño, hasta que su salud lo obligó a volver a la ciudad. Hacia 381 Melecio lo ordenó diácono y en 386 Flaviano lo ordenó presbítero.\n\nEn Antioquía se hizo célebre como predicador. Sus homilías sobre Mateo, Juan, los Hechos y las cartas de Pablo, que constituyen una parte esencial de su herencia, se caracterizan por la explicación del texto y por la aplicación moral directa. En la Cuaresma de 387, tras el derribo de las estatuas del emperador Teodosio en un motín, sus sermones sostuvieron a una población aterrada. El título «Crisóstomo» («boca de oro») aparece documentado mucho después, en una constitución del papa Vigilio de 553.\n\nAl morir en 397 Nectario, patriarca de Constantinopla, Juan fue llevado a la capital y ordenado obispo el 26 de febrero de 398 por Teófilo de Alejandría. Reformó la vida del clero y de los monjes, redujo los gastos de la casa episcopal, atendió a las viudas y a los pobres, y reprendió sin miedo el lujo de la corte. Eso, junto con la intriga de Teófilo —que lo hizo deponer en el Sínodo de la Encina, en 403—, provocó su caída. La emperatriz Eudoxia lo hizo regresar de un primer destierro, pero nuevas tensiones, entre ellas su enfrentamiento con la emperatriz, acabaron en un segundo destierro, desde el 24 de junio de 404.\n\nFue deportado a Cucuso y luego a Arabisso, y finalmente se le ordenó marchar hacia Pitio, en el confín del imperio. Agotado por el camino, murió en Comana, en el Ponto, el 14 de septiembre de 407; sus últimas palabras, según la tradición, fueron «Gloria a Dios por todo». El 27 de enero de 438 sus reliquias fueron llevadas solemnemente a Constantinopla y depositadas en la iglesia de los Apóstoles.\n\nDejó, además de las homilías, el tratado *Sobre el sacerdocio* y unas doscientas cuarenta cartas, entre ellas diecisiete a la diaconisa Olimpia. Es el principal doctor de la Iglesia griega y una autoridad también en Occidente. Su predicación une la exigencia social —las riquezas son para compartir, el altar no se separa del pobre— con una profunda veneración por la Eucaristía y la Escritura.",
+  "virtues": [
+   "Elocuencia",
+   "Defensa de los pobres",
+   "Valentía profética"
+  ],
+  "iconography": "Obispo oriental con omóforo, de rostro demacrado, con libro y pluma; a veces con una abeja en los labios.",
+  "works": [
+   {
+    "title": "Homilías sobre el evangelio de Mateo"
+   },
+   {
+    "title": "Sobre el sacerdocio"
+   },
+   {
+    "title": "Homilías a las estatuas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. John Chrysostom»",
+    "url": "https://www.newadvent.org/cathen/08452b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "significance": "Principal doctor de la Iglesia griega; maestro de la predicación bíblica y de la exigencia social del Evangelio."
+ },
+ {
+  "id": "cornelio-papa",
+  "name": "San Cornelio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-16",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Cornelio, papa, y Cipriano, obispo, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "pope",
+   "martyr"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Roma"
+  },
+  "died": {
+   "date": "junio de 253 (la Enciclopedia Católica da 252)",
+   "place": "Centumcelas (Civitavecchia)"
+  },
+  "century": 3,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Papa de 251 a 253, que defendió la readmisión de los cristianos caídos tras la persecución y se opuso al cisma de Novaciano.",
+  "biography": "Cornelio fue elegido obispo de Roma a comienzos de 251, cuando la persecución del emperador Decio se aflojó y la Iglesia romana, tras meses de sede vacante por el martirio de Fabián (enero de 250), pudo reunirse. La Enciclopedia Católica cuenta que dieciséis obispos se congregaron en Roma y que Cornelio fue elegido aunque se resistía. Pocas semanas después el presbítero romano Novaciano, hombre culto y de gran rigor, se hizo consagrar obispo rival y encabezó un cisma que sacudió a todo el mundo cristiano.\n\nLa cuestión de fondo era qué hacer con los *lapsi*, los cristianos que habían renegado de su fe o comprado certificados de sacrificio durante la persecución. Novaciano negaba que la Iglesia pudiera readmitirlos; Cornelio sostenía, con la mayoría, que los arrepentidos podían volver a la comunión tras una penitencia proporcionada a su caída. En esa lucha tuvo un aliado decisivo en Cipriano de Cartago, cuyo concilio de 251 aprobó la misma línea mediadora, y en Dionisio de Alejandría, que contribuyó a ganar para Cornelio a las Iglesias de Oriente. En Italia el papa reunió un sínodo de unos sesenta obispos. Se conservan cartas de Cornelio y de Cipriano que muestran la comunicación entre las Iglesias y la autoridad de la sede romana.\n\nLa tradición recoge además que la Iglesia romana de su tiempo sostenía a numerosos pobres y viudas bajo la dirección de un clero ya bien organizado; es un dato valioso, transmitido por Eusebio (no consultado directamente aquí), para conocer la vida de la comunidad en el siglo III.\n\nA comienzos de 252 estalló una nueva persecución y Cornelio fue desterrado a Centumcelas (Civitavecchia). Allí murió, en junio de 253 según la cronología de uso más común (la Enciclopedia Católica escribe 252). La tradición antigua lo venera como mártir, aunque el catálogo liberiano sugiere que murió por los rigores del destierro y relatos posteriores lo hacen decapitado. Fue sepultado no en la cripta papal sino en un cementerio contiguo, quizá de la familia Cornelia; su epitafio, en latín, dice *CORNELIUS MARTYR*.\n\nLa liturgia une su memoria a la de Cipriano; la Enciclopedia Católica sugiere que el 14 de septiembre pudo ser el día del traslado de sus restos a las catacumbas, y la reforma de 1969 la fijó el 16. La enseñanza de Cornelio es la de una misericordia que no relaja la verdad: perdonar al caído sin abandonar la disciplina, y preservar la unidad sin ceder al rigorismo.",
+  "virtues": [
+   "Misericordia",
+   "Firmeza en la comunión"
+  ],
+  "iconography": "Papa con tiara y cuerno de buey (por *cornu*), a veces con palma de mártir.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Pope St. Cornelius»",
+    "url": "https://www.newadvent.org/cathen/04375c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Fecha de muerte: la Enciclopedia Católica (1913) da junio de 252; aquí se usa 253, de uso común. El dato sobre el socorro a pobres y viudas procede de Eusebio, no consultado directamente; está redactado con cautela.",
+  "context": "Iglesia romana tras la persecución de Decio: debate sobre la penitencia de los apóstatas y cisma novaciano.",
+  "significance": "Defensor de la misericordia y de la unidad de la Iglesia; su correspondencia con Cipriano es fuente de primer orden."
+ },
+ {
+  "id": "cipriano-de-cartago",
+  "name": "San Cipriano de Cartago",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-16",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Cornelio, papa, y Cipriano, obispo, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 200-210 (fecha incierta)",
+   "place": "Cartago"
+  },
+  "died": {
+   "date": "14 de septiembre de 258",
+   "place": "Cartago"
+  },
+  "century": 3,
+  "countries": [
+   "TN"
+  ],
+  "summary": "Obispo de Cartago, autor de «La unidad de la Iglesia», pastor durante la peste y mártir bajo Valeriano (258).",
+  "biography": "De la juventud de Cipriano se sabe poco. Nacido en una familia acomodada del norte de África, probablemente a comienzos del siglo III, fue retórico en Cartago. Según la Enciclopedia Católica se bautizó hacia 246, probablemente la noche de Pascua, bajo el influjo del anciano presbítero Cecilio. Repartió buena parte de su fortuna entre los pobres y, a los pocos años —hacia 248 o comienzos de 249—, fue elegido obispo de Cartago, aunque se resistía y una minoría, que incluía a cinco presbíteros, se opuso.\n\nPoco después estalló la persecución de Decio (enero de 250), en la que murió el papa Fabián. Cipriano se ocultó y gobernó a su Iglesia por cartas, decisión que sus enemigos le reprocharon. Al disminuir la persecución, quedó el problema de los *lapsi*: miles de fieles habían sacrificado o conseguido certificados (*libelli*). Un concilio decidió que cada caso se examinara por separado; los que tenían certificado podían ser readmitidos tras penitencia, y los que habían sacrificado podían recibir la comunión en la hora de la muerte. Frente al rigorismo de Novaciano y al laxismo de algunos confesores, se alineó con el papa Cornelio.\n\nHacia 251 escribió *La unidad de la Iglesia*, tratado en el que defiende la unidad en torno al obispo y toma a Pedro como modelo de esa unidad: «No puede tener a Dios por Padre quien no tiene a la Iglesia por madre». En 252 una epidemia de peste llegó a Cartago, y Cipriano organizó el cuidado de los enfermos y la sepultura de los muertos, y escribió *Sobre la mortalidad* para consolar a los cristianos.\n\nEn 256 los concilios africanos sostuvieron que los bautizados por herejes debían ser bautizados de nuevo, y Cipriano defendió esta práctica frente al papa Esteban, que la rechazaba. La polémica se apaciguó con la muerte de Esteban en 257, y su sucesor Sixto II mantuvo buenas relaciones con Cipriano. Agustín criticó después la posición cipriánica. Fue la mayor discrepancia de su vida, mantenida sin romper la comunión.\n\nBajo Valeriano fue desterrado a Curubis en 257 y, tras regresar, fue decapitado en Cartago el 14 de septiembre de 258, en un campo a las afueras de la ciudad; fue el primer obispo cartaginés mártir. Su legado es doble: una eclesiología de la unidad y una pastoral de la misericordia que no abandona la exigencia del Evangelio. Hoy su memoria se une a la de Cornelio el 16 de septiembre.",
+  "virtues": [
+   "Valentía pastoral",
+   "Amor a la unidad",
+   "Caridad"
+  ],
+  "iconography": "Obispo con espada, palma y libro; a veces con un hacha.",
+  "works": [
+   {
+    "title": "Sobre la unidad de la Iglesia"
+   },
+   {
+    "title": "Sobre el Padrenuestro"
+   },
+   {
+    "title": "Cartas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Cyprian»",
+    "url": "https://www.newadvent.org/cathen/04583b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "África romana del siglo III: persecuciones de Decio y Valeriano y controversias sobre la penitencia y el bautismo de los herejes.",
+  "significance": "Padre de la Iglesia latina y gran teólogo del episcopado y de la unidad; su correspondencia es fuente de primer orden.",
+  "note": "La Enciclopedia Católica sitúa su martirio el 14 de septiembre de 258; la liturgia lo celebra el 16 con Cornelio. El lugar de nacimiento (Cartago) y el año de nacimiento son inciertos."
+ },
+ {
+  "id": "roberto-belarmino",
+  "name": "San Roberto Belarmino",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-17",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Roberto Belarmino, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "religious"
+  ],
+  "born": {
+   "date": "4 de octubre de 1542",
+   "place": "Montepulciano (Toscana)"
+  },
+  "died": {
+   "date": "17 de septiembre de 1621",
+   "place": "Roma"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Compañía de Jesús",
+  "canonization": {
+   "date": "29 de junio de 1930",
+   "by": "Pío XI"
+  },
+  "summary": "Jesuita y cardenal, teólogo de la Contrarreforma, autor de las «Controversias» y de un catecismo muy difundido; doctor de la Iglesia.",
+  "biography": "Roberto Belarmino nació el 4 de octubre de 1542 en Montepulciano, en la Toscana. Ingresó en la Compañía de Jesús el 20 de septiembre de 1560 y completó su teología en Lovaina hacia 1569, donde fue ordenado y se dio a conocer como profesor y predicador, escuchado también por protestantes.\n\nEn 1576 fue llamado a Roma para ocupar la cátedra de controversias en el Colegio Romano. Sus lecciones, ordenadas y expuestas con serenidad y abundancia de fuentes, se publicaron como *Disputationes de controversiis christianae fidei*, la obra más importante de teología controversista de la época, que durante generaciones fue la gran referencia católica frente a la Reforma. Defendió la doctrina con argumentos, evitando el tono injurioso tan frecuente en la polémica de su tiempo.\n\nEscribió además dos catecismos, la *Dottrina cristiana breve* y la *Dichiarazione più copiosa* (1598), que fueron usados durante siglos y traducidos a muchas lenguas. En 1599 Clemente VIII lo creó cardenal y lo nombró arzobispo de Capua, donde residió unos tres años ejerciendo el ministerio pastoral: visitó parroquias, predicó y reformó el clero. Volvió después a Roma como consejero del papa.\n\nSu nombre se asocia al caso Galileo. Mantuvo correspondencia con él y, en 1615-1616, intervino en la primera fase del asunto; después se le encargó comunicarle que la doctrina de Copérnico no podía defenderse como verdadera y recibir su sumisión. Belarmino sostenía que, mientras no hubiera una demostración, no convenía abandonar la lectura tradicional de la Escritura; es un episodio que requiere ser leído con matices históricos.\n\nMurió en Roma el 17 de septiembre de 1621. Fue declarado venerable en 1627, canonizado por Pío XI el 29 de junio de 1930 y proclamado doctor de la Iglesia en 1931. Vivió con sencillez y pobreza personal. Su figura recuerda que la defensa de la fe requiere ciencia, caridad y humildad.",
+  "virtues": [
+   "Erudición",
+   "Humildad",
+   "Pobreza personal"
+  ],
+  "iconography": "Cardenal con birrete rojo, libro y a veces un catecismo; rostro delgado con barba blanca.",
+  "works": [
+   {
+    "title": "Disputationes de controversiis"
+   },
+   {
+    "title": "Doctrina cristiana breve"
+   },
+   {
+    "title": "El arte de bien morir"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Blessed Robert Bellarmine»",
+    "url": "https://www.newadvent.org/cathen/02411d.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Iglesia de la Contrarreforma: debate con el protestantismo y primeras tensiones entre ciencia y exégesis bíblica.",
+  "significance": "Gran teólogo controversista y catequista; doctor de la Iglesia (1931).",
+  "note": "Fecha de canonización (29-VI-1930) y de proclamación como doctor (1931): la Enciclopedia Católica leída confirma 1930 y 1931; el día exacto procede de la ficha previa y no se contrastó."
+ },
+ {
+  "id": "hildegarda-de-bingen",
+  "name": "Santa Hildegarda de Bingen",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-17",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Hildegarda de Bingen, virgen y doctora de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "doctor",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "1098",
+   "place": "Bermersheim (Renania)"
+  },
+  "died": {
+   "date": "17 de septiembre de 1179",
+   "place": "Rupertsberg, cerca de Bingen"
+  },
+  "century": 12,
+  "countries": [
+   "DE"
+  ],
+  "order": "Benedictinas",
+  "canonization": {
+   "date": "10 de mayo de 2012 (extensión del culto; sin contrastar)",
+   "by": "Benedicto XVI",
+   "note": "Proclamada doctora de la Iglesia el 7 de octubre de 2012."
+  },
+  "summary": "Abadesa benedictina alemana, visionaria, escritora, compositora y naturalista, doctora de la Iglesia desde 2012.",
+  "biography": "Hildegarda nació en 1098 en Bermersheim, en Renania (la Enciclopedia Católica escribe Böckelheim), en una familia numerosa. A los ocho años fue confiada a Jutta, reclusa vinculada al monasterio benedictino de Disibodenberg, donde aprendió a leer y a cantar los salmos. Profesó como benedictina hacia 1115 y, al morir Jutta en 1136, fue elegida superiora de la comunidad femenina.\n\nDesde la infancia tuvo visiones, que mantuvo en secreto. Hacia los cuarenta años, según su relato, recibió la orden de ponerlas por escrito: en 1141 comenzó el *Scivias* («Conoce los caminos»), una obra en treinta y cinco visiones que recorre la historia de la salvación desde la creación hasta el final de los tiempos, con la Encarnación como centro. Contó con el respaldo del arzobispo de Maguncia y del clero, y el papa Eugenio III fue informado de sus escritos en Tréveris en 1147. Después compuso el *Liber vitae meritorum*, sobre la lucha de los vicios y las virtudes, y el *Liber divinorum operum*, considerado su obra maestra, inspirado en el prólogo de Juan.\n\nHacia 1148-1150 trasladó la comunidad al Rupertsberg, cerca de Bingen, con unas dieciocho hermanas; hacia 1165 fundó otro convento en Eibingen, al otro lado del Rin. Mantuvo correspondencia con papas, emperadores, abades y obispos: se conservan unas cuatrocientas cartas, en las que aconsejaba y también corregía, incluso a Federico Barbarroja. En sus últimos años, a pesar de su edad, emprendió viajes de predicación por Alemania y habló en Maguncia, Tréveris y Colonia; reprendió a los cátaros advirtiendo que la renovación de la Iglesia debía venir de la penitencia y la conversión, no de la ruptura.\n\nSu obra incluye también un amplio corpus musical, la *Symphonia armonie celestium revelationum*, y tratados sobre ciencias naturales y medicina, en los que une la observación con el sentido simbólico de la creación. Benedicto XVI destacó que su teología subraya la dignidad del cuerpo humano y de toda la creación.\n\nMurió el 17 de septiembre de 1179 en el Rupertsberg. Su culto local había perdurado durante siglos, y su nombre figura en el Martirologio, sin canonización formal; la Enciclopedia Católica lo señala así. Benedicto XVI la proclamó doctora de la Iglesia el 7 de octubre de 2012, junto con Juan de Ávila; es una de las cuatro mujeres con ese título, con Catalina de Siena, Teresa de Jesús y Teresa de Lisieux.",
+  "virtues": [
+   "Sabiduría",
+   "Creatividad",
+   "Valentía"
+  ],
+  "significance": "Doctora de la Iglesia (2012); mística, compositora y escritora de gran influencia.",
+  "iconography": "Abadesa benedictina con pluma y tablilla de cera, recibiendo una visión de luz; a veces con un órgano o un manuscrito iluminado.",
+  "works": [
+   {
+    "title": "Scivias"
+   },
+   {
+    "title": "Physica"
+   },
+   {
+    "title": "Symphonia"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Hildegard»",
+    "url": "https://www.newadvent.org/cathen/07351a.htm"
+   },
+   {
+    "label": "Benedicto XVI, Carta apostólica por la que se proclama doctora a santa Hildegarda de Bingen (7-X-2012)",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/apost_letters/documents/hf_ben-xvi_apl_20121007_ildegarda-bingen.html"
+   },
+   {
+    "label": "Benedicto XVI, audiencia general sobre santa Hildegarda (8-IX-2010)",
+    "url": "https://www.vatican.va/content/benedict-xvi/es/audiences/2010/documents/hf_ben-xvi_aud_20100908.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "El 7 de octubre de 2012 (doctora) consta en la carta apostólica leída. La fecha 10 de mayo de 2012 para la extensión del culto (canonización equipolente) procede de la ficha previa y no pudo confirmarse en las fuentes leídas.",
+  "context": "Alemania del siglo XII: auge del monacato benedictino, reforma de la Iglesia y conflictos entre papado e imperio."
+ },
+ {
+  "id": "andres-kim-y-companeros",
+  "name": "San Andrés Kim Taegon, san Pablo Chong Hasang y compañeros",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-20",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Andrés Kim Taegon, presbítero, Pablo Chong Hasang y compañeros, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "priest",
+   "lay"
+  ],
+  "born": {
+   "date": "21 de agosto de 1821 (Andrés Kim)",
+   "place": "Solmoe (Corea)"
+  },
+  "died": {
+   "date": "16 de septiembre de 1846 (Andrés Kim)",
+   "place": "Saenamteo, Seúl"
+  },
+  "century": 19,
+  "countries": [
+   "KR"
+  ],
+  "canonization": {
+   "date": "6 de mayo de 1984",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Ciento tres mártires coreanos —el primer sacerdote coreano, Andrés Kim, el laico Pablo Chong Hasang y misioneros franceses— canonizados en Seúl en 1984.",
+  "biography": "La Iglesia de Corea tiene un origen singular: no fue fundada por misioneros sino por laicos. La fe cristiana llegó a la península a través de libros traídos de China, que estudiaron eruditos coreanos, y en 1784 uno de ellos fue enviado a Pekín, donde recibió el bautismo; la comunidad que se formó a su regreso creció sin sacerdotes durante años. Juan Pablo II recordó en la homilía de la canonización que esta joven Iglesia soportó oleadas sucesivas de persecución —en 1791, 1801, 1827, 1839, 1846 y 1866— y que en poco más de un siglo murieron unos diez mil cristianos. Los primeros misioneros franceses de las Misiones Extranjeras de París llegaron en 1836, y algunos de ellos figuran también entre los mártires canonizados.\n\nAndrés Kim Taegon nació el 21 de agosto de 1821 en Solmoe, en el seno de una familia cristiana de la que varios hombres murieron mártires. Bautizado a los quince años, fue enviado a Macao, a unos dos mil kilómetros, para estudiar para el sacerdocio. Fue ordenado en Shanghai por un obispo misionero francés en 1845, y se convirtió así en el primer sacerdote coreano. Regresó a su país, donde trabajó en secreto para organizar la entrada de misioneros por mar; fue detenido, torturado y decapitado el 16 de septiembre de 1846 en Saenamteo, cerca de Seúl, a los veinticinco años. Según el relato transmitido, dijo a sus verdugos: «Por Él muero».\n\nPablo Chong Hasang fue un laico, hijo de un mártir: su padre y su hermano mayor murieron por la fe cuando él era niño. Trabajó como intérprete oficial y viajó varias veces a China, y colaboró en la petición a Roma de un vicariato apostólico para Corea, que el papa Gregorio XVI erigió en 1831. Juzgado en 1839, entregó al juez una defensa escrita de la fe y se negó a renegar: «Seré cristiano hasta la muerte».\n\nEntre los 103 mártires canonizados hay hombres y mujeres, jóvenes y ancianos —el mayor tenía 79 años, el menor 13—, nobles y gente humilde; diez eran misioneros franceses, incluidos los primeros obispos de Corea. Fueron canonizados por Juan Pablo II en Seúl el 6 de mayo de 1984, durante su viaje apostólico a Corea.\n\nSu testimonio enseña que la fe puede echar raíces por la acción de los laicos y que la Iglesia se funda también en la sangre de sus mártires. La liturgia los celebra el 20 de septiembre; allí se celebra la memoria de todos juntos, no solo la de Andrés.",
+  "virtues": [
+   "Fortaleza",
+   "Fe laical",
+   "Fidelidad hasta el martirio"
+  ],
+  "iconography": "Sacerdote con ropa coreana y palma, o grupo de mártires con sombreros coreanos tradicionales.",
+  "sources": [
+   {
+    "label": "Juan Pablo II, homilía en la canonización de los mártires coreanos (Seúl, 6-V-1984)",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/1984/documents/hf_jp-ii_hom_19840506_martiri-coreani.html"
+   },
+   {
+    "label": "Vatican News, «Santos Andrés Kim Taegon, Pablo Chong Hasang y compañeros»",
+    "url": "https://www.vaticannews.va/en/saints/09/20/sts--andrew-kim-taegon--paul--chong-hasang-and-companions--korea.print.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Corea de la dinastía Joseon: cristianismo prohibido, extendido por laicos, y persecuciones de 1801 a 1866.",
+  "significance": "Iglesia fundada por laicos y regada con la sangre de miles de mártires; primer sacerdote coreano.",
+  "note": "Las fechas de nacimiento (21-VIII-1821) y ordenación (1845) de Andrés Kim proceden de fuentes secundarias (Vatican News da la ordenación en Shanghai sin año); la frase «Por Él muero» consta en Vatican News. El vicariato de Corea lo erigió Gregorio XVI en 1831 (dato general; Vatican News dice 1825, que parece errata)."
+ },
+ {
+  "id": "mateo-apostol",
+  "name": "San Mateo, apóstol y evangelista",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-21",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "San Mateo, apóstol y evangelista",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "evangelist",
+   "martyr"
+  ],
+  "born": {
+   "place": null
+  },
+  "died": {
+   "date": "siglo I (según la tradición)",
+   "place": "incierto: la tradición habla de Etiopía, Persia u otras regiones"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "ET"
+  ],
+  "summary": "Publicano de Cafarnaún llamado por Jesús, uno de los Doce; la tradición le atribuye el primer evangelio.",
+  "biography": "Mateo, cuyo nombre procede del hebreo *Mattai* («don de Dios»), aparece en los evangelios como publicano, es decir, cobrador de impuestos. El Evangelio que lleva su nombre cuenta que Jesús lo vio sentado en el despacho de los tributos y le dijo «Sígueme»; él se levantó y lo siguió (Mt 9,9). Los relatos paralelos de Marcos y de Lucas llaman al mismo hombre Leví, hijo de Alfeo (Mc 2,14; Lc 5,27), y la tradición cristiana identifica a ambos. La Enciclopedia Católica sitúa su oficio en Cafarnaún, recaudando para Herodes Antipas.\n\nLos publicanos eran vistos con desprecio por colaborar con el poder romano y por su fama de enriquecerse a costa del pueblo. Que Jesús llamara a uno de ellos, y que después comiera en su casa con otros publicanos y pecadores, provocó la crítica de los fariseos. Jesús respondió: «No he venido a llamar a los justos sino a los pecadores». Esa escena, narrada por el mismo Mateo, es la clave de su vocación: la conversión nace de una mirada misericordiosa que precede al mérito.\n\nMateo figura entre los Doce en todas las listas apostólicas, y los Hechos lo mencionan entre los que esperaban en el cenáculo tras la Ascensión (Hch 1). De lo que hizo después no hay noticias seguras. Según Ireneo, predicó a los hebreos, y Clemente de Alejandría habla de quince años de ministerio allí; las antiguas fuentes mencionan Etiopía, Persia, Partia, Macedonia o Siria. Sobre su muerte hay versiones: Heracleón sostiene que no fue mártir, mientras que el Martirologio Romano lo recuerda como mártir en Etiopía; el lugar y el modo (hoguera, lapidación, espada) son desconocidos.\n\nDesde antiguo se le atribuye el primer evangelio. Eusebio refiere, según Papías, que Mateo escribió «en lengua materna» antes de partir a otros países; la relación entre esa noticia y el evangelio griego que poseemos se discute, y la Enciclopedia Católica la presenta como tradición. Los escritos apócrifos que se le atribuyen, como el *Martyrium S. Matthaei*, carecen de valor histórico.\n\nSu evangelio, escrito para lectores de ambiente judío, muestra a Jesús como el Mesías prometido, cumplidor de la Ley, con los grandes discursos del Sermón de la Montaña, las parábolas del Reino y el discurso eclesial. Es el evangelio más citado por los Padres. La Iglesia latina lo celebra el 21 de septiembre; la griega, el 16 de noviembre. En la iconografía se lo representa con un hombre alado, símbolo de su evangelio, y a veces con lanza o con bolsa de monedas.",
+  "virtues": [
+   "Conversión",
+   "Disponibilidad inmediata",
+   "Acogida a los pecadores"
+  ],
+  "iconography": "Hombre alado (símbolo del evangelista), con libro; a veces con bolsa de monedas o lanza.",
+  "works": [
+   {
+    "title": "Evangelio según san Mateo (atribución tradicional)"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Matthew»",
+    "url": "https://www.newadvent.org/cathen/10056b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Palestina romana del siglo I: los publicanos, cobradores de impuestos para el poder imperial, eran despreciados por el pueblo.",
+  "significance": "Su llamada muestra la misericordia de Cristo hacia los pecadores; el evangelio que lleva su nombre abre el Nuevo Testamento.",
+  "note": "Se ha quitado el lugar de nacimiento (Cafarnaún), que no consta; la Enciclopedia Católica solo lo sitúa allí como recaudador. El patronazgo de banqueros no está documentado y no se incluye."
+ },
+ {
+  "id": "pio-de-pietrelcina",
+  "name": "San Pío de Pietrelcina",
+  "fullName": "Francesco Forgione",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-23",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Pío de Pietrelcina, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "25 de mayo de 1887",
+   "place": "Pietrelcina (Benevento)"
+  },
+  "died": {
+   "date": "23 de septiembre de 1968",
+   "place": "San Giovanni Rotondo (Foggia)"
+  },
+  "century": 20,
+  "countries": [
+   "IT"
+  ],
+  "order": "Capuchinos",
+  "canonization": {
+   "date": "16 de junio de 2002",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Fraile capuchino, confesor incansable que llevó durante años las llagas de la pasión; fundó los Grupos de Oración y la Casa Alivio del Sufrimiento.",
+  "biography": "Francesco Forgione nació el 25 de mayo de 1887 en Pietrelcina, en la archidiócesis de Benevento, en una familia campesina de profunda fe. El 6 de enero de 1903 ingresó en el noviciado capuchino de Morcone, y el 22 de enero tomó el hábito con el nombre de fray Pío; hizo la profesión solemne el 27 de enero de 1907. Su salud fue frágil desde joven. Fue ordenado sacerdote en Benevento el 10 de agosto de 1910.\n\nEn septiembre de 1916 fue destinado al convento de San Giovanni Rotondo, en el Gargano, donde permaneció hasta su muerte. Allí se difundió pronto su fama de confesor y director espiritual. La Santa Sede, en su ficha biográfica oficial, refiere que sufrió durante muchos años las llagas de la pasión; en el uso popular y en la tradición, esa experiencia se identifica con los estigmas, que según el testimonio recibido se manifestaron de modo estable desde 1918. Pablo VI lo describió como una imagen visible de las llagas de Cristo.\n\nAtrajo a multitudes. Juan Pablo II, en la homilía de su canonización, destacó que su santidad se identifica con la cruz: buscó una mayor conformidad con Cristo crucificado y se vio llamado a colaborar de modo particular en la obra de la redención. Subrayó también su servicio como generoso dispensador de la misericordia divina, sobre todo en el sacramento de la Penitencia: las largas filas ante su confesionario llegaron a hacerse famosas. Él mismo se definía como «un pobre fraile que reza».\n\nSu obra tuvo dos vertientes inseparables, la oración y la caridad. Fundó los Grupos de Oración, que son una aportación continua de oración confiada a la Iglesia y a la sociedad, y promovió la Casa Alivio del Sufrimiento (*Casa Sollievo della Sofferenza*), un hospital inaugurado el 5 de mayo de 1956 para atender a los más necesitados. Para el papa, esos dos rasgos resumen su enseñanza.\n\nMurió el 23 de septiembre de 1968, a los 81 años. Fue beatificado por Juan Pablo II el 2 de mayo de 1999 y canonizado el 16 de junio de 2002, en una de las ceremonias más multitudinarias de la historia; el papa anunció entonces que su memoria sería obligatoria, el 23 de septiembre. La figura del Padre Pío, rodeada de fenómenos extraordinarios, es sobre todo una invitación a la penitencia, la oración y la caridad concreta; la Iglesia no impone la creencia en esos fenómenos.",
+  "virtues": [
+   "Oración",
+   "Humildad",
+   "Caridad con los enfermos"
+  ],
+  "iconography": "Capuchino con barba y hábito marrón, con guantes que cubren los estigmas.",
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de Pío de Pietrelcina (canonización, 2002)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020616_padre-pio_sp.html"
+   },
+   {
+    "label": "Juan Pablo II, homilía en la canonización del Padre Pío (16-VI-2002)",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020616_padre-pio.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Italia meridional del siglo XX: religiosidad popular, dos guerras mundiales y creciente necesidad de asistencia a los enfermos.",
+  "significance": "Testimonio de oración, penitencia y caridad; confesor y director espiritual de multitudes.",
+  "note": "La Santa Sede, en la biografía y la homilía leídas, habla de «llagas» y no emplea la palabra estigmas; el año 1918 procede de la tradición común y no consta en esas fuentes."
+ },
+ {
+  "id": "vicente-de-paul",
+  "name": "San Vicente de Paúl",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-27",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Vicente de Paúl, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder"
+  ],
+  "born": {
+   "date": "24 de abril de 1581 (la Enciclopedia Católica da 1580; otras fuentes antiguas, 1576)",
+   "place": "Pouy (Landas, Francia)"
+  },
+  "died": {
+   "date": "27 de septiembre de 1660",
+   "place": "París"
+  },
+  "century": 17,
+  "countries": [
+   "FR"
+  ],
+  "order": "Congregación de la Misión (paúles) e Hijas de la Caridad",
+  "canonization": {
+   "date": "16 de junio de 1737",
+   "by": "Clemente XII"
+  },
+  "summary": "Sacerdote francés, fundador de los paúles y, con santa Luisa de Marillac, de las Hijas de la Caridad; apóstol de la caridad organizada.",
+  "biography": "Vicente nació en Pouy, en la Gascuña, en una familia campesina; el año se discute: él mismo daba 1581 —la fecha del Martirologio es el 24 de abril de 1581—, aunque la Enciclopedia Católica escribe 1580 y otras biografías antiguas 1576. Estudió teología en Toulouse y fue ordenado sacerdote en 1600. La tradición cuenta que en 1605 fue capturado por piratas turcos, vendido como esclavo en Túnez y que escapó en 1607 con su amo, al que habría convertido; la Enciclopedia Católica recoge el relato sin fuente, y los historiadores lo debaten.\n\nDesde 1612 fue preceptor de los hijos de Felipe Manuel de Gondi, general de las galeras, y director espiritual de su esposa. Esa familia le abrió los ojos al abandono espiritual de los campesinos: en sus fincas inició misiones populares. Como párroco de Châtillon-les-Dombes organizó la primera «cofradía de la caridad» para atender a los pobres enfermos, y de ahí pasó a la organización más amplia de la caridad. Se hizo capellán real de las galeras y atendió a los forzados en París, Marsella y Burdeos.\n\nPara evangelizar al campo fundó la Congregación de la Misión (paúles), hacia 1625, destinada a las misiones rurales y a la formación del clero; antes de la Revolución sus miembros dirigían un tercio de los seminarios franceses. Con Luisa de Marillac organizó las Hijas de la Caridad (1633), mujeres que servían a los pobres en sus casas y hospitales sin clausura, y en 1634 promovió las Damas de la Caridad para atender a los enfermos del Hôtel-Dieu y visitar a los presos. Combinaba un gran sentido práctico con una espiritualidad centrada en Cristo en los pobres: «los pobres son nuestros amos y señores».\n\nSus cartas y conferencias muestran un carácter humilde, de gascón sencillo, tenaz y a veces brusco consigo mismo. Reformó la formación sacerdotal, promovió retiros para ordenandos.\n\nMurió en París el 27 de septiembre de 1660. Fue beatificado por Benedicto XIII el 13 de agosto de 1729 y canonizado por Clemente XII el 16 de junio de 1737. En 1885 León XIII lo declaró patrono de las Hijas de la Caridad, según la Enciclopedia Católica. Su legado es la caridad organizada y eficaz, que no se queda en la limosna sino que forma a servidores y estructuras para los pobres.",
+  "virtues": [
+   "Caridad organizada",
+   "Humildad",
+   "Sentido práctico"
+  ],
+  "iconography": "Sacerdote con sotana y bonete, con un niño en brazos y otro a su lado; a veces con un bastón.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Vincent de Paul»",
+    "url": "https://www.newadvent.org/cathen/15434c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Francia del siglo XVII: guerras de religión recientes, miseria rural y renovación del clero tras Trento.",
+  "significance": "Padre de la caridad organizada moderna; formador de clero y servidor de los pobres.",
+  "note": "Las fechas 1625 (Misión) y 1633 (Hijas de la Caridad) no constan en la Enciclopedia Católica leída: proceden de la tradición habitual. La Enciclopedia dice que en 1885 León XIII lo nombró patrono de las Hijas de la Caridad; se omite el patronazgo de «obras de caridad» de la ficha previa por no contrastarse.",
+  "unverified": true
+ },
+ {
+  "id": "lorenzo-ruiz-y-companeros",
+  "name": "San Lorenzo Ruiz y compañeros",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-28",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Lorenzo Ruiz y compañeros, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "lay"
+  ],
+  "born": {
+   "date": "c. 1600",
+   "place": "Binondo (Manila)"
+  },
+  "died": {
+   "date": "septiembre de 1637 (tradicionalmente 29 de septiembre)",
+   "place": "Nagasaki (Japón)"
+  },
+  "century": 17,
+  "countries": [
+   "PH",
+   "JP"
+  ],
+  "order": "Orden de Predicadores (cofradía del Rosario)",
+  "canonization": {
+   "date": "18 de octubre de 1987",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Dieciséis mártires de Japón (1633-1637), entre ellos el laico filipino Lorenzo Ruiz, protomártir y primer santo de Filipinas.",
+  "biography": "Lorenzo Ruiz nació en Binondo, el barrio chino de Manila, hacia 1600, de padre chino y madre filipina. Fue educado por los dominicos, colaboró con ellos en el convento y perteneció a la Cofradía del Rosario. Se casó y tuvo tres hijos; vivía como un cristiano laico sencillo. Según el relato oficial de la causa de canonización, se vio implicado en un episodio de sangre sobre el que las fuentes dan pocos detalles, y para salvarse se unió a un grupo de misioneros dominicos que partía a Japón.\n\nLa Iglesia en Japón, que había crecido con los jesuitas, franciscanos y dominicos, sufría desde comienzos del siglo XVII una persecución feroz del shogunato Tokugawa, que prohibió el cristianismo y expulsó o martirizó a los misioneros. En 1636, los dominicos de Manila organizaron una expedición de voluntarios para sostener a los cristianos. Al llegar a Okinawa fueron arrestados y permanecieron más de un año en prisión; el tribunal de Nagasaki los condenó a muerte. Según la tradición, Lorenzo dudó al principio ante las promesas de libertad a cambio de renegar, pero se mantuvo firme: se le atribuye la frase «Si tuviera mil vidas, todas las daría por Dios», que procede de la devoción popular y no se ha podido contrastar con las actas.\n\nMurió en Nagasaki en septiembre de 1637 (la fecha tradicional es el 29 de septiembre), con otros compañeros. El grupo canonizado, de dieciséis mártires, reúne a japoneses, filipinos, españoles, italianos y un francés, entre sacerdotes, religiosos y laicos, que sufrieron entre 1633 y 1637. Lorenzo Ruiz es considerado el protomártir de Filipinas y el primer santo filipino.\n\nFue beatificado por Juan Pablo II en Manila el 18 de febrero de 1981, y canonizado el 18 de octubre de 1987 en la Jornada de Oración por las Misiones. El milagro aprobado para la canonización, reconocido por Juan Pablo II el 1 de junio de 1987, fue la curación en Manila en 1983 de Cecilia Alegría Policarpio, una niña de dos años con parálisis cerebral, tras invocar al grupo. En su homilía el papa recordó las palabras que había dicho en la beatificación: morir por la fe es un don concedido a algunos, pero vivir la fe es una llamada dirigida a todos.\n\nLa memoria de Lorenzo es opcional el 28 de septiembre. Su figura muestra la universalidad de la Iglesia: un laico, padre de familia, de ascendencia asiática, que aprendió la fe de los dominicos y la selló con su sangre.",
+  "virtues": [
+   "Fortaleza",
+   "Fidelidad",
+   "Fe tras la duda"
+  ],
+  "iconography": "Joven filipino con camisa blanca y palma, a veces con el rosario.",
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de Lorenzo Ruiz y compañeros (canonización, 1987)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19871018_ruiz-compagni_sp.html"
+   },
+   {
+    "label": "Juan Pablo II, homilía en la canonización de 16 mártires de Japón (18-X-1987)",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1987/documents/hf_jp-ii_hom_19871018_canonizzaz-martiri.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Persecución Tokugawa contra el cristianismo en Japón y misión dominicana de Manila.",
+  "significance": "Primer santo filipino; testimonio de un laico, esposo y padre, ante la persecución.",
+  "note": "La Santa Sede (biografía de 1987) no precisa fecha ni lugar exacto de la ejecución de Lorenzo; el 29 de septiembre de 1637 procede de la tradición. La frase atribuida a Lorenzo se cita como tradición."
+ },
+ {
+  "id": "san-miguel-arcangel",
+  "name": "San Miguel Arcángel",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-29",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santos Miguel, Gabriel y Rafael, arcángeles",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "angel"
+  ],
+  "summary": "Arcángel que aparece en los libros de Daniel, Judas y Apocalipsis como defensor del pueblo de Dios y vencedor del dragón.",
+  "biography": "El nombre Miguel, en hebreo, se interpreta tradicionalmente como «¿quién como Dios?». Su figura aparece en las Escrituras en tres contextos. En el libro de Daniel, Miguel es «uno de los príncipes principales» que acude en auxilio del ángel enviado a Daniel (Dn 10,13) y el que «se levantará» en el tiempo de angustia final para proteger al pueblo de Dios (Dn 12,1). En la carta de Judas (v. 9) disputa con el diablo por el cuerpo de Moisés, aunque el autor se apoya aquí en una tradición judía antigua. Y en el Apocalipsis (12,7) Miguel y sus ángeles combaten contra el dragón en el cielo, imagen del triunfo de Dios sobre el mal.\n\nDe esos textos la tradición cristiana ha deducido cuatro oficios: combatir a Satanás, acompañar y proteger a los fieles sobre todo a la hora de la muerte, defender al pueblo de Dios —primero Israel, luego la Iglesia— y presentar las almas ante el juicio. La Enciclopedia Católica distingue estos oficios, derivados de la tradición, de los datos bíblicos directos.\n\nEl culto a san Miguel en Occidente está documentado desde la Antigüedad tardía. El sacramentario leoniano (siglo VI) recoge una fiesta, el 30 de septiembre, de la dedicación de la basílica del Ángel en la Vía Salaria; el sacramentario gregoriano (siglo VIII) sitúa esa dedicación el 29 de septiembre. De ahí viene la fecha actual de la fiesta, que por eso se llamó antiguamente «Dedicación de san Miguel». Más tarde, Bonifacio IV (608-615) construyó una iglesia en su honor sobre el mausoleo de Adriano, el futuro Castel Sant'Angelo.\n\nLa tradición añade otras apariciones: la del monte Gargano, en el sur de Italia, fechada en torno a 494 o entre 530 y 540, y que dio origen a la fiesta del 8 de mayo, que en realidad conmemoró una victoria de los lombardos en 663; y la leyenda del siglo X de una aparición sobre el castillo de Roma, durante una procesión de Gregorio Magno contra la peste, que la Enciclopedia Católica considera quizá apócrifa. Son relatos piadosos, útiles para comprender la devoción pero no históricos con certeza.\n\nDesde la reforma de 1969, la fiesta del 29 de septiembre se celebra conjuntamente para los tres arcángeles nombrados en la Escritura: Miguel, Gabriel y Rafael. Miguel es invocado como defensor de la Iglesia; el católico lo ve como signo de que el mal, aunque real, no tiene la última palabra.",
+  "iconography": "Guerrero alado con espada y escudo que vence al dragón; con balanza (pesaje de las almas).",
+  "prayers": [
+   "san-miguel-arcangel"
+  ],
+  "novenas": [
+   "san-miguel-arcangel"
+  ],
+  "art": "novena:san-miguel-arcangel",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Michael the Archangel»",
+    "url": "https://www.newadvent.org/cathen/10275b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Angelología bíblica y devoción medieval; fiesta romana vinculada a la dedicación de una basílica en la Vía Salaria.",
+  "significance": "Defensor de la Iglesia frente al mal; se celebra junto a Gabriel y Rafael el 29 de septiembre.",
+  "note": "Se omiten otras afirmaciones frecuentes (patrono de policías, soldados, etc.) por no constar en la fuente leída. El significado del nombre procede de la etimología hebrea común, no de la fuente leída."
+ },
+ {
+  "id": "san-gabriel-arcangel",
+  "name": "San Gabriel Arcángel",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-29",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santos Miguel, Gabriel y Rafael, arcángeles",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "angel"
+  ],
+  "summary": "Arcángel mensajero de Dios, que anuncia a Zacarías el nacimiento de Juan y a María el de Jesús.",
+  "biography": "Gabriel es uno de los tres ángeles que la Escritura canónica nombra. Su nombre se interpreta como «fortaleza de Dios» o «Dios es mi fuerza», y aparece solo cuatro veces en la Biblia, dos en el Antiguo y dos en el Nuevo Testamento. En el libro de Daniel interpreta la visión del carnero y el macho cabrío (Dn 8) y comunica al profeta la profecía de las «setenta semanas» (Dn 9), anuncio de la venida del Mesías; en Dn 10 el texto no dice claramente si el ángel es Gabriel.\n\nEn el evangelio de Lucas su misión es el anuncio. En el templo, se presenta a Zacarías: «Yo soy Gabriel, que estoy en la presencia de Dios» (Lc 1,19), y le anuncia el nacimiento de Juan el Bautista. Seis meses después es enviado a Nazaret, a una joven llamada María, para anunciarle que concebirá y dará a luz al Hijo del Altísimo (Lc 1,26-38). Es la escena de la Anunciación, que la Iglesia contempla cada día en el Ángelus y que ha inspirado una de las iconografías más ricas del arte cristiano.\n\nLa tradición posterior ha ampliado su figura. La Enciclopedia Católica recuerda que la piedad cristiana lo considera ángel de la Encarnación y de la consolación, y atribuye a la tradición su aparición a José y a los pastores y la ayuda a Cristo en Getsemaní, aunque el Nuevo Testamento no lo dice. La misma fuente señala que en la tradición judía se le consideraba ángel del juicio; son datos culturales, no doctrina.\n\nSu fiesta fue durante siglos el 24 de marzo, víspera de la Anunciación en el calendario romano; la reforma de 1969 la unificó con las de Miguel y Rafael el 29 de septiembre, como indica el calendario general. No se le atribuyen patronazgos oficiales en las fuentes leídas.\n\nGabriel recuerda que la salvación empieza con una palabra de Dios que se anuncia y se acoge. Es el mensajero que pide el «sí» de María, y por eso su imagen suele aparecer con un lirio y con el gesto de quien trae una noticia: la de que «para Dios nada hay imposible» (Lc 1,37).",
+  "iconography": "Ángel con alas, lirio blanco y a veces trompeta o cetro; con un libro; en la Anunciación, arrodillado ante María.",
+  "prayers": [
+   "san-gabriel-arcangel"
+  ],
+  "novenas": [
+   "san-gabriel-arcangel"
+  ],
+  "art": "novena:san-gabriel-arcangel",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Gabriel»",
+    "url": "https://www.newadvent.org/cathen/06330a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Angelología bíblica; Anunciación y tradición del Ángelus.",
+  "significance": "Mensajero de la Encarnación; se celebra junto a Miguel y Rafael el 29 de septiembre.",
+  "note": "La fecha anterior de la fiesta (24 de marzo) y la fusión de 1969 proceden del conocimiento general del calendario; la Enciclopedia Católica solo cita un himno de laudes del 24 de marzo."
+ },
+ {
+  "id": "san-rafael-arcangel",
+  "name": "San Rafael Arcángel",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-29",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santos Miguel, Gabriel y Rafael, arcángeles",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "angel"
+  ],
+  "summary": "Arcángel que acompañó a Tobías y lo ayudó a curar a su padre; su nombre significa «Dios sana».",
+  "biography": "Rafael es el tercero de los ángeles nombrados en la Escritura canónica, y aparece solo en el libro de Tobías. Su nombre significa «Dios ha curado» o «Dios sana»; no figura en las Escrituras hebreas, y en la versión griega de los Setenta se encuentra únicamente en este libro. El libro de Tobías, de carácter edificante, cuenta que el joven Tobías, enviado por su padre ciego a cobrar una deuda a Media, es acompañado por un guía llamado Azarías, que es en realidad el ángel Rafael.\n\nEn el camino, Rafael enseña a Tobías a capturar un pez cuyas entrañas servirán como remedio; lo ayuda a casarse con Sara, a quien un demonio había matado a siete maridos, atando al demonio; y le indica cómo devolver la vista a su padre. Al final, el ángel se da a conocer: «Yo soy Rafael, uno de los siete ángeles que están siempre presentes y tienen entrada ante la majestad del Señor» (Tob 12,15). Invita a bendecir a Dios, y recuerda que la oración con ayuno, la limosna y la justicia valen más que el tesoro.\n\nEl «uno de los siete» ha dado lugar a especulaciones: la literatura apócrifa, como el libro de Enoc, nombra a siete ángeles con listas variables (Uriel, Raguel, Sariel, Jeramiel, etc.), pero solo Miguel, Gabriel y Rafael aparecen con nombre en el canon bíblico católico. Muchos comentaristas, según la Enciclopedia Católica, relacionaron a Rafael con el ángel que agitaba las aguas de la piscina de Betesda (Jn 5), por su nombre y su función sanadora, aunque el evangelio no lo nombra.\n\nRafael tuvo fiesta propia el 24 de octubre en el antiguo calendario, con lecturas de Tobías y del evangelio de Juan; desde 1969 su memoria se celebra el 29 de septiembre junto a Miguel y Gabriel. La piedad cristiana lo ha venerado como compañero de los caminantes y de los enfermos, y como protector de las familias, pero la Iglesia no le asigna patronazgos oficiales que consten en las fuentes leídas.\n\nLa figura de Rafael enseña una teología del camino: Dios acompaña de modo discreto a quien se pone en marcha, y la sanación pasa por la fe, la oración y la solidaridad. El ángel no se atribuye mérito alguno; remite siempre a Dios: «Bendecid a Dios y proclamad sus obras».",
+  "iconography": "Joven peregrino con bastón, alas y un pez, de la mano de Tobías con un perro; a veces con una calabaza de medicinas.",
+  "prayers": [
+   "san-rafael-arcangel"
+  ],
+  "novenas": [
+   "san-rafael-arcangel"
+  ],
+  "art": "novena:san-rafael-arcangel",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Raphael»",
+    "url": "https://www.newadvent.org/cathen/12640b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Libro de Tobías (deuterocanónico): peregrinación, familia, oración y limosna.",
+  "significance": "Compañero de los caminantes y de los enfermos; se celebra el 29 de septiembre con Miguel y Gabriel.",
+  "note": "La atribución a Rafael de la protección de familias y viajeros procede de la devoción popular; la Enciclopedia Católica leída no recoge patronazgos oficiales."
+ },
+ {
+  "id": "jeronimo-de-estridon",
+  "name": "San Jerónimo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-30",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Jerónimo, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "doctor",
+   "church_father",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 342-347",
+   "place": "Estridón (frontera de Dalmacia y Panonia)"
+  },
+  "died": {
+   "date": "30 de septiembre de 420",
+   "place": "Belén"
+  },
+  "century": 5,
+  "countries": [
+   "HR",
+   "IT",
+   "IL"
+  ],
+  "summary": "Traductor de la Biblia al latín (Vulgata), gran exégeta y asceta, doctor de la Iglesia.",
+  "biography": "Jerónimo nació hacia 342-347 en Estridón, una localidad de la frontera entre Dalmacia y Panonia; la Enciclopedia Católica da una fecha entre 340 y 342, y otros autores lo sitúan hacia 347. Hacia 360 viajó a Roma, donde estudió gramática y retórica y fue bautizado. Pasó temporadas en Tréveris y Aquilea, y hacia 373 partió hacia Oriente. En Antioquía escuchó a Apolinar de Laodicea y, entre 374 y 379, vivió como asceta en el desierto de Calcis, donde aprendió hebreo.\n\nOrdenado presbítero en Antioquía, estuvo en Constantinopla en 380-381, donde trabó amistad con Gregorio Nacianceno. Entre 382 y 385 vivió en Roma, junto al papa Dámaso, quien lo animó a revisar la traducción latina de la Biblia. Revisó los evangelios en 384 y los salmos; con su protección dirigió además a un círculo de mujeres nobles romanas, entre ellas Paula y su hija Eustoquio, que lo seguirían después a Tierra Santa. A la muerte de Dámaso, en diciembre de 384, su carácter áspero y sus críticas a la vida del clero romano le procuraron enemigos, y salió de Roma.\n\nEn 386 se estableció en Belén, donde fundó un monasterio cerca de uno de mujeres promovido por Paula. Pasó allí más de treinta años dedicado al estudio. Tradujo el Antiguo Testamento del hebreo, labor que concluyó hacia 405, y que junto con sus revisiones del Nuevo Testamento daría origen a la Vulgata; escribió comentarios a los profetas y a otros libros, cartas, y el catálogo *De viris illustribus*. «Ignorar las Escrituras es ignorar a Cristo», escribió.\n\nFue polemista vigoroso. En la controversia origenista su amistad con Rufino se rompió y respondió a sus ataques en la *Apología contra Rufino* (401). La Enciclopedia Católica juzga fuerte su posición doctrinal, aunque admite que no siempre estuvo exento de culpa en el tono. También defendió la virginidad y el ascetismo, a veces con excesiva dureza.\n\nMurió en Belén el 30 de septiembre de 420. La tradición del león que lo acompañaba es una leyenda tardía, y el capelo cardenalicio con que suele representarse es anacrónico, pues no existían los cardenales en ese sentido. Su legado más duradero es la Biblia latina que usó Occidente durante más de un milenio, y la convicción de que la fe se alimenta de la Palabra.",
+  "virtues": [
+   "Estudio",
+   "Ascetismo",
+   "Amor a la Escritura"
+  ],
+  "iconography": "Anciano con capelo cardenalicio (anacrónico), un león, una calavera, un crucifijo y un libro en su estudio.",
+  "works": [
+   {
+    "title": "Vulgata"
+   },
+   {
+    "title": "Cartas"
+   },
+   {
+    "title": "Comentarios bíblicos"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Jerome»",
+    "url": "https://www.newadvent.org/cathen/08341a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Imperio romano tardío: auge del monacato y necesidad de un texto latino fiable de la Biblia.",
+  "significance": "Autor de la base de la Vulgata; patrono tradicional de los estudiosos de la Escritura.",
+  "note": "La Enciclopedia Católica da el nacimiento hacia 340-342; se indica el rango de la bibliografía moderna. La fecha de ordenación y la relación con la Vulgata se formulan con cautela (la fuente leída no emplea el término «Vulgata»). Se omite el patronazgo."
+ },
+ {
+  "id": "jenaro",
+  "name": "San Jenaro",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-19",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Jenaro, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Nápoles o Benevento (incierto)"
+  },
+  "died": {
+   "date": "c. 305",
+   "place": "Pozzuoli (Campania)"
+  },
+  "century": 4,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Obispo de Benevento y mártir en Pozzuoli bajo Diocleciano (c. 305), venerado en Nápoles, donde se conserva su sangre.",
+  "context": "Persecución de Diocleciano en el sur de Italia, a comienzos del siglo IV.",
+  "virtues": [
+   "Fidelidad al pastoreo hasta la muerte",
+   "Fortaleza"
+  ],
+  "significance": "Mártir muy venerado en la Campania y símbolo de la fe de Nápoles.",
+  "iconography": "Obispo con mitra, palma de mártir y ampolla con su sangre; a veces con el Vesubio al fondo.",
+  "note": "Vida y martirio solo conocidos por actas tardías. El lugar de nacimiento no consta en la fuente leída; se indica «incierto». La memoria opcional del 19 de septiembre consta en el calendario general posterior a 1969.",
+  "biography": "Jenaro (en latín, Januarius) fue obispo de Benevento, en la Campania, y es venerado como mártir de la persecución de Diocleciano, hacia el año 305. Sobre su vida real se sabe muy poco: la Enciclopedia Católica afirma con franqueza que no sabemos «casi nada» de él, y que las diversas actas de su martirio son tardías y poco fiables. Lo que consta es el culto temprano a un mártir de ese nombre en Campania y la tradición, recogida en el Martirologio Romano, de que fue decapitado en Pozzuoli junto a varios compañeros después de haber estado encarcelado.\n\nEl Martirologio nombra a los compañeros: Festo, diácono; Desiderio, lector; Sosio, diácono de Miseno; Proculo, diácono de Pozzuoli; y los laicos Eutiquio y Acucio. La noticia se transmitió por el Martirologio de Beda (hacia 733), que resumió unas *Acta Bononiensia* y está en la base de la inscripción del Martirologio Romano.\n\nLas actas del breviario añaden un relato de carácter legendario: el gobernador de Campania, Timoteo, los condenó; los mártires fueron arrojados a un horno y a las fieras sin sufrir daño; Timoteo quedó ciego y se curó por la oración de Jenaro, lo que provocó miles de conversiones. Todo ello debe leerse como tradición hagiográfica, no como historia.\n\nLos restos fueron trasladados de Pozzuoli a Benevento, después al monasterio de Monte Vergine y, finalmente, a Nápoles, donde descansan en la catedral. Allí se conserva, en dos ampollas, una sustancia que la tradición considera sangre del santo, y que tres veces al año —el sábado anterior al primer domingo de mayo, el 19 de septiembre y el 16 de diciembre— se licúa al acercarla a la reliquia de la cabeza; es el llamado «milagro de san Jenaro». La Enciclopedia Católica señala que el primer testimonio cierto es de 1389, no de 1456 como se creía; que investigaciones espectroscópicas de 1902 hallaron líneas coherentes con sangre; y que la causa del fenómeno sigue sin resolverse. La Iglesia no ha pronunciado un juicio doctrinal sobre su carácter sobrenatural, y la mención de la licuefacción en el Martirologio es una adición muy posterior.\n\nTambién se le atribuyó haber detenido erupciones del Vesubio, un elemento de la devoción popular. Jenaro es profundamente querido por los napolitanos, que lo consideran su protector principal; para el creyente, su significado es sobre todo el de la fidelidad del obispo a su comunidad hasta la muerte. Su memoria es opcional el 19 de septiembre.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Januarius»",
+    "url": "https://www.newadvent.org/cathen/08295a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "nuestra-senora-de-los-dolores",
+  "name": "Nuestra Señora de los Dolores",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "09-15",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Nuestra Señora de los Dolores",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Memoria de María al pie de la cruz, que la Iglesia celebra el 15 de septiembre, tras la Exaltación de la Santa Cruz.",
+  "context": "Devoción de los Siervos de María y de Occidente medieval; Lucas 2,35 y Juan 19,25-27.",
+  "virtues": [
+   "Fortaleza",
+   "Compasión",
+   "Fidelidad junto a la cruz"
+  ],
+  "significance": "Invita a contemplar la participación de María en la pasión de Cristo y su maternidad espiritual.",
+  "iconography": "La *Dolorosa*, con el corazón atravesado por siete espadas, o la *Piedad* con Cristo muerto en brazos.",
+  "note": "La Enciclopedia Católica leída describe las dos fiestas históricas y no menciona la fecha del 15 de septiembre ni la supresión de la fiesta de Cuaresma; esos dos datos proceden del calendario vigente.",
+  "biography": "La memoria de Nuestra Señora de los Dolores, que la Iglesia celebra el 15 de septiembre, al día siguiente de la Exaltación de la Santa Cruz, invita a contemplar a María junto a la cruz de su Hijo. El fundamento bíblico es el evangelio de Lucas, con la profecía de Simeón —«una espada te atravesará el alma» (Lc 2,35)—, y el de Juan, que sitúa a la madre de Jesús de pie junto a la cruz (Jn 19,25-27). La tradición ha reunido siete episodios como «los siete dolores»: la profecía de Simeón, la huida a Egipto, la pérdida del niño en el templo, el encuentro con Jesús camino del Calvario, la crucifixión, el descendimiento y la sepultura.\n\nLa devoción tiene una historia larga. Según la Enciclopedia Católica, en 1239 los siete fundadores de la Orden de los Siervos de María hicieron de los dolores de María en la cruz su devoción principal. En 1413 un sínodo provincial de Colonia instituyó una fiesta, como respuesta a los husitas, que se celebraba el viernes posterior al tercer domingo de Pascua. Un decreto del 22 de abril de 1727 de Benedicto XIII extendió la fiesta a toda la Iglesia latina, para el viernes anterior al Domingo de Ramos; y en 1814 Pío VII, tras volver de su exilio, extendió a todo el Occidente una segunda fiesta, en septiembre. Hasta la reforma del siglo XX coexistieron, pues, dos celebraciones; hoy permanece la del 15 de septiembre, y la del viernes de la quinta semana de Cuaresma se ha suprimido del calendario general.\n\nLa secuencia *Stabat Mater*, que la Enciclopedia Católica atribuye a Jacopone da Todi (hacia 1306), es el himno clásico de esta devoción: contempla a la Madre de pie, llorando junto a la cruz. Ocupa un lugar en la liturgia de esta memoria, y ha inspirado a grandes compositores.\n\nLa enseñanza de la memoria es doble. Por un lado, muestra que María no fue una espectadora lejana sino que participó íntimamente en la pasión de su Hijo; por otro, la presenta como madre de todos los creyentes: en la cruz Jesús se la entrega al discípulo amado, «ahí tienes a tu madre». Los dolores de María son para los fieles consuelo y escuela de fortaleza, en la sombra de los sufrimientos propios y ajenos.\n\nLa imagen típica es la *Dolorosa*, María con el corazón atravesado por siete espadas, o la *Piedad*, con el cuerpo de Jesús en brazos. En el mundo hispánico es muy popular en las procesiones de Semana Santa. Su celebración es memoria obligatoria el 15 de septiembre, con color blanco.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Feasts of the Seven Sorrows of the Blessed Virgin Mary»",
+    "url": "https://www.newadvent.org/cathen/14151b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "natividad-de-maria",
+  "name": "Natividad de la Virgen María",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "09-08",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Natividad de la Santísima Virgen María",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Fiesta del nacimiento de la Virgen María, celebrada el 8 de septiembre desde la Antigüedad.",
+  "context": "Fiesta nacida en Oriente (siglo VI) y adoptada por Roma en el siglo VII.",
+  "virtues": [
+   "Humildad",
+   "Disponibilidad a la voluntad de Dios"
+  ],
+  "significance": "Celebra el comienzo de la historia de salvación en la persona de María, aurora de Cristo.",
+  "iconography": "Santa Ana con la recién nacida María, a veces con Joaquín y varias mujeres que atienden a la madre.",
+  "note": "Los datos sobre Joaquín y Ana proceden de apócrifos, no de la Escritura. El motivo del 8 de septiembre no consta en la fuente leída. La frase de la antífona es la tradicional; no se ha verificado en el libro litúrgico.",
+  "biography": "La fiesta del 8 de septiembre celebra el nacimiento de la Virgen María, nueve meses después de la solemnidad de la Inmaculada Concepción (8 de diciembre). Es una de las tres natividades que celebra la liturgia romana, junto con la de Cristo y la de Juan Bautista. Importa decir con claridad que la Escritura no refiere el nacimiento de María. Los datos de su familia —sus padres Joaquín y Ana, y las circunstancias de su nacimiento— proceden de escritos apócrifos, sobre todo del llamado *Protoevangelio de Santiago*, de finales del siglo II, que la Iglesia no considera inspirado, aunque su tradición ha enriquecido la piedad y la iconografía marianas.\n\nLa fiesta nació en Oriente. Según la Enciclopedia Católica, no hay indicios de por qué se eligió el 8 de septiembre; el documento más antiguo es un himno de san Romano el Melode, del siglo VI, y la celebración habría comenzado en Siria o Palestina a comienzos de ese siglo, tras el Concilio de Éfeso, que proclamó a María Madre de Dios. Roma la adoptó de Oriente en el siglo VII, y el papa Sergio I (687-701) estableció una letanía y una procesión. Hacia 1243 Inocencio IV instituyó la octava, en cumplimiento de un voto de los cardenales durante el cónclave de 1241.\n\nEl sentido de la fiesta no es biográfico sino teológico. La liturgia presenta el nacimiento de María como aurora de la salvación: con ella, dice la antífona tradicional, «ha nacido la que es esperanza de todo el mundo, de ella ha salido el Sol de justicia, Cristo nuestro Dios». María, elegida desde siempre para ser Madre del Salvador, aparece en la historia como la llena de gracia que Dios prepara para acoger a su Hijo; su nacimiento anuncia, ya, el de Cristo.\n\nLa fiesta propone, además, valorar el nacimiento y la infancia como lugares de la acción de Dios. En muchos pueblos hispanos y latinoamericanos es una fiesta patronal muy extendida y marca el inicio de varias devociones locales a María.\n\nEs fiesta del calendario general romano, con color blanco, el 8 de septiembre. Al contemplar a la Virgen niña, la Iglesia pide la gracia de crecer en la fe y en la disponibilidad que dieron origen a la esperanza de los siglos.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Feast of the Nativity of the Blessed Virgin Mary»",
+    "url": "https://www.newadvent.org/cathen/10712b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "santisimo-nombre-de-maria",
+  "name": "Santísimo Nombre de María",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "09-12",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santísimo Nombre de María",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Memoria libre del nombre de la Virgen, vinculada históricamente a la victoria de Viena en 1683.",
+  "context": "Devoción nacida en España (Cuenca, 1513) y extendida a toda la Iglesia por Inocencio XI en 1683.",
+  "virtues": [
+   "Confianza filial en la intercesión de María"
+  ],
+  "significance": "Fomenta la invocación del nombre de María como camino hacia Cristo.",
+  "iconography": "Monograma mariano (M coronada, o AM) y la Virgen con los brazos abiertos.",
+  "note": "Memoria libre del calendario general actual (suprimida en 1969 y restablecida en 2002; dato general, no verificado en la fuente leída). La Enciclopedia Católica leída describe solo el origen histórico y no el rango vigente.",
+  "biography": "La memoria del Santísimo Nombre de María, que se celebra el 12 de septiembre, honra el nombre de la Madre de Jesús. En hebreo, el nombre se escribe Miriam; en Lucas 1,27 se dice simplemente: «la virgen se llamaba María». El nombre ha ocupado un lugar privilegiado en la piedad cristiana, y los Padres y los autores espirituales vieron en él un signo de la dignidad de quien lo llevó y de la confianza con que los fieles la invocan.\n\nLa Enciclopedia Católica narra el origen de esta memoria. Se instituyó en 1513 en Cuenca, en España, y se le asignó el 15 de septiembre, octava de la Natividad de María. Sixto V la movió al 17 de septiembre en 1587. El papa Gregorio XV la extendió en 1622 a la archidiócesis de Toledo, y en 1671 se concedió a toda España y al reino de Nápoles con el título de «Santísimo Nombre de la Bienaventurada Virgen María».\n\nEl impulso decisivo fue histórico: tras el asedio de Viena y la victoria del rey polaco Juan Sobieski sobre los turcos, el 12 de septiembre de 1683, el papa Inocencio XI extendió la fiesta a la Iglesia universal y le asignó el domingo siguiente a la Natividad. Se la hizo coincidir con la fecha de la victoria, que en el Martirologio Romano se asocia al 12 de septiembre; según una norma de 1908, si el domingo se veía impedido, la fiesta se celebraba ese día. La fiesta se convirtió así en acción de gracias por la protección de María sobre la cristiandad. También es fiesta patronal de los piaristas y de los marianistas.\n\nEn el calendario de la reforma litúrgica de 1969 la celebración se suprimió y fue restablecida después como memoria libre el 12 de septiembre. La piedad mariana ha unido siempre la invocación del nombre de María a la del nombre de Jesús: quien dice «María» tiende hacia su Hijo, y por eso los místicos y los santos la repitieron en las horas de prueba.\n\nLa enseñanza de la memoria es sencilla: el nombre de María es un modo de invocar su intercesión, sin que ello suponga adorar a nadie sino Dios. Al pronunciarlo, la Iglesia recuerda que la fe se vive en relaciones con personas concretas, y que Dios ha querido contar con una mujer sencilla y su «sí».",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Feast of the Holy Name of Mary»",
+    "url": "https://www.newadvent.org/cathen/10673b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "cosme-y-damian",
+  "name": "Santos Cosme y Damián",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-26",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Cosme y Damián, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Arabia, según la tradición"
+  },
+  "died": {
+   "date": "c. 287, según la Enciclopedia Católica; bajo Diocleciano, según la tradición",
+   "place": "Egea (Cilicia)"
+  },
+  "century": 3,
+  "countries": [
+   "TR",
+   "SY",
+   "IT"
+  ],
+  "summary": "Hermanos médicos y mártires, venerados desde la Antigüedad; nombrados en el Canon romano.",
+  "context": "Oriente cristiano de los siglos III-IV y culto difundido por Justiniano y Félix IV.",
+  "virtues": [
+   "Gratuidad en el servicio",
+   "Fidelidad hasta el martirio"
+  ],
+  "patronages": [
+   "Médicos y cirujanos (según la Enciclopedia Católica)"
+  ],
+  "significance": "Modelo de cuidado gratuito del enfermo; sus nombres se pronuncian en el Canon romano.",
+  "iconography": "Dos hermanos con túnica de médico, palma de mártir y botes de medicina o instrumentos médicos.",
+  "note": "Vida y martirio conocidos por tradición tardía; la fecha de martirio (c. 287) es la que da la Enciclopedia Católica, con muchas reservas. La fecha litúrgica actual (26-IX) difiere de la antigua (27-IX), que cede por San Vicente de Paúl; este traslado es dato general.",
+  "unverified": true,
+  "biography": "Cosme y Damián son dos hermanos mártires, venerados desde la Antigüedad tardía como médicos. La Enciclopedia Católica los sitúa como médicos de la ciudad portuaria de Egea, en Cilicia (hoy Ayas, en el golfo de Alejandreta), y afirma que bajo la persecución de Diocleciano el prefecto Lisias los hizo arrestar y fueron decapitados, probablemente hacia el año 287, el 27 de septiembre. Esa fecha, que es la de la fiesta latina antigua, ha sido ajustada al 26 de septiembre en el calendario actual. Con ellos murieron, según la misma fuente, sus hermanos Antimo, Leoncio y Euprepio.\n\nPoco más puede asegurarse. La tradición cuenta que nacieron en Arabia y que se les llamó *anargyroi*, «los que no cobran», porque ejercían la medicina sin retribución, y que esa gratuidad atrajo a muchos a la fe. Cuenta también que salieron ilesos del agua, del fuego, del aire y de la cruz antes de ser decapitados. La misma Enciclopedia advierte que, más tarde, «surgieron numerosas fábulas» sobre ellos, algunas ligadas a sus reliquias. Hay que leer esos relatos como piedad popular, no como historia.\n\nSu culto se difundió con rapidez. Sus restos fueron enterrados en la ciudad de Ciro, en Siria, que el emperador Justiniano I (527-565) restauró en su honor; en Constantinopla, Justiniano reconstruyó y adornó su iglesia, que fue lugar de peregrinación y, según la tradición, tras haber sido curado por su intercesión. En Roma, el papa Félix IV (526-530) erigió en su honor una iglesia, cuyos mosaicos son hoy uno de los tesoros del arte paleocristiano. Sus nombres figuran en el Canon romano, en la oración «Communicantes», y en las letanías de los santos. Los griegos los celebran el 1 de julio, el 17 de octubre y el 1 de noviembre.\n\nPor su oficio han sido venerados como patronos de médicos y cirujanos, patronazgo que recoge la Enciclopedia Católica. En la Edad Media, los Médicis de Florencia los tomaron por patronos de su casa, y muchas hermandades sanitarias los honraron, aunque esto último es dato de la tradición histórica general, no de la fuente leída.\n\nSu mensaje es el de una medicina cristiana: el cuidado del cuerpo como servicio gratuito y signo del amor de Cristo. La Iglesia los recuerda con memoria libre el 26 de septiembre, con color rojo, y los invoca en las oraciones eucarísticas cada día.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Sts. Cosmas and Damian»",
+    "url": "https://www.newadvent.org/cathen/04403e.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "venceslao",
+  "name": "San Venceslao",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "09-28",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Venceslao, mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "lay"
+  ],
+  "born": {
+   "date": "c. 903 (según la Enciclopedia Católica)",
+   "place": "Bohemia"
+  },
+  "died": {
+   "date": "28 de septiembre de 935 (otras cronologías, 929)",
+   "place": "Alt-Bunzlau (Stará Boleslav)"
+  },
+  "century": 10,
+  "countries": [
+   "CZ"
+  ],
+  "summary": "Duque de Bohemia, educado en la fe cristiana por su abuela Ludmila y asesinado por su hermano; patrono de Bohemia.",
+  "context": "Bohemia del siglo X: cristianización reciente, tensión entre nobleza pagana y cristiana, y dependencia del reino germánico.",
+  "virtues": [
+   "Piedad",
+   "Caridad con los pobres",
+   "Fortaleza"
+  ],
+  "patronages": [
+   "Bohemia (según la Enciclopedia Católica)"
+  ],
+  "significance": "Patrono de Bohemia y símbolo de la identidad cristiana checa.",
+  "iconography": "Duque con armadura, estandarte y lanza, o con corona ducal; palma de mártir.",
+  "note": "Fecha de nacimiento (903) y muerte (935) según la Enciclopedia Católica, con cronología alternativa de 929 para el asesinato; los detalles de las leyendas (Ludmila, etc.) proceden de la tradición y no se verificaron en fuentes leídas.",
+  "unverified": true,
+  "biography": "Venceslao (Václav, en checo) nació hacia 903 en Bohemia, en la dinastía de los Premislidas, según la Enciclopedia Católica; era nieto de santa Ludmila, a quien se atribuye su educación cristiana, e hijo del duque Vratislao. Cuando Vratislao murió, su viuda Drahomira, que no era cristiana, actuó como regente y se opuso al cristianismo; la tradición cuenta que su abuela Ludmila fue asesinada por ese motivo, aunque los detalles cambian según las fuentes.\n\nVenceslao asumió el gobierno, siendo aún joven, y promovió con decisión la vida cristiana: construyó iglesias, favoreció a los sacerdotes y, según las leyendas, atendía personalmente a los pobres y a los presos. Para asegurar la paz con sus vecinos aceptó una relación de dependencia con el rey germánico, lo que parte de la nobleza checa le reprochó. Sobre su política hay diversos testimonios, y las fuentes medievales, como las leyendas escritas poco después de su muerte, mezclan datos y piedad.\n\nSu hermano menor Boleslao, apoyado por un grupo de nobles, lo asesinó. La Enciclopedia Católica fija el crimen en Alt-Bunzlau (hoy Stará Boleslav) el 28 de septiembre de 935, aunque una cronología alternativa de varios historiadores lo sitúa en 929; las fuentes discrepan. Según la tradición, Venceslao fue atacado cuando se dirigía a la iglesia para la fiesta de los santos Cosme y Damián, y el cronista lo presenta rezando antes de ser derribado. Boleslao se convirtió en duque.\n\nEl culto surgió casi de inmediato: la Enciclopedia Católica recoge que tres años después de la sepultura su cuerpo fue trasladado a la iglesia de San Vito, en Praga, donde se veneran hoy sus reliquias; el emperador Otón I habría concedido después a Venceslao la dignidad regia a título póstumo. Es la razón por la que se le llama a veces «rey» Venceslao, aunque en vida fue duque.\n\nVenceslao es el patrono de Bohemia, según la Enciclopedia Católica, y es patrono tradicional de la actual República Checa. Se le representa con armadura, estandarte y lanza, o con una corona de duque. La liturgia lo recuerda el 28 de septiembre, con memoria libre, y es el mártir del que dice la Iglesia que su corona fue la del poder usado para servir, no para dominar. Su figura, sin embargo, debe leerse con prudencia: entre el hombre histórico y la imagen devocional de «buen rey Wenceslao» hay mucha elaboración posterior.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Wenceslaus»",
+    "url": "https://www.newadvent.org/cathen/15587b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "bartolome-gutierrez",
+  "name": "Beato Bartolomé Gutiérrez",
+  "status": "blessed",
+  "celebrations": [
+   {
+    "date": "09-02",
+    "rank": "optional",
+    "calendar": "mx",
+    "title": "Beato Bartolomé Gutiérrez, presbítero y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "martyr",
+   "missionary",
+   "blessed"
+  ],
+  "born": {
+   "date": "1580",
+   "place": "Ciudad de México"
+  },
+  "died": {
+   "date": "3 de septiembre de 1632",
+   "place": "Nagasaki (Japón)"
+  },
+  "century": 17,
+  "countries": [
+   "MX",
+   "JP",
+   "PH"
+  ],
+  "order": "Orden de San Agustín",
+  "canonization": {
+   "date": "7 de julio de 1867 (beatificación)",
+   "by": "Pío IX"
+  },
+  "summary": "Agustino mexicano, misionero en Japón, quemado vivo en Nagasaki en 1632; beatificado en 1867.",
+  "context": "Persecución Tokugawa en Japón y enlace misionero México-Filipinas-Japón en el siglo XVII.",
+  "virtues": [
+   "Fortaleza",
+   "Celo misionero",
+   "Fidelidad a su grey"
+  ],
+  "significance": "Mártir mexicano de Japón y signo de la dimensión misionera de la Iglesia en Nueva España.",
+  "iconography": "Agustino con hábito negro, palma y llamas de martirio.",
+  "note": "Beatificación: 7-VII-1867 según Encyclopedia.com; otra fuente secundaria da el 22-V-1867. Lugar de ejecución: colina de los mártires de Nagasaki (Encyclopedia.com) o Omura (El Cronista). El texto del Dicasterio solo lo menciona de pasada. Sin contrastar con el decreto de beatificación.",
+  "unverified": true,
+  "biography": "Bartolomé Gutiérrez Rodríguez nació en 1580 en la Ciudad de México. Pronunció sus votos como agustino el 1 de junio de 1597, en el convento de San Agustín de México. La orden agustina, presente en Nueva España desde 1533, mantenía conexión misionera con las Filipinas, y desde allí con el Extremo Oriente. Bartolomé viajó a Manila y fue enviado a Japón en 1612. Allí fue prior en Usuki, en la isla de Kyushu, desde mayo de 1613.\n\nSu estancia fue breve. El shogunato Tokugawa había prohibido el cristianismo en 1614 y desterró a los misioneros: en octubre de 1614 Bartolomé fue expulsado, y volvió a Filipinas. Pero, a petición de sus fieles, regresó a Japón en 1618, ahora en la clandestinidad, vestido de laico, en una misión peligrosa pues los cristianos japoneses necesitaban sacerdotes. El 10 de noviembre de 1629 fue arrestado en Kikizu, en Arima, junto con un catequista japonés, el hermano Juan Shozuburo.\n\nPasó casi tres años en prisión. Murió el 3 de septiembre de 1632, quemado vivo sobre la colina de los mártires de Nagasaki, según las fuentes consultadas; otro relato localiza la ejecución en Omura y la describe como una hoguera lenta. Su muerte se enmarca en la persecución que, entre 1603 y 1639, produjo cientos de mártires en el Japón y casi extinguió la Iglesia visible, que sobrevivió en la clandestinidad hasta el siglo XIX.\n\nFue beatificado el 7 de julio de 1867 por Pío IX, entre los mártires del Japón (otra fuente da el 22 de mayo de 1867). Los textos del Dicasterio de las Causas de los Santos sobre los mártires de Japón mencionan a «el mexicano Bartolomé Gutiérrez» como el superior de otro agustino, santo Tomás de San Agustín, con quien estuvo preso en Nagasaki. Es considerado uno de los primeros mexicanos beatificados.\n\nEn el calendario de México se le recuerda el 2 de septiembre, como memoria opcional, día anterior al de su muerte (3 de septiembre), que en el calendario general está ocupado por la memoria de san Gregorio Magno. Su testimonio es el de un misionero criollo que volvió a un país donde sabía que lo esperaba la muerte para sostener a los cristianos; recuerda la dimensión universal de la Iglesia mexicana y su vínculo con Asia a través del galeón de Manila.",
+  "sources": [
+   {
+    "label": "Enciclopedia «Encyclopedia.com», «Gutiérrez Rodríguez, Bartolomé, Bl.»",
+    "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/gutierrez-rodriguez-bartolome-bl"
+   },
+   {
+    "label": "El Cronista, «Beato Bartolomé Gutiérrez: por qué la Iglesia lo conmemora cada 2 de septiembre» (cotejo secundario)",
+    "url": "https://www.cronista.com/mexico/espiritualidad/beato-bartolome-gutierrez-por-que-la-iglesia-catolica-lo-conmemora-cada-2-de-septiembre"
+   },
+   {
+    "label": "Santa Sede, mártires de Japón (188 beatificados, 2008)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/2008/ns_lit_doc_20081124_giappone_sp.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ }
+]

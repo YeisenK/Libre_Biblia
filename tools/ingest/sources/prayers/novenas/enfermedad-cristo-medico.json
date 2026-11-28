@@ -1,0 +1,127 @@
+{
+  "id": "enfermedad-cristo-medico",
+  "title": "Novena en la enfermedad",
+  "group": "health",
+  "description": "Nueve días para quien sufre una enfermedad o acompaña a un enfermo, con Cristo, médico de las almas y de los cuerpos.",
+  "image": {
+    "icon": "heart",
+    "tint": "#6a8a8a"
+  },
+  "introduction": "Cristo curó a muchos enfermos y los sacramentos de sanación (Penitencia y Unción de los enfermos) continúan su obra (CIC 1503-1505, 1520-1523). La Iglesia reza por la salud, pero sabe que la curación física no siempre llega y que el sufrimiento, unido a Cristo, puede tener sentido (CIC 1521). Nunca se presenta la enfermedad como castigo.\n\nEsta novena puede rezarse por uno mismo o por otra persona.",
+  "purpose": "Pedir consuelo, serenidad y salud, y para quienes cuidan. No promete la curación: pide lo que Cristo siempre da, su cercanía. Complementa, no sustituye, el tratamiento médico: acude siempre al médico y sigue sus indicaciones. Si es posible, solicita la Unción de los enfermos, que no es solo para los moribundos.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor Jesús, médico de los cuerpos y de las almas, aquí estoy con mi enfermedad (o con la de quien amo). Dame confianza, paciencia y paz. Ponme en tus manos y en las de quienes me cuidan. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Cristo se acerca",
+      "reading": "Mc 1,40-42",
+      "reflection": "El leproso se acercó a Jesús y Él lo tocó. Cristo no huye del dolor. Hoy dejo que se acerque a mi enfermedad.",
+      "prayer": "Jesús, tócame con tu mano. Que sienta tu cercanía."
+    },
+    {
+      "day": 2,
+      "title": "Presentar la enfermedad",
+      "reading": "Mc 2,3-5",
+      "reflection": "Los amigos del paralítico lo llevaron a Jesús. Presento a mis enfermos y a mí mismo, con nombre y con historia.",
+      "prayer": "Señor, te presento a los enfermos que conozco. Tú sabes sus nombres."
+    },
+    {
+      "day": 3,
+      "title": "El miedo",
+      "reading": "Is 41,10",
+      "reflection": "«No temas, que yo estoy contigo.» El miedo a la enfermedad y a lo desconocido es normal. Pido serenidad y buenos acompañantes.",
+      "prayer": "Señor, aleja mi miedo. Que sienta tu compañía."
+    },
+    {
+      "day": 4,
+      "title": "Cuando duele",
+      "reading": "Sal 6,3-4",
+      "reflection": "«Ten piedad de mí, Señor, que estoy sin fuerzas.» El salmista expresa su dolor ante Dios. Hoy rezo mi queja con sinceridad.",
+      "prayer": "Señor, me duele. Escucha mi clamor y dame alivio."
+    },
+    {
+      "day": 5,
+      "title": "Los que cuidan",
+      "reading": "Mt 25,36",
+      "reflection": "«Estuve enfermo y me visitasteis.» Rezo por médicos, enfermeros, familiares y cuidadores, y por mi propia actitud si cuido de alguien.",
+      "prayer": "Señor, cuida de quienes cuidan. Dales fuerza, paciencia y descanso."
+    },
+    {
+      "day": 6,
+      "title": "La gracia basta",
+      "reading": "2 Co 12,7-9",
+      "reflection": "Pablo pidió que le quitaran su espina y recibió: «Te basta mi gracia.» Pido la curación y también la gracia de vivir lo que venga.",
+      "prayer": "Señor, si no me curas, dame tu gracia. Que no me falte tu paz."
+    },
+    {
+      "day": 7,
+      "title": "Los sacramentos",
+      "reading": "St 5,14-15",
+      "reflection": "«¿Está enfermo alguno?... que llame a los presbíteros.» La Unción de los enfermos da fuerza, paz y valor. No es solo para el final de la vida.",
+      "prayer": "Señor, que no tema recibir tu Unción. Que la Eucaristía me sostenga."
+    },
+    {
+      "day": 8,
+      "title": "Ofrecer el dolor",
+      "reading": "Col 1,24",
+      "reflection": "Pablo une sus sufrimientos a los de Cristo. Ofrecer el dolor no es buscarlo ni resignarse a él, sino darle sentido en el amor. Pienso si puedo ofrecerlo por alguien.",
+      "prayer": "Jesús, une mi sufrimiento al tuyo. Que sirva para el bien de otros."
+    },
+    {
+      "day": 9,
+      "title": "Esperanza",
+      "reading": "Ap 21,4",
+      "reflection": "«Enjugará toda lágrima de sus ojos.» Nuestra esperanza está más allá de la enfermedad. Termino con gratitud y confianza.",
+      "prayer": "Gracias, Señor. Confío en ti. Santa María, Salud de los enfermos, ruega por nosotros."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Señor Jesús, que pasaste haciendo el bien y curando, mira a los enfermos y a quienes los cuidan. Dales alivio, esperanza y paz; y si es tu voluntad, devuélveles la salud. Que nadie sufra solo. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 1500-1532 (sacramento de la Unción de los enfermos)"
+    },
+    {
+      "label": "Juan Pablo II, Salvifici doloris (1984)"
+    }
+  ],
+  "tags": [
+    "salud",
+    "enfermedad",
+    "novena",
+    "composición de Lux"
+  ]
+}

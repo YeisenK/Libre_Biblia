@@ -1,0 +1,135 @@
+{
+  "id": "proteccion-familia",
+  "title": "Novena por la protección de la familia",
+  "group": "family",
+  "description": "Para encomendar a Dios la familia: unión, salud, fe y protección, bajo el amparo de la Sagrada Familia.",
+  "image": {
+    "icon": "shield",
+    "tint": "#5b7a6a"
+  },
+  "introduction": "La familia es «Iglesia doméstica» (CIC 1655-1658). La huida a Egipto muestra a José protegiendo a su familia con prudencia y fe (Mt 2,13-15). La devoción a la Sagrada Familia, extendida con fuerza en el siglo XIX, propone a Nazaret como modelo de hogar.",
+  "purpose": "Pedir unidad, salud, trabajo, paz y fe para todos los miembros de la familia. Una protección espiritual no sustituye las medidas prudentes (seguridad, salud, denuncia ante el abuso).\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Jesús, María y José, en vosotros contemplamos el esplendor del verdadero amor. Protege a nuestra familia. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Una familia concreta",
+      "reading": "Lc 2,51-52",
+      "reflection": "Jesús crece en Nazaret, obediente y en sabiduría. Doy gracias por mi familia tal como es y la pongo en manos de Dios.",
+      "prayer": "Señor, bendice a cada miembro de mi familia."
+    },
+    {
+      "day": 2,
+      "title": "José protege",
+      "reading": "Mt 2,13-15",
+      "reflection": "José toma al niño y a su madre y huye de noche. Es prudente, discreto, valiente. Pido su protección para mi casa.",
+      "prayer": "San José, guarda a mi familia."
+    },
+    {
+      "day": 3,
+      "title": "María, madre atenta",
+      "reading": "Jn 2,3-5",
+      "reflection": "María advierte la falta de vino en Caná. Que ella advierta nuestras necesidades y las presente a Jesús.",
+      "prayer": "Virgen María, mira nuestro hogar."
+    },
+    {
+      "day": 4,
+      "title": "La paz del hogar",
+      "reading": "Pr 17,1",
+      "reflection": "Mejor un bocado seco con paz que una casa llena de banquetes con discordia. Pido paz concreta para mi casa.",
+      "prayer": "Señor, aleja de nosotros las discusiones inútiles."
+    },
+    {
+      "day": 5,
+      "title": "Salud y trabajo",
+      "reading": "Sal 121,7-8",
+      "reflection": "El Señor te guarda de todo mal. Pido por la salud y el sustento de cada uno.",
+      "prayer": "Dios mío, cuida de los enfermos y de los que buscan trabajo."
+    },
+    {
+      "day": 6,
+      "title": "Fe compartida",
+      "reading": "Jos 24,15",
+      "reflection": "«Yo y mi casa serviremos al Señor.» Pienso en un gesto sencillo de oración familiar: bendecir la mesa, rezar juntos al acostarnos.",
+      "prayer": "Señor, enséñanos a orar en familia."
+    },
+    {
+      "day": 7,
+      "title": "Los más débiles",
+      "reading": "Mc 10,13-16",
+      "reflection": "Jesús acoge a los niños. Pido por los niños, los adolescentes y los mayores de mi hogar.",
+      "prayer": "Jesús, protege a los más frágiles."
+    },
+    {
+      "day": 8,
+      "title": "Perdón y reconciliación",
+      "reading": "Ef 4,31-32",
+      "reflection": "Desaparezca de vosotros toda amargura. Pido gracia para pedir y dar perdón dentro de casa.",
+      "prayer": "Padre, haznos humildes para reconciliarnos."
+    },
+    {
+      "day": 9,
+      "title": "Gratitud y servicio",
+      "reading": "Col 3,17",
+      "reflection": "Todo lo que hagáis, hacedlo en nombre del Señor Jesús, dando gracias. Ofrezco la vida diaria de mi familia.",
+      "prayer": "Jesús, María y José, bendecid nuestro hogar. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Sagrada Familia de Nazaret, haz de nuestras familias comunión de amor. Guárdanos de todo mal y concédenos tu paz. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-jose"
+  ],
+  "tags": [
+    "proteccion familia",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 12,
+    "day": 28,
+    "label": "Fiesta de la Sagrada Familia (domingo en la octava de Navidad; fecha de referencia)"
+  }
+}

@@ -2,6 +2,7 @@ import type { CatalogEntry } from '@bc/shared';
 import { getDb } from '../db';
 import { dropIndexCache, ensureIndex } from '../search/engine';
 import { importPackFile, installPack, removePack } from './install';
+import { setBundledDismissed } from './bundled';
 import { downloadPack } from './pack';
 
 export type Phase = 'descargando' | 'guardando' | 'indexando';
@@ -17,6 +18,7 @@ async function requestPersistence() {
 /** Descarga → verifica → instala → indexa. `onProgress` recibe fracción 0..1 y la fase. */
 export async function installFromCatalog(entry: CatalogEntry, catalogUrl: string, onProgress: (f: number, phase: Phase) => void) {
   const db = getDb();
+  setBundledDismissed(entry.id, false);
   const first = (await db.installedPacks.count()) === 0;
   const pack = await downloadPack(entry, catalogUrl, { onProgress: (f) => onProgress(f * 0.5, 'descargando') });
   if (first) await requestPersistence();
@@ -39,6 +41,7 @@ export async function installFromFile(file: File, onProgress: (f: number, phase:
 }
 
 export async function uninstall(id: string) {
+  setBundledDismissed(id, true);
   dropIndexCache(id);
   await removePack(getDb(), id);
 }

@@ -12,7 +12,7 @@ Monorepo, formato de paquetes y catálogo público, ingesta reproducible. (Una p
 - ✅ Canon de 73 libros, referencias, ingesta reproducible.
 - ✅ Gestor de descargas (repositorios públicos, sha256, importar desde archivo).
 - ✅ Lector (capítulo, versículo, continuo), navegación, comparación paralela, búsqueda (palabras, frase, aproximada), marcadores, historial, continuar leyendo, ajustes tipográficos y temas, compartir texto/imagen, offline.
-- 🟡 Traducciones: Vulgata Clementina y Douay-Rheims 1899 completas; Scío solo NT; **Torres Amat pendiente** (no existe fuente digital estructurada de dominio público; requiere OCR + revisión humana de las digitalizaciones).
+- 🟡 Traducciones: Vulgata Clementina y Douay-Rheims 1899 completas; Scío solo NT; **Torres Amat parcial** (`bible.TA`: 15 libros del NT desde es.wikisource; falta el AT y 12 libros del NT, que requieren OCR + revisión humana).
 - ⏳ App Android empaquetada con Capacitor (ver `apps/mobile`).
 
 ## Cultura hispánica 🟡

@@ -126,3 +126,10 @@ describe('applyHeadTitle', () => {
     expect(applyHeadTitle('sin encabezado', 3, 'por defecto')).toEqual({ title: 'por defecto', text: 'sin encabezado' });
   });
 });
+
+describe('brIsVerse', () => {
+  it('conserva los versos escritos con <br /> como líneas (con reflujo) sin separarlos en párrafos', () => {
+    const src = 'Prosa que\ncontinúa.\n\nUn verso <br />\t\t\n\t    otro verso <br />\n\n\tnueva estrofa <br />\n    fin <br />\n\nFin.';
+    expect(wikitextToText(src, { reflow: true, brIsVerse: true })).toBe('Prosa que continúa.\n\nUn verso\notro verso\n\nnueva estrofa\nfin\n\nFin.');
+  });
+});

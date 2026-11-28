@@ -28,7 +28,7 @@ import { clearVolver, getVolver } from '@/lib/routine/flow';
 import { ROSARY_ACTIVE_KEY, ROSARY_HISTORY_KEY } from './hooks';
 
 const DEFAULT_OPTS: RosaryOptions = { reflections: true, passages: true, extras: [] };
-const SAFE = { paddingTop: 'env(safe-area-inset-top)', paddingBottom: 'env(safe-area-inset-bottom)' } as const;
+const SAFE = { paddingTop: 'var(--sat)', paddingBottom: 'var(--sab)' } as const;
 
 function useMedia(query: string, initial = false) {
   const [v, setV] = useState(initial);
@@ -45,6 +45,8 @@ function useMedia(query: string, initial = false) {
 /** Dónde va el rezo, en palabras (modalidad física y accesibilidad). */
 export function whereLabel(s: RosaryStep): string {
   if (s.decade && s.aveIndex) return `Decena ${s.decade} · Ave María ${s.aveIndex} de 10`;
+  if (s.decade && s.id.endsWith('-aves')) return `Decena ${s.decade} · diez Ave Marías`;
+  if (s.id === 'open-aves') return 'Cuentas iniciales · tres Ave Marías';
   if (s.decade) return `Decena ${s.decade} de 5`;
   if (s.aveIndex) return `Cuentas iniciales · Ave María ${s.aveIndex} de 3`;
   return s.id.startsWith('close') || s.id === 'salve' || s.id.startsWith('final-') ? 'Final del Rosario' : 'Cuentas iniciales';
@@ -303,7 +305,7 @@ export function RosaryPlayer({ session }: { session: RosarySessionRow }) {
           <div className="mx-auto w-full max-w-2xl px-5 py-6">
             <div className="mb-6 rounded-2xl bg-sunken p-5 animate-rise-in" key={`cue-${step.id}`}>
               <p className="eyebrow mb-2 !text-gold">{where}</p>
-              <p className="font-display text-[1.6rem] font-semibold leading-snug">{step.physicalCue}</p>
+              <p className="font-display text-[1.6rem] font-semibold leading-snug">{settings.rosaryPhysicalGuide === false ? step.instruction : step.physicalCue}</p>
             </div>
             {body}
           </div>
@@ -317,7 +319,15 @@ export function RosaryPlayer({ session }: { session: RosarySessionRow }) {
             <ChevronLeft /> <span className="hidden min-[400px]:inline">Anterior</span>
           </button>
           <div className="flex min-w-[44px] flex-1 justify-center">
-            {!paused && <PrayerAudioButton clipKey={step.audioKey} autoPlay={settings.rosaryAutoplay} onEnded={() => settings.rosaryAutoplay && next()} />}
+            {!paused && (
+              <PrayerAudioButton
+                key={step.id}
+                clipKey={step.audioKey}
+                repeat={settings.rosaryRepeatAves ? (step.id === 'open-aves' ? 3 : step.id.endsWith('-aves') ? 10 : 1) : 1}
+                autoPlay={settings.rosaryAutoplay}
+                onEnded={() => settings.rosaryAutoplay && next()}
+              />
+            )}
           </div>
           <button type="button" onClick={next} className="btn btn-primary !min-h-[56px] !rounded-full !px-7 text-base" aria-label={isLast ? 'Terminar el Rosario' : 'Paso siguiente'}>
             {isLast ? 'Terminar' : 'Siguiente'} {!isLast && <ChevronRight />}

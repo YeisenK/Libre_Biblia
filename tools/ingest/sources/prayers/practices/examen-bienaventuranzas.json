@@ -1,0 +1,192 @@
+{
+ "id": "examen-bienaventuranzas",
+ "kind": "examen",
+ "title": "Según las bienaventuranzas",
+ "description": "Un examen positivo: mirar la vida a la luz de Mt 5,3-12, el camino de la felicidad cristiana.",
+ "group": "Según la Palabra",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 15,
+ "ccc": [
+  "1716-1729"
+ ],
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "text",
+   "title": "Antes de empezar",
+   "text": "Ponte en presencia de Dios, que no te examina para condenarte sino para sanarte. Lee las preguntas despacio y quédate solo con las que te hablen. Marcar una pregunta no significa que sea pecado grave: es una ayuda para recordar. Si dudas de la gravedad de algo, díselo con sencillez al sacerdote: él te ayudará.\n\n**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "b1",
+   "kind": "questions",
+   "title": "Bienaventurados los pobres de espíritu",
+   "questions": [
+    {
+     "text": "¿Confío en Dios o en mis seguridades, mi dinero o mi prestigio?"
+    },
+    {
+     "text": "¿Reconozco que lo necesito todo de Él?"
+    },
+    {
+     "text": "¿He sido generoso con quien tiene menos?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,3",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "b2",
+   "kind": "questions",
+   "title": "Bienaventurados los mansos",
+   "questions": [
+    {
+     "text": "¿Respondo con dureza, con ira o con ironía hiriente?"
+    },
+    {
+     "text": "¿Busco imponerme o escucho de verdad?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,5",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "b3",
+   "kind": "questions",
+   "title": "Bienaventurados los que lloran",
+   "questions": [
+    {
+     "text": "¿Me conmuevo con el dolor ajeno o me he vuelto indiferente?"
+    },
+    {
+     "text": "¿Lloro por mis pecados o me excuso siempre?"
+    },
+    {
+     "text": "¿He consolado a alguien que sufría?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,4",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "b4",
+   "kind": "questions",
+   "title": "Bienaventurados los que tienen hambre y sed de justicia",
+   "questions": [
+    {
+     "text": "¿Defiendo lo justo aunque me cueste?"
+    },
+    {
+     "text": "¿He sido injusto con alguien o callado ante una injusticia que podía remediar?"
+    },
+    {
+     "text": "¿Tengo hambre de Dios: oración, Palabra, sacramentos?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,6",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "b5",
+   "kind": "questions",
+   "title": "Bienaventurados los misericordiosos",
+   "questions": [
+    {
+     "text": "¿Perdono de corazón? ¿Hay alguien a quien he cerrado mi corazón?"
+    },
+    {
+     "text": "¿He practicado las obras de misericordia (visitar, dar de comer, aconsejar, consolar)?"
+    },
+    {
+     "text": "¿Juzgo con dureza a los demás?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,7",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "b6",
+   "kind": "questions",
+   "title": "Bienaventurados los limpios de corazón",
+   "questions": [
+    {
+     "text": "¿Cuido la pureza de mi mirada y mis pensamientos?"
+    },
+    {
+     "text": "¿Soy sincero, sin doblez, con Dios y con los demás?"
+    },
+    {
+     "text": "¿Busco agradar a Dios o aparentar ante los hombres?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,8",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "b7",
+   "kind": "questions",
+   "title": "Bienaventurados los que trabajan por la paz",
+   "questions": [
+    {
+     "text": "¿Siembro paz en mi casa, trabajo y amistades, o avivo discordias?"
+    },
+    {
+     "text": "¿Doy el primer paso para reconciliarme?"
+    },
+    {
+     "text": "¿Hablo mal de otros a sus espaldas?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,9",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "b8",
+   "kind": "questions",
+   "title": "Bienaventurados los perseguidos por causa de la justicia",
+   "questions": [
+    {
+     "text": "¿Me avergüenzo de mi fe o la callo por temor al qué dirán?"
+    },
+    {
+     "text": "¿Soy coherente con el Evangelio cuando cuesta?"
+    },
+    {
+     "text": "¿Rezo por quienes me maltratan?"
+    }
+   ],
+   "ccc": "1716-1729",
+   "reading": "Mt 5,10-12",
+   "text": "Lee con calma esta bienaventuranza y compara tu vida con ella."
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

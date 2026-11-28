@@ -140,3 +140,20 @@ describe('geometría de cuentas', () => {
     expect(l.beads.filter((b) => b.type === 'small')).toHaveLength(10);
   });
 });
+
+describe('rosario físico (Ave Marías agrupadas)', () => {
+  const opts = { reflections: false, passages: false, extras: [], grouped: true };
+  const g = buildSteps(rosary, 'sorrowful', opts);
+  it('una sola etapa de diez Ave Marías por decena y tres al comienzo', () => {
+    expect(g.filter((s) => s.id.endsWith('-aves'))).toHaveLength(6);
+    expect(g.some((s) => /ave-\d/.test(s.id))).toBe(false);
+    expect(g.find((s) => s.id === 'd4-aves')?.instruction).toBe('Reza diez Ave Marías');
+    expect(g.find((s) => s.id === 'open-aves')?.title).toBe('Tres Ave Marías');
+    // 11 pasos menos de Ave Marías por decena×5 (−45) y −2 al comienzo
+    expect(buildSteps(rosary, 'sorrowful', { ...opts, grouped: false }).length - g.length).toBe(47);
+  });
+  it('la firma de opciones distingue el modo y es compatible con las antiguas', () => {
+    expect(parseOptionsKey(optionsKey(opts))).toEqual(opts);
+    expect(parseOptionsKey('r1p0xfatima')).toEqual({ reflections: true, passages: false, extras: ['fatima'] });
+  });
+});

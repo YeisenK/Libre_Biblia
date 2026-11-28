@@ -1,0 +1,136 @@
+{
+  "id": "fe-perseverancia-san-agustin",
+  "title": "Novena por la fe y la perseverancia",
+  "group": "virtues",
+  "description": "Nueve días con san Agustín para pedir fe firme y perseverancia cuando hay dudas o desánimo.",
+  "image": {
+    "icon": "book",
+    "tint": "#5a6a8a"
+  },
+  "introduction": "San Agustín (354-430), obispo de Hipona y doctor de la Iglesia, buscó la verdad durante años entre filosofías, placeres y errores hasta que, en Milán, se convirtió en el año 386 y fue bautizado por san Ambrosio en la Vigilia Pascual de 387. Su madre, santa Mónica, había rezado por él durante años. En las *Confesiones* cuenta que «nos hiciste para ti, Señor, y nuestro corazón está inquieto hasta que descanse en ti». Su fiesta es el 28 de agosto.\n\nLa fe es un don de Dios y un acto humano libre; puede pasar por dudas y noches (CIC 153-165). Dudar no es lo mismo que negar la fe: la duda puede ser camino. Esta novena es para quien está cansado, desanimado, con preguntas o con ganas de volver.",
+  "purpose": "Pedir una fe más firme y la gracia de perseverar cuando no se siente nada. Sin prometer consuelos: la fe se vive muchas veces a oscuras, sostenida por la Eucaristía y la comunidad. Si tu duda es profunda, habla con un sacerdote y estudia; la fe busca comprender.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, creo; ayuda mi poca fe. Durante estos nueve días quiero buscarte con sinceridad, como san Agustín. Dame luz en la duda, fuerza en el cansancio y fidelidad en lo pequeño. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un corazón inquieto",
+      "reading": "Sal 63,2",
+      "reflection": "«Mi alma tiene sed de ti.» La inquietud no es un fallo: es la huella de Dios en nosotros. Hoy la reconozco como deseo y la pongo ante Él.",
+      "prayer": "Señor, tengo sed de ti. Que mi inquietud me acerque a ti y no me aleje."
+    },
+    {
+      "day": 2,
+      "title": "La fe es un don",
+      "reading": "Ef 2,8-9",
+      "reflection": "«Por gracia habéis sido salvados mediante la fe; y esto no viene de vosotros: es don de Dios.» No logro la fe por fuerza: la pido y la acojo (CIC 153).",
+      "prayer": "Dios mío, dame el don de la fe. No la merezco; la necesito."
+    },
+    {
+      "day": 3,
+      "title": "Creo, ayuda mi incredulidad",
+      "reading": "Mc 9,23-24",
+      "reflection": "El padre del muchacho dijo: «Creo; ayuda a mi incredulidad.» Jesús no rechazó esa fe mezclada. Puedo presentarme así: con fe y con dudas.",
+      "prayer": "Jesús, creo en ti. Ayuda lo que me falta de fe."
+    },
+    {
+      "day": 4,
+      "title": "Buscar con la razón",
+      "reading": "Hch 17,27",
+      "reflection": "Dios quiere que lo busquen «a tientas, y que lo encuentren». Estudiar, leer y preguntar no apagan la fe: la sirven. «Entiende para creer, cree para entender», decía Agustín.",
+      "prayer": "Señor, ilumina mi inteligencia. Que busque la verdad con humildad y honestidad."
+    },
+    {
+      "day": 5,
+      "title": "Cuando no siento nada",
+      "reading": "Sal 22,2-3",
+      "reflection": "Hay noches de oración en las que Dios parece callar. Jesús mismo clamó con el Salmo 22. La fe no es sentimiento: es fidelidad a lo que sabemos de Él.",
+      "prayer": "Señor, aunque no sienta, quiero estar contigo. Dame fidelidad en la sequedad."
+    },
+    {
+      "day": 6,
+      "title": "La fe se vive en comunidad",
+      "reading": "Hch 2,42",
+      "reflection": "Los primeros cristianos eran «asiduos a la enseñanza de los apóstoles, a la comunión, a la fracción del pan y a las oraciones». La fe se sostiene en comunidad y en la Eucaristía.",
+      "prayer": "Señor, ayúdame a no caminar solo. Que encuentre una comunidad que me sostenga."
+    },
+    {
+      "day": 7,
+      "title": "Una fe que actúa",
+      "reading": "St 2,17",
+      "reflection": "La fe sin obras está muerta. Hoy pido una obra concreta de caridad que dé vida a mi fe, por pequeña que sea.",
+      "prayer": "Señor, muéstrame a quién servir hoy. Que mi fe se vea en mis obras."
+    },
+    {
+      "day": 8,
+      "title": "Volver siempre",
+      "reading": "Lc 15,20",
+      "reflection": "Agustín tardó en volver y fue recibido. Si me alejé, el camino de regreso está abierto. El primer paso puede ser una oración sencilla o una confesión.",
+      "prayer": "Padre, quiero volver a ti. Sal a mi encuentro y dame valor para dar el primer paso."
+    },
+    {
+      "day": 9,
+      "title": "Perseverar hasta el fin",
+      "reading": "Mt 10,22",
+      "reflection": "«El que persevere hasta el fin se salvará.» Perseverar es seguir, no hacerlo perfecto. Terminamos con un propósito pequeño y concreto: una práctica diaria.",
+      "prayer": "Gracias, Señor. Dame perseverancia. San Agustín, ruega por mí para que llegue a descansar en Dios."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San Agustín, que buscaste a Dios fuera y lo encontraste dentro, ruega por nosotros. Que nuestra inquietud nos lleve a Cristo, que no dejemos de buscar la verdad y que perseveremos hasta descansar en Dios. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "San Agustín, Confesiones, I,1; VIII; IX"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 153-165"
+    }
+  ],
+  "tags": [
+    "fe",
+    "perseverancia",
+    "san Agustín",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 8,
+    "day": 28,
+    "label": "Memoria de san Agustín, obispo y doctor de la Iglesia"
+  },
+  "saints": [
+    "agustin-de-hipona"
+  ]
+}

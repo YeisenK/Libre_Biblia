@@ -3,7 +3,8 @@
     "id": "oracion-de-la-manana",
     "title": "Oración de la mañana",
     "categories": [
-      "manana"
+      "manana",
+      "circunstancias"
     ],
     "moments": [
       "morning"
@@ -173,7 +174,10 @@
         "label": "Devocionario católico (Libre Biblia, CC BY-SA 4.0)"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "angeles-custodios"
+    ]
   },
   {
     "id": "consagracion-a-maria",

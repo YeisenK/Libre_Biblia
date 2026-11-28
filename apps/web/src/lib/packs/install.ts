@@ -44,7 +44,7 @@ export function entryFromPack(pack: ContentPack, bytes: number, sha256: string):
     bytes,
     sha256,
     authority: bible ? 'scripture' : m.authority,
-    ...(bible ? { collection: 'Biblias' } : pack.kind === 'daily' ? { collection: 'Versículo del día' } : pack.kind === 'prayers' ? { collection: 'Oraciones' } : pack.kind === 'audio' ? { collection: 'Voces de oración' } : m.collection ? { collection: m.collection } : {}),
+    ...(bible ? { collection: 'Biblias' } : pack.kind === 'daily' ? { collection: 'Versículo del día' } : pack.kind === 'prayers' ? { collection: 'Oraciones' } : pack.kind === 'audio' ? { collection: 'Voces de oración' } : pack.kind === 'saints' ? { collection: 'Santoral' } : pack.kind === 'hours' ? { collection: 'Oración de las Horas' } : pack.kind === 'formation' ? { collection: 'Formación' } : m.collection ? { collection: m.collection } : {}),
     ...(m.description ? { description: m.description } : {}),
     ...(b?.translationStatus ? { translationStatus: b.translationStatus } : {}),
     ...(b?.ecclesiasticalApproval !== undefined ? { ecclesiasticalApproval: b.ecclesiasticalApproval } : {}),
@@ -128,6 +128,23 @@ export async function installPack(
       await db.prayerPacks.put({ id: pack.id, pack });
       await db.installedPacks.put(rec);
     });
+  } else if (pack.kind === 'hours') {
+    // El paquete de la Oración de las Horas se guarda en la misma tabla de paquetes de contenido (id → paquete); `loadHoursPack` lo lee por su kind.
+    await db.transaction('rw', [db.installedPacks, db.prayerPacks], async () => {
+      await db.prayerPacks.put({ id: pack.id, pack: pack as never });
+      await db.installedPacks.put(rec);
+    });
+  } else if (pack.kind === 'formation') {
+    // Igual que `hours`: el paquete se guarda en la tabla de paquetes de contenido; `loadFormation` lo lee por su kind.
+    await db.transaction('rw', [db.installedPacks, db.prayerPacks], async () => {
+      await db.prayerPacks.put({ id: pack.id, pack: pack as never });
+      await db.installedPacks.put(rec);
+    });
+  } else if (pack.kind === 'saints') {
+    await db.transaction('rw', [db.installedPacks, db.saintPacks], async () => {
+      await db.saintPacks.put({ id: pack.id, pack });
+      await db.installedPacks.put(rec);
+    });
   } else if (pack.kind === 'audio') {
     const clips = pack.clips;
     await db.transaction('rw', [db.installedPacks, db.audioPacks, db.audioClips], async () => {
@@ -180,8 +197,9 @@ function base64ToBlob(b64: string, mime: string): Blob {
 }
 
 export async function removePack(db: AppDb, id: string) {
-  await db.transaction('rw', [db.installedPacks, db.bibleMeta, db.bibleVerses, db.documents, db.documentSections, db.searchIndexes, db.dailyEntries, db.dailyMeta, db.prayerPacks, db.audioPacks, db.audioClips], async () => {
+  await db.transaction('rw', [db.installedPacks, db.bibleMeta, db.bibleVerses, db.documents, db.documentSections, db.searchIndexes, db.dailyEntries, db.dailyMeta, db.prayerPacks, db.saintPacks, db.audioPacks, db.audioClips], async () => {
     await db.prayerPacks.delete(id);
+    await db.saintPacks.delete(id);
     await db.audioPacks.delete(id);
     await db.audioClips.where('packId').equals(id).delete();
     await db.dailyEntries.where('packId').equals(id).delete();

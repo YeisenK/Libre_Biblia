@@ -1,0 +1,139 @@
+{
+  "id": "noviazgo-san-rafael",
+  "title": "Novena de los novios y del discernimiento afectivo, con san Rafael",
+  "group": "family",
+  "description": "Nueve días con el arcángel Rafael, compañero de camino de Tobías, para quien busca o vive un noviazgo.",
+  "image": {
+    "icon": "angel",
+    "tint": "#6a8aa0"
+  },
+  "introduction": "El libro de Tobías cuenta que el arcángel Rafael, bajo apariencia humana, acompañó al joven Tobías en un viaje, lo protegió y lo condujo a Sara, con quien se casó tras una oración de bendición (Tb 8,5-7). «Rafael» significa «Dios sana». La tradición cristiana lo ha tenido por patrono de los viajeros, de los enfermos y de los novios. Su fiesta se celebra el 29 de septiembre, con Miguel y Gabriel.\n\nEl noviazgo es un tiempo de conocimiento y discernimiento hacia el matrimonio; el Catecismo pide vivirlo con castidad y respeto, preparándose a un amor fiel y abierto a la vida (CIC 1632, 2350).",
+  "purpose": "Orar por quien desea casarse, por quien está de novio y por quien discierne su vocación. No promete encontrar pareja ni que la relación llegue al matrimonio: pide luz para elegir bien, amor verdadero y respeto. Si en la relación hay violencia, control o miedo, no es amor ni se reza para aguantarlo: busca ayuda y protección.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Dios de Abrahán, de Isaac y de Jacob, que enviaste a Rafael al joven Tobías, envíame también tu luz para el camino del amor. Que durante estos días aprenda a elegir bien, a amar con verdad y a esperar con paz. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Dios sana",
+      "reading": "Tb 3,16-17",
+      "reflection": "Dios escuchó la oración de Tobit y de Sara y envió a Rafael. Hoy presento mis heridas afectivas, mis soledades y mis esperas.",
+      "prayer": "Señor, escucha mi oración. Sana mi corazón herido y cuida mis deseos de amar."
+    },
+    {
+      "day": 2,
+      "title": "Un acompañante en el camino",
+      "reading": "Tb 5,4-6",
+      "reflection": "Rafael se ofrece como compañero de viaje. El discernimiento afectivo se hace mejor acompañado: familia, amigos, un director espiritual.",
+      "prayer": "Señor, no me dejes elegir solo. Pon a mi lado a quien me ayude a ver con claridad."
+    },
+    {
+      "day": 3,
+      "title": "Conocer con verdad",
+      "reading": "Tb 6,10-12",
+      "reflection": "Tobías conoce a Sara y a su familia antes de decidir. Conocerse es mirar el carácter, los valores, la fe y la libertad del otro, más que la apariencia.",
+      "prayer": "Señor, dame ojos para ver al otro tal cual es. Líbrame del enamoramiento ciego y de la prisa."
+    },
+    {
+      "day": 4,
+      "title": "Oración juntos",
+      "reading": "Tb 8,5-7",
+      "reflection": "Tobías y Sara rezaron antes de nada: «Bendito eres, Dios de nuestros padres». Rezar juntos es una de las mayores bases de un amor sano.",
+      "prayer": "Señor, enséñanos a rezar juntos. Que nuestro amor se apoye en ti."
+    },
+    {
+      "day": 5,
+      "title": "Respeto y límites",
+      "reading": "1 Ts 4,3-7",
+      "reflection": "«Esta es la voluntad de Dios: vuestra santificación.» El respeto del cuerpo y de la libertad del otro es el signo del amor. Pido pureza y valentía para poner límites.",
+      "prayer": "Señor, dame la fuerza de amar con respeto. Líbrame de usar al otro o de dejarme usar."
+    },
+    {
+      "day": 6,
+      "title": "Amor libre y sano",
+      "reading": "Cant 8,6-7",
+      "reflection": "«Fuerte como la muerte es el amor.» El amor verdadero libera, no ata ni controla. Pido discernimiento ante lo que me daña.",
+      "prayer": "Señor, que mi amor sea libre y sano. Dame valor para dejar lo que me daña y para quedarme con lo que me hace crecer."
+    },
+    {
+      "day": 7,
+      "title": "Aceptar la respuesta",
+      "reading": "Pr 16,9",
+      "reflection": "«El corazón del hombre planea su camino, pero es el Señor quien dirige sus pasos.» A veces Dios responde con un no o con una espera. Pido paz para aceptarla.",
+      "prayer": "Señor, que acepte tu respuesta. Dame paz si el camino es otro del que imaginaba."
+    },
+    {
+      "day": 8,
+      "title": "Preparar el matrimonio",
+      "reading": "Ef 5,25-28",
+      "reflection": "El matrimonio es una vocación al don de sí. Prepararlo es formarse, hablar de lo importante (hijos, fe, economía) y rezar. Pido por quienes se preparan.",
+      "prayer": "Señor, bendice a los novios que se preparan para el matrimonio. Que formen un hogar según tu corazón."
+    },
+    {
+      "day": 9,
+      "title": "Sin miedo al futuro",
+      "reading": "Jr 29,11",
+      "reflection": "«Yo sé los planes que tengo sobre vosotros... planes de paz y no de desgracia.» Termino con gratitud y confianza, sea cual sea mi vocación.",
+      "prayer": "Gracias, Señor. Confío en tu plan. San Rafael, acompáñame y guía mis pasos."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San Rafael arcángel, compañero de camino, ruega por nosotros. Guíanos en la búsqueda del amor verdadero, protege a los novios, y sana lo que esté herido en nuestro corazón. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Libro de Tobías (Tb 3-12), deuterocanónico"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 1632 y 2350"
+    },
+    {
+      "label": "Calendario romano general: 29 de septiembre"
+    }
+  ],
+  "tags": [
+    "noviazgo",
+    "san Rafael",
+    "Tobías",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 9,
+    "day": 29,
+    "label": "Fiesta de los santos arcángeles Miguel, Gabriel y Rafael"
+  },
+  "saints": [
+    "san-rafael-arcangel"
+  ]
+}

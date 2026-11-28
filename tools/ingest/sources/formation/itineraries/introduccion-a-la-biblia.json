@@ -1,0 +1,154 @@
+{
+ "id": "introduccion-a-la-biblia",
+ "title": "Introducción a la Biblia",
+ "description": "Qué es la Biblia, cómo se compone y cómo se lee en la Iglesia.",
+ "level": "inicial",
+ "lessons": [
+  {
+   "title": "La Biblia, Palabra de Dios",
+   "body": [
+    "La Escritura es Palabra de Dios escrita bajo la inspiración del Espíritu Santo (CEC 105-108). Dios es su autor, y los autores humanos escribieron como verdaderos autores."
+   ],
+   "ccc": [
+    105,
+    106,
+    107
+   ],
+   "bible": [
+    "2 Tm 3,16"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "101-141",
+     "La Sagrada Escritura"
+    ],
+    [
+     "church",
+     "dei-verbum",
+     "Dei Verbum"
+    ]
+   ],
+   "questions": [
+    "¿Qué significa inspiración?"
+   ]
+  },
+  {
+   "title": "El canon: 73 libros",
+   "body": [
+    "La Iglesia católica reconoce 46 libros del Antiguo Testamento y 27 del Nuevo (CEC 120). El canon se fijó por la Tradición apostólica."
+   ],
+   "ccc": [
+    120
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "120",
+     "El canon"
+    ]
+   ],
+   "questions": [
+    "¿Qué libros distinguen el canon católico?"
+   ]
+  },
+  {
+   "title": "Antiguo Testamento",
+   "body": [
+    "El Antiguo Testamento es parte irrenunciable de la Escritura: prepara y anuncia a Cristo (CEC 121-123). Comprende Pentateuco, libros históricos, sapienciales y proféticos."
+   ],
+   "ccc": [
+    121,
+    122,
+    123
+   ],
+   "bible": [
+    "Lc 24,27"
+   ],
+   "readings": [
+    [
+     "bible",
+     "Gn 1,1-2,4",
+     "Creación"
+    ]
+   ],
+   "questions": [
+    "¿Por qué sigue siendo válido el Antiguo Testamento?"
+   ]
+  },
+  {
+   "title": "Los Evangelios",
+   "body": [
+    "Los cuatro evangelios son el corazón de la Escritura (CEC 125). Se formaron en tres etapas: vida de Jesús, tradición oral y redacción (CEC 126)."
+   ],
+   "ccc": [
+    125,
+    126
+   ],
+   "bible": [
+    "Lc 1,1-4"
+   ],
+   "readings": [
+    [
+     "bible",
+     "Jn 1,1-18",
+     "Prólogo de Juan"
+    ]
+   ],
+   "questions": [
+    "¿Cómo se formaron los evangelios?"
+   ]
+  },
+  {
+   "title": "Cómo leer la Escritura",
+   "body": [
+    "Se lee con atención al contenido y la unidad de toda la Escritura, a la Tradición viva y a la analogía de la fe (CEC 112-114). Los sentidos son el literal y el espiritual (CEC 115-119)."
+   ],
+   "ccc": [
+    112,
+    114,
+    115
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "church",
+     "verbum-domini",
+     "Verbum Domini"
+    ]
+   ],
+   "questions": [
+    "¿Qué es el sentido literal?"
+   ]
+  },
+  {
+   "title": "La Biblia en la oración y la liturgia",
+   "body": [
+    "La lectio divina es una lectura orante de la Escritura. La Biblia ocupa el lugar central en la liturgia (CEC 131-133)."
+   ],
+   "ccc": [
+    131,
+    133
+   ],
+   "bible": [
+    "Sal 119,105"
+   ],
+   "readings": [
+    [
+     "bible",
+     "Sal 23",
+     "Salmo 23"
+    ],
+    [
+     "church",
+     "verbum-domini",
+     "Verbum Domini"
+    ]
+   ],
+   "questions": [
+    "¿Qué pasos tiene la lectio divina?"
+   ]
+  }
+ ]
+}

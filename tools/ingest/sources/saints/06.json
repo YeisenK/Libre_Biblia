@@ -1,0 +1,1117 @@
+[
+ {
+  "id": "justino-martir",
+  "name": "San Justino, mártir",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-01",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Justino, mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "church_father",
+   "lay"
+  ],
+  "born": {
+   "date": "c. 100",
+   "place": "Flavia Neápolis (Naplusa, Samaría)"
+  },
+  "died": {
+   "date": "c. 165",
+   "place": "Roma"
+  },
+  "century": 2,
+  "countries": [
+   "PS",
+   "IT"
+  ],
+  "summary": "Filósofo converso y apologista del siglo II, maestro en Roma, decapitado hacia el 165 junto a seis compañeros.",
+  "biography": "Justino nació hacia el año 100 en Flavia Neápolis, la actual Naplusa, en Samaría, en el seno de una familia pagana. En el *Diálogo con Trifón* cuenta él mismo su itinerario: antes de ser cristiano recorrió las escuelas estoica, peripatética, pitagórica y platónica buscando una verdad que diera sentido a la vida. Lo que lo decidió, según su relato, fue la serenidad de los cristianos ante la muerte y la fuerza de las profecías de Israel. Hacia el 130 se convirtió, pero siguió vistiendo el manto de filósofo, convencido de que el cristianismo era la verdadera filosofía.\n\nEnseñó y defendió la fe en Asia Menor y después en Roma, donde abrió una escuela y debatió con paganos, judíos y herejes. De su obra se consideran auténticas las dos *Apologías*, dirigidas a las autoridades romanas (la primera hacia 153-155), y el *Diálogo con Trifón*, anterior al año 161. Otros escritos que se le atribuyeron son dudosos o apócrifos.\n\nSu aportación teológica más conocida es la doctrina del Logos. Retomando una idea estoica, la «razón seminal», sostuvo que todo ser humano participa en parte del Verbo de Dios y que, por eso, lo verdadero y bueno que dijeron los filósofos pertenece de algún modo a Cristo; en Jesús, en cambio, el Logos se manifiesta en plenitud. Esta apertura al diálogo con la cultura pagana, sin renunciar a la novedad del Evangelio, hace de él el primero de los grandes apologistas. Su lenguaje sobre la relación entre el Padre y el Verbo tiene rasgos que los estudiosos juzgan aún imprecisos, propios de una teología en formación.\n\nLa *Primera Apología* contiene una de las descripciones más antiguas de la liturgia cristiana: el bautismo, la reunión dominical con lecturas de los «recuerdos de los apóstoles» y de los profetas, la homilía del presidente, las oraciones, el beso de paz, la presentación del pan y del vino y la comunión llevada a los ausentes. Justino afirma que ese alimento no es pan ni bebida comunes, sino la carne y la sangre de Jesús encarnado, y lo presenta como memorial de su pasión.\n\nHacia el año 165 fue denunciado en Roma y juzgado por el prefecto Rústico junto con seis compañeros: Caritón, Caritona, Evelpisto, Hierax, Peón y Liberiano. Al negarse a sacrificar a los dioses fueron condenados y decapitados. Las actas conservadas recogen un diálogo sereno en el que Justino declara su fidelidad a la fe que profesa.\n\nLa Iglesia ve en él al filósofo que encontró en Cristo la verdad, al testigo que la defendió con la palabra y al mártir que la selló con su sangre. Su memoria se celebra el 1 de junio.",
+  "context": "Roma de los Antoninos; tensión entre el cristianismo naciente, la filosofía griega y las acusaciones populares contra los cristianos.",
+  "virtues": [
+   "Búsqueda de la verdad",
+   "Valentía",
+   "Diálogo con la cultura"
+  ],
+  "significance": "Primer gran apologista cristiano; testimonio temprano de la liturgia y de la doctrina del Logos.",
+  "iconography": "Hombre con manto de filósofo, libro y palma del martirio.",
+  "works": [
+   {
+    "title": "Primera y Segunda Apología"
+   },
+   {
+    "title": "Diálogo con Trifón"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Justin Martyr, Saint»",
+    "url": "https://www.newadvent.org/cathen/08580c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "carlos-lwanga-y-companeros",
+  "name": "San Carlos Lwanga y compañeros",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-03",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Carlos Lwanga y compañeros, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "lay"
+  ],
+  "born": {
+   "date": "c. 1860 (Carlos Lwanga)",
+   "place": "Buganda (Uganda)"
+  },
+  "died": {
+   "date": "3 de junio de 1886 (Carlos Lwanga)",
+   "place": "Namugongo (Uganda)"
+  },
+  "century": 19,
+  "countries": [
+   "UG"
+  ],
+  "canonization": {
+   "date": "18 de octubre de 1964",
+   "by": "Pablo VI",
+   "note": "Beatificados por Benedicto XV el 6 de junio de 1920"
+  },
+  "summary": "Veintidós católicos ugandeses, en su mayoría pajes y servidores del rey Mwanga, martirizados entre 1885 y 1887 por no renunciar a la fe.",
+  "biography": "Los misioneros de los Padres Blancos llegaron al reino de Buganda, en la actual Uganda, en 1879, y se establecieron en Rubaga. Tras algunos años de dificultades con el rey Mutesa, la llegada al trono de Mwanga trajo una persecución abierta: el joven rey veía en los cristianos, que daban su primera lealtad a Dios, una amenaza para su autoridad, y se irritaba porque los pajes de su corte rechazaban sus pretensiones inmorales.\n\nEl decreto de canonización recuerda que el martirio se prolongó entre 1885 y 1887. José Mukasa Balikuddembe, prefecto de los pajes reales, fue decapitado a los 26 años, el primero de este grupo, por haber reprendido al rey. Su cargo pasó a Carlos Lwanga, de unos 25 años, que se dedicó a proteger a los jóvenes de la corte y a instruirlos en la fe; antes de ser arrestados, bautizó a varios catecúmenos, entre ellos Kizito, que tenía unos 14 años.\n\nEl 3 de junio de 1886, en Namugongo, trece de los mártires reconocidos por la Iglesia católica fueron quemados vivos. Carlos Lwanga, según la tradición, sufrió un suplicio especialmente lento. Otros nueve del grupo murieron en distintos lugares y de diferentes modos: Matías Mulumba Kalemba, de unos 50 años, ejecutado por orden del primer ministro; Andrés Kaggwa, de 30; Juan María Muzeyi, que murió el 27 de enero de 1887 a los 35 años. Las edades iban de los 15 a los 40 años. Murieron también cristianos anglicanos en la misma persecución, y la memoria compartida de ambos grupos es hoy un signo de unidad entre las confesiones en Uganda.\n\nLos veintidós mártires católicos fueron beatificados por Benedicto XV el 6 de junio de 1920 y canonizados por Pablo VI el 18 de octubre de 1964 en la basílica de San Pedro, durante el Concilio Vaticano II. En su homilía, Pablo VI los presentó como los primeros frutos de una nueva época africana, de renovación cristiana y civil. Para la canonización se reconocieron dos curaciones atribuidas a su intercesión.\n\nSu ejemplo habla de manera especial a los jóvenes: se trata en su mayoría de laicos muy jóvenes, recién bautizados, que prefirieron morir antes que abandonar su fe o ceder ante lo que sabían que era pecado. Sobre el lugar del martirio se levantó el santuario de Namugongo, adonde cada 3 de junio acuden multitudes de peregrinos de África y de otras partes del mundo. Las visitas de Pablo VI (1969), Juan Pablo II (1993) y Francisco (2015) subrayaron su importancia como fundamento de la Iglesia africana.",
+  "context": "Expansión misionera en África central y reacción de un rey que temía perder el control de su corte.",
+  "virtues": [
+   "Fidelidad",
+   "Valentía juvenil",
+   "Castidad"
+  ],
+  "significance": "Primeros mártires del África subsahariana canonizados en la era moderna; fundamento de la Iglesia ugandesa joven.",
+  "iconography": "Grupo de jóvenes africanos entre llamas con palma; Carlos Lwanga como figura central.",
+  "sources": [
+   {
+    "label": "Pablo VI, decreto «Sancti martyres» de canonización (18-X-1964)",
+    "url": "https://www.vatican.va/content/paul-vi/la/apost_letters/documents/hf_p-vi_apl_19641018_sancti-martyres.html"
+   },
+   {
+    "label": "Pablo VI, homilía en la canonización de los mártires de Uganda (18-X-1964)",
+    "url": "https://www.vatican.va/content/paul-vi/es/homilies/1964/documents/hf_p-vi_hom_19641018_martiri-uganda.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "bernabe-apostol",
+  "name": "San Bernabé, apóstol",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-11",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Bernabé, apóstol",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "missionary",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Chipre"
+  },
+  "died": {
+   "date": "siglo I (según la tradición)",
+   "place": "Chipre (según la tradición)"
+  },
+  "century": 1,
+  "countries": [
+   "CY",
+   "TR"
+  ],
+  "summary": "Levita chipriota, «hijo de la consolación», compañero de Pablo y fundador con él de la Iglesia de Antioquía; apóstol en sentido amplio.",
+  "biography": "Bernabé se llamaba José y era un judío de la tribu de Leví nacido en Chipre. Los apóstoles le dieron el sobrenombre de Bernabé, que el libro de los Hechos traduce como «hijo de la exhortación» o «de la consolación», aunque la etimología exacta es discutida. Se unió a la comunidad de Jerusalén poco después de Pentecostés y vendió un campo cuyo importe entregó a los apóstoles (Hch 4,36-37), gesto que lo muestra como modelo de desprendimiento.\n\nSu gran servicio a la Iglesia fue mediar por Saulo de Tarso, a quien los discípulos de Jerusalén temían: Bernabé lo presentó a los apóstoles y garantizó su conversión (Hch 9,27). Más tarde, cuando se formó en Antioquía una comunidad de judíos y paganos convertidos, la Iglesia de Jerusalén lo envió allá; se alegró al ver la gracia de Dios, exhortó a todos a permanecer firmes y fue a buscar a Saulo a Tarso para trabajar juntos durante un año. En Antioquía, dicen los Hechos, los discípulos recibieron por primera vez el nombre de «cristianos» (Hch 11,26).\n\nCon Pablo y con Juan Marcos emprendió el primer viaje misionero, que los llevó a Chipre y al sur de Asia Menor (Hch 13-14). Fue llamado «apóstol» junto con Pablo (Hch 14,14). Participó en el concilio de Jerusalén, donde se decidió que los paganos convertidos no debían someterse a la circuncisión (Hch 15). Pablo cuenta también un episodio doloroso en Antioquía: Pedro y Bernabé se apartaron de la mesa de los gentiles y Pablo lo reprochó (Gal 2,11-14). Poco después ambos se separaron por la cuestión de Juan Marcos: Pablo siguió con Silas y Bernabé partió con Marcos a Chipre (Hch 15,36-41).\n\nSu última mención en el Nuevo Testamento es en 1 Corintios 9,6, hacia los años 56-57, donde Pablo lo menciona como alguien que, igual que él, trabaja con sus manos para su sustento. Lo demás es tradición tardía y poco segura: algunos antiguos autores lo cuentan entre los setenta y dos discípulos; otros lo hacen predicador en Roma, Alejandría o Milán, y se afirma que murió mártir en Chipre. La Enciclopedia Católica juzga todas esas noticias como poco fiables.\n\nTambién se le atribuyen escritos. Tertuliano lo creyó autor de la carta a los Hebreos, probablemente sin fundamento. La *Carta de Bernabé*, obra cristiana primitiva de contenido alegórico, fue atribuida a él por muchos autores antiguos, pero hoy no se considera suya.\n\nBernabé es una figura de consuelo y de comunión: el que abrió caminos a otros, aceptó que Pablo creciera a su lado y no rehusó el conflicto cuando fue necesario. La Iglesia celebra su memoria el 11 de junio.",
+  "virtues": [
+   "Generosidad",
+   "Capacidad de reconciliar",
+   "Espíritu de comunión"
+  ],
+  "iconography": "Hombre con el Evangelio de Mateo (tradición) y bastón de peregrino; palma de mártir; a veces con piedras.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Barnabas»",
+    "url": "https://www.newadvent.org/cathen/02300a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Primeras comunidades cristianas de Jerusalén y Antioquía; apertura de la misión a los gentiles.",
+  "significance": "Colaborador decisivo de Pablo y promotor de la misión a los gentiles."
+ },
+ {
+  "id": "antonio-de-padua",
+  "name": "San Antonio de Padua",
+  "fullName": "Fernando Martins de Bulhões",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-13",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Antonio de Padua, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "doctor",
+   "priest",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 1195",
+   "place": "Lisboa"
+  },
+  "died": {
+   "date": "13 de junio de 1231",
+   "place": "Arcella, junto a Padua"
+  },
+  "century": 13,
+  "countries": [
+   "PT",
+   "IT"
+  ],
+  "order": "Franciscanos",
+  "canonization": {
+   "date": "30 de mayo de 1232",
+   "by": "Gregorio IX",
+   "note": "Declarado doctor de la Iglesia por Pío XII el 16 de enero de 1946"
+  },
+  "summary": "Fraile franciscano portugués, gran predicador y maestro de teología; «Doctor evangélico».",
+  "biography": "Fernando nació hacia 1195 en Lisboa. A los 15 años ingresó en la comunidad de canónigos regulares agustinos de San Vicente, en las afueras de la ciudad, y en 1212 pasó al monasterio de Santa Cruz de Coímbra, donde estudió durante unos ocho años las Escrituras y a los Padres de la Iglesia. Allí vio llegar en 1220 los cuerpos de cinco frailes franciscanos martirizados en Marruecos, y ese testimonio lo movió a pedir el hábito franciscano, que recibió ese mismo año con el nombre de Antonio.\n\nPartió hacia Marruecos con deseo de martirio, pero una enfermedad lo obligó a regresar y una tempestad llevó su barco a Sicilia. En 1221 participó en el capítulo de Asís, donde conoció a san Francisco. Después vivió retirado en el eremitorio de Montepaolo, cerca de Forlì, hasta que una ocasión improvisada reveló su sabiduría y elocuencia: fue destinado a predicar y recorrió el norte de Italia y el sur de Francia, donde combatió la herejía de los cátaros y la usura y la avaricia de su tiempo. San Francisco le encargó enseñar teología a los frailes, y fue uno de los primeros maestros de la orden, en Bolonia y probablemente en Montpellier y Toulouse; llegó a ser ministro provincial en el norte de Italia.\n\nSus sermones, que conservamos en dos series, los dominicales y los de los santos, tienen una profunda base bíblica y utilizan con abundancia imágenes de la naturaleza y de la vida cotidiana. Benedicto XVI destacó su doctrina sobre la oración, a la que describe en cuatro actitudes (súplica, oración, petición y acción de gracias), y su insistencia en el silencio interior y el amor de Dios como fuente del conocimiento espiritual. Por su arraigo en el Evangelio Pío XII le dio el título de «Doctor evangélico».\n\nEnfermo y agotado, murió el 13 de junio, a los 36 años, en Arcella, a las puertas de la ciudad. La tradición antigua menciona también Vercelli, pero la Enciclopedia Católica, en nota editorial, indica que fue en Arcella. Fue canonizado menos de un año después, el 30 de mayo de 1232, por Gregorio IX, y su sepulcro se convirtió en la basílica de Padua, una de las grandes metas de peregrinación en Europa.\n\nLas leyendas que le atribuyen milagros, como la predicación a los peces de Rímini o su aparición con el Niño Jesús en brazos, pertenecen a la tradición piadosa posterior y no a las fuentes más antiguas. El patrocinio sobre los objetos perdidos, muy popular, procede de una devoción posterior.\n\nAntonio es un ejemplo de predicador que une estudio, pobreza y caridad concreta con los pobres. Su memoria se celebra el 13 de junio.",
+  "virtues": [
+   "Pobreza",
+   "Sabiduría",
+   "Caridad con los pobres"
+  ],
+  "iconography": "Fraile franciscano con el Niño Jesús sobre un libro, lirio; a veces con un pez.",
+  "works": [
+   {
+    "title": "Sermones dominicales y festivos"
+   }
+  ],
+  "novenas": [
+   "san-antonio-de-padua"
+  ],
+  "art": "novena:san-antonio-de-padua",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Anthony of Padua»",
+    "url": "https://www.newadvent.org/cathen/01556a.htm"
+   },
+   {
+    "label": "Benedicto XVI, audiencia general sobre san Antonio de Padua (10-II-2010)",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20100210.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Primera generación de la orden franciscana; lucha contra la herejía cátara y la usura en la Italia del siglo XIII.",
+  "significance": "Gran predicador y teólogo franciscano; doctor de la Iglesia."
+ },
+ {
+  "id": "luis-gonzaga",
+  "name": "San Luis Gonzaga",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-21",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Luis Gonzaga, religioso",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious"
+  ],
+  "born": {
+   "date": "9 de marzo de 1568",
+   "place": "Castiglione delle Stiviere (Mantua)"
+  },
+  "died": {
+   "date": "21 de junio de 1591",
+   "place": "Roma"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Compañía de Jesús",
+  "canonization": {
+   "date": "1726",
+   "by": "Benedicto XIII",
+   "note": "Beatificado en 1621 por Gregorio XV"
+  },
+  "summary": "Joven noble jesuita, renunció a su título para entrar en la Compañía y murió a los 23 años atendiendo a apestados en Roma.",
+  "biography": "Luis nació el 9 de marzo de 1568 en el castillo de Castiglione, en el ducado de Mantua, hijo primogénito de una familia noble. Desde niño conoció la vida de las cortes: a los ocho años su padre lo llevó a la corte de Francisco de Médicis, en Florencia, donde permaneció dos años, y luego a Mantua. Siendo aún muy joven comenzó a vivir con seriedad su fe. En Brescia, a los doce años, recibió la primera comunión de manos de san Carlos Borromeo, que lo dirigió espiritualmente.\n\nEn 1581 acompañó a su padre a España, donde fue paje del príncipe Jaime, hijo de Felipe II. Esa estancia fortaleció su deseo de consagrarse a Dios. Tras vencer la resistencia de su padre, quien no quería perder a su heredero, renunció a sus derechos de primogénito en favor de su hermano el 2 de noviembre de 1585, renuncia que tuvo que ser aprobada por el emperador porque Castiglione era un feudo imperial. El 25 de noviembre de 1585 se presentó al padre Claudio Acquaviva, superior general de la Compañía de Jesús, y fue admitido en el noviciado de Roma.\n\nLa vida de Luis en la Compañía fue breve y sencilla. Hizo los votos el 25 de noviembre de 1587 y estudió filosofía y teología en el Colegio Romano. Se distinguió por su oración, su humildad y su penitencia, aunque sus biógrafos señalan que sus superiores debieron moderar su rigor. Sus escritos y las memorias de sus compañeros lo muestran como un joven afable, atento con los pobres y cuidadoso de su vida interior.\n\nEn 1591 una epidemia de peste y de hambre asoló Roma. Los jesuitas abrieron hospitales y Luis se ofreció, a pesar de su frágil salud, a cuidar de los enfermos. Contrajo la enfermedad el 3 de marzo, se recuperó parcialmente pero quedó muy debilitado y murió el 21 de junio de 1591, a los 23 años. Fue beatificado en 1621 por Gregorio XV y canonizado en 1726 por Benedicto XIII.\n\nLuis es presentado por la Iglesia como modelo para los jóvenes: el que renunció a una posición privilegiada por seguir a Cristo y dio la vida en el servicio a los enfermos. Su sencillez recuerda que la santidad no depende de grandes obras, sino de la fidelidad cotidiana al amor de Dios y del prójimo. Su memoria se celebra el 21 de junio.",
+  "virtues": [
+   "Pureza",
+   "Humildad",
+   "Caridad con los enfermos"
+  ],
+  "iconography": "Joven jesuita con crucifijo y lirio; a veces con una calavera.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Aloysius Gonzaga»",
+    "url": "https://www.newadvent.org/cathen/01331c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Italia de la Contrarreforma; auge de la Compañía de Jesús y de los colegios jesuitas.",
+  "significance": "Modelo de santidad juvenil en la espiritualidad jesuita."
+ },
+ {
+  "id": "juan-bautista",
+  "name": "San Juan Bautista",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-24",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "Natividad de san Juan Bautista",
+    "color": "white"
+   },
+   {
+    "date": "08-29",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Martirio de san Juan Bautista",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "old_testament",
+   "pastor"
+  ],
+  "born": {
+   "date": "siglo I a. C. (fecha desconocida)",
+   "place": "Judea, en la región montañosa (según Lc 1)"
+  },
+  "died": {
+   "date": "c. 28-32 d. C. (incierto)",
+   "place": "Maqueronte (según Flavio Josefo)"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "JO"
+  ],
+  "summary": "Precursor del Mesías, profeta que bautizaba en el Jordán y fue decapitado por orden de Herodes Antipas.",
+  "biography": "Casi todo lo que sabemos de Juan procede de los Evangelios, sobre todo de san Lucas, que narra su nacimiento y su infancia, y de un breve testimonio del historiador judío Flavio Josefo. Fue hijo del sacerdote Zacarías, del turno de Abías, y de Isabel, pariente de María. Según Lucas, un ángel anunció a Zacarías el nacimiento del niño cuando ambos eran ya ancianos; Zacarías dudó y quedó mudo hasta el día en que se le dio nombre al niño. En la visita de María a Isabel, Juan «saltó de gozo» en el seno de su madre, signo con el que la tradición cristiana ha visto su santificación anticipada. La fecha de su nacimiento es desconocida.\n\nEl Evangelio dice que vivió en el desierto hasta comenzar su ministerio público. Predicó junto al Jordán un bautismo de conversión para el perdón de los pecados y exigió a todos, a fariseos, publicanos y soldados, frutos de justicia. Tuvo discípulos, entre ellos Andrés, el futuro apóstol, y señaló a Jesús como «el Cordero de Dios». Bautizó a Jesús en el Jordán, momento en el que, según los evangelistas, se manifestó la identidad de Jesús como Hijo de Dios. Las leyendas apócrifas sobre su infancia carecen de fundamento.\n\nSu fin fue consecuencia de su libertad profética: reprochó a Herodes Antipas su unión con Herodías, esposa de su hermano, y por ello fue encarcelado. Los Evangelios cuentan que Herodías consiguió su muerte por medio de la hija que bailó en el banquete del rey, y que Juan fue decapitado. Josefo da otra motivación, complementaria: el temor de Herodes a la influencia de Juan sobre el pueblo, y sitúa su prisión en la fortaleza de Maqueronte.\n\nLa tradición cristiana lo considera el último y el mayor de los profetas del Antiguo Testamento, y el precursor inmediato de Cristo. Jesús mismo dijo de él que entre los nacidos de mujer no había nadie más grande. Su vida, marcada por la austeridad y la humildad, se resume en la frase del cuarto Evangelio: «Es preciso que él crezca y que yo disminuya» (Jn 3,30).\n\nLa liturgia le dedica dos celebraciones, algo excepcional entre los santos: la solemnidad de su Natividad el 24 de junio, que es una de las fiestas más antiguas del calendario, seis meses antes de la Navidad, y la memoria de su martirio el 29 de agosto. Sus reliquias se veneraron desde antiguo en Sebaste y luego se repartieron por distintos santuarios; el paradero de su cabeza es incierto.\n\nJuan enseña a la Iglesia a preparar el camino del Señor: invita a la conversión, a la verdad dicha sin miedo y a la alegría de reconocer que no somos nosotros el centro.",
+  "virtues": [
+   "Humildad",
+   "Valentía profética",
+   "Austeridad"
+  ],
+  "significance": "Precursor del Señor; puente entre el Antiguo y el Nuevo Testamento.",
+  "iconography": "Hombre con piel de camello, cruz de caña y cordero; a veces con una concha de bautismo o con su cabeza en una bandeja.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. John the Baptist»",
+    "url": "https://www.newadvent.org/cathen/08486b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Judea bajo dominio romano y Herodes Antipas, en el tiempo previo al ministerio público de Jesús."
+ },
+ {
+  "id": "tomas-moro",
+  "name": "Santo Tomás Moro",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-22",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Juan Fisher, obispo, y Tomás Moro, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "7 de febrero de 1477 o 1478",
+   "place": "Londres"
+  },
+  "died": {
+   "date": "6 de julio de 1535",
+   "place": "Londres (Tower Hill)"
+  },
+  "century": 16,
+  "countries": [
+   "GB"
+  ],
+  "canonization": {
+   "date": "19 de mayo de 1935",
+   "by": "Pío XI",
+   "note": "Beatificado por León XIII en 1886"
+  },
+  "summary": "Humanista, jurista y Lord Canciller de Inglaterra, autor de «Utopía», decapitado por no aceptar la supremacía de Enrique VIII sobre la Iglesia.",
+  "biography": "Tomás Moro nació en Londres el 7 de febrero de 1477 o 1478 (las fuentes antiguas discrepan sobre el año). Hijo de un juez, estudió en Oxford y derecho en Lincoln's Inn, y sintió durante un tiempo la atracción por la vida monástica antes de decidirse por el matrimonio y la vida pública. Fue padre de familia, abogado, parlamentario y amigo del humanista Erasmo de Róterdam. En 1516 publicó en Lovaina su obra más célebre, *Utopía*, una sátira social sobre una isla imaginaria con la que critica los abusos de su tiempo.\n\nEntró al servicio del rey Enrique VIII, de quien fue consejero y embajador, y en octubre de 1529 sucedió al cardenal Wolsey como Lord Canciller de Inglaterra. Ocupó el cargo menos de tres años. La causa de su ruptura con el rey fue el divorcio de Enrique de Catalina de Aragón y la pretensión del monarca de ser cabeza suprema de la Iglesia de Inglaterra. En mayo de 1532, cuando el clero cedió a las exigencias reales, Moro renunció a la cancillería, alegando razones de salud, y se retiró a la vida privada.\n\nEn marzo de 1534 el Parlamento aprobó el Acta de Sucesión, que exigía un juramento por el cual se reconocía a los hijos de Enrique y Ana Bolena como herederos legítimos y se rechazaba toda autoridad extranjera. El 14 de abril de 1534 Moro se negó a prestarlo en Lambeth. Cuatro días después fue encerrado en la Torre de Londres, donde pasó más de un año. En prisión escribió obras de meditación, como el *Diálogo del consuelo contra la tribulación*, y mantuvo correspondencia con su hija Margaret Roper.\n\nFue juzgado el 1 de julio de 1535 en Westminster Hall, acusado de alta traición por negar que el rey fuera cabeza suprema de la Iglesia. Fue condenado y la pena de ser ahorcado y descuartizado se conmutó por la decapitación. Murió el 6 de julio de 1535 en Tower Hill. Según la tradición, afirmó que moría como buen servidor del rey, pero primero de Dios; las palabras exactas varían según las fuentes.\n\nLeón XIII lo beatificó en 1886 y Pío XI lo canonizó en 1935, junto con Juan Fisher. El 31 de octubre de 2000 Juan Pablo II lo proclamó patrono de los gobernantes y de los políticos, por su fidelidad a la autoridad legítima y su deseo de servir a la justicia y no al poder.\n\nSu testimonio habla de la primacía de la conciencia y de la fidelidad a la verdad por encima de las conveniencias políticas. Se le recuerda también por su buen humor, incluso en los momentos más difíciles, y por su vida familiar y su amistad con los pobres.",
+  "virtues": [
+   "Integridad",
+   "Fidelidad a la conciencia",
+   "Buen humor ante la prueba"
+  ],
+  "patronages": [
+   "Gobernantes y políticos (proclamado por Juan Pablo II, 31-X-2000)"
+  ],
+  "iconography": "Hombre con toga y cadena de canciller, hacha y libro; a veces con birrete y pluma.",
+  "works": [
+   {
+    "title": "Utopía"
+   },
+   {
+    "title": "Diálogo del consuelo contra la tribulación"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Thomas More»",
+    "url": "https://www.newadvent.org/cathen/14689c.htm"
+   },
+   {
+    "label": "Juan Pablo II, motu proprio «E sancti Thomae Mori» (31-X-2000)",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/motu_proprio/documents/hf_jp-ii_motu-proprio_20001031_thomas-more.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Reforma inglesa y ruptura de Enrique VIII con Roma (1529-1535); humanismo renacentista.",
+  "significance": "Modelo de fidelidad cristiana en la vida pública; patrono de gobernantes y políticos."
+ },
+ {
+  "id": "juan-fisher",
+  "name": "San Juan Fisher",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-22",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Juan Fisher, obispo, y Tomás Moro, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr"
+  ],
+  "born": {
+   "date": "c. 1459 (otros: 1469)",
+   "place": "Beverley (Yorkshire)"
+  },
+  "died": {
+   "date": "22 de junio de 1535",
+   "place": "Londres (Tower Hill)"
+  },
+  "century": 16,
+  "countries": [
+   "GB"
+  ],
+  "canonization": {
+   "date": "19 de mayo de 1935",
+   "by": "Pío XI",
+   "note": "Beatificado por León XIII el 29 de diciembre de 1886"
+  },
+  "summary": "Obispo de Rochester y cardenal, el único obispo inglés que rechazó la supremacía de Enrique VIII sobre la Iglesia; decapitado en 1535.",
+  "biography": "Juan Fisher nació en Beverley, en Yorkshire, en 1459 según la Enciclopedia Católica, que recuerda que otros proponen 1469. Estudió en Cambridge, donde ingresó en 1484 en Michaelhouse, y obtuvo los grados de bachiller en 1487 y de maestro en 1491. En 1497 fue nombrado maestro de su colegio y capellán y confesor de Margarita Beaufort, madre del rey Enrique VII, una mujer piadosa y generosa mecenas de la universidad. En 1501 obtuvo el doctorado en teología y fue elegido vicecanciller de Cambridge.\n\nEl 14 de octubre de 1504 fue nombrado obispo de Rochester y ese mismo año fue elegido canciller de la universidad. Conservó la sede hasta el final de su vida, sin buscar traslados. En 1509 pronunció los sermones fúnebres de Enrique VII y de Margarita Beaufort. Fue un obispo atento a la formación del clero y a la predicación, y escribió también obras teológicas, entre ellas una de 1527 contra Ecolampadio sobre la Eucaristía. En 1512 fue designado para asistir al Concilio de Letrán V, pero el viaje a Roma no llegó a realizarse.\n\nSu conflicto con Enrique VIII nació cuando se opuso al divorcio del rey de Catalina de Aragón. En 1529 advirtió al Parlamento contra las intromisiones en los derechos de la Iglesia. En 1530, junto con otros dos obispos, apeló a la Santa Sede y fue arrestado; en 1533 estuvo preso de nuevo por poco tiempo. En 1534 se vio implicado en el asunto de la llamada «monja de Kent» y, en abril, se negó a jurar el Acta de Sucesión, por lo que fue encerrado en la Torre de Londres. Según la Enciclopedia Católica, fue el único obispo que rehusó el nuevo juramento.\n\nEn mayo de 1535 el papa Pablo III lo creó cardenal. Fue juzgado el 17 de junio de 1535 por traición, acusado de negar que el rey fuera cabeza suprema de la Iglesia de Inglaterra. Fue condenado y el 22 de junio de ese año fue decapitado en Tower Hill. Desde la cárcel mantuvo correspondencia con Tomás Moro, también prisionero, aunque el testimonio es más conocido por el lado de Moro.\n\nLeón XIII lo beatificó el 29 de diciembre de 1886, junto con otros mártires ingleses, y Pío XI lo canonizó en 1935 junto con Tomás Moro. Por eso la liturgia los celebra juntos el 22 de junio, como memoria libre.\n\nFisher es recordado como un pastor y un maestro que prefirió perder la vida antes que traicionar su conciencia y la unidad de la Iglesia. Su testimonio, unido al de Moro, sigue siendo una referencia para quienes defienden la libertad de conciencia y la libertad de la Iglesia frente al poder político, y recuerda que la fidelidad a la verdad puede exigir el sacrificio de la vida.",
+  "virtues": [
+   "Fortaleza",
+   "Pobreza",
+   "Fidelidad a la Iglesia"
+  ],
+  "iconography": "Cardenal con birrete rojo, hacha y libro; a veces con una calavera.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. John Fisher»",
+    "url": "https://www.newadvent.org/cathen/08462b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Reforma inglesa; cuestión del divorcio de Enrique VIII y Acta de Supremacía.",
+  "significance": "Único obispo inglés que se mantuvo fiel a Roma hasta la muerte; mártir de la unidad de la Iglesia."
+ },
+ {
+  "id": "ireneo-de-lyon",
+  "name": "San Ireneo de Lyon",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-28",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Ireneo, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "primera mitad del s. II (c. 115-142)",
+   "place": "Asia Menor (Esmirna, según la tradición)"
+  },
+  "died": {
+   "date": "finales del s. II o comienzos del III (c. 202)",
+   "place": "Lyon (Galia)"
+  },
+  "century": 2,
+  "countries": [
+   "TR",
+   "FR"
+  ],
+  "summary": "Obispo de Lyon, discípulo de Policarpo de Esmirna, autor de «Contra las herejías» y doctor de la Iglesia desde 2022.",
+  "biography": "Ireneo nació en Asia Menor en la primera mitad del siglo II; la fecha es discutida (entre 115 y 142 según los estudiosos). Siendo joven oyó en Esmirna a san Policarpo, discípulo de los apóstoles, y de él recibió un vínculo vivo con la tradición apostólica, que recordó toda su vida. Viajó después a la Galia y fue presbítero de la Iglesia de Lyon.\n\nDurante la persecución bajo Marco Aurelio (177), el clero de Lyon lo envió a Roma con una carta para el papa Eleuterio. A su regreso sucedió al mártir Potino como obispo de Lyon. Fue pastor y misionero, y combatió la expansión del gnosticismo, doctrina que presumía transmitir un conocimiento secreto reservado a una élite. Hacia 190-191 intervino ante el papa Víctor para evitar la ruptura con las comunidades de Asia Menor, que celebraban la Pascua en una fecha distinta, manifestando su espíritu de paz.\n\nSu obra principal es *Contra las herejías* (*Adversus haereses*), en cinco libros, que se conserva sobre todo en una antigua traducción latina. Allí expone y refuta el gnosticismo y presenta la fe de la Iglesia. Es una fuente fundamental para conocer el cristianismo de los siglos I y II y contiene testimonios sobre los Evangelios, la Eucaristía y la autoridad de la Iglesia de Roma. La *Demostración de la predicación apostólica*, que se conserva en traducción armenia, expone la fe a partir del Antiguo Testamento.\n\nSu enseñanza insiste en que la fe de la Iglesia es la misma que recibieron los apóstoles y que se transmite mediante la sucesión de los obispos; frente a la doctrina secreta de los gnósticos, la Iglesia es pública y universal. Defiende también la bondad de la creación y del cuerpo, y un solo Dios, creador y salvador. Los estudiosos suelen señalar en él la idea de la «recapitulación» de todas las cosas en Cristo.\n\nMurió a finales del siglo II o comienzos del III. La Enciclopedia Católica considera poco probable el martirio, aunque hay algún testimonio tardío que lo afirma; la liturgia lo celebra como obispo y mártir. Su fiesta en el calendario latino es el 28 de junio y en el griego el 23 de agosto.\n\nEl 21 de enero de 2022 el papa Francisco lo declaró doctor de la Iglesia, con el título de *Doctor unitatis*, subrayando que su nombre, Ireneo, expresa la paz que reconcilia y que fue puente entre Oriente y Occidente.",
+  "virtues": [
+   "Búsqueda de la unidad",
+   "Fidelidad a la tradición apostólica",
+   "Pastoral"
+  ],
+  "significance": "Primer gran teólogo de la Iglesia universal; testigo de la tradición apostólica.",
+  "iconography": "Obispo con libro y báculo, a veces pisando a un hereje.",
+  "works": [
+   {
+    "title": "Contra las herejías"
+   },
+   {
+    "title": "Demostración de la predicación apostólica"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Irenaeus»",
+    "url": "https://www.newadvent.org/cathen/08130b.htm"
+   },
+   {
+    "label": "Francisco, decreto por el que se concede el título de doctor de la Iglesia a san Ireneo de Lyon (21-I-2022)",
+    "url": "https://www.vatican.va/content/francesco/es/events/event.dir.html/content/vaticanevents/es/2022/1/21/decreto-santireneo.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "canonization": {
+   "note": "Declarado doctor de la Iglesia por Francisco el 21 de enero de 2022 («Doctor unitatis»)"
+  },
+  "context": "Persecución de Marco Aurelio y expansión del gnosticismo; Iglesia de Lyon en el siglo II."
+ },
+ {
+  "id": "marcelino-y-pedro",
+  "name": "Santos Marcelino y Pedro",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-02",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Marcelino y Pedro, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "priest"
+  ],
+  "died": {
+   "date": "c. 304 (tradición)",
+   "place": "Roma"
+  },
+  "century": 4,
+  "countries": [
+   "IT",
+   "DE"
+  ],
+  "summary": "Un presbítero y un exorcista romanos martirizados en la persecución de Diocleciano, honrados por el papa Dámaso con un epitafio.",
+  "biography": "Marcelino, sacerdote, y Pedro, exorcista, son los dos clérigos romanos que la tradición recuerda como mártires de la persecución de Diocleciano, a comienzos del siglo IV. Sus nombres figuran desde antiguo en el canon romano de la misa, lo que muestra la antigüedad y el arraigo de su culto en la Iglesia de Roma. Lo seguro es poco: que fueron venerados como mártires y que sus cuerpos reposaron en el cementerio de la vía Labicana, al este de la ciudad, en el lugar llamado «ad duas lauros».\n\nLas noticias detalladas de su vida proceden de una pasión legendaria, redactada mucho después, que cuenta que Pedro curó con su oración a la hija del carcelero Artemio y que ambos fueron condenados a ser decapitados en un bosque para que nadie conociera su sepultura, aunque dos mujeres cristianas la descubrieron. Esos pormenores deben tomarse como tradición hagiográfica y no como historia comprobada.\n\nEl testimonio más sólido es el epigrama que el papa Dámaso (366-384) compuso en su honor. El texto no se conserva en su inscripción original, sino a través de colecciones epigráficas medievales, y muestra el empeño del papa por recordar a los mártires romanos y fomentar su culto popular. Según la tradición recogida por Dámaso, el propio verdugo habría contado cómo murieron.\n\nEl cementerio de la vía Labicana, llamado también «de santa Elena» por el mausoleo imperial cercano, fue excavado desde 1896. Se descubrieron la cripta de los santos y frescos de gran calidad, entre ellos escenas bíblicas y el Buen Pastor. Allí se enterró también a san Tiburcio, y el lugar atrajo peregrinos durante siglos.\n\nEn el año 826 los cuerpos de Marcelino y Pedro fueron sustraídos de la cripta y llevados a territorio franco; según el relato de Eginhardo, el biógrafo de Carlomagno, se depositaron en Seligenstadt, en Alemania, donde se conservan sus reliquias. Esto extendió su devoción por Europa central.\n\nLa liturgia los recuerda el 2 de junio como memoria libre. Su sencilla historia muestra que la Iglesia de Roma conservó siempre la memoria de sus mártires y que el culto de los santos se apoya con frecuencia en el testimonio de la comunidad antes que en documentos biográficos. De ellos importa menos el detalle de la leyenda que la fe de quienes pagaron con su vida el ser cristianos y la gratitud de la Iglesia, que los nombra cada día en la plegaria eucarística.",
+  "context": "Persecución de Diocleciano (303-311) y culto a los mártires en las catacumbas romanas.",
+  "virtues": [
+   "Fidelidad",
+   "Perseverancia en la fe"
+  ],
+  "significance": "Nombrados en el canon romano; ejemplo de la memoria de los mártires en la Iglesia de Roma.",
+  "iconography": "Un presbítero y un joven clérigo con palma, a veces con la espada de la decapitación.",
+  "unverified": true,
+  "note": "El martirio bajo Diocleciano es tradición: la Catholic Encyclopedia no cita fuente para ello y la pasión es tardía. Solo el epitafio de Dámaso (conocido por copias medievales), el cementerio y el traslado de 826 están respaldados por la fuente leída. Falta un cotejo con el Martirologio Romano o con estudios sobre la Passio.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Early Roman Christian Cemeteries»",
+    "url": "https://www.newadvent.org/cathen/03510a.htm"
+   },
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Pope St. Marcellinus (cotejo sobre el clero martirizado)»",
+    "url": "https://www.newadvent.org/cathen/09637d.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "bonifacio",
+  "name": "San Bonifacio",
+  "fullName": "Winfrido (Bonifacio)",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-05",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Bonifacio, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr",
+   "missionary",
+   "religious"
+  ],
+  "order": "Benedictinos",
+  "born": {
+   "date": "c. 672-680",
+   "place": "Wessex (Inglaterra)"
+  },
+  "died": {
+   "date": "5 de junio de 754 o 755",
+   "place": "Dokkum (Frisia)"
+  },
+  "century": 8,
+  "countries": [
+   "GB",
+   "DE",
+   "NL"
+  ],
+  "summary": "Monje benedictino inglés, apóstol de Germania, organizador de la Iglesia franca y mártir a manos de paganos frisones.",
+  "biography": "Winfrido nació en Wessex, en el sur de Inglaterra, probablemente entre los años 672 y 680; ni la fecha ni el lugar exactos se conocen. Se formó como monje benedictino en el monasterio de Exeter y después en el de Nursling, donde fue maestro de la escuela monástica y recibió la ordenación sacerdotal hacia los treinta años. Su vocación, sin embargo, lo llamaba a la misión en el continente.\n\nSu primer intento en Frisia, en el año 716, fracasó por las guerras entre francos y frisones. Viajó entonces a Roma, y el 15 de mayo de 719 el papa Gregorio II le encomendó la predicación en tierras de Germania, al este del Rin. Trabajó en Turingia y en Hesse y, tras un breve período junto a san Willibrord en Frisia, fue consagrado obispo misionero en Roma hacia el año 722 (el 30 de noviembre, según la Enciclopedia Católica), con el nombre de Bonifacio.\n\nLa tradición recuerda que, hacia el 723, derribó cerca de Geismar un gran roble consagrado a Thor. El gesto, que la hagiografía convirtió en emblema de su misión, mostró a los hesianos que su dios no podía defender su árbol, y se considera un hito en la conversión de la región; la fecha exacta no está fijada. Bonifacio se apoyó siempre en la protección de los gobernantes francos y en la autoridad de Roma: en el 732 Gregorio III le envió el palio como arzobispo, y en el 738-739 volvió a Roma para ser nombrado legado pontificio.\n\nFue sobre todo un organizador. Fundó diócesis en Baviera y en Turingia, promovió monasterios como el de Fulda, bajo la supervisión de su discípulo Sturm, y convocó concilios de reforma, entre ellos el primer sínodo germano de 742. Su abundante correspondencia con papas, reyes y monjes ingleses, en especial con monjas que colaboraron en su misión, es un testimonio valioso del siglo VIII. Hacia 747-748 se convirtió en arzobispo de Maguncia y primado de Germania.\n\nA edad avanzada renunció a Maguncia en favor de su discípulo Lulo y volvió a Frisia, la región donde había comenzado. El 5 de junio, en Dokkum, un grupo de paganos asaltó a los cristianos que lo acompañaban y lo mató a él y a sus compañeros. Las fuentes antiguas dan como año 754 o 755 (la diferencia depende del cómputo). Sus restos fueron llevados a Utrecht, luego a Maguncia y finalmente a Fulda, conforme a su deseo.\n\nSe le llama «apóstol de Alemania». Su vida muestra la unión de misión, comunión con el obispo de Roma y reforma de la Iglesia, y su sepulcro en Fulda sigue siendo lugar de peregrinación y centro de reunión de los obispos alemanes.",
+  "context": "Reino franco del siglo VIII; cristianización de Germania y reforma de la Iglesia franca con apoyo de los mayordomos francos.",
+  "virtues": [
+   "Celo misionero",
+   "Fidelidad a Roma",
+   "Fortaleza"
+  ],
+  "significance": "Organizador de la Iglesia en Germania y reformador de la Iglesia franca.",
+  "iconography": "Obispo con un libro atravesado por una espada; hacha y roble derribado; palma.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Boniface»",
+    "url": "https://www.newadvent.org/cathen/02656a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "norberto-de-xanten",
+  "name": "San Norberto",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-06",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Norberto, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "founder",
+   "religious"
+  ],
+  "order": "Premonstratenses",
+  "born": {
+   "date": "c. 1080",
+   "place": "Xanten (Renania)"
+  },
+  "died": {
+   "date": "6 de junio de 1134",
+   "place": "Magdeburgo"
+  },
+  "century": 12,
+  "countries": [
+   "DE",
+   "FR",
+   "CZ"
+  ],
+  "canonization": {
+   "date": "1582",
+   "by": "Gregorio XIII"
+  },
+  "summary": "Canónigo convertido en predicador itinerante, fundador de la orden premonstratense y arzobispo de Magdeburgo.",
+  "biography": "Norberto nació hacia 1080 en Xanten, a orillas del Rin, en una familia noble emparentada con la casa imperial. Fue canónigo de su ciudad y vivió en la corte de Federico, arzobispo de Colonia, y del emperador Enrique V, de quien fue limosnero. Durante años llevó una existencia más cortesana que eclesial, sin tomarse en serio las obligaciones de su estado.\n\nSu conversión, según el relato más antiguo de su vida, ocurrió cuando un rayo cayó junto a su caballo y lo derribó. Quedó casi una hora como muerto y, al volver en sí, cambió de vida. Renunció a sus cargos, distribuyó sus bienes entre los pobres, recibió las órdenes sagradas y, con la aprobación del papa Gelasio II, comenzó a predicar a pie y con pobreza, llamando a la penitencia a poblaciones enteras.\n\nHacia 1119-1120, a petición del papa Calixto II y del obispo Bartolomé de Laon, fundó en Prémontré, en la diócesis de Laon, una comunidad de canónigos que combinaba vida común, oración litúrgica y servicio pastoral con una disciplina austera. De ahí nació la orden premonstratense o norbertina, que se extendió con rapidez por Francia, Alemania y Europa central. Norberto instituyó también una tercera orden para laicos. Una bula pontificia fechada el 27 de febrero de 1126 confirmó la nueva familia religiosa.\n\nPredicó con especial energía en Amberes contra las doctrinas de Tanquelmo, que negaba el valor de los sacramentos y profanaba la Eucaristía. Por eso la devoción eucarística quedó como una de las señas de identidad de la orden, junto con el cuidado de la liturgia.\n\nHacia 1126 fue obligado a aceptar el arzobispado de Magdeburgo. Allí reformó al clero, recuperó bienes de la Iglesia y se enfrentó a clérigos corruptos, lo que le acarreó oposición. Apoyó al papa Inocencio II frente al antipapa Anacleto y acompañó al emperador Lotario III a Italia. Murió en Magdeburgo el 6 de junio de 1134.\n\nFue canonizado en 1582 por Gregorio XIII. En 1627 sus restos se trasladaron a la abadía de Strahov, en Praga, y se le proclamó patrono de Bohemia. Su vida muestra cómo un cambio radical de rumbo puede dar lugar a una reforma de la Iglesia, y su familia religiosa sigue ejerciendo el ministerio parroquial y la vida contemplativa en muchos países.",
+  "context": "Reforma gregoriana y movimiento de canónigos regulares; surgimiento de nuevas formas de vida apostólica en el siglo XII.",
+  "virtues": [
+   "Penitencia",
+   "Celo apostólico",
+   "Devoción eucarística"
+  ],
+  "significance": "Fundador de los premonstratenses; reformador de la vida canonical y defensor de la fe eucarística.",
+  "iconography": "Obispo o canónigo con hábito blanco, custodia con la Eucaristía; a veces un rayo o un caballo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Norbert»",
+    "url": "https://www.newadvent.org/cathen/11100b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "efren-de-nisibis",
+  "name": "San Efrén",
+  "fullName": "Efrén el Sirio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-09",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Efrén, diácono y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "doctor",
+   "church_father",
+   "deacon",
+   "mystic"
+  ],
+  "born": {
+   "date": "c. 306",
+   "place": "Nísibis (hoy Nusaybin, Turquía)"
+  },
+  "died": {
+   "date": "junio de 373",
+   "place": "Edesa (hoy Urfa, Turquía)"
+  },
+  "century": 4,
+  "countries": [
+   "TR",
+   "SY"
+  ],
+  "canonization": {
+   "note": "Declarado doctor de la Iglesia universal por Benedicto XV en la encíclica «Principi Apostolorum Petro», 5 de octubre de 1920"
+  },
+  "summary": "Diácono sirio del siglo IV, poeta y teólogo, llamado «cítara del Espíritu Santo»; doctor de la Iglesia.",
+  "biography": "Efrén nació hacia el año 306 en Nísibis, ciudad fronteriza del imperio romano con Persia. Según el artículo de la Enciclopedia Católica, su padre era pagano; en su juventud fue instruido y bautizado por el obispo Santiago de Nísibis, junto al cual vivió las etapas de asedio de la ciudad por los persas. Se dedicó al estudio de las Escrituras y a la enseñanza, y colaboró con el obispo en la vida moral y espiritual de la comunidad.\n\nEn el año 363 el emperador Joviano cedió Nísibis a Persia tras un tratado, y los cristianos de la ciudad tuvieron que abandonarla. Efrén se estableció en Edesa, donde pasó los últimos diez años de su vida. Los antiguos testimonios lo presentan como diácono y la tradición, que cita Benedicto XV, afirma que san Basilio lo ordenó diácono; en todo caso nunca aspiró al presbiterado ni al episcopado. Vivió con austeridad, enseñando y cuidando de los pobres: durante una hambruna, según la encíclica de 1920, los ayudó con generosidad.\n\nSu obra es casi toda poética. Escribió comentarios bíblicos, homilías y sobre todo himnos y «madrashé», cantos catequéticos que se cantaban en las comunidades con coros de mujeres y de varones, sobre el misterio de la Natividad, de la Pascua, de la Iglesia, del Paraíso y de la Virgen María. Con esos versos popularizó la enseñanza ortodoxa y contrarrestó la predicación de los seguidores de Bardesanes y de otros grupos heterodoxos, que se habían servido también de himnos para difundir sus ideas. Los siríacos lo llamaron «sol de los sirios», y la tradición occidental, «cítara del Espíritu Santo».\n\nEn su teología destacan la reverencia ante el misterio de Dios, que no puede ser reducido a la razón, y el uso de imágenes y símbolos para hablar de lo divino. La encíclica de Benedicto XV subraya su doctrina sobre la Eucaristía, el sacerdocio, el primado de Pedro y, de manera especial, su devoción a la Virgen María, a la que alaba por su pureza y su maternidad divina.\n\nMurió en Edesa en junio del año 373. Los monjes armenios del monasterio de San Sergio, según la Enciclopedia Católica, afirmaban poseer sus reliquias. Su culto se difundió pronto, y san Jerónimo lo menciona unos veinte años después de su muerte. El 5 de octubre de 1920 Benedicto XV lo declaró doctor de la Iglesia universal.\n\nSu figura recuerda que la teología puede ser también oración y música, y que la belleza de un canto bien compuesto puede transmitir la fe a la gente sencilla. Es una de las grandes voces de la tradición siríaca, venerada por las Iglesias orientales y occidentales. La liturgia latina lo recuerda el 9 de junio.",
+  "context": "Frontera romano-persa del siglo IV; auge del arrianismo y de las doctrinas gnósticas en el cristianismo sirio.",
+  "virtues": [
+   "Humildad",
+   "Caridad con los pobres",
+   "Devoción mariana"
+  ],
+  "significance": "Mayor poeta y teólogo de la tradición siríaca; doctor de la Iglesia.",
+  "iconography": "Diácono con dalmática, a veces con una cítara o un rollo; ermitaño con rollo de pergamino.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Ephraem»",
+    "url": "https://www.newadvent.org/cathen/05498a.htm"
+   },
+   {
+    "label": "Benedicto XV, encíclica «Principi Apostolorum Petro» (5-X-1920)",
+    "url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_05101920_principi-apostolorum-petro.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "romualdo",
+  "name": "San Romualdo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-19",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Romualdo, abad",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "mystic"
+  ],
+  "order": "Camaldulenses",
+  "born": {
+   "date": "c. 950 (otros: c. 907)",
+   "place": "Rávena"
+  },
+  "died": {
+   "date": "19 de junio de 1027",
+   "place": "Val di Castro (Marcas)"
+  },
+  "century": 11,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Monje y ermitaño de Rávena, reformador monástico en Italia y origen de la orden camaldulense.",
+  "biography": "Romualdo nació en Rávena, probablemente hacia el año 950, de una familia noble. Pedro Damián, su biógrafo, y los escritores camaldulenses afirmaron que murió a los 120 años, lo que lo haría nacer hacia 907; la mayoría de los autores modernos rechaza esa cuenta por incoherente con otros hechos conocidos y sitúa su nacimiento hacia mediados del siglo X.\n\nSegún su biografía, llevó una juventud disipada hasta que, a los veinte años, quedó conmovido por el duelo en el que su padre mató a un hombre. Para hacer penitencia por ese crimen entró en la abadía de San Apolinar de Classe, junto a Rávena. La disciplina del monasterio, sin embargo, no le pareció suficiente y se retiró a Venecia, bajo la dirección del ermitaño Marino. Allí aprendió una vida de gran austeridad, y se relacionó con el dux Pedro Orseolo, quien hacia 978 abdicó movido por el remordimiento y se retiró a Cuxa, en Cataluña; Romualdo y Marino lo acompañaron y construyeron una ermita junto al monasterio.\n\nDurante unos treinta años recorrió Italia reformando monasterios y fundando ermitas. Entre ellas se cuenta la de Val di Castro, donde estuvo en 1005. En 1012 llegó a Vallombrosa y luego a la diócesis de Arezzo, donde, según la tradición, un propietario llamado Maldolo le cedió unas tierras en los Apeninos; allí nació Camaldoli, casa madre de la orden camaldulense, que une la vida eremítica y la cenobítica: celdas separadas para el silencio y la oración, y una vida común para la liturgia.\n\nSu espiritualidad se resume en la soledad, el silencio y la oración continua del salmo, con una insistencia en la paz y la pobreza. Pedro Damián lo describe como un hombre de visiones, severo consigo mismo y paciente con los demás. Fundó o reformó numerosos eremitorios y monasterios en Italia, y su influencia alcanzó también a otros países.\n\nMurió solo, en su celda de Val di Castro, el 19 de junio de 1027, como había anunciado. Sobre su tumba se erigió un altar en 1032; en 1466 se encontró su cuerpo incorrupto y en 1481 se trasladó a Fabriano. Clemente VIII fijó su fiesta el 7 de febrero en 1595, y el calendario de 1969 la trasladó al 19 de junio, como memoria libre.\n\nLa Enciclopedia Católica señala que la fecha exacta de la construcción de las celdas de Camaldoli es incierta. Más allá de las incertidumbres cronológicas, Romualdo ofrece a la Iglesia un testimonio de que la búsqueda de Dios en la soledad es también un servicio a la comunidad.",
+  "context": "Reforma monástica italiana de los siglos X-XI y renacimiento del eremitismo.",
+  "virtues": [
+   "Austeridad",
+   "Contemplación",
+   "Penitencia"
+  ],
+  "significance": "Origen de la familia camaldulense y renovador del eremitismo occidental.",
+  "iconography": "Monje con hábito blanco, con un bastón; la visión de la escala con monjes de blanco subiendo al cielo (según la tradición).",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Romuald»",
+    "url": "https://www.newadvent.org/cathen/13179b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "paulino-de-nola",
+  "name": "San Paulino de Nola",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-22",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Paulino de Nola, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "church_father",
+   "married"
+  ],
+  "born": {
+   "date": "c. 354",
+   "place": "Burdeos (Galia)"
+  },
+  "died": {
+   "date": "22 de junio de 431",
+   "place": "Nola (Campania)"
+  },
+  "century": 5,
+  "countries": [
+   "FR",
+   "ES",
+   "IT"
+  ],
+  "summary": "Aristócrata aquitano, funcionario y poeta, que renunció a sus bienes, se hizo monje junto a la tumba de san Félix en Nola y fue obispo de esa ciudad.",
+  "biography": "Paulino nació hacia el año 354 en Burdeos, en una familia senatorial de Aquitania, y tuvo por maestro al poeta Ausonio. Recibió la mejor educación de su tiempo y fue gobernador de la provincia de Campania. Dejó la vida pública y vivió un tiempo en su tierra natal. En su conversión influyeron su esposa Therasia, el obispo Delfín de Burdeos, el presbítero Amando y san Martín de Tours. Fue bautizado por Delfín y comenzó a considerar el cristianismo como un compromiso que exigía renunciar a las riquezas.\n\nHacia el año 390 se retiró con Therasia a España, donde vivieron una vida de ascetismo en el matrimonio. En 394 o 395, en Barcelona, el pueblo lo obligó a recibir la ordenación sacerdotal sin que estuviera preparado; él la aceptó con la condición de no quedar ligado a esa Iglesia. Poco después se estableció en Nola, junto al sepulcro del mártir san Félix, donde vivió con sencillez, repartiendo sus bienes entre los pobres y financiando obras como un acueducto y varias basílicas, entre ellas la de San Félix.\n\nHacia el año 409 fue elegido obispo de Nola y desempeñó el cargo durante unos veinte años. Fue célebre por su caridad y su atención a los más necesitados. Se conservan 49 cartas, algunas dirigidas a Sulpicio Severo y a san Agustín, y 33 poemas, entre ellos un himno que componía cada año por la fiesta de san Félix y un canto nupcial. Sus cartas muestran una amistad espiritual con muchas figuras de su tiempo y un cristianismo que une la poesía con la fe.\n\nSus poemas natalicios son una fuente valiosa sobre la devoción popular a los mártires y sobre la construcción de las basílicas funerarias del siglo V. Paulino describió con detalle las pinturas del santuario de Félix, pensadas para instruir a los peregrinos que acudían de la campiña, y mostró así el valor pastoral del arte cristiano.\n\nMurió el 22 de junio del año 431. Sus restos fueron trasladados a Roma y, por disposición de Pío X en 1908, devueltos a la catedral de Nola. Aunque las tradiciones tardías le atribuyen la invención de las campanas, la Enciclopedia Católica indica que esa atribución es errónea.\n\nPaulino es un ejemplo de cómo la cultura clásica y la fe cristiana pueden armonizarse. Su vida muestra que la renuncia a las riquezas, vivida junto con el cónyuge y con una dedicación generosa a los pobres, es un camino de santidad plenamente posible en la vida cotidiana. La Iglesia lo recuerda el 22 de junio.",
+  "context": "Aristocracia galorromana cristianizada a fines del siglo IV; auge del culto a los mártires y del monacato.",
+  "virtues": [
+   "Desprendimiento",
+   "Caridad con los pobres",
+   "Amistad espiritual"
+  ],
+  "significance": "Poeta cristiano y obispo que unió cultura clásica y ascesis evangélica.",
+  "iconography": "Obispo con báculo, a veces distribuyendo limosna o con una campana (atribución tardía).",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Paulinus of Nola»",
+    "url": "https://www.newadvent.org/cathen/11585b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "josemaria-escriva",
+  "name": "San Josemaría Escrivá",
+  "fullName": "Josemaría Escrivá de Balaguer",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-26",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Josemaría Escrivá, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder"
+  ],
+  "order": "Opus Dei",
+  "born": {
+   "date": "9 de enero de 1902",
+   "place": "Barbastro (España)"
+  },
+  "died": {
+   "date": "26 de junio de 1975",
+   "place": "Roma"
+  },
+  "century": 20,
+  "countries": [
+   "ES",
+   "IT"
+  ],
+  "canonization": {
+   "date": "6 de octubre de 2002",
+   "by": "Juan Pablo II",
+   "note": "Beatificado el 17 de mayo de 1992"
+  },
+  "summary": "Sacerdote aragonés, fundador del Opus Dei, que enseñó que el trabajo ordinario y la vida cotidiana son camino de santidad.",
+  "biography": "Josemaría Escrivá nació en Barbastro, en Aragón, el 9 de enero de 1902, y fue bautizado el 13 de enero. Sintió pronto la llamada al sacerdocio y fue ordenado presbítero en Zaragoza el 28 de marzo de 1925. Celebró su primera misa solemne en la basílica del Pilar dos días después,. Más tarde se estableció en Madrid.\n\nEl 2 de octubre de 1928, en Madrid, comprendió que Dios le pedía fundar el Opus Dei, una institución destinada a recordar a los cristianos que están llamados a la santidad en medio del mundo, mediante el trabajo bien hecho, la vida familiar y las relaciones sociales ordinarias. El 14 de febrero de 1930 entendió que la obra debía incluir también a mujeres. En 1934 publicó la primera versión de lo que más tarde sería *Camino*, un libro de breves puntos de meditación que se difundió por todo el mundo; le seguirían *Surco* y *Forja*.\n\nLa guerra civil española (1936-1939) interrumpió el trabajo de la naciente institución. En 1943 se fundó, dentro de la obra, la Sociedad Sacerdotal de la Santa Cruz, para sacerdotes procedentes de los laicos de la institución. En 1946 se trasladó a Roma, donde residió hasta su muerte. El 24 de febrero de 1947 Pío XII concedió el *decretum laudis* y el 16 de junio de 1950 llegó la aprobación definitiva.\n\nSu mensaje central es que el trabajo ordinario, ofrecido a Dios y hecho con competencia y amor, puede convertirse en oración y en apostolado, y que no hace falta salir del mundo para ser santo. Insistió en la unidad de vida, en la filiación divina y en la santificación de lo cotidiano. Esta enseñanza fue recogida por el Concilio Vaticano II al hablar de la llamada universal a la santidad, aunque el santo la había predicado desde 1928.\n\nMurió el 26 de junio de 1975 en su despacho de Roma, a causa de un paro cardíaco. Juan Pablo II lo beatificó el 17 de mayo de 1992 y lo canonizó el 6 de octubre de 2002 ante una gran multitud en la plaza de San Pedro. En su homilía lo presentó como el santo de lo ordinario y subrayó su convicción de que la vida cotidiana puede ser camino de santidad. Su memoria litúrgica se celebra el 26 de junio.\n\nSu figura ha suscitado también debates sobre la institución que fundó; la Iglesia reconoce su santidad personal y su aporte a la teología del laicado y de la santificación del trabajo, que es ya un patrimonio común de toda la Iglesia.",
+  "context": "España del siglo XX, guerra civil y renovación del laicado católico antes del Concilio Vaticano II.",
+  "virtues": [
+   "Vida de oración",
+   "Amor al trabajo",
+   "Filiación divina"
+  ],
+  "significance": "Pionero de la enseñanza sobre la llamada universal a la santidad y la santificación del trabajo.",
+  "iconography": "Sacerdote con sotana y sobrepelliz; a veces con un libro (Camino).",
+  "sources": [
+   {
+    "label": "Santa Sede, perfil biográfico del beato Josemaría Escrivá de Balaguer (canonización, 6-X-2002)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20021006_escriva_en.html"
+   },
+   {
+    "label": "Juan Pablo II, homilía en la canonización de Josemaría Escrivá (6-X-2002)",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2002/documents/hf_jp-ii_hom_20021006_escriva.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "unverified": true,
+  "note": "Datos biográficos leídos en el perfil de la Santa Sede. No se leyó una fuente sobre la inclusión de la memoria en el Calendario Romano General (2019) ni sobre los años de Madrid y la guerra civil; verificar."
+ },
+ {
+  "id": "cirilo-de-alejandria",
+  "name": "San Cirilo de Alejandría",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-27",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Cirilo de Alejandría, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "place": "Alejandría (probable), hacia fines del s. IV"
+  },
+  "died": {
+   "date": "444",
+   "place": "Alejandría"
+  },
+  "century": 5,
+  "countries": [
+   "EG"
+  ],
+  "summary": "Patriarca de Alejandría (412-444), defensor del título de «Madre de Dios» frente a Nestorio y figura central del concilio de Éfeso (431).",
+  "biography": "Cirilo era sobrino de Teófilo, patriarca de Alejandría. Posiblemente fue monje en su juventud, y en el año 402 acompañó a su tío al Sínodo de la Encina, que depuso a san Juan Crisóstomo. Su biografía anterior al episcopado es incierta. Teófilo murió el 15 de octubre de 412 y Cirilo fue consagrado su sucesor tres días después, tras un enfrentamiento con los partidarios de un candidato rival.\n\nSus primeros años como patriarca estuvieron marcados por tensiones con otros grupos de la ciudad. Según la Enciclopedia Católica, cerró las iglesias de los novacianos y expulsó a los judíos de Alejandría después de disturbios. Su rivalidad con el prefecto Orestes dio lugar a incidentes violentos; un grupo de monjes lo apoyó y uno de ellos fue ejecutado, y Cirilo honró sus restos como los de un mártir. En ese contexto murió asesinada la filósofa Hipatia a manos de una turba dirigida por un lector llamado Pedro. La responsabilidad de Cirilo es discutida: el historiador Sócrates, cristiano, consideró que el hecho manchó a la Iglesia de Alejandría, y el testimonio de Damascio, que lo acusa directamente, es tardío y hostil al cristianismo. Estos episodios muestran un carácter impetuoso, que es parte de su historia.\n\nSu gran aportación fue teológica. Entre 427 y 428 Nestorio se convirtió en patriarca de Constantinopla y puso en cuestión el título de *Theotokos* («Madre de Dios») para María. Cirilo lo defendió en su carta pascual de 429, y afirmó que en Cristo el Verbo se hizo carne y que, por eso, María es madre de Dios hecho hombre, sin dividir a Cristo en dos personas. El concilio de Éfeso, que se abrió el 22 de junio de 431, bajo su presidencia, depuso y excomulgó a Nestorio; los legados del papa llegaron el 10 de julio y confirmaron la sentencia. Su segunda carta a Nestorio fue aprobada por el concilio.\n\nLa fórmula cirílica «una sola naturaleza encarnada del Verbo de Dios» fue más tarde mal interpretada por quienes defendían una sola naturaleza en Cristo (el monofisismo) y sirvió a sus tesis tras su muerte, pero Cirilo defendió la unión sin confusión de la divinidad y de la humanidad. Tras Éfeso, él mismo fue acusado de apolinarismo por Juan de Antioquía y los suyos, hasta que se llegó a la reconciliación.\n\nDejó numerosos comentarios bíblicos (al Pentateuco, Isaías, los profetas menores, Juan y Lucas), tratados sobre la Trinidad, la obra *Sobre la adoración en espíritu y en verdad* y *Contra Juliano el Apóstata*. Murió en 444, tras unos 32 años de episcopado, el 27 de junio según el calendario latino actual.\n\nLa Iglesia lo venera como doctor, aunque su figura no está libre de sombras. Su legado es doctrinal: confesó que Jesús es Dios y hombre en una sola persona, y que María es verdaderamente la Madre de Dios.",
+  "context": "Disputas cristológicas del siglo V y rivalidades entre las sedes de Alejandría, Antioquía y Constantinopla.",
+  "virtues": [
+   "Firmeza doctrinal",
+   "Celo por la ortodoxia"
+  ],
+  "significance": "Gran defensor de la unidad de la persona de Cristo y del título «Madre de Dios»; doctor de la Iglesia.",
+  "iconography": "Obispo con libro y pluma; a veces con la imagen de la Virgen con el Niño.",
+  "unverified": true,
+  "note": "La Enciclopedia Católica indica que murió el 9 o el 27 de junio y que la Misa y Oficio como doctor fueron aprobados por León XIII en 1883; el título de doctor (1882) no se contrastó con una fuente leída. La participación personal de Cirilo en la violencia de Alejandría es debatida. Fecha de nacimiento no confirmada.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Cyril of Alexandria»",
+    "url": "https://www.newadvent.org/cathen/04592b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "protomartires-de-roma",
+  "name": "Santos Protomártires de la Iglesia de Roma",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "06-30",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Protomártires de la Iglesia de Roma",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "lay"
+  ],
+  "died": {
+   "date": "64 d. C. (tras el incendio de Roma)",
+   "place": "Roma (jardines de Nerón, Vaticano)"
+  },
+  "century": 1,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Cristianos romanos ejecutados bajo Nerón tras el incendio del año 64, primeras víctimas de la persecución en Roma.",
+  "biography": "La memoria del 30 de junio, al día siguiente de la solemnidad de san Pedro y san Pablo, recuerda a los cristianos de Roma que murieron mártires bajo el emperador Nerón. Son, según el martirologio, discípulos de los apóstoles y «primicias» que la Iglesia de Roma ofreció a Cristo. No conocemos sus nombres ni su número exacto, por lo que se los celebra como un grupo anónimo.\n\nEl testimonio histórico más importante es el del historiador romano Tácito (*Anales* XV, 44), que escribió a comienzos del siglo II. Cuenta que, tras el incendio de Roma en el año 64, corrió el rumor de que el propio Nerón lo había ordenado. Para acallarlo, el emperador acusó a los cristianos, un grupo odiado por el pueblo, y los sometió a castigos crueles. Tácito recuerda que su fundador, Cristo, había sido ejecutado bajo Tiberio por el procurador Poncio Pilato. Una gran multitud fue condenada, no tanto por el incendio como por su supuesto «odio al género humano».\n\nSegún el historiador, murieron entre burlas: algunos, cubiertos con pieles de animales, fueron despedazados por perros; otros fueron crucificados o quemados como antorchas para iluminar de noche los jardines de Nerón, donde el emperador ofreció un espectáculo. Pero el castigo despertó compasión entre el pueblo, porque parecía responder a la crueldad de un solo hombre y no al bien público. Tácito, que era hostil al cristianismo, es una fuente independiente y por eso especialmente valiosa.\n\nEsta persecución fue local y limitada a Roma, pero marcó la memoria de la Iglesia. La tradición cristiana coloca en el mismo contexto el martirio de Pedro y Pablo.\n\nEl Calendario Romano reformado en 1969 situó la memoria el 30 de junio. No se trata de una celebración de santos conocidos, sino de un homenaje a todos los testigos anónimos de la fe de los primeros tiempos. Si se afirma una cifra, como suele hacerse en algunos devocionarios, debe tomarse como cálculo no documentado.\n\nPara la Iglesia de Roma, estos mártires son el cimiento del testimonio de Pedro y Pablo. Su recuerdo muestra que la fe cristiana, desde sus comienzos, fue confesada con la vida, y que la Iglesia se construyó sobre la sangre de los testigos.",
+  "context": "Roma de Nerón, incendio del año 64 y primera persecución imperial de cristianos.",
+  "virtues": [
+   "Fidelidad",
+   "Perseverancia en el sufrimiento"
+  ],
+  "significance": "Primeros mártires de la Iglesia de Roma; testimonio de Tácito sobre su condena.",
+  "iconography": "Grupo de cristianos entre fieras o llamas, con palmas; Coliseo o circo de Nerón al fondo.",
+  "unverified": true,
+  "note": "El relato de Tácito se leyó en la edición de Perseus. No se leyó el texto del Martirologio Romano ni la carta de Clemente (la alusión a una «gran multitud» es de memoria); verificar. No se afirma una cifra de mártires.",
+  "sources": [
+   {
+    "label": "Tácito, Anales XV, 44 (Perseus Digital Library)",
+    "url": "https://www.perseus.tufts.edu/hopper/text?doc=Tac.+Ann.+15.44"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "sacred-heart",
+  "name": "Sagrado Corazón de Jesús",
+  "status": "mystery",
+  "celebrations": [
+   {
+    "date": "06-12",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "Sacratísimo Corazón de Jesús",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "mystic"
+  ],
+  "summary": "Solemnidad móvil: el viernes siguiente al segundo domingo después de Pentecostés, en honor del amor de Cristo representado en su Corazón.",
+  "biography": "La solemnidad del Sacratísimo Corazón de Jesús se celebra el viernes siguiente al segundo domingo después de Pentecostés, por lo que su fecha cambia cada año según la Pascua. La fecha 12 de junio con la que figura en esta ficha es solo aproximada, tomada de 2026; la fecha real la calcula el calendario litúrgico de la aplicación.\n\nLa devoción se apoya en la Escritura: Jesús se presenta como «manso y humilde de corazón» (Mt 11,29) y el Evangelio de Juan narra que de su costado abierto brotaron sangre y agua (Jn 19,34). El Corazón, de carne, es el signo del amor de Cristo por los hombres, y la devoción lo recuerda con un espíritu de reparación y de correspondencia de amor.\n\nSegún la Enciclopedia Católica, durante los primeros diez siglos se meditaba el costado abierto de Cristo, pero no hay indicios claros de un culto específico al Corazón herido. Las primeras señales aparecen en los siglos XI y XII, en ambientes benedictinos y cistercienses, y con santa Matilde y santa Gertrudis (siglo XIII) la devoción se desarrolla en la mística. En el siglo XVI se practicó con oraciones y ejercicios definidos y en el XVII se extendió entre los jesuitas y otros santos, como san Francisco de Sales.\n\nSan Juan Eudes (1602-1680) le dio un carácter público, con oficio y fiesta, que se celebró por primera vez el 31 de agosto de 1670 en Rennes. Entre 1673 y 1675, santa Margarita María Alacoque tuvo en Paray-le-Monial las revelaciones que pidieron una fiesta de reparación y la comunión de los primeros viernes de mes; el jesuita san Claudio de la Colombière la apoyó. Roma concedió indulgencias a las cofradías en 1693 y la fiesta a las visitandinas en 1697. En 1856 Pío IX extendió la fiesta a toda la Iglesia, y el 11 de junio de 1899 León XIII consagró la humanidad al Sagrado Corazón. En 1889 la fiesta fue elevada a doble de primera clase y, tras la reforma litúrgica, es solemnidad.\n\nEl Directorio sobre la piedad popular y la liturgia (2002) recomienda formas como la consagración personal y familiar, las Letanías del Corazón de Jesús (1891), el acto de reparación y la práctica de los nueve primeros viernes, siempre acompañadas de conversión, reparación y amor a Dios y al prójimo. Recomienda además que las imágenes expresen su contenido teológico y se prefiera representarlo en la Crucifixión.\n\nLa devoción al Sagrado Corazón recuerda que el centro del cristianismo no es una idea, sino el amor concreto de Dios hecho carne, y que ese amor reclama una respuesta de confianza y de entrega.",
+  "context": "Piedad eucarística y reparadora desde la Edad Media; revelaciones de Paray-le-Monial en el siglo XVII.",
+  "significance": "Una de las devociones más difundidas del catolicismo; solemnidad del Señor.",
+  "iconography": "Corazón con llama, corona de espinas, cruz y herida de la lanza; Cristo mostrando su Corazón.",
+  "note": "Solemnidad móvil (viernes después del segundo domingo posterior a Pentecostés). La fecha 06-12 es la de 2026, aproximada; el calendario litúrgico de la app (liturgy.ts, easter+68) la calcula. La categoría «mystic» se eligió por falta de una categoría específica para devociones del Señor.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Devotion to the Sacred Heart of Jesus»",
+    "url": "https://www.newadvent.org/cathen/07163a.htm"
+   },
+   {
+    "label": "Congregación para el Culto Divino, Directorio sobre la piedad popular y la liturgia (2002), nn. 166-174",
+    "url": "https://www.vatican.va/content/dam/wss/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "immaculate-heart",
+  "name": "Inmaculado Corazón de María",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "06-13",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Inmaculado Corazón de la Bienaventurada Virgen María",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Memoria móvil: el sábado siguiente a la solemnidad del Sagrado Corazón, que celebra el amor materno y la santidad de María.",
+  "biography": "La memoria del Inmaculado Corazón de María se celebra al día siguiente de la solemnidad del Sagrado Corazón de Jesús, es decir, el sábado posterior al segundo domingo después de Pentecostés. Por eso su fecha cambia cada año: la que aparece en esta ficha (13 de junio) es solo aproximada y corresponde a 2026. El calendario litúrgico de la aplicación la calcula según la Pascua.\n\nEl Directorio sobre la piedad popular y la liturgia (2002) explica que esta memoria es muestra de la estrecha relación entre ambas devociones. La devoción al Corazón de María se apoya en la imagen que el Evangelio de Lucas ofrece de ella cuando dice que guardaba todas las cosas y las meditaba en su corazón (Lc 2,19.51): el corazón de María es el lugar de la escucha de la Palabra, de la fe y de la ofrenda. Al llamarlo inmaculado, se confiesa que su amor está libre de pecado y totalmente unido a la voluntad de Dios.\n\nSegún la misma fuente, la devoción se difundió ampliamente después de las apariciones de Fátima en 1917. En 1942, a los veinticinco años de esas apariciones, Pío XII consagró la Iglesia y el género humano al Corazón Inmaculado de María, y en 1944 extendió la fiesta a toda la Iglesia. Entre las prácticas que acompañan la devoción se cuentan la consagración, la reparación y la práctica de los cinco primeros sábados de mes.\n\nLa reforma litúrgica de 1969 situó la celebración como memoria el día después del Sagrado Corazón. Con ello se recuerda que el Corazón de María no es un fin en sí mismo, sino que conduce siempre al de su Hijo: María es, para los cristianos, la primera discípula y la que mejor sabe amar a Cristo.\n\nEn la espiritualidad contemporánea el Corazón inmaculado de María es signo de refugio y de consuelo para los pecadores y para los que sufren. Los papas han renovado en diversas ocasiones el acto de consagración al Corazón Inmaculado de María.\n\nQuien se acerca a María con confianza aprende a acoger la Palabra, a perseverar en la oración y a estar al pie de la cruz, junto a todos los que sufren.",
+  "context": "Devoción mariana moderna, difundida de manera notable tras las apariciones de Fátima (1917).",
+  "significance": "Expresión del vínculo entre el Corazón de Cristo y el de su Madre.",
+  "iconography": "Corazón rodeado de rosas blancas, atravesado por una espada, con llama; la Virgen mostrando su Corazón.",
+  "note": "Memoria móvil: sábado después del segundo domingo posterior a Pentecostés (día siguiente al Sagrado Corazón). La fecha 06-13 corresponde a 2026 y es aproximada; liturgy.ts la calcula (easter+69).",
+  "sources": [
+   {
+    "label": "Congregación para el Culto Divino, Directorio sobre la piedad popular y la liturgia (2002), n. 174",
+    "url": "https://www.vatican.va/content/dam/wss/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ }
+]

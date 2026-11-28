@@ -1,0 +1,127 @@
+{
+  "id": "heridas-afectivas",
+  "title": "Novena para sanar las heridas afectivas",
+  "group": "health",
+  "description": "Para acompañar con oración la sanación de heridas emocionales y relacionales, junto a ayuda profesional si hace falta.",
+  "image": {
+    "icon": "heart",
+    "tint": "#a06a7a"
+  },
+  "introduction": "Las heridas afectivas (abandono, rechazo, abusos, duelos, traiciones) pueden marcar la vida durante años. La tradición cristiana habla de un Cristo que «sana a los de corazón quebrantado y venda sus heridas» (Sal 147,3; Lc 4,18). La gracia no suprime la naturaleza: sana y se sirve también de la psicología y de la medicina.",
+  "purpose": "Ofrecer un tiempo de oración con ternura hacia uno mismo y hacia Dios. No sustituye la terapia psicológica ni el acompañamiento espiritual; si hubo abuso o trauma, buscar profesionales formados es una forma de cuidar lo que Dios creó. Si en algún momento tienes pensamientos de hacerte daño, llama de inmediato a los servicios de emergencia de tu país o acude a un servicio de salud.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, acércate a mi corazón herido. Que tu presencia me dé la seguridad de que puedo mirar mi historia sin miedo. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Dios cura a los quebrantados",
+      "reading": "Sal 147,3",
+      "reflection": "Dios venda las heridas. Hoy no tengo que resolver nada; basta con dejarme mirar por él con ternura.",
+      "prayer": "Señor, aquí estoy, con lo que traigo."
+    },
+    {
+      "day": 2,
+      "title": "Nombrar lo que duele",
+      "reading": "Sal 6,3-4",
+      "reflection": "El salmista dice su dolor con crudeza. Nombrar, escribir o contar mi herida a alguien de confianza ya es sanar un poco.",
+      "prayer": "Dios mío, dame valor para llamar a las cosas por su nombre."
+    },
+    {
+      "day": 3,
+      "title": "Jesús llora",
+      "reading": "Jn 11,33-36",
+      "reflection": "Jesús se conmueve y llora por su amigo. Dios no minimiza el dolor. Puedo dejarme consolar.",
+      "prayer": "Jesús, gracias por llorar conmigo."
+    },
+    {
+      "day": 4,
+      "title": "Ternura hacia mí",
+      "reading": "Sal 103,13",
+      "reflection": "Como un padre siente ternura por sus hijos, siente el Señor ternura por quienes le temen. Me trato con la compasión con la que Dios me trata.",
+      "prayer": "Padre, ayúdame a tratarme con mansedumbre."
+    },
+    {
+      "day": 5,
+      "title": "No todo fue culpa mía",
+      "reading": "Jn 9,2-3",
+      "reflection": "Los discípulos buscan culpables; Jesús no. Distingo entre responsabilidad y lo que sufrí sin culpa.",
+      "prayer": "Señor, libérame de culpas que no son mías."
+    },
+    {
+      "day": 6,
+      "title": "Perdonar a su ritmo",
+      "reading": "Mt 18,21-22",
+      "reflection": "Perdonar es un camino. No hay que forzar sentimientos; se puede empezar por querer perdonar. Perdonar no obliga a volver con quien daña.",
+      "prayer": "Señor, enséñame a soltar sin ponerme en peligro."
+    },
+    {
+      "day": 7,
+      "title": "Pedir ayuda profesional",
+      "reading": "Si 38,1-4",
+      "reflection": "Honra al médico con el honor que merece, pues también a él lo creó el Señor. Acudir a un psicólogo o terapeuta es cuidar un don.",
+      "prayer": "Dios mío, guíame hacia las personas que pueden ayudarme."
+    },
+    {
+      "day": 8,
+      "title": "Hacerse compañero de otros",
+      "reading": "2 Co 1,3-4",
+      "reflection": "Dios nos consuela para que podamos consolar. Con el tiempo, la herida sanada se vuelve capacidad de acompañar.",
+      "prayer": "Señor, que mi historia sea también consuelo para otros."
+    },
+    {
+      "day": 9,
+      "title": "Nueva identidad",
+      "reading": "Is 43,1.4",
+      "reflection": "«Te he llamado por tu nombre; eres mío.» Mi valor no depende de lo que me hicieron. Soy amado.",
+      "prayer": "Jesús, afirma en mí que soy hijo amado. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Jesús, médico de las almas, sigue sanando lo que aún duele y haz de mi herida lugar de compasión. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "tags": [
+    "heridas afectivas",
+    "novena",
+    "composición de Lux"
+  ]
+}

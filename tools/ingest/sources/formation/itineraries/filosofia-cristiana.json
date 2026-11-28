@@ -1,0 +1,136 @@
+{
+ "id": "filosofia-cristiana",
+ "title": "Filosofía cristiana",
+ "description": "Fe y razón, vías de acceso a Dios y grandes figuras del pensamiento cristiano.",
+ "level": "intermedio",
+ "lessons": [
+  {
+   "title": "Fe y razón",
+   "body": [
+    "La fe y la razón son como dos alas para elevarse a la contemplación de la verdad, según el comienzo de Fides et ratio. El Catecismo enseña que no puede haber contradicción real entre ambas (CEC 159)."
+   ],
+   "ccc": [
+    159
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "church",
+     "fides-et-ratio",
+     "Fides et ratio"
+    ]
+   ],
+   "questions": [
+    "¿Puede haber conflicto entre fe y razón?"
+   ]
+  },
+  {
+   "title": "Vías hacia Dios",
+   "body": [
+    "La razón humana puede conocer a Dios por el mundo y por la persona (CEC 31-35)."
+   ],
+   "ccc": [
+    31,
+    32,
+    33,
+    34,
+    35
+   ],
+   "bible": [
+    "Rm 1,20"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "31-36",
+     "Las vías"
+    ]
+   ],
+   "questions": [
+    "¿Qué enseña el CEC sobre el conocimiento natural de Dios?"
+   ]
+  },
+  {
+   "title": "Agustín y la interioridad",
+   "body": [
+    "San Agustín buscó la verdad en el interior del hombre y la halló en Dios: «nos hiciste para ti y nuestro corazón está inquieto hasta que descanse en ti» (Confesiones I, 1)."
+   ],
+   "ccc": [
+    27
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "work",
+     "doc.confesiones-agustin",
+     "Confesiones"
+    ]
+   ],
+   "questions": [
+    "¿Qué es la inquietud del corazón?"
+   ]
+  },
+  {
+   "title": "Tomás y la síntesis medieval",
+   "body": [
+    "Santo Tomás armonizó la filosofía aristotélica con la fe cristiana. León XIII lo propuso como maestro."
+   ],
+   "ccc": [],
+   "bible": [],
+   "readings": [
+    [
+     "church",
+     "aeterni-patris",
+     "Aeterni Patris"
+    ]
+   ],
+   "questions": [
+    "¿Qué aportó santo Tomás?"
+   ]
+  },
+  {
+   "title": "La verdad y la persona",
+   "body": [
+    "El hombre es capaz de verdad y de libertad (CEC 1730-1738). La Iglesia defiende la dignidad de la persona frente al relativismo (Veritatis splendor)."
+   ],
+   "ccc": [
+    1730,
+    1738
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "church",
+     "veritatis-splendor",
+     "Veritatis splendor"
+    ]
+   ],
+   "questions": [
+    "¿Por qué la verdad es condición de la libertad?"
+   ]
+  },
+  {
+   "title": "Balmes y la filosofía en lengua española",
+   "body": [
+    "Jaime Balmes (1810-1848) escribió El criterio, una guía para pensar con rectitud, y comparó catolicismo y protestantismo. Ambos están en la biblioteca de Lux como obras de autor, no magisterio."
+   ],
+   "ccc": [],
+   "bible": [],
+   "readings": [
+    [
+     "work",
+     "doc.el-criterio-balmes",
+     "El criterio"
+    ],
+    [
+     "work",
+     "doc.protestantismo-catolicismo-balmes",
+     "El protestantismo comparado con el catolicismo"
+    ]
+   ],
+   "questions": [
+    "¿Qué es pensar con criterio?"
+   ]
+  }
+ ]
+}

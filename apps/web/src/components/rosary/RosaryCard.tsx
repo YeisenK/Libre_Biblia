@@ -28,7 +28,7 @@ export function RosaryCard() {
     const steps = buildSteps(rosary, session.set, opts);
     const p = progressOf(steps, Math.min(session.step, steps.length - 1));
     const label = p.decade ? `Continuar · misterio ${p.decade}${p.aveIndex ? `, Ave María ${p.aveIndex} de 10` : ''}` : session.step === 0 ? 'Continuar · el comienzo' : 'Continuar · final del Rosario';
-    const plan = planResume(session, rosary, optionsFromSettings(settings));
+    const plan = planResume(session, rosary, optionsFromSettings(settings, session.mode));
     return { label, href: plan.kind === 'resume' ? `/rosario/?s=${session.id}` : '/rosario/' };
   }, [rosary, session, settings]);
 

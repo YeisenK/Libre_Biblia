@@ -1,0 +1,135 @@
+{
+  "id": "decisiones-importantes",
+  "title": "Novena para las decisiones importantes",
+  "group": "work_vocation",
+  "description": "Para discernir con calma una decisión difícil, con criterios cristianos de discernimiento.",
+  "image": {
+    "icon": "star",
+    "tint": "#5b6b8a"
+  },
+  "introduction": "San Ignacio de Loyola enseñó reglas para discernir los movimientos interiores: la paz, la consolación y la desolación. La Iglesia ofrece criterios: buscar la voluntad de Dios, escuchar la conciencia, consultar a personas sabias, y atender a los frutos (Gál 5,22).",
+  "purpose": "Dar un marco de oración a una decisión importante (mudarse, cambiar de trabajo, un compromiso, una renuncia). No sustituye el consejo de personas competentes ni la responsabilidad de decidir. Dios respeta nuestra libertad.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, tengo una decisión por delante. Quiero buscar tu voluntad con libertad y sinceridad. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Poner por escrito",
+      "reading": "Hab 2,2",
+      "reflection": "Escribe la visión, grábala en tablillas. Redacto con claridad la decisión, las opciones y lo que está en juego.",
+      "prayer": "Señor, dame claridad para ver lo que realmente se decide."
+    },
+    {
+      "day": 2,
+      "title": "Libertad interior",
+      "reading": "Si 15,14-17",
+      "reflection": "Dios nos dejó en manos de nuestro propio albedrío. Examino si algún miedo o deseo desordenado me condiciona.",
+      "prayer": "Dios mío, hazme libre ante cualquier opción."
+    },
+    {
+      "day": 3,
+      "title": "Escuchar la conciencia",
+      "reading": "Rm 12,2",
+      "reflection": "Transformaos con la renovación de vuestra mente para discernir cuál es la voluntad de Dios. Pido una conciencia recta.",
+      "prayer": "Espíritu Santo, forma mi conciencia con verdad."
+    },
+    {
+      "day": 4,
+      "title": "Consultar a otros",
+      "reading": "Pr 11,14",
+      "reflection": "Donde no hay dirección el pueblo cae; la salvación está en la multitud de consejeros. Hablo con una persona sabia y creyente.",
+      "prayer": "Señor, envíame buenos consejeros y dame humildad."
+    },
+    {
+      "day": 5,
+      "title": "Pros y contras",
+      "reading": "Lc 14,28-30",
+      "reflection": "Antes de construir se calcula. Valoro con calma ventajas y riesgos para mí y para los que dependen de mí.",
+      "prayer": "Jesús, dame prudencia para ponderar sin precipitarme."
+    },
+    {
+      "day": 6,
+      "title": "La paz y la inquietud",
+      "reading": "Jn 14,27",
+      "reflection": "«Mi paz os dejo.» Observo qué opción me deja una paz profunda y qué opción me llena de inquietud o confusión duradera.",
+      "prayer": "Señor, ayúdame a leer lo que ocurre en mi interior."
+    },
+    {
+      "day": 7,
+      "title": "Los frutos",
+      "reading": "Mt 7,16-18",
+      "reflection": "Por sus frutos los conoceréis. Me pregunto qué frutos producirá cada opción: amor, servicio, paz, o más bien dispersión y egoísmo.",
+      "prayer": "Padre, que busque lo que más dé fruto en el amor."
+    },
+    {
+      "day": 8,
+      "title": "Decidir y no darle más vueltas",
+      "reading": "Sant 1,6-8",
+      "reflection": "Quien duda es como una ola agitada. Llega un momento de decidir, aun sin certeza absoluta, con la mejor luz disponible.",
+      "prayer": "Dios mío, dame valentía para elegir."
+    },
+    {
+      "day": 9,
+      "title": "Confirmar y entregar",
+      "reading": "Sal 16,8-9",
+      "reflection": "Tengo siempre presente al Señor; con él a mi derecha no vacilaré. Entrego la decisión y acepto lo que vendrá.",
+      "prayer": "San Ignacio, ruega por mí. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Padre, ayúdame a decidir bien y a aceptar las consecuencias con paz. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "ignacio-de-loyola"
+  ],
+  "tags": [
+    "decisiones importantes",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 7,
+    "day": 31,
+    "label": "Memoria de san Ignacio de Loyola, presbítero"
+  }
+}

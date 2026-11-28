@@ -939,7 +939,8 @@ const ENTRIES: ArtEntry[] = [
   },
   {
     "keys": [
-      "prayer:acto-de-esperanza"
+      "prayer:acto-de-esperanza",
+      "practice:examen-virtudes-teologales"
     ],
     "src": "/art/prayer-acto-de-esperanza.webp",
     "title": "La Esperanza",
@@ -1035,7 +1036,8 @@ const ENTRIES: ArtEntry[] = [
   },
   {
     "keys": [
-      "prayer:examen-breve"
+      "prayer:examen-breve",
+      "practice:examen-general"
     ],
     "src": "/art/prayer-examen-breve.webp",
     "title": "El filósofo en meditación",
@@ -1095,7 +1097,8 @@ const ENTRIES: ArtEntry[] = [
   },
   {
     "keys": [
-      "prayer:acto-de-contricion"
+      "prayer:acto-de-contricion",
+      "practice:examen-tiempo-sin-confesarse"
     ],
     "src": "/art/prayer-acto-de-contricion.webp",
     "title": "El regreso del hijo pródigo",
@@ -1371,7 +1374,8 @@ const ENTRIES: ArtEntry[] = [
   },
   {
     "keys": [
-      "prayer:via-crucis"
+      "prayer:via-crucis",
+      "practice:via-crucis"
     ],
     "src": "/art/prayer-via-crucis.webp",
     "title": "Cristo con la cruz a cuestas",
@@ -1551,7 +1555,8 @@ const ENTRIES: ArtEntry[] = [
   },
   {
     "keys": [
-      "prayer:oracion-por-las-vocaciones"
+      "prayer:oracion-por-las-vocaciones",
+      "practice:examen-jovenes"
     ],
     "src": "/art/prayer-oracion-por-las-vocaciones.webp",
     "title": "La vocación de san Mateo",
@@ -1899,7 +1904,8 @@ const ENTRIES: ArtEntry[] = [
   },
   {
     "keys": [
-      "book:doc.libro-de-la-vida-teresa"
+      "book:doc.libro-de-la-vida-teresa",
+      "prayer:nada-te-turbe"
     ],
     "src": "/art/book-doc.libro-de-la-vida-teresa.webp",
     "title": "Santa Teresa de Jesús",
@@ -1923,7 +1929,8 @@ const ENTRIES: ArtEntry[] = [
   },
   {
     "keys": [
-      "book:doc.poesias-santa-teresa"
+      "book:doc.poesias-santa-teresa",
+      "book:doc.exclamaciones-teresa"
     ],
     "src": "/art/book-doc.poesias-santa-teresa.webp",
     "title": "La visión de la paloma de santa Teresa",
@@ -1992,6 +1999,1208 @@ const ENTRIES: ArtEntry[] = [
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cantigas_1.jpg",
     "license": "Public domain",
     "focus": "50% 50%"
+  },
+  {
+    "keys": [
+      "novena:ansiedad-angustia-tristeza"
+    ],
+    "src": "/art/novena-ansiedad-angustia-tristeza.webp",
+    "title": "Cristo dormido durante la tempestad",
+    "artist": "Eugène Delacroix",
+    "year": "1853",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Delacroix_-_Christ_Endormi_pendant_la_Temp%C3%AAte.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:castidad-santa-maria-goretti"
+    ],
+    "src": "/art/novena-castidad-santa-maria-goretti.webp",
+    "title": "Santa Inés",
+    "artist": "José de Ribera",
+    "year": "s. XVII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_de_Ribera_027.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:decisiones-importantes"
+    ],
+    "src": "/art/novena-decisiones-importantes.webp",
+    "title": "La conversión de san Pablo",
+    "artist": "Caravaggio",
+    "year": "1600-1601",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Conversion_of_Saint_Paul-Caravaggio_(c._1600-1).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:desanimo-esperanza"
+    ],
+    "src": "/art/novena-desanimo-esperanza.webp",
+    "title": "El profeta Elías en el desierto",
+    "artist": "Dieric Bouts",
+    "year": "1464-1468",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dieric_Bouts_-_Prophet_Elijah_in_the_Desert_-_WGA03015.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:dominio-propio-templanza",
+      "prayer:examen-virtudes-cardinales"
+    ],
+    "src": "/art/novena-dominio-propio-templanza.webp",
+    "title": "La Templanza (y la Ira)",
+    "artist": "Giotto",
+    "year": "h. 1306",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto._Allegorie%C3%ABn_van_de_deugden_en_ondeugden_Temperantia_en_ira_(woede),_GD015961.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:duelo-esperanza"
+    ],
+    "src": "/art/novena-duelo-esperanza.webp",
+    "title": "El Llanto sobre Cristo muerto",
+    "artist": "Giotto",
+    "year": "h. 1305",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-36-_-_Lamentation_(The_Mourning_of_Christ)_adj.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:encontrar-trabajo-san-jose"
+    ],
+    "src": "/art/novena-encontrar-trabajo-san-jose.webp",
+    "title": "San José",
+    "artist": "José de Ribera",
+    "year": "s. XVII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Saint_Joseph_with_the_Flowering_Rod_-_Jusepe_de_Ribera_-_overall.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:enfermedad-cristo-medico"
+    ],
+    "src": "/art/novena-enfermedad-cristo-medico.webp",
+    "title": "La curación del paralítico de la piscina",
+    "artist": "Bartolomé Esteban Murillo",
+    "year": "h. 1670",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curacion_del_paralitico_Murillo_1670.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:enfermedad-grave",
+      "prayer:oracion-por-un-enfermo-querido"
+    ],
+    "src": "/art/novena-enfermedad-grave.webp",
+    "title": "Cristo sanando a los enfermos (el grabado de los cien florines)",
+    "artist": "Rembrandt",
+    "year": "h. 1648",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_The_Hundred_Guilder_Print.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:estabilidad-economica"
+    ],
+    "src": "/art/novena-estabilidad-economica.webp",
+    "title": "La parábola del rico insensato",
+    "artist": "Rembrandt",
+    "year": "1627",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_The_Parable_of_the_Rich_Fool.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:estabilidad-laboral"
+    ],
+    "src": "/art/novena-estabilidad-laboral.webp",
+    "title": "La parábola de los talentos",
+    "artist": "Willem de Poorter",
+    "year": "s. XVII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Willem_de_Poorter%27s_The_Parable_of_The_Talents_or_Minas.png",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:estudios-santo-tomas-de-aquino"
+    ],
+    "src": "/art/novena-estudios-santo-tomas-de-aquino.webp",
+    "title": "Apoteosis de santo Tomás de Aquino",
+    "artist": "Francisco de Zurbarán",
+    "year": "1631",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Francisco_de_Zurbar%C3%A1n_001.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:fe-perseverancia-san-agustin"
+    ],
+    "src": "/art/novena-fe-perseverancia-san-agustin.webp",
+    "title": "La visión de san Agustín",
+    "artist": "Vittore Carpaccio",
+    "year": "h. 1502",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vittore_carpaccio,_visione_di_sant%27agostino_01.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:fortalecer-voluntad"
+    ],
+    "src": "/art/novena-fortalecer-voluntad.webp",
+    "title": "La lucha de Jacob con el ángel",
+    "artist": "Paul Gauguin",
+    "year": "1888",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_vision_apr%C3%A8s_le_sermon_(Paul_Gauguin).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:fortaleza-momentos-dificiles"
+    ],
+    "src": "/art/novena-fortaleza-momentos-dificiles.webp",
+    "title": "La Fortaleza",
+    "artist": "Sandro Botticelli",
+    "year": "1470",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_Fortitudo_-_Uffizi.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:heridas-afectivas"
+    ],
+    "src": "/art/novena-heridas-afectivas.webp",
+    "title": "El buen samaritano",
+    "artist": "Eugène Delacroix",
+    "year": "1849",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Good_Samaritan_(Delacroix_1849).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:hijos-alejados-santa-monica"
+    ],
+    "src": "/art/novena-hijos-alejados-santa-monica.webp",
+    "title": "San Agustín y santa Mónica",
+    "artist": "Ary Scheffer",
+    "year": "1846",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_and_Saint_Monica.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:humildad-corazon-manso"
+    ],
+    "src": "/art/novena-humildad-corazon-manso.webp",
+    "title": "Agnus Dei (el Cordero manso)",
+    "artist": "Francisco de Zurbarán",
+    "year": "h. 1635-1640",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agnus_Dei_(The_Lamb_of_God)_by_Zurbar%C3%A1n,_San_Diego_Museum_of_Art.JPG",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:matrimonio-santa-rita"
+    ],
+    "src": "/art/novena-matrimonio-santa-rita.webp",
+    "title": "Santa Rita de Casia",
+    "artist": "Antonio de Torres",
+    "year": "h. 1720",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27Saint_Rita_of_Cascia%27_by_Antonio_de_Torres,_c._1720.JPG",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:noviazgo-san-rafael"
+    ],
+    "src": "/art/novena-noviazgo-san-rafael.webp",
+    "title": "El arcángel Rafael deja a Tobías y su familia",
+    "artist": "Rembrandt",
+    "year": "1637",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_De_aartsengel_verlaat_Tobias_en_zijn_gezin._1637.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:orientacion-profesional"
+    ],
+    "src": "/art/novena-orientacion-profesional.webp",
+    "title": "La vocación de los primeros apóstoles",
+    "artist": "Domenico Ghirlandaio",
+    "year": "1481",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The.Calling.of.the.First.Apostles.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:paciencia-san-francisco-de-sales"
+    ],
+    "src": "/art/novena-paciencia-san-francisco-de-sales.webp",
+    "title": "San Francisco de Sales",
+    "artist": "Francisco Bayeu",
+    "year": "s. XVIII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francisco_de_Sales,_de_Francisco_Bayeu_(Museo_del_Prado).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:padres-y-abuelos"
+    ],
+    "src": "/art/novena-padres-y-abuelos.webp",
+    "title": "El encuentro de Joaquín y Ana en la Puerta Dorada",
+    "artist": "Giotto",
+    "year": "h. 1305",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._6_Scenes_from_the_Life_of_Joachim_-_6._Meeting_at_the_Golden_Gate_-_WGA09176.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:pareja-matrimonio-cristiano"
+    ],
+    "src": "/art/novena-pareja-matrimonio-cristiano.webp",
+    "title": "El matrimonio Arnolfini",
+    "artist": "Jan van Eyck",
+    "year": "1434",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:preparacion-matrimonio"
+    ],
+    "src": "/art/novena-preparacion-matrimonio.webp",
+    "title": "Los desposorios de la Virgen",
+    "artist": "Perugino",
+    "year": "1500-1504",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pietro_Perugino_-_Marriage_of_the_Virgin_-_WGA17301.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:proteccion-familia"
+    ],
+    "src": "/art/novena-proteccion-familia.webp",
+    "title": "Descanso en la huida a Egipto",
+    "artist": "Bartolomé Esteban Murillo",
+    "year": "h. 1650",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Murillo_Descanso_en_la_huida_a_Egipto.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:proyectos-responsabilidades"
+    ],
+    "src": "/art/novena-proyectos-responsabilidades.webp",
+    "title": "San José con el Niño Jesús",
+    "artist": "Francisco de Zurbarán",
+    "year": "h. 1635",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Promenade_de_l%27Enfant_J%C3%A9sus_par_Francisco_Zurbaran,_env.1635.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:reconciliacion-familiar"
+    ],
+    "src": "/art/novena-reconciliacion-familiar.webp",
+    "title": "El encuentro de Jacob y Esaú",
+    "artist": "Pintor flamenco",
+    "year": "s. XVII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:De_ontmoeting_van_Jacob_en_Ezau_Rijksmuseum_SK-A-3510.jpeg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:tentaciones-san-miguel"
+    ],
+    "src": "/art/novena-tentaciones-san-miguel.webp",
+    "title": "Las tentaciones de san Antonio",
+    "artist": "Matthias Grünewald",
+    "year": "1512-1516",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matthias_Gr%C3%BCnewald_-_The_Temptation_of_St_Anthony_-_WGA10765.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:trabajo-san-jose-obrero"
+    ],
+    "src": "/art/novena-trabajo-san-jose-obrero.webp",
+    "title": "La infancia de Cristo en el taller de san José",
+    "artist": "Gerrit van Honthorst",
+    "year": "1620",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gerrit_van_Honthorst_-_Childhood_of_Christ_-_WGA11656.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:triduo-sagrado-corazon"
+    ],
+    "src": "/art/novena-triduo-sagrado-corazon.webp",
+    "title": "Santa Margarita María contempla el Sagrado Corazón",
+    "artist": "Corrado Giaquinto",
+    "year": "h. 1765",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corrado_Giaquinto_-_St_Margaret_Mary_Alacoque_Contemplating_the_Sacred_Heart_of_Jesus_-_WGA8959.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:triduo-san-jose"
+    ],
+    "src": "/art/novena-triduo-san-jose.webp",
+    "title": "El sueño de san José",
+    "artist": "Philippe de Champaigne",
+    "year": "1642-1643",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philippe_de_Champaigne_(1602-1674)_-_The_Dream_of_Saint_Joseph_-_NG6276_-_National_Gallery.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "novena:vocacion-discernimiento"
+    ],
+    "src": "/art/novena-vocacion-discernimiento.webp",
+    "title": "La vocación de san Mateo",
+    "artist": "Hendrick ter Brugghen",
+    "year": "1621",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hendrick_ter_Brugghen_-_The_Calling_of_St_Matthew_-_WGA22168.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "category:trabajo"
+    ],
+    "src": "/art/category-trabajo.webp",
+    "title": "Los segadores",
+    "artist": "Pieter Bruegel el Viejo",
+    "year": "1565",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder-_The_Harvesters_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "category:escuela"
+    ],
+    "src": "/art/category-escuela.webp",
+    "title": "El astrónomo",
+    "artist": "Johannes Vermeer",
+    "year": "1668",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_The_Astronomer_-_1668.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "category:deporte"
+    ],
+    "src": "/art/category-deporte.webp",
+    "title": "Los juegos de niños",
+    "artist": "Pieter Bruegel el Viejo",
+    "year": "1560",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Children%E2%80%99s_Games_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "category:relaciones"
+    ],
+    "src": "/art/category-relaciones.webp",
+    "title": "La Visitación",
+    "artist": "Domenico Ghirlandaio",
+    "year": "1491",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Visitation_avec_Marie-Jacobie_et_Marie-Salom%C3%A9_-_Domenico_Ghirlandaio_-_Mus%C3%A9e_du_Louvre_Peintures_INV_297_;_MR_240.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "category:vida-personal"
+    ],
+    "src": "/art/category-vida-personal.webp",
+    "title": "San Francisco en meditación",
+    "artist": "Francisco de Zurbarán",
+    "year": "h. 1635-1639",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_francis_in_meditation_075217.JPG",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "category:circunstancias"
+    ],
+    "src": "/art/category-circunstancias.webp",
+    "title": "El caminante sobre el mar de nubes",
+    "artist": "Caspar David Friedrich",
+    "year": "1818",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "category:letanias"
+    ],
+    "src": "/art/category-letanias.webp",
+    "title": "Los jueces justos (Retablo de Gante)",
+    "artist": "Jan van Eyck",
+    "year": "1432",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ghent_Altarpiece_E_-_Just_Judges_(original_painting).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "book:bible.TA"
+    ],
+    "src": "/art/book-bible.TA.webp",
+    "title": "San Lucas pintando a la Virgen",
+    "artist": "El Greco",
+    "year": "1560-1567",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Greco_-_St_Luke_Painting_the_Virgin.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "book:doc.ciudad-de-dios"
+    ],
+    "src": "/art/book-doc.ciudad-de-dios.webp",
+    "title": "La consumación del Imperio",
+    "artist": "Thomas Cole",
+    "year": "1836",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Cole_-_The_Consummation_of_the_Empire_-_WGA05143.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "book:doc.el-criterio-balmes"
+    ],
+    "src": "/art/book-doc.el-criterio-balmes.webp",
+    "title": "La Escuela de Atenas",
+    "artist": "Rafael Sanzio",
+    "year": "1509-1511",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22The_School_of_Athens%22_by_Raffaello_Sanzio_da_Urbino.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "book:doc.perfecta-casada"
+    ],
+    "src": "/art/book-doc.perfecta-casada.webp",
+    "title": "Mujer con una balanza",
+    "artist": "Johannes Vermeer",
+    "year": "h. 1664",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johannes_Vermeer_-_Woman_Holding_a_Balance_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "book:doc.protestantismo-catolicismo-balmes"
+    ],
+    "src": "/art/book-doc.protestantismo-catolicismo-balmes.webp",
+    "title": "El triunfo de la verdad eucarística sobre la herejía",
+    "artist": "Pedro Pablo Rubens",
+    "year": "1626",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_The_Victory_of_Eucharistic_Truth_over_Heresy_-_WGA20433.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "practice:via-crucis-biblico"
+    ],
+    "src": "/art/practice-via-crucis-biblico.webp",
+    "title": "Cristo cae camino del Calvario (El Pasmo de Sicilia)",
+    "artist": "Rafael Sanzio",
+    "year": "1516-1517",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio_-_Christ_Falls_on_the_Way_to_Calvary_-_WGA18828.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "practice:via-lucis"
+    ],
+    "src": "/art/practice-via-lucis.webp",
+    "title": "La Resurrección",
+    "artist": "Carl Heinrich Bloch",
+    "year": "1873-1879",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carl_Heinrich_Bloch_-_The_Resurrection.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "practice:hora-santa"
+    ],
+    "src": "/art/practice-hora-santa.webp",
+    "title": "Cristo en Getsemaní",
+    "artist": "Carl Heinrich Bloch",
+    "year": "1873",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carl_Heinrich_Bloch_-_Gethsemane.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "practice:guia-confesion"
+    ],
+    "src": "/art/practice-guia-confesion.webp",
+    "title": "La Confesión (Los siete sacramentos)",
+    "artist": "Giuseppe Maria Crespi",
+    "year": "h. 1712",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Confession,_from_%22The_Seven_Sacraments%22_Met_DP889632.jpg",
+    "license": "CC0",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "practice:examen-mandamientos"
+    ],
+    "src": "/art/practice-examen-mandamientos.webp",
+    "title": "Moisés rompe las Tablas de la Ley",
+    "artist": "Rembrandt",
+    "year": "1659",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_Moses_Smashing_the_Tablets_of_the_Law_-_WGA19132.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "practice:examen-bienaventuranzas"
+    ],
+    "src": "/art/practice-examen-bienaventuranzas.webp",
+    "title": "El Sermón de la Montaña",
+    "artist": "Fra Angelico",
+    "year": "h. 1442",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Die_Bergpredigt.jpeg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "practice:examen-adultos"
+    ],
+    "src": "/art/practice-examen-adultos.webp",
+    "title": "La Magdalena penitente",
+    "artist": "Caravaggio",
+    "year": "1594-1596",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penitent_Magdalene-Caravaggio_(1594-6).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:adoro-te-devote"
+    ],
+    "src": "/art/prayer-adoro-te-devote.webp",
+    "title": "La comunión de los apóstoles",
+    "artist": "Justo de Gante",
+    "year": "1473-1474",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giusto_di_gand,_comunione_degli_apostoli,_1473-1474.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:tantum-ergo"
+    ],
+    "src": "/art/prayer-tantum-ergo.webp",
+    "title": "El milagro de la hostia profanada",
+    "artist": "Paolo Uccello",
+    "year": "1467-1468",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paolo_Uccello_-_Miracle_of_the_Desecrated_Host_(Scene_3)_-_WGA23224.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:bendito-sea-dios"
+    ],
+    "src": "/art/prayer-bendito-sea-dios.webp",
+    "title": "El Juicio Final (la gloria del Paraíso)",
+    "artist": "Fra Angelico",
+    "year": "h. 1431",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_The_Last_Judgement_(Winged_Altar)_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:consagracion-sagrado-corazon-leon-xiii"
+    ],
+    "src": "/art/prayer-consagracion-sagrado-corazon-leon-xiii.webp",
+    "title": "Alegoría de la Eucaristía",
+    "artist": "Miguel Cabrera",
+    "year": "1750",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miguel_Cabrera_-_Allegory_of_the_Holy_Eucharist_-_1750.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:consagracion-a-maria-montfort"
+    ],
+    "src": "/art/prayer-consagracion-a-maria-montfort.webp",
+    "title": "La Virgen de las Cuevas",
+    "artist": "Francisco de Zurbarán",
+    "year": "1655",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Francisco_Zurbar%C3%A1n_(1598-1664)_-_La_Virgen_de_las_Cuevas_(1655)_-_Sevilla_Bellas_Artes_22-03-2011_12-14-30.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:consagracion-a-san-jose"
+    ],
+    "src": "/art/prayer-consagracion-a-san-jose.webp",
+    "title": "San José y el Niño Jesús",
+    "artist": "Guido Reni",
+    "year": "h. 1635",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guido_Reni_-_Saint_Joseph_and_the_Christ_Child_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:coronilla-san-miguel"
+    ],
+    "src": "/art/prayer-coronilla-san-miguel.webp",
+    "title": "San Miguel Arcángel",
+    "artist": "Luca Giordano",
+    "year": "h. 1663",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1663_Giordano_Der_Heilige_Michael_anagoria.JPG",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:coronilla-siete-dolores"
+    ],
+    "src": "/art/prayer-coronilla-siete-dolores.webp",
+    "title": "La Virgen Dolorosa",
+    "artist": "Tiziano",
+    "year": "h. 1555",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titian_-_Mater_Dolorosa_-_WGA22818.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:coronilla-llagas"
+    ],
+    "src": "/art/prayer-coronilla-llagas.webp",
+    "title": "Cristo, varón de dolores",
+    "artist": "Andrea Mantegna",
+    "year": "h. 1500",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1492_Mantegna_Christus_als_Schmerzensmann_Statens_Museum_for_Kunst,_Kopenhagen_anagoria.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:letania-sagrado-corazon"
+    ],
+    "src": "/art/prayer-letania-sagrado-corazon.webp",
+    "title": "El Sagrado Corazón de Jesús",
+    "artist": "Pintor del s. XVIII",
+    "year": "1770",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacred_Heart_1770.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:letania-santo-nombre"
+    ],
+    "src": "/art/prayer-letania-santo-nombre.webp",
+    "title": "El triunfo del Nombre de Jesús",
+    "artist": "Baciccio",
+    "year": "1676-1679",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baciccio,_The_Triumph_of_the_Name_of_Jesus,_1676-79.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:letania-preciosisima-sangre"
+    ],
+    "src": "/art/prayer-letania-preciosisima-sangre.webp",
+    "title": "La fuente de la vida",
+    "artist": "Taller de Jan van Eyck",
+    "year": "s. XV",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Fountain_of_Life_after_van_Eyck_2.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:letania-de-la-humildad"
+    ],
+    "src": "/art/prayer-letania-de-la-humildad.webp",
+    "title": "El lavatorio de los pies",
+    "artist": "Tintoretto",
+    "year": "h. 1575",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacopo_Tintoretto_-_Christ_Washing_the_Feet_of_His_Disciples_-_WGA22427.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:letania-de-la-misericordia"
+    ],
+    "src": "/art/prayer-letania-de-la-misericordia.webp",
+    "title": "Paisaje con el buen samaritano",
+    "artist": "Rembrandt",
+    "year": "1638",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Landscape_with_the_Good_Samaritan_-_Rembrandt.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:ante-studium"
+    ],
+    "src": "/art/prayer-ante-studium.webp",
+    "title": "San Jerónimo en su estudio",
+    "artist": "Antonello da Messina",
+    "year": "h. 1475",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antonello_da_Messina_-_St_Jerome_in_his_Study_-_WGA0759.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:suscipe-san-ignacio"
+    ],
+    "src": "/art/prayer-suscipe-san-ignacio.webp",
+    "title": "La gloria de san Ignacio de Loyola",
+    "artist": "Pedro Pablo Rubens",
+    "year": "1616",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detail_-_Glory_of_St_Ignatius_of_Loyola_-_Rubens_-_1616_-_KHM_-_Vienna.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:itinerarium"
+    ],
+    "src": "/art/prayer-itinerarium.webp",
+    "title": "Los discípulos de Emaús",
+    "artist": "Rembrandt",
+    "year": "1648",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Supper_at_Emmaus,_by_Rembrandt.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-inicio-de-la-jornada-de-trabajo"
+    ],
+    "src": "/art/prayer-oracion-inicio-de-la-jornada-de-trabajo.webp",
+    "title": "Las espigadoras",
+    "artist": "Jean-François Millet",
+    "year": "1857",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jean-Fran%C3%A7ois_Millet_(II)_-_The_Gleaners_-_WGA15691.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-de-quien-busca-trabajo"
+    ],
+    "src": "/art/prayer-oracion-de-quien-busca-trabajo.webp",
+    "title": "Los obreros de la viña",
+    "artist": "Rembrandt",
+    "year": "1637",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_The_parable_of_the_Labourers_in_the_Vineyard.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-de-quien-dirige"
+    ],
+    "src": "/art/prayer-oracion-de-quien-dirige.webp",
+    "title": "El juicio de Salomón",
+    "artist": "Nicolas Poussin",
+    "year": "1649",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Jugement_de_Salomon_-_1649_-_Nicolas_Poussin_-_Louvre_-_INV_7277_;_MR_2316.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-del-estudiante"
+    ],
+    "src": "/art/prayer-oracion-del-estudiante.webp",
+    "title": "San Jerónimo en su estudio",
+    "artist": "Alberto Durero",
+    "year": "1514",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer,_Saint_Jerome_in_His_Study,_1514,_NGA_35095.jpg",
+    "license": "CC0",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-antes-del-examen"
+    ],
+    "src": "/art/prayer-oracion-antes-del-examen.webp",
+    "title": "Niño con peonza",
+    "artist": "Jean-Siméon Chardin",
+    "year": "1738",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jean_Sim%C3%A9on_Chardin_-_A_Child_with_a_Teetotum_-_WGA04755.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-los-maestros"
+    ],
+    "src": "/art/prayer-oracion-por-los-maestros.webp",
+    "title": "Santa Ana enseña a leer a la Virgen",
+    "artist": "Antonio Gherardi",
+    "year": "s. XVII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antonio_Gherardi_-_Saint_Anne_Teaching_the_Virgin_to_Read_-_1957.125_-_Fogg_Museum.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-despues-del-deporte"
+    ],
+    "src": "/art/prayer-oracion-despues-del-deporte.webp",
+    "title": "San Sebastián cuidado por santa Irene",
+    "artist": "Georges de La Tour",
+    "year": "h. 1649",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_-_St_Sebastien_Attended_by_St_Irene_-_WGA12342.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-los-abuelos"
+    ],
+    "src": "/art/prayer-oracion-por-los-abuelos.webp",
+    "title": "Un anciano y su nieto",
+    "artist": "Domenico Ghirlandaio",
+    "year": "h. 1490",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ghirlandaio,_Domenico_-_An_Old_Man_and_His_Grandson_-_Louvre_-_Google_Art_Project.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-de-los-novios"
+    ],
+    "src": "/art/prayer-oracion-de-los-novios.webp",
+    "title": "La novia judía",
+    "artist": "Rembrandt",
+    "year": "h. 1665",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_The_Jewish_Bride_-_WGA19158.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-de-los-esposos-en-una-crisis"
+    ],
+    "src": "/art/prayer-oracion-de-los-esposos-en-una-crisis.webp",
+    "title": "Ana y Tobit ciego",
+    "artist": "Rembrandt",
+    "year": "h. 1630",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%27Anna_and_the_Blind_Tobit%27_by_Rembrandt,_c._1630_(1).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-los-amigos"
+    ],
+    "src": "/art/prayer-oracion-por-los-amigos.webp",
+    "title": "La Visitación",
+    "artist": "Pontormo",
+    "year": "1514-1516",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pontormo-visitation-after-restorationRGB.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-un-embarazo"
+    ],
+    "src": "/art/prayer-oracion-por-un-embarazo.webp",
+    "title": "La Madonna del Parto",
+    "artist": "Piero della Francesca",
+    "year": "h. 1460",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madonna_del_parto_piero_della_Francesca.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-aniversario-de-boda"
+    ],
+    "src": "/art/prayer-oracion-aniversario-de-boda.webp",
+    "title": "El cenador de madreselva",
+    "artist": "Pedro Pablo Rubens",
+    "year": "h. 1609",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_Rubens_and_Isabella_Brant_in_the_honeysuckle_bower.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-en-la-tentacion"
+    ],
+    "src": "/art/prayer-oracion-en-la-tentacion.webp",
+    "title": "La tentación de Cristo",
+    "artist": "Ary Scheffer",
+    "year": "1854",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ary_Scheffer_-_The_Temptation_of_Christ_(1854).jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-en-la-tristeza"
+    ],
+    "src": "/art/prayer-oracion-en-la-tristeza.webp",
+    "title": "Cristo Consolador",
+    "artist": "Carl Heinrich Bloch",
+    "year": "1875",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carl_Heinrich_Bloch_-_Consolator.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-la-paciencia"
+    ],
+    "src": "/art/prayer-oracion-por-la-paciencia.webp",
+    "title": "Job",
+    "artist": "Léon Bonnat",
+    "year": "1880",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Bonnat_-_Job.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-de-gratitud"
+    ],
+    "src": "/art/prayer-oracion-de-gratitud.webp",
+    "title": "Los diez leprosos curados",
+    "artist": "James Tissot",
+    "year": "1886-1894",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_The_Healing_of_Ten_Lepers_(Gu%C3%A9rison_de_dix_l%C3%A9preux)_-_James_Tissot_-_overall.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-para-perdonar"
+    ],
+    "src": "/art/prayer-oracion-para-perdonar.webp",
+    "title": "Cristo y la mujer adúltera",
+    "artist": "Rembrandt",
+    "year": "1644",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Christ_and_the_Woman_Taken_in_Adultery.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-la-humildad"
+    ],
+    "src": "/art/prayer-oracion-por-la-humildad.webp",
+    "title": "Jesús lava los pies a Pedro",
+    "artist": "Ford Madox Brown",
+    "year": "1852-1856",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jesus_washing_Peter%27s_feet.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-en-la-soledad"
+    ],
+    "src": "/art/prayer-oracion-en-la-soledad.webp",
+    "title": "El monje junto al mar",
+    "artist": "Caspar David Friedrich",
+    "year": "1808-1810",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Monk_by_the_Sea.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-del-conductor"
+    ],
+    "src": "/art/prayer-oracion-del-conductor.webp",
+    "title": "Paisaje con el descanso en la huida a Egipto",
+    "artist": "Rembrandt",
+    "year": "1647",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn,_Landscape_with_the_Rest_on_the_Flight_into_Egypt.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-nuevo-proyecto"
+    ],
+    "src": "/art/prayer-oracion-nuevo-proyecto.webp",
+    "title": "La torre de Babel",
+    "artist": "Pieter Bruegel el Viejo",
+    "year": "1563",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-antes-de-una-conversacion-dificil"
+    ],
+    "src": "/art/prayer-oracion-antes-de-una-conversacion-dificil.webp",
+    "title": "San Pablo predicando en Atenas",
+    "artist": "Rafael Sanzio",
+    "year": "1515-1516",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raphael_-_St_Paul_Preaching_at_Athens_c.1515-6.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-buenas-noticias"
+    ],
+    "src": "/art/prayer-oracion-por-buenas-noticias.webp",
+    "title": "El anuncio a los pastores",
+    "artist": "Rembrandt",
+    "year": "1634",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Annunciation_to_the_shepherds.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-en-la-incertidumbre"
+    ],
+    "src": "/art/prayer-oracion-en-la-incertidumbre.webp",
+    "title": "Jesús camina sobre el mar de Galilea",
+    "artist": "Paul Bril",
+    "year": "s. XVII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bril_Jesus_walking_on_the_Sea_of_Galilee.JPG",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-al-despertar"
+    ],
+    "src": "/art/prayer-oracion-al-despertar.webp",
+    "title": "Noli me tangere",
+    "artist": "Tiziano",
+    "year": "h. 1514",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titian_-_Noli_me_tangere_-_WGA22737.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-para-dormir"
+    ],
+    "src": "/art/prayer-oracion-para-dormir.webp",
+    "title": "El Niño Jesús dormido",
+    "artist": "Bartolomé Esteban Murillo",
+    "year": "s. XVII",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Murillo-ni%C3%B1o_jesus_dormido-luton.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-antes-de-una-operacion"
+    ],
+    "src": "/art/prayer-oracion-antes-de-una-operacion.webp",
+    "title": "La lección de anatomía del doctor Tulp",
+    "artist": "Rembrandt",
+    "year": "1632",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-la-nueva-casa"
+    ],
+    "src": "/art/prayer-oracion-por-la-nueva-casa.webp",
+    "title": "La Sagrada Familia con san Juanito",
+    "artist": "Bartolomé Esteban Murillo",
+    "year": "h. 1650",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Perez_Murillo_-_Holy_Family_with_the_Infant_St_John_-_WGA16368.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-en-un-cumpleanos"
+    ],
+    "src": "/art/prayer-oracion-en-un-cumpleanos.webp",
+    "title": "La Adoración de los Reyes Magos",
+    "artist": "Diego Velázquez",
+    "year": "1619",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_-_The_Adoration_of_the_Magi_-_WGA24359.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
+  },
+  {
+    "keys": [
+      "prayer:oracion-por-los-gobernantes"
+    ],
+    "src": "/art/prayer-oracion-por-los-gobernantes.webp",
+    "title": "La rendición de Breda",
+    "artist": "Diego Velázquez",
+    "year": "1634-1635",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Velazquez-The_Surrender_of_Breda.jpg",
+    "license": "Public domain",
+    "focus": "50% 40%"
   }
 ];
 // </GENERADO>

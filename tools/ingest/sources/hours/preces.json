@@ -1,0 +1,132 @@
+[
+ {
+  "id": "lauds-ordinary",
+  "hour": "lauds",
+  "season": "ordinary",
+  "intro": "Al comenzar este día, presentemos a Dios nuestra alabanza y nuestras súplicas:",
+  "items": [
+   "Señor, a ti consagramos este día: que nuestras palabras y obras te den gloria.",
+   "Haz que hoy veamos tu rostro en quienes encontremos.",
+   "Guarda a tu Iglesia y a quienes la gobiernan.",
+   "Acuérdate de los enfermos, de los que sufren y de los que hoy no tienen quien rece por ellos."
+  ],
+  "closing": "Respondemos a cada intención: «Escúchanos, Señor»."
+ },
+ {
+  "id": "lauds-advent",
+  "hour": "lauds",
+  "season": "advent",
+  "intro": "Con el corazón vigilante, esperemos al Señor que viene:",
+  "items": [
+   "Ven, Señor Jesús, y visítanos con tu paz.",
+   "Prepara en nuestro corazón el camino para tu llegada.",
+   "Consuela a los pobres y a los que esperan justicia.",
+   "Reúne a tu Iglesia en la esperanza de tu venida gloriosa."
+  ],
+  "closing": "Respondemos a cada intención: «Ven, Señor Jesús»."
+ },
+ {
+  "id": "lauds-christmas",
+  "hour": "lauds",
+  "season": "christmas",
+  "intro": "Alegrémonos porque el Verbo se ha hecho carne y habita entre nosotros:",
+  "items": [
+   "Cristo, Hijo de Dios hecho hombre, haznos semejantes a ti en la humildad.",
+   "Que la alegría de tu nacimiento llegue a todos los hogares.",
+   "Protege a los niños y a las familias.",
+   "Haz que todos los pueblos reconozcan tu luz."
+  ],
+  "closing": "Respondemos a cada intención: «Gloria a ti, Señor»."
+ },
+ {
+  "id": "lauds-lent",
+  "hour": "lauds",
+  "season": "lent",
+  "intro": "En este tiempo de conversión, pidamos la gracia de volver al Señor de todo corazón:",
+  "items": [
+   "Señor, danos un corazón arrepentido y humilde.",
+   "Enséñanos a ayunar, orar y compartir con los necesitados.",
+   "Perdónanos como nosotros perdonamos.",
+   "Fortalece a quienes se preparan para el bautismo y a los que vuelven a ti."
+  ],
+  "closing": "Respondemos a cada intención: «Piedad, Señor, piedad»."
+ },
+ {
+  "id": "lauds-easter",
+  "hour": "lauds",
+  "season": "easter",
+  "intro": "Cristo ha resucitado: aclamémosle y pidámosle su vida nueva:",
+  "items": [
+   "Señor resucitado, que tu luz disipe nuestros miedos.",
+   "Haz de nosotros testigos de tu Pascua.",
+   "Consuela a los que lloran y devuelve la esperanza a los desanimados.",
+   "Concede a los difuntos participar de tu victoria."
+  ],
+  "closing": "Respondemos a cada intención: «Aleluya, Cristo vive»."
+ },
+ {
+  "id": "vespers-ordinary",
+  "hour": "vespers",
+  "season": "ordinary",
+  "intro": "Al caer la tarde, demos gracias a Dios y presentémosle a los hombres y mujeres de nuestro tiempo:",
+  "items": [
+   "Gracias, Señor, por el día que termina y por cuanto hemos recibido.",
+   "Perdona nuestras faltas y completa lo que hemos hecho con poco amor.",
+   "Bendice a los que trabajan de noche y a los que velan por los demás.",
+   "Concede el descanso eterno a los difuntos."
+  ],
+  "closing": "Respondemos a cada intención: «Te lo pedimos, Señor»."
+ },
+ {
+  "id": "vespers-advent",
+  "hour": "vespers",
+  "season": "advent",
+  "intro": "Esperando la venida del Señor, oremos:",
+  "items": [
+   "Señor, que tu Palabra sea lámpara en nuestro camino.",
+   "Despierta en tu pueblo el deseo de tu justicia.",
+   "Acompaña a los que están solos y a los que esperan.",
+   "Haz que, al final del día y de la vida, salgamos con alegría a recibirte."
+  ],
+  "closing": "Respondemos a cada intención: «Ven, Señor, no tardes»."
+ },
+ {
+  "id": "vespers-christmas",
+  "hour": "vespers",
+  "season": "christmas",
+  "intro": "Contemplando al Niño de Belén, oremos:",
+  "items": [
+   "Señor, que tu luz brille en nuestras casas.",
+   "Haz que sepamos acoger a Cristo en el pobre y en el forastero.",
+   "Da paz a los pueblos en guerra.",
+   "Que los difuntos vean tu rostro en la luz eterna."
+  ],
+  "closing": "Respondemos a cada intención: «Venid, adoremos al Señor»."
+ },
+ {
+  "id": "vespers-lent",
+  "hour": "vespers",
+  "season": "lent",
+  "intro": "Al caer la tarde, pidamos misericordia:",
+  "items": [
+   "Señor, perdona nuestros pecados y renueva en nosotros tu imagen.",
+   "Danos fuerza para la conversión del corazón.",
+   "Sostén a los que sufren a causa del pecado ajeno.",
+   "Acoge a nuestros hermanos difuntos en tu misericordia."
+  ],
+  "closing": "Respondemos a cada intención: «Ten piedad de nosotros, Señor»."
+ },
+ {
+  "id": "vespers-easter",
+  "hour": "vespers",
+  "season": "easter",
+  "intro": "Alabemos a Cristo, que venció a la muerte:",
+  "items": [
+   "Cristo, vencedor de la muerte, permanece con nosotros al atardecer.",
+   "Que tu Espíritu renueve la faz de la tierra.",
+   "Fortalece a los bautizados en la fe de tu resurrección.",
+   "Lleva a la vida eterna a todos los difuntos."
+  ],
+  "closing": "Respondemos a cada intención: «Quédate con nosotros, Señor»."
+ }
+]

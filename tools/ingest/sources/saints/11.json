@@ -1,0 +1,1270 @@
+[
+  {
+    "id": "martin-de-porres",
+    "name": "San Martín de Porres",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-03",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "San Martín de Porres, religioso",
+        "color": "white"
+      },
+      {
+        "date": "11-03",
+        "rank": "memorial",
+        "calendar": "mx",
+        "title": "San Martín de Porres, religioso",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "religious",
+      "lay"
+    ],
+    "born": {
+      "date": "9 de diciembre de 1579",
+      "place": "Lima"
+    },
+    "died": {
+      "date": "3 de noviembre de 1639",
+      "place": "Lima"
+    },
+    "century": 17,
+    "countries": [
+      "PE"
+    ],
+    "order": "Orden de Predicadores (hermano cooperador)",
+    "canonization": {
+      "date": "6 de mayo de 1962",
+      "by": "Juan XXIII",
+      "note": "Beatificado por Gregorio XVI en 1837."
+    },
+    "summary": "Hermano cooperador dominico de Lima, hijo de un hidalgo español y de una mujer negra liberta, conocido como «Martín de la Caridad» por su servicio a enfermos y pobres.",
+    "biography": "Martín de Porres nació en Lima el 9 de diciembre de 1579, hijo natural de Juan de Porres, caballero español, y de Ana Velázquez, mujer negra liberta. Creció en un ambiente de pobreza y de discriminación racial, en la capital del virreinato del Perú, una ciudad en la que la sociedad colonial ordenaba a las personas según su origen. Siendo joven aprendió, según las biografías, los oficios de barbero y de curandero, que más tarde puso al servicio de los enfermos.\n\nIngresó en el convento dominico del Rosario de Lima como terciario, y después profesó como hermano cooperador, sin aspirar al sacerdocio, tarea para la que su condición de mulato presentaba entonces obstáculos. Se ocupó de la enfermería, de la ropería y de los trabajos más humildes de la casa. Su fama de caridad desbordó los muros del convento: atendía a los pobres, a los esclavos y a los indígenas, y se le atribuyó una especial cercanía con los animales y una intensa vida de oración y penitencia. Las biografías antiguas recogen además numerosos prodigios; como suele ocurrir en la hagiografía barroca, conviene recibirlos como tradición devota y no como datos contrastados.\n\nLo que sí se desprende con claridad de su recuerdo es un estilo de santidad hecho de servicio concreto. Juan XXIII, en la homilía de la canonización, destacó su amor a Cristo crucificado, su devoción a la Eucaristía y a la Virgen, su humildad y su atención a campesinos, negros y mestizos, que desempeñaban entonces los oficios más bajos; por eso el pueblo lo llamó «Martín de la Caridad». También subrayó que vivió con integridad la castidad, la pobreza y la obediencia, hasta ser tenido por sus hermanos y superiores como un modelo.\n\nMurió en Lima el 3 de noviembre de 1639. Fue beatificado por Gregorio XVI en 1837 y canonizado por Juan XXIII el 6 de mayo de 1962, cuando se cumplían tres siglos de su muerte. En 1945 Pío XII lo había declarado patrono de las instituciones sociales del Perú.\n\nSu importancia es doble. Para la Iglesia universal es un testimonio de que la santidad no depende del origen ni del rango social. Para América Latina es, además, un signo de reconciliación en una sociedad marcada por la desigualdad: un hombre de sangre mezclada, a quien muchos habrían despreciado, es hoy modelo de fraternidad evangélica.",
+    "virtues": [
+      "Caridad",
+      "Humildad",
+      "Devoción eucarística",
+      "Penitencia"
+    ],
+    "iconography": "Dominico con escoba, a menudo con un ratón, un perro y un gato comiendo del mismo plato, y a veces con un crucifijo.",
+    "novenas": [
+      "san-martin-de-porres"
+    ],
+    "art": "novena:san-martin-de-porres",
+    "sources": [
+      {
+        "label": "Juan XXIII, homilía en la canonización de san Martín de Porres (6-V-1962)",
+        "url": "https://www.vatican.va/content/john-xxiii/es/homilies/1962/documents/hf_j-xxiii_hom_19620506_martino-porres.html"
+      },
+      {
+        "label": "Britannica, «St. Martín de Porres» (fechas de nacimiento, muerte, beatificación y canonización, leídas en resumen de búsqueda; página no accesible directamente)",
+        "url": "https://www.britannica.com/biography/Saint-Martin-de-Porres"
+      },
+      {
+        "label": "GCatholic: Calendario litúrgico de México (rango de la celebración en México)",
+        "url": "https://gcatholic.org/calendar/2026/MX-es"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "patronages": [
+      "Instituciones sociales del Perú (Pío XII, carta apostólica de 10-VI-1945)"
+    ],
+    "context": "Lima, capital del virreinato del Perú, a fines del siglo XVI y primera mitad del XVII; sociedad colonial estratificada por origen.",
+    "significance": "Modelo de santidad en el servicio a los pobres y de fraternidad más allá de las barreras de origen y condición.",
+    "note": "La fecha de nacimiento y muerte proviene de Britannica vía resumen de búsqueda; la homilía de 1962 se leyó íntegra. Los detalles de oficio (barbero) y los prodigios son tradición biográfica sin cotejar en fuente primaria."
+  },
+  {
+    "id": "carlos-borromeo",
+    "name": "San Carlos Borromeo",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-04",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "San Carlos Borromeo, obispo",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "bishop",
+      "pastor"
+    ],
+    "born": {
+      "date": "2 de octubre de 1538",
+      "place": "Arona (Lago Mayor)"
+    },
+    "died": {
+      "date": "3 de noviembre de 1584",
+      "place": "Milán"
+    },
+    "century": 16,
+    "countries": [
+      "IT"
+    ],
+    "canonization": {
+      "date": "1 de noviembre de 1610",
+      "by": "Pablo V"
+    },
+    "summary": "Arzobispo de Milán y cardenal, figura central de la reforma católica tras el Concilio de Trento; se entregó a su pueblo durante la peste de 1576.",
+    "biography": "Carlos Borromeo nació el 2 de octubre de 1538 en el castillo de Arona, a orillas del lago Mayor, en una familia noble: su padre era el conde Giberto Borromeo y su madre, Margarita de Médici, era hermana del futuro papa Pío IV. Recibió la tonsura muy joven y obtuvo beneficios eclesiásticos que, como era frecuente en la época, no implicaban ministerio; estudió derecho civil y canónico y se doctoró en 1559.\n\nSu carrera dio un giro cuando su tío fue elegido papa en 1559. Con apenas veintiún años fue nombrado cardenal-diácono (1560), secretario de Estado y administrador de la archidiócesis de Milán. Desde Roma impulsó la reapertura y la conclusión del Concilio de Trento (1562-1563), y después colaboró en la redacción del Catecismo romano y en la revisión del Misal y el Breviario. Tras la muerte de su hermano, y ya ordenado sacerdote (4 de septiembre de 1563) y obispo (7 de diciembre de 1563), decidió ir a residir a su diócesis, algo muy poco habitual entonces.\n\nEn Milán puso en práctica los decretos de Trento con una energía que provocó resistencias. Celebró sínodos diocesanos y concilios provinciales, visitó las parroquias hasta los valles alpinos, abrió un seminario (1564) para formar al clero, impulsó la Confraternidad de la Doctrina Cristiana, antecedente de la catequesis dominical, y fundó en 1578 los Oblatos de San Ambrosio, sacerdotes seculares a su servicio. Reformó los conventos, a veces con dureza, y vivió él mismo con gran austeridad.\n\nSu momento más recordado fue la peste de 1576. Mientras otras autoridades se ausentaban, Carlos visitó a los enfermos, organizó la atención en hospitales y lazaretos, endeudó sus bienes para socorrer a los pobres y recorrió las calles en procesión, descalzo y con una soga al cuello, llevando una reliquia del Santo Clavo. Escribió después un *Memoriale* sobre las lecciones de la epidemia.\n\nMurió en Milán el 3 de noviembre de 1584, con solo cuarenta y seis años, y fue canonizado por Pablo V el 1 de noviembre de 1610. Aunque algunos de sus contemporáneos lo juzgaron riguroso, su ejemplo se convirtió en el arquetipo del obispo tridentino: residente, predicador, visitador, protector del clero y de los pobres. Su obra influyó profundamente en la formación de seminarios y en la pastoral parroquial de toda la Iglesia.",
+    "virtues": [
+      "Austeridad",
+      "Celo pastoral",
+      "Caridad con los apestados",
+      "Residencia y visita pastoral"
+    ],
+    "iconography": "Cardenal con la cruz, descalzo y con una soga al cuello (peste de 1576), a veces con el Santo Clavo.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Charles Borromeo»",
+        "url": "https://www.newadvent.org/cathen/03619a.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Contrarreforma católica: aplicación del Concilio de Trento (1545-1563) en la diócesis más grande de Italia.",
+    "significance": "Modelo del obispo reformador posterior a Trento; impulsor de los seminarios y de la catequesis parroquial."
+  },
+  {
+    "id": "leon-magno",
+    "name": "San León Magno",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-10",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "San León Magno, papa y doctor de la Iglesia",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "pope",
+      "doctor",
+      "church_father"
+    ],
+    "born": {
+      "date": "c. 400 (según la tradición)",
+      "place": "Toscana (según la tradición)"
+    },
+    "died": {
+      "date": "10 de noviembre de 461",
+      "place": "Roma"
+    },
+    "century": 5,
+    "countries": [
+      "IT"
+    ],
+    "summary": "Papa de 440 a 461, defensor de la unidad de la Iglesia y de la fe en Cristo, verdadero Dios y verdadero hombre; doctor de la Iglesia.",
+    "biography": "León I, llamado el Grande, fue papa del 440 al 461. Nació probablemente hacia el 400, en la Toscana según la tradición, y la fuente documentada lo muestra como diácono muy estimado en Roma, enviado a la Galia para mediar entre dos generales. Estaba allí cuando murió Sixto III y fue elegido su sucesor; consagrado el 29 de septiembre de 440, gobernó la Iglesia en una época en que el Imperio de Occidente se desmoronaba.\n\nSu pontificado se distinguió por una clara conciencia de la autoridad de la sede de Pedro, que ejerció con firmeza para ordenar la disciplina en la Galia, España y África. Sus sermones, que han llegado hasta nosotros, son piezas breves y precisas de predicación sobre los misterios de Cristo, el ayuno, la limosna y la dignidad del cristiano; con ellos educó a la comunidad romana en la fe y la liturgia.\n\nSu gran aportación doctrinal fue la carta dogmática a Flaviano, patriarca de Constantinopla (449), en la que expone que en la única persona de Cristo se unen sin confusión las dos naturalezas, la divina y la humana. El texto fue recibido en el Concilio de Calcedonia (451) como expresión de la fe, y se dice que los padres conciliares exclamaron que Pedro había hablado por boca de León; esta frase es una tradición muy repetida. León confirmó los decretos dogmáticos del concilio, aunque rechazó el canon que elevaba la sede de Constantinopla, y en 453 envió una carta circular para reafirmar la definición.\n\nTambién fue un pastor en tiempos de peligro. En 452, junto a una delegación romana, se entrevistó con Átila cerca de Mantua, en el río Mincio, y el rey de los hunos se retiró de Italia. En 455, tras la llegada de los vándalos de Genserico, obtuvo, según las fuentes antiguas, que la ciudad no fuera incendiada ni se matara a sus habitantes, aunque Roma fue saqueada durante unos días. La leyenda posterior añadió a la entrevista con Átila una aparición de los apóstoles Pedro y Pablo, que no está en las fuentes contemporáneas.\n\nMurió el 10 de noviembre de 461 y fue enterrado en el atrio de San Pedro; en 688, Sergio I trasladó sus restos al interior de la basílica. Benedicto XIV lo declaró doctor de la Iglesia en 1754. Su importancia radica en haber formulado con claridad cristológica la fe de Calcedonia y en haber consolidado el servicio del obispo de Roma a la unidad de la Iglesia.",
+    "virtues": [
+      "Claridad doctrinal",
+      "Firmeza pastoral",
+      "Valor ante el peligro"
+    ],
+    "iconography": "Papa con tiara y báculo, a veces ante Átila con los apóstoles Pedro y Pablo en el aire (tradición posterior).",
+    "works": [
+      {
+        "title": "Tomus ad Flavianum"
+      },
+      {
+        "title": "Sermones"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «Pope St. Leo I (the Great)»",
+        "url": "https://www.newadvent.org/cathen/09154b.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Crisis del Imperio romano de Occidente y controversias cristológicas del siglo V (nestorianismo y monofisismo).",
+    "significance": "Su carta a Flaviano (Tomus ad Flavianum) fijó la doctrina cristológica de Calcedonia; fortaleció el primado romano como servicio a la unidad.",
+    "canonization": {
+      "note": "Culto antiguo. Declarado doctor de la Iglesia por Benedicto XIV en 1754."
+    },
+    "note": "La Catholic Encyclopedia de 1913 sitúa su fiesta el 11 de abril; el calendario actual lo celebra el 10 de noviembre (día de su muerte), según el calendario vigente."
+  },
+  {
+    "id": "martin-de-tours",
+    "name": "San Martín de Tours",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-11",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "San Martín de Tours, obispo",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "bishop",
+      "religious",
+      "missionary"
+    ],
+    "born": {
+      "date": "c. 316",
+      "place": "Savaria (Panonia, hoy Hungría)"
+    },
+    "died": {
+      "date": "c. 397 (algunos autores, 400)",
+      "place": "Candes (Turena, Galia)"
+    },
+    "century": 4,
+    "countries": [
+      "HU",
+      "FR"
+    ],
+    "summary": "Soldado romano convertido, monje y obispo de Tours, apóstol de la Galia rural y modelo de caridad; la tradición recuerda el gesto de partir su capa con un pobre.",
+    "biography": "Martín nació hacia el 316 en Sabaria, en la provincia romana de Panonia (en la actual Hungría), hijo de un tribuno militar. Por las leyes de reclutamiento fue enrolado en el ejército imperial siendo adolescente, y sirvió en las Galias. Aún catecúmeno, recibió el bautismo hacia esa época. La Catholic Encyclopedia recuerda el célebre episodio de la capa, en Amiens, en que Martín cortó con su espada la mitad de su capa militar para cubrir a un mendigo; la fuente lo presenta como leyenda, pero ha sido durante siglos el rasgo más representativo del santo, y se atribuye a Sulpicio Severo, su biógrafo contemporáneo.\n\nTras dejar el ejército, que según la tradición abandonó en Worms al negarse a combatir, se acercó a san Hilario de Poitiers y hacia el 361 se retiró a una soledad cercana, donde se reunió una pequeña comunidad que dio origen al monasterio de Ligugé, considerado uno de los primeros de la Galia. Su fama de santidad creció, y a la muerte del obispo Lidorio, hacia el 371-372, el pueblo de Tours lo aclamó como obispo. Se dice que se resistió y que se escondió; así lo cuenta una anécdota popular que no se puede contrastar.\n\nComo obispo mantuvo su vida monástica: fundó el monasterio de Marmoutier, junto a Tours, y recorrió la campiña predicando y destruyendo templos paganos. Su acción evangelizadora en las zonas rurales de la Galia, donde el cristianismo era aún débil, es su aportación histórica más sólida. Sulpicio Severo, en la *Vida de Martín*, le atribuye numerosos milagros; la crítica los trata como parte del género hagiográfico.\n\nMurió en Candes, en la Turena, hacia el 397, a unos ochenta y un años de edad; algunos autores dan 400. La tradición sitúa su sepultura en Tours el 11 de noviembre. Su tumba se convirtió en uno de los grandes centros de peregrinación de la Europa medieval, hasta que los protestantes saquearon su santuario en 1562 y la Revolución de 1793 destruyó casi toda la colegiata; en 1860 se localizó de nuevo la tumba, y hoy los restos reposan en una basílica más pequeña.\n\nFue de los primeros santos no mártires venerados en Occidente, y su culto se difundió por toda Europa, con innumerables iglesias y topónimos. Es modelo de la caridad concreta, de la unión entre vida monástica y servicio pastoral y de la libertad evangélica ante el poder.",
+    "virtues": [
+      "Caridad",
+      "Humildad",
+      "Celo misionero",
+      "Vida monástica"
+    ],
+    "iconography": "Soldado romano a caballo que parte su capa con un pobre; también como obispo.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Martin of Tours»",
+        "url": "https://www.newadvent.org/cathen/09732b.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Galia tardorromana: cristianismo urbano consolidado, medio rural todavía pagano; ejército romano y monacato naciente en Occidente.",
+    "significance": "Padre del monacato galo y apóstol de la evangelización rural; primer gran santo confesor venerado en Occidente.",
+    "canonization": {
+      "note": "Culto inmemorial (santo confesor del siglo IV)."
+    },
+    "note": "Sulpicio Severo como autor de la Vida de Martín y la sepultura el 11 de noviembre no constan en la fuente leída (CE 1913); proceden de conocimiento general y deben cotejarse con la Vita Martini."
+  },
+  {
+    "id": "josafat-kuncewicz",
+    "name": "San Josafat Kuncewicz",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-12",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "San Josafat, obispo y mártir",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "bishop",
+      "martyr",
+      "religious"
+    ],
+    "born": {
+      "date": "c. 1580 (algunos autores, 1584)",
+      "place": "Volodímir (Volinia, hoy Ucrania)"
+    },
+    "died": {
+      "date": "12 de noviembre de 1623",
+      "place": "Vítebsk (actual Bielorrusia)"
+    },
+    "century": 17,
+    "countries": [
+      "UA",
+      "BY",
+      "PL"
+    ],
+    "order": "Orden Basiliana de San Josafat",
+    "canonization": {
+      "date": "29 de junio de 1867",
+      "by": "Pío IX",
+      "note": "Beatificado en 1643."
+    },
+    "summary": "Arzobispo greco-católico de Polotsk, monje basiliano y mártir de la unión de la Iglesia rutena con Roma; asesinado en Vítebsk en 1623.",
+    "biography": "Josafat (Yosafat) Kuncewicz nació hacia 1580 (algunos autores dan 1584) en Volodímir, en Volinia, entonces en el reino de Polonia-Lituania, en una familia de comerciantes ortodoxos; en el bautismo recibió el nombre de Juan. Creció en un territorio marcado por la división religiosa de la Iglesia rutena. En 1596, la Unión de Brest había unido a una parte de los obispos ortodoxos de la región con la sede de Roma, conservando su rito bizantino, mientras que otros permanecieron en la ortodoxia; la unión dividió familias, ciudades y cabildos.\n\nJuan se formó en Vilna, y en 1604 ingresó en el monasterio basiliano de la Santísima Trinidad, donde tomó el nombre de Josafat. Fue ordenado sacerdote en 1609. Junto con el futuro metropolitano José Velamin Rutski impulsó la reforma de los basilianos, y se distinguió como predicador y asceta, comprometido con la unión y con la dignidad del rito oriental.\n\nEn 1617 fue consagrado obispo de Vítebsk, con derecho de sucesión en Polotsk, de la que fue arzobispo desde 1618. Como pastor trabajó para renovar el clero, restaurar iglesias y mejorar la formación religiosa, y defendió con firmeza la unión con Roma frente a la jerarquía ortodoxa rival. Su carácter decidido le granjeó numerosos enemigos, y los adversarios de la unión lo acusaron de querer latinizar el rito, una acusación que sus partidarios rechazan.\n\nMurió asesinado en Vítebsk el 12 de noviembre de 1623, durante una visita a la ciudad, a manos de una turba sublevada por el partido adverso, con golpes de hacha y un disparo; su cuerpo fue arrojado al río Dvina. Su cuerpo fue recuperado y su tumba se convirtió en foco de veneración; fue beatificado en 1643 y canonizado por Pío IX el 29 de junio de 1867.\n\nSu memoria es hoy delicada y se invoca como signo de unidad: para la Iglesia greco-católica ucraniana y bielorrusa es un mártir de la comunión con Roma, pero también un recordatorio de las heridas del conflicto entre cristianos orientales y occidentales. En la memoria litúrgica universal figura el 12 de noviembre.",
+    "virtues": [
+      "Celo pastoral",
+      "Ascetismo",
+      "Fidelidad hasta el martirio"
+    ],
+    "iconography": "Obispo bizantino con la palma del martirio y un hacha clavada en la cabeza.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Josaphat Kuncewicz»",
+        "url": "https://www.newadvent.org/cathen/08503b.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Polonia-Lituania tras la Unión de Brest (1596): división entre rutenos unidos a Roma y ortodoxos.",
+    "significance": "Mártir por la unidad entre la Iglesia oriental y Roma; figura central del catolicismo bizantino-eslavo.",
+    "note": "La canonización por Pío IX en 1867 (la CE 1913 solo da el año) y el nombre de bautismo (Juan) no figuran en la fuente leída; proceden de conocimiento general."
+  },
+  {
+    "id": "alberto-magno",
+    "name": "San Alberto Magno",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-15",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "San Alberto Magno, obispo y doctor de la Iglesia",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "bishop",
+      "doctor",
+      "religious"
+    ],
+    "born": {
+      "date": "c. 1200 (las fuentes dan 1193-1206)",
+      "place": "Lauingen (Suabia)"
+    },
+    "died": {
+      "date": "15 de noviembre de 1280",
+      "place": "Colonia"
+    },
+    "century": 13,
+    "countries": [
+      "DE",
+      "FR"
+    ],
+    "order": "Orden de Predicadores",
+    "canonization": {
+      "date": "16 de diciembre de 1931",
+      "by": "Pío XI",
+      "note": "Beatificado por Gregorio XV en 1622; canonización y proclamación como doctor de la Iglesia (1931)."
+    },
+    "summary": "Dominico alemán, maestro de santo Tomás de Aquino, obispo de Ratisbona y pionero en integrar el estudio de la naturaleza y de Aristóteles con la teología; doctor de la Iglesia.",
+    "biography": "Alberto nació en Lauingen, en Suabia, hacia 1200 (las fuentes antiguas dan 1193, 1205 o 1206, y la fecha es incierta). Estudió en Padua y en 1223 ingresó en la Orden de Predicadores, fundada pocos años antes, impresionado, según la tradición, por la predicación del beato Jordán de Sajonia. Enseñó teología en varios conventos alemanes y fue enviado a París, donde obtuvo el grado de doctor y ocupó la cátedra dominicana de teología en torno a 1245.\n\nEn París tuvo entre sus discípulos a Tomás de Aquino, y cuando en 1248 la orden le encargó fundar un *Studium generale* en Colonia, lo llevó consigo. Allí Tomás fue su alumno y colaborador, y Alberto reconoció públicamente su talento, al que se atribuye la frase profética de que el «buey mudo» haría resonar su mugido por el mundo, una anécdota tradicional de las biografías. Alberto fue después superior provincial de los dominicos de Alemania.\n\nSu obra es enorme: la edición de Lyon (1651) ocupa 21 volúmenes in folio, y la de París (1890-1899) llegó a 38 volúmenes. Comentó casi todo el corpus de Aristóteles, entonces recién recuperado en Occidente, con interés por la lógica, la física, la psicología, la ética, la política y la metafísica; escribió tratados originales de mineralogía, botánica y zoología (*De animalibus*), basados en su observación directa, y obras teológicas como la *Summa theologiae*, comentarios a las *Sentencias* de Pedro Lombardo y a la Escritura. Se le llamó «Doctor universal» por la amplitud de su saber.\n\nEn 1260 fue nombrado obispo de Ratisbona, cargo que ejerció hasta renunciar en 1262 para volver a la enseñanza y la predicación. En 1274 asistió, a invitación de Gregorio X, al Concilio de Lyon. Murió en Colonia el 15 de noviembre de 1280, rodeado del respeto de sus hermanos; en sus últimos años, según las crónicas, su memoria declinó.\n\nFue beatificado por Gregorio XV en 1622 y canonizado, y a la vez proclamado doctor de la Iglesia, por Pío XI el 16 de diciembre de 1931. En 1941, Pío XII lo declaró patrono de los cultivadores de las ciencias naturales. Su importancia radica en haber defendido que la fe y la razón, y el estudio de la naturaleza, no se oponen, y en haber abierto el camino a la gran síntesis teológica de su discípulo Tomás.",
+    "virtues": [
+      "Sabiduría",
+      "Estudio",
+      "Humildad",
+      "Observación de la naturaleza"
+    ],
+    "patronages": [
+      "Cultivadores de las ciencias naturales (Pío XII, 1941)"
+    ],
+    "iconography": "Dominico con mitra, libro y modelo de iglesia; a veces con instrumentos científicos.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «Albertus Magnus»",
+        "url": "https://www.newadvent.org/cathen/01264a.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Siglo XIII: nacimiento de las universidades y recepción de Aristóteles en Occidente; fundación de las órdenes mendicantes.",
+    "significance": "Maestro de Tomás de Aquino; precursor de la ciencia natural medieval y de la integración entre fe y razón.",
+    "note": "De la CE 1913 se verificaron nacimiento (con sus variantes), Colonia, París, Ratisbona 1260-1262, Lyon 1274, muerte 1280, beatificación 1622 y canonización 1931. El doctorado por Pío XI, el patronazgo de 1941 y la fecha del 16-XII-1931 se mantienen del texto previo sin contraste con fuente leída."
+  },
+  {
+    "id": "isabel-de-hungria",
+    "name": "Santa Isabel de Hungría",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-17",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "Santa Isabel de Hungría, religiosa",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "religious",
+      "married",
+      "lay"
+    ],
+    "born": {
+      "date": "1207",
+      "place": "Presburgo (probablemente; Hungría)"
+    },
+    "died": {
+      "date": "17 de noviembre de 1231",
+      "place": "Marburgo (Hesse)"
+    },
+    "century": 13,
+    "countries": [
+      "HU",
+      "DE"
+    ],
+    "order": "Terciaria franciscana",
+    "canonization": {
+      "date": "28 de mayo de 1235",
+      "by": "Gregorio IX",
+      "note": "Canonizada en Perugia, en Pentecostés."
+    },
+    "summary": "Princesa húngara, landgravina de Turingia, viuda a los veinte años y terciaria franciscana; se consagró a los pobres y a los enfermos y murió a los veinticuatro.",
+    "biography": "Isabel nació en 1207, probablemente en Presburgo, hija del rey Andrés II de Hungría. De niña fue llevada a la corte de Turingia, en el castillo de Wartburg, para ser educada junto a su prometido, el hermano mayor de Ludovico, Hermann, que murió en 1216. En 1221 se casó con Ludovico IV, que tenía veintiún años, y ella catorce. El matrimonio fue feliz, y Ludovico respetó su piedad y su generosidad con los pobres.\n\nDurante una ausencia de su esposo, en 1226, una hambruna asoló la región y Isabel abrió los graneros, repartió limosnas y fundó un hospital bajo el castillo, donde atendía ella misma a los enfermos. La leyenda del «milagro de las rosas» (el pan que llevaba a escondidas a los pobres, convertido en rosas ante su marido o su cuñado) no es histórica, y la fuente de 1913 recuerda que se cuenta de otros santos; expresa, no obstante, la fama de su caridad.\n\nEn 1227 Ludovico murió de peste en Otranto, camino de la cruzada. Isabel, viuda y con tres hijos pequeños, fue apartada del castillo por sus parientes, y se dedicó a vivir pobremente. En 1228, el Viernes Santo, en Eisenach, renunció solemnemente al mundo, y recibió el hábito de la Tercera Orden franciscana de manos de Conrado de Marburgo, su director espiritual, predicador de fama y de severidad extrema que la sometió a duras mortificaciones y dirigió su vida de forma rígida. Fue una de las primeras terciarias de Alemania.\n\nSe estableció en Marburgo, donde edificó un hospital franciscano y trabajó con sus propias manos, hilando lana y cuidando a los enfermos más repugnantes. Murió allí el 17 de noviembre de 1231, a los veinticuatro años. Pronto se dieron milagros en su tumba, y fue canonizada por Gregorio IX en Perugia, el día de Pentecostés, el 28 de mayo de 1235.\n\nIsabel es recordada como patrona de la caridad y de las obras de misericordia, y se la venera en especial en Hungría y Alemania. Su ejemplo muestra que la santidad es posible desde la corte, en la vida matrimonial y en la viudez, y que el servicio a los pobres es el lugar del encuentro con Cristo. Su relación con Conrado de Marburgo recuerda también el riesgo de una dirección espiritual demasiado dura.",
+    "virtues": [
+      "Caridad",
+      "Pobreza evangélica",
+      "Humildad",
+      "Fortaleza en la viudez"
+    ],
+    "iconography": "Princesa con corona, hogazas de pan o rosas en el manto, a veces con un mendigo o un enfermo.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Elizabeth of Hungary»",
+        "url": "https://www.newadvent.org/cathen/05389a.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Alemania y Hungría del siglo XIII: auge del movimiento franciscano y de las cruzadas.",
+    "significance": "Modelo de caridad hacia los pobres; una de las primeras terciarias franciscanas."
+  },
+  {
+    "id": "cecilia-de-roma",
+    "name": "Santa Cecilia",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-22",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "Santa Cecilia, virgen y mártir",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "virgin",
+      "martyr"
+    ],
+    "born": {
+      "date": "sin datos fiables",
+      "place": "Roma (según la tradición)"
+    },
+    "died": {
+      "date": "fecha incierta (entre los siglos II y IV, según las propuestas)",
+      "place": "Roma"
+    },
+    "century": 3,
+    "countries": [
+      "IT"
+    ],
+    "summary": "Mártir romana de culto antiguo, cuyo nombre figura en el Canon romano; su relato conocido es legendario, y la tradición posterior la hizo patrona de los músicos.",
+    "biography": "Cecilia es una de las mártires romanas más veneradas, pero casi todo lo que se cuenta de ella procede de una narración de mediados del siglo V (las *Actas*), que la Catholic Encyclopedia califica de «romance piadoso» sin valor histórico. Lo cierto es su culto antiguo: el *titulus Caeciliae*, una iglesia en Trastevere, existía ya en el siglo IV y aparece entre las firmas del concilio romano del 499; el *Martyrologium Hieronymianum* y el Sacramentario leoniano, con cinco misas en su honor, la mencionan. Su nombre también figura en el Canon romano.\n\nLa cronología es incierta: algunos autores la sitúan bajo Marco Aurelio (hacia 177), otros bajo Alejandro Severo, Decio o Diocleciano; la fuente de 1913 concluye que ninguna propuesta está probada. Sí es verosímil, según De Rossi, la relación de las catacumbas de San Calixto con la familia romana de los Cecilios.\n\nSegún las *Actas*, Cecilia era una joven noble que, forzada a casarse con Valeriano, le confió en la noche de bodas que un ángel custodiaba su virginidad; Valeriano se convirtió y se bautizó, y con su hermano Tiburcio sufrió el martirio. Cecilia, condenada a morir asfixiada en su baño, resistió, y el verdugo no consiguió decapitarla con tres golpes; murió tres días después, tras repartir sus bienes a los pobres. Estos elementos, incluidos las coronas de rosas y lirios, pertenecen a la leyenda; algunos, como la relación con Valeriano y Tiburcio, podrían tener algún fondo histórico.\n\nHacia el 821, el papa Pascual I, tras una visión, encontró su cuerpo en las catacumbas de Pretextato y lo trasladó a Trastevere; en 1599, el cardenal Sfondrato halló los sarcófagos bajo el altar mayor, y el escultor Maderno la representó en su estatua, en la postura en que se dice que fue encontrada, noticia que procede de relaciones de la época.\n\nSu vínculo con la música se basa en una frase de las *Actas*, «cantantibus organis», que en la Edad Media se leyó como música instrumental, cuando probablemente hablaba de los instrumentos de la boda. Las representaciones con un órgano portátil aparecen desde los siglos XIV-XV, y en 1584 la Academia de Música de Roma la eligió patrona; de allí se extendió a la música sacra. Su importancia para la Iglesia es la de una mártir cuyo nombre la liturgia romana conserva desde la Antigüedad, aunque su biografía permanezca en la penumbra.",
+    "virtues": [
+      "Fortaleza",
+      "Pureza",
+      "Generosidad"
+    ],
+    "iconography": "Joven con un órgano portátil, una corona de rosas y azucenas, y la palma; en la escultura de Maderno, tendida con el cuello marcado.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Cecilia»",
+        "url": "https://www.newadvent.org/cathen/03471b.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Roma cristiana antigua, culto en las catacumbas de San Calixto y en Trastevere.",
+    "significance": "Mártir venerada desde la antigüedad en la liturgia romana; patrona tradicional de la música sacra.",
+    "patronages": [
+      "Músicos y música sacra (por tradición; Academia de Música de Roma, 1584)"
+    ],
+    "note": "El patronazgo es por tradición, desde 1584; no consta decreto papal en la fuente leída."
+  },
+  {
+    "id": "miguel-agustin-pro",
+    "name": "Beato Miguel Agustín Pro",
+    "status": "blessed",
+    "celebrations": [
+      {
+        "date": "11-23",
+        "rank": "optional",
+        "calendar": "mx",
+        "title": "Beato Miguel Agustín Pro, presbítero y mártir",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "priest",
+      "martyr",
+      "religious",
+      "blessed"
+    ],
+    "born": {
+      "date": "13 de enero de 1891",
+      "place": "Guadalupe (Zacatecas)"
+    },
+    "died": {
+      "date": "23 de noviembre de 1927",
+      "place": "Ciudad de México"
+    },
+    "century": 20,
+    "countries": [
+      "MX"
+    ],
+    "order": "Compañía de Jesús",
+    "canonization": {
+      "date": "25 de septiembre de 1988 (beatificación)",
+      "by": "Juan Pablo II"
+    },
+    "summary": "Jesuita mexicano, ordenado en Bélgica, que ejerció un ministerio clandestino en la capital durante la persecución religiosa y fue fusilado el 23 de noviembre de 1927; beatificado en 1988.",
+    "biography": "Miguel Agustín Pro Juárez nació el 13 de enero de 1891 en Guadalupe, Zacatecas, en una familia minera; fue el tercero de once hijos de Miguel Pro y Josefa Juárez. Dos hermanas mayores abrazaron la vida religiosa. De carácter vivaz y bromista, tuvo una infancia marcada por la enfermedad y por una piedad profunda.\n\nEl 19 de agosto de 1911 ingresó en el noviciado de la Compañía de Jesús, en El Llano, Michoacán. La Revolución mexicana obligó a los jesuitas a trasladarse; su formación lo llevó a California, a España (Granada) y a Nicaragua, donde fue profesor, y finalmente a Enghien, en Bélgica, donde fue ordenado sacerdote, hacia 1925 (las fuentes varían entre 1925 y 1926). Su salud, con problemas estomacales, le causó frecuentes dificultades.\n\nRegresó a México en julio de 1926, tras una peregrinación a Lourdes, cuando estaba en vigor la legislación anticlerical del presidente Plutarco Elías Calles y el culto público estaba suspendido. En la capital, aprovechó su ingenio y sus disfraces para llevar la comunión, confesar, bautizar y ayudar a los necesitados, moviéndose de casa en casa para evitar a la policía. Su apostolado, subrayan las biografías, no era armado.\n\nTras el atentado contra el general Álvaro Obregón, presidente electo, en noviembre de 1927, las autoridades implicaron a Miguel y a sus hermanos Humberto y Roberto, y los detuvieron. Según su biografía, el verdadero responsable se entregó y confesó, pero la ejecución se llevó adelante sin juicio. El 23 de noviembre de 1927, poco después de las diez de la mañana, fue fusilado en el patio de la Inspección de Policía. Pidió que lo dejaran rezar, perdonó a sus verdugos y gritó «¡Viva Cristo Rey!».\n\nJuan Pablo II lo beatificó el 25 de septiembre de 1988. Sus restos se veneran en la parroquia de la Sagrada Familia, en la colonia Roma, de la ciudad de México. En el calendario litúrgico de México se celebra el 23 de noviembre como memoria libre.\n\nEs un mártir de la libertad religiosa en el siglo XX, y su recuerdo une a los católicos mexicanos como testimonio de fidelidad y de perdón. Su figura, de gran simpatía humana, recuerda también que la santidad puede convivir con el buen humor y la audacia.",
+    "virtues": [
+      "Fortaleza",
+      "Alegría",
+      "Perdón",
+      "Celo sacerdotal"
+    ],
+    "iconography": "Jesuita de pie ante el pelotón de fusilamiento, con los brazos en cruz y un crucifijo y un rosario.",
+    "unverified": true,
+    "sources": [
+      {
+        "label": "es.catholic.net, «Miguel Agustín Pro Juárez, Beato»",
+        "url": "https://www.es.catholic.net/plugins/convertpdf/docs/articulos.php?id=35662"
+      },
+      {
+        "label": "GCatholic: Calendario litúrgico de México (rango: memoria facultativa)",
+        "url": "https://gcatholic.org/calendar/2026/MX-es"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Persecución religiosa en México bajo la presidencia de Calles y Guerra Cristera (1926-1929).",
+    "significance": "Testigo de la libertad religiosa en México durante la persecución callista; beatificado en 1988.",
+    "note": "Se leyó una biografía de catholic.net y un resumen de búsqueda; no se accedió a la Positio ni a vatican.va. Rango corregido a memoria libre (coincide con liturgy-calendars.ts y GCatholic). La fecha exacta de ordenación (1925-1926), sin contraste con vatican.va."
+  },
+  {
+    "id": "andres-dung-lac-y-companeros",
+    "name": "San Andrés Dung-Lac y compañeros",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-24",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "Santos Andrés Dung-Lac, presbítero, y compañeros, mártires",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "martyr",
+      "priest",
+      "lay"
+    ],
+    "born": {
+      "date": "c. 1795 (Andrés Dung-Lac)",
+      "place": "norte de Vietnam"
+    },
+    "died": {
+      "date": "21 de diciembre de 1839 (Andrés Dung-Lac)",
+      "place": "Hanói"
+    },
+    "century": 19,
+    "countries": [
+      "VN"
+    ],
+    "canonization": {
+      "date": "19 de junio de 1988",
+      "by": "Juan Pablo II"
+    },
+    "summary": "Grupo de 117 mártires de Vietnam (96 vietnamitas, 11 dominicos españoles y 10 misioneros franceses), muertos entre 1745 y 1862; Andrés Dung-Lac, sacerdote, fue decapitado en Hanói en 1839.",
+    "biography": "La Iglesia recuerda el 24 de noviembre a los 117 mártires de Vietnam, canonizados por Juan Pablo II el 19 de junio de 1988: 96 vietnamitas, 11 dominicos españoles y 10 sacerdotes franceses de la Sociedad de Misiones Extranjeras de París; entre ellos hay obispos, sacerdotes, catequistas y laicos, incluida, según algunas biografías, una madre de familia y un joven. Fueron beatificados en cuatro etapas: en 1900 (León XIII), 1906 y 1909 (Pío X) y 1951 (Pío XII).\n\nLa Iglesia llegó a Vietnam en el siglo XVI con misioneros portugueses, y su expansión fue notable en el siglo XVII, gracias a misioneros jesuitas, dominicos españoles y franceses de las Misiones Extranjeras. Los emperadores y gobernantes la persiguieron en varias oleadas: la lista oficial de los mártires que publica la Santa Sede habla de decenas de edictos a lo largo de más de dos siglos y de unas 130 000 víctimas en total. Entre los 117 canonizados, 58 murieron bajo el emperador Minh Mang (1820-1840), 3 bajo Thieu Tri y 50 bajo Tu Duc (1847-1883).\n\nEntre ellos destaca Andrés Dung-Lac, cuyo nombre de nacimiento era Dung An-Tran. Nació hacia 1795 en una familia pobre del norte del país; se hizo cristiano, tomó el nombre de Andrés en el bautismo y añadió el apellido Lac. Fue ordenado sacerdote hacia 1823, y ejerció el ministerio de manera semiclandestina. Fue detenido en 1835, pero los fieles pagaron su rescate; de nuevo capturado en 1839 junto con el sacerdote Pedro Thi, fue torturado y decapitado en Hanói el 21 de diciembre de 1839, según la lista oficial de la Santa Sede. La celebración de grupo se fijó el 24 de noviembre, y el nombre de Andrés Dung-Lac encabeza la lista.\n\nLos mártires de Vietnam pertenecen a todas las condiciones sociales. En las persecuciones se les exigía con frecuencia renunciar a la fe, y todos ellos prefirieron mantenerse fieles.\n\nLa canonización fue un acontecimiento para la Iglesia de Vietnam, una de las más numerosas de Asia. En 1990, la Santa Sede los proclamó patronos de Vietnam, según la información del Estado de la Ciudad del Vaticano. Su memoria es un testimonio de la fecundidad del martirio y de la capacidad de los laicos, los catequistas y el clero local para sostener la fe en tiempos de persecución, así como de la entrega de los misioneros extranjeros.",
+    "virtues": [
+      "Fortaleza",
+      "Fidelidad",
+      "Perdón"
+    ],
+    "iconography": "Grupo de mártires vietnamitas con vestiduras tradicionales y palma; Andrés Dung-Lac con estola.",
+    "sources": [
+      {
+        "label": "Santa Sede, Mártires de Vietnam (lista oficial de los 117, con fechas)",
+        "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19880619_martiri_vietnam_sp.html"
+      },
+      {
+        "label": "Vatican News, «Sts. Andrew Dung-Lac and his companions, martyrs»",
+        "url": "https://www.vaticannews.va/en/saints/11/24/sts--andrew-d_ng-lc--and-his-companions--martyrs.print.html"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Persecuciones a los cristianos en Vietnam bajo los emperadores Minh Mang, Thieu Tri y Tu Duc (siglos XVIII-XIX).",
+    "significance": "Mayor grupo de mártires de la Iglesia en Asia canonizado en un mismo acto; testimonio de las comunidades vietnamitas y de los misioneros.",
+    "patronages": [
+      "Vietnam (según el Estado de la Ciudad del Vaticano, 1990)"
+    ],
+    "note": "Fecha de muerte (21-XII-1839), composición del grupo y beatificaciones leídas en la lista de la Santa Sede; datos biográficos de Andrés (ordenación 1823, nombre) leídos en Vatican News. El patronazgo de 1990 proviene de un resumen de búsqueda del sitio del Estado Vaticano. Cifra de 130 000 víctimas según la propia lista oficial."
+  },
+  {
+    "id": "catalina-de-alejandria",
+    "name": "Santa Catalina de Alejandría",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-25",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "Santa Catalina de Alejandría, virgen y mártir",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "virgin",
+      "martyr"
+    ],
+    "born": {
+      "date": "sin datos fiables (tradición: siglo III-IV)",
+      "place": "Alejandría (según la tradición)"
+    },
+    "died": {
+      "date": "sin datos fiables (tradición: bajo Maximino, c. 305)",
+      "place": "Alejandría (según la tradición)"
+    },
+    "century": 4,
+    "countries": [
+      "EG"
+    ],
+    "summary": "Virgen y mártir alejandrina de culto medieval muy extendido; su historia, centrada en un debate con filósofos y en la rueda, es legendaria.",
+    "biography": "De Catalina de Alejandría se conoce poco con seguridad. Las actas originales de su martirio no se conservan, y los textos griegos, latinos y árabes que han llegado están, según la Catholic Encyclopedia, muy transformados por episodios fantásticos y largos discursos; los especialistas dudan de su autenticidad. Se admite que existió una mártir de ese nombre, y se piensa que los hechos centrales pueden tener algún fundamento, pero casi todo lo demás es tradición.\n\nSegún el relato legendario, Catalina era una joven noble y muy culta, de unos dieciocho años, que se presentó ante el emperador Maximino, en Alejandría, para reprocharle la persecución de los cristianos. Maximino convocó a los sabios y retóricos más reputados para refutarla, y ella los venció en debate; varios se convirtieron y fueron ejecutados. La emperatriz y el jefe de las tropas, Porfirio, también se convirtieron y fueron martirizados. Catalina fue condenada a morir en un suplicio de ruedas dentadas, que se rompió al tocarla, y finalmente fue decapitada.\n\nLa tradición añade que unos ángeles trasladaron su cuerpo al monte Sinaí, donde un monasterio la veneró desde la Edad Media; sin embargo, los peregrinos antiguos al Sinaí no mencionan esa traslación. La leyenda y la historia se confundieron, y en el siglo XVIII el erudito Dom Deforis consideró en gran parte falsa la tradición que seguía Bossuet; su fiesta desapareció poco después del breviario de París.\n\nSu culto, en cambio, fue muy extenso en la Edad Media, en Oriente y Occidente. Se la incluyó entre los Catorce Santos Auxiliadores junto con santa Margarita y santa Bárbara, y en algunas diócesis francesas su fiesta fue de precepto hasta comienzos del siglo XVII. A comienzos del siglo XV, según la tradición, se aseguraba que se había aparecido a Juana de Arco, junto con santa Margarita, como parte de sus «voces»; es una creencia de la época, no un dato histórico de Catalina.\n\nSe la venera como patrona de las doncellas y de los estudiantes, de los teólogos y apologistas, por su disputa con los sabios, y de los artesanos de la rueda, por el instrumento de su martirio. Estos patronazgos son tradicionales. En el calendario actual su memoria es libre, el 25 de noviembre. Su importancia hoy es sobre todo cultural y devocional: una figura que simboliza el diálogo entre la fe y la razón y la valentía de una joven ante el poder, aunque sin base documental sólida.",
+    "virtues": [
+      "Sabiduría",
+      "Fortaleza",
+      "Fidelidad"
+    ],
+    "iconography": "Joven coronada con una rueda dentada rota, la palma y un libro; a veces con la espada.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Catherine of Alexandria»",
+        "url": "https://www.newadvent.org/cathen/03445a.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "context": "Culto cristiano de Egipto y de Oriente; devoción medieval europea a los santos auxiliadores.",
+    "significance": "Símbolo medieval del diálogo entre fe y razón; patrona tradicional de estudiantes y filósofos.",
+    "patronages": [
+      "Doncellas y estudiantes; teólogos y filósofos; artesanos de la rueda (patronazgos tradicionales, según la Catholic Encyclopedia)"
+    ],
+    "canonization": {
+      "note": "Culto antiguo."
+    }
+  },
+  {
+    "id": "andres-apostol",
+    "name": "San Andrés, apóstol",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-30",
+        "rank": "feast",
+        "calendar": "general",
+        "title": "San Andrés, apóstol",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "apostle",
+      "martyr"
+    ],
+    "born": {
+      "date": "siglo I",
+      "place": "Betsaida (Galilea)"
+    },
+    "died": {
+      "date": "siglo I (tradición: 30 de noviembre, c. año 60)",
+      "place": "Patras, en Acaya (según la tradición)"
+    },
+    "century": 1,
+    "countries": [
+      "IL",
+      "GR"
+    ],
+    "summary": "Apóstol, hermano de Simón Pedro y primer discípulo llamado, según Juan; la tradición lo hace mártir en Patras, en una cruz que se representa en aspa.",
+    "biography": "Andrés era hijo de Jonás (o Juan), natural de Betsaida de Galilea, pescador, y hermano de Simón Pedro; ambos vivían, según los evangelios, en Cafarnaún. Según el evangelio de Juan fue antes discípulo de Juan el Bautista; cuando éste señaló a Jesús como el «Cordero de Dios», Andrés lo siguió y llevó a su hermano Pedro ante Jesús (Jn 1,35-42). Por esta razón, la tradición oriental lo llama el «Protocleto», el primer llamado. En las listas de los apóstoles figura siempre entre los cuatro primeros.\n\nLos evangelios lo muestran en momentos claves: con Pedro, Santiago y Juan escuchó a Jesús en el discurso sobre el fin de los tiempos (Mc 13,3); fue quien señaló al muchacho de los cinco panes y los dos peces antes de la multiplicación (Jn 6,8-9); y presentó a Jesús a los griegos que querían verle (Jn 12,20-22). Es una figura discreta, que sobre todo pone a otros en contacto con Cristo. Los Hechos solo lo nombran en la lista de los apóstoles, y no aparece en las epístolas.\n\nLo demás pertenece a la tradición. Las fuentes antiguas no se ponen de acuerdo sobre dónde predicó: Eusebio menciona Escitia, Gregorio Nacianceno Epiro, Jerónimo Acaya, y otros autores, Grecia, Capadocia, Galacia o Bizancio. Es creencia general que fue crucificado en Patras, en Acaya, por orden del procónsul, atado a la cruz y no clavado; la fecha tradicional es el 30 de noviembre, con el año 60 bajo Nerón, que no está documentada. La forma de la cruz en aspa (cruz de san Andrés) se considera probable, pero la Catholic Encyclopedia señala que la evidencia no es anterior al siglo XIV.\n\nSus reliquias, según la tradición, fueron trasladadas de Patras a Constantinopla hacia el 357, y de allí, a comienzos del siglo XIII, a Amalfi por el cardenal Pedro de Capua, donde se conserva la mayor parte. Se le tiene por patrono de Escocia y de Rusia, y sobre todo es el patrono de la Iglesia de Constantinopla, que lo reconoce como su fundador apostólico; esto es tradicional, y la fuente leída no habla de Constantinopla en esos términos.\n\nSu fiesta, el 30 de noviembre, es muy antigua y cierra el año litúrgico y abre la cercanía del Adviento. Su importancia es doble: representa el vínculo entre las Iglesias de Oriente y Occidente, como hermano de Pedro, y es modelo del discípulo cuya misión es conducir a otros hacia Jesús.",
+    "virtues": [
+      "Disponibilidad",
+      "Docilidad",
+      "Espíritu misionero"
+    ],
+    "iconography": "Apóstol con una cruz en aspa, a veces con una red o un pez.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Andrew»",
+        "url": "https://www.newadvent.org/cathen/01471a.htm"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "significance": "Primer llamado por Jesús; vínculo simbólico entre Roma y Constantinopla.",
+    "patronages": [
+      "Escocia y Rusia (según la Catholic Encyclopedia)"
+    ],
+    "note": "Se omiten los traslados de la cabeza (1462 y 1964), que no constan en la fuente leída; el patronazgo de Constantinopla provienen de conocimiento general."
+  },
+  {
+    "id": "todos-los-santos",
+    "name": "Todos los Santos",
+    "status": "mystery",
+    "celebrations": [
+      {
+        "date": "11-01",
+        "rank": "solemnity",
+        "calendar": "general",
+        "title": "Todos los Santos",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "blessed"
+    ],
+    "summary": "Solemnidad en que la Iglesia celebra a todos los santos, conocidos y desconocidos, que gozan de Dios; se celebra el 1 de noviembre.",
+    "biography": "La solemnidad de Todos los Santos honra a la multitud de los bienaventurados que ya participan de la gloria de Dios, incluidos aquellos que no figuran en el calendario y cuyo nombre solo Dios conoce. La liturgia la presenta como fiesta de la esperanza: la Iglesia peregrina contempla a quienes han llegado a la meta y se sabe llamada a la misma santidad.\n\nSu origen es gradual. En Oriente existía, ya en el siglo IV, una celebración común de los mártires en el tiempo pascual, y los bizantinos celebraban a todos los santos el domingo después de Pentecostés. En Roma, según la tradición, el papa Bonifacio IV dedicó el Panteón al culto cristiano, en honor de María y de todos los mártires, el 13 de mayo (hacia 609-610), y esa fecha se conservó durante generaciones como fiesta de los mártires. Más tarde, Gregorio III habría erigido en San Pedro un oratorio en honor de todos los santos, y durante el pontificado de Gregorio IV (827-844) la fiesta pasó al 1 de noviembre, en tiempos del emperador Luis el Piadoso; las fuentes no permiten determinar si la iniciativa partió del papa o del emperador. Sixto IV (1471-1484) añadió una octava, hoy suprimida.\n\nAlgunos autores han sugerido que el cambio de fecha buscó cristianizar celebraciones de otoño del norte de Europa. Se trata de una hipótesis y no de un hecho documentado.\n\nHoy la solemnidad tiene como lecturas habituales el Apocalipsis (la multitud inmensa «de toda nación, raza, pueblo y lengua», Ap 7,2-4.9-14), la primera carta de Juan (1 Jn 3,1-3) y las bienaventuranzas (Mt 5,1-12a), que son como la carta de la vida santa. El Concilio Vaticano II recordó, en la constitución *Lumen gentium*, que todos los fieles son llamados a la santidad (capítulo V), y que los santos son compañeros y mediadores de intercesión.\n\nEn México y en otros países de tradición hispana la fecha se une a la conmemoración de los fieles difuntos del día siguiente, en una devoción popular muy arraigada, con altares y visitas a los cementerios.\n\nSu importancia teológica es la de la comunión de los santos: la Iglesia terrena, la que se purifica y la que ya contempla a Dios forman un solo cuerpo en Cristo. La solemnidad recuerda que la santidad no es privilegio de unos pocos, sino vocación común de todos los bautizados, cumplida en la vida cotidiana.",
+    "context": "Antigua fiesta colectiva de mártires y santos en Oriente y en Roma, fijada el 1 de noviembre en el siglo IX.",
+    "virtues": [
+      "Santidad",
+      "Esperanza",
+      "Comunión de los santos"
+    ],
+    "significance": "Celebra la comunión de los santos y la llamada universal a la santidad.",
+    "iconography": "Multitud de santos ante el trono y el Cordero (Ap 7), con palmas y vestiduras blancas.",
+    "sources": [
+      {
+        "label": "FSSPX.news, «Historia de la fiesta litúrgica de Todos los Santos»",
+        "url": "https://fsspx.news/es/news/historia-la-fiesta-liturgica-todos-los-santos-20400"
+      },
+      {
+        "label": "ACI Prensa, «Todos los Santos» (resumen de búsqueda)",
+        "url": "https://www.aciprensa.com/santo/709/todos-los-santos"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "unverified": true,
+    "note": "Origen leído en FSSPX.news (Oriente, Gregorio III, Gregorio IV 827-844, Sixto IV); la fecha del Panteón (609-610), las lecturas del Misal y la cita de Lumen gentium V proceden de conocimiento general y no se cotejaron con vatican.va. Categoría 'blessed' usada por falta de una específica."
+  },
+  {
+    "id": "fieles-difuntos",
+    "name": "Conmemoración de todos los Fieles Difuntos",
+    "status": "mystery",
+    "celebrations": [
+      {
+        "date": "11-02",
+        "rank": "commemoration",
+        "calendar": "general",
+        "title": "Conmemoración de todos los fieles difuntos",
+        "color": "violet"
+      }
+    ],
+    "categories": [
+      "blessed"
+    ],
+    "summary": "Día en que la Iglesia ora por los difuntos y recuerda su esperanza en la resurrección; se celebra el 2 de noviembre.",
+    "biography": "El 2 de noviembre la Iglesia recuerda a todos los fieles difuntos y ruega por ellos. Su fundamento es la fe en la resurrección de Cristo y en la comunión entre vivos y muertos: quienes mueren en la amistad con Dios pero necesitan purificación son ayudados por la oración, la limosna y, sobre todo, la Eucaristía. La liturgia de este día está centrada en el misterio pascual: Cristo ha vencido a la muerte y la voluntad de Dios es que nadie se pierda y que todos resuciten (Jn 6,37-40).\n\nLa práctica de orar por los difuntos es muy antigua. Ya en el siglo II los cristianos celebraban la Eucaristía por sus muertos, y se marcaban el tercer día tras el entierro, el aniversario y, más tarde, el día séptimo y el trigésimo. La fecha del 2 de noviembre tiene un origen monástico: en 998, Odilón, abad de Cluny (994-1048), dispuso que en todos los monasterios dependientes de la abadía se hiciera ese día la conmemoración de todos los fieles difuntos, tras la fiesta de Todos los Santos. La costumbre se extendió desde Cluny a toda la Iglesia latina, y fue adoptada por Roma más tarde.\n\nEn 1915, durante la primera guerra mundial, Benedicto XV concedió a todos los sacerdotes la facultad de celebrar tres misas ese día: una por la intención que cada uno desee, otra por todos los fieles difuntos, sin estipendio, y una tercera por la intención del papa. La facultad, que ya existía en España, Portugal y sus antiguos territorios americanos, quedó así extendida a todo el mundo católico.\n\nEl Concilio Vaticano II recuerda que la Iglesia peregrina «con gran piedad» honró la memoria de los difuntos y ofreció sufragios por ellos (*Lumen gentium* 50). La liturgia actual, centrada en la esperanza, ofrece oraciones y lecturas que invitan a ver la muerte como paso a una vida nueva, no como final.\n\nEn muchas culturas, en especial en México, la fecha se une al día de Todos los Santos en una tradición popular de altares, flores y visitas a los cementerios, en las que se expresa la cercanía de los difuntos. Esa devoción, que combina elementos precolombinos y cristianos, es reconocida por la Iglesia como religiosidad popular.\n\nRezar por los difuntos es una obra de misericordia: nos recuerda que la vida terrena es limitada, que no estamos solos ante la muerte y que Dios no olvida a nadie. Es una invitación a vivir con esperanza y a cuidar la memoria de los que nos precedieron.",
+    "context": "Conmemoración instituida en ambiente monástico (Cluny, 998) y extendida a la Iglesia latina.",
+    "virtues": [
+      "Esperanza",
+      "Caridad con los difuntos",
+      "Misericordia"
+    ],
+    "significance": "Expresa la comunión entre la Iglesia peregrina y los difuntos y la esperanza cristiana en la resurrección.",
+    "sources": [
+      {
+        "label": "Vatican News, «Conmemoración de todos los fieles difuntos»",
+        "url": "https://www.vaticannews.va/es/fiestas-liturgicas/conmemoracion-de-todos-los-fieles-difuntos.html"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "unverified": true,
+    "note": "Odilón (998) y Benedicto XV (1915, tres misas) leídos en Vatican News. La adopción romana en el siglo XIV, la cita de Lumen gentium 50 y el origen mixto de las tradiciones mexicanas proceden de conocimiento general sin cotejar. Categoría 'blessed' usada por falta de una específica."
+  },
+  {
+    "id": "dedicacion-basilicas-pedro-y-pablo",
+    "name": "Dedicación de las Basílicas de San Pedro y San Pablo",
+    "status": "mystery",
+    "celebrations": [
+      {
+        "date": "11-18",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "Dedicación de las basílicas de los santos apóstoles Pedro y Pablo",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "apostle"
+    ],
+    "summary": "Memoria libre que recuerda la dedicación de las basílicas de San Pedro, en el Vaticano, y de San Pablo, en la vía Ostiense, tumbas de los dos apóstoles en Roma.",
+    "biography": "El 18 de noviembre se recuerda la dedicación de las basílicas romanas de San Pedro, en el Vaticano, y de San Pablo extramuros, en la vía Ostiense, edificadas sobre la tradicional sepultura de los dos apóstoles. Esta memoria expresa la comunión de Pedro y Pablo, columnas de la Iglesia, y la unidad de la fe apostólica que Roma custodia.\n\nLa primera basílica de San Pedro fue edificada, según la tradición, por Constantino a comienzos del siglo IV, sobre la colina vaticana, donde se veneraba la tumba del apóstol; la fuente leída la fecha hacia el 323 (otras fuentes dan el 326). Esa basílica se conservó casi sin cambios durante unos mil doscientos años. La actual comenzó a construirse en 1454, bajo Nicolás V, con intervención de Bramante, Rafael, Miguel Ángel y Bernini entre otros, y fue consagrada por Urbano VIII el 18 de noviembre de 1626, fecha que se eligió por coincidir con el aniversario de la consagración de la antigua.\n\nLa basílica de San Pablo se levantó junto a la vía Ostiense, donde la tradición sitúa la sepultura del apóstol, tras su martirio en las Tres Fuentes. La primera iglesia, de época constantiniana, fue reconstruida, según la fuente leída, por Teodosio y Valentiniano (en otro pasaje la misma fuente la atribuye a León Magno y Teodosio). Un incendio la destruyó en 1823, y Pío IX consagró la nueva, reconstruida con ayuda de los católicos de todo el mundo, en 1854. Durante las obras se halló una tumba antiquísima con la inscripción «Pablo apóstol y mártir».\n\nLa conmemoración conjunta se celebra el 18 de noviembre, fecha de la dedicación de San Pedro; la fuente leída da el 10 de diciembre como fecha de la dedicación de la basílica ostiense. Hoy la memoria es libre.\n\nPara la fe, estos templos no son meros monumentos: señalan que la Iglesia está fundada en el testimonio de los apóstoles, que dieron su vida en Roma.",
+    "context": "Roma cristiana: veneración de las tumbas de Pedro y Pablo desde la Antigüedad.",
+    "significance": "Expresa la unidad de la Iglesia en la fe apostólica y la comunión con la sede de Pedro.",
+    "sources": [
+      {
+        "label": "es.catholic.net, «Dedicación de las basílicas de S. Pedro y S. Pablo»",
+        "url": "https://es.catholic.net/op/articulos/32075/dedicacin-de-las-baslicas-de-s-pedro-y-s-pablo.html"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "unverified": true,
+    "note": "Datos leídos en catholic.net (Constantino hacia 323, Urbano VIII 1626, incendio 1823, Pío IX 1854, 10 de diciembre); la propia fuente es contradictoria sobre los constructores de San Pablo. Pendiente cotejar con el Martirologio o la Santa Sede."
+  },
+  {
+    "id": "margarita-de-escocia",
+    "name": "Santa Margarita de Escocia",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-16",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "Santa Margarita de Escocia",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "lay",
+      "married"
+    ],
+    "born": {
+      "date": "c. 1045",
+      "place": "Hungría o Inglaterra (según las fuentes)"
+    },
+    "died": {
+      "date": "16 de noviembre de 1093",
+      "place": "Edimburgo"
+    },
+    "century": 11,
+    "countries": [
+      "GB"
+    ],
+    "canonization": {
+      "date": "1250",
+      "by": "Inocencio IV"
+    },
+    "summary": "Princesa anglosajona, reina de Escocia por su matrimonio con Malcolm III, impulsora de la reforma religiosa y de la caridad; murió en 1093.",
+    "biography": "Margarita nació hacia 1045 (la fecha exacta se desconoce) en el seno de la casa real anglosajona: era hija de Eduardo el Exiliado y de Águeda, y nieta del rey Edmundo Ironside. Su familia vivió exiliada en la corte húngara, y volvió a Inglaterra poco antes de la conquista normanda. Según la tradición recogida en su biografía principal, atribuida al clérigo Turgot, tras la conquista su madre quiso volver al continente, pero una tempestad llevó la nave a Escocia, donde el rey Malcolm III los acogió bajo su protección. La atribución de la biografía a Turgot sigue siendo discutida.\n\nEntre 1067 y 1070 se casó con Malcolm, a pesar de que, según se cuenta, había deseado entrar en un convento. El matrimonio fue fecundo, con varios hijos, entre ellos reyes de Escocia, y Margarita ejerció una influencia notable sobre un monarca poco instruido. Su vida privada se dedicó a la oración, a la lectura de la Escritura y a las obras de caridad: según la tradición, daba de comer a los pobres antes de sentarse a la mesa y recibía a huérfanos y mendigos.\n\nSe le atribuye el impulso de la reforma de la Iglesia escocesa. Promovió un sínodo que reguló el ayuno de Cuaresma, la comunión pascual y los matrimonios en grados prohibidos, y favoreció la fundación de iglesias, entre ellas la abadía de Dunfermline, edificada para custodiar una reliquia de la Vera Cruz. Se conserva en la Biblioteca Bodleiana de Oxford un libro de los evangelios que, según la tradición, le perteneció. Las costumbres religiosas de Escocia se acercaron así a las del resto del continente, aunque este proceso fue más largo y complejo que el de una sola persona.\n\nMurió en Edimburgo el 16 de noviembre de 1093, pocos días después de su esposo y de su hijo mayor, caídos en una expedición militar a Inglaterra; dicen las fuentes que predijo el día de su muerte. Fue enterrada ante el altar mayor de Dunfermline. Inocencio IV la canonizó en 1250, y sus reliquias fueron trasladadas a un nuevo relicario el 19 de junio de 1259. La Catholic Encyclopedia de 1910 recuerda que su fiesta se celebraba entonces el 10 de junio; desde la reforma de 1969 se celebra el 16 de noviembre.\n\nMargarita es un ejemplo de santidad laica en el gobierno: esposa y madre, reina caritativa, instruida y atenta a la reforma de la Iglesia. Se la recuerda en Escocia como figura central de su historia religiosa.",
+    "context": "Escocia y Inglaterra tras la conquista normanda (1066); reforma gregoriana y relaciones entre las Iglesias de las islas.",
+    "virtues": [
+      "Caridad",
+      "Oración",
+      "Piedad conyugal"
+    ],
+    "significance": "Modelo de santidad laica y real, e impulsora de la reforma religiosa en Escocia.",
+    "iconography": "Reina con corona y un libro de los evangelios; a veces con una barca o dando limosna.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Margaret of Scotland»",
+        "url": "https://www.newadvent.org/cathen/09655c.htm"
+      },
+      {
+        "label": "GCatholic: Calendario litúrgico de México 2026 (memoria facultativa el 16 de noviembre)",
+        "url": "https://gcatholic.org/calendar/2026/MX-es"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "note": "La Catholic Encyclopedia de 1910 da el 10 de junio como fiesta y no menciona el patronazgo ni las obras de caridad concretas; esos detalles son tradición de la biografía atribuida a Turgot. Nacimiento en Hungría procede de la tradición no leída en fuente; la muerte del rey y del hijo, de conocimiento general."
+  },
+  {
+    "id": "gertrudis-la-grande",
+    "name": "Santa Gertrudis la Grande",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-16",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "Santa Gertrudis, virgen",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "virgin",
+      "religious",
+      "mystic"
+    ],
+    "born": {
+      "date": "6 de enero de 1256",
+      "place": "Alemania (lugar no consta)"
+    },
+    "died": {
+      "date": "17 de noviembre de 1301 o 1302",
+      "place": "Helfta, cerca de Eisleben (Sajonia)"
+    },
+    "century": 13,
+    "countries": [
+      "DE"
+    ],
+    "order": "Benedictina",
+    "summary": "Monja y mística del monasterio de Helfta, que de una formación humanista pasó a una intensa experiencia espiritual centrada en el amor de Cristo; escritora de espiritualidad.",
+    "biography": "Gertrudis nació el 6 de enero de 1256 en Alemania; se desconocen su familia y su origen exacto. A los cinco años ingresó como alumna en el monasterio de Helfta, cerca de Eisleben, en Sajonia, de regla benedictina y de gran cultura, dirigida por la abadesa Gertrudis de Hackeborn. Allí fue educada por santa Matilde, hermana de la abadesa, y recibió una formación intelectual sólida en gramática, retórica y Escritura.\n\nDurante sus primeros años en el convento, tanto por su carácter como por su talento, se dedicó con avidez a las letras. Hacia sus veinticinco años, según su propio testimonio, tuvo una experiencia espiritual intensa que cambió el rumbo de su vida; su biógrafo describe el cambio con la imagen de que pasó de ser gramática a ser teóloga, y se entregó al estudio de la Escritura, los Padres de la Iglesia y la teología. La fuente leída no habla de una conversión repentina, sino de un progreso continuo.\n\nSus obras principales son el *Legatus divinae pietatis* («Heraldo del amor divino»), en cinco libros, de los cuales solo el segundo es de su mano, y los *Ejercicios espirituales*, siete meditaciones que recorren la vida cristiana desde la gracia bautismal hasta la preparación para la muerte. También se le atribuye una parte principal del *Liber specialis gratiae*, de santa Matilde. Sus escritos, redactados en latín, destacan por su centro litúrgico, por el vocabulario del amor esponsal y por su cristocentrismo; se la asocia con la devoción al Corazón de Jesús, aunque con un sentido distinto del que esa devoción tendría siglos después.\n\nMurió en Helfta el 17 de noviembre de 1301 o 1302. Su nombre fue inscrito en el Martirologio Romano en 1677 y su fiesta se extendió a toda la Iglesia; desde la reforma del calendario se celebra el 16 de noviembre (antes el 15), mientras que su orden sigue usando el 17. Se la llama «la Grande» para distinguirla de la abadesa Gertrudis de Hackeborn.\n\nGertrudis es una de las grandes figuras de la mística medieval alemana, y un ejemplo de mujer culta y orante cuya espiritualidad se nutre de la liturgia y de la Escritura. Es patrona, por tradición, de las Indias Occidentales, a petición del rey de España, según indica la Catholic Encyclopedia.",
+    "context": "Monasterio de Helfta, centro de cultura y mística femenina en la Alemania del siglo XIII.",
+    "virtues": [
+      "Amor a Cristo",
+      "Estudio de la Escritura",
+      "Vida litúrgica"
+    ],
+    "significance": "Una de las grandes místicas medievales; espiritualidad litúrgica y centrada en el amor de Cristo.",
+    "patronages": [
+      "Indias Occidentales (según la Catholic Encyclopedia)"
+    ],
+    "iconography": "Monja con un corazón en llamas, un libro y un báculo de abadesa; el corazón de Jesús en el pecho.",
+    "canonization": {
+      "note": "Su nombre fue incluido en el Martirologio Romano en 1677 (extensión del culto); no consta proceso de canonización formal en la fuente leída."
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Gertrude the Great»",
+        "url": "https://newadvent.org/cathen/06534a.htm"
+      },
+      {
+        "label": "GCatholic: Calendario litúrgico de México 2026 (memoria facultativa el 16 de noviembre)",
+        "url": "https://gcatholic.org/calendar/2026/MX-es"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "note": "Leído en la CE 1913: nacimiento, ingreso a los cinco años, primeras visiones hacia los 25, obras, Martirologio 1677, patronazgo de las Indias Occidentales. Se omite el título 'la Grande' atribuido a Benedicto XIV (resumen de búsqueda, no leído). La mención a la devoción al Corazón de Jesús y a su sentido distinto, y la fecha del 15 al 16 de noviembre, proceden de conocimiento general y de la CE."
+  },
+  {
+    "id": "clemente-i",
+    "name": "San Clemente I",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-23",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "San Clemente I, papa y mártir",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "pope",
+      "martyr",
+      "church_father"
+    ],
+    "born": {
+      "date": "sin datos fiables",
+      "place": "Roma (según la tradición)"
+    },
+    "died": {
+      "date": "c. 100 (según la tradición)",
+      "place": "Quersoneso o Crimea (según la tradición)"
+    },
+    "century": 1,
+    "countries": [
+      "IT"
+    ],
+    "canonization": {
+      "note": "Culto antiguo; la fuente leída lo señala como mártir desde Rufino (c. 400)."
+    },
+    "summary": "Obispo de Roma a finales del siglo I, autor de una carta a los corintios, uno de los escritos cristianos más antiguos fuera del Nuevo Testamento; la tradición lo hace mártir.",
+    "biography": "Clemente I es el primer sucesor de Pedro del que se conoce algo definido, y el primero de los llamados Padres Apostólicos. La Catholic Encyclopedia lo cuenta como cuarto papa, aunque las listas antiguas varían en el orden de Lino, Cleto o Anacleto y Clemente; en algunas tradiciones se le atribuyó un puesto más cercano a Pedro. Su pontificado se sitúa a finales del siglo I, y casi nada se sabe de su origen.\n\nSu único escrito auténtico es la *Carta a los corintios*, enviada en nombre de la Iglesia de Roma para restablecer la paz en Corinto, donde algunos presbíteros habían sido depuestos por un grupo de fieles. La carta, que se fecha por lo general hacia el final del reinado de Domiciano (c. 95-96), aunque algunos especialistas proponen una fecha anterior, es uno de los testimonios más tempranos de la preocupación de la Iglesia de Roma por la paz y el orden en otras comunidades.\n\nLos datos sobre su muerte son legendarios. Unas *Actas* griegas apócrifas, no anteriores al siglo IV, cuentan que el emperador Trajano lo desterró a Crimea, y que fue arrojado al mar con un ancla de hierro; se contaba que cada año el mar se retiraba y dejaba ver un santuario sobre su sepulcro. La Catholic Encyclopedia advierte de que el relato es legendario, y que Rufino es el primero en llamarlo mártir (hacia 400); algunos críticos modernos piensan que pudo haber una confusión con un homónimo, el cónsul Tito Flavio Clemente.\n\nHacia el año 868, san Cirilo (el apóstol de los eslavos) encontró en Crimea unos huesos y un ancla y los llevó a Roma. El papa Adriano II los depositó en la basílica de San Clemente, junto con las reliquias de Ignacio de Antioquía. El artículo de 1913 considera fiable la historia de la traslación de las reliquias, pero no que el ancla pruebe la identidad de los huesos.\n\nSu importancia es la de un testigo muy temprano de la organización de la Iglesia de Roma y de su preocupación por la unidad y el orden en otras comunidades.",
+    "context": "Iglesia de Roma a finales del siglo I; primeras relaciones entre comunidades cristianas.",
+    "virtues": [
+      "Pastoral de la unidad",
+      "Sentido del orden eclesial"
+    ],
+    "significance": "Su carta a los corintios es una pieza clave para conocer la Iglesia primitiva y el ejercicio de la comunión entre las Iglesias.",
+    "iconography": "Papa con un ancla, atributo de su martirio legendario.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «Pope St. Clement I»",
+        "url": "https://www.newadvent.org/cathen/04012c.htm"
+      },
+      {
+        "label": "GCatholic: Calendario litúrgico de México 2026 (memoria facultativa el 23 de noviembre)",
+        "url": "https://gcatholic.org/calendar/2026/MX-es"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "note": "Todo leído en la CE 1913 (sucesión, carta a los corintios, Actas apócrifas, Rufino, Cirilo 868, Adriano II, fiesta el 23). El 'cuarto papa' y la identificación con T. Flavio Clemente son hipótesis recogidas por la fuente. La URL correcta de la CE es 04012c."
+  },
+  {
+    "id": "columbano",
+    "name": "San Columbano",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-23",
+        "rank": "optional",
+        "calendar": "general",
+        "title": "San Columbano, abad",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "religious",
+      "missionary",
+      "founder"
+    ],
+    "born": {
+      "date": "c. 543",
+      "place": "Leinster (Irlanda)"
+    },
+    "died": {
+      "date": "615 (23 de noviembre según el Martirologio; otras fuentes antiguas dan el 21)",
+      "place": "Bobbio (Italia)"
+    },
+    "century": 7,
+    "countries": [
+      "IE",
+      "FR",
+      "IT",
+      "CH"
+    ],
+    "order": "Monje irlandés",
+    "summary": "Monje irlandés que, con doce compañeros, fundó monasterios en la Galia (Luxeuil) y en Italia (Bobbio) y marcó el monacato y la evangelización de la Europa merovingia.",
+    "biography": "Columbano nació en Leinster, Irlanda, hacia 543 (la fuente de 1913 señala que fue el año de la muerte de san Benito). Se formó en el monasterio de Bangor, bajo la guía de Comgall, en un ambiente monástico severo, de ascesis, estudio de las Escrituras y de las letras latinas. Hacia los cuarenta años, tras una larga preparación, partió de Irlanda con doce compañeros en una *peregrinatio pro Christo*, un exilio voluntario por amor a Dios.\n\nHacia el 585-590 llegó a la Galia, donde fue acogido por el rey Gontrán de Borgoña. Fundó los monasterios de Annegray, Luxeuil (hacia 590) y Fontaine, en los Vosgos. Luxeuil se convirtió en un gran centro de formación y de misión, y sus discípulos fundaron, según la tradición, más de un centenar de monasterios. Su regla, en diez capítulos, es más estricta en el ayuno y la penitencia que la de san Benito, y se acompaña de un *Penitencial* que difundió la práctica irlandesa de la confesión privada.\n\nSu carácter exigente le granjeó conflictos. Los obispos francos criticaron su cómputo irlandés de la fecha de Pascua y la exclusión de las mujeres de sus monasterios. En el 602 escribió a los obispos y apeló a los papas Gregorio I y Bonifacio IV; la fuente de 1913 señala que parece haber abandonado después la práctica celta. Su franqueza con la reina Brunequilda y con el rey Teodorico II le valió la expulsión hacia el 610.\n\nEmbarcó en Nantes, pero una tormenta devolvió el barco a la costa, y quedó libre para continuar. Recorrió Austrasia y predicó entre los alamanes, y fundó una comunidad cerca del lago de Constanza, en la región de Bregenz. Hacia el 612 pasó a Italia, donde el rey Agilulfo lo acogió en Milán y le concedió tierras en Bobbio, en los Apeninos, donde fundó la abadía que sería un gran centro de cultura. Murió allí en 615. Se conservan un *Penitencial*, sermones, cartas y poemas.\n\nEl Martirologio Romano lo recuerda el 23 de noviembre, mientras que la Catholic Encyclopedia de 1913 indica el 21 y señala que los benedictinos y la Iglesia de Irlanda lo celebran el 24. Se le considera uno de los grandes misioneros de Europa.\n\nSu importancia reside en haber unido el ideal ascético celta con la acción misionera continental, y en haber influido en la espiritualidad penitencial de la Edad Media.",
+    "context": "Monacato irlandés y Galia merovingia; relaciones con Roma y con la Iglesia franca.",
+    "virtues": [
+      "Ascesis",
+      "Celo misionero",
+      "Franqueza profética"
+    ],
+    "significance": "Protagonista de la misión monástica irlandesa en el continente y del origen de una amplia red de abadías.",
+    "iconography": "Abad con báculo y un libro de la regla.",
+    "canonization": {
+      "note": "Culto antiguo."
+    },
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913), «St. Columbanus»",
+        "url": "https://www.newadvent.org/cathen/04137a.htm"
+      },
+      {
+        "label": "GCatholic: Calendario litúrgico de México 2026 (memoria facultativa el 23 de noviembre)",
+        "url": "https://gcatholic.org/calendar/2026/MX-es"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "note": "CE 1913: nacimiento 543, Bangor/Comgall, llegada hacia 585, Luxeuil hacia 590, controversia pascual 602, expulsión hacia 610, Bobbio, muerte 615, fecha del 21 y fiesta benedictina del 24. El 23 de noviembre del Martirologio y la animalística iconográfica proceden de conocimiento general. Fechas de Constanza y Agilulfo en Milán según la CE (610-612)."
+  },
+  {
+    "id": "presentacion-de-la-virgen",
+    "name": "Presentación de la Santísima Virgen María",
+    "status": "marian",
+    "celebrations": [
+      {
+        "date": "11-21",
+        "rank": "memorial",
+        "calendar": "general",
+        "title": "Presentación de la Santísima Virgen María",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "virgin_mary"
+    ],
+    "century": 6,
+    "summary": "Memoria que recuerda la dedicación de María a Dios desde niña, según una tradición apócrifa; nació en Jerusalén con la dedicación de la iglesia de Santa María la Nueva en el 543.",
+    "biography": "El 21 de noviembre la Iglesia celebra la Presentación de la Virgen María, una memoria obligatoria en el calendario romano. La fiesta recuerda que María, siendo niña, fue llevada al Templo de Jerusalén por sus padres, Joaquín y Ana, para dedicarse a Dios. El episodio no figura en los evangelios: procede de los relatos apócrifos, y en especial del *Protoevangelio de Santiago*, un texto antiguo. Vatican News lo recuerda con claridad: los evangelios no dejan rastro de este hecho histórico.\n\nEso no significa que la fiesta carezca de sentido. La Iglesia no celebra un episodio documentado sino un misterio espiritual: la entrega total de María a Dios y su escucha de la Palabra, que la preparó para ser «templo del Hijo». La liturgia lee la imagen de una niña que se ofrece como figura de toda la vida cristiana, consagrada a Dios en el bautismo.\n\nHistóricamente, la fiesta tiene su origen en Jerusalén: se vincula con la dedicación de la iglesia de Santa María la Nueva, cerca del emplazamiento del Templo, en el año 543. Fue celebrada en Oriente desde el siglo VI, y una constitución del emperador Miguel Comneno la menciona en 1166. En 1372, un enviado del rey de Chipre ante el papa Gregorio XI, en Aviñón, describió cómo los griegos celebraban esa fiesta el 21 de noviembre; el papa la introdujo en su corte, y más tarde Sixto V (1585-1590) la hizo obligatoria para toda la Iglesia. Las fuentes difieren en los detalles: una variante data la primera celebración occidental en 1373.\n\nEl calendario actual la mantiene el 21 de noviembre como memoria obligatoria. El mismo día se celebra la Jornada *Pro orantibus*, instituida en 1953 por Pío XII, dedicada a las comunidades religiosas de clausura, que viven de manera radical la entrega a Dios de la que María es modelo. En Venecia, el 21 de noviembre es también la fiesta de la Virgen de la Salud, nacida de una promesa tras la peste de 1630-1631.\n\nLa Presentación es importante sobre todo en la espiritualidad de la vida consagrada y en la iconografía oriental, que la representa con gran solemnidad: la niña sube las gradas del templo, donde la espera el sacerdote. Para los fieles, es una invitación a preguntarse cómo ofrecer la propia vida a Dios, al ejemplo de María.",
+    "context": "Tradición apócrifa (Protoevangelio de Santiago) y devoción mariana de Jerusalén y de Oriente.",
+    "virtues": [
+      "Entrega a Dios",
+      "Escucha de la Palabra",
+      "Disponibilidad"
+    ],
+    "significance": "Fiesta de la consagración de María a Dios, modelo de la vida consagrada.",
+    "iconography": "Niña que sube las gradas del Templo mientras el sacerdote la recibe; Joaquín y Ana al fondo.",
+    "sources": [
+      {
+        "label": "Vatican News, «Presentación de la Santísima Virgen María / Virgen de la Salud»",
+        "url": "https://www.vaticannews.va/es/fiestas-liturgicas/presentacion-de-la-santisima-virgen-maria-virgen-de-la-salud.print.html"
+      },
+      {
+        "label": "ACI Prensa, «La Presentación de la Santísima Virgen María»",
+        "url": "https://www.aciprensa.com/santo/544/la-presentacion-de-la-santisima-virgen-maria"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "note": "Vatican News (Protoevangelio, ausencia en los evangelios, Pro orantibus 1953, Virgen de la Salud) y ACI Prensa (543, 1166, 1372, Sixto V) leídos; la iconografía es de conocimiento general. El año 1373 y Justiniano figuran solo en resúmenes de búsqueda."
+  },
+  {
+    "id": "anacleto-gonzalez-flores",
+    "name": "Beato Anacleto González Flores y compañeros",
+    "fullName": "José Anacleto González Flores",
+    "status": "blessed",
+    "celebrations": [
+      {
+        "date": "11-20",
+        "rank": "optional",
+        "calendar": "mx",
+        "title": "Beato Anacleto González Flores y compañeros, mártires",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "lay",
+      "married",
+      "martyr"
+    ],
+    "born": {
+      "date": "13 de julio de 1888",
+      "place": "Tepatitlán (Jalisco)"
+    },
+    "died": {
+      "date": "1 de abril de 1927",
+      "place": "Guadalajara (Cuartel Colorado)"
+    },
+    "century": 20,
+    "countries": [
+      "MX"
+    ],
+    "canonization": {
+      "date": "20 de noviembre de 2005 (beatificación)",
+      "by": "Benedicto XVI",
+      "note": "Carta apostólica de 15-XI-2005; ceremonia en Guadalajara presidida por el cardenal Saraiva Martins."
+    },
+    "summary": "Abogado, maestro y dirigente laico de Guadalajara, casado y padre de dos hijos, que promovió la resistencia pacífica durante la persecución religiosa y murió torturado el 1 de abril de 1927.",
+    "biography": "José Anacleto González Flores nació el 13 de julio de 1888 en Tepatitlán, Jalisco, en una familia de extrema pobreza. En 1908 ingresó en el seminario auxiliar de San Juan de los Lagos, donde se ganó el apodo de «Maistro Cleto». Al descubrir que no estaba llamado al sacerdocio, dejó el seminario y estudió derecho en la Escuela Libre de Leyes de Guadalajara. Fue maestro, orador, catequista y dirigente social cristiano, y escribió libros y cientos de artículos periodísticos.\n\nEn octubre de 1922 se casó con María Concepción Guerrero, con quien tuvo dos hijos; las biografías lo describen como esposo devoto y padre responsable. Su apostolado laical creció con los años: fundó y dirigió la Unión Popular, que llegó a reunir a decenas de miles de miembros, y promovió una resistencia estrictamente civil y pacífica frente a las leyes anticlericales del presidente Plutarco Elías Calles, que en 1926 suspendieron el culto público. A finales de 1926 apoyó a la Liga Nacional Defensora de la Libertad Religiosa. A diferencia de otros, su método fue la palabra, la organización y la oración, y no las armas.\n\nEl 1 de abril de 1927 fue detenido de madrugada en la casa de la familia Vargas González, y llevado al Cuartel Colorado, en Guadalajara. Sus captores exigían que revelara el escondite del arzobispo; Anacleto respondió: «No lo sé, y si lo supiera, no se lo diría». Fue sometido a torturas por orden del general Jesús María Ferreira, y murió ese mismo día, ejecutado con una bayoneta, según la biografía leída; otras versiones hablan también de disparos. Se refiere que sus últimas palabras fueron para perdonar a su verdugo y decirle que lo encontraría como intercesor ante el tribunal de Dios. Con él fueron ejecutados los hermanos Jorge Ramón y Ramón Vicente Vargas González y José Dionisio Luis Padilla Gómez.\n\nBenedicto XVI firmó la carta apostólica de beatificación el 15 de noviembre de 2005; el rito se celebró en Guadalajara el 20 de noviembre de 2005. En ella se concede la beatificación de Anacleto González Flores y de otros mártires, entre ellos el sacerdote Andrés Solá y Molist, el sacerdote José Trinidad Rangel Montaño, el sacerdote Ángel Darío Acosta Zurita y el laico Leonardo Pérez Larios, y se establece su memoria el 20 de noviembre cada año. Entre quienes participaron en el mismo rito de ese día figuraba José Sánchez del Río, canonizado posteriormente por el papa Francisco.\n\nAnacleto es un modelo de laico comprometido: abogado, esposo y padre, capaz de dar la vida por la libertad religiosa con medios pacíficos y de perdonar a quienes lo mataron. En México se le recuerda también en la peregrinación del Día del Laico, el 23 de noviembre, en Silao.",
+    "context": "Persecución religiosa en México durante el callismo y Guerra Cristera (1926-1929).",
+    "virtues": [
+      "Fortaleza",
+      "Perdón",
+      "Apostolado laical",
+      "Fidelidad conyugal"
+    ],
+    "significance": "Testigo del laicado católico mexicano; la Iglesia lo propone como modelo de compromiso cívico cristiano pacífico.",
+    "iconography": "Laico con crucifijo o rosario.",
+    "sources": [
+      {
+        "label": "Benedicto XVI, carta apostólica de beatificación (15-XI-2005)",
+        "url": "https://www.vatican.va/content/benedict-xvi/en/apost_letters/documents/hf_ben-xvi_apl_20051115_beatification-messico.html"
+      },
+      {
+        "label": "es.catholic.net, «José Anacleto González Flores, Beato»",
+        "url": "https://es.catholic.net/op/articulos/35907/jos-anacleto-gonzlez-flores-beato.html"
+      },
+      {
+        "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+        "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+      }
+    ],
+    "unverified": true,
+    "note": "Carta apostólica leída en inglés (vatican.va): 5 nombres, memoria el 20-XI. Biografía leída en catholic.net: nacimiento, familia, muerte por bayoneta (no fusilado como indicaba el encargo). No consta en liturgy-calendars.ts ni en GCatholic MX; rango 'optional' es provisional. Se debe aclarar si la memoria mexicana es obligatoria o libre y quiénes son los compañeros exactos (la carta habla de ocho compañeros pero solo se leyeron cinco nombres)."
+  },
+  {
+    "id": "medalla-milagrosa",
+    "name": "Nuestra Señora de la Medalla Milagrosa",
+    "status": "marian",
+    "celebrations": [
+      {
+        "date": "11-27",
+        "rank": "none",
+        "calendar": "general",
+        "title": "Nuestra Señora de la Medalla Milagrosa (devoción popular)",
+        "color": "white"
+      }
+    ],
+    "categories": [
+      "virgin_mary"
+    ],
+    "century": 19,
+    "countries": [
+      "FR"
+    ],
+    "summary": "Devoción mariana nacida de las apariciones a santa Catalina Labouré en París (1830), que dieron origen a la Medalla de la Inmaculada, conocida popularmente como «Medalla Milagrosa».",
+    "biography": "El 27 de noviembre de 1830, en la capilla de las Hijas de la Caridad de la rue du Bac, en París, la novicia Catalina Labouré relató haber visto a la Virgen de pie sobre un globo, con rayos de luz que salían de sus manos, rodeada de la inscripción «Oh María, sin pecado concebida, ruega por nosotros que recurrimos a ti». Según su relato, se le pidió hacer acuñar una medalla con esa imagen; en el reverso, la letra M coronada por una cruz y los Sagrados Corazones de Jesús y de María.\n\nCon la aprobación del arzobispo de París, Mons. de Quélen, la medalla se acuñó en 1832. Se difundió con enorme rapidez, sobre todo durante la epidemia de cólera, y por los favores atribuidos a ella el pueblo la llamó «milagrosa». Su invocación contribuyó a extender la fe en la Inmaculada Concepción antes de su definición dogmática por Pío IX en 1854.\n\nLa fiesta litúrgica del 27 de noviembre es propia de la familia vicentina (Congregación de la Misión e Hijas de la Caridad); no figura en el Calendario Romano General. Para los demás fieles es una devoción privada y popular, recomendable pero libre. La medalla es un sacramental: no actúa por sí misma, sino que expresa y alimenta la confianza en la intercesión de María y el deseo de vivir como discípulo de Cristo (cf. CIC 1667-1672).",
+    "context": "Francia de la Restauración y la Monarquía de Julio, con fuerte secularización tras la Revolución.",
+    "significance": "Una de las devociones marianas más difundidas del mundo; preparó la recepción del dogma de la Inmaculada Concepción.",
+    "iconography": "La Virgen con los brazos extendidos y rayos de luz que salen de sus manos, de pie sobre el globo y aplastando la serpiente.",
+    "sources": [
+      {
+        "label": "Catholic Encyclopedia (1913): Miraculous Medal",
+        "url": "https://www.newadvent.org/cathen/10115a.htm"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica, 1667-1672 (sacramentales)",
+        "url": "https://www.vatican.va/archive/catechism_sp/p2s2c4a1_sp.html"
+      }
+    ],
+    "unverified": false
+  },
+  {
+    "id": "facundo-y-primitivo",
+    "name": "Santos Facundo y Primitivo",
+    "status": "saint",
+    "celebrations": [
+      {
+        "date": "11-27",
+        "rank": "none",
+        "calendar": "general",
+        "title": "Santos Facundo y Primitivo, mártires (Martirologio Romano)",
+        "color": "red"
+      }
+    ],
+    "categories": [
+      "martyr"
+    ],
+    "century": 2,
+    "countries": [
+      "ES"
+    ],
+    "summary": "Mártires hispanos venerados en Sahagún (León), cuyo nombre deriva del de san Facundo. Figuran en el Martirologio Romano el 27 de noviembre.",
+    "biography": "Facundo y Primitivo son mártires venerados desde la Antigüedad junto al río Cea, en la actual provincia de León (España). Según la tradición, murieron decapitados a orillas del río en tiempos de persecución, probablemente en el siglo II o III; los detalles de su vida y de su martirio proceden de relatos hagiográficos tardíos y no pueden verificarse con seguridad.\n\nSu culto sí está bien documentado: sobre su sepulcro se levantó un monasterio que en la Edad Media se convirtió en la poderosa abadía benedictina de San Benito de Sahagún, uno de los grandes centros monásticos de la Península y vinculado a la reforma de Cluny. El nombre de la villa, Sahagún, procede de «Sanctus Facundus».\n\nEl Martirologio Romano los recuerda el 27 de noviembre. No tienen celebración en el Calendario Romano General; su memoria se celebra en los calendarios propios de algunas diócesis españolas.",
+    "context": "Hispania romana en época de persecuciones; culto medieval en el Camino de Santiago.",
+    "significance": "Testigos de la fe de los primeros siglos en Hispania; origen del monasterio de Sahagún.",
+    "sources": [
+      {
+        "label": "Martyrologium Romanum (ed. 2004), 27 de noviembre"
+      },
+      {
+        "label": "Wikipedia: Facundo y Primitivo (mártires) (CC BY-SA 4.0; consulta)",
+        "url": "https://es.wikipedia.org/wiki/Facundo_y_Primitivo_(m%C3%A1rtires)"
+      },
+      {
+        "label": "Wikipedia: Monasterio Real de San Benito (Sahagún)",
+        "url": "https://es.wikipedia.org/wiki/Monasterio_Real_de_San_Benito_(Sahag%C3%BAn)"
+      }
+    ],
+    "unverified": true
+  }
+]

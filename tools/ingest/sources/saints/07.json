@@ -1,0 +1,1425 @@
+[
+ {
+  "id": "junipero-serra",
+  "name": "San Junípero Serra",
+  "fullName": "Miguel José Serra Ferrer",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-01",
+    "rank": "optional",
+    "calendar": "us",
+    "title": "San Junípero Serra, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "missionary"
+  ],
+  "born": {
+   "date": "24 de noviembre de 1713",
+   "place": "Petra (Mallorca)"
+  },
+  "died": {
+   "date": "28 de agosto de 1784",
+   "place": "Misión de San Carlos Borromeo, Carmel (California)"
+  },
+  "century": 18,
+  "countries": [
+   "ES",
+   "MX",
+   "US"
+  ],
+  "order": "Franciscanos",
+  "canonization": {
+   "date": "23 de septiembre de 2015",
+   "by": "Francisco"
+  },
+  "summary": "Fraile franciscano mallorquín, misionero en la Sierra Gorda mexicana y fundador de las primeras misiones de la Alta California; canonizado en 2015.",
+  "biography": "Miguel José Serra nació el 24 de noviembre de 1713 en Petra, en la isla de Mallorca. Ingresó en la Orden de los Frailes Menores el 14 de septiembre de 1730 y tomó el nombre de Junípero. Se doctoró en teología y enseñó filosofía en la Universidad Luliana de Palma, donde tenía una carrera académica brillante por delante.\n\nEn 1749 dejó la cátedra para pasar a la Nueva España e incorporarse al colegio misionero de San Fernando, en la ciudad de México. Durante unos nueve años trabajó en las misiones de la Sierra Gorda, al norte de Querétaro, entre los indígenas pames; aprendió su lengua y tradujo el catecismo. Una lesión en una pierna, sufrida en el camino desde Veracruz, le dolió el resto de su vida, y aun así recorrió grandes distancias.\n\nEn 1769 acompañó la expedición de Gaspar de Portolá hacia la Alta California. Fundó la misión de San Diego el 16 de julio de ese año, la primera de la serie, y en 1770 la de San Carlos Borromeo, en Monterrey, después trasladada a Carmel, que fue su residencia. Fundó en total nueve de las veintiuna misiones californianas, entre ellas San Antonio, San Gabriel, San Luis Obispo, San Francisco de Asís, San Juan Capistrano, Santa Clara y San Buenaventura. Según la Enciclopedia Católica, administró la confirmación a más de cinco mil personas, la mayoría indígenas.\n\nMurió el 28 de agosto de 1784 en la misión de Carmel. Fue beatificado por Juan Pablo II en 1988 y canonizado por el papa Francisco el 23 de septiembre de 2015 en Washington, en la primera canonización celebrada en suelo estadounidense. En su homilía, Francisco lo presentó como modelo de una Iglesia «en salida», que respeta las costumbres de los pueblos que encuentra y que defendió a los indígenas frente a quienes los maltrataban; recordó también su lema, «¡siempre adelante!».\n\nSu figura sigue siendo debatida. Sus misiones formaron parte del proyecto colonial de la Corona española, y muchos historiadores y comunidades indígenas actuales señalan el duro impacto del régimen misional: epidemias, pérdida de tierras y disciplina severa. Esa discusión forma parte honesta de su historia, junto con el hecho de que Serra intercedió ante las autoridades civiles y militares por el trato a los indígenas.\n\nPara la Iglesia, Serra es sobre todo un ejemplo de entrega misionera, perseverancia y austeridad, y un recordatorio de que el anuncio del Evangelio ocurre siempre en contextos históricos complejos que exigen discernimiento.",
+  "context": "Imperio español en el siglo XVIII: expansión misionera franciscana en el norte de la Nueva España.",
+  "virtues": [
+   "Celo misionero",
+   "Tenacidad",
+   "Austeridad"
+  ],
+  "iconography": "Fraile franciscano con cruz y una maqueta de misión, a veces rodeado de indígenas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «Junípero Serra»",
+    "url": "https://www.newadvent.org/cathen/13730b.htm"
+   },
+   {
+    "label": "Papa Francisco, homilía de canonización, Washington D. C. (23-IX-2015)",
+    "url": "https://www.vatican.va/content/francesco/en/homilies/2015/documents/papa-francesco_20150923_usa-omelia-washington-dc.html"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "La beatificación en 1988 es dato de conocimiento general, no leído en una fuente aquí."
+ },
+ {
+  "id": "tomas-apostol",
+  "name": "Santo Tomás, apóstol",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-03",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santo Tomás, apóstol",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr",
+   "missionary"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Galilea"
+  },
+  "died": {
+   "date": "según la tradición, c. 72",
+   "place": "India (según la tradición)"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "IN"
+  ],
+  "summary": "Uno de los Doce, llamado Dídimo («gemelo»), conocido por su confesión «¡Señor mío y Dios mío!»; según la tradición evangelizó la India.",
+  "biography": "Del apóstol Tomás el Nuevo Testamento dice poco, pero lo que dice es muy elocuente. Su nombre arameo significa «gemelo», y el cuarto evangelio lo llama Dídimo, que es lo mismo en griego. Aparece en las listas de los Doce de los sinópticos y de los Hechos, y es en el evangelio de Juan donde adquiere rostro propio.\n\nCuando Jesús decide volver a Judea para ir a casa de Lázaro, Tomás dice a los demás discípulos: «Vayamos también nosotros a morir con él» (Jn 11,16): una lealtad ruda, aunque sin comprender del todo. En la Última Cena es él quien interrumpe a Jesús: «Señor, no sabemos adónde vas, ¿cómo podemos saber el camino?» (Jn 14,5), y recibe la respuesta «Yo soy el camino, la verdad y la vida».\n\nSu episodio más célebre es el de la tarde de Pascua. Tomás no estaba con los discípulos cuando Jesús resucitado se presentó, y declaró que no creería si no veía las marcas de los clavos y metía su mano en el costado. Ocho días después el Señor volvió y se lo ofreció. Tomás responde con la confesión más alta del evangelio, «¡Señor mío y Dios mío!», y Jesús proclama dichosos a los que creerán sin haber visto (Jn 20,24-29). De ahí la expresión popular de «incrédulo», que no hace justicia a un hombre que quería una fe sin atajos y que, una vez convencido, la expresó sin reservas.\n\nTodo lo demás es tradición. Según los Hechos de Tomás, un escrito de comienzos del siglo III de ambiente gnóstico que la Enciclopedia Católica no considera fiable en sus detalles, el apóstol predicó en la India, en el reino del rey Gondóforo, y murió traspasado por lanzas. La existencia histórica de un rey Gondóforo hacia el año 46 está atestiguada por monedas e inscripciones, lo que da verosimilitud al marco, pero no prueba la misión. La antigua tradición de la India es fuerte entre los cristianos de Malabar, que se llaman «cristianos de santo Tomás», aunque el lugar de su martirio en Mylapore no tiene apoyo documental sólido. Sus reliquias estaban en Edesa en el siglo IV y, según la tradición, fueron trasladadas más tarde a Quíos y de allí a Ortona, en Italia.\n\nLa Iglesia latina celebra su fiesta el 3 de julio desde la reforma litúrgica de 1969; antes se celebraba el 21 de diciembre. Tomás enseña que la duda sincera, llevada ante Cristo, puede convertirse en profesión de fe, y que la comunidad es el lugar donde esa fe se recupera.",
+  "virtues": [
+   "Honestidad",
+   "Lealtad",
+   "Fe tras la duda"
+  ],
+  "iconography": "Apóstol con una escuadra de arquitecto o una lanza; en la escena del Resucitado, con el dedo en el costado de Cristo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Thomas the Apostle»",
+    "url": "https://www.newadvent.org/cathen/14658b.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ]
+ },
+ {
+  "id": "maria-goretti",
+  "name": "Santa María Goretti",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-06",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa María Goretti, virgen y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "martyr",
+   "lay"
+  ],
+  "born": {
+   "date": "16 de octubre de 1890",
+   "place": "Corinaldo (Ancona)"
+  },
+  "died": {
+   "date": "6 de julio de 1902",
+   "place": "Nettuno (Roma)"
+  },
+  "century": 20,
+  "countries": [
+   "IT"
+  ],
+  "canonization": {
+   "date": "24 de junio de 1950",
+   "by": "Pío XII"
+  },
+  "summary": "Niña campesina de once años que murió perdonando a quien la atacó; su agresor, convertido, asistió a su canonización en 1950.",
+  "biography": "María Teresa Goretti nació el 16 de octubre de 1890 en Corinaldo, cerca de Ancona, en una familia campesina muy pobre. Era la tercera de siete hermanos. Hacia los cinco años la familia perdió su pequeña granja y tuvo que trabajar como aparcera para otros, mudándose varias veces hasta establecerse cerca de Nettuno, al sur de Roma, en una zona de marismas insalubres.\n\nSu padre, Luigi, murió cuando ella tenía unos nueve años. Su madre, Assunta, tenía que trabajar en el campo, de modo que María se hizo cargo de la casa: cocinaba, cuidaba a sus hermanos más pequeños y administraba lo poco que había. No pudo ir a la escuela. Los Goretti compartían la vivienda con otra familia, los Serenelli, y su hijo Alessandro, de unos veinte años, empezó a acosar a la niña con insinuaciones y amenazas. María guardó silencio por miedo.\n\nEn 1902, Alessandro la atacó de nuevo y, ante su negativa, la apuñaló catorce veces con un punzón. María murió el 6 de julio, tras una operación practicada sin anestesia. Antes de morir perdonó a su agresor y expresó el deseo de que estuviera con ella en el cielo. Esa es la nota más característica de su historia: no solo la defensa de la castidad, sino un perdón dado cuando todavía sufría.\n\nAlessandro fue condenado a treinta años de prisión. Según su propio relato, tras un sueño se arrepintió. Salió en libertad veintisiete años después del crimen, pidió perdón a Assunta Goretti y terminó sus días como hermano lego franciscano, trabajando en la huerta de un convento.\n\nMaría fue beatificada por Pío XII en 1947 y canonizada por él el 24 de junio de 1950 en la plaza de San Pedro, con la madre, los hermanos y el propio Alessandro presentes; el papa la llamó «Inés del siglo XX». La ceremonia se hizo al aire libre por la multitud que acudió. Es una de las santas más jóvenes del calendario.\n\nDurante décadas su historia se utilizó sobre todo en la pastoral de la pureza; la lectura actual subraya, junto a ello, su valentía, su humildad y, sobre todo, la misericordia que ofreció a quien le hacía daño.",
+  "virtues": [
+   "Pureza",
+   "Perdón",
+   "Fortaleza"
+  ],
+  "iconography": "Niña con un lirio y palma del martirio, con una cinta o corona de rosas; a veces con un punzón a los pies.",
+  "sources": [
+   {
+    "label": "Vatican News, «St. Maria Goretti, Virgin and Martyr»",
+    "url": "https://www.vaticannews.va/en/saints/07/06/st--maria-goretti--virgin-and-martyr.print.html"
+   },
+   {
+    "label": "Pío XII, discurso en la canonización de santa María Goretti (24-VI-1950), vatican.va",
+    "url": "https://www.vatican.va/content/pius-xii/it/speeches/1950/documents/hf_p-xii_spe_19500624_santa-maria-goretti.html"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "La fecha de beatificación (1947) consta en fuentes secundarias; una página de Vatican News en portugués da otra, aquí se sigue 1947."
+ },
+ {
+  "id": "benito-de-nursia",
+  "name": "San Benito de Nursia",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-11",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Benito, abad",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "pastor"
+  ],
+  "born": {
+   "date": "c. 480",
+   "place": "Nursia (Umbría)"
+  },
+  "died": {
+   "date": "c. 543-547",
+   "place": "Monte Cassino"
+  },
+  "century": 6,
+  "countries": [
+   "IT"
+  ],
+  "order": "Orden de San Benito",
+  "summary": "Padre del monacato occidental, autor de la Regla que lleva su nombre y patrono de Europa.",
+  "biography": "Casi todo lo que se sabe de Benito procede del libro segundo de los *Diálogos* de san Gregorio Magno, escrito hacia el 593-594 a partir del testimonio de discípulos directos del santo, entre ellos Constantino y Honorato. La Enciclopedia Católica advierte que es un retrato edificante más que una biografía cronológica; la única fecha segura de su vida es la visita del rey godo Totila, en 543.\n\nSegún Gregorio, Benito nació hacia el 480 en Nursia, en Umbría, y fue enviado a Roma a estudiar. Insatisfecho con la vida de la ciudad, se retiró a la soledad de Subiaco, donde vivió unos tres años en una cueva, ayudado por un monje llamado Romano. Cuando su fama atrajo discípulos, organizó en el valle doce pequeños monasterios de doce monjes cada uno.\n\nPerseguido por la envidia, partió con unos pocos hacia Monte Cassino, donde fundó un monasterio sobre el solar de un antiguo santuario pagano. Allí redactó probablemente su Regla, un texto breve para laicos que quieren vivir el Evangelio en comunidad. Prescribe una vida equilibrada entre oración litúrgica, lectura sagrada y trabajo manual, bajo un abad, con estabilidad, obediencia y conversión de costumbres. La fórmula *ora et labora* no es suya, sino un resumen posterior. La Regla desconfía de los extremos y recomienda la discreción como madre de las virtudes.\n\nGregorio añade numerosos episodios prodigiosos, como la visión del mundo entero en un rayo de luz. Son relatos con una intención espiritual, entre la historia y la hagiografía, y conviene leerlos así.\n\nMurió en Monte Cassino, en oración y sostenido por sus monjes tras una fiebre; la fecha tradicional es el 21 de marzo, y el año se sitúa entre el 543 y el 547, según los autores. Fue enterrado junto a su hermana Escolástica.\n\nLa Regla se convirtió en la norma del monacato occidental. Los monasterios benedictinos conservaron la cultura clásica, cultivaron la tierra y contribuyeron a la evangelización de Europa. Pablo VI lo proclamó patrono de Europa el 24 de octubre de 1964. El 11 de julio, fecha en que se celebra su memoria en el calendario general, se asocia tradicionalmente a la traslación de sus reliquias a Fleury, en Francia; el 21 de marzo queda como día de su tránsito.",
+  "virtues": [
+   "Discreción",
+   "Obediencia",
+   "Equilibrio entre oración y trabajo"
+  ],
+  "significance": "Legislador del monacato occidental; patrono de Europa.",
+  "patronages": [
+   "Patrono de Europa (Pablo VI, 1964)"
+  ],
+  "iconography": "Abad benedictino con hábito negro, báculo, libro de la Regla, un cuervo y un vaso roto.",
+  "works": [
+   {
+    "title": "Regla de san Benito"
+   }
+  ],
+  "prayers": [
+   "san-benito"
+  ],
+  "novenas": [
+   "san-benito"
+  ],
+  "art": "novena:san-benito",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Benedict of Nursia»",
+    "url": "https://www.newadvent.org/cathen/02467b.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El patronazgo de Europa (Pablo VI, 24-X-1964) y la traslación a Fleury son datos de conocimiento general no leídos en fuente aquí."
+ },
+ {
+  "id": "buenaventura-de-bagnoregio",
+  "name": "San Buenaventura",
+  "fullName": "Juan de Fidanza",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-15",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Buenaventura, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "1217 o 1221",
+   "place": "Bagnoregio (Lacio)"
+  },
+  "died": {
+   "date": "15 de julio de 1274",
+   "place": "Lyon"
+  },
+  "century": 13,
+  "countries": [
+   "IT",
+   "FR"
+  ],
+  "order": "Franciscanos",
+  "canonization": {
+   "date": "14 de abril de 1482",
+   "by": "Sixto IV",
+   "note": "Declarado doctor de la Iglesia por Sixto V en 1588"
+  },
+  "summary": "Ministro general de los franciscanos y cardenal, el «Doctor Seráfico»; escribió la biografía oficial de san Francisco.",
+  "biography": "Giovanni di Fidanza nació en Bagnoregio, cerca de Viterbo, entre 1217 y 1221 (la Enciclopedia Católica da 1221). Según una tradición piadosa, san Francisco lo curó de niño y exclamó «¡oh buena ventura!», de donde vendría su nombre; la Enciclopedia Católica la considera improbable. Ingresó en los frailes menores hacia 1238 o 1243 y estudió en la Universidad de París con Alejandro de Hales, fundador de la escuela franciscana.\n\nObtuvo la licencia para enseñar hacia 1248 y enseñó con gran éxito hasta 1256, cuando la oposición de los maestros seculares a las órdenes mendicantes paralizó las clases. En 1257 recibió el grado de doctor, junto con santo Tomás de Aquino. Ese mismo año, el 2 de febrero, fue elegido ministro general, con menos de treinta y seis años. Gobernó diecisiete años una orden dividida entre quienes querían suavizar la pobreza franciscana y los espirituales radicales, a los que se sumaban los seguidores de Joaquín de Fiore. Buscó el camino medio y promulgó las Constituciones de Narbona (hacia 1260).\n\nCompuso la *Leyenda mayor*, biografía de san Francisco que el capítulo de Pisa de 1263 aprobó como oficial; el capítulo de París de 1266 ordenó retirar las anteriores, decisión sobre la que los historiadores discuten. En 1259, en el monte de La Verna, escribió el *Itinerario de la mente a Dios*, una síntesis de ascenso espiritual en seis etapas. Otras obras mayores son el *Comentario a las Sentencias*, el *Breviloquio* y las *Collationes in Hexaemeron*.\n\nClemente IV lo propuso como arzobispo de York en 1265 y él lo rechazó. En 1273 Gregorio X lo creó cardenal obispo de Albano, también contra su voluntad, y le encomendó preparar el Concilio de Lyon (1274), donde trabajó por la unión con los griegos, proclamada el 6 de julio. Dejó el generalato el 20 de mayo de 1274 y murió en Lyon el 15 de julio, en pleno concilio; una crónica sugiere un envenenamiento, sin pruebas.\n\nFue canonizado por Sixto IV el 14 de abril de 1482 y declarado doctor de la Iglesia por Sixto V en 1588. Su teología insiste en que el conocimiento verdadero culmina en el amor y en que todas las criaturas son vestigio de Dios. Es un maestro de la unión entre inteligencia y devoción.",
+  "virtues": [
+   "Sabiduría",
+   "Humildad",
+   "Unión de ciencia y devoción"
+  ],
+  "iconography": "Cardenal franciscano con hábito y capelo a sus pies, libro, y a veces un crucifijo con alas de serafín.",
+  "works": [
+   {
+    "title": "Itinerario del alma hacia Dios"
+   },
+   {
+    "title": "Breviloquio"
+   },
+   {
+    "title": "Legenda maior de san Francisco"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Bonaventure»",
+    "url": "https://www.newadvent.org/cathen/02648c.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "La Enciclopedia Católica contiene una errata en la fecha del doctorado (1557); se sigue 1588, dato corriente no leído en otra fuente aquí."
+ },
+ {
+  "id": "maria-magdalena",
+  "name": "Santa María Magdalena",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-22",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santa María Magdalena",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "apostle"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Magdala (Galilea)"
+  },
+  "died": {
+   "date": "fecha y lugar desconocidos",
+   "place": "según tradiciones, Éfeso o Provenza (sin base documental sólida)"
+  },
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Discípula de Jesús, testigo de la cruz y primera testigo de la resurrección; «apóstol de los apóstoles» desde la antigüedad.",
+  "biography": "María de Magdala, probablemente natural de Magdala, junto al lago de Galilea, aparece en los cuatro evangelios. Lucas la cuenta entre las mujeres que acompañaban a Jesús y lo servían con sus bienes, y añade que de ella habían salido siete demonios (Lc 8,2; cf. Mc 16,9). Esa es toda la noticia de su pasado; los evangelios no dicen que fuera una pecadora pública.\n\nLa identificación con la pecadora anónima de Lucas 7 y con María de Betania, hermana de Marta y Lázaro, viene de la tradición latina, especialmente de san Gregorio Magno. Los Padres griegos distinguían a las tres. La Enciclopedia Católica de 1910 defiende la identificación, pero la exégesis actual la considera no probada, y la liturgia habla simplemente de María Magdalena.\n\nLos cuatro evangelios la sitúan al pie de la cruz y en el sepulcro (Mc 15,40; Mt 27,56; Jn 19,25). Es la primera testigo registrada de la resurrección: en el cuarto evangelio acude al sepulcro vacío, llora, y reconoce a Jesús cuando la llama por su nombre. El Resucitado le dice «No me retengas» y le encarga: «Ve a mis hermanos y diles…» (Jn 20,11-18). Por eso la tradición la llama desde antiguo «apóstol de los apóstoles», título que la liturgia romana ha recogido al elevar su celebración a fiesta, como las de los apóstoles, en 2016.\n\nLo posterior es tradición sin fundamento histórico seguro. La Iglesia griega sostenía que murió en Éfeso y que sus reliquias fueron llevadas a Constantinopla en 886. La tradición francesa, formada en la Edad Media, la hace llegar a Marsella con Lázaro y retirarse treinta años a la gruta de La Sainte-Baume, en Provenza, donde todavía se venera su cabeza; otras reliquias se veneraron en Vézelay. Los escritos gnósticos que la presentan como destinataria de revelaciones secretas son tardíos y ajenos a la fe de la Iglesia.\n\nMagdalena enseña la fidelidad hasta el pie de la cruz y la alegría de ser enviada con la noticia pascual. La liturgia la celebra el 22 de julio.",
+  "virtues": [
+   "Fidelidad",
+   "Amor a Cristo",
+   "Testimonio pascual"
+  ],
+  "significance": "Primera testigo del Resucitado.",
+  "iconography": "Mujer con un frasco de ungüento y cabellos largos; en el sepulcro, con Cristo hortelano (*Noli me tangere*). Los atributos de penitente son de la tradición medieval.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Mary Magdalen»",
+    "url": "https://www.newadvent.org/cathen/09761a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El decreto de 2016 que la eleva a fiesta no se ha leído aquí; la lista de liturgyoffice.org.uk consultada la muestra aún como memoria. Se mantiene fiesta."
+ },
+ {
+  "id": "brigida-de-suecia",
+  "name": "Santa Brígida de Suecia",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-23",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Brígida, religiosa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "married",
+   "mystic"
+  ],
+  "born": {
+   "date": "c. 1303",
+   "place": "Finsta, Uppland (Suecia)"
+  },
+  "died": {
+   "date": "23 de julio de 1373",
+   "place": "Roma"
+  },
+  "century": 14,
+  "countries": [
+   "SE",
+   "IT"
+  ],
+  "order": "Orden del Santísimo Salvador (brigitinas)",
+  "canonization": {
+   "date": "1391",
+   "by": "Bonifacio IX"
+  },
+  "summary": "Noble sueca, esposa y madre de ocho hijos, mística y fundadora de la Orden del Santísimo Salvador; murió en Roma en 1373.",
+  "biography": "Brígida nació hacia 1303 en Finsta, en la región sueca de Uppland, hija de Birger Persson, gobernador y juez provincial, y de Ingeborg Bengtsdotter. Su madre murió hacia 1315 y una tía la crió. Desde niña dijo tener visiones, que se multiplicarían en la madurez.\n\nEn 1316, con trece años, se casó con Ulf Gudmarsson, de dieciocho, hombre de la nobleza. Tuvieron ocho hijos, entre ellos santa Catalina de Suecia. Brígida llevó la vida de una gran dama de la corte, pero con una piedad intensa y una caridad atenta a los pobres, y llegó a ser dama de la reina. Entre 1341 y 1343 peregrinó con su marido a Santiago de Compostela. Ulf enfermó en el viaje y murió en 1344, en el monasterio cisterciense de Alvastra. Desde entonces Brígida se entregó por completo a una vida de ascesis y oración.\n\nEn esos años dictó a sus confesores, que las tradujeron al latín, las revelaciones que decía recibir de Cristo, de la Virgen y de los santos: las *Revelaciones celestiales*, de gran difusión en la Edad Media. Contienen exhortaciones a los reyes, a los papas y al clero, a veces muy duras. Los estudiosos recuerdan que la Iglesia reconoce las revelaciones privadas como ayuda para la vida cristiana, sin obligar a creerlas, y que el texto pasó por revisiones y discusiones.\n\nSegún el relato tradicional, recibió también la regla de una nueva orden, la del Santísimo Salvador (brigidinas), con monasterios dobles de monjas y monjes. El monasterio principal, Vadstena, fue dotado por el rey Magnus y su esposa en 1346. En 1349 viajó a Roma para obtener la confirmación de su instituto y permaneció allí hasta su muerte, salvo por peregrinaciones, entre ellas la de Tierra Santa, en 1372-1373. Instó al papa a regresar de Aviñón a Roma. Urbano V confirmó la regla en agosto de 1370.\n\nMurió en Roma el 23 de julio de 1373, y sus restos fueron llevados al año siguiente a Vadstena. Bonifacio IX la canonizó el 7 de octubre de 1391. Su vida muestra que una vocación puede desplegarse en el matrimonio, la maternidad, la viudez y la vida consagrada, y que la voz de una mujer laica pudo interpelar a la Iglesia de su tiempo.",
+  "virtues": [
+   "Oración",
+   "Valentía profética",
+   "Fidelidad conyugal y viudez ejemplar"
+  ],
+  "patronages": [],
+  "iconography": "Mujer con hábito de viuda o religiosa, libro y pluma; a veces con corona de monja brigitina (cruz de cinco llagas).",
+  "works": [
+   {
+    "title": "Revelaciones"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Bridget of Sweden»",
+    "url": "https://www.newadvent.org/cathen/02782a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El patronazgo de Europa (Juan Pablo II, 1999) se retira por no estar respaldado en las fuentes leídas. En Europa se celebra como fiesta, dato no verificado aquí."
+ },
+ {
+  "id": "santiago-apostol",
+  "name": "Santiago, apóstol",
+  "fullName": "Santiago el Mayor",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-25",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Santiago, apóstol",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Betsaida o Cafarnaún (Galilea)"
+  },
+  "died": {
+   "date": "c. 44",
+   "place": "Jerusalén"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "ES"
+  ],
+  "summary": "Hijo de Zebedeo y hermano de Juan; uno de los tres discípulos más cercanos a Jesús y primer apóstol mártir (hacia el año 44).",
+  "biography": "Santiago, llamado el Mayor para distinguirlo del otro apóstol del mismo nombre, era hijo de Zebedeo y hermano de Juan. Pescador del lago de Galilea, fue llamado por Jesús junto a su hermano mientras arreglaban las redes. Los dos recibieron de Jesús el apodo de *Boanerges*, «hijos del trueno», quizá por su carácter impetuoso: en cierta ocasión quisieron hacer caer fuego del cielo sobre una aldea samaritana que no los acogía (Lc 9,54).\n\nCon Pedro y Juan forma el círculo más íntimo de Jesús. Está presente en la resurrección de la hija de Jairo, en la transfiguración y en la oración de Getsemaní. Su madre pidió para sus dos hijos los primeros puestos en el reino, y Jesús les preguntó si podían beber el cáliz que él iba a beber; ellos dijeron que sí (Mt 20,20-23), y Santiago fue el primero de los apóstoles en hacerlo.\n\nEl único dato firme sobre su muerte lo da el libro de los Hechos: Herodes Agripa I lo hizo matar a espada (Hch 12,1-2), hacia el año 44, durante los días de la Pascua. Clemente de Alejandría, citado por Eusebio, añade que su acusador, conmovido por su testimonio, se convirtió y fue ejecutado con él; la Enciclopedia Católica juzga la noticia mejor fundada que otras leyendas, aunque no segura.\n\nLo demás es tradición. Según la tradición española, Santiago predicó en Hispania, volvió a Judea y, tras su martirio, su cuerpo fue trasladado milagrosamente a Iria Flavia y después a Compostela, en Galicia. La Enciclopedia Católica señala las dificultades históricas: la carta a los Romanos, hacia el 58, indica que Pablo pensaba ser el primero en predicar en España; las referencias seguras a esta tradición no aparecen antes del siglo IX, aunque se cita otra hacia el año 700; y las reliquias se atribuyen también a Toulouse. Con todo, Compostela se convirtió en uno de los grandes destinos de peregrinación de la cristiandad, con el Camino de Santiago, y la tradición pertenece a la identidad religiosa y cultural de España.\n\nLa iconografía lo representa como peregrino, con concha, bordón y sombrero, o como apóstol con la espada del martirio; la imagen de «Santiago Matamoros», surgida en la Reconquista, es medieval y no tiene base histórica. La Iglesia celebra su fiesta el 25 de julio.",
+  "virtues": [
+   "Celo",
+   "Fidelidad hasta el martirio"
+  ],
+  "iconography": "Peregrino con sombrero, bordón, calabaza y concha; o jinete (Santiago Matamoros) en la tradición bélica medieval; apóstol con espada.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. James the Greater»",
+    "url": "https://www.newadvent.org/cathen/08279b.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ]
+ },
+ {
+  "id": "joaquin-y-ana",
+  "name": "Santos Joaquín y Ana",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-26",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Joaquín y Ana, padres de la Virgen María",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "married",
+   "lay"
+  ],
+  "born": {
+   "date": "siglo I a. C. (sin datos)",
+   "place": "Galilea o Jerusalén (según el Protoevangelio)"
+  },
+  "died": {
+   "date": "sin datos",
+   "place": "sin datos"
+  },
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Los padres de la Virgen María, conocidos por escritos apócrifos del siglo II; no son mencionados en el Nuevo Testamento.",
+  "biography": "El Nuevo Testamento no dice nada de los padres de María. Todo lo que se cuenta de Joaquín y Ana procede de escritos apócrifos: el *Protoevangelio de Santiago*, redactado en el siglo II, y textos posteriores que lo desarrollan, como el *Evangelio de Pseudo-Mateo* y el *Evangelio de la natividad de María*. La Enciclopedia Católica reconoce que son obras con mezcla de datos y leyendas, y que la tradición que ve en ellos a los padres de María es muy antigua pero no escriturística.\n\nSegún el Protoevangelio, Joaquín era un hombre rico y piadoso, casado con Ana, sin hijos. Un día su ofrenda fue rechazada en el templo por su esterilidad, y él se retiró al desierto a orar y a ayunar. Ana, afligida, rezó en su jardín, como Ana, la madre de Samuel. Un ángel anunció a cada uno el nacimiento de una hija, que ellos prometieron consagrar a Dios. El relato los reúne en la Puerta Dorada de Jerusalén, escena frecuente en el arte. De esa niña, María, el Protoevangelio narra la presentación en el templo a los tres años. El nombre de Joaquín significa «Yahvé prepara»; el de Ana, «gracia».\n\nSegún la tradición, la casa de los padres de María estaba en Jerusalén, y en el siglo IV se levantó una iglesia en ese lugar; en 1889 fue redescubierta la cripta que se les atribuye. Algunos intérpretes han querido identificar a Joaquín con Helí de Lucas 3,23, pero la hipótesis es muy dudosa.\n\nEn Oriente los honran desde muy pronto; en Occidente su culto se difundió despacio. La fiesta de Ana se extendió en la Edad Media, la de Joaquín aparece en fechas distintas (16 de septiembre, 9 de diciembre, 20 de marzo) hasta que Gregorio XV la restableció en 1622 y se fijó a lo largo de los siglos en torno a la Asunción. La reforma de 1969 unió a ambos en una memoria común el 26 de julio.\n\nDesde el punto de vista teológico, Joaquín y Ana representan la transmisión de la fe entre generaciones, los abuelos que ofrecen a sus nietos un horizonte religioso, y la pedagogía de Dios, que prepara con paciencia la venida de su Hijo. Por eso la devoción popular los invoca como patronos de los abuelos, patronazgo que no tiene fuente documental y por ello no se recoge aquí.",
+  "virtues": [
+   "Fe",
+   "Paciencia en la prueba",
+   "Piedad familiar"
+  ],
+  "iconography": "Ana, con la pequeña María que aprende a leer; Joaquín, con una oveja o una vara; el abrazo ante la Puerta Dorada.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Joachim»",
+    "url": "https://www.newadvent.org/cathen/08406b.htm"
+   },
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Anne»",
+    "url": "https://www.newadvent.org/cathen/01538a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "Los datos sobre su vida son legendarios (apócrifos), no históricos; la fecha de la unificación de la fiesta en 1969 es dato general no leído."
+ },
+ {
+  "id": "marta-maria-y-lazaro",
+  "name": "Santos Marta, María y Lázaro",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-29",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Marta, María y Lázaro",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Betania"
+  },
+  "died": {
+   "date": "sin datos",
+   "place": "sin datos (la leyenda de Provenza no es histórica)"
+  },
+  "century": 1,
+  "countries": [
+   "PS"
+  ],
+  "summary": "Los tres hermanos de Betania, amigos de Jesús que los visitaba en su casa.",
+  "biography": "Marta, María y Lázaro son los hermanos de Betania, un pueblo cercano a Jerusalén, a quienes Jesús visitaba. El evangelio de Juan afirma que Jesús amaba a los tres (Jn 11,5). Marta aparece en Lucas 10,38-42 y en Juan 11-12; Lázaro, en Juan 11-12; y María, en esos mismos pasajes. Estas son las únicas fuentes históricas; todo lo demás es tradición.\n\nEn Lucas, Marta recibe a Jesús en su casa y se afana en el servicio, mientras María se sienta a sus pies a escuchar. Marta protesta, y Jesús le responde con ternura: «Marta, Marta, andas inquieta y preocupada con muchas cosas; solo una es necesaria». No es un reproche a la hospitalidad, sino una invitación a no perder lo esencial: escuchar al Señor. La tradición espiritual ha visto en las dos hermanas la unidad de la vida activa y la contemplativa.\n\nEn Juan 11, Lázaro enferma y muere. Cuando Jesús llega, Marta sale a su encuentro y confiesa su fe: «Yo creo que tú eres el Mesías, el Hijo de Dios, el que tenía que venir al mundo» (Jn 11,27). Esa confesión, paralela a la de Pedro, es una de las más altas de los evangelios. Jesús, conmovido, llora, y devuelve a Lázaro la vida, signo anticipado de la resurrección. Seis días antes de la Pascua, en Betania, se celebra una cena en que Marta sirve y María unge los pies de Jesús con perfume (Jn 12,1-3).\n\nLa Enciclopedia Católica señala que algunos autores han identificado a María de Betania con María Magdalena, hipótesis que no se acepta de modo general. Sobre su vida posterior no hay datos históricos. La leyenda medieval de Provenza, que los hace llegar a Marsella y a Marta vencer un monstruo, la tarasca, en Tarascón, es una tradición sin base histórica.\n\nHasta 2021 la liturgia romana celebraba solo a santa Marta el 29 de julio; ese año un decreto de la Congregación para el Culto Divino incluyó en la memoria a María y a Lázaro, de modo que el título es «Santos Marta, María y Lázaro». Los tres enseñan la amistad con Cristo, la hospitalidad y la fe en la resurrección.",
+  "virtues": [
+   "Hospitalidad",
+   "Fe",
+   "Amistad con el Señor"
+  ],
+  "iconography": "Marta con llaves o escoba y un dragón vencido (leyenda de Tarascón); María con ungüento; Lázaro saliendo de la tumba.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Martha»",
+    "url": "https://www.newadvent.org/cathen/09721b.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El decreto de 2021 que amplía la memoria a María y Lázaro no se ha leído aquí; la lista de liturgyoffice.org.uk todavía muestra solo a santa Marta."
+ },
+ {
+  "id": "ignacio-de-loyola",
+  "name": "San Ignacio de Loyola",
+  "fullName": "Íñigo López de Loyola",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-31",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Ignacio de Loyola, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "mystic"
+  ],
+  "born": {
+   "date": "1491",
+   "place": "Loyola, Azpeitia (Guipúzcoa)"
+  },
+  "died": {
+   "date": "31 de julio de 1556",
+   "place": "Roma"
+  },
+  "century": 16,
+  "countries": [
+   "ES",
+   "FR",
+   "IT"
+  ],
+  "order": "Compañía de Jesús",
+  "canonization": {
+   "date": "12 de marzo de 1622",
+   "by": "Gregorio XV",
+   "note": "Beatificado por Pablo V el 27 de julio de 1609"
+  },
+  "summary": "Soldado vasco convertido tras una herida, autor de los Ejercicios Espirituales y fundador de la Compañía de Jesús.",
+  "biography": "Íñigo López de Loyola nació en 1491 en el castillo de Loyola, cerca de Azpeitia, en Guipúzcoa, el menor de una familia de la pequeña nobleza vasca. Se formó como paje y soldado en la corte castellana, con ambiciones de gloria militar. El 20 de mayo de 1521, durante el asedio francés a la ciudadela de Pamplona, una bala de cañón le hirió una pierna. En la larga convalecencia en Loyola, a falta de libros de caballerías, leyó una *Vida de Cristo* y un santoral, y empezó a discernir qué mociones lo dejaban en paz y cuáles en vacío.\n\nEn 1522, tras una confesión general en Montserrat, vivió casi un año en Manresa, en una cueva, entre oración y penitencias, y tuvo experiencias espirituales que apuntó y que darían origen a los *Ejercicios Espirituales*. Peregrinó a Tierra Santa y volvió a estudiar, primero en España y desde 1528 en París, donde obtuvo el grado de maestro en artes en 1535. Allí reunió a sus compañeros, entre ellos Francisco Javier y Pedro Fabro, con los que hizo los votos de Montmartre el 15 de agosto de 1534.\n\nTras reunirse en Venecia y acudir a Roma, el papa Pablo III aprobó su proyecto con la bula *Regimini militantis Ecclesiae*, el 27 de septiembre de 1540. Ignacio fue elegido primer superior general en abril de 1541, y en Roma pasó el resto de su vida escribiendo cartas y las *Constituciones* de la Compañía de Jesús, redactadas desde 1547 con la ayuda de Juan Alfonso de Polanco. Los *Ejercicios* fueron aprobados por Pablo III en 1548. La Compañía, ágil y disponible para las misiones que el papa le confiara, fundó colegios y envió misioneros por todo el mundo ya durante la vida del fundador.\n\nMurió en Roma el 31 de julio de 1556, tras una fiebre. Sus restos reposan en la iglesia del Gesù. Fue beatificado en 1609 y canonizado el 12 de marzo de 1622 junto a Teresa de Jesús, Francisco Javier, Felipe Neri e Isidro Labrador; la Enciclopedia Católica da la fecha de la bula, el 22 de mayo.\n\nSu legado es una espiritualidad del discernimiento, de «buscar y hallar a Dios en todas las cosas», y el lema *Ad maiorem Dei gloriam* («para mayor gloria de Dios»). Los *Ejercicios* siguen siendo una de las escuelas de oración más difundidas de la Iglesia.",
+  "virtues": [
+   "Discernimiento",
+   "Disponibilidad",
+   "Magnanimidad"
+  ],
+  "iconography": "Jesuita con casulla negra, libro abierto con la leyenda A.M.D.G. y el monograma IHS en un sol.",
+  "works": [
+   {
+    "title": "Ejercicios Espirituales"
+   },
+   {
+    "title": "Constituciones de la Compañía de Jesús"
+   },
+   {
+    "title": "Autobiografía"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Ignatius Loyola»",
+    "url": "https://www.newadvent.org/cathen/07639c.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "Fecha de canonización: 12-III-1622 (ceremonia, dato corriente); la Enciclopedia Católica da 22-V-1622 (bula). Los compañeros canonizados el mismo día son dato general."
+ },
+ {
+  "id": "charbel-makhluf",
+  "name": "San Charbel Makhlouf",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-24",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Charbel Makhlouf, presbítero y ermitaño",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "8 de mayo de 1828",
+   "place": "Bekaa Kafra (Líbano)"
+  },
+  "died": {
+   "date": "24 de diciembre de 1898",
+   "place": "Annaya (Líbano)"
+  },
+  "century": 19,
+  "countries": [
+   "LB"
+  ],
+  "order": "Orden Libanesa Maronita",
+  "canonization": {
+   "date": "9 de octubre de 1977",
+   "by": "Pablo VI"
+  },
+  "summary": "Monje y ermitaño maronita del Líbano, venerado en Oriente y Occidente por su vida de oración y silencio.",
+  "biography": "Youssef Antoun Makhlouf nació el 8 de mayo de 1828 en Bekaa Kafra, un pueblo de montaña del norte del Líbano, en una familia maronita de campesinos. Huérfano de padre a los tres años, creció en un ambiente de fe sencilla, cuidando el ganado y atraído por la oración. Dos tíos suyos eran ermitaños.\n\nA los veintitrés años dejó su casa sin avisar a la familia y entró en el monasterio de Nuestra Señora de Mayfouk, de la Orden Libanesa Maronita. Pasó después al monasterio de San Marón, en Annaya, donde tomó el nombre de Sharbel (Charbel), el de un mártir antioqueno, y emitió sus votos solemnes en 1853. Estudió filosofía y teología, y fue ordenado sacerdote en 1859. Durante unos veinte años vivió en la vida comunitaria de Annaya, con fama de obediencia y de austeridad.\n\nEn 1875 obtuvo permiso para retirarse a la ermita de los santos Pedro y Pablo, cerca del monasterio, donde pasó los últimos veintitrés años de su vida. Vivió en pobreza, silencio, trabajo manual y largas horas ante el Santísimo Sacramento. No dejó escritos. A sus superiores les edificaba su obediencia, y la gente de la región acudía a pedirle oraciones.\n\nEn diciembre de 1898 sufrió una apoplejía mientras celebraba la liturgia y murió una semana después, el 24 de diciembre. Según la tradición de su monasterio, en torno a su tumba se vieron luces y su cuerpo fue hallado intacto al abrirla; en los años siguientes se difundieron relatos de curaciones atribuidas a su intercesión. Estos hechos se transmiten por la tradición y por los procesos de canonización, no por una fuente histórica independiente.\n\nPablo VI lo beatificó el 5 de diciembre de 1965, al clausurarse el Concilio Vaticano II, y lo canonizó el 9 de octubre de 1977. Su figura une a cristianos de Oriente y Occidente y es querida también por muchos no cristianos de Líbano. Su mensaje es el de la vida escondida, el silencio y la oración como servicio a la Iglesia. Su memoria litúrgica en el calendario general es el 24 de julio; en el calendario maronita se celebra el 24 de diciembre, día de su muerte.",
+  "virtues": [
+   "Silencio",
+   "Obediencia",
+   "Austeridad",
+   "Oración"
+  ],
+  "iconography": "Monje maronita con capucha y barba, de cuerpo entero, con rosario y crucifijo; a veces con una lámpara de aceite.",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Encyclopedia.com, «Sharbel Makhlouf, St.»",
+    "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sharbel-makhlouf-st"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "No se pudo leer una fuente oficial (vatican.va); datos de beatificación/canonización y años de vida comunitaria proceden de fuentes secundarias que discrepan (entre quince y diecinueve años en el monasterio)."
+ },
+ {
+  "id": "francisco-solano",
+  "name": "San Francisco Solano",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-14",
+    "rank": "optional",
+    "calendar": "es",
+    "title": "San Francisco Solano, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "missionary"
+  ],
+  "born": {
+   "date": "10 de marzo de 1549",
+   "place": "Montilla (Córdoba)"
+  },
+  "died": {
+   "date": "14 de julio de 1610",
+   "place": "Lima"
+  },
+  "century": 16,
+  "countries": [
+   "ES",
+   "PE",
+   "AR",
+   "PY"
+  ],
+  "order": "Franciscanos observantes",
+  "canonization": {
+   "date": "27 de diciembre de 1726",
+   "by": "Benedicto XIII"
+  },
+  "summary": "Franciscano andaluz, misionero en Tucumán, el Chaco y el Perú, apóstol de los indígenas; murió en Lima en 1610.",
+  "biography": "Francisco Solano nació el 10 de marzo de 1549 en Montilla, en la diócesis de Córdoba, en una familia honrada de la ciudad. Estudió con los jesuitas de su pueblo y, a los veinte años, ingresó en los franciscanos de la observancia en el convento de su ciudad natal. Fue ordenado sacerdote y ejerció como predicador y maestro de novicios; en los años de peste en Andalucía se distinguió por su atención a los enfermos.\n\nEn 1589 zarpó de España hacia las Indias. Desembarcó en Panamá, cruzó el istmo y embarcó hacia el Perú. La travesía fue accidentada y su biografía transmite relatos de peligros en el mar que la tradición interpretó como prodigios. Entre su llegada y su muerte desarrolló, según la Enciclopedia Católica, unos veinte años de trabajo misionero en las regiones del Tucumán y del Paraguay, que comprendían amplios territorios del actual norte de Argentina, Paraguay y el Chaco. Fue custodio de los conventos de su orden en ambas regiones.\n\nSe le atribuye un don extraordinario para aprender las lenguas de los pueblos indígenas con los que trabajaba, y una predicación suave, que ganaba la confianza de quienes habían sufrido abusos de los colonos. La tradición recuerda su violín, con el que acompañaba cantos y atraía a la gente; es un rasgo piadoso de la hagiografía, más que un dato documentado. La misma tradición lo llama «taumaturgo del Nuevo Mundo» y le atribuye profecías, entre ellas la de su propia muerte.\n\nMás tarde fue elegido guardián del convento franciscano de Lima, donde predicó en la ciudad y tuvo fama de austeridad y mansedumbre. Murió allí el 14 de julio de 1610. Fue beatificado por Clemente X en 1675 y canonizado por Benedicto XIII en 1726 (el 27 de diciembre).\n\nSu vida se sitúa en el contexto de la colonización española de América, con luces y sombras: el celo evangelizador de muchos misioneros convivió con la explotación de los pueblos indígenas por parte de otros. Solano es recordado por su mansedumbre y por su respeto hacia las personas que evangelizaba. Su fiesta se celebra en la familia franciscana el 24 de julio y, en el calendario de España, el 14 de julio, día de su muerte.",
+  "virtues": [
+   "Mansedumbre",
+   "Celo misionero",
+   "Sencillez"
+  ],
+  "iconography": "Franciscano con violín, cruz y rosario; a veces rodeado de indígenas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Francis Solanus»",
+    "url": "https://www.newadvent.org/cathen/06233a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "Rango y fecha en el calendario de España (07-14, memoria libre) no verificados en fuente oficial; la fecha de canonización «27 de diciembre» es de conocimiento general."
+ },
+ {
+  "id": "teresa-de-los-andes",
+  "name": "Santa Teresa de los Andes",
+  "fullName": "Juana Fernández Solar",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-13",
+    "rank": "memorial",
+    "calendar": "cl",
+    "title": "Santa Teresa de Jesús de los Andes, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "13 de julio de 1900",
+   "place": "Santiago de Chile"
+  },
+  "died": {
+   "date": "12 de abril de 1920",
+   "place": "Los Andes (Chile)"
+  },
+  "century": 20,
+  "countries": [
+   "CL"
+  ],
+  "order": "Carmelitas Descalzas",
+  "canonization": {
+   "date": "21 de marzo de 1993",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Joven chilena carmelita, primera santa de Chile, que murió a los diecinueve años; es la primera carmelita descalza canonizada fuera de Europa.",
+  "biography": "Juana Enriqueta Josefina Fernández Solar nació el 13 de julio de 1900 en Santiago de Chile, en una familia cristiana y acomodada; sus padres fueron Miguel Fernández y Lucía Solar. Estudió en el colegio de las religiosas francesas del Sagrado Corazón. Desde pequeña tuvo una vida espiritual intensa, y su diario recuerda el llamado de Jesús que percibió hacia los seis años, tras un terremoto.\n\nEra una joven alegre, deportista, amante de los paseos a caballo y de la naturaleza, y de carácter vivo, que según sus escritos se esforzaba por vencer su propio orgullo. Tras su primera comunión, hacia los diez años, notó un cambio profundo. Alrededor de los catorce decidió ser carmelita descalza, y poco después sintió con claridad que Dios la llamaba. Hacia los quince hizo un voto privado de virginidad, que renovó después. La lectura de la *Historia de un alma* de santa Teresa de Lisieux y de otros autores carmelitas le dio un lenguaje para esa vocación.\n\nDespués de resistencias familiares superadas, ingresó el 7 de mayo de 1919 en el pequeño monasterio del Espíritu Santo, en Los Andes, a unos noventa kilómetros de Santiago. El 14 de octubre de ese año recibió el hábito y tomó el nombre de Teresa de Jesús. Su noviciado fue breve: enfermó de tifus y, en peligro de muerte, hizo su profesión religiosa el 7 de abril de 1920. Murió el 12 de abril, a los diecinueve años, sin haber vivido el primer aniversario de su ingreso en la comunidad.\n\nDejó un diario y numerosas cartas, en las que describe con sencillez y frescura su vida interior, su amistad con Cristo y su experiencia del amor de Dios como habitación del alma. Esos escritos, publicados después de su muerte, difundieron su fama, y su tumba en el santuario de Auco-Rinconada, en Los Andes, se convirtió en meta de peregrinación para jóvenes de toda América.\n\nJuan Pablo II la beatificó el 3 de abril de 1987 en Santiago de Chile y la canonizó el 21 de marzo de 1993 en Roma. Es la primera santa chilena, la primera carmelita descalza canonizada fuera de Europa y la cuarta santa Teresa del Carmelo, después de Teresa de Ávila, Teresa de Florencia y Teresa de Lisieux. Su testimonio muestra a los jóvenes que la santidad cabe en una vida breve, alegre y entregada.",
+  "virtues": [
+   "Alegría",
+   "Unión con Dios",
+   "Generosidad"
+  ],
+  "iconography": "Carmelita con hábito pardo y manto blanco, lirio y crucifijo.",
+  "works": [
+   {
+    "title": "Diario y cartas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Santa Sede (Liturgia), biografía de santa Teresa de Jesús de los Andes, canonización 21-III-1993",
+    "url": "https://www.vatican.va/content/dam/wss/news_services/liturgy/saints/ns_lit_doc_19930321_teresa-de-jesus_en.html"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "Rango y fecha del calendario de Chile (07-13, memoria) no verificados en fuente oficial. La lectura de Teresa de Lisieux se menciona como dato general no confirmado en la fuente leída."
+ },
+ {
+  "id": "maria-de-jesus-sacramentado",
+  "name": "Santa María de Jesús Sacramentado Venegas",
+  "fullName": "María Natividad Venegas de la Torre",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-30",
+    "rank": "optional",
+    "calendar": "mx",
+    "title": "Santa María de Jesús Sacramentado Venegas, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "religious"
+  ],
+  "born": {
+   "date": "8 de septiembre de 1868",
+   "place": "Zapotlanejo, Jalisco"
+  },
+  "died": {
+   "date": "30 de julio de 1959",
+   "place": "Guadalajara, Jalisco"
+  },
+  "century": 20,
+  "countries": [
+   "MX"
+  ],
+  "canonization": {
+   "date": "21 de mayo de 2000",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Religiosa mexicana que dedicó su vida a los enfermos pobres y fue superiora de las Hijas del Sagrado Corazón de Jesús; primera mexicana canonizada tras los mártires, en 2000.",
+  "biography": "María Natividad Venegas de la Torre nació el 8 de septiembre de 1868 en una pequeña aldea del municipio de Zapotlanejo, en Jalisco, México. Quedó huérfana de madre siendo niña y, a los diecinueve años, murió su padre; pasó entonces a vivir con una tía paterna. Su infancia transcurrió en un ambiente rural y creyente, en el que aprendió a rezar y a trabajar.\n\nEl 8 de diciembre de 1898 ingresó en la Asociación de las Hijas de María, lo que fortaleció su vida de oración y su amor a la Eucaristía. En 1905, tras unos ejercicios espirituales en Guadalajara, propuestos por su director espiritual, decidió unirse a un pequeño grupo de mujeres que atendían a los enfermos en el Hospital del Sacro Corazón, fundado en la ciudad por el obispo Atenógenes Silva. Allí trabajó como enfermera durante décadas, con entrega, humildad y caridad, y con un respeto especial hacia los obispos y los sacerdotes. El Martirologio Romano recuerda que pasó más de cincuenta años curando a los enfermos pobres en una pequeña enfermería.\n\nSu vida coincidió con años muy duros para la Iglesia en México: la Revolución, las leyes anticlericales y la persecución religiosa de los años veinte y la guerra cristera, que afectó a Jalisco más que a ningún otro estado. En esos tiempos el hospital y la comunidad siguieron atendiendo a los enfermos, a veces con grandes dificultades.\n\nEl 25 de enero de 1921 fue nombrada superiora general del pequeño instituto. En 1930, tras redactar las Constituciones de las Hijas del Sacro Corazón de Jesús, el instituto fue reconocido por la Iglesia diocesana, y ese mismo año ella hizo su profesión perpetua y adoptó el nombre de María de Jesús Sacramentado. Gobernó su comunidad con sencillez y se la recuerda por su devoción eucarística y su caridad.\n\nMurió el 30 de julio de 1959, en paz, después de recibir los sacramentos. Juan Pablo II la beatificó el 22 de noviembre de 1992, solemnidad de Cristo Rey, en la basílica de San Pedro. El milagro aprobado para su canonización fue la recuperación de Anastasio Ledezma Mora, que sufrió un paro cardíaco durante una operación en el Hospital del Sagrado Corazón: tras la invocación de la beata por médicos, enfermeras y religiosas, el corazón volvió a latir unos diez o doce minutos después sin daño cerebral. Fue canonizada el 21 de mayo de 2000, junto con otros mártires mexicanos de la persecución religiosa. Su memoria libre del 30 de julio pertenece al calendario propio de México.",
+  "virtues": [
+   "Caridad con los enfermos",
+   "Devoción eucarística",
+   "Humildad"
+  ],
+  "iconography": "Religiosa con hábito y crucifijo o custodia.",
+  "sources": [
+   {
+    "label": "Santa Sede (Liturgia), biografía de santa María de Jesús Sacramentado Venegas de la Torre, canonización 21-V-2000",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20000521_venegas-de-la-torre_it.html"
+   },
+   {
+    "label": "Juan Pablo II, homilía en la canonización de 27 santos mexicanos (21-V-2000)",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/2000/documents/hf_jp-ii_hom_20000521_canonizations.pdf"
+   },
+   {
+    "label": "packages/shared/src/liturgy-calendars.ts, calendario propio de México (rango y fecha)"
+   }
+  ],
+  "note": "El apellido de pila (Natividad/Navidad) varía entre transcripciones; se usa Natividad. La mención de la guerra cristera es contexto histórico general."
+ },
+ {
+  "id": "isabel-de-portugal",
+  "name": "Santa Isabel de Portugal",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-04",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Isabel de Portugal",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "1271",
+   "place": "Aragón"
+  },
+  "died": {
+   "date": "4 de julio de 1336",
+   "place": "Estremoz (Portugal)"
+  },
+  "century": 14,
+  "countries": [
+   "PT",
+   "ES"
+  ],
+  "canonization": {
+   "date": "1625",
+   "by": "Urbano VIII"
+  },
+  "summary": "Infanta de Aragón y reina de Portugal, esposa paciente, «la Pacificadora»; terciaria franciscana, murió en 1336 mediando entre ejércitos.",
+  "biography": "Isabel nació en 1271, hija de Pedro III de Aragón y de Constanza, y nieta del emperador Federico II. Recibió el nombre de su tía abuela, santa Isabel de Hungría. Desde niña llevó una vida de gran piedad: rezaba cada día el Oficio, ayunaba y hacía penitencia, y renunció a las diversiones de la corte.\n\nSe casó muy joven con Dionisio (Dinis), rey de Portugal, poeta y gobernante dedicado al desarrollo del país, apodado «el Labrador». Según la Enciclopedia Católica, su conducta moral era deficiente y la corte estaba corrompida. Isabel mantuvo sus prácticas religiosas y trató de ganar el afecto del esposo con dulzura y paciencia, sin hacerle reproches. Se dedicó a los pobres y a los enfermos e hizo que sus damas los atendieran. Una historia popular, que merece prudencia, cuenta que los celos del rey, avivados por un paje calumniador, estuvieron a punto de provocar una condena injusta y que la inocencia de la reina se probó. Con el tiempo, Dionisio se enmendó, ganado por la bondad de su esposa. Tuvieron dos hijos: Constanza y Alfonso.\n\nIsabel destacó como pacificadora. En 1323, el príncipe Alfonso se rebeló contra su padre por los favores concedidos a los hijos ilegítimos del rey, y el reino estuvo al borde de la guerra civil; la reina cabalgó entre los ejércitos y consiguió reconciliarlos. Cuando Dionisio murió, en 1325, tomó el hábito de terciaria franciscana y se retiró cerca del convento de clarisas de Coímbra, que ella había fundado, para dedicarse en silencio a los pobres y a los enfermos, sin abandonar del todo las responsabilidades de la familia real.\n\nEn 1336, su hijo Alfonso IV marchó contra el rey de Castilla, casado con su hija María. Ya anciana y débil, Isabel acudió a Estremoz, detuvo los combates y logró un acuerdo de paz, pero el esfuerzo le provocó una fiebre y murió allí pocos días después, el 4 de julio, exhortando a su hijo a amar la paz y la santidad. Fue sepultada en Coímbra.\n\nSe le atribuyeron milagros tras su muerte, y Urbano VIII la canonizó en 1625. En Portugal se la conoce como la «Rainha Santa». Su vida muestra que el poder puede ejercerse como servicio y que la mansedumbre puede cambiar a quienes nos rodean; la reforma litúrgica fijó su memoria el 4 de julio, día de su muerte.",
+  "virtues": [
+   "Paciencia",
+   "Mansedumbre",
+   "Espíritu de paz",
+   "Caridad con los pobres"
+  ],
+  "iconography": "Reina con corona y hábito de terciaria franciscana, a menudo con rosas en el manto, según la leyenda piadosa.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Elizabeth of Portugal»",
+    "url": "https://www.newadvent.org/cathen/05391a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El lugar de nacimiento no figura en la fuente leída (solo la ascendencia aragonesa); la leyenda de las rosas no se ha verificado."
+ },
+ {
+  "id": "antonio-maria-zaccaria",
+  "name": "San Antonio María Zaccaría",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-05",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Antonio María Zaccaría, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "religious"
+  ],
+  "born": {
+   "date": "1502",
+   "place": "Cremona"
+  },
+  "died": {
+   "date": "5 de julio de 1539",
+   "place": "Cremona"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Clérigos Regulares de San Pablo (barnabitas)",
+  "canonization": {
+   "date": "15 de mayo de 1897",
+   "by": "León XIII"
+  },
+  "summary": "Médico convertido en sacerdote, fundador de los barnabitas y de las Angélicas de San Pablo; murió a los treinta y siete años.",
+  "biography": "Antonio María Zaccaria nació en Cremona en 1502. Estudió filosofía en Padua y allí se doctoró en medicina a los veintidós años; ejerció después como médico en su ciudad natal. Visitaba a los enfermos y a los presos y, según la Enciclopedia Católica, a los tres años de su graduación empezó los estudios de teología, y recibió las órdenes sagradas en 1528.\n\nEl ambiente religioso italiano de esos años necesitaba reforma: la fe estaba debilitada, el clero mal formado y la predicación escasa. Zaccaria se trasladó a Milán, donde se unió a un grupo de laicos y clérigos que trabajaban por la renovación espiritual y propuso fundar una congregación de sacerdotes. Con cinco compañeros, entre ellos Bartolomé Ferrari y Santiago Morigia, comenzó la obra, que el papa Clemente VII aprobó en 1533 y Pablo III confirmó en 1535 con el nombre de Clérigos Regulares de San Pablo. Se les llamó barnabitas por la iglesia de San Bernabé, en Milán, que recibieron poco antes de su muerte.\n\nSu regla buscaba «regenerar y renovar el amor al culto divino» mediante la predicación, la administración fiel de los sacramentos y la vida común en pobreza. San Pablo era su modelo: para ellos, un apóstol que predicaba a Cristo crucificado. Zaccaria fundó también una congregación femenina, las Angélicas de San Pablo, con la regla agustiniana.\n\nFue enviado por el cardenal Ridolfi a Vicenza, donde reformó costumbres y promovió la devoción de las Cuarenta Horas, la adoración eucarística continuada de modo rotativo en las iglesias. En su pastoral insistía en la comunión frecuente, que en su tiempo era poco habitual.\n\nMurió de fiebre en Cremona el 5 de julio de 1539, a los treinta y siete años. La Enciclopedia Católica recoge que su cuerpo fue hallado incorrupto veintisiete años después. Fue beatificado por Pío IX en 1849 y canonizado por León XIII el 15 de mayo de 1897 en la basílica de San Pedro.\n\nSu vida enseña que la reforma de la Iglesia empieza por la propia conversión y por la predicación humilde, y que la profesión secular, como la medicina, puede preparar para un servicio más amplio.",
+  "virtues": [
+   "Celo apostólico",
+   "Espíritu de reforma",
+   "Devoción eucarística"
+  ],
+  "iconography": "Sacerdote con hábito negro barnabita, crucifijo y a veces la custodia de las Cuarenta Horas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Antonio Maria Zaccaria»",
+    "url": "https://www.newadvent.org/cathen/01588a.htm"
+   },
+   {
+    "label": "Catholic Encyclopedia (New Advent), «Barnabites»",
+    "url": "https://www.newadvent.org/cathen/02302a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ]
+ },
+ {
+  "id": "agustin-zhao-rong-y-companeros",
+  "name": "Santos Agustín Zhao Rong y compañeros, mártires",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-09",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Agustín Zhao Rong, presbítero, y compañeros, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "priest",
+   "lay"
+  ],
+  "died": {
+   "date": "1815 (Zhao Rong); los compañeros, entre 1648 y 1930",
+   "place": "China"
+  },
+  "century": 19,
+  "countries": [
+   "CN"
+  ],
+  "canonization": {
+   "date": "1 de octubre de 2000",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Ciento veinte mártires de China, entre ellos el sacerdote Agustín Zhao Rong, muertos entre 1648 y 1930 y canonizados en el año 2000.",
+  "biography": "La memoria del 9 de julio recuerda a un grupo de 120 mártires de China, muertos entre 1648 y 1930, canonizados juntos por Juan Pablo II el 1 de octubre de 2000. De ellos, 87 eran chinos (sacerdotes, catequistas, religiosas, laicos de todas las edades) y 33 misioneros extranjeros, entre obispos, sacerdotes y hermanas. Su nombre litúrgico recuerda al primero de los chinos del grupo, el sacerdote diocesano Agustín Zhao Rong.\n\nSegún la biografía de la Santa Sede, Zhao Rong fue soldado de la escolta que condujo al obispo francés Juan Gabriel Dufresse, de las Misiones Extranjeras de París, desde Chengdu hasta Pekín. Impresionado por la paciencia del obispo en el cautiverio, pidió ser catecúmeno. Bautizado, ingresó en el seminario y fue ordenado sacerdote, de los primeros chinos diocesanos. Arrestado en la persecución del emperador Jiaqing (Kia-Kin), sufrió crueles torturas y murió en 1815. Ese mismo año fue ejecutado el obispo Dufresse, el 14 de septiembre.\n\nEl contexto es largo y complejo. El cristianismo llegó a China en la antigüedad; hubo misión franciscana en Pekín en el siglo XIII y, desde fines del siglo XVI, jesuitas como Mateo Ricci se ganaron la estima de los letrados. En 1692 el emperador Kangxi dio un edicto de tolerancia, pero la controversia sobre los ritos chinos provocó después la prohibición. Se sucedieron oleadas de persecución: el dominico Francisco Fernández de Capillas, protomártir de China, fue decapitado en Fujian el 15 de enero de 1648; hubo mártires en 1747-1748, en las persecuciones del siglo XVIII, y en el XIX, bajo Jiaqing y, tras las guerras del opio, con la intervención francesa como potencia protectora de las misiones.\n\nEl episodio más numeroso fue el levantamiento de los bóxers en 1900, cuando murieron obispos y misioneros franciscanos en Shanxi y Hunan, siete Franciscanas Misioneras de María, jesuitas franceses y más de cincuenta laicos chinos en Hebei, en su mayoría refugiados en una iglesia. El grupo incluye también a los salesianos Luis Versiglia y Calixto Caravario, asesinados el 25 de febrero de 1930.\n\nEn la canonización, Juan Pablo II presentó a los mártires como ejemplo de valentía y coherencia, y precisó que la Iglesia no pretende juzgar la política de las naciones, sino reconocer su testimonio. Honran al pueblo chino. Su memoria invita a rezar por la Iglesia en China y a recordar que la fe cristiana ha sido testimoniada allí con sangre desde hace siglos.",
+  "virtues": [
+   "Fidelidad hasta el martirio",
+   "Perdón",
+   "Fortaleza"
+  ],
+  "iconography": "Mártires con la palma, vestidos al modo chino o con hábito misionero; Zhao Rong, con sotana y cruz.",
+  "sources": [
+   {
+    "label": "Santa Sede (Liturgia), biografías de san Agustín Zhao Rong y 119 compañeros, mártires (1-X-2000)",
+    "url": "https://www.vatican.va/content/dam/wss/news_services/liturgy/saints/ns_lit_doc_20001001_zhao-rong-compagni_en.html"
+   },
+   {
+    "label": "Juan Pablo II, homilía en la canonización de los mártires de China (1-X-2000)",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2000/documents/hf_jp-ii_hom_20001001_canonization.html"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "La homilía se consultó solo por el resumen del buscador; el edicto de Kangxi y el nombre «Jiaqing» siguen la biografía vaticana (Kia-Kin)."
+ },
+ {
+  "id": "enrique-ii-emperador",
+  "name": "San Enrique II, emperador",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-13",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Enrique",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "972 o 973",
+   "place": "Baviera"
+  },
+  "died": {
+   "date": "13 de julio de 1024",
+   "place": "Grona, junto a Gotinga (Alemania)"
+  },
+  "century": 11,
+  "countries": [
+   "DE"
+  ],
+  "canonization": {
+   "date": "1146",
+   "by": "Eugenio III"
+  },
+  "summary": "Rey de Germania y emperador del Sacro Imperio, fundador del obispado de Bamberg; murió en 1024 y fue canonizado en 1146.",
+  "biography": "Enrique nació en 972 o 973, hijo del duque de Baviera Enrique II el Pendenciero y de Gisela de Borgoña. Se formó en la escuela catedralicia de Hildesheim, con una buena educación religiosa y política. Tras la muerte del emperador Otón III, en 1002, la Iglesia alemana lo llevó al trono como rey de Germania, con el apoyo de una parte de los nobles; tuvo que asegurar su autoridad frente a rivales, y a lo largo de su reinado pasó mucho tiempo en campañas militares en Polonia e Italia.\n\nEl 14 de febrero de 1014, tras su segunda expedición a Roma, fue coronado emperador por el papa Benedicto VIII. La Enciclopedia Católica lo describe como un gobernante sobrio y práctico, bien educado y piadoso, que se apoyó en la Iglesia frente a los poderes laicos y que, a la vez, dominaba a los obispos y abades, a quienes consideraba parte del aparato del Imperio. Era el sistema otoniano, que identificaba los bienes de la Iglesia con los recursos del reino.\n\nSu obra más recordada es la fundación del obispado de Bamberg, en 1007, idea suya, que dotó con tierras reales para evangelizar y organizar la región del Alto Meno y que destacó por sus escuelas. En la última parte de su reinado se inclinó cada vez más por las ideas del partido reformista de Cluny. Apoyó decretos de reforma en el sínodo de Goslar, y chocó con el arzobispo Aribo de Maguncia, que se oponía a la reforma, sobre todo en el sínodo de Seligenstadt (1023). Enrique estaba dispuesto a actuar contra Aribo, pero murió antes.\n\nLa tradición posterior atribuye a su matrimonio con Cunegunda un carácter virginal. La Enciclopedia Católica considera que esa tradición carece de base histórica. Cunegunda fue canonizada en 1200.\n\nEnrique murió el 13 de julio de 1024 en su palacio de Grona, cerca de Gotinga, sin hijos, con lo que acabó la dinastía otoniana. Fue canonizado en 1146. Se le propone como modelo del gobernante cristiano que ve el poder como servicio, aunque su figura recuerda la ambigüedad de un tiempo en que los intereses de la Iglesia y los del Imperio estaban entrelazados. Su memoria litúrgica ocupa el 13 de julio.",
+  "virtues": [
+   "Sentido de responsabilidad",
+   "Piedad",
+   "Apoyo a la reforma"
+  ],
+  "iconography": "Emperador con corona imperial, globo y maqueta de la catedral de Bamberg.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Henry II»",
+    "url": "https://www.newadvent.org/cathen/07227a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El nombre del papa que lo coronó (Benedicto VIII), la formación en Hildesheim y el canonizador (Eugenio III) son datos generales no leídos en la fuente; la fuente da 972 como año de nacimiento."
+ },
+ {
+  "id": "camilo-de-lelis",
+  "name": "San Camilo de Lelis",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-14",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Camilo de Lelis, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "religious"
+  ],
+  "born": {
+   "date": "1550",
+   "place": "Bucchianico (Abruzos)"
+  },
+  "died": {
+   "date": "14 de julio de 1614",
+   "place": "Roma"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Ministros de los Enfermos (camilos)",
+  "canonization": {
+   "date": "1746",
+   "by": "Benedicto XIV",
+   "note": "Beatificado en 1742"
+  },
+  "patronages": [
+   "Copatrono de los enfermeros y de sus asociaciones, con san Juan de Dios (Pío XI, 1930)"
+  ],
+  "summary": "Soldado y jugador convertido, fundador de los Ministros de los Enfermos; entregó su vida a los enfermos de los hospitales.",
+  "biography": "Camilo de Lelis nació en 1550 en Bucchianico, en los Abruzos, hijo de un oficial que había servido en los ejércitos napolitano y francés. Quedó huérfano de madre de niño y creció sin atención. Joven de gran estatura y fuerte, se alistó como soldado al servicio de Venecia y luego de Nápoles, y en 1569 combatió contra los turcos. Se volvió jugador empedernido y, tras perder todo, quedó en la miseria hasta 1574, cuando su regimiento fue disuelto.\n\nSu conversión fue gradual. Tenía una llaga en el pie que le impedía la carrera militar y se dirigió a Roma, al Hospital de los Incurables, donde trabajó como sirviente, y de donde lo despidieron por su carácter pendenciero y su afición al juego. Trabajó para los capuchinos en Manfredonia, y allí, según la Enciclopedia Católica, la advertencia del guardián del convento lo decidió a cambiar de vida. Intentó entrar como hermano lego con los capuchinos, pero la herida lo hizo rechazar una y otra vez.\n\nVolvió al Hospital de los Incurables de Roma, donde su piedad y su prudencia lo hicieron destacar como enfermero hasta llegar a director. Soñó con fundar una orden de enfermeros laicos, pero el proyecto encontró oposición. Aconsejado por sus amigos, entre ellos san Felipe Neri, su guía espiritual, decidió hacerse sacerdote. A los treinta y dos años empezó a estudiar latín en el colegio de los jesuitas de Roma, y fue ordenado sacerdote en 1584.\n\nEse mismo año fundó los Padres de la Buena Muerte, con el voto de asistir a los apestados, tanto en los hospitales como en las casas. Sixto V aprobó la congregación en 1586; en 1588 se abrió una casa en Nápoles, donde dos miembros murieron atendiendo a los enfermos de una flota en cuarentena. Gregorio XIV la erigió en orden religiosa en 1591 y Clemente VIII la confirmó en 1592. Los camilos usan una cruz roja en el hábito, distintivo de su servicio.\n\nDurante cuarenta y seis años soportó la herida que le impidió entrar con los capuchinos, además de otros males, pero no permitía que lo atendieran y se arrastraba fuera de la cama para visitar a los enfermos. Renunció al generalato en 1607 para dedicarse más a los pobres. Murió en Roma el 14 de julio de 1614 mientras exhortaba a sus hermanos. Fue beatificado en 1742 y canonizado en 1746 por Benedicto XIV; en 1930, Pío XI lo declaró, junto a san Juan de Dios, copatrono de los enfermeros.\n\nCamilo propuso el ideal de cuidar al enfermo «como una madre cuida a su hijo enfermo», una expresión que se le atribuye en la tradición de la orden. Su vida enseña que ningún pasado cierra la puerta a la conversión.",
+  "virtues": [
+   "Caridad con los enfermos",
+   "Perseverancia",
+   "Conversión"
+  ],
+  "iconography": "Sacerdote con sotana negra y gran cruz roja sobre el pecho, atendiendo a un enfermo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Camillus de Lellis»",
+    "url": "https://www.newadvent.org/cathen/03217b.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "Cruz roja y la frase de la «madre» proceden de la tradición de la orden, no de la fuente leída; el día de nacimiento se omite por no figurar en ella."
+ },
+ {
+  "id": "nuestra-senora-del-carmen",
+  "name": "Nuestra Señora del Carmen",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "07-16",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Nuestra Señora del Carmen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "century": 12,
+  "countries": [
+   "IL",
+   "ES",
+   "IT",
+   "GB"
+  ],
+  "order": "Orden del Carmen",
+  "summary": "Advocación mariana de la Orden del Carmen, nacida en el monte Carmelo, vinculada al escapulario; su memoria se extendió a toda la Iglesia en 1726.",
+  "biography": "La memoria de Nuestra Señora del Carmen recuerda a María bajo la advocación de la orden carmelita, que toma su nombre del monte Carmelo, en Tierra Santa, lugar asociado al profeta Elías. Los carmelitas se consideraron durante siglos continuadores de Elías y Eliseo, pero los historiadores sitúan sus orígenes en la segunda mitad del siglo XII, hacia 1155, cuando un grupo de ermitaños, atribuido en la tradición al calabrés Bertoldo, se instaló junto a una capilla en el monte, con el apoyo del patriarca latino de Antioquía.\n\nHacia 1210 Alberto, patriarca de Jerusalén, les dio una breve regla de vida, en parte inspirada en la de san Agustín: celdas separadas, oficio divino, misa diaria, silencio y pobreza. Honorio III la aprobó en 1226. Tras la caída del monte Carmelo en manos sarracenas en 1291, los ermitaños pasaron a Chipre, Sicilia, Marsella e Inglaterra, y se convirtieron en una orden mendicante, con casas en universidades como Cambridge, Oxford y París. Se llamaron «Hermanos de la bienaventurada Virgen María del monte Carmelo», pues su primera capilla estaba dedicada a ella.\n\nLa fiesta litúrgica fue instituida por los carmelitas entre 1376 y 1386 y fijada el 16 de julio. Según la Enciclopedia Católica, la fecha se justifica en la tradición de que ese día de 1251 la Virgen entregó el escapulario a san Simón Stock, prior general. Es una tradición piadosa, no un hecho histórico demostrado: la primera noticia escrita sobre ella es de hacia 1430, la de Juan Grossi. Sixto V aprobó la fiesta para la orden en 1587 y Benedicto XIII la extendió a toda la Iglesia latina el 24 de septiembre de 1726.\n\nEl escapulario del Carmen es un pequeño distintivo de tela que expresa la pertenencia a la familia carmelita y la consagración a María. Su sentido espiritual, más que el de una promesa mecánica, es el de una devoción que invita a vivir según el Evangelio bajo la protección de la Virgen. El llamado «privilegio sabatino», atribuido a una bula de Juan XXII de 1322, es considerado apócrifo por la Enciclopedia Católica.\n\nPara la espiritualidad carmelita, María es modelo de oyente de la Palabra y compañera de oración. La advocación se difundió por toda Europa y América, donde es una de las devociones marianas más populares; la liturgia la celebra como memoria libre el 16 de julio.",
+  "virtues": [
+   "Contemplación",
+   "Escucha de la Palabra"
+  ],
+  "iconography": "La Virgen con el Niño, ambos con escapularios, a menudo con almas del purgatorio a sus pies; el monte Carmelo y el hábito pardo con manto blanco carmelita.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «Feast of Our Lady of Mount Carmel»",
+    "url": "https://www.newadvent.org/cathen/10604b.htm"
+   },
+   {
+    "label": "Catholic Encyclopedia (New Advent), «The Carmelite Order»",
+    "url": "https://www.newadvent.org/cathen/03354a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El nombre del patriarca de Antioquía y la identificación de Bertoldo como «calabrés» siguen la Enciclopedia Católica; no se han contrastado con fuentes carmelitas oficiales."
+ },
+ {
+  "id": "apolinar-de-ravena",
+  "name": "San Apolinar de Rávena",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-20",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Apolinar, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr"
+  ],
+  "born": {
+   "date": "incierto (probablemente Antioquía, según la Enciclopedia Católica)"
+  },
+  "died": {
+   "date": "incierta (la tradición lo sitúa en el siglo I; los estudiosos, más tarde)",
+   "place": "Rávena"
+  },
+  "century": 2,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Primer obispo y mártir de Rávena, cuyo relato hagiográfico es tardío y legendario; su culto está atestiguado desde la antigüedad.",
+  "biography": "Apolinar es venerado como el primer obispo de Rávena y mártir, pero casi todo lo que se cuenta de él procede de unas actas legendarias tardías, que la propia Enciclopedia Católica recibe con cautela, y que se conservan en las *Acta Sanctorum*. Lo que sí está sólido es su culto, muy antiguo y asociado a esa ciudad.\n\nSegún la tradición, Apolinar, natural probablemente de Antioquía, fue consagrado obispo de Rávena por el mismo san Pedro, y lo fue durante veintiséis años. Algunas versiones lo cuentan entre los setenta y dos discípulos de Cristo, cosa que la Enciclopedia Católica no considera segura. La fecha de su consagración no puede determinarse, y las actas lo ubican en tiempos de Vespasiano (hacia 70), aunque otros autores sitúan su figura más tarde, quizá en el siglo II.\n\nEl relato es una larga serie de padecimientos y regresos. Tras predicar con éxito y obrar conversiones, Apolinar fue golpeado y expulsado por los paganos, encontrado medio muerto en la costa y escondido por los cristianos. Obligado a caminar sobre carbones ardientes, fue desterrado de nuevo; continuó evangelizando en Emilia y, al volver, fue torturado, encadenado en un calabozo para que muriera de hambre, pero sobrevivió y fue enviado a Grecia, donde volvió a predicar y a padecer. Hasta cuatro veces regresó a Rávena. La última, fue atacado al salir de la ciudad, probablemente en Classis, y murió siete días después, anunciando que las persecuciones aumentarían, pero que la Iglesia triunfaría.\n\nEstos detalles son hagiografía, no historia, y el género busca edificar. Lo que se puede afirmar es que el culto de Apolinar en Rávena es muy antiguo y que dos de las grandes basílicas de la ciudad llevan su nombre, Sant'Apollinare Nuovo y Sant'Apollinare in Classe, cuyos mosaicos son famosos. El obispo Pedro Crisólogo (siglo V) ya lo menciona, según la tradición ravenate.\n\nSu memoria litúrgica es el 20 de julio. Su historia se lee como un testimonio de la fe de la Iglesia de Rávena, que reconoce en él a su fundador, y de la fortaleza de los primeros misioneros, aunque la historicidad de los detalles sea incierta.",
+  "virtues": [
+   "Fortaleza en la persecución",
+   "Celo misionero"
+  ],
+  "iconography": "Obispo con báculo y palma del martirio, a veces con una clava o con carbones ardientes; en los mosaicos de Rávena, entre ovejas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Apollinaris of Ravenna»",
+    "url": "https://www.newadvent.org/cathen/01616a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "unverified": true,
+  "note": "Las actas son legendarias y no se pudo leer un estudio crítico; la afirmación de que Pedro Crisólogo ya lo menciona y las basílicas de Rávena son datos generales no leídos en fuente aquí."
+ },
+ {
+  "id": "lorenzo-de-brindis",
+  "name": "San Lorenzo de Brindis",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-21",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Lorenzo de Brindis, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "doctor",
+   "missionary"
+  ],
+  "born": {
+   "date": "22 de julio de 1559",
+   "place": "Brindisi"
+  },
+  "died": {
+   "date": "22 de julio de 1619",
+   "place": "Lisboa"
+  },
+  "century": 17,
+  "countries": [
+   "IT",
+   "DE",
+   "AT",
+   "CZ",
+   "PT",
+   "ES"
+  ],
+  "order": "Capuchinos",
+  "fullName": "Julio César Russo",
+  "canonization": {
+   "date": "8 de diciembre de 1881",
+   "by": "León XIII",
+   "note": "Declarado doctor de la Iglesia por Juan XXIII en 1959"
+  },
+  "summary": "Capuchino políglota, predicador, general de su orden y capellán del ejército imperial contra los turcos; doctor de la Iglesia.",
+  "biography": "Julio César nació en Brindisi el 22 de julio de 1559, hijo de Guillermo Russo (de Rossi) y de Isabel Masella. Su padre murió cuando tenía doce años. Estudió con los franciscanos conventuales de su ciudad y luego en Venecia, y en 1575 ingresó en los capuchinos con el nombre de Lorenzo. Estudió en la Universidad de Padua, y destacó por una memoria excepcional y una facilidad poco común para las lenguas: dominaba las principales lenguas europeas y la mayoría de las semíticas, lo que le permitió leer la Biblia en hebreo y griego.\n\nFue predicador en toda Italia y en Roma, donde entre 1596 y 1602 instruyó a los judíos, por encargo del papa Clemente VIII, con numerosas conversiones, gracias a su conocimiento del hebreo. Elegido vicario general de su orden en 1602, renunció en 1605 por humildad. Fundó conventos en Viena, Praga y Graz, y contribuyó a establecer la orden capuchina en el mundo germánico, en tiempos de la Contrarreforma.\n\nSu faceta diplomática fue notable. Fue nuncio y embajador ante Maximiliano de Baviera, jefe de la Liga Católica, y se instaló en Múnich; por encargo del emperador viajó a España para persuadir a Felipe III de unirse a la Liga. También sirvió como capellán del ejército imperial en la campaña contra los turcos en Hungría, donde, según la tradición, animó a los soldados con un crucifijo en la mano, episodio que la historiografía de la orden recuerda con orgullo y que se debe tomar con la cautela propia de estos relatos.\n\nSu obra escrita comprende sermones y comentarios bíblicos, publicados después de su muerte, donde combina la doctrina con una fuerte devoción mariana y un conocimiento enciclopédico de la Escritura. Juan XXIII lo declaró doctor de la Iglesia universal en 1959, con el título de *Doctor apostolicus*.\n\nTras una misión en España, por encargo de los napolitanos, murió en Lisboa el 22 de julio de 1619, el mismo día en que cumplía sesenta años. Fue sepultado en el cementerio de las clarisas de Villafranca, y su proceso de beatificación concluyó en 1783. León XIII lo canonizó el 8 de diciembre de 1881. La Enciclopedia Católica, de 1910, daba su fiesta en el 6 de julio; el calendario actual la fija el 21 de julio.",
+  "virtues": [
+   "Humildad",
+   "Celo apostólico",
+   "Amor a la Escritura"
+  ],
+  "iconography": "Fraile capuchino con barba, crucifijo en la mano y libro, a veces junto a una espada o a un campo de batalla.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «St. Lorenzo da Brindisi»",
+    "url": "https://www.newadvent.org/cathen/09359a.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "El nombre exacto de la madre y el apellido (Russo/Rossi) siguen la Enciclopedia Católica; el episodio del crucifijo es tradición de la orden no verificada."
+ },
+ {
+  "id": "pedro-crisologo",
+  "name": "San Pedro Crisólogo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-30",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pedro Crisólogo, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 380-406 (según los autores)",
+   "place": "Imola"
+  },
+  "died": {
+   "date": "c. 450",
+   "place": "Imola"
+  },
+  "century": 5,
+  "countries": [
+   "IT"
+  ],
+  "canonization": {
+   "note": "Declarado doctor de la Iglesia por Benedicto XIII en 1729"
+  },
+  "summary": "Obispo de Rávena en el siglo V, famoso por sus breves y claros sermones, que le valieron el nombre de «Crisólogo» (palabra de oro).",
+  "biography": "Pedro nació en Imola, en la Emilia, entre el 380 y el 406, según los autores (la Enciclopedia Católica da el 406). Su biografía más antigua, escrita por Agnello de Rávena en el siglo IX, ofrece pocos datos. Fue bautizado, educado y ordenado diácono por Cornelio, obispo de Imola.\n\nEn 433 fue elevado a la sede de Rávena, que en esos años era capital del Imperio de Occidente bajo la emperatriz Gala Placidia y su hijo Valentiniano III. La ciudad ya tenía rango metropolitano. Pedro gozó de la confianza del papa León Magno y del apoyo de Gala Placidia. Su piedad y su celo lo hicieron admirado, y su elocuencia le valió el sobrenombre de *Crisólogo*, «palabra de oro», un título posterior que no consta en su vida.\n\nLa Enciclopedia Católica recuerda que tras la condena del monje Eutiques en el sínodo de Constantinopla, el 448, este intentó ganarse el apoyo de Pedro, pero fracasó. Pedro respondió, según la tradición, con una carta en la que lo remitía a la autoridad del papa y de su doctrina sobre Cristo, tema central de la fe de su época.\n\nSe conservan 176 sermones, reunidos por el obispo Félix de Rávena (707-717); algunos son interpolaciones o se le atribuyen con otros nombres. Son breves y concisos, de lenguaje claro, y comentan sobre todo textos bíblicos. Tratan la Encarnación, los errores de Arrio y de Eutiques y el Credo de los Apóstoles; dedicó series a la Virgen María y a san Juan Bautista. Su estilo de predicador para el pueblo, de frases cortas, ejemplos concretos y exhortaciones morales, ha sido muy apreciado como modelo de homilética. Un famoso sermón enseña que los tres medios de la vida cristiana son la oración, el ayuno y la misericordia.\n\nMurió hacia el 450 en Imola, su ciudad natal, donde fue sepultado. Benedicto XIII lo declaró doctor de la Iglesia en 1729. La Iglesia celebra su memoria el 30 de julio.\n\nPedro Crisólogo enseña que predicar es poner la Palabra al alcance de todos, con brevedad, claridad y amor al pueblo.",
+  "virtues": [
+   "Elocuencia al servicio del pueblo",
+   "Fidelidad a la doctrina",
+   "Celo pastoral"
+  ],
+  "iconography": "Obispo con mitra y báculo, libro de sermones y a veces un panal o una colmena (símbolo de «palabra de oro»).",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (New Advent), «Saint Peter Chrysologus»",
+    "url": "https://www.newadvent.org/cathen/11762c.htm"
+   },
+   {
+    "label": "Calendario Romano General, mes de julio (Universal Calendar, Liturgy Office of England and Wales): fecha y rango de la celebración",
+    "url": "https://liturgyoffice.org.uk/Calendar/Universal/JulUC.html"
+   }
+  ],
+  "note": "Doctorado (1729) y la frase sobre el sermón de oración, ayuno y misericordia son datos generales no leídos en la fuente; el calendario general lo coloca el 30-VII (no el 4-XII)."
+ },
+ {
+  "id": "kateri-tekakwitha",
+  "name": "Santa Kateri Tekakwitha",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "07-14",
+    "rank": "memorial",
+    "calendar": "us",
+    "title": "Santa Kateri Tekakwitha, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "lay"
+  ],
+  "born": {
+   "date": "1656",
+   "place": "Ossernenon (hoy Auriesville, Nueva York)"
+  },
+  "died": {
+   "date": "17 de abril de 1680",
+   "place": "Kahnawake, cerca de Montreal"
+  },
+  "century": 17,
+  "countries": [
+   "US",
+   "CA"
+  ],
+  "canonization": {
+   "date": "21 de octubre de 2012",
+   "by": "Benedicto XVI",
+   "note": "Beatificada en 1980"
+  },
+  "summary": "Joven mohawk-algonquina, primera santa indígena de Norteamérica; se bautizó en 1676 y murió a los veinticuatro años.",
+  "biography": "Tekakwitha nació en 1656 en la aldea mohawk de Ossernenon, en lo que hoy es el estado de Nueva York, hija de un jefe mohawk y de una mujer algonquina cristiana. En 1660 una epidemia de viruela mató a sus padres y a su hermano pequeño; ella sobrevivió, pero quedó con el rostro marcado y la vista dañada. Fue acogida por un tío, jefe de la aldea, hostil al cristianismo.\n\nLa expedición francesa de 1666 al territorio mohawk obligó a la aldea a aceptar la paz, y en 1667 llegaron misioneros jesuitas a su nueva aldea. Tekakwitha quedó impresionada por su piedad, pero su familia se oponía. En 1675 el jesuita Jacques de Lamberville la visitó y ella pidió el bautismo. Lo recibió en la Pascua de 1676 con el nombre de Catalina (Kateri en mohawk). Sus parientes, que querían casarla, y los vecinos la hostigaron por su fe, y ella siempre rechazó el matrimonio.\n\nEn 1677 huyó a la misión de San Francisco Javier, cerca de Montreal, un asentamiento de indígenas cristianos. Allí hizo su primera comunión a fines de ese año y en 1678 ingresó en la Cofradía de la Sagrada Familia. El 25 de marzo de 1679 hizo, en privado, voto de castidad perpetua. Vivió de oración, trabajo en el campo y penitencias que sus directores moderaban. Murió el 17 de abril de 1680, a los veinticuatro años, pronunciando los nombres de Jesús y María.\n\nSegún los testimonios de los misioneros, poco después de su muerte las marcas de su rostro habrían desaparecido; es una noticia piadosa transmitida por testigos jesuitas, no verificable históricamente. Su devoción creció desde entonces, y sus reliquias se conservan en la misión de Kahnawake (Caughnawaga), a donde acuden peregrinos de Canadá y Estados Unidos.\n\nFue declarada venerable en 1943, beatificada por Juan Pablo II en 1980 y canonizada por Benedicto XVI el 21 de octubre de 2012; es la primera persona indígena de Norteamérica canonizada. El milagro aprobado fue la curación de un niño de Washington. En su homilía, Benedicto XVI la presentó como protectora del Canadá y confió a su intercesión la renovación de la fe entre los pueblos originarios de América del Norte.\n\nSu historia, atravesada por el dolor, la discriminación y el choque de culturas, es hoy una invitación a la reconciliación entre la Iglesia y los pueblos indígenas.",
+  "virtues": [
+   "Fortaleza",
+   "Pureza",
+   "Fidelidad"
+  ],
+  "iconography": "Joven indígena con un lirio y una cruz, a veces con una tortuga o con vestido de piel de ciervo, símbolo de su pueblo.",
+  "sources": [
+   {
+    "label": "Dictionary of Canadian Biography, «Tekakwitha (Catherine)»",
+    "url": "https://www.biographi.ca/en/bio/tekakwitha_1E.html"
+   },
+   {
+    "label": "Benedicto XVI, homilía en la canonización (21-X-2012), vatican.va",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/homilies/2012/documents/hf_ben-xvi_hom_20121021_canonizzazioni.html"
+   },
+   {
+    "label": "Calendario de Estados Unidos (memoria del 14 de julio): sin verificar en fuente leída"
+   }
+  ],
+  "unverified": true,
+  "note": "Rango y fecha en el calendario de EE. UU. (07-14, memoria) no verificados en fuente oficial; la discreta noticia de la desaparición de las marcas y la curación de Jake Finkbonner proceden de relatos secundarios."
+ }
+]

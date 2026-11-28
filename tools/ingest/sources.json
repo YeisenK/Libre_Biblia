@@ -128,6 +128,25 @@
         "4MA": "4 Macabeos (fuera del canon de 73)"
       },
       "packRevision": 2
+    },
+    {
+      "code": "TA",
+      "key": "wikisource:torres-amat",
+      "name": "Torres Amat (Nuevo Testamento, parcial)",
+      "language": "es",
+      "edition": "Félix Torres Amat, «La Sagrada Biblia, nuevamente traducida de la Vulgata latina al español», París, Librería de los SS. D. Vicente Salvá é Hijo, 1836 (tomos XIII-XV: Nuevo Testamento); transcripción corregida de es.wikisource. Primera edición: Madrid, 1823-1825",
+      "format": "wikisource-pages",
+      "files": [],
+      "license": "Public Domain (texto original, † 1847, ed. 1836); transcripción de Wikisource con contribuciones bajo CC BY-SA 4.0",
+      "licenseUrl": "https://es.wikisource.org/wiki/Wikisource:Derechos_de_autor",
+      "provenanceUrl": "https://es.wikisource.org/wiki/La_Sagrada_Biblia_(XIII)",
+      "versification": "vulgate",
+      "tsConfig": "spanish",
+      "completeness": "partial",
+      "translationStatus": "final",
+      "ecclesiasticalApproval": true,
+      "notice": "Traducción católica clásica de la Vulgata (Torres Amat, 1823-1836) con las licencias eclesiásticas de su época; no es texto litúrgico vigente. PARCIAL: solo 15 de 27 libros del NT (Evangelios, Hechos, Romanos, 1 Corintios, Santiago, 1-2 Pedro, 1-3 Juan, Judas y Apocalipsis); el resto de la Biblia no está disponible en una transcripción corregida.",
+      "notes": "Páginas del escaneo (Internet Archive lasagradabiblian13torr y lasagradabiblian1415torr) transcritas y corregidas (ProofreadPage nivel 3-4) en es.wikisource. Se omiten las notas al pie (el formato de paquete no las admite), cabeceras, sumarios, números de página y guiones; las cursivas (palabras añadidas al original) se pasan a texto llano. Faltan 2 Corintios, Gálatas, Efesios, Filipenses, Colosenses, 1-2 Tesalonicenses, 1-2 Timoteo, Tito, Filemón, Hebreos y todo el Antiguo Testamento (en Wikisource sin transcribir o sin corregir). Errata de la edición de 1836: Mt 14,11 está truncado y falta el v. 12."
     }
   ]
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Compila Libre Biblia para Android (APK + AAB firmados) y, opcionalmente, la instala.
+# Compila Lux para Android (APK + AAB firmados) y, opcionalmente, la instala.
 #
 # Uso:
 #   scripts/build-apk.sh                 # compila desde la copia de trabajo actual
@@ -55,8 +55,8 @@ pnpm --filter @bc/mobile build:android
 
 VERSION="$(node -p "require('./apps/mobile/version.json').versionName")"
 mkdir -p "$OUT"
-APK="$OUT/LibreBiblia-$VERSION.apk"
-AAB="$OUT/LibreBiblia-$VERSION.aab"
+APK="$OUT/Lux-$VERSION.apk"
+AAB="$OUT/Lux-$VERSION.aab"
 cp "$SRC/apps/mobile/dist/app-release.apk" "$APK"
 cp "$SRC/apps/mobile/dist/app-release.aab" "$AAB"
 if [ "$SRC" != "$ROOT" ]; then

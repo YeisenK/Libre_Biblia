@@ -14,10 +14,13 @@ import { SearchIcon, CloseIcon } from '../Icons';
 import { RosaryCard } from '../rosary/RosaryCard';
 import { ArtCard, EmptyState, IconButton, ListGroup, ListRow, MOMENT_GREETING, PrayerScreen, Rail, Section, momentOf } from '../ui';
 import { FavoritePrayers } from './FavoritePrayers';
+import { PrayerCollections } from './PrayerCollections';
 import { PrayerSearch } from './PrayerSearch';
 import { useNovenasInProgress } from './RoutineData';
 import { TodayAgenda } from './TodayAgenda';
 
+/** Categorías de vida cotidiana y letanías, destacadas en el centro de oración. */
+const EVERYDAY = ['trabajo', 'escuela', 'deporte', 'relaciones', 'vida-personal', 'circunstancias', 'letanias'];
 const SETS: MysterySet[] = ['joyful', 'luminous', 'sorrowful', 'glorious'];
 
 export function PrayerHub() {
@@ -35,6 +38,7 @@ export function PrayerHub() {
   const counts = new Map<string, number>();
   for (const p of cat?.prayers ?? []) for (const c of p.categories) counts.set(c, (counts.get(c) ?? 0) + 1);
   const categories = (cat?.categories ?? []).filter((c) => counts.get(c.id));
+  const everyday = EVERYDAY.map((id) => categories.find((c) => c.id === id)).filter((c): c is NonNullable<typeof c> => !!c);
   const today = todaySet(new Date(), settings.timeZone);
   const sets = [today, ...SETS.filter((s) => s !== today)];
 
@@ -84,10 +88,16 @@ export function PrayerHub() {
             <RosaryCard />
             <TodayAgenda />
 
+            <Section title="Oración de las Horas" action={<Link href="/horas/">Abrir</Link>}>
+              <ListGroup>
+                <ListRow title="Oración de las Horas" detail="Laudes, Hora intermedia, Vísperas, Completas y Oficio de lectura" href="/horas/" />
+              </ListGroup>
+            </Section>
+
             <Section title="Santo Rosario" action={<Link href="/rosario/">Ver todo</Link>}>
               <Rail>
                 {sets.map((s) => (
-                  <ArtCard key={s} artKey={`set:${s}`} title={MYSTERY_SET_LABEL[s]} label={s === today ? 'Hoy' : undefined} href="/rosario/" />
+                  <ArtCard key={s} artKey={`set:${s}`} title={MYSTERY_SET_LABEL[s]} label={s === today ? 'Hoy' : undefined} href={`/rosario/?set=${s}`} />
                 ))}
               </Rail>
             </Section>
@@ -114,7 +124,29 @@ export function PrayerHub() {
               </Section>
             )}
 
+            {!isLoading && cat && !cat.empty && everyday.length > 0 && (
+              <Section title="Para tu día a día" action={<Link href="/oraciones/">Ver todo</Link>}>
+                <Rail>
+                  {everyday.map((c) => (
+                    <ArtCard key={c.id} artKey={`category:${c.id}`} title={c.title} subtitle={c.description} href={`/oraciones/?cat=${encodeURIComponent(c.id)}`} />
+                  ))}
+                </Rail>
+              </Section>
+            )}
+
+            <Section title="Sacramentos y adoración">
+              <ListGroup>
+                <ListRow title="Examen de conciencia" detail="Privado: no se guarda nada" href="/examen/" />
+                <ListRow title="Guía de la confesión" href="/confesion/" />
+                <ListRow title="Hora Santa y adoración" detail="15, 30 o 60 minutos" href="/adoracion/" />
+                <ListRow title="Vía Crucis" href="/via-crucis/" />
+                <ListRow title="Vía Lucis" href="/via-lucis/" />
+              </ListGroup>
+            </Section>
+
             <FavoritePrayers />
+
+            <PrayerCollections />
 
             {recent && recent.length > 0 && (
               <Section title="Rezadas recientemente">

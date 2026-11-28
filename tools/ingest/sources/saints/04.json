@@ -1,0 +1,1077 @@
+[
+ {
+  "id": "francisco-de-paula",
+  "name": "San Francisco de Paula",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-02",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Francisco de Paula, ermitaño",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder"
+  ],
+  "born": {
+   "date": "1416",
+   "place": "Paola (Calabria)"
+  },
+  "died": {
+   "date": "2 de abril de 1507",
+   "place": "Plessis-lès-Tours (Francia)"
+  },
+  "century": 15,
+  "countries": [
+   "IT",
+   "FR"
+  ],
+  "order": "Orden de los Mínimos",
+  "canonization": {
+   "date": "1519",
+   "by": "León X"
+  },
+  "summary": "Ermitaño calabrés que fundó la Orden de los Mínimos, «los más pequeños», marcada por la humildad, la penitencia y el lema «Charitas»; consejero de los reyes de Francia.",
+  "biography": "Francisco nació en 1416 en Paola, en Calabria (sur de Italia). Según la Enciclopedia Católica, sus padres, que llevaban años sin hijos, pidieron un hijo a san Francisco de Asís y, cuando el niño estuvo a punto de perder la vista de un ojo por una inflamación, prometieron que pasaría un año vestido con el hábito franciscano. A los trece años cumplió esa promesa en un convento franciscano y después peregrinó con sus padres a Asís y a Roma. Al volver, buscó la soledad cerca de su ciudad y luego en una cueva junto al mar, donde vivió unos seis años.\n\nHacia 1435 se le unieron dos compañeros y construyeron tres celdas y una capilla: ese es el origen de la comunidad. Hacia 1454, con licencia del arzobispo de Cosenza, edificaron un monasterio y una iglesia mayores, con la ayuda de los vecinos y de nobles de la región. La regla era durísima: abstinencia perpetua de carne y una pobreza extrema, y el rasgo que debía definirla era la humildad. De ahí el nombre de Mínimos («los más pequeños de todos los religiosos»), que la Santa Sede acabó admitiendo. En 1474 Sixto IV le permitió redactar una regla con el título de «Ermitaños de san Francisco»; Alejandro VI aprobó esa regla y cambió el nombre por el de Mínimos, y Julio II confirmó la regla definitiva en 1506, junto con la de las monjas y la de los terciarios laicos, que Francisco también promovió. Fundó nuevos monasterios en Calabria y Sicilia.\n\nLas fuentes antiguas le atribuyen el don de profecía y de leer las conciencias, y numerosos milagros; son relatos hagiográficos que la historia no puede contrastar, aunque muestran la fama de santidad que lo rodeó. Lo que sí consta es su libertad frente a los poderosos: reprendió sin miedo al rey de Nápoles y sufrió persecución por ello.\n\nCuando el rey Luis XI de Francia, gravemente enfermo, lo reclamó, Francisco se negó a ir hasta que el papa se lo ordenó. Acudió a Plessis-lès-Tours y acompañó al rey en su muerte. Carlos VIII lo estimó y lo consultó a menudo, y fundó casas mínimas en Plessis y en el monte Pincio de Roma; Luis XII tampoco le permitió regresar a Italia. Así pasó en Francia sus últimos años como consejero espiritual de la corte, sin dejar su austeridad.\n\nLos últimos tres meses de su vida los pasó en soledad. El Jueves Santo exhortó a sus religiosos a la caridad mutua y a la abstinencia estricta; el Viernes Santo nombró un vicario general, recibió los sacramentos y murió el 2 de abril de 1507 mientras le leían la Pasión según san Juan. León X lo canonizó en 1519. En 1562 los hugonotes abrieron su tumba, hallaron el cuerpo incorrupto y lo quemaron; los católicos conservaron algunos huesos. Su vida enseña que la grandeza evangélica pasa por hacerse pequeño y por servir con caridad a todos, desde el humilde hasta el rey.",
+  "virtues": [
+   "Humildad",
+   "Penitencia",
+   "Caridad"
+  ],
+  "iconography": "Ermitaño con hábito oscuro, báculo y la palabra «Charitas» en un rayo de luz; a veces cruzando el estrecho de Mesina sobre su manto.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Francis of Paula, Saint»",
+    "url": "https://www.newadvent.org/cathen/06231a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Italia meridional y Francia en el siglo XV, entre el final de la Edad Media y el Renacimiento; relación de la Iglesia con las monarquías de Nápoles y Francia.",
+  "significance": "Fundó una orden cuyo rasgo distintivo es la humildad radical («mínimos») y mostró cómo un ermitaño podía aconsejar a reyes sin renunciar a la pobreza."
+ },
+ {
+  "id": "isidoro-de-sevilla",
+  "name": "San Isidoro de Sevilla",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-04",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Isidoro, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 560",
+   "place": "Cartagena (según la Enciclopedia Católica)"
+  },
+  "died": {
+   "date": "4 de abril de 636",
+   "place": "Sevilla"
+  },
+  "century": 7,
+  "countries": [
+   "ES"
+  ],
+  "summary": "Obispo de Sevilla durante cuatro décadas, erudito autor de las «Etimologías», impulsor de la educación en el reino visigodo y último de los grandes Padres latinos; doctor de la Iglesia desde 1722.",
+  "biography": "Isidoro nació hacia el año 560, según la Enciclopedia Católica en Cartagena, hijo de Severiano y Teodora, en una familia notable: su hermano mayor Leandro fue arzobispo de Sevilla, su hermano Fulgencio obispo de Astigi (Écija) y su hermana Florentina religiosa, a quien dedicó una obra. Se formó en la escuela catedralicia de Sevilla, donde se enseñaban el trívium y el cuadrivio, y llegó a dominar el latín, el griego y el hebreo. Se discute si llegó a ser monje, pero valoró la vida religiosa y, siendo obispo, protegió a los monasterios: en 619 amenazó con anatema a los clérigos que los molestaran.\n\nSucedió a Leandro como obispo de Sevilla y gobernó la diócesis durante unos cuarenta años. Su episcopado coincidió con el paso del mundo romano a una nueva civilización hispanogoda, y su gran empeño fue unir a los pueblos del reino mediante la fe y la cultura, una vez superado el arrianismo. Presidió el segundo concilio de Sevilla (619), reunido bajo el rey Sisebuto, y el cuarto concilio de Toledo, que se abrió el 5 de diciembre de 633. En este último, ya anciano, fue el inspirador de la mayoría de los cánones; entre ellos, el que ordenaba a los obispos fundar escuelas en las catedrales según el modelo sevillano, lo que hizo de la educación una política obligatoria de todo el reino.\n\nSu obra más célebre, las «Etimologías» u «Orígenes», la escribió poco antes de morir a petición de su amigo Braulio, obispo de Zaragoza, que la dividió en veinte libros. Es una enciclopedia que recoge, a partir de unos ciento cincuenta autores cristianos y paganos, el saber de la Antigüedad, y fue manual básico de la Edad Media: se imprimió diez veces entre 1470 y 1529. Entre sus demás escritos están el «De natura rerum», un tratado elemental de física escrito para Sisebuto; la «Historia de los reyes godos, vándalos y suevos» y la «Crónica», fuentes capitales para conocer la época; el «De fide catholica contra Iudaeos», dedicado a su hermana Florentina, y las «Sentencias», una síntesis de teología moral y dogmática que influyó en autores posteriores como Pedro Lombardo.\n\nEl octavo concilio de Toledo (653) lo elogió como el hombre más sabio de su tiempo, y el decimoquinto (688) refrendó ese elogio. Murió en Sevilla el 4 de abril de 636. Fue declarado doctor de la Iglesia en 1722 por Inocencio XIII.\n\nLa vida de Isidoro muestra que la Iglesia puede ser custodia de la cultura: en tiempos de fragilidad política, reunió y transmitió el saber, y lo puso al servicio de la fe y de la educación del pueblo. Su cercanía a los estudios y a la pastoral hace de él un modelo para quienes enseñan y escriben.",
+  "virtues": [
+   "Erudición",
+   "Pastoral",
+   "Defensa de la fe"
+  ],
+  "iconography": "Obispo con libro y pluma, rodeado de volúmenes, a veces con una colmena (por su elocuencia, según la tradición).",
+  "works": [
+   {
+    "title": "Etimologías"
+   },
+   {
+    "title": "Sentencias"
+   },
+   {
+    "title": "Historia de los godos"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Isidore of Seville, Saint»",
+    "url": "https://www.newadvent.org/cathen/08186a.htm"
+   },
+   {
+    "label": "Wikipedia en inglés, «Isidore of Seville» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Isidore_of_Seville"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Hispania visigoda entre los siglos VI y VII: conversión del reino del arrianismo al catolicismo, concilios toledanos y supervivencia de la cultura clásica.",
+  "significance": "Transmitió a la Edad Media el saber clásico y cristiano y organizó la educación del clero; los concilios que presidió marcaron la vida de la Iglesia hispana."
+ },
+ {
+  "id": "vicente-ferrer",
+  "name": "San Vicente Ferrer",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-05",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Vicente Ferrer, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "missionary"
+  ],
+  "born": {
+   "date": "23 de enero de 1350",
+   "place": "Valencia"
+  },
+  "died": {
+   "date": "5 de abril de 1419",
+   "place": "Vannes (Bretaña)"
+  },
+  "century": 14,
+  "countries": [
+   "ES",
+   "FR",
+   "IT"
+  ],
+  "order": "Orden de Predicadores",
+  "canonization": {
+   "date": "3 de junio de 1455",
+   "by": "Calixto III"
+  },
+  "summary": "Dominico valenciano que recorrió Europa occidental durante unos veinte años predicando penitencia y preparación para el Juicio; actor destacado del Cisma de Occidente y del Compromiso de Caspe.",
+  "biography": "Vicente Ferrer nació en Valencia el 23 de enero de 1350, cuarto hijo de Guillermo Ferrer y Constancia Miguel, de una familia ennoblecida por su participación en la conquista de Valencia en 1238. Terminó los estudios de filosofía a los catorce años e ingresó en la Orden de Predicadores en 1367. Estudió en Barcelona, enseñó filosofía en Lérida (1370) y volvió a Barcelona, a un centro dominico de estudios de árabe y hebreo (1373). En 1377 estudió en Toulouse, donde resumía su método diciendo que estudiaba rezando y rezaba estudiando. De 1385 a 1390 enseñó teología en la catedral de Valencia.\n\nSu vida quedó marcada por el Cisma de Occidente, que dividió a la Iglesia entre dos y luego tres papas. En 1379 el cardenal Pedro de Luna, futuro Benedicto XIII, lo empleó para ganar al rey Pedro IV de Aragón para la obediencia de Aviñón, y Vicente fue durante años defensor de los papas aviñoneses. Fue confesor de la reina Violante de Aragón (1391-1395), después confesor y penitenciario apostólico en Aviñón, y rechazó los honores que se le ofrecieron, incluido el cardenalato. Se cuenta que fue citado ante la Inquisición por haber predicado que Judas hizo penitencia, y que Benedicto XIII trasladó la causa a su propio tribunal.\n\nCuando Francia retiró su obediencia a Aviñón (1398), Vicente cayó gravemente enfermo. Según su propio relato, tuvo una visión de Cristo con santo Domingo y san Francisco y quedó curado. En noviembre de 1399 Benedicto XIII lo autorizó a predicar como legado «a latere Christi». Durante unos veinte años recorrió el oeste de Europa llamando a la penitencia y a prepararse para el juicio, seguido de multitudes y de grupos de penitentes que llegaron a ser de miles de personas. De 1408 a 1416 trabajó sobre todo en España; la tradición, a través de su primer biógrafo, le atribuye la conversión de unos veinticinco mil judíos y de miles de musulmanes, cifras difíciles de comprobar. Algunos biógrafos le atribuyen también el don de lenguas, un relato hagiográfico más que un hecho contrastable.\n\nIntervino en política como árbitro: fue uno de los compromisarios del Compromiso de Caspe, que eligió a Fernando de Castilla como rey de Aragón. En 1416, presionado por Fernando, retiró públicamente su apoyo a Benedicto XIII, aunque sin negar que lo tuviera por papa legítimo. No asistió al concilio de Constanza y pasó sus dos últimos años en Bretaña.\n\nVivía con austeridad: dormía en el suelo, ayunaba, se levantaba a las dos de la madrugada, celebraba la misa a diario y predicaba durante horas. Dejó escritos como el «Tratado de la vida espiritual». Murió en Vannes el 5 de abril de 1419. Calixto III lo canonizó el 3 de junio de 1455 en Santa María sobre Minerva, en Roma. Su figura combina la pasión por la conversión con una vida penitente; su predicación del juicio apelaba a la responsabilidad de cada persona ante Dios, y su ejemplo muestra cómo un predicador popular pudo moverse, no siempre sin ambigüedad, en la política eclesiástica de su tiempo.",
+  "virtues": [
+   "Celo apostólico",
+   "Penitencia",
+   "Elocuencia"
+  ],
+  "iconography": "Dominico con una pequeña llama sobre la cabeza o alas de ángel y el dedo en alto señalando al cielo, con un libro y la trompeta del Juicio.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Vincent Ferrer, Saint»",
+    "url": "https://www.newadvent.org/cathen/15437a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Corona de Aragón y Europa occidental, siglos XIV y XV: Cisma de Occidente, Compromiso de Caspe (1412), peste y crisis social.",
+  "significance": "Uno de los grandes predicadores populares de la Edad Media tardía; su predicación penitencial marcó la piedad de Aragón, Francia e Italia."
+ },
+ {
+  "id": "juan-bautista-de-la-salle",
+  "name": "San Juan Bautista de La Salle",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-07",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Juan Bautista de La Salle, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder"
+  ],
+  "born": {
+   "date": "30 de abril de 1651",
+   "place": "Reims"
+  },
+  "died": {
+   "date": "7 de abril de 1719",
+   "place": "Saint-Yon, cerca de Ruan"
+  },
+  "century": 17,
+  "countries": [
+   "FR"
+  ],
+  "order": "Hermanos de las Escuelas Cristianas",
+  "canonization": {
+   "date": "24 de mayo de 1900",
+   "by": "León XIII"
+  },
+  "summary": "Sacerdote de Reims que, tras renunciar a su canonjía y a su fortuna, fundó los Hermanos de las Escuelas Cristianas y renovó la pedagogía con la escuela gratuita en lengua vulgar; patrono de los educadores.",
+  "biography": "Juan Bautista de La Salle nació en Reims el 30 de abril de 1651, primogénito de Luis de La Salle y Nicolle de Moet de Brouillet, de una familia con raíces en Champaña. Obtuvo el grado de maestro en artes en 1669 y se formó en el seminario de Saint-Sulpice, en París. Su familia esperaba que fuera abogado, pero eligió la Iglesia: fue ordenado sacerdote el Sábado Santo, 9 de abril de 1678, y se doctoró en teología en 1680. Era canónigo de Reims, cargo al que renunció en 1683, antes de repartir su fortuna entre los pobres.\n\nSu vocación de educador nació casi por azar. Ayudó a Adrien Nyel a abrir escuelas gratuitas para niños pobres en Reims y poco a poco acogió y guió a los jóvenes maestros, hasta que de esa convivencia surgió una comunidad: el Instituto de los Hermanos de las Escuelas Cristianas, que tomó forma en la década de 1680. Una decisión revolucionaria fue que los Hermanos no fueran sacerdotes, para que se dedicasen enteramente a la escuela, lo que distinguió al instituto de la mayoría de las órdenes de su tiempo.\n\nLa Salle defendió que se enseñara en lengua vernácula y no en latín, y desarrolló el «método simultáneo»: alumnos de nivel parecido comparten una misma lección, un mismo texto y un mismo maestro, en un clima de silencio y orden. En 1684 abrió en Reims una escuela normal para formar maestros laicos, adelantándose a instituciones semejantes en otros países; fundó un noviciado preparatorio; en 1699 una academia cristiana para adultos en la parroquia de Saint-Sulpice, con enseñanza de geometría, arquitectura y dibujo, y en 1705 un internado en Saint-Yon que se convirtió en modelo de enseñanza secundaria, al que añadió una escuela técnica.\n\nNo faltaron pruebas. Desde 1702 sufrió la oposición de algunas autoridades eclesiásticas y el cardenal de Noailles lo apartó por un tiempo de la dirección del instituto. En 1717 los Hermanos eligieron al hermano Bartolomé como primer superior general. De La Salle murió en Saint-Yon, junto a Ruan, el Viernes Santo, 7 de abril de 1719. Benedicto XIII aprobó el instituto mediante bula el 26 de febrero de 1725.\n\nLeón XIII lo canonizó el 24 de mayo de 1900. El 15 de mayo de 1950, por la carta apostólica «Quo ait», Pío XII lo declaró patrono celestial principal de todos los educadores de niños y jóvenes, a petición del Instituto en el cincuentenario de su canonización. Su legado es tratar la escuela como un lugar de misión: la enseñanza al servicio de los pobres, la formación seria de los maestros y la convicción de que educar es obra de fe.",
+  "virtues": [
+   "Dedicación educativa",
+   "Desprendimiento",
+   "Fe de obras"
+  ],
+  "significance": "Padre de la pedagogía moderna: escuela popular gratuita, lengua vernácula, método simultáneo y formación de maestros laicos.",
+  "patronages": [
+   "Patrono celestial de todos los educadores de niños y jóvenes (Pío XII, carta apostólica «Quo ait», 15 de mayo de 1950)"
+  ],
+  "iconography": "Sacerdote con sotana y manteo y dos niños, con un libro; a veces señalando a un niño.",
+  "works": [
+   {
+    "title": "La conducta de las escuelas cristianas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «John Baptist de la Salle, Saint»",
+    "url": "https://www.newadvent.org/cathen/08444a.htm"
+   },
+   {
+    "label": "Pío XII, carta apostólica «Quo ait» (15-V-1950), patrono de los educadores",
+    "url": "https://www.vatican.va/content/pius-xii/la/apost_letters/documents/19500515-quo-ait.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Francia de Luis XIV: gran pobreza urbana y rural, escasez de escuelas para los hijos de artesanos y pobres, y tensiones entre jansenismo y autoridades eclesiásticas."
+ },
+ {
+  "id": "estanislao-de-cracovia",
+  "name": "San Estanislao de Cracovia",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-11",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Estanislao, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr"
+  ],
+  "born": {
+   "date": "26 de julio de 1030 (según la Enciclopedia Católica)",
+   "place": "Szczepanów (Polonia)"
+  },
+  "died": {
+   "date": "8 de mayo de 1079",
+   "place": "Cracovia"
+  },
+  "century": 11,
+  "countries": [
+   "PL"
+  ],
+  "canonization": {
+   "date": "1253",
+   "by": "Inocencio IV",
+   "note": "En Asís."
+  },
+  "summary": "Obispo de Cracovia que reprendió al rey Boleslao II por su conducta y murió asesinado en 1079; patrono de Polonia y de Cracovia. Su biografía antigua contiene mucho material legendario.",
+  "biography": "Estanislao nació, según la Enciclopedia Católica, en Szczepanów, en la diócesis de Cracovia, el 26 de julio de 1030, y murió en Cracovia el 8 de mayo de 1079. No se conserva ninguna biografía contemporánea: la primera «vida», redactada en tiempos de su canonización y atribuida a un dominico llamado Vicente, está llena, como reconoce la misma enciclopedia, de elementos legendarios. Por eso conviene distinguir lo bien atestiguado (su cargo, su conflicto con el rey, su muerte violenta, el traslado de sus restos y su canonización) de las anécdotas sobre su juventud, sus estudios en Gniezno (y quizá en París) o los detalles del crimen.\n\nSegún estos relatos, el obispo Lamberto Zula lo ordenó sacerdote y lo hizo párroco de Czembocz; después fue canónigo y predicador de la catedral y vicario general. A la muerte de Lamberto fue elegido obispo y solo aceptó por mandato expreso del papa Alejandro II. Se dedicó a reformar su diócesis y censuró públicamente los vicios, tanto de los poderosos como del pueblo. Su episcopado se situó en la Polonia de los primeros Piastos, un reino joven que consolidaba su organización eclesiástica.\n\nEl conflicto con el rey Boleslao II se prolongó. Las fuentes mencionan una disputa por unas tierras de la Iglesia que el rey reclamaba injustamente y el trato cruel a unos nobles que habían abandonado sus hogares por temor a represalias. Estanislao le rogó que cambiara de conducta y, ante su negativa, el rey fue excomulgado; se ordenó además a los canónigos suspender los oficios si intentaba entrar en la catedral. El obispo se retiró a la capilla de san Miguel, en un arrabal de Cracovia. La tradición cuenta que allí lo siguió el rey con sus guardias, que se negaron a matar al obispo, y que Boleslao lo mató él mismo durante la misa; este relato es una narración tradicional y no testimonio contrastado. El móvil político del enfrentamiento, que algunos historiadores discuten, se suma a la dimensión religiosa del episodio.\n\nEl cuerpo fue enterrado primero en la capilla y en 1088 el obispo Lamberto II lo trasladó a la catedral. Inocencio IV lo canonizó en 1253 en Asís. Se le venera como patrono de Polonia y de la ciudad y diócesis de Cracovia. Su figura se convirtió en símbolo de la independencia de la Iglesia frente al poder civil y de la conciencia moral que se atreve a hablar a los gobernantes.\n\nLas imágenes lo muestran con báculo y espada; estos y otros elementos, como el joven resucitado, son convenciones artísticas y devocionales que proceden de la leyenda, no de la historia documentada. Lo que su memoria enseña es que la autoridad pastoral exige, a veces, la valentía de decir la verdad al poderoso.",
+  "virtues": [
+   "Valentía",
+   "Fidelidad a la justicia"
+  ],
+  "iconography": "Obispo con báculo y espada, a menudo con un joven resucitado (Pedro) a sus pies, según una leyenda.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Stanislaus of Cracow, Saint»",
+    "url": "https://www.newadvent.org/cathen/14246a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Polonia de los primeros Piastos en el siglo XI; relación entre la monarquía de Boleslao II y la Iglesia, recién organizada, y la reforma gregoriana en el horizonte.",
+  "significance": "Símbolo en Polonia de la libertad de la Iglesia ante el poder político y patrono del país.",
+  "patronages": [
+   "Patrono de Polonia y de la ciudad y la diócesis de Cracovia (Enciclopedia Católica)"
+  ],
+  "note": "La Enciclopedia Católica da el 8 de mayo como fecha de muerte; el Calendario Romano celebra la memoria el 11 de abril. Su biografía antigua es tardía y legendaria; los detalles del asesinato y de su juventud son tradición."
+ },
+ {
+  "id": "martin-i",
+  "name": "San Martín I",
+  "fullName": "Martín I, papa y mártir",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-13",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Martín I, papa y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "pope",
+   "martyr"
+  ],
+  "born": {
+   "date": "s. VII",
+   "place": "Todi (Umbría)"
+  },
+  "died": {
+   "date": "16 de septiembre de 655",
+   "place": "Cherson (Crimea)"
+  },
+  "century": 7,
+  "countries": [
+   "IT",
+   "UA"
+  ],
+  "summary": "Papa (649-655) que convocó el concilio de Letrán contra el monotelismo, fue arrestado por el emperador Constante II y murió desterrado en Crimea; considerado mártir.",
+  "biography": "Martín nació en Todi, junto al Tíber, hijo de Fabricio, según la Enciclopedia Católica. Fue elegido papa en Roma el 21 de julio de 649, como sucesor de Teodoro I (la fecha del 5 de julio se cita también, pero la anterior encaja mejor con las fechas de su muerte y de su pontificado). Su pontificado se desarrolló en plena controversia monotelita, que discutía si Cristo tenía una sola voluntad o dos, la divina y la humana, y que el emperador de Bizancio quería zanjar por decreto.\n\nPoco después de su elección convocó un concilio en Letrán, al que asistieron ciento cinco obispos. Se reunió en cinco sesiones en octubre de 649, rechazó la «Ékthesis» de Heraclio y el «Týpos» de Constante II, que pretendían suprimir el debate sobre las voluntades de Cristo, excomulgó a varios dirigentes monotelitas, como el patriarca Sergio y Pirro, y promulgó veinte cánones que definen la doctrina católica sobre las dos voluntades. Las actas fueron enviadas a toda la Iglesia y una traducción griega, al emperador.\n\nMartín se negó a firmar el Týpos. Según el relato recogido por la Enciclopedia, el exarca imperial Olimpio planeó matarlo durante la comunión, pero el papa se salvó, y Olimpio murió luchando contra los sarracenos en Sicilia. En junio de 653 el exarca Teodoro Calíopas entró en Roma, declaró depuesto a Martín y ordenó llevarlo a Constantinopla. El papa prohibió toda resistencia para evitar un derramamiento de sangre y se sometió.\n\nLlegó a Constantinopla en 653 o 654, tras una escala en Naxos. Estuvo noventa y tres días en la cárcel de Prandearia y luego fue juzgado ante el senado el 19 de diciembre. El cargo real era su negativa a firmar el Týpos. Fue humillado públicamente, despojado, encadenado y arrastrado por las calles, y estuvo después ochenta y cinco días en la cárcel de Diomedes. Constante le perdonó la vida, quizá influido por la muerte del patriarca Pablo, y lo condenó al destierro. Zarpó el 26 de marzo de 654 (o 655) y llegó a Cherson, en Crimea, el 15 de mayo, en plena hambruna. Murió allí el 16 de septiembre de 655 tras un pontificado de seis años, un mes y veintiséis días, y fue sepultado en la iglesia de Nuestra Señora de Blanquernas, cerca de Cherson, donde se le atribuyeron muchos milagros. La mayor parte de sus reliquias se trasladó después a Roma, a San Martino ai Monti.\n\nSe le honra como mártir: es el último papa venerado así. Los griegos celebran su memoria el 13 de abril y el 15 de septiembre, los moscovitas el 14 de abril; los himnos griegos lo llaman «maestro de fe infalible». La Iglesia romana lo celebra hoy el 13 de abril; la Enciclopedia Católica, que escribía antes de 1969, da el 12 de noviembre como fecha católica.\n\nSu testimonio muestra que la fidelidad a la fe y la libertad de la Iglesia frente a la presión del poder imperial pueden costar el sufrimiento y el destierro, y que el sucesor de Pedro es garante de la unidad doctrinal.",
+  "context": "Imperio bizantino y papado en el siglo VII: controversia monotelita, Týpos de Constante II y tensiones entre Roma y Constantinopla.",
+  "virtues": [
+   "Fidelidad a la fe",
+   "Fortaleza en el sufrimiento",
+   "Libertad frente al poder"
+  ],
+  "significance": "Defendió la doctrina de las dos voluntades de Cristo, confirmada después en el concilio de Constantinopla III (681).",
+  "iconography": "Papa con tiara, a veces con cadenas o junto a una barca que alude al destierro.",
+  "note": "La Enciclopedia Católica (1913) da el 12 de noviembre como memoria latina; el Calendario Romano actual lo celebra el 13 de abril. Año exacto de la llegada a Constantinopla (653 o 654) incierto.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Pope St. Martin I»",
+    "url": "https://www.newadvent.org/cathen/09723c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "anselmo-de-canterbury",
+  "name": "San Anselmo de Canterbury",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-21",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Anselmo, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "c. 1033",
+   "place": "Aosta"
+  },
+  "died": {
+   "date": "21 de abril de 1109",
+   "place": "Canterbury"
+  },
+  "century": 11,
+  "countries": [
+   "IT",
+   "FR",
+   "GB"
+  ],
+  "order": "Benedictinos",
+  "canonization": {
+   "date": "1494",
+   "by": "Alejandro VI",
+   "note": "Doctor de la Iglesia: Clemente XI, 1720 (Enciclopedia Católica)."
+  },
+  "summary": "Monje de Bec y arzobispo de Canterbury, defensor de la libertad de la Iglesia y padre de la escolástica; autor del «Monologion», el «Proslogion» y «Cur Deus homo». Doctor de la Iglesia.",
+  "biography": "Anselmo nació en Aosta, ciudad burgundia en el límite con Lombardía, hacia 1033. Su madre le enseñó las primeras lecciones de piedad y desde joven amó el estudio. Un abad rechazó su petición de entrar en el monasterio; entonces, sin rumbo, se distanció de los estudios y, tras el trato duro de su padre, salió de casa y cruzó a pie el Mont Cenis. Se estableció en la abadía de Bec, en Normandía, discípulo de Lanfranco. Se hizo monje en 1060, fue prior en 1063 y en 1078 sucedió al fundador, Herluino, como abad.\n\nEn Bec escribió, siendo prior, el «Monologion» y el «Proslogion». En este último propone el famoso argumento a partir de la idea de aquello «mayor que lo cual nada puede pensarse». El monje Gaunilón lo criticó, y pensadores posteriores como Descartes o Hegel dialogaron con él. Su método, «fe que busca entender», fue una de las bases de la escolástica. Defendió el realismo de los universales frente al nominalismo de Roscelino y escribió sobre la Trinidad, la libertad y la predestinación.\n\nSu fama llegó a Inglaterra, que visitó en 1092. El rey Guillermo II el Rojo había dejado vacante la sede de Canterbury cuatro años; Anselmo, tras resistirse, fue consagrado arzobispo el 4 de diciembre de 1093. Su episcopado estuvo lleno de conflictos sobre los bienes de la Iglesia, las exigencias de dinero del rey y el reconocimiento del papa legítimo. Apoyó a Urbano II y el concilio de Rockingham (1095) aceptó su postura sobre la autoridad papal; recibió el palio ese año, sin querer tomarlo de la mano del rey.\n\nEn 1097 pidió licencia para ir a Roma y pasó varios años fuera de Inglaterra. En el exilio escribió «Cur Deus homo» («Por qué un Dios hombre»), sobre el sentido de la Encarnación y la redención, y tuvo un papel destacado en el concilio de Bari (1098), donde se discutió con los griegos la procesión del Espíritu Santo. Con Enrique I volvió la querella de las investiduras. Anselmo regresó en 1105 tras una reconciliación y el asunto se zanjó en el concilio de Londres de 1107: el rey renunció a investir a obispos y abades y los prelados aceptaron rendirle homenaje por los bienes temporales.\n\nPasó sus dos últimos años en tareas pastorales y murió el 21 de abril de 1109. Sus fuentes principales son los escritos de su discípulo Eadmero y las cartas del propio santo. Fue canonizado en 1494 por Alejandro VI, según el dato recogido en la ficha, y Clemente XI lo declaró doctor de la Iglesia en 1720. Su legado une la razón y la fe, y su firmeza ante los reyes muestra que la libertad de la Iglesia no es privilegio sino servicio.",
+  "virtues": [
+   "Rigor intelectual",
+   "Fortaleza ante los poderosos",
+   "Oración"
+  ],
+  "iconography": "Obispo benedictino con báculo y libro; a veces con un barco, símbolo de la Iglesia.",
+  "works": [
+   {
+    "title": "Proslogion"
+   },
+   {
+    "title": "Cur Deus homo"
+   },
+   {
+    "title": "Monologion"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Anselm of Canterbury, Saint»",
+    "url": "https://www.newadvent.org/cathen/01546a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Europa del siglo XI: reforma gregoriana, querella de las investiduras entre papas y reyes, nacimiento de la escolástica en las escuelas monásticas.",
+  "significance": "Padre de la escolástica y defensor de la libertad de la Iglesia; su argumento y su teología de la redención siguen estudiándose.",
+  "note": "La fecha de canonización (1494, Alejandro VI) procede de la ficha anterior y no figura en la Enciclopedia Católica de 1913 leída; cotejar con otra fuente. Año de nacimiento aproximado."
+ },
+ {
+  "id": "adalberto-de-praga",
+  "name": "San Adalberto de Praga",
+  "fullName": "Vojtěch (Adalberto) de Praga",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-23",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Adalberto, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr",
+   "missionary"
+  ],
+  "born": {
+   "date": "c. 956 (la Enciclopedia Católica dice 939)",
+   "place": "Libice (Bohemia)"
+  },
+  "died": {
+   "date": "23 de abril de 997",
+   "place": "Prusia (lugar incierto)"
+  },
+  "century": 10,
+  "countries": [
+   "CZ",
+   "PL",
+   "HU",
+   "DE"
+  ],
+  "canonization": {
+   "date": "999",
+   "by": "Silvestre II",
+   "note": "Fecha probable: 29 de junio de 999."
+  },
+  "summary": "Obispo de Praga de origen checo, misionero entre húngaros, polacos y prusianos, muerto mártir en 997; patrono de Bohemia y Polonia.",
+  "biography": "Vojtěch nació en una noble familia bohemia, según la Enciclopedia Católica en 939; la historiografía actual lo sitúa hacia 956, en Libice. Tomó el nombre de Adalberto en honor del arzobispo Adalberto de Magdeburgo, con quien estudió en esa ciudad hacia 970-980. Fue obispo de Praga (en 982 según los estudios modernos; el dato de 983 es habitual en otras fuentes), pero sus esfuerzos por reformar al clero de su diócesis le granjearon hostilidad y tuvo que huir.\n\nSe fue a Roma, donde el papa Juan XV lo liberó de sus obligaciones episcopales y él se retiró a un monasterio, el de san Bonifacio y san Alejo, en el Aventino, donde se ocupaba de las tareas domésticas más humildes. Su pueblo lo reclamó con alegría, volvió en 992 (cuando el arzobispo de Maguncia lo obligó a regresar) y fundó en 993 el monasterio de Břevnov, pero fue expulsado de nuevo y regresó a Roma hacia 995.\n\nMarchó entonces como misionero a Hungría, en pleno movimiento de conversión del país. Probablemente bautizó al rey Geza, a su familia y a Esteban, según la Enciclopedia Católica; esto es probable, no seguro. Evangelizó después a los polacos y llegó a Gniezno en marzo de 997. Fue arzobispo de Gniezno, sede a la que de nuevo renunció. Fue amigo del joven emperador Otón III, que impulsó su culto.\n\nPartió después a predicar a los paganos de la región de Prusia. Tuvo al principio algún éxito, pero su insistencia en que abandonaran el paganismo los irritó. Por instigación de un sacerdote pagano, fue muerto el 23 de abril de 997; el lugar exacto de su martirio es incierto. Se le llama apóstol de Prusia. Según la tradición, el príncipe polaco Boleslao I rescató su cuerpo por su peso en oro. Fue canonizado hacia 999, probablemente el 29 de junio, por Silvestre II. Los restos reposaron en Gniezno y fueron llevados a Praga en 1038-1039 por el duque Bretislao I.\n\nEs patrono de Bohemia, Polonia y Prusia en el culto tradicional. También se le atribuye, según la Enciclopedia Católica, un canto de guerra que cantaban los polacos antes de la batalla; es una atribución tradicional. Su vida es un recordatorio de que la reforma de la Iglesia exige coraje, y de que la misión puede nacer del fracaso de una primera vocación pastoral. Se le venera en cuatro países y su figura une a checos, polacos, húngaros y alemanes en un mismo patrimonio cristiano.",
+  "context": "Europa central en el año 1000: conversión de Hungría, Polonia y Bohemia y política imperial de los Otones.",
+  "virtues": [
+   "Celo misionero",
+   "Valentía",
+   "Humildad"
+  ],
+  "significance": "Símbolo de la unidad cristiana de Europa central; su sepulcro en Gniezno fue lugar de peregrinación imperial en el año 1000.",
+  "patronages": [
+   "Bohemia, Polonia y Prusia (Enciclopedia Católica y tradición)"
+  ],
+  "iconography": "Obispo con báculo y lanza o remo, a veces con la palma del martirio.",
+  "note": "La Enciclopedia Católica (1907) da 939 como año de nacimiento; los estudios modernos, c. 956. Lugar de la muerte incierto; fecha de traslado de las reliquias a Praga (1038 o 1039) discutida.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Adalbert»",
+    "url": "https://www.newadvent.org/cathen/01127c.htm"
+   },
+   {
+    "label": "Wikipedia en inglés, «Adalbert of Prague» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Adalbert_of_Prague"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "jorge-martir",
+  "name": "San Jorge",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-23",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Jorge, mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr"
+  ],
+  "born": {
+   "date": "s. III (dato tradicional, no documentado)",
+   "place": "Capadocia (según la tradición)"
+  },
+  "died": {
+   "date": "anterior a Constantino; c. 303 según la tradición",
+   "place": "Lida o Diospolis (Palestina)"
+  },
+  "century": 3,
+  "countries": [
+   "IL",
+   "GB",
+   "ES"
+  ],
+  "summary": "Mártir de culto antiquísimo, venerado en Oriente como «gran mártir» y en Occidente como modelo de caballero cristiano; de su vida se sabe poco con certeza y la leyenda del dragón es medieval.",
+  "biography": "De san Jorge se puede afirmar con seguridad muy poco, y conviene decirlo desde el principio. La Enciclopedia Católica sostiene que fue un mártir que padeció en Lida o cerca de ella (Diospolis, en Palestina), probablemente antes de la época de Constantino. Lo que sí está bien atestiguado es la antigüedad e intensidad de su culto: peregrinos de los siglos VI al VIII sitúan en Lida el centro de su veneración y el lugar de sus restos, y hay iglesias dedicadas a él en Siria, Mesopotamia y Egipto, atestiguadas por inscripciones; una iglesia de Tesalónica podría datar del siglo IV. En Oriente fue contado entre los grandes mártires, el «megalomártir».\n\nHacia el año 495, un decreto atribuido al papa Gelasio incluye a Jorge entre los santos «cuyos nombres son justamente venerados, pero cuyos hechos solo Dios conoce», y rechaza como apócrifos sus «Hechos»: señal de que ya circulaban relatos novelescos. Esas actas antiguas están repletas de prodigios, como tres ejecuciones seguidas de resurrección, conversiones multitudinarias o leche brotando de su cabeza cortada. Los críticos modernos juzgan que las versiones más sobrias derivan de las extravagantes. Tampoco es original que su perseguidor sea Diocleciano; el nombre podría ser una forma racionalizada de «Dadiano». No debe confundirse con el obispo arriano Jorge de Capadocia ni con el mártir anónimo de Nicomedia que rasgó un edicto.\n\nLa famosa lucha contra el dragón, con la doncella a punto de ser sacrificada, es un desarrollo muy tardío, rastreable solo hasta los siglos XII-XIII, y se difundió sobre todo con la «Leyenda dorada». Debe leerse como símbolo de la victoria de la fe sobre el mal, no como un hecho histórico.\n\nLas Cruzadas aumentaron su popularidad. Guillermo de Malmesbury cuenta que en 1098 se vio a san Jorge y a san Demetrio ayudando a los francos en Antioquía. En Inglaterra se tradujeron sus Hechos al anglosajón y hubo iglesias dedicadas a él antes de la conquista normanda; la cruz roja sobre fondo blanco se convirtió en emblema de los soldados en el siglo XIV, y hacia 1347 Eduardo III puso la Orden de la Jarretera bajo su patrocinio. Su fiesta, el 23 de abril, era ya día festivo menor en 1222, y en 1415 el arzobispo Chichele la elevó a una de las mayores del año en Inglaterra.\n\nPor eso la liturgia romana lo celebra hoy con una memoria libre: se reconoce el testimonio de un cristiano que dio la vida por Cristo, sin pretender precisar los detalles de su biografía. El mensaje del «caballero» que vence al dragón es, para el creyente, el de la fidelidad a la fe y el valor ante el mal, que es lo que la Iglesia ha venerado a través de los siglos.",
+  "virtues": [
+   "Fidelidad",
+   "Valentía"
+  ],
+  "iconography": "Caballero con armadura que lanza su lanza al dragón, con una doncella al fondo; cruz roja sobre campo blanco.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «George, Saint»",
+    "url": "https://www.newadvent.org/cathen/06453a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Cristianos perseguidos en tiempo de Diocleciano (según la tradición) y culto precoz en Palestina, Egipto y Siria; difusión medieval por las Cruzadas.",
+  "significance": "Uno de los mártires más venerados de Oriente y Occidente; ejemplo de cómo la devoción popular enriquece una historia escasa.",
+  "note": "La identificación de Diocleciano como perseguidor, la fecha c. 303 y la leyenda del dragón son tradición, no historia documentada (Enciclopedia Católica)."
+ },
+ {
+  "id": "fidel-de-sigmaringa",
+  "name": "San Fidel de Sigmaringa",
+  "fullName": "Marcos Rey (Fidel de Sigmaringa)",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-24",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Fidel de Sigmaringa, presbítero y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "priest",
+   "martyr",
+   "religious"
+  ],
+  "born": {
+   "date": "1577",
+   "place": "Sigmaringen (Hohenzollern)"
+  },
+  "died": {
+   "date": "24 de abril de 1622",
+   "place": "Seewis im Prättigau (Grisones, Suiza)"
+  },
+  "century": 17,
+  "countries": [
+   "DE",
+   "CH",
+   "AT"
+  ],
+  "order": "Capuchinos",
+  "canonization": {
+   "date": "29 de junio de 1746",
+   "by": "Benedicto XIV",
+   "note": "Beatificado el 24 de marzo de 1729 por Benedicto XIII."
+  },
+  "summary": "Abogado alemán que se hizo capuchino y murió mártir en 1622 durante una misión en los Grisones; considerado el primer mártir de la Congregación de Propaganda Fide.",
+  "biography": "Fidel nació en 1577 en Sigmaringen, hijo de Johannes Rey, burgomaestre; su nombre de pila fue Marcos. Estudió en la Universidad de Friburgo y en 1604 fue preceptor de Wilhelm von Stotzingen, con quien viajó por Francia e Italia. Volvió a Friburgo en 1611, se doctoró en derecho civil y canónico y ejerció como abogado. Contó con fama de «abogado de los pobres». La corrupción de los tribunales lo decidió a dejar la profesión por la Iglesia.\n\nFue ordenado sacerdote y celebró su primera misa en el convento capuchino de Friburgo el 4 de octubre de 1612; tomó el nombre de Fidel al ingresar en la reforma capuchina. Estudió teología en Constanza y fue guardián de los conventos de Rheinfelden, Friburgo y Feldkirch, con fama de predicador celoso. Escribió folletos contra el calvinismo y el zwinglianismo, publicados anónimamente y hoy perdidos.\n\nEn 1621-1622 fue enviado a trabajar en los Grisones, donde muchos se habían pasado al calvinismo. Reformó el monasterio benedictino de Pfäfers y predicó en Mayenfeld y Zizers; la Enciclopedia Católica le atribuye la conversión de Rodolfo de Salis. Una fuente moderna sitúa su entrada en el Prättigau el 6 de enero de 1622.\n\nEl 24 de abril de 1622 fue atacado en Seewis (el artículo antiguo escribe «Sevis»), durante una predicación. Según el relato recogido, se le ofreció la vida si apostataba y respondió: «Vine a extirpar la herejía, no a abrazarla». Murió allí. Su cuerpo se enterró en Feldkirch, salvo la cabeza y el brazo izquierdo, que se conservan en la catedral de Coira. Fue el primer mártir de la Congregación de Propaganda Fide.\n\nBenedicto XIII lo beatificó en 1729 y Benedicto XIV lo canonizó en 1746 (la Enciclopedia Católica escribe 1745). Se le representa con un crucifijo y una herida en la cabeza, y su emblema es una maza.\n\nFidel es un ejemplo de conversión de vida: el jurista que dejó la defensa de las causas humanas por el servicio de Cristo y aceptó la muerte por la fe en un tiempo de enfrentamientos religiosos. Su celebración recuerda también el costo de las guerras de religión y la necesidad de buscar el diálogo y la paz, aun sosteniendo la verdad con firmeza.",
+  "context": "Guerras de religión en la Europa del siglo XVII, en vísperas de la Guerra de los Treinta Años; Contrarreforma capuchina en la Suiza oriental.",
+  "virtues": [
+   "Fidelidad",
+   "Celo apostólico",
+   "Amor a los pobres"
+  ],
+  "significance": "Primer mártir de Propaganda Fide; modelo de abogado convertido en apóstol.",
+  "iconography": "Capuchino con maza, palma y crucifijo; a veces con una herida en la cabeza.",
+  "note": "Su nombre de pila Marcos (Rey) y la entrada en el Prättigau el 6-I-1622 proceden de una fuente de cotejo, no de la Enciclopedia Católica. Año de canonización: 1746 (la Enciclopedia dice 1745). Lugar de muerte: Seewis o Grüsch según las fuentes.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Fidelis of Sigmaringen»",
+    "url": "https://www.newadvent.org/cathen/06069a.htm"
+   },
+   {
+    "label": "Wikipedia en inglés, «Fidelis of Sigmaringen» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Fidelis_of_Sigmaringen"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "marcos-evangelista",
+  "name": "San Marcos, evangelista",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-25",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "San Marcos, evangelista",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "evangelist",
+   "martyr"
+  ],
+  "born": {
+   "date": "s. I",
+   "place": "Jerusalén (según los Hechos de los Apóstoles)"
+  },
+  "died": {
+   "date": "incierta; Jerónimo la sitúa en 62-63, la tradición habla de martirio en Alejandría",
+   "place": "Alejandría (según la tradición)"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "EG",
+   "IT"
+  ],
+  "summary": "Juan Marcos, colaborador de Pablo y Bernabé, discípulo e intérprete de Pedro y autor del segundo evangelio; según la tradición fundó la Iglesia de Alejandría. Su símbolo es el león.",
+  "biography": "La Enciclopedia Católica identifica a Marcos, el evangelista, con el «Juan, llamado Marcos» de los Hechos de los Apóstoles, el Marcos que nombran Pablo en las cartas a los Colosenses, a Timoteo y a Filemón, y Pedro en su primera carta. Su madre, María, tenía una casa en Jerusalén donde se reunían los creyentes y a la que fue Pedro tras salir de la cárcel (Hch 12). Pablo lo llama primo de Bernabé.\n\nMarcos acompañó a Bernabé y Saulo de Jerusalén a Antioquía y los siguió como ayudante en el primer viaje misionero, pero los dejó en Perge y volvió a Jerusalén; se ha sugerido que temió las dificultades. Por eso Pablo no quiso llevarlo en el segundo viaje, lo que provocó la separación de Pablo y Bernabé; Bernabé se llevó a Marcos a Chipre. Años después Pablo lo cuenta entre sus colaboradores y pide a Timoteo que lo lleve consigo a Roma, porque le es útil para el ministerio. La biografía de Marcos es, así, la de quien fracasa, se recupera y se reconcilia.\n\nLa relación con Pedro es esencial. En la primera carta de Pedro, escrita desde «Babilonia» (Roma, según se entiende), el apóstol manda saludos de Marcos, «mi hijo». Papías, citando a un «anciano», dice que Marcos fue intérprete de Pedro y que escribió con exactitud, aunque no por orden, lo que recordaba de su predicación. Esa tradición, recogida por la Iglesia antigua, es el fundamento de que el segundo evangelio se atribuya a Marcos; las fuentes antiguas añaden que no oyó ni siguió personalmente al Señor, aunque no debe tomarse esto con rigidez. Algunos estudiosos piensan que el joven que huyó desnudo en Getsemaní (Mc 14,51) era el propio Marcos, una hipótesis y no un dato seguro. Hipólito lo llama «el de los dedos cortos», epíteto que se ha explicado de varias maneras.\n\nUna tradición extendida, atestiguada por Eusebio, Jerónimo y otros, dice que fundó la Iglesia de Alejandría y que Aniano fue su sucesor. La Enciclopedia advierte que la cronología es dudosa, pues Hechos lo sitúa en otros lugares en esa época, y que la fundación pudo ser algo posterior. Jerónimo fija su muerte en el octavo año de Nerón (62-63), pero parece un cálculo a partir de la sucesión de Aniano. Las «Actas de Marcos» narran su martirio en las calles de Alejandría, pero no hay testimonio de martirio anterior al siglo IV. Más tarde su cuerpo fue trasladado de Alejandría a Venecia, donde se desarrolló su culto.\n\nEn el arte, Marcos se representa con un león. Su fiesta se celebra el 25 de abril en el rito latino y en el griego. Su evangelio, el más breve y vivo, presenta a Jesús como Hijo de Dios que sufre y sirve. Marcos enseña que el fracaso no cierra el servicio al Evangelio.",
+  "virtues": [
+   "Constancia tras el fracaso",
+   "Fidelidad a Pedro",
+   "Servicio"
+  ],
+  "significance": "Autor del segundo evangelio, que la tradición vincula a la predicación de Pedro; modelo de quien se levanta tras un fracaso.",
+  "iconography": "León alado con libro (evangelio); también como obispo o escriba.",
+  "works": [
+   {
+    "title": "Evangelio según san Marcos"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Mark»",
+    "url": "https://www.newadvent.org/cathen/09672c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Cristianismo apostólico en Jerusalén, Antioquía, Roma y Alejandría, hacia mediados del siglo I.",
+  "note": "La fecha y el modo de su muerte son inciertos: Jerónimo da 62-63; el martirio en Alejandría solo aparece en fuentes posteriores al siglo IV."
+ },
+ {
+  "id": "pedro-de-betancur",
+  "name": "San Hermano Pedro de San José de Betancur",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-25",
+    "rank": "optional",
+    "calendar": "gt",
+    "title": "San Hermano Pedro de San José de Betancur",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "lay"
+  ],
+  "born": {
+   "date": "21 de marzo de 1626 (otras fuentes: 19 de marzo)",
+   "place": "Vilaflor (Tenerife)"
+  },
+  "died": {
+   "date": "25 de abril de 1667",
+   "place": "Santiago de los Caballeros (Antigua Guatemala)"
+  },
+  "century": 17,
+  "countries": [
+   "ES",
+   "GT"
+  ],
+  "order": "Orden de Nuestra Señora de Belén (betlemitas)",
+  "canonization": {
+   "date": "30 de julio de 2002",
+   "by": "Juan Pablo II",
+   "note": "Beatificado el 22 de junio de 1980."
+  },
+  "summary": "Terciario franciscano canario que llegó a Guatemala y, con una caridad concreta hacia enfermos, pobres y niños, dio origen a la Orden de Belén; primer santo de Guatemala y de Tenerife.",
+  "biography": "Pedro de Betancur nació el 21 de marzo de 1626 en Vilaflor, en Tenerife (Canarias), según la biografía de la Santa Sede; otras fuentes dan el 19 de marzo, quizá la fecha del nacimiento, y el 21 la del bautismo. Era hijo de pastores y agricultores y fue educado por padres profundamente cristianos. Trabajó como pastor y a los veintitrés años dejó la isla. Tras dos años de viaje llegó a Guatemala; según la homilía de Juan Pablo II en su canonización, había trabajado antes en Cuba y en Honduras, y Guatemala fue su «tierra prometida».\n\nAl desembarcar sufrió una grave enfermedad que lo acercó a los más pobres. Al recuperarse quiso estudiar para el sacerdocio, pero no pudo hacerlo. Profesó como terciario franciscano en el convento de San Francisco de la Antigua Guatemala. Vivió como contemplativo en la ermita del Calvario, de la que fue sacristán y custodio, entregado a la oración y meditando sobre todo en los misterios de Belén (la Encarnación) y la Cruz. Desde allí irradió su caridad.\n\nVisitó hospitales, cárceles y casas de pobres; atendió a emigrantes sin trabajo y a adolescentes descarriados, y fundó un primer hogar para niños vagabundos, blancos, mestizos y negros. Impulsó la instrucción religiosa y civil, y creó un oratorio, una escuela, una enfermería y un hospital para convalecientes, servicios poco imaginables en su época. Fundó también una posada para sacerdotes de paso y para estudiantes universitarios, a la que llamó «Belén» en recuerdo de la pobreza del primer alojamiento de Jesús. Atendió a los enfermos en el pequeño hospital de Nuestra Señora de Belén, que la homilía de Juan Pablo II llama cuna de la Orden betlemita.\n\nEscribió un reglamento que adoptaron otros terciarios y las mujeres que educaban a los niños; así se preparó la futura Orden de los Betlemitas y de las Betlemitas, aprobada después por la Santa Sede. Murió el 25 de abril de 1667, con cuarenta y un años, y en vida lo llamaban «Madre de Guatemala». Fue beatificado el 22 de junio de 1980 y canonizado por Juan Pablo II el 30 de julio de 2002, en Ciudad de Guatemala; el papa lo llamó «el hombre que fue caridad».\n\nLa homilía destaca su servicio misericordioso a pobres y abandonados, su humildad y vida austera, su amor tierno por los enfermos y su devoción a la Virgen. Su vida enseña una santidad hecha de oración y de atención concreta a las necesidades de los últimos, vivida desde la sencillez y desde una fe que nació en una isla y echó raíces en América.",
+  "virtues": [
+   "Humildad",
+   "Caridad con los enfermos",
+   "Devoción al Niño Jesús"
+  ],
+  "iconography": "Hermano terciario con hábito pardo y campanilla, con una cruz; a veces con un niño y la imagen del Nacimiento.",
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de san Pedro de San José de Betancur (canonización, 30-VII-2002)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020730_betancurt_sp.html"
+   },
+   {
+    "label": "Juan Pablo II, homilía en la canonización del hermano Pedro de San José de Betancurt (30-VII-2002)",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020730_canonization-guatemala.html"
+   }
+  ],
+  "context": "Guatemala colonial del siglo XVII: la capital Santiago de los Caballeros (Antigua), con pobreza urbana y escasas instituciones de beneficencia.",
+  "significance": "Primer santo de Guatemala y de Tenerife; origen de los betlemitas, una orden dedicada a los enfermos.",
+  "note": "Celebración del calendario de Guatemala (código 'gt', aún sin calendario particular en liturgy-calendars.ts); rango y fecha 25-IV no contrastados con la Conferencia Episcopal de Guatemala. No es celebración del Calendario Romano General."
+ },
+ {
+  "id": "maria-guadalupe-garcia-zavala",
+  "name": "Santa María Guadalupe García Zavala",
+  "fullName": "María Guadalupe García Zavala («Madre Lupita»)",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-27",
+    "rank": "optional",
+    "calendar": "mx",
+    "title": "Santa María Guadalupe García Zavala, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "virgin"
+  ],
+  "born": {
+   "date": "27 de abril de 1878",
+   "place": "Zapopan (Jalisco, México)"
+  },
+  "died": {
+   "date": "24 de junio de 1963",
+   "place": "Guadalajara (Jalisco, México)"
+  },
+  "century": 20,
+  "countries": [
+   "MX"
+  ],
+  "order": "Siervas de Santa Margarita María y de los Pobres",
+  "canonization": {
+   "date": "12 de mayo de 2013",
+   "by": "Francisco",
+   "note": "Beatificada el 25 de abril de 2004 por Juan Pablo II."
+  },
+  "summary": "Religiosa mexicana, cofundadora de las Siervas de Santa Margarita María y de los Pobres, que se entregó al cuidado de los enfermos y escondió sacerdotes durante la persecución religiosa; canonizada en 2013.",
+  "biography": "María Guadalupe García Zavala nació el 27 de abril de 1878 en Zapopan, Jalisco. Su padre, Fortino García, tenía una tienda de objetos religiosos frente a la basílica de Nuestra Señora de Zapopan, y su madre se llamaba Refugio Zavala. La familia gozaba de buena posición. Por la tienda de su padre visitaba a menudo la basílica y desde pequeña mostró amor a los pobres y a las obras de caridad. La biografía de la Santa Sede la describe como una joven de gran belleza, sencillez y amabilidad.\n\nEstaba prometida en matrimonio con Gustavo Arreola cuando, a los veintitrés años, sintió la llamada a consagrarse a la vida religiosa, sobre todo al cuidado de enfermos y pobres. Compartió su inquietud con su director espiritual, el padre Cipriano Iñiguez, que también quería fundar una congregación para atender a los enfermos del hospital. Juntos fundaron las Siervas de Santa Margarita María y de los Pobres; la tradición de la congregación data la fundación el 13 de octubre de 1901.\n\nAtendió a los primeros enfermos del hospital como enfermera, de rodillas en el suelo; el hospital tenía al principio muchas carencias, pero predominaban la ternura y la compasión, con atención especial al cuidado espiritual. Fue nombrada superiora general y ejerció el cargo toda su vida. Vivió con gran sobriedad y enseñó a las hermanas a amar la pobreza para entregarse más a los enfermos. En una grave crisis económica pidió permiso a su director para pedir limosna por las calles, y lo hizo durante varios años con otras hermanas.\n\nLa persecución religiosa en México, desde 1911 hasta cerca de 1936 y con su momento más cruento en 1926-1929, bajo Plutarco Elías Calles, puso a prueba a la congregación. Madre Lupita arriesgó su vida y la de sus hermanas al esconder en el hospital a varios sacerdotes y al arzobispo de Guadalajara. Atendió y dio de comer incluso a los soldados que perseguían a la Iglesia; los que estaban acuartelados cerca del hospital no molestaron a las hermanas y llegaron a defenderlas junto con los enfermos.\n\nDurante su vida se abrieron once fundaciones en México; hoy la congregación está presente en México, Perú, Islandia, Grecia e Italia. El 13 de octubre de 1961 se celebró su jubileo de diamante, sesenta años de vida religiosa. Después de dos años de penosa enfermedad, murió en Guadalajara el 24 de junio de 1963, a los ochenta y cinco años. Muchas personas acudieron al hospital para verla y asistieron al funeral al día siguiente, pues ya la consideraban santa.\n\nJuan Pablo II la beatificó el 25 de abril de 2004 y el papa Francisco la canonizó el 12 de mayo de 2013 en la plaza de San Pedro. Su vida muestra la santidad de la caridad concreta: servicio al enfermo, pobreza, oración y valor sereno en tiempos de persecución, sin odio hacia quienes la perseguían.",
+  "context": "México durante la Revolución y la Guerra Cristera: persecución religiosa y necesidad de hospitales y servicios a los pobres en Guadalajara.",
+  "virtues": [
+   "Caridad con los enfermos",
+   "Pobreza",
+   "Fortaleza"
+  ],
+  "significance": "Santa mexicana de la caridad hospitalaria y testigo de la fe en tiempos de persecución.",
+  "patronages": null,
+  "iconography": "Religiosa con hábito y una cruz, a veces con un enfermo o un cesto de limosna.",
+  "note": "La fecha de canonización y la fecha de fundación (13-X-1901) proceden de una fuente de cotejo (Wikipedia en inglés) y de la búsqueda, no de la biografía vaticana leída, que no las da. Rango y fecha de la celebración: liturgy-calendars.ts (27 abril, memoria libre), coherente con GCatholic; no se pudo leer el calendario oficial de la CEM.",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de la beata María Guadalupe García Zavala (beatificación, 25-IV-2004)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20040425_zavala_sp.html"
+   },
+   {
+    "label": "Wikipedia en inglés, «María Guadalupe García Zavala» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Guadalupe_Garc%C3%ADa_Zavala"
+   }
+  ]
+ },
+ {
+  "id": "luis-maria-grignion-de-montfort",
+  "name": "San Luis María Grignion de Montfort",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-28",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Luis María Grignion de Montfort, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "missionary"
+  ],
+  "born": {
+   "date": "31 de enero de 1673",
+   "place": "Montfort-sur-Meu (Bretaña)"
+  },
+  "died": {
+   "date": "28 de abril de 1716",
+   "place": "Saint-Laurent-sur-Sèvre"
+  },
+  "century": 17,
+  "countries": [
+   "FR"
+  ],
+  "order": "Compañía de María (montfortianos) e Hijas de la Sabiduría",
+  "canonization": {
+   "date": "20 de julio de 1947",
+   "by": "Pío XII",
+   "note": "Beatificado en 1888 por León XIII."
+  },
+  "summary": "Sacerdote bretón, misionero popular y fundador de la Compañía de María y de las Hijas de la Sabiduría; maestro de la «verdadera devoción a María», que inspiró el lema «Totus tuus» de Juan Pablo II.",
+  "biography": "Luis María Grignion nació en Montfort-sur-Meu, Bretaña, el 31 de enero de 1673. Desde niño se distinguió por la oración ante el Santísimo Sacramento. Estudió con los jesuitas de Rennes, donde visitaba la iglesia antes y después de las clases, y en vacaciones se unía a jóvenes que atendían a pobres y enfermos incurables en los hospitales. A los diecinueve años marchó a pie a París para estudiar teología y, en el camino, dio su dinero a los pobres, cambió de ropa con ellos y se obligó a vivir de limosna. Estudió en el seminario de Saint-Sulpice.\n\nFue ordenado sacerdote en 1700, a los veintisiete años, y durante un tiempo fue capellán de hospital. En 1705 comprendió que su vocación era la predicación y dedicó diecisiete años, según la Enciclopedia Católica, a misiones en pueblos y ciudades de Bretaña y la Vendée. Su predicación era sencilla, pero poderosa y emotiva, marcada por el amor a Dios, la oración constante, el cuidado de los pobres, la pobreza radical y la alegría en las humillaciones y persecuciones. En La Rochelle predicó a la guarnición, cuyos soldados lloraron y pidieron perdón. En Pontchâteau, cientos de campesinos pasaron quince meses construyendo un gran calvario que, recién terminado, el rey mandó demoler tras haber creído, por la acusación de sus adversarios jansenistas, que se trataba de una fortaleza. Montfort solo dijo: «¡Bendito sea Dios!».\n\nLos jansenistas procuraron repetidamente que lo expulsaran de las misiones. En La Rochelle, según la fuente, alguien envenenó su caldo, y su salud no se recuperó del todo; otra vez evitó una emboscada cambiando de calle.\n\nEn sus últimos años, su plan de una compañía de sacerdotes misioneros se concretó. En 1715 fundó, según la Enciclopedia Católica, dos congregaciones: las Hijas de la Sabiduría, dedicadas a hospitales y a la educación de niñas pobres, y la Compañía de María, de sacerdotes y hermanos misioneros. Al morir eran muy pequeñas: cuatro hermanas y dos sacerdotes con algunos hermanos. Hoy están extendidas por muchos países. Los votos de las primeras hermanas fueron aprobados el 22 de agosto de 1715 por el obispo de La Rochelle.\n\nSus escritos marianos, sobre todo el «Tratado de la verdadera devoción a la Santísima Virgen» y «El secreto de María», proponen la consagración total a Jesucristo por María, entendiendo a la Virgen como el camino más corto y seguro hacia Cristo. Juan Pablo II tomó su lema, «Totus tuus», como propio. Murió en Saint-Laurent-sur-Sèvre el 28 de abril de 1716, a los cuarenta y tres años. León XIII lo beatificó en 1888 y Pío XII lo canonizó el 20 de julio de 1947.\n\nSu ejemplo muestra una espiritualidad centrada en Cristo y vivida en la pobreza y la misión popular, con una devoción mariana que no sustituye a la de Cristo sino que conduce a Él.",
+  "virtues": [
+   "Celo misionero",
+   "Pobreza",
+   "Devoción mariana"
+  ],
+  "iconography": "Sacerdote misionero con rosario y cruz, imagen de la Virgen.",
+  "works": [
+   {
+    "title": "Tratado de la verdadera devoción a la Santísima Virgen"
+   },
+   {
+    "title": "El secreto del Santo Rosario"
+   }
+  ],
+  "prayers": [
+   "consagracion-a-maria"
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Louis-Marie Grignion de Montfort, Saint»",
+    "url": "https://www.newadvent.org/cathen/09384a.htm"
+   },
+   {
+    "label": "Wikipedia en inglés, «Louis de Montfort» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Louis_de_Montfort"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Francia de Luis XIV y la Regencia: rigorismo jansenista, pobreza rural y necesidad de misiones populares en el oeste.",
+  "significance": "Maestro de la consagración mariana, que marcó a muchos fieles y a Juan Pablo II."
+ },
+ {
+  "id": "pedro-chanel",
+  "name": "San Pedro Chanel",
+  "fullName": "Pedro Luis María Chanel",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-28",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pedro Chanel, presbítero y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "priest",
+   "martyr",
+   "missionary"
+  ],
+  "born": {
+   "date": "12 de julio de 1803",
+   "place": "Montrevel-en-Bresse (Francia)"
+  },
+  "died": {
+   "date": "28 de abril de 1841",
+   "place": "Futuna (Oceanía)"
+  },
+  "century": 19,
+  "countries": [
+   "FR",
+   "WF",
+   "FJ"
+  ],
+  "order": "Sociedad de María (maristas)",
+  "canonization": {
+   "date": "12 de junio de 1954",
+   "by": "Pío XII",
+   "note": "Beatificado el 17 de noviembre de 1889 por León XIII."
+  },
+  "patronages": [
+   "Oceanía (protomártir y patrono de Oceanía)"
+  ],
+  "summary": "Sacerdote francés de la Sociedad de María que murió asesinado en la isla de Futuna en 1841; protomártir y patrono de Oceanía.",
+  "biography": "Pedro Chanel nació el 12 de julio de 1803 en Montrevel-en-Bresse, en la diócesis de Belley, Francia. De niño fue pastor entre los siete y los once años; un párroco advirtió su obediencia e inteligencia y animó a sus padres a enviarlo a una escuela nueva. Leyó cartas de misioneros franceses en América y despertó en él el deseo de dar a conocer a Cristo hasta los confines de la tierra. Entró en el seminario menor de Meximieux en 1819 y en el mayor de Brou en 1824.\n\nFue ordenado sacerdote el 15 de julio de 1827, a los veinticuatro años. Su obispo le negó la petición de ser misionero y trabajó como vicario y luego como párroco, donde revitalizó la parroquia. En 1831, con consentimiento de su obispo, se unió a un grupo de sacerdotes diocesanos que proyectaban una congregación misionera dedicada a María, la futura Sociedad de María (maristas), donde destacaba Jean-Claude Colin. La rama sacerdotal obtuvo la aprobación pontificia en abril de 1836 y Pedro profesó como marista el 24 de septiembre de 1836.\n\nFue enviado a las islas del Pacífico con otros maristas. Llegó a Futuna el 8 de noviembre de 1837. No tenía formación específica ni conocía la lengua local, y al principio pocos aceptaron el bautismo. Tras unos tres años y medio de aprender la lengua y las costumbres, el hijo del jefe de la isla pidió el bautismo. El rey Niuliki, que veía en el misionero una amenaza a su autoridad, ordenó su muerte, y Musumusu, su principal guerrero, lo mató a golpes de maza y hachazos el 28 de abril de 1841. Pedro fue así el primer mártir (protomártir) de Oceanía.\n\nUn testimonio de su fecundidad fue que en los dos años siguientes toda la isla de Futuna se hizo católica. El mismo Musumusu se convirtió más tarde y pidió que lo enterrasen fuera de la iglesia, sobre la tumba de Pedro, para que los visitantes pisaran su sepultura antes de llegar a las reliquias. El cuerpo fue exhumado en enero de 1842, pasó por Nueva Zelanda, Sídney y Londres y llegó a la casa madre de Lyon el 1 de junio de 1850; las reliquias volvieron a Futuna en 1977 y el cráneo en 1985.\n\nLeón XIII lo beatificó el 17 de noviembre de 1889 y Pío XII lo canonizó el 12 de junio de 1954. Es patrono de Oceanía y su fiesta del 28 de abril es día festivo en Wallis y Futuna.\n\nLa espiritualidad de Pedro Chanel se alimentó de la Eucaristía y de una paciencia misionera que acepta la lentitud de las conversiones. Su vida enseña que la misión es sobre todo presencia, aprendizaje de la cultura del otro y testimonio, hasta el don de la vida, y que la sangre de los mártires puede ser semilla de nueva fe.",
+  "context": "Expansión misionera francesa en el Pacífico durante el siglo XIX y primera evangelización de Wallis y Futuna.",
+  "virtues": [
+   "Celo misionero",
+   "Perseverancia",
+   "Piedad eucarística"
+  ],
+  "significance": "Primer mártir de Oceanía; origen de la Iglesia en Futuna.",
+  "iconography": "Sacerdote marista con palma de mártir y maza o hacha, a veces con un mapa del Pacífico.",
+  "unverified": true,
+  "note": "Datos cotejados con una página diocesana y una fuente de cotejo; falta contrastar con una fuente oficial (vatican.va o Martirologio) y el título litúrgico exacto.",
+  "sources": [
+   {
+    "label": "Diócesis de Westminster, «Saint of the month: St Peter Chanel»",
+    "url": "https://rcdow.org.uk/news/saint-of-the-month-st-peter-chanel"
+   },
+   {
+    "label": "Wikipedia en inglés, «Peter Chanel» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Peter_Chanel"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "catalina-de-siena",
+  "name": "Santa Catalina de Siena",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-29",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa Catalina de Siena, virgen y doctora de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "doctor",
+   "mystic",
+   "lay"
+  ],
+  "born": {
+   "date": "25 de marzo de 1347",
+   "place": "Siena"
+  },
+  "died": {
+   "date": "29 de abril de 1380",
+   "place": "Roma"
+  },
+  "century": 14,
+  "countries": [
+   "IT",
+   "FR"
+  ],
+  "order": "Terciarias dominicas",
+  "canonization": {
+   "date": "1461",
+   "by": "Pío II",
+   "note": "Doctora de la Iglesia: Pablo VI, 1970."
+  },
+  "summary": "Terciaria dominica sienesa, mística y mediadora en la Iglesia de su tiempo, cuya pluma y cuyas cartas aconsejaron a papas y príncipes; doctora de la Iglesia (1970), patrona de Italia y copatrona de Europa.",
+  "biography": "Catalina nació en Siena el 25 de marzo de 1347, en una familia numerosa: su padre, Giacomo di Benincasa, era tintorero, y su madre, Lapa, hija de un poeta local. Desde niña tuvo visiones y practicó penitencias severas; a los siete años, según la Enciclopedia Católica, consagró su virginidad a Cristo. A los dieciséis años, tras una visión de santo Domingo, ingresó en la Tercera Orden dominicana, las Mantelatas, y vivió como reclusa en una pequeña habitación de la casa paterna. Hacia 1366 vivió lo que se llama sus «desposorios espirituales», una unión mística con Cristo. Su enseñanza central es la necesidad de permanecer en la «celda del conocimiento de sí».\n\nDespués volvió a su familia y se entregó a cuidar enfermos, servir a los pobres y buscar la conversión de pecadores. En 1370, en un prolongado éxtasis, vio el infierno, el purgatorio y el cielo, y creyó recibir el mandato de entrar en la vida pública. A partir de entonces escribió cartas a personas de toda condición, se carteó con príncipes y repúblicas italianas y aconsejó a eclesiásticos. En 1375, en Pisa, recibió, según la tradición, los estigmas, que a petición suya no fueron visibles mientras vivió.\n\nInsistió al papa Gregorio XI para que volviera de Aviñón a Roma. En 1376 fue a Aviñón como embajadora de Florencia, y Gregorio regresó a Roma el 17 de enero de 1377. Durante el Cisma de Occidente apoyó a Urbano VI, que la llamó a Roma en noviembre de 1378. Pasó allí sus últimos años sirviendo a los necesitados y escribiendo en defensa del papa. Su último acto político fue ayudar a reconciliar a Urbano VI con la república romana. Tras una larga enfermedad de unos tres meses murió en Roma el 29 de abril de 1380; según la carta apostólica de Juan Pablo II de 1999, en su lecho de muerte dijo: «Tened esto firme, mis amados: que he dado la vida por la santa Iglesia».\n\nSus obras son el «Diálogo» (o «Tratado de la divina providencia»), una colección de casi cuatrocientas cartas y una serie de oraciones. El «Diálogo» ha sido descrito como el equivalente místico en prosa de la «Divina Comedia» de Dante. Pío II la canonizó en 1461.\n\nPablo VI la proclamó doctora de la Iglesia en 1970; Pío XII la declaró patrona de Italia (1939); y Juan Pablo II, por motu proprio del 1 de octubre de 1999, copatrona de Europa junto con santa Brígida de Suecia y santa Teresa Benedicta de la Cruz. Fue también copatrona de Roma, por Pío IX.\n\nSu vida y sus escritos unen contemplación y acción política en servicio de la unidad de la Iglesia: una laica, sin estudios formales, que habló con libertad a los poderosos. Su caridad a los enfermos, su amor a la Iglesia aun en tiempos de escándalo y su fe en la misericordia de Dios la hacen maestra de vida espiritual.",
+  "context": "Siglo XIV: papado de Aviñón, peste negra, rivalidad entre ciudades italianas y Cisma de Occidente.",
+  "virtues": [
+   "Amor a la Iglesia",
+   "Caridad",
+   "Valentía ante los poderosos"
+  ],
+  "significance": "Doctora de la Iglesia y mediadora de la paz y de la unidad en un siglo de crisis; modelo de laicado comprometido.",
+  "patronages": [
+   "Patrona de Italia (Pío XII, 1939)",
+   "Copatrona de Roma (Pío IX)",
+   "Copatrona de Europa (Juan Pablo II, motu proprio de 1-X-1999)"
+  ],
+  "iconography": "Dominica terciaria con hábito blanco y manto negro, lirio, corona de espinas, crucifijo y libro.",
+  "works": [
+   {
+    "title": "Diálogo de la Divina Providencia"
+   },
+   {
+    "title": "Cartas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «St. Catherine of Siena»",
+    "url": "https://www.newadvent.org/cathen/03447a.htm"
+   },
+   {
+    "label": "Benedicto XVI, audiencia general (24-XI-2010): santa Catalina de Siena",
+    "url": "https://www.vatican.va/content/benedict-xvi/en/audiences/2010/documents/hf_ben-xvi_aud_20101124.html"
+   },
+   {
+    "label": "Juan Pablo II, motu proprio «Spes aedificandi» (1-X-1999): copatronas de Europa",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/motu_proprio/documents/hf_jp-ii_motu-proprio_01101999_co-patronesses-europe.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "pio-v",
+  "name": "San Pío V",
+  "fullName": "Antonio Michele Ghislieri",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "04-30",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pío V, papa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "pope",
+   "religious"
+  ],
+  "born": {
+   "date": "17 de enero de 1504",
+   "place": "Bosco (Ducado de Milán; hoy Bosco Marengo, Piamonte)"
+  },
+  "died": {
+   "date": "1 de mayo de 1572",
+   "place": "Roma"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Orden de Predicadores",
+  "canonization": {
+   "date": "22 de mayo de 1712",
+   "by": "Clemente XI",
+   "note": "Beatificado por Clemente X en 1672."
+  },
+  "summary": "Papa dominico (1566-1572) que aplicó con rigor la reforma del concilio de Trento y promovió la Liga Santa que ganó Lepanto (1571); canonizado en 1712.",
+  "biography": "Miguel (Michele) Ghislieri nació el 17 de enero de 1504 en Bosco, en el ducado de Milán, de una familia pobre pero noble. Los dominicos de Voghera lo educaron en una piedad austera y entró en la orden; fue ordenado sacerdote en 1528 y durante dieciséis años enseñó teología y filosofía, fue maestro de novicios y varias veces prior. Era conocido por sus ayunos, sus largas noches de oración y sus viajes a pie en silencio.\n\nEn 1556 Pablo IV lo nombró obispo de Sutri. Su celo contra la herejía lo llevó a ser inquisidor en Milán y Lombardía; en 1557 fue cardenal e inquisidor general. En 1559 pasó a la diócesis de Mondovì, donde procuró restaurar la fe y la disciplina. Fue elegido papa el 7 de enero de 1566, a pesar de sus protestas, y tomó el nombre de Pío V.\n\nComo papa, dio limosna a los pobres de manera ordenada, pasó largas horas en oración ante el Santísimo, visitó hospitales y lavó los pies a los pobres. Vivió austeramente, suprimió el lujo de la corte pontificia y trabajó con su amigo san Carlos Borromeo en la reforma del clero. Exigió la residencia de los obispos, propuso a los cardenales una vida más sencilla, atajó escándalos públicos, prohibió las corridas de toros e hizo cumplir la disciplina del concilio de Trento. Reformó el Breviario (1568) y el Misal (1570), que se hizo obligatorio en la Iglesia latina; el Catecismo Romano apareció bajo su pontificado. En 1567 declaró doctor de la Iglesia a santo Tomás de Aquino. Apoyó las misiones en el Nuevo Mundo.\n\nSu pontificado estuvo dominado por la lucha contra el protestantismo y contra los turcos. Apoyó a los católicos de Alemania, de Francia y de los Países Bajos, y en Inglaterra excomulgó a Isabel I (27 de abril de 1570). Dio nuevo vigor a la Inquisición, política que algunos historiadores critican, y condenó los escritos de Miguel Bayo. Cuando los otomanos atacaron Chipre (1570), promovió la alianza entre Venecia, España y la Santa Sede y bendijo a don Juan de Austria. El 7 de octubre de 1571 se libró la batalla de Lepanto; la tradición cuenta que ese mismo día el papa interrumpió una reunión con los cardenales para dar gracias por la victoria. En su memoria instituyó la fiesta del Rosario y añadió «Auxilio de los cristianos» a las letanías lauretanas.\n\nMurió el 1 de mayo de 1572, de cálculos renales, cuando preparaba una gran alianza contra el islam. Clemente X lo beatificó el 1 de mayo de 1672 y Clemente XI lo canonizó el 22 de mayo de 1712. Su fiesta se fijó en 1713 el 5 de mayo y desde 1969 se celebra el 30 de abril, la víspera del aniversario de su muerte.\n\nPío V es un símbolo de la reforma católica del siglo XVI: rigor personal, liturgia ordenada y firmeza. Su figura se valora hoy con matices: celo pastoral y austeridad por un lado, severidad inquisitorial por otro.",
+  "virtues": [
+   "Austeridad",
+   "Celo reformador",
+   "Devoción al Rosario"
+  ],
+  "iconography": "Papa dominico con hábito blanco, tiara, rosario y crucifijo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Pope St. Pius V»",
+    "url": "https://www.newadvent.org/cathen/12130a.htm"
+   },
+   {
+    "label": "Wikipedia en inglés, «Pope Pius V» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Pope_Pius_V"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Europa de la Reforma y la Contrarreforma, tras el concilio de Trento (1545-1563); amenaza otomana en el Mediterráneo.",
+  "significance": "Aplicó los decretos de Trento: liturgia romana unificada, reforma del clero y Liga Santa.",
+  "note": "El Catecismo Romano (1566) se cita por conocimiento general; no consta en las páginas leídas con fecha. La Enciclopedia Católica lo hace nacer en Lombardía; hoy Bosco Marengo está en el Piamonte."
+ }
+]

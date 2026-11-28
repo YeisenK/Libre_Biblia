@@ -156,6 +156,15 @@ export function RoutineEditor() {
                   ))}
                 </div>
                 {reminder.days.length === 0 && <p className="mt-2 text-[13px] text-muted">Elige al menos un día para recibir el recordatorio.</p>}
+                <label htmlFor="reminder-msg" className="mb-1 mt-4 block text-[15px]">Mensaje del aviso</label>
+                <input
+                  id="reminder-msg"
+                  className="input"
+                  maxLength={120}
+                  defaultValue={reminder.message ?? ''}
+                  onBlur={(e) => setReminder({ message: e.target.value.trim() || undefined })}
+                  placeholder="Opcional. Si lo dejas vacío, Lux te anima con un mensaje distinto cada día."
+                />
               </div>
             </div>
           )}

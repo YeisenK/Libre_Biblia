@@ -138,5 +138,54 @@
     "description": "Las principales oraciones en su forma latina tradicional.",
     "icon": "book",
     "order": 20
+  },
+  {
+    "id": "trabajo",
+    "title": "Trabajo y profesión",
+    "description": "Empezar, ofrecer y terminar la jornada; buscar empleo; dirigir.",
+    "icon": "hands",
+    "order": 21
+  },
+  {
+    "id": "escuela",
+    "title": "Escuela y universidad",
+    "description": "Estudio, exámenes y maestros.",
+    "icon": "book",
+    "order": 22
+  },
+  {
+    "id": "deporte",
+    "title": "Deporte y ejercicio",
+    "description": "El cuerpo como don: esfuerzo, juego y descanso.",
+    "icon": "shield",
+    "order": 23
+  },
+  {
+    "id": "relaciones",
+    "title": "Familia y relaciones",
+    "description": "Padres, hijos, hermanos, abuelos, matrimonio, amigos, enfermos y difuntos.",
+    "icon": "family",
+    "order": 24
+  },
+  {
+    "id": "vida-personal",
+    "title": "Vida personal",
+    "description": "Ansiedad, tentación, tristeza, paciencia, decisiones, gratitud, perdón, humildad y discernimiento.",
+    "icon": "heart",
+    "order": 25
+  },
+  {
+    "id": "circunstancias",
+    "title": "Circunstancias",
+    "description": "Viaje, nuevo proyecto, conversación importante, buenas noticias, incertidumbre, dormir y despertar.",
+    "icon": "sun",
+    "order": 26
+  },
+  {
+    "id": "letanias",
+    "title": "Letanías",
+    "description": "Oraciones de invocación y respuesta: Loreto, Sagrado Corazón, san José, los santos y otras.",
+    "icon": "crown",
+    "order": 27
   }
 ]

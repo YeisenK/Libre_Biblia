@@ -1,0 +1,127 @@
+{
+  "id": "ansiedad-angustia-tristeza",
+  "title": "Novena en la ansiedad, la angustia o la tristeza",
+  "group": "health",
+  "description": "Nueve días de oración serena para quien atraviesa ansiedad, angustia o tristeza, junto con la ayuda profesional necesaria.",
+  "image": {
+    "icon": "dove",
+    "tint": "#6a8a9a"
+  },
+  "introduction": "Los salmos recogen el grito del que se angustia y la respuesta de Dios que consuela. Jesús mismo sintió «tristeza y angustia» en Getsemaní (Mt 26,37-38). La fe no es una armadura contra el sufrimiento psíquico, y las dificultades emocionales no son falta de fe ni pecado.",
+  "purpose": "Ofrecer calma y compañía espiritual. **Aviso importante:** esta novena es una ayuda de oración y no sustituye el tratamiento médico ni psicológico. Si la ansiedad o la tristeza son intensas, duran semanas o interfieren con tu vida, consulta a un médico o a un profesional de la salud mental. Si piensas en hacerte daño o sientes que no puedes más, llama ahora a los servicios de emergencia de tu país o a la línea de ayuda en crisis de tu región, o acude a urgencias; busca también a una persona de confianza que te acompañe.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, estoy inquieto y cansado. Me siento en tu presencia y respiro despacio. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Venir como estoy",
+      "reading": "Mt 11,28",
+      "reflection": "«Venid a mí los que estáis cansados y agobiados, y yo os aliviaré.» No hace falta que esté ordenado. Respiro lento y digo: «Jesús, estoy aquí».",
+      "prayer": "Jesús, me acerco tal como soy."
+    },
+    {
+      "day": 2,
+      "title": "Getsemaní",
+      "reading": "Mt 26,37-39",
+      "reflection": "Jesús siente tristeza y angustia y pide compañía. Sentir angustia no es falta de fe; incluso el Hijo de Dios la vivió.",
+      "prayer": "Señor, tú sabes lo que es esto. Quédate conmigo."
+    },
+    {
+      "day": 3,
+      "title": "Echar la preocupación",
+      "reading": "1 P 5,7",
+      "reflection": "Descargad en él vuestra ansiedad, que él se preocupa de vosotros. Hoy anoto mis preocupaciones y las ofrezco una por una.",
+      "prayer": "Padre, esto no puedo llevarlo solo. Lo dejo contigo."
+    },
+    {
+      "day": 4,
+      "title": "Un día a la vez",
+      "reading": "Mt 6,34",
+      "reflection": "Cada día tiene bastante con su propio afán. Reduzco mis planes a lo que debo hacer hoy.",
+      "prayer": "Jesús, que me baste tu gracia de hoy."
+    },
+    {
+      "day": 5,
+      "title": "Paz que supera todo",
+      "reading": "Flp 4,6-7",
+      "reflection": "No os inquietéis por nada; presentad vuestras peticiones con acción de gracias, y la paz de Dios custodiará vuestros corazones. La paz es don.",
+      "prayer": "Señor, dame tu paz, aunque no lo entienda."
+    },
+    {
+      "day": 6,
+      "title": "No estás solo",
+      "reading": "Sal 34,19",
+      "reflection": "El Señor está cerca de los atribulados de corazón. Hoy contacto con alguien de confianza para decirle cómo estoy.",
+      "prayer": "Dios mío, rompe mi aislamiento."
+    },
+    {
+      "day": 7,
+      "title": "Cuidar el cuerpo",
+      "reading": "1 Re 19,5-8",
+      "reflection": "El ángel dijo a Elías: «Levántate y come». Dormir, comer, moverme y descansar también son parte de la oración y del cuidado.",
+      "prayer": "Señor, ayúdame a cuidar de mí con paciencia."
+    },
+    {
+      "day": 8,
+      "title": "Pedir ayuda profesional",
+      "reading": "Si 38,1.9-14",
+      "reflection": "Honra al médico, pues también a él lo creó el Señor. Acudir a un médico o un psicólogo es un acto de responsabilidad y de fe.",
+      "prayer": "Señor, dame humildad y valor para buscar ayuda."
+    },
+    {
+      "day": 9,
+      "title": "La luz vendrá",
+      "reading": "Sal 30,6",
+      "reflection": "El llanto dura una noche, pero a la mañana vendrá la alegría. Los cambios llevan tiempo; no me exijo sentirme bien ya.",
+      "prayer": "Gracias, Jesús, por no soltarme de la mano. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Jesús, príncipe de la paz, guarda mi corazón y mis pensamientos. Concédeme descanso y deja que otros me acompañen. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "tags": [
+    "ansiedad angustia tristeza",
+    "novena",
+    "composición de Lux"
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "desanimo-esperanza",
+  "title": "Novena contra el desánimo",
+  "group": "virtues",
+  "description": "Nueve días para levantar el ánimo cuando todo parece cuesta arriba, apoyados en la esperanza cristiana.",
+  "image": {
+    "icon": "star",
+    "tint": "#6a7f9a"
+  },
+  "introduction": "La Biblia no oculta el cansancio de los justos: Elías pide morir bajo la retama y un ángel le da pan y agua (1 Re 19). La esperanza cristiana no niega la dificultad: confía en que Dios acompaña. El Catecismo la describe como la virtud por la que deseamos y esperamos de Dios la vida eterna, apoyándonos en su ayuda (CIC 1817).",
+  "purpose": "Recuperar aliento y perspectiva. Si el desánimo es profundo, dura semanas o te impide vivir, no es falta de fe: habla con un médico o un profesional de la salud mental y con alguien de confianza; ambos caminos se complementan.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, estoy cansado y me cuesta ver la luz. Me acerco a ti tal como estoy. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Decir cómo estoy",
+      "reading": "Sal 42,6",
+      "reflection": "El salmista se habla a sí mismo: «¿Por qué te acongojas, alma mía?». Nombrar lo que siento es ya un primer paso. Dios no se escandaliza.",
+      "prayer": "Señor, esto es lo que siento. No lo escondo; ponlo en tus manos."
+    },
+    {
+      "day": 2,
+      "title": "Pan y agua para el camino",
+      "reading": "1 Re 19,3-8",
+      "reflection": "Elías, agotado, es alimentado antes de seguir. Descansar, comer y dormir también es camino de fe.",
+      "prayer": "Dios mío, enséñame a cuidarme sin culpa y a aceptar la ayuda que me das."
+    },
+    {
+      "day": 3,
+      "title": "No estás solo",
+      "reading": "Is 41,10",
+      "reflection": "«No temas, que yo estoy contigo.» La compañía de Dios no siempre quita el peso, pero lo comparte.",
+      "prayer": "Señor, que sienta que caminas a mi lado."
+    },
+    {
+      "day": 4,
+      "title": "Echar la carga",
+      "reading": "Sal 55,23",
+      "reflection": "Descarga en el Señor tu peso. Hoy escribo lo que me agobia y lo entrego en oración.",
+      "prayer": "Padre, tómalo tú; yo no puedo con todo."
+    },
+    {
+      "day": 5,
+      "title": "Un paso cada vez",
+      "reading": "Mt 6,34",
+      "reflection": "Jesús invita a no adelantarse al mañana. Hoy tiene su propio afán. Elijo una sola tarea posible.",
+      "prayer": "Jesús, dame fuerza para el día de hoy; el resto lo dejo en ti."
+    },
+    {
+      "day": 6,
+      "title": "Los amigos de Job",
+      "reading": "Jb 2,11-13",
+      "reflection": "Los amigos acompañan primero en silencio. Pido el valor de contar a alguien cómo estoy y de aceptar su compañía.",
+      "prayer": "Señor, ayúdame a abrirme a quien me quiere."
+    },
+    {
+      "day": 7,
+      "title": "Recordar lo recibido",
+      "reading": "Sal 77,12-13",
+      "reflection": "Hacer memoria de las obras de Dios devuelve el ánimo. Anoto tres cosas buenas de mi historia.",
+      "prayer": "Dios fiel, gracias por lo vivido; sostén mi memoria agradecida."
+    },
+    {
+      "day": 8,
+      "title": "La noche tiene fin",
+      "reading": "Sal 30,6",
+      "reflection": "«Por la tarde, el llanto; por la mañana, el júbilo.» Esto también pasará. No tengo que sentirlo para que sea verdad.",
+      "prayer": "Señor, espero la aurora aunque aún no la vea."
+    },
+    {
+      "day": 9,
+      "title": "Gozo y paz en la esperanza",
+      "reading": "Rm 15,13",
+      "reflection": "Que el Dios de la esperanza os llene de gozo y de paz. La esperanza es don que se pide y se recibe.",
+      "prayer": "Espíritu Santo, hazme rebosar de esperanza. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios de la esperanza, llena mi corazón de gozo y de paz en la confianza. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "tags": [
+    "desanimo esperanza",
+    "novena",
+    "composición de Lux"
+  ]
+}

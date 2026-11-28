@@ -1,0 +1,93 @@
+{
+  "id": "triduo-san-jose",
+  "title": "Triduo a san José",
+  "group": "saints",
+  "description": "Tres días para preparar la solemnidad de san José: su justicia, su silencio y su custodia.",
+  "image": {
+    "icon": "family",
+    "tint": "#8a6a3b"
+  },
+  "introduction": "San José es «el hombre justo» (Mt 1,19), esposo de María y custodio de Jesús. Pío IX lo declaró patrono de la Iglesia universal en 1870, y Francisco le dedicó la carta *Patris corde* (2020). Un triduo es una preparación breve de tres días a su fiesta (19 de marzo).",
+  "purpose": "Prepararse a la solemnidad de san José con la contemplación de su justicia, su obediencia y su paternidad. Piedad popular libre.\n\n**Criterios para rezarla.** Un triduo es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "San José, esposo de María y custodio de Jesús, ruega por nosotros. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El hombre justo",
+      "reading": "Mt 1,18-21",
+      "reflection": "José, justo, no quiere exponer a María y piensa dejarla en secreto; Dios le habla en sueños. Contemplo su justicia llena de misericordia.",
+      "prayer": "San José, enséñame a ser justo con ternura."
+    },
+    {
+      "day": 2,
+      "title": "El que obedece en silencio",
+      "reading": "Mt 2,13-15",
+      "reflection": "José se levanta de noche y parte a Egipto. Obedece con prontitud sin pronunciar palabra alguna en los Evangelios. Su silencio es escucha.",
+      "prayer": "San José, enséñame a escuchar y a obedecer a Dios."
+    },
+    {
+      "day": 3,
+      "title": "El custodio",
+      "reading": "Lc 2,41-51",
+      "reflection": "José y María buscan al niño perdido y lo hallan en el templo. Custodiar es cuidar con amor lo que Dios me confía: mi familia, mi trabajo, mi fe.",
+      "prayer": "San José, custodio de Jesús, custódiame a mí. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San José, patrono de la Iglesia, cuida nuestras familias y enséñanos a custodiar lo que Dios nos confía. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: triduo redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-jose"
+  ],
+  "tags": [
+    "triduo san jose",
+    "triduo",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 3,
+    "day": 19,
+    "label": "Solemnidad de san José, esposo de la Virgen María"
+  }
+}

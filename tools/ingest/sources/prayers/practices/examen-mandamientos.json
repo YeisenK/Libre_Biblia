@@ -1,0 +1,328 @@
+{
+ "id": "examen-mandamientos",
+ "kind": "examen",
+ "title": "Según los diez mandamientos",
+ "description": "El examen clásico, mandamiento por mandamiento. Completo, para prepararte con calma.",
+ "group": "Según la Palabra",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 25,
+ "ccc": [
+  "2052-2557",
+  "1854-1864"
+ ],
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "text",
+   "title": "Antes de empezar",
+   "text": "Ponte en presencia de Dios, que no te examina para condenarte sino para sanarte. Lee las preguntas despacio y quédate solo con las que te hablen. Marcar una pregunta no significa que sea pecado grave: es una ayuda para recordar. Si dudas de la gravedad de algo, díselo con sencillez al sacerdote: él te ayudará.\n\n**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "primero",
+   "kind": "questions",
+   "title": "1.º Amarás a Dios sobre todas las cosas",
+   "questions": [
+    {
+     "text": "¿Ocupa Dios el primer lugar en mi vida, o he puesto por encima de Él el dinero, el trabajo, el éxito, una persona o una pantalla?",
+     "ccc": "2113-2114"
+    },
+    {
+     "text": "¿He dejado de rezar por pereza o por costumbre? ¿Rezo, al menos, cada día un poco?",
+     "ccc": "2098"
+    },
+    {
+     "text": "¿He dudado voluntariamente de la fe, la he escondido por vergüenza o he descuidado formarme en ella?",
+     "ccc": "2088-2089"
+    },
+    {
+     "text": "¿He recurrido a horóscopos, adivinos, espiritismo u otras prácticas ocultas, o he vivido la religión como superstición?",
+     "ccc": "2110-2117"
+    },
+    {
+     "text": "¿He desconfiado de la misericordia de Dios (desesperación) o he abusado de ella (presunción)?",
+     "ccc": "2091-2092"
+    },
+    {
+     "text": "¿He tratado con irreverencia las cosas sagradas, o he comulgado teniendo conciencia de pecado grave sin confesarme?",
+     "ccc": "2118-2120; 1385"
+    }
+   ],
+   "ccc": "2083-2141"
+  },
+  {
+   "id": "segundo",
+   "kind": "questions",
+   "title": "2.º No tomarás el nombre de Dios en vano",
+   "questions": [
+    {
+     "text": "¿He pronunciado el nombre de Dios, de la Virgen o de los santos con desprecio, o he blasfemado?",
+     "ccc": "2148-2149"
+    },
+    {
+     "text": "¿He jurado en falso o por cosas sin importancia? ¿He faltado a una promesa hecha a Dios?",
+     "ccc": "2150-2155"
+    },
+    {
+     "text": "¿Hablo de lo sagrado con ligereza o burla?",
+     "ccc": "2146-2149"
+    }
+   ],
+   "ccc": "2142-2167"
+  },
+  {
+   "id": "tercero",
+   "kind": "questions",
+   "title": "3.º Santificarás las fiestas",
+   "questions": [
+    {
+     "text": "¿He faltado a Misa en domingo o fiesta de precepto sin causa justa (enfermedad, cuidado de niños pequeños, imposibilidad real)?",
+     "ccc": "2180-2183"
+    },
+    {
+     "text": "¿He participado distraído a propósito, llegando tarde sin necesidad o saliendo antes de tiempo?",
+     "ccc": "2181"
+    },
+    {
+     "text": "¿He trabajado o he hecho trabajar a otros sin necesidad en domingo, impidiendo el descanso y la vida de familia?",
+     "ccc": "2184-2188"
+    },
+    {
+     "text": "¿He vivido el domingo como día del Señor, de la familia y de la caridad?",
+     "ccc": "2184-2186"
+    },
+    {
+     "text": "¿Me he confesado al menos una vez al año y he comulgado por Pascua, como pide la Iglesia (disciplina)?",
+     "ccc": "2042-2043"
+    }
+   ],
+   "ccc": "2168-2195"
+  },
+  {
+   "id": "cuarto",
+   "kind": "questions",
+   "title": "4.º Honrarás a tu padre y a tu madre",
+   "questions": [
+    {
+     "text": "Como hijo: ¿he honrado, obedecido y ayudado a mis padres, también cuando son ancianos o están enfermos?",
+     "ccc": "2214-2220"
+    },
+    {
+     "text": "Como padre o madre: ¿he educado en la fe, dado buen ejemplo y dedicado tiempo a mis hijos, sin exasperarlos?",
+     "ccc": "2221-2231"
+    },
+    {
+     "text": "Como esposo: ¿he cuidado la fidelidad, el diálogo y el perdón en mi matrimonio?",
+     "ccc": "2201-2206"
+    },
+    {
+     "text": "¿He cumplido mis deberes con la autoridad legítima y con el bien común (leyes justas, impuestos, servicio a la comunidad)?",
+     "ccc": "2238-2243"
+    },
+    {
+     "text": "¿He respetado a mis superiores y a quienes dependen de mí?",
+     "ccc": "2234-2237"
+    }
+   ],
+   "ccc": "2196-2257"
+  },
+  {
+   "id": "quinto",
+   "kind": "questions",
+   "title": "5.º No matarás",
+   "questions": [
+    {
+     "text": "¿Me he dejado llevar por el odio, la ira, el rencor o el deseo de venganza? ¿Me cuesta perdonar?",
+     "ccc": "2302-2303; 2262"
+    },
+    {
+     "text": "¿He agredido, humillado o maltratado a alguien de palabra o de obra?",
+     "ccc": "2259-2262; 2302-2306"
+    },
+    {
+     "text": "¿He puesto en riesgo la vida (mía o ajena) por imprudencia: conducir mal, alcohol, drogas, deportes de riesgo gratuito?",
+     "ccc": "2288-2290"
+    },
+    {
+     "text": "¿He cooperado o aconsejado un aborto o una eutanasia, o me he desentendido de la vida naciente o de los enfermos y ancianos?",
+     "ccc": "2270-2279"
+    },
+    {
+     "text": "¿He dado mal ejemplo que arrastre a otros al pecado (escándalo)?",
+     "ccc": "2284-2287"
+    },
+    {
+     "text": "¿He descuidado mi salud o mi descanso con vicios, comida o bebida en exceso?",
+     "ccc": "2288-2291"
+    },
+    {
+     "text": "¿He tenido pensamientos de quitarme la vida? Dilo sin miedo en confesión y busca ayuda: Dios no abandona a nadie, y la Iglesia confía a su misericordia incluso a quienes lo han hecho.",
+     "ccc": "2280-2283"
+    }
+   ],
+   "ccc": "2258-2330"
+  },
+  {
+   "id": "sexto",
+   "kind": "questions",
+   "title": "6.º No cometerás actos impuros",
+   "questions": [
+    {
+     "text": "¿Vivo la castidad propia de mi estado de vida (soltero, casado, consagrado)?",
+     "ccc": "2337-2350"
+    },
+    {
+     "text": "¿He consentido pensamientos o deseos impuros? ¿He usado pornografía o la he buscado?",
+     "ccc": "2354"
+    },
+    {
+     "text": "¿He tenido actos impuros solo o con otros, fuera del matrimonio?",
+     "ccc": "2351-2353"
+    },
+    {
+     "text": "Si estoy casado: ¿he sido fiel de pensamiento y obra? ¿Estoy abierto a la vida y respeto el sentido del acto conyugal?",
+     "ccc": "2360-2372; 2380-2381"
+    },
+    {
+     "text": "¿He utilizado a otra persona como objeto, o he faltado al respeto de su dignidad?",
+     "ccc": "2354-2356; 2389"
+    }
+   ],
+   "ccc": "2331-2400"
+  },
+  {
+   "id": "septimo",
+   "kind": "questions",
+   "title": "7.º No robarás",
+   "questions": [
+    {
+     "text": "¿He robado, o me he quedado con lo que no es mío (también en el trabajo, en una tienda, con software o contenidos pirateados)?",
+     "ccc": "2408-2409"
+    },
+    {
+     "text": "¿He hecho mal mi trabajo, perdido el tiempo en horario laboral o defraudado a mi empresa?",
+     "ccc": "2409-2410"
+    },
+    {
+     "text": "¿He pagado un salario justo, cumplido mis deudas y contratos, o he engañado en un negocio?",
+     "ccc": "2409-2411; 2434"
+    },
+    {
+     "text": "¿He causado daños al bien ajeno o al común sin repararlos?",
+     "ccc": "2412"
+    },
+    {
+     "text": "¿He sido generoso con los pobres, según mis posibilidades? ¿He cuidado la creación?",
+     "ccc": "2443-2449; 2415-2418"
+    },
+    {
+     "text": "¿He apostado o gastado en exceso, perjudicando a mi familia?",
+     "ccc": "2413"
+    }
+   ],
+   "ccc": "2401-2463"
+  },
+  {
+   "id": "octavo",
+   "kind": "questions",
+   "title": "8.º No darás falso testimonio ni mentirás",
+   "questions": [
+    {
+     "text": "¿He mentido, exagerado o engañado en cosas importantes?",
+     "ccc": "2475-2479"
+    },
+    {
+     "text": "¿He calumniado (atribuir falsamente un mal) o difamado (revelar sin causa un defecto real)?",
+     "ccc": "2477"
+    },
+    {
+     "text": "¿He juzgado mal de alguien sin fundamento, o he escuchado y difundido chismes?",
+     "ccc": "2477-2478"
+    },
+    {
+     "text": "¿He revelado un secreto que debía guardar?",
+     "ccc": "2488-2491"
+    },
+    {
+     "text": "¿He reparado el daño al buen nombre de alguien que perjudiqué?",
+     "ccc": "2487"
+    },
+    {
+     "text": "¿He sido hipócrita, adulador o falso en mi trato con los demás?",
+     "ccc": "2475-2476"
+    }
+   ],
+   "ccc": "2464-2513"
+  },
+  {
+   "id": "noveno",
+   "kind": "questions",
+   "title": "9.º No consentirás pensamientos ni deseos impuros",
+   "questions": [
+    {
+     "text": "¿He cuidado la pureza de mi corazón, de mi mirada y de mi imaginación?",
+     "ccc": "2517-2519"
+    },
+    {
+     "text": "¿He buscado imágenes, series, lecturas o conversaciones que me llevan a deseos desordenados?",
+     "ccc": "2523-2525"
+    },
+    {
+     "text": "¿He cuidado el pudor en mi manera de vestir, de hablar y de comportarme?",
+     "ccc": "2521-2524"
+    },
+    {
+     "text": "¿He pedido a Dios ayuda y he huido de las ocasiones de pecado?",
+     "ccc": "2520; 2530-2533"
+    }
+   ],
+   "ccc": "2514-2533"
+  },
+  {
+   "id": "decimo",
+   "kind": "questions",
+   "title": "10.º No codiciarás los bienes ajenos",
+   "questions": [
+    {
+     "text": "¿He sentido envidia (pena por el bien de otro) o he deseado el mal de alguien?",
+     "ccc": "2538-2540"
+    },
+    {
+     "text": "¿He sido avaro, o me he dejado dominar por el afán de tener más?",
+     "ccc": "2536; 2544-2547"
+    },
+    {
+     "text": "¿He sido ingrato con Dios y con los demás por lo que tengo?",
+     "ccc": "2548-2550"
+    },
+    {
+     "text": "¿He vivido con desapego y confianza en la Providencia, buscando primero el Reino?",
+     "ccc": "2544-2547; 2556"
+    }
+   ],
+   "ccc": "2534-2557"
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

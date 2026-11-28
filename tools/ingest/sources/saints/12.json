@@ -1,0 +1,1049 @@
+[
+ {
+  "id": "francisco-javier",
+  "name": "San Francisco Javier",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-03",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Francisco Javier, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "missionary",
+   "religious"
+  ],
+  "born": {
+   "date": "7 de abril de 1506",
+   "place": "Castillo de Javier, cerca de Sangüesa (Navarra)"
+  },
+  "died": {
+   "date": "3 de diciembre de 1552 (noche del 2 al 3, según las fuentes)",
+   "place": "Isla de Sancián (Shangchuan), frente a la costa de China"
+  },
+  "century": 16,
+  "countries": [
+   "ES",
+   "IN",
+   "JP",
+   "CN"
+  ],
+  "order": "Compañía de Jesús",
+  "canonization": {
+   "date": "12 de marzo de 1622",
+   "by": "Gregorio XV",
+   "note": "Canonizado junto con Ignacio de Loyola, Teresa de Jesús, Isidro Labrador y Felipe Neri; la bula se publicó en 1623."
+  },
+  "summary": "Misionero jesuita navarro, compañero de san Ignacio de Loyola, que llevó el Evangelio a la India, el sureste asiático y el Japón; murió a las puertas de China.",
+  "biography": "Francisco de Jasso y Azpilicueta nació el 7 de abril de 1506 en el castillo de Javier, en el reino de Navarra, en el seno de una familia noble. Su infancia coincidió con la guerra por la incorporación de Navarra a la corona de Castilla, que arruinó el patrimonio familiar. En 1525 viajó a París y se matriculó en el colegio de Santa Bárbara, donde empezó una carrera brillante como estudiante y profesor de filosofía. Allí convivió con Pedro Fabro y con Ignacio de Loyola. Según la tradición, Ignacio le repetía la pregunta evangélica «¿de qué le sirve al hombre ganar el mundo entero si pierde su alma?», hasta que Francisco dejó de lado sus ambiciones académicas.\n\nEl 15 de agosto de 1534, en Montmartre, Francisco y otros seis compañeros hicieron los votos que darían origen a la Compañía de Jesús. Fue ordenado sacerdote en Venecia el 24 de junio de 1537. Cuando el rey Juan III de Portugal pidió misioneros para sus dominios de Oriente, Ignacio lo designó, y Francisco zarpó de Lisboa el 7 de abril de 1541, el día en que cumplía treinta y cinco años. Llegó a Goa el 6 de mayo de 1542.\n\nDesde Goa recorrió la costa de la Pesquería, entre los paravas, y después Malaca, las Molucas y otras islas, enseñando la doctrina con cantos y oraciones traducidas, bautizando y formando a catequistas locales. Sus cartas a Roma y a Portugal, que circularon por toda Europa, despertaron muchas vocaciones misioneras.\n\nEl 15 de agosto de 1549 desembarcó en Kagoshima, en el Japón, acompañado por el japonés Anjirō y otros dos jesuitas. Pasó unos dos años y tres meses en el país, predicó en Yamaguchi y otras ciudades, dialogó con monjes budistas y comprendió el peso cultural de China, de la que el Japón recibía su sabiduría. Este descubrimiento lo animó a proyectar la evangelización del Imperio chino.\n\nRegresó a la India para organizar la misión y zarpó hacia China. Las autoridades chinas no permitían la entrada de extranjeros, y Francisco se quedó en la isla de Sancián, enfermo y esperando a un contrabandista que lo llevara a tierra firme. Allí murió, casi solo, en diciembre de 1552, a los cuarenta y seis años. Su cuerpo fue llevado a Goa, donde se venera en la basílica del Buen Jesús; el brazo derecho se conserva en Roma, en la iglesia del Gesù.\n\nFue canonizado en 1622, el mismo día que Ignacio. Pío XI lo declaró, en 1927, patrono de las misiones junto con santa Teresa del Niño Jesús, una carmelita que nunca salió de su convento. Su vida enseña que el celo misionero nace de la unión con Cristo y se concreta en la paciencia, el estudio de la cultura ajena y la confianza en los colaboradores locales.",
+  "virtues": [
+   "Celo misionero",
+   "Adaptación cultural",
+   "Disponibilidad"
+  ],
+  "patronages": [
+   "Patrono universal de las misiones, junto con santa Teresa del Niño Jesús (Pío XI, 1927)"
+  ],
+  "iconography": "Jesuita con un crucifijo, a veces con un cangrejo que le devuelve el crucifijo caído al mar (leyenda); con una llama en el pecho.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Francis Xavier»",
+    "url": "https://www.newadvent.org/cathen/06233b.htm"
+   },
+   {
+    "label": "Wikipedia en español, «Francisco Javier» (CC BY-SA 4.0; solo para cotejar datos)",
+    "url": "https://es.wikipedia.org/wiki/Francisco_Javier"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Muerte: la Catholic Encyclopedia da el 2 de diciembre de 1552; la tradición y el calendario fijan el 3 (la noche del 2 al 3). La fecha de 1927 del patronazgo de las misiones procede de Wikipedia y no se ha contrastado con un documento de Pío XI.",
+  "context": "Siglo XVI: expansión ultramarina portuguesa y española, reforma católica y nacimiento de la Compañía de Jesús.",
+  "significance": "Modelo de la misión «ad gentes»: un evangelizador que aprende lenguas, convive con culturas muy distintas y prepara a laicos y catequistas locales."
+ },
+ {
+  "id": "juan-damasceno",
+  "name": "San Juan Damasceno",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-04",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Juan Damasceno, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "doctor",
+   "church_father",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 675",
+   "place": "Damasco"
+  },
+  "died": {
+   "date": "c. 749 (fecha incierta; las fuentes proponen entre 749 y 787)",
+   "place": "Monasterio de San Sabas, cerca de Jerusalén"
+  },
+  "century": 8,
+  "countries": [
+   "SY",
+   "IL"
+  ],
+  "summary": "Monje y teólogo sirio del siglo VIII, defensor de las imágenes sagradas y autor de la «Fuente del conocimiento», síntesis de la teología griega; doctor de la Iglesia.",
+  "biography": "Juan nació en Damasco hacia el año 675, en una familia cristiana acomodada que servía a los califas omeyas. Su padre, llamado probablemente Mansur, ocupaba un alto cargo financiero en la administración del califato. Según su antiguo biógrafo, un monje llamado Cosme, capturado en Italia y liberado, se encargó de su educación; Juan estudió con él retórica, matemáticas, música, astronomía y teología. Tras la muerte de su padre desempeñó cargos de consejero en la corte de Damasco.\n\nMás adelante dejó la administración y se retiró al monasterio de San Sabas, en el desierto de Judea, cerca de Jerusalén. Allí fue ordenado sacerdote por el patriarca de Jerusalén y dedicó su vida al estudio, a la oración y a la composición. Escribió himnos litúrgicos que todavía se cantan en las iglesias orientales, como los cánones de Pascua y de Navidad, y también homilías sobre la Virgen María, incluidas tres sobre su Dormición.\n\nSu gran momento llegó con la crisis iconoclasta. En 726 y 730 el emperador León III prohibió la veneración de las imágenes. Juan, que vivía fuera de los dominios del emperador, escribió tres tratados en defensa de los iconos. Su argumento central parte de la encarnación: porque el Hijo de Dios se hizo visible, la materia puede representar lo divino y ser camino de veneración. Distinguió entre la adoración, debida solo a Dios, y el honor que se tributa a las imágenes y que se refiere a su modelo. Esta doctrina fue recogida por el concilio de Nicea II en 787.\n\nSu obra mayor es la «Fuente del conocimiento», dividida en tres partes: los «Capítulos filosóficos» (o «Dialéctica»), el tratado «Sobre las herejías» y la «Exposición exacta de la fe ortodoxa». En ella reunió, con orden, el pensamiento de los padres griegos. Su capítulo sobre el islam es una de las primeras reacciones cristianas ante esa religión, que conocía por su vida en la corte.\n\nLa tradición cuenta que el califa, engañado por una carta falsa, le hizo cortar la mano y que la Virgen se la devolvió ante un icono; la historia viene de una biografía tardía y legendaria, y no consta en fuentes contemporáneas. Murió en San Sabas, hacia mediados del siglo VIII. León XIII lo declaró doctor de la Iglesia en 1890. Su ejemplo muestra que la fe cristiana puede unir el pensamiento riguroso, la poesía litúrgica y la fidelidad en tiempos de presión política.",
+  "virtues": [
+   "Erudición",
+   "Fortaleza ante la presión política",
+   "Devoción mariana"
+  ],
+  "iconography": "Monje oriental con turbante o capucha y una mano cortada (leyenda), libros y pluma.",
+  "works": [
+   {
+    "title": "Fuente del conocimiento (Exposición de la fe ortodoxa)"
+   },
+   {
+    "title": "Disertaciones sobre las imágenes"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. John Damascene»",
+    "url": "https://www.newadvent.org/cathen/08459b.htm"
+   },
+   {
+    "label": "Wikipedia en español, «Juan Damasceno» (CC BY-SA 4.0; solo para cotejar datos)",
+    "url": "https://es.wikipedia.org/wiki/Juan_Damasceno"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "La fecha de muerte es incierta: la Catholic Encyclopedia dice «entre 754 y 787» y Wikipedia da c. 749. Las biografías antiguas son hagiográficas; la mano cortada es tradición.",
+  "canonization": {
+   "note": "Santo de culto antiguo, anterior a los procesos formales; León XIII lo declaró doctor de la Iglesia en 1890."
+  },
+  "context": "Siglo VIII: dominio omeya sobre Siria y Palestina y disputa iconoclasta en el Imperio bizantino.",
+  "significance": "Último gran padre de la Iglesia griega; su «Exposición exacta de la fe ortodoxa» sistematizó la teología patrística y fue muy leída por los escolásticos latinos."
+ },
+ {
+  "id": "nicolas-de-bari",
+  "name": "San Nicolás de Mira",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-06",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Nicolás, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop"
+  ],
+  "born": {
+   "date": "siglo III-IV (sin fecha documentada)",
+   "place": "Patara o Parara (Licia), según la tradición"
+  },
+  "died": {
+   "date": "6 de diciembre, hacia mediados del siglo IV (345 o 352, según las fuentes)",
+   "place": "Mira (Licia)"
+  },
+  "century": 4,
+  "countries": [
+   "TR",
+   "IT"
+  ],
+  "summary": "Obispo de Mira, en Licia (actual Turquía), en el siglo IV; de su vida casi solo consta el episcopado, pero su culto, generoso y popular, se difundió por Oriente y Occidente.",
+  "biography": "Nicolás fue obispo de Mira, la capital de la provincia romana de Licia, en la costa meridional de la actual Turquía, durante el siglo IV. Es lo único que la historia permite afirmar con seguridad. Las vidas que lo describen son muy posteriores: la primera gran recopilación en griego es la de Simeón Metafrastes, del siglo X. Por eso conviene separar con cuidado lo documentado de lo que la tradición ha transmitido.\n\nSegún esa tradición, nació en Patara, en una familia rica, y quedó huérfano siendo joven. Se cuenta que empleó su herencia en socorrer a los necesitados. La más conocida de las historias refiere que ayudó en secreto a un padre empobrecido que no podía casar a sus tres hijas, dejando por la noche bolsas de oro en su casa. De este relato proceden la iconografía de las tres bolsas o bolas doradas y la costumbre de regalar a los niños en su fiesta. También se le atribuyen la liberación de condenados injustamente, la intervención en una tempestad que salvó a unos marineros y un viaje a Tierra Santa.\n\nSe dice que fue encarcelado en la persecución de Diocleciano y que asistió al concilio de Nicea en 325. La Catholic Encyclopedia recuerda que su nombre no figura en las listas más antiguas de los padres conciliares, de modo que ese dato es dudoso. Su fecha de muerte, el 6 de diciembre, se mantiene en el culto, aunque el año (345 o 352) es incierto.\n\nSu veneración surgió pronto en Oriente. En el siglo VI el emperador Justiniano I hizo construir una iglesia en su honor en Constantinopla, y su devoción llegó a ser enorme en el mundo griego y ruso. En 1087, un grupo de mercaderes italianos sacó sus restos de Mira y los llevó a Bari, donde se construyó una basílica. Desde entonces el culto se extendió por Italia, Alemania, Lorena y los Países Bajos. Se le consideró protector de los marineros, de los comerciantes y de los viajeros, y fue patrono de numerosas ciudades.\n\nEn Alemania, Suiza y los Países Bajos, la noche del 5 al 6 de diciembre es la ocasión en que se dejan regalos a los niños, y de esta costumbre deriva, por transformación cultural posterior, la figura de Santa Claus. Más allá de las leyendas, Nicolás ofrece un modelo de pastor sencillo, atento a los pobres y firme en la fe. La liturgia lo recuerda con una memoria libre el 6 de diciembre.",
+  "virtues": [
+   "Generosidad",
+   "Defensa de los inocentes",
+   "Humildad"
+  ],
+  "iconography": "Obispo con tres bolsas de oro o tres bolas doradas, a veces con tres niños en una tina y un ancla.",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Nicholas»",
+    "url": "https://www.newadvent.org/cathen/11063b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "De la vida de Nicolás solo es seguro que fue obispo de Mira en el siglo IV; el resto (nacimiento en Patara, prisión, presencia en Nicea, la dote de las doncellas) es tradición hagiográfica posterior. Fecha de muerte incierta (345 o 352 según la Catholic Encyclopedia). Se ha verificado con una sola fuente.",
+  "canonization": {
+   "note": "Santo de culto antiguo, anterior a los procesos formales de canonización."
+  },
+  "context": "Siglo IV: fin de las persecuciones, controversia arriana y primeros concilios ecuménicos.",
+  "significance": "Su figura, convertida en modelo del pastor generoso, dio origen a una devoción extensa y a las tradiciones populares de regalos para los niños.",
+  "patronages": [
+   "Patrono de marineros, comerciantes y viajeros (culto tradicional)",
+   "Patrono de los niños (culto tradicional)"
+  ]
+ },
+ {
+  "id": "ambrosio-de-milan",
+  "name": "San Ambrosio de Milán",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-07",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Ambrosio, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 340",
+   "place": "Probablemente Tréveris, en la Galia (otras fuentes proponen Arlés o Lyon)"
+  },
+  "died": {
+   "date": "4 de abril de 397",
+   "place": "Milán"
+  },
+  "century": 4,
+  "countries": [
+   "DE",
+   "IT"
+  ],
+  "summary": "Gobernador romano convertido en obispo de Milán por aclamación popular, maestro de san Agustín, defensor de la fe nicena y padre del canto litúrgico; doctor de la Iglesia.",
+  "biography": "Ambrosio nació hacia el año 340, probablemente en Tréveris, hijo de un alto funcionario romano, prefecto del pretorio de las Galias. Tras la muerte de su padre, la familia se trasladó a Roma, donde recibió una sólida formación en retórica y derecho. Llegó a ser gobernador consular de Liguria y Emilia, con sede en Milán.\n\nEn 374 murió el obispo Auxencio, de tendencia arriana, y la ciudad vivía dividida entre arrianos y católicos. Ambrosio acudió a la basílica para mantener el orden durante la elección y, según la tradición, el pueblo lo aclamó obispo, aunque todavía era catecúmeno. Fue bautizado y consagrado el 7 de diciembre de 374. Repartió sus bienes entre los pobres, se puso a estudiar la Escritura y a los padres griegos, en especial a Orígenes y Basilio, y se convirtió en un gran predicador.\n\nSu episcopado se desarrolló en tiempos de conflicto. Defendió la fe de Nicea ante la corte imperial, en la que la emperatriz Justina apoyaba a los arrianos. En 385-386 se negó a entregar una basílica milanesa a los arrianos, y la comunidad permaneció con él en oración y canto. Frente al emperador Teodosio, después de la masacre de Tesalónica del año 390, le exigió una penitencia pública y el emperador la aceptó. Estos episodios han hecho de Ambrosio un símbolo de la independencia de la Iglesia ante el poder civil.\n\nComo pastor y maestro, comentó la Escritura con la lectura alegórica que aprendió de Orígenes. Entre sus obras están el «Hexamerón», sobre los seis días de la creación, los tratados «Sobre los misterios» y «Sobre los sacramentos», dirigidos a los recién bautizados, y «Sobre los deberes de los ministros», adaptación cristiana de Cicerón. Promovió el canto del pueblo y se le atribuyen, o se asocian a su escuela, himnos como «Aeterne rerum conditor» y «Deus creator omnium». Algunas atribuciones concretas son discutidas, pero su influencia en el himno latino es indudable.\n\nEn Milán conoció a Agustín, que había llegado como profesor de retórica. Los sermones de Ambrosio, que mostraban cómo leer espiritualmente el Antiguo Testamento, ayudaron a que Agustín venciera sus dificultades intelectuales con la fe; Ambrosio lo bautizó en la vigilia pascual de 387. Murió en la noche del 3 al 4 de abril de 397. La Iglesia celebra su ordenación episcopal el 7 de diciembre. Con Jerónimo, Agustín y Gregorio Magno forma el grupo de los cuatro grandes doctores de la Iglesia latina.",
+  "virtues": [
+   "Firmeza",
+   "Elocuencia",
+   "Atención a los pobres"
+  ],
+  "iconography": "Obispo con látigo (contra los arrianos), colmena de abejas (leyenda de su elocuencia) y libro.",
+  "works": [
+   {
+    "title": "Sobre los misterios"
+   },
+   {
+    "title": "Hexamerón"
+   },
+   {
+    "title": "Sobre los deberes de los ministros"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Ambrose»",
+    "url": "https://www.newadvent.org/cathen/01383c.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "canonization": {
+   "note": "Santo de culto antiguo; es uno de los cuatro grandes doctores latinos de la antigüedad."
+  },
+  "context": "Siglo IV: Imperio cristiano, controversia arriana y relación entre la Iglesia y el poder político.",
+  "significance": "Modelo de obispo que defiende la libertad de la Iglesia frente al poder civil, y maestro de la exégesis alegórica, la catequesis y el himno litúrgico."
+ },
+ {
+  "id": "inmaculada-concepcion",
+  "name": "La Inmaculada Concepción de la Virgen María",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "12-08",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "La Inmaculada Concepción de la Bienaventurada Virgen María",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Dogma definido por Pío IX en 1854: María fue preservada del pecado original desde el primer instante de su concepción, en previsión de los méritos de Cristo.",
+  "context": "Siglo XIX: definición dogmática precedida de siglos de debate teológico y de devoción popular.",
+  "significance": "Celebra la gracia con que Dios preparó a la Madre del Redentor.",
+  "iconography": "La Virgen joven, con túnica blanca y manto azul, de pie sobre una luna creciente y una serpiente, coronada con doce estrellas (Ap 12,1).",
+  "note": "Patronazgos y el dato de Lourdes (1858) no se han leído en la fuente; se omiten de los patronazgos y se menciona solo con cautela.",
+  "biography": "La solemnidad de la Inmaculada Concepción, que se celebra el 8 de diciembre, recuerda que María, Madre de Dios, fue preservada del pecado original desde el primer instante de su existencia, por una gracia singular de Dios y en previsión de los méritos de Jesucristo, Redentor del género humano. Así lo definió el papa Pío IX, el 8 de diciembre de 1854, en la bula «Ineffabilis Deus». El término «concepción» se refiere al momento en que su alma fue creada e infundida en su cuerpo, no al acto de la generación. El privilegio no la eximió de los sufrimientos ni de la muerte, sino de la mancha del pecado original.\n\nLa Escritura no ofrece una prueba directa de esta doctrina. La tradición la ha visto sugerida en la enemistad entre la mujer y la serpiente (Gn 3,15) y en el saludo del ángel, que llama a María «llena de gracia» (Lc 1,28). Los primeros padres se mostraron prudentes, y algunos, como Orígenes, expresaron dudas. Otros, sobre todo los griegos y sirios, elogiaron la pureza de María y la presentaron como la nueva Eva, en contraste con la primera.\n\nLa fiesta nació en Oriente, en monasterios de Palestina, hacia los siglos VII y VIII, con el nombre de «Concepción de santa Ana». Pasó a Occidente por Inglaterra en el siglo XI y suscitó un largo debate teológico, en el que Bernardo de Claraval se mostró contrario, mientras que el teólogo franciscano Duns Escoto ofreció la solución decisiva: María fue redimida de modo más perfecto, por preservación y no por liberación posterior. La doctrina fue ganando aceptación. En 1476 Sixto IV aprobó la fiesta para toda la Iglesia latina, y en 1661 Alejandro VII precisó su sentido.\n\nEn 1854 Pío IX proclamó el dogma, tras consultar a los obispos de todo el mundo. Cuatro años después, según la tradición, la Virgen se presentó en Lourdes diciendo «yo soy la Inmaculada Concepción», una confirmación que muchos fieles han visto en el sentir de la Iglesia.\n\nLa liturgia presenta esta solemnidad en pleno Adviento, con el evangelio de la Anunciación. María es aurora de la salvación, la primera redimida, la «toda santa» en quien la Iglesia contempla lo que Dios quiere hacer con todo su pueblo. El dogma es, en el fondo, una afirmación sobre la gracia: la salvación es don de Dios, que adelanta en María lo que ofrece a todos en Cristo. En muchos países de tradición hispana es fiesta popular, con procesiones, cantos y novenas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Immaculate Conception»",
+    "url": "https://www.newadvent.org/cathen/07674d.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "juan-diego",
+  "name": "San Juan Diego Cuauhtlatoatzin",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-09",
+    "rank": "memorial",
+    "calendar": "mx",
+    "title": "San Juan Diego Cuauhtlatoatzin",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "1474",
+   "place": "Cuauhtitlán, reino de Texcoco (Valle de México)"
+  },
+  "died": {
+   "date": "1548",
+   "place": "Ciudad de México (Tepeyac, según la tradición)"
+  },
+  "century": 16,
+  "countries": [
+   "MX"
+  ],
+  "canonization": {
+   "date": "31 de julio de 2002",
+   "by": "Juan Pablo II",
+   "note": "Beatificado el 6 de mayo de 1990 en la basílica de Guadalupe (decreto del 9 de abril de 1990)."
+  },
+  "summary": "Indígena chichimeca bautizado por los franciscanos, mensajero de las apariciones de la Virgen de Guadalupe en el Tepeyac (1531); primer santo indígena de América.",
+  "biography": "Cuauhtlatoatzin, «el que habla como águila» o «águila que habla», nació en 1474 en Cuauhtitlán, en el reino de Texcoco, en el seno del pueblo chichimeca. Vivió su juventud en el mundo anterior a la llegada de los españoles. Después de la conquista de México-Tenochtitlan (1521) y de la llegada de los primeros franciscanos en 1524, se sintió atraído por su enseñanza y fue bautizado con el nombre de Juan Diego, junto con su esposa, María Lucía. La biografía oficial del Vaticano recuerda que ella murió en 1529.\n\nLas apariciones de santa María de Guadalupe, según la tradición recogida en el relato náhuatl conocido como «Nican Mopohua», sucedieron en diciembre de 1531 en el cerro del Tepeyac. Juan Diego, que se dirigía a la catequesis, oyó una voz que lo llamaba y vio a una Señora que pidió que se levantara una casa en aquel lugar. Cuando el obispo fray Juan de Zumárraga le pidió una señal, Juan Diego recogió rosas fuera de temporada en el cerro y las llevó en su tilma, en la que quedó impresa la imagen de la Virgen. Los hechos se conocen por relatos de los siglos XVI y XVII; el culto está bien atestiguado desde mediados del XVI, pero los historiadores discuten cuándo se escribieron los primeros documentos sobre Juan Diego.\n\nLa tradición dice que, tras el hecho, se retiró a vivir junto a la ermita del Tepeyac, para cuidar de aquel lugar y acoger a los peregrinos, en una vida de oración, humildad y penitencia. Murió en 1548 y, según la misma tradición, fue sepultado en la capilla.\n\nSu proceso de canonización fue largo. Juan Pablo II promulgó el decreto de beatificación el 9 de abril de 1990 y lo declaró beato el 6 de mayo de ese año, en la basílica de Guadalupe, y lo canonizó el 31 de julio de 2002 en el mismo santuario. En su homilía lo presentó como modelo de humildad ante Dios y de fidelidad a la misión recibida, y destacó que la Virgen eligió a un indígena sencillo como mensajero. La liturgia lo recuerda cada 9 de diciembre, fecha en que, según la tradición, tuvo lugar la primera aparición.\n\nLa figura de Juan Diego es importante para la Iglesia en México y en América porque une la evangelización con el respeto a los pueblos originarios. Su imagen es signo de que el Evangelio puede ser acogido por todas las culturas, y de que la Virgen María acompaña a quienes son pobres y sencillos a los ojos del mundo.",
+  "context": "Nueva España, primeras décadas tras la conquista; evangelización franciscana y encuentro de culturas.",
+  "virtues": [
+   "Humildad",
+   "Obediencia",
+   "Sencillez"
+  ],
+  "significance": "Primer santo indígena de América; mensajero del mensaje guadalupano.",
+  "iconography": "Indígena con tilma abierta con la imagen de la Virgen y rosas, con sombrero y sandalias.",
+  "prayers": [
+   "consagracion-a-maria"
+  ],
+  "novenas": [
+   "san-juan-diego"
+  ],
+  "art": "novena:san-juan-diego",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de san Juan Diego Cuauhtlatoatzin (canonización, 2002)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020731_juan-diego_sp.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Datos biográficos de la biografía oficial del Vaticano (2002). Las apariciones se conocen por relatos del siglo XVI-XVII que la historia no puede contrastar con documentos coetáneos. La fecha de canonización (31-VII-2002) se deduce del enlace de la homilía en la propia página."
+ },
+ {
+  "id": "nuestra-senora-de-loreto",
+  "name": "Nuestra Señora de Loreto",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "12-10",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "La Bienaventurada Virgen María de Loreto",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "countries": [
+   "IT"
+  ],
+  "summary": "Advocación de la Virgen venerada en el santuario de la Santa Casa de Loreto, en Italia; memoria libre inscrita en el Calendario Romano General en 2019.",
+  "context": "Santuario italiano de la Edad Media, vinculado a la tradición de la casa de Nazaret.",
+  "significance": "El santuario evoca el misterio de la Encarnación y la vida de la Sagrada Familia; da nombre a las Letanías lauretanas.",
+  "patronages": [
+   "Patrona de quienes viajan en avión (decreto de la Congregación para el Culto Divino, 2019)"
+  ],
+  "iconography": "La Virgen con el Niño y, según la tradición, la Santa Casa sostenida por ángeles en vuelo.",
+  "note": "No se pudo leer ninguna fuente histórica sobre el traslado de la Santa Casa (tradición de 1291-1294 no verificada); solo se afirma lo que dice el decreto de 2019.",
+  "biography": "Nuestra Señora de Loreto es la advocación mariana vinculada al santuario de la Santa Casa de Loreto, en la región italiana de las Marcas. Según una tradición medieval, la casa de Nazaret en la que María recibió el anuncio del ángel habría sido trasladada milagrosamente, por ángeles, hasta Loreto. Esta narración, de la que no existe confirmación histórica segura, es tradición piadosa y no un hecho documentado. Lo que sí es cierto es que, desde la Edad Media, el santuario de Loreto ha sido un lugar muy visitado por peregrinos.\n\nEl decreto de la Congregación para el Culto Divino y la Disciplina de los Sacramentos, fechado el 7 de octubre de 2019, informa de que el papa Francisco, por su propia autoridad, dispuso que la memoria de la Bienaventurada Virgen María de Loreto se inscribiera como memoria libre en el Calendario Romano General, el día 10 de diciembre, que es la fecha en que se celebra la fiesta en Loreto. La memoria debe incluirse en todos los calendarios y en los libros litúrgicos para la misa y la Liturgia de las Horas, y las traducciones de los textos deben ser aprobadas por las conferencias episcopales.\n\nEl mismo decreto expone los motivos. La veneración de la Santa Casa dio origen al santuario, que acoge a muchos peregrinos. Este recuerda el misterio de la Encarnación y se compara con Nazaret, como imagen de las virtudes de la Sagrada Familia. En él han respondido a su vocación numerosos santos y beatos, y el pueblo de Dios reza allí con las Letanías de Loreto, una oración mariana de invocaciones muy difundida. Los que viajan en avión consideran a la Virgen de Loreto su patrona celestial, un patronazgo que el documento recoge.\n\nLa imagen venerada en el santuario es una Virgen con el Niño, de piel oscura por la antigüedad y el humo de las velas. Las devociones populares vinculan el santuario con la familia, el hogar y la oración.\n\nLa memoria del 10 de diciembre, en pleno Adviento, ofrece un motivo para contemplar a la Virgen como la que acoge la Palabra en su casa, y para pedir que cada hogar cristiano sea un pequeño Nazaret, lugar de oración, de trabajo humilde y de amor. Las Letanías lauretanas, con sus invocaciones, como «Casa de oro» o «Puerta del cielo», siguen siendo una de las formas de oración mariana más populares en el mundo católico.",
+  "sources": [
+   {
+    "label": "Congregación para el Culto Divino, decreto sobre la celebración de la Bienaventurada Virgen María de Loreto (7-X-2019)",
+    "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20191007_decreto-celebrazione-verginediloreto_en.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "unverified": true
+ },
+ {
+  "id": "damaso-i",
+  "name": "San Dámaso I",
+  "fullName": "Dámaso, papa",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-11",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Dámaso I, papa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "pope",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 304",
+   "place": "Roma (de familia probablemente de origen hispano)"
+  },
+  "died": {
+   "date": "11 de diciembre de 384",
+   "place": "Roma"
+  },
+  "century": 4,
+  "countries": [
+   "IT",
+   "ES"
+  ],
+  "canonization": {
+   "note": "Santo de culto antiguo, anterior a los procesos formales."
+  },
+  "summary": "Papa del siglo IV (366-384), protector de san Jerónimo, restaurador de las catacumbas y compositor de epigramas en honor de los mártires romanos.",
+  "context": "Siglo IV: Imperio cristiano, controversias arriana y apolinarista, afirmación del primado romano.",
+  "virtues": [
+   "Devoción a los mártires",
+   "Firmeza doctrinal",
+   "Mecenazgo cultural"
+  ],
+  "significance": "Impulsó la revisión latina de la Biblia que dio origen a la Vulgata y fomentó el culto a los mártires romanos con sus inscripciones.",
+  "iconography": "Papa con tiara o mitra, a veces con san Jerónimo a su lado y con un libro.",
+  "note": "Verificado con una sola fuente (Catholic Encyclopedia). El origen hispano de su padre es probable, no seguro.",
+  "biography": "Dámaso nació hacia el año 304 en Roma. Su padre, Antonio, era probablemente de origen hispano, y desde joven sirvió en la iglesia romana de San Lorenzo, donde llegó a ser diácono y luego presbítero. Su elección como papa, en octubre de 366, estuvo marcada por la violencia. Una parte de los partidarios de Liberio, el papa anterior, eligió al diácono Ursino, que fue consagrado de manera irregular, y los enfrentamientos entre ambos grupos causaron muertes en las calles de Roma. El emperador Valentiniano reconoció a Dámaso y desterró a Ursino a Colonia en 367.\n\nSu pontificado, que duró hasta 384, coincidió con las grandes controversias doctrinales del siglo. Los sínodos romanos de 368 y 369 condenaron el apolinarismo y el macedonianismo, y envió legados al concilio de Constantinopla (381). El sínodo romano de 374 aprobó un listado de los libros bíblicos del Nuevo Testamento, que marcó los pasos hacia el canon. Bajo su pontificado la sede romana reivindicó con mayor claridad su autoridad, con la fórmula de «sede apostólica» para referirse a ella.\n\nDámaso fue también un hombre de letras y un mecenas. Animó a Jerónimo, que estuvo un tiempo en Roma como su secretario, a revisar las versiones latinas de los evangelios, de donde saldría la Vulgata. Restauró sus propias iglesias, dispuso el archivo de la Iglesia romana en un lugar apropiado y reconstruyó el baptisterio del Vaticano.\n\nSu gran pasión fueron los mártires. Restauró las catacumbas, abrió accesos a las tumbas de los mártires y compuso en verso epigramas, inscritos en mármol, que contaban su historia y alentaban a los peregrinos. Sus «tituli», grabados con una caligrafía elegante creada por su amigo Furio Dionisio Filócalo (las llamadas «letras damasianas»), son testimonios preciosos de la devoción romana del siglo IV.\n\nMurió el 11 de diciembre de 384, a los ochenta años, y fue enterrado, junto con su madre y su hermana, en una pequeña basílica de la Vía Ardeatina. Su celo por la memoria de los mártires, por la fidelidad doctrinal y por la cultura cristiana hace de él una figura importante en la historia de la Iglesia de Roma. Tras su muerte, Siricio, que había sido su diácono, fue elegido papa.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Pope St. Damasus I»",
+    "url": "https://www.newadvent.org/cathen/04613a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "nuestra-senora-de-guadalupe",
+  "name": "Nuestra Señora de Guadalupe",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "12-12",
+    "rank": "solemnity",
+    "calendar": "mx",
+    "title": "Nuestra Señora de Guadalupe",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "century": 16,
+  "countries": [
+   "MX"
+  ],
+  "summary": "Advocación mariana del Tepeyac, en la Ciudad de México; patrona de México y de América. Se celebra el 12 de diciembre.",
+  "biography": "La devoción a Nuestra Señora de Guadalupe nace, según la tradición recogida en el «Nican Mopohua», relato en náhuatl del siglo XVI, de las apariciones de la Virgen al indígena Juan Diego en el cerro del Tepeyac, cerca de la Ciudad de México, entre el 9 y el 12 de diciembre de 1531. La Virgen pidió que se levantara un templo en aquel lugar. Como señal para el obispo fray Juan de Zumárraga, dejó impresa su imagen en la tilma de Juan Diego, que se conserva en la actual basílica de Guadalupe.\n\nLos historiadores señalan que los documentos del siglo XVI sobre los hechos son escasos. Las pruebas más seguras son de mediados de siglo: la ermita y el culto en el Tepeyac existían en 1556, cuando el provincial franciscano fray Francisco de Bustamante predicó contra la devoción. Los relatos detallados de las apariciones se imprimieron en el siglo XVII, con Miguel Sánchez en 1648 y Luis Laso de la Vega en 1649. La Iglesia reconoce la devoción y la considera legítima, sin imponer la historicidad de las apariciones como dogma de fe.\n\nEl culto se extendió por todo el virreinato de la Nueva España y se convirtió en un elemento de identidad nacional: en 1810 el estandarte de los insurgentes llevaba la imagen de la Virgen. A lo largo de los siglos varios papas fomentaron su veneración. La imagen presenta a una joven mestiza, con el manto cubierto de estrellas, la luna a sus pies y rayos de sol alrededor; el lazo negro que lleva en la cintura se ha interpretado como señal de maternidad, y los símbolos que la rodean pueden leerse con claves de la cultura náhuatl.\n\nJuan Pablo II, en la exhortación apostólica «Ecclesia in America» (22 de enero de 1999), recogió la invocación de la Virgen como «Patrona de toda América y Estrella de la primera y de la nueva evangelización» y aceptó la propuesta de los padres sinodales de celebrar el 12 de diciembre, en todo el continente, la fiesta de «Nuestra Señora de Guadalupe, Madre y Evangelizadora de América». El decreto de la Congregación para el Culto Divino del 25 de marzo de 1999 estableció esa fiesta en los calendarios de América, y en México se celebra con rango de solemnidad.\n\nLa basílica del Tepeyac es uno de los santuarios marianos más visitados del mundo. Cada 12 de diciembre acuden multitudes de peregrinos a cantar «Las mañanitas» a la Virgen. Guadalupe es, para el pueblo mexicano, signo de ternura materna, de reconciliación entre pueblos y de esperanza para los pobres.",
+  "significance": "Patrona de México y de las Américas; signo de encuentro entre la fe cristiana y los pueblos originarios.",
+  "patronages": [
+   "Patrona de toda América (invocación recogida en «Ecclesia in America», 1999)"
+  ],
+  "iconography": "La imagen de la tilma: Virgen mestiza, con manto estrellado, rayos solares, luna a sus pies y un ángel; un moño negro (embarazada) en el talle.",
+  "prayers": [
+   "consagracion-a-maria"
+  ],
+  "novenas": [
+   "guadalupe"
+  ],
+  "art": "novena:guadalupe",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Juan Pablo II, «Ecclesia in America» (22-I-1999), n. 11",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_22011999_ecclesia-in-america.html"
+   },
+   {
+    "label": "Congregación para el Culto Divino, decreto sobre la fiesta de la Bienaventurada Virgen María de Guadalupe (25-III-1999)",
+    "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20000628_guadalupe_sp.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Las apariciones se conocen por relatos del siglo XVI-XVII; la Iglesia no impone su historicidad como dogma. No se ha verificado en vatican.va que exista en el Calendario Romano General una memoria libre del 12 de diciembre; el decreto de 1999 pide para toda América el rango de fiesta, y en México es solemnidad (GCatholic). Datos del XVI-XVII (Bustamante 1556, Sánchez 1648, Laso de la Vega 1649) no releídos en fuente primaria."
+ },
+ {
+  "id": "lucia-de-siracusa",
+  "name": "Santa Lucía de Siracusa",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-13",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa Lucía, virgen y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "martyr"
+  ],
+  "born": {
+   "date": "c. 283 (según la tradición)",
+   "place": "Siracusa (Sicilia)"
+  },
+  "died": {
+   "date": "c. 303-304",
+   "place": "Siracusa"
+  },
+  "century": 4,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Joven mártir de Siracusa (Sicilia) bajo Diocleciano; virgen y mártir de culto antiguo e inscrita en el canon romano.",
+  "biography": "Santa Lucía es una de las mártires más antiguas y populares de la Iglesia latina. Lo que se sabe con seguridad es poco: murió mártir en Siracusa, en Sicilia, durante la persecución de Diocleciano, hacia el 303 o 304, y su culto está atestiguado desde fecha muy temprana. Su nombre aparece en antiguos martirologios, y san Gregorio Magno lo incluyó en el canon de la misa y le dedicó oraciones y antífonas en sus libros litúrgicos. Hoy se sigue citando en la Plegaria eucarística I.\n\nEl relato de su pasión procede de unas Actas redactadas probablemente en el siglo V. La Catholic Encyclopedia las considera poco exactas. Según esta tradición, Lucía era una joven de familia rica y cristiana, que había decidido consagrarse a Cristo y repartir sus bienes entre los pobres. San Aldhelmo, que murió en 709, fue el primer autor que narró su vida y muerte completas a partir de esas Actas, y lo siguió el Venerable Beda.\n\nUn joven pretendiente, enojado por este gesto, la denunció como cristiana ante el gobernador Pascasio. El relato cuenta que el magistrado quiso obligarla a sacrificar a los dioses y humillarla, pero no pudo vencer su firmeza. Se habla también de un intento de quemarla, del que habría salido ilesa, hasta que murió por la espada. Antes de morir habría profetizado el fin de la persecución. La propia Catholic Encyclopedia señala incoherencias en la profecía y en el nombre del gobernador, de modo que estos pormenores han de entenderse como tradición hagiográfica, no como crónica.\n\nLa leyenda de los ojos arrancados, en la que Lucía lleva en un plato sus propios ojos, aparece en tiempos posteriores. Probablemente se alimentó del parecido entre su nombre y la palabra latina «lux», luz, y la devoción popular la relacionó con la vista. Esa leyenda no figura en la Catholic Encyclopedia ni en las Actas más antiguas, por lo que no se puede dar por histórica.\n\nEl culto se extendió por toda Italia y por Europa. Según Sigeberto de Gembloux, su cuerpo permaneció en Sicilia unos cuatrocientos años y fue trasladado luego a Corfinio; el emperador Otón I lo llevó a Metz en 972, y en 1204, tras la toma de Constantinopla, parte de las reliquias llegó a Venecia. Su fiesta cae el 13 de diciembre, en pleno Adviento, lo que da a su memoria un sentido especial: la luz de Cristo que viene a una humanidad en tinieblas, y el testimonio de una joven que prefirió la fidelidad a la comodidad.",
+  "virtues": [
+   "Fortaleza",
+   "Generosidad con los pobres",
+   "Fidelidad a Cristo"
+  ],
+  "iconography": "Joven con una bandeja con dos ojos, una lámpara, la palma y la espada.",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Lucy»",
+    "url": "https://www.newadvent.org/cathen/09414a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Lo único bien atestiguado es su culto antiguo en Siracusa y su martirio hacia el 304. El relato de las Actas (siglo V) es legendario; la leyenda de los ojos es posterior. Verificada con una sola fuente (Catholic Encyclopedia); la inscripción de Siracusa se cita de memoria y no está en esa fuente.",
+  "canonization": {
+   "note": "Mártir de culto antiguo, anterior a los procesos formales."
+  },
+  "context": "Persecución de Diocleciano (303-311) en el Imperio romano.",
+  "significance": "Es una de las mártires más veneradas de la Iglesia latina; su nombre figura en el canon romano (Plegaria eucarística I)."
+ },
+ {
+  "id": "juan-de-la-cruz",
+  "name": "San Juan de la Cruz",
+  "fullName": "Juan de Yepes Álvarez",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-14",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Juan de la Cruz, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "doctor",
+   "religious",
+   "mystic",
+   "founder"
+  ],
+  "born": {
+   "date": "1542 (24 de junio, según la Catholic Encyclopedia)",
+   "place": "Fontiveros (Ávila)"
+  },
+  "died": {
+   "date": "14 de diciembre de 1591",
+   "place": "Úbeda (Jaén)"
+  },
+  "century": 16,
+  "countries": [
+   "ES"
+  ],
+  "order": "Carmelitas Descalzos",
+  "canonization": {
+   "date": "27 de diciembre de 1726",
+   "by": "Benedicto XIII",
+   "note": "Beatificado en 1675; declarado doctor de la Iglesia por Pío XI en 1926."
+  },
+  "summary": "Carmelita descalzo, místico y poeta, cofundador con santa Teresa de la reforma carmelitana; doctor de la Iglesia, maestro de la «noche oscura» y del amor de Dios.",
+  "biography": "Juan de Yepes Álvarez nació en 1542 en Fontiveros, en Ávila, en una familia humilde dedicada al tejido. Su padre murió siendo él niño, y la madre buscó trabajo en Medina del Campo, donde Juan sirvió en un hospital y estudió con los jesuitas. En 1563 entró en el convento carmelita de Medina con el nombre de fray Juan de San Matías, estudió en Salamanca y fue ordenado sacerdote en 1567.\n\nEn Medina conoció a Teresa de Jesús, que le propuso colaborar en su reforma. En 1568 inició con ella la primera comunidad masculina de carmelitas descalzos, y desde entonces adoptó el nombre de Juan de la Cruz. Fue maestro de novicios y confesor de las monjas de la Encarnación de Ávila, a petición de Teresa, y colaboró en la fundación de varias casas.\n\nLa reforma encontró oposición dentro de la orden. En diciembre de 1577 un grupo de carmelitas contrarios a la reforma lo encerró en una celda diminuta del convento de Toledo. Pasó unos nueve meses de dura prisión, hasta que logró escapar en agosto de 1578. La tradición sitúa en ese encierro la composición de las primeras estrofas del «Cántico espiritual» y de otros poemas.\n\nTras su fuga ocupó cargos de gobierno en Andalucía y Castilla, fundó conventos y dirigió espiritualmente a numerosas personas. Después de la muerte de Teresa, en 1582, y a causa de discrepancias en el seno de la orden, perdió sus cargos y se retiró a un pobre convento, donde cayó enfermo. Se trasladó a Úbeda, donde murió el 14 de diciembre de 1591, a los cuarenta y nueve años.\n\nSu obra se compone de poemas, como «Noche oscura», «Cántico espiritual» y «Llama de amor viva», y de comentarios en prosa, como «Subida del Monte Carmelo». Enseña que el alma se une a Dios mediante la purificación del deseo y de la fe, que él llama «noche», porque Dios sobrepasa los sentidos y la razón. La noche conduce, sin embargo, a la luz y al amor: «a la tarde te examinarán en el amor».\n\nFue beatificado en 1675 y canonizado en 1726. Pío XI lo declaró doctor de la Iglesia en 1926, con el título de «doctor místico». Su espiritualidad, de gran sobriedad, sigue siendo guía para los creyentes que atraviesan la oscuridad y buscan a Dios en lo profundo del corazón.",
+  "virtues": [
+   "Desprendimiento",
+   "Fe pura",
+   "Amor a la cruz"
+  ],
+  "iconography": "Carmelita descalzo con hábito pardo, pluma y libro, y a veces un crucifijo con la leyenda «Padecer y ser despreciado por vos».",
+  "works": [
+   {
+    "title": "Poesías",
+    "docId": "doc.poesias-san-juan-de-la-cruz"
+   },
+   {
+    "title": "Subida del Monte Carmelo"
+   },
+   {
+    "title": "Cántico espiritual"
+   },
+   {
+    "title": "Noche oscura"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. John of the Cross»",
+    "url": "https://www.newadvent.org/cathen/08480a.htm"
+   },
+   {
+    "label": "Wikipedia en español, «Juan de la Cruz» (CC BY-SA 4.0; solo para cotejar datos)",
+    "url": "https://es.wikipedia.org/wiki/Juan_de_la_Cruz"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Fecha de nacimiento: la Catholic Encyclopedia da el 24 de junio de 1542 y sitúa el lugar en «Hontoveros»; otras fuentes dan solo 1542 en Fontiveros. Doctorado de 1926 y patronazgo de 1952 tomados de Wikipedia.",
+  "context": "España del siglo XVI: reforma católica, expansión de la vida mística y tensiones dentro de la Orden del Carmen.",
+  "significance": "Principal maestro de la teología mística; sus poemas figuran entre los más altos de la lírica en lengua española.",
+  "patronages": [
+   "Patrono de los poetas en lengua española (1952, según Wikipedia)"
+  ]
+ },
+ {
+  "id": "pedro-canisio",
+  "name": "San Pedro Canisio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-21",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pedro Canisio, presbítero y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "doctor",
+   "religious"
+  ],
+  "born": {
+   "date": "8 de mayo de 1521",
+   "place": "Nimega (Países Bajos)"
+  },
+  "died": {
+   "date": "21 de diciembre de 1597",
+   "place": "Friburgo (Suiza)"
+  },
+  "century": 16,
+  "countries": [
+   "NL",
+   "DE",
+   "CH"
+  ],
+  "order": "Compañía de Jesús",
+  "canonization": {
+   "date": "21 de mayo de 1925",
+   "by": "Pío XI",
+   "note": "Beatificado en el siglo XIX (1864 o 1869, según la fuente); canonizado y declarado doctor de la Iglesia el mismo día."
+  },
+  "summary": "Jesuita neerlandés, segundo apóstol de Alemania; autor de catecismos de enorme difusión y figura clave de la reforma católica en Centroeuropa. Doctor de la Iglesia.",
+  "biography": "Pieter Kanijs, que latinizó su apellido como Canisius, nació el 8 de mayo de 1521 en Nimega, en los Países Bajos, que entonces pertenecían a la diócesis de Colonia. Estudió en Colonia y obtuvo la maestría en artes. Conoció a Pedro Fabro, primer compañero de Ignacio de Loyola, hizo con él los Ejercicios espirituales y en 1543 ingresó en la Compañía de Jesús, convirtiéndose en el primer jesuita alemán.\n\nTras ser ordenado sacerdote, trabajó en Colonia, donde ayudó a fundar la primera casa de la Compañía en Alemania, y participó como teólogo en el concilio de Trento. Ignacio de Loyola lo envió a Italia y Sicilia, y luego a Ingolstadt, Viena y Praga. En Austria vivió una situación muy difícil: el catolicismo estaba debilitado, con pocos sacerdotes y mucha ignorancia religiosa. Canisio enseñó, predicó, visitó parroquias y dirigió a la Compañía en Alemania superior como provincial.\n\nSu mayor obra es el catecismo. Publicó entre 1555 y 1558 tres versiones: una «Suma de la doctrina cristiana» para los eruditos, otra más breve y una tercera, sencilla, para los niños. Los catecismos de Canisio conocieron más de doscientas ediciones durante su vida y se tradujeron a una docena de lenguas o más. Su método era claro: explicaba la fe católica con ayuda de la Escritura y de los padres, sin ofender a los protestantes, a quienes pedía tratar con respeto y caridad.\n\nEntre 1559 y 1566 fue predicador de la catedral de Augsburgo. Intervino como delegado en los diálogos con los luteranos y fundó colegios jesuitas, entre ellos el de Praga y el de Friburgo, en Suiza, donde pasó sus últimos años. En esa ciudad siguió escribiendo con empeño, a pesar de la enfermedad, hasta que falleció en 1597.\n\nFue beatificado en el siglo XIX y canonizado, con el título de doctor de la Iglesia, por Pío XI en 1925. Su ejemplo muestra que la defensa de la fe puede ir acompañada de caridad en el diálogo, de buena catequesis y de servicio a la gente sencilla. A menudo se le llama «segundo apóstol de Alemania», después de san Bonifacio.",
+  "virtues": [
+   "Celo catequístico",
+   "Caridad en el diálogo",
+   "Laboriosidad"
+  ],
+  "iconography": "Jesuita con catecismo y a veces un perro con una antorcha (símbolo de predicación); con una pluma.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Bl. Peter Canisius»",
+    "url": "https://www.newadvent.org/cathen/11756c.htm"
+   },
+   {
+    "label": "Wikipedia en español, «Pedro Canisio» (CC BY-SA 4.0; solo para cotejar datos)",
+    "url": "https://es.wikipedia.org/wiki/Pedro_Canisio"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "La Catholic Encyclopedia (1908) lo da como beato y fecha su muerte el 21 de noviembre de 1597; la fecha litúrgica (21 de diciembre) y Wikipedia la sitúan el 21 de diciembre. Canonización y doctorado (21-V-1925, Pío XI) tomados de Wikipedia.",
+  "context": "Siglo XVI: Reforma protestante y reforma católica; Concilio de Trento.",
+  "significance": "Su catecismo, con más de doscientas ediciones, formó a generaciones y es modelo de apologética serena.",
+  "patronages": [
+   "Patrono de la prensa católica (según Wikipedia)"
+  ]
+ },
+ {
+  "id": "juan-de-kety",
+  "name": "San Juan de Kety",
+  "fullName": "Juan Cantio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-23",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Juan de Kety, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest"
+  ],
+  "born": {
+   "date": "c. 1390-1412 (las fuentes discrepan)",
+   "place": "Kęty, cerca de Oświęcim (Polonia)"
+  },
+  "died": {
+   "date": "1473 (la tradición lo sitúa en Nochebuena)",
+   "place": "Cracovia"
+  },
+  "century": 15,
+  "countries": [
+   "PL"
+  ],
+  "canonization": {
+   "date": "1767",
+   "by": "Clemente XIII"
+  },
+  "summary": "Sacerdote y profesor de Sagrada Escritura en la Academia de Cracovia, célebre por su humildad y su caridad con los pobres.",
+  "context": "Polonia del siglo XV: la Universidad de Cracovia, centro intelectual de Europa central.",
+  "virtues": [
+   "Humildad",
+   "Caridad con los pobres",
+   "Sabiduría"
+  ],
+  "significance": "Modelo de sacerdote docto y sencillo; es uno de los santos más queridos de Polonia.",
+  "iconography": "Sacerdote con birrete de doctor, a menudo con un libro, ayudando a un pobre o entregando su capa.",
+  "note": "Las fuentes discrepan sobre el año de nacimiento; fecha de muerte exacta no leída en la Catholic Encyclopedia (solo 1473). Una sola fuente.",
+  "biography": "Juan nació en Kęty, cerca de Oświęcim, en la diócesis de Cracovia, en el siglo XV. La Catholic Encyclopedia da como año de nacimiento 1412 o 1403, y otros estudios proponen fechas anteriores. Sus padres, Estanislao y Ana, eran campesinos piadosos. Estudió en la Academia de Cracovia, donde destacó en filosofía y teología, y obtuvo los grados de bachiller, maestro y doctor.\n\nDespués de su ordenación sacerdotal, enseñó filosofía y teología en la Academia. Más tarde ocupó la cátedra de Sagrada Escritura, que mantuvo hasta su muerte. Sus alumnos lo recordaban como un maestro exigente, pero siempre amable, que ayudaba a los estudiantes pobres y que enseñaba con el ejemplo tanto como con la palabra.\n\nEn un momento de su vida sus superiores lo enviaron como párroco a Olkusz, pero Juan, temeroso de la responsabilidad pastoral, dejó pronto el puesto y volvió a la enseñanza. La tradición cuenta episodios de su caridad: repartía entre los pobres su dinero y su ropa, y llegaba a casa sin capa o sin zapatos. Dormía poco y en el suelo, comía con gran moderación y, desde que se doctoró, no comía carne.\n\nHizo una peregrinación a Jerusalén, con el deseo de ser mártir entre los turcos, y cuatro viajes a pie a Roma. En el camino, cuenta la tradición, se mostraba generoso con quienes le salían al paso. Su manera de entender la ciencia, siempre unida a la humildad, era un modelo para los universitarios.\n\nMurió en Cracovia en 1473 y fue enterrado bajo la iglesia de Santa Ana, la iglesia universitaria, donde su tumba se hizo lugar de peregrinación y donde, según los relatos, se multiplicaron los milagros. Fue canonizado por Clemente XIII en 1767. La Catholic Encyclopedia señala que el Breviario Romano le dedicó tres himnos, un honor poco común para un confesor que no fue obispo.\n\nHoy se le recuerda sobre todo como ejemplo de que la ciencia y la santidad pueden ir de la mano. Su vida propone a los creyentes un camino de sabiduría que se pone al servicio de los demás, con una caridad concreta y sin ostentación.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. John Cantius»",
+    "url": "https://www.newadvent.org/cathen/08451b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "unverified": true
+ },
+ {
+  "id": "esteban-protomartir",
+  "name": "San Esteban, protomártir",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-26",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "San Esteban, primer mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "deacon",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo I (sin datos)",
+   "place": "Probablemente judío de lengua griega; lugar desconocido"
+  },
+  "died": {
+   "date": "c. 34-36",
+   "place": "Jerusalén"
+  },
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Uno de los siete diáconos de la Iglesia de Jerusalén, helenista y lleno del Espíritu Santo; fue lapidado hacia los años 34-36 y es el primer mártir cristiano.",
+  "biography": "Esteban aparece por primera vez en el libro de los Hechos de los Apóstoles. Como los creyentes de lengua griega se quejaban de que sus viudas eran desatendidas en el reparto diario, los apóstoles propusieron elegir a siete hombres de buena fama, llenos de Espíritu y de sabiduría, para el servicio de las mesas. Esteban, descrito como «un hombre lleno de fe y de Espíritu Santo» (Hch 6,5), encabeza la lista. Su nombre es griego, lo que sugiere que pertenecía al grupo de los judíos helenistas. Los apóstoles oraron y le impusieron las manos. La tradición cristiana lo considera, por esto, el primero de los diáconos.\n\nHechos cuenta que Esteban hacía prodigios entre el pueblo y discutía en las sinagogas de los judíos de lengua griega. Algunos, incapaces de resistir su sabiduría, buscaron falsos testigos que lo acusaran de hablar contra Moisés, contra Dios, contra el templo y contra la Ley. Fue llevado ante el Sanedrín. En su discurso (Hch 7), repasó la historia de Abrahán, José, Moisés y los profetas para mostrar que Israel había resistido siempre al Espíritu Santo y que el Dios de la historia no se limita a un templo hecho por manos humanas. Terminó acusando a sus oyentes de haber entregado y matado al Justo.\n\nAl declarar que veía los cielos abiertos y «al Hijo del hombre de pie a la derecha de Dios» (Hch 7,56), la asamblea se llenó de furor. Lo sacaron fuera de la ciudad y lo lapidaron. Los testigos dejaron sus mantos a los pies de un joven llamado Saulo, que consentía en su muerte. Esteban murió orando: «Señor Jesús, recibe mi espíritu» y «Señor, no les tengas en cuenta este pecado» (Hch 7,59-60). Estas palabras recuerdan las de Jesús en la cruz.\n\nSu martirio desencadenó una persecución en Jerusalén que dispersó a los discípulos, y así el Evangelio llegó a Judea, Samaría y más allá. Saulo, el testigo, se convertiría en el apóstol Pablo. Los Hechos son la única fuente directa sobre su vida y su muerte; la Catholic Encyclopedia advierte que no está probado que fuera discípulo de Gamaliel.\n\nLa tradición recoge que, en el año 415, un sacerdote llamado Luciano encontró su cuerpo en Cafargamala, y que las reliquias se trasladaron a Jerusalén. Sobre el lugar que se tenía por su sepulcro se levantó una basílica, la de Eudocia, hacia 460. Su fiesta, el 26 de diciembre, junto a la Navidad, expresa que el nacimiento del Señor lleva a la entrega de la vida por él. Esteban enseña a los cristianos a perdonar y a mirar al cielo incluso en la persecución.",
+  "virtues": [
+   "Valentía",
+   "Perdón a los enemigos",
+   "Plenitud del Espíritu"
+  ],
+  "iconography": "Diácono joven con dalmática, piedras y palma del martirio, mirando al cielo.",
+  "works": [],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Stephen»",
+    "url": "https://www.newadvent.org/cathen/14286b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "canonization": {
+   "note": "Santo desde los orígenes del cristianismo; su culto está atestiguado desde la antigüedad."
+  },
+  "context": "Primera comunidad cristiana de Jerusalén, con tensiones entre creyentes hebreos y helenistas.",
+  "significance": "Primer mártir de Cristo; su muerte, imagen de la de Jesús, preparó la misión a los gentiles y la conversión de Pablo."
+ },
+ {
+  "id": "juan-evangelista",
+  "name": "San Juan, apóstol y evangelista",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-27",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "San Juan, apóstol y evangelista",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "evangelist",
+   "mystic"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Galilea (familia de pescadores del lago de Genesaret)"
+  },
+  "died": {
+   "date": "c. 100 (según la tradición)",
+   "place": "Éfeso (según la tradición)"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "TR"
+  ],
+  "summary": "Apóstol, hijo de Zebedeo y hermano de Santiago; «el discípulo a quien amaba Jesús», que estuvo al pie de la cruz. La tradición le atribuye el cuarto Evangelio, tres cartas y el Apocalipsis.",
+  "biography": "Juan era hijo de Zebedeo y de Salomé, y hermano de Santiago el Mayor. Los dos trabajaban como pescadores en el lago de Genesaret, y los evangelios los llaman «Boanerges», «hijos del trueno» (Mc 3,17). Según Juan 1, estuvo antes con Juan el Bautista; Jesús lo llamó junto a su hermano, que dejaron la barca y a su padre para seguirlo (Mt 4,21-22).\n\nJunto con Pedro y Santiago formó parte del grupo más cercano a Jesús: presenció la resurrección de la hija de Jairo, la transfiguración y la oración en Getsemaní. El cuarto Evangelio habla del «discípulo a quien Jesús amaba», que reposó en su pecho en la última cena y que estuvo al pie de la cruz, donde Jesús le encomendó a María (Jn 19,26-27). La tradición identifica a este discípulo con Juan. Tras la resurrección corrió con Pedro al sepulcro, y vio y creyó (Jn 20,8).\n\nTras Pentecostés aparece en Hechos junto a Pedro, en Jerusalén, predicando, curando y enfrentándose al Sanedrín. Pablo lo cita en Gálatas como una de las «columnas» de la Iglesia. Según una antigua tradición de los siglos II y III, vivió después en Éfeso y desde allí dirigió las iglesias de Asia Menor. Fue desterrado a la isla de Patmos «por la palabra de Dios» (Ap 1,9); Eusebio sitúa este destierro bajo el emperador Domiciano (81-96). Tertuliano refiere, como relato antiguo, que en Roma fue arrojado a aceite hirviendo sin sufrir daño. Según esa misma tradición, regresó a Éfeso bajo Trajano y murió allí, ya muy anciano, hacia el año 100.\n\nLa tradición le atribuye cinco escritos: el Evangelio, tres cartas y el Apocalipsis. Los exegetas contemporáneos debaten si el autor fue el apóstol, un discípulo suyo o una comunidad joánica; la Iglesia, por su parte, los acoge como Escritura inspirada. El Evangelio comienza con el himno al Verbo hecho carne, y su mensaje central es que Dios es amor. La primera carta resume la vida cristiana en el amor mutuo, y una tradición antigua cuenta que, ya viejo, repetía a los fieles: «Hijitos, amaos unos a otros».\n\nSu iconografía lo representa con un águila, símbolo de la altura de su teología, y con un cáliz. La fiesta, el 27 de diciembre, se sitúa en la octava de Navidad: Juan es el testigo que «vio y creyó» y anuncia lo que ha contemplado: la Palabra de vida.",
+  "virtues": [
+   "Amor",
+   "Fidelidad al pie de la cruz",
+   "Contemplación"
+  ],
+  "iconography": "Joven imberbe con un águila, cáliz con una serpiente (leyenda) y libro; al pie de la cruz con María.",
+  "works": [
+   {
+    "title": "Evangelio según san Juan"
+   },
+   {
+    "title": "Cartas de Juan"
+   },
+   {
+    "title": "Apocalipsis (atribución tradicional)"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. John the Evangelist»",
+    "url": "https://www.newadvent.org/cathen/08492a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "La tradición identifica a Juan el apóstol con el autor del cuarto Evangelio, de las tres cartas y del Apocalipsis; los estudiosos discuten estas atribuciones. Verificada con una sola fuente, la Catholic Encyclopedia (1910). La frase «Hijitos, amaos unos a otros» es una tradición recogida por Jerónimo, no leída en la fuente.",
+  "significance": "Testigo privilegiado de Cristo; su teología del Verbo hecho carne y del amor fundamenta buena parte de la espiritualidad cristiana.",
+  "context": "Cristianismo primitivo: Palestina, Asia Menor y persecución de Domiciano.",
+  "unverified": true
+ },
+ {
+  "id": "santos-inocentes",
+  "name": "Los santos Inocentes",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-28",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Los Santos Inocentes, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr"
+  ],
+  "born": {
+   "date": "sin datos (finales del siglo I a. C.)",
+   "place": "Belén y sus alrededores"
+  },
+  "died": {
+   "date": "hacia el 6-4 a. C. (el año exacto no puede determinarse)",
+   "place": "Belén"
+  },
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Los niños de Belén asesinados por orden de Herodes, según el Evangelio de Mateo; la Iglesia los venera como mártires desde la antigüedad.",
+  "biography": "Los santos Inocentes son los niños de Belén que, según el Evangelio de Mateo, murieron por orden del rey Herodes. El evangelista cuenta que los magos de Oriente llegaron a Jerusalén preguntando por el rey de los judíos que había nacido, y que Herodes, sintiéndose amenazado, se informó del tiempo en que apareció la estrella. Burlado por los magos, que volvieron a su país por otro camino, «mandó matar a todos los niños de Belén y de sus alrededores, de dos años para abajo» (Mt 2,16). El evangelista ve en esto el cumplimiento de la profecía de Jeremías sobre Raquel, que llora a sus hijos (Jr 31,15).\n\nLa historia no confirma el episodio con otras fuentes: Flavio Josefo, que describe con minuciosidad las crueldades de Herodes, no lo menciona. Esto no basta para negar el hecho: Belén era un pueblo pequeño, de modo que las víctimas pudieron ser pocas, y los autores modernos las calculan en unas pocas decenas como máximo. Las tradiciones posteriores ofrecen cifras muy dispares, de 14 000 en la liturgia griega a 64 000 entre los sirios y 144 000 en autores medievales, que las tomaban del número simbólico del Apocalipsis. La fecha exacta de los hechos no puede determinarse; ocurrieron dentro de los dos años siguientes a la aparición de la estrella.\n\nLa Iglesia los venera como mártires desde muy pronto, aunque no confesaron a Cristo con palabras. San Agustín explica que murieron por Cristo y en lugar de Cristo, y que su sangre dio testimonio sin saberlo. Por eso se les llama «flores de los mártires». Su fiesta, el 28 de diciembre en el rito latino, aparece en el Sacramentario Leoniano hacia el siglo V, y se celebra dentro de la octava de Navidad, no porque coincida con la cronología de los hechos, sino porque une el nacimiento del Salvador con el sufrimiento de los que fueron sacrificados por él. Los griegos la celebran el 29 de diciembre y los sirios el 27.\n\nEn la liturgia romana actual el color de la fiesta es el rojo de los mártires. Antiguamente se empleaba el morado, y se omitían el Gloria y el aleluya, en señal de duelo por los niños que murieron antes de poder alabar a Cristo con sus propios labios.\n\nLa memoria de los Inocentes invita a rezar por los niños que sufren violencia, abandono o muerte injusta en todos los tiempos, y recuerda que Dios los acoge. En muchos países de tradición hispana, el 28 de diciembre es también el «día de los Santos Inocentes», con bromas populares, una costumbre que se ha mezclado con el origen religioso de la fiesta.",
+  "virtues": [
+   "Inocencia"
+  ],
+  "iconography": "Niños muertos, a veces con palmas, ante soldados de Herodes y madres angustiadas.",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Holy Innocents»",
+    "url": "https://www.newadvent.org/cathen/07419a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Mateo 2,16-18 es la única fuente directa; Flavio Josefo no menciona la matanza. El número de víctimas es desconocido (14 000, 64 000 o 144 000 en la tradición; unos pocos en las estimaciones modernas). Verificada con una sola fuente, la Catholic Encyclopedia.",
+  "canonization": {
+   "note": "Mártires de culto antiguo; su fiesta está atestiguada desde el siglo V."
+  },
+  "context": "Reinado de Herodes el Grande, final del siglo I a. C.; nacimiento de Jesús.",
+  "significance": "Primeros que sufrieron muerte a causa de Cristo; su fiesta recuerda a las víctimas de la violencia contra los inocentes."
+ },
+ {
+  "id": "tomas-becket",
+  "name": "Santo Tomás Becket",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-29",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santo Tomás Becket, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr"
+  ],
+  "born": {
+   "date": "c. 1118",
+   "place": "Londres"
+  },
+  "died": {
+   "date": "29 de diciembre de 1170",
+   "place": "Catedral de Canterbury"
+  },
+  "century": 12,
+  "countries": [
+   "GB"
+  ],
+  "canonization": {
+   "date": "1173",
+   "by": "Alejandro III",
+   "note": "La Catholic Encyclopedia da solo el año 1173; la fecha del 21 de febrero de 1173 es la habitual en otras fuentes."
+  },
+  "summary": "Canciller de Enrique II y arzobispo de Canterbury, asesinado en su catedral en 1170 por defender los derechos de la Iglesia frente al poder real.",
+  "biography": "Tomás nació en Londres hacia 1118, hijo de padres normandos. Estudió en París y empezó a trabajar como secretario, hasta que entró en la casa del arzobispo Teobaldo de Canterbury. Fue su clérigo de mayor confianza, recibió el diaconado en 1154 y fue enviado a Roma en misiones importantes.\n\nEl rey Enrique II lo nombró canciller. Durante varios años fue su colaborador más cercano, brillante administrador, hombre de gran tren de vida, amigo y compañero del rey. Cuando murió Teobaldo, Enrique lo propuso como arzobispo en 1162, pensando que sería un aliado dócil. Tomás, que era diácono, se hizo ordenar sacerdote y obispo y, según se cuenta, cambió su vida: abandonó el lujo, practicó la austeridad y se dedicó a defender los derechos de la Iglesia.\n\nEl choque llegó con las Constituciones de Clarendon de 1164, con las que el rey pretendía limitar la jurisdicción de la Iglesia, en particular sometiendo a los clérigos acusados de delitos a los tribunales civiles. Tomás se opuso, y el rey comenzó a hostigarlo con exigencias económicas. Huyó a Francia y pasó unos seis años de exilio, en parte en la abadía cisterciense de Pontigny, con el apoyo del papa Alejandro III.\n\nEn 1170 se logró una reconciliación parcial y Tomás volvió a Inglaterra, pero el conflicto con los obispos que habían colaborado con el rey continuó. Cuatro caballeros del rey viajaron desde Francia hasta Canterbury, y el 29 de diciembre de 1170 lo mataron en la catedral. La tradición refiere que murió con serenidad, entregando su vida por la Iglesia.\n\nAlejandro III lo canonizó en 1173. Enrique II hizo penitencia pública ante su tumba. Su santuario se convirtió en un lugar de peregrinación famoso, descrito por Chaucer en los «Cuentos de Canterbury». En 1538 Enrique VIII ordenó desmantelarlo, y el destino de sus reliquias es incierto.\n\nEl caso de Tomás Becket muestra la dificultad de la libertad de la Iglesia frente al poder político y la fuerza de la conversión: de un hombre mundano surgió un pastor dispuesto a morir por su fe. La liturgia lo recuerda el 29 de diciembre, en la octava de Navidad, con memoria libre. Su historia ha inspirado numerosas obras literarias y teatrales, y sigue siendo un referente de conciencia ante el poder.",
+  "virtues": [
+   "Fortaleza",
+   "Conversión",
+   "Defensa de la libertad de la Iglesia"
+  ],
+  "iconography": "Arzobispo con palio y mitra, con una espada clavada en la cabeza y un libro.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Thomas Becket»",
+    "url": "https://www.newadvent.org/cathen/14676a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "context": "Inglaterra del siglo XII: disputas entre la corona y la Iglesia sobre jurisdicción eclesiástica.",
+  "significance": "Símbolo de la libertad de la Iglesia frente al poder civil; su santuario fue uno de los principales destinos de peregrinación en la Edad Media."
+ },
+ {
+  "id": "silvestre-i",
+  "name": "San Silvestre I",
+  "fullName": "Silvestre, papa",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "12-31",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Silvestre I, papa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "pope"
+  ],
+  "born": {
+   "date": "fecha desconocida",
+   "place": "Roma"
+  },
+  "died": {
+   "date": "31 de diciembre de 335",
+   "place": "Roma"
+  },
+  "century": 4,
+  "countries": [
+   "IT"
+  ],
+  "canonization": {
+   "note": "Santo de culto antiguo, anterior a los procesos formales."
+  },
+  "summary": "Papa de 314 a 335, durante el reinado de Constantino, cuando la Iglesia obtuvo libertad y se construyeron las grandes basílicas romanas.",
+  "context": "Siglo IV: fin de las persecuciones, paz constantiniana y concilio de Nicea (325).",
+  "virtues": [
+   "Prudencia",
+   "Fidelidad en la comunión de la Iglesia"
+  ],
+  "significance": "Su pontificado coincide con la transición de la Iglesia perseguida a la Iglesia reconocida por el Imperio.",
+  "iconography": "Papa con tiara, a veces con un toro o un dragón a sus pies (leyenda) y con Constantino a su lado.",
+  "note": "Muchas historias sobre su vida son legendarias (bautismo de Constantino, Donación de Constantino); solo consta lo recogido por la Catholic Encyclopedia.",
+  "biography": "Silvestre fue obispo de Roma durante veintiún años, entre 314 y 335, después de Milcíades. Su pontificado coincidió con el del emperador Constantino y con un cambio decisivo para la Iglesia, que dejó de ser perseguida y empezó a gozar de libertad y apoyo imperial. De su vida personal se sabe poco: se desconoce la fecha de su nacimiento y el Liber pontificalis lo presenta como hijo de un romano llamado Rufino.\n\nLas historias que lo conectan con Constantino pertenecen a la leyenda. Se cuenta que el emperador, enfermo de lepra, fue curado y bautizado por Silvestre, y que luego donó al papa la ciudad de Roma. Estas narraciones se difundieron por obras apócrifas, como el «Constitutum Sylvestri» y la «Donación de Constantino», un documento falso que se utilizó durante siglos en la Edad Media. Hoy se consideran legendarias y no históricas.\n\nLo que sí consta es que Silvestre participó en las negociaciones sobre el arrianismo, que desembocaron en el concilio de Nicea de 325. No asistió personalmente, pero envió legados que lo representaron, y probablemente se acordó con él, antes de la reunión, el término «homoousios» para expresar la fe en la divinidad del Hijo.\n\nDurante su pontificado, y por iniciativa de Constantino, se levantaron algunos de los primeros grandes templos de la ciudad: la basílica de San Juan de Letrán con su baptisterio, la de la Santa Cruz de Jerusalén, y la basílica de San Pedro en el Vaticano. Esto transformó la imagen pública del cristianismo en Roma. A Silvestre se le atribuyen también, de modo no seguro, algunas aportaciones al desarrollo litúrgico y a la escuela de canto de Roma.\n\nMurió el 31 de diciembre de 335 y fue enterrado en una iglesia que él mismo había construido sobre las catacumbas de Priscila, en la Vía Salaria. Su culto es antiguo, y su fiesta se fijó en el día de su muerte. En muchos países de Europa y América, el 31 de diciembre se llama «San Silvestre» y da nombre a las fiestas de fin de año, de modo que la memoria del papa se une, por casualidad calendaria, al cierre del año civil.\n\nSu figura recuerda que las grandes transformaciones históricas pueden ofrecer a la Iglesia oportunidades y riesgos, y que la fidelidad pastoral consiste en servir a la unidad de la fe en medio de ellas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Pope St. Sylvester I»",
+    "url": "https://www.newadvent.org/cathen/14370a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (rangos de las celebraciones de diciembre)",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "unverified": true
+ }
+]

@@ -4,14 +4,32 @@ import { usePrayerCatalog } from '@/hooks/usePrayers';
 import { itemHref } from '@/lib/prayers/catalog';
 import { useFavorites } from '@/lib/prayers/favorites';
 import { NATURE_LABEL } from '@bc/shared';
+import Link from 'next/link';
+import { HeartIcon } from '../Icons';
 import { ArtCard, Rail, Section } from '../ui';
 
-export function FavoritePrayers() {
+/**
+ * `home`: versión para Inicio («Tus oraciones favoritas»); si aún no hay favoritas,
+ * muestra una pista breve para añadirlas con el corazón.
+ */
+export function FavoritePrayers({ home = false }: { home?: boolean }) {
   const favs = useFavorites();
   const cat = usePrayerCatalog().data;
-  if (!favs?.length) return null;
+  if (favs === undefined) return null;
+  if (!favs.length) {
+    if (!home) return null;
+    return (
+      <Link href="/oraciones/" className="tap card-soft mb-8 flex items-center gap-3">
+        <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-sunken text-accent"><HeartIcon /></span>
+        <span className="min-w-0">
+          <span className="block text-[15px] font-semibold">Tus oraciones favoritas, aquí</span>
+          <span className="mt-0.5 block text-[13px] text-muted">Toca el corazón en cualquier oración, novena o misterio y aparecerá en Inicio.</span>
+        </span>
+      </Link>
+    );
+  }
   return (
-    <Section title="Tus favoritas">
+    <Section title={home ? 'Tus oraciones favoritas' : 'Tus favoritas'}>
       <Rail>
         {favs.map((f) => {
           const [kind, id = ''] = f.key.split(':');

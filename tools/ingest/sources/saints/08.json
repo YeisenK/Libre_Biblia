@@ -1,0 +1,1602 @@
+[
+ {
+  "id": "alfonso-maria-de-ligorio",
+  "name": "San Alfonso María de Ligorio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-01",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Alfonso María de Ligorio, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "founder",
+   "priest"
+  ],
+  "born": {
+   "date": "27 de septiembre de 1696",
+   "place": "Marianella (Nápoles)"
+  },
+  "died": {
+   "date": "1 de agosto de 1787",
+   "place": "Pagani (Salerno)"
+  },
+  "century": 18,
+  "countries": [
+   "IT"
+  ],
+  "order": "Congregación del Santísimo Redentor (redentoristas)",
+  "canonization": {
+   "date": "26 de mayo de 1839",
+   "by": "Gregorio XVI",
+   "note": "Doctor de la Iglesia desde 1871 (Pío IX)."
+  },
+  "summary": "Abogado napolitano que dejó los tribunales por el sacerdocio, fundó los redentoristas, escribió una influyente teología moral y fue obispo de Sant'Agata de' Goti; doctor de la Iglesia desde 1871.",
+  "biography": "Alfonso María de Ligorio nació el 27 de septiembre de 1696 en Marianella, cerca de Nápoles, en una familia noble aunque no rica: su padre era oficial de la marina real y su madre, de ascendencia española. Se formó con preceptores en casa y se doctoró en derecho civil y canónico en 1713, siendo aún un adolescente. Durante unos ocho años fue uno de los abogados más brillantes de Nápoles.\n\nEn 1723 perdió un pleito importante por haber pasado por alto un documento decisivo. Aquel fracaso lo llevó a retirarse de los tribunales y a buscar la voluntad de Dios. Según su propio relato, el 28 de agosto de 1723, mientras visitaba a los enfermos del Hospital de los Incurables, sintió una llamada interior a dejar el mundo y se consagró a Dios ante una imagen de la Virgen. Su padre se opuso con dureza y finalmente se llegó a un compromiso: sería sacerdote viviendo en casa. Fue ordenado presbítero el 21 de diciembre de 1726.\n\nDurante varios años predicó misiones populares en los alrededores de Nápoles y organizó entre los más pobres las llamadas «Capillas», asociaciones de oración y formación. Se dio cuenta de que el campo abandonado, sin párrocos ni catequesis, necesitaba misioneros estables. Tras conocer a Tomás Falcoia y colaborar con la religiosa Maria Celeste Crostarosa en Scala, fundó el 9 de noviembre de 1732 la Congregación del Santísimo Redentor, destinada a predicar a los pobres. Los comienzos fueron difíciles: hubo deserciones y recelos, y la aprobación pontificia de la regla llegó en 1749.\n\nSu obra escrita es inmensa. Las «Visitas al Santísimo Sacramento» (1744-1745) alcanzaron gran difusión, y «Las glorias de María» expresó su devoción mariana. Su obra mayor, la «Theologia moralis» (desde 1753), defendía el equiprobabilismo, una vía media entre el rigorismo y el laxismo, y buscaba que el confesor fuera a la vez médico y padre. Escribió también sobre la oración, entre otros títulos «El gran medio de la oración», e incluso himnos y canciones populares.\n\nEn 1762, por obediencia al papa, aceptó a regañadientes la diócesis de Sant'Agata de' Goti, pequeña y abandonada. Reformó el clero, el seminario y los conventos y socorrió a los pobres durante una carestía. Una grave enfermedad (1768-1769) le dejó el cuello encorvado y parcialmente paralizado. Obtuvo permiso para renunciar en 1775 y se retiró a Pagani, donde pasó sus últimos años, atormentado además por los conflictos con el gobierno borbónico de Nápoles, que impuso en 1780 un reglamento que dividió a la congregación. Murió el 1 de agosto de 1787, a casi noventa y un años.\n\nFue declarado venerable en 1796, beatificado en 1816 y canonizado en 1839; Pío IX lo proclamó doctor de la Iglesia en 1871. Su enseñanza insiste en que la salvación es accesible a todos, en la confianza en la misericordia de Dios y en el valor de la oración como medio necesario para salvarse.",
+  "virtues": [
+   "Celo pastoral",
+   "Pobreza",
+   "Misericordia con los pecadores",
+   "Oración"
+  ],
+  "iconography": "Obispo con mitra y libro, la cabeza inclinada por la artritis, y un crucifijo; a veces con un libro de moral.",
+  "works": [
+   {
+    "title": "Las glorias de María"
+   },
+   {
+    "title": "Visitas al Santísimo Sacramento"
+   },
+   {
+    "title": "Theologia moralis"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Alphonsus Liguori, Saint»",
+    "url": "https://www.newadvent.org/cathen/01334a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Nápoles borbónico del siglo XVIII, con abundancia de pobres sin atención pastoral y tensión entre el rigorismo y el laxismo en la moral.",
+  "significance": "Su teología moral, equilibrada y pastoral, influyó en la práctica del confesonario durante siglos; fundó una congregación dedicada a los más abandonados."
+ },
+ {
+  "id": "eusebio-de-vercelli",
+  "name": "San Eusebio de Vercelli",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-02",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Eusebio de Vercelli, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "pastor"
+  ],
+  "born": {
+   "date": "c. 283 (según la Catholic Encyclopedia)",
+   "place": "Cerdeña"
+  },
+  "died": {
+   "date": "1 de agosto de 371",
+   "place": "Vercelli"
+  },
+  "century": 4,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Primer obispo de Vercelli, defensor de la fe de Nicea frente al arrianismo, desterrado por Constancio II y promotor de la vida común del clero.",
+  "biography": "Eusebio nació, según la Catholic Encyclopedia, hacia el año 283 en Cerdeña. Vivió en Roma, donde fue lector de la Iglesia romana, y probablemente formó parte de una comunidad religiosa o la dirigió. Hacia el año 340, el clero y el pueblo de Vercelli, en el Piamonte, lo eligieron por unanimidad obispo, y el papa Julio I lo consagró el 15 de diciembre de ese año según el mismo estudio. Se le considera el primer obispo de Vercelli.\n\nSu aportación más característica fue unir la vida del clero con la de los monjes: organizó a sus presbíteros en una comunidad que vivía en común, a imitación de los cenobios orientales, y san Ambrosio lo recordó como el primero en Occidente que reunió la vida monástica y la clerical. Por eso los canónigos regulares lo veneran como uno de sus inspiradores.\n\nLa controversia arriana marcó su vida. El papa Liberio lo envió, junto con el obispo Lucifer de Cagliari, ante el emperador Constancio II para pedir un concilio que resolviera la querella. En el sínodo de Milán del año 355, los obispos de tendencia arriana exigieron la condena de Atanasio de Alejandría. Eusebio, que había intentado evitar esa reunión, protestó y se negó a firmar. Las amenazas imperiales no lo hicieron cambiar y fue desterrado: estuvo en Escitópolis, en Siria, donde el obispo arriano Patrófilo lo trató con dureza, luego en Capadocia y finalmente en la Tebaida.\n\nCuando el emperador Juliano permitió el regreso de los obispos desterrados en 362, Eusebio participó en el sínodo de Alejandría junto con Atanasio. Allí se afirmó la divinidad del Espíritu Santo y la doctrina ortodoxa sobre la encarnación, y se adoptó una actitud benévola con los obispos arrianos que se arrepintieran. Pasó después por Antioquía, donde intentó reconciliar a eustacianos y melecianos; pero Lucifer de Cagliari había consagrado obispo a Paulino, jefe de los primeros, y eso hizo imposible el acuerdo. Recorrió otras iglesias orientales, pasó por Ilírico y regresó a Vercelli en 363.\n\nEn Occidente colaboró con Hilario de Poitiers en la lucha contra el arrianismo y se enfrentó a Auxencio, obispo arriano de Milán. Se conservan de él tres cartas breves. Se cree que el «Codex Vercellensis», el manuscrito más antiguo de los evangelios en latín antiguo, que se guarda en la catedral de Vercelli, fue escrito por él, aunque es una atribución sin certeza. Murió en Vercelli el 1 de agosto del año 371.\n\nEn el calendario romano se celebra el 2 de agosto, como memoria libre. Su vida enseña la firmeza en la fe incluso a costa del destierro y el valor de una vida común del clero.",
+  "virtues": [
+   "Fidelidad a la fe de Nicea",
+   "Firmeza en el destierro",
+   "Vida común"
+  ],
+  "context": "Controversia arriana y política religiosa del emperador Constancio II en el siglo IV.",
+  "significance": "Ejemplo de obispo confesor de la fe y precursor de la vida común del clero diocesano.",
+  "iconography": "Obispo con mitra y báculo, a veces con un códice del evangelio.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Eusebius (of Vercelli)»",
+    "url": "https://www.newadvent.org/cathen/05614b.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Las fechas de nacimiento (c. 283) y consagración (340) son las que da la Catholic Encyclopedia; la investigación moderna suele situar su consagración hacia 345 y es dudosa su fecha de nacimiento.",
+  "unverified": true
+ },
+ {
+  "id": "pedro-julian-eymard",
+  "name": "San Pedro Julián Eymard",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-02",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pedro Julián Eymard, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder"
+  ],
+  "born": {
+   "date": "4 de febrero de 1811",
+   "place": "La Mure d'Isère (Francia)"
+  },
+  "died": {
+   "date": "1 de agosto de 1868",
+   "place": "La Mure d'Isère (Francia)"
+  },
+  "century": 19,
+  "countries": [
+   "FR"
+  ],
+  "order": "Congregación del Santísimo Sacramento (sacramentinos)",
+  "canonization": {
+   "date": "9 de diciembre de 1962",
+   "by": "Juan XXIII",
+   "note": "Beatificado en 1925 por Pío XI."
+  },
+  "summary": "Sacerdote francés, antes marista, fundador de los sacramentinos y de las servidoras del Santísimo Sacramento, apóstol de la adoración eucarística.",
+  "biography": "Pierre-Julien Eymard nació el 4 de febrero de 1811 en La Mure d'Isère, en la diócesis de Grenoble, en una familia sencilla. Desde niño manifestó una devoción especial al Santísimo Sacramento, que marcaría toda su vida. En 1829 entró en el noviciado de los Oblatos de María, pero la enfermedad lo obligó a regresar a casa. Después ingresó en el seminario mayor de Grenoble y fue ordenado sacerdote el 20 de julio de 1834.\n\nTrabajó como sacerdote diocesano y en 1839 volvió al noviciado de los maristas, la Sociedad de María, en la que sirvió muchos años: llegó a ser provincial en 1845. Su predicación, su dirección espiritual y su oración tenían como centro la Eucaristía, y orientaba a quienes dirigía hacia el sacramento del altar, convencido de que Cristo vivo en el sagrario debía ser conocido y adorado.\n\nEn enero de 1851, en una peregrinación al santuario de Nuestra Señora de Fourvière, en Lyon, prometió a María que fundaría una congregación de sacerdotes dedicados principalmente a honrar el Santísimo Sacramento. Obtuvo el permiso eclesiástico necesario y abrió una pequeña casa en París con un compañero. El 6 de enero de 1857 se expuso allí el Santísimo y esa comunidad de dos personas inició la adoración. En 1857 Pío IX bendijo y alabó la obra con un breve; hacia 1862 se abrió un noviciado regular, y la congregación se difundió por Roma, Bélgica, Holanda, España, Canadá, Estados Unidos y América del Sur.\n\nEn 1858 fundó además a las Servidoras del Santísimo Sacramento, una rama contemplativa femenina que mantiene la adoración perpetua. Impulsó la Liga Eucarística Sacerdotal y la Archicofradía del Santísimo Sacramento. Sus escritos, reunidos en cuatro volúmenes, incluyen «La presencia real», «La santa comunión», «Retiro a los pies de Jesús eucarístico» y «La Eucaristía y la perfección cristiana». Subrayan que la adoración es una forma de amistad con Cristo y de servicio a la Iglesia.\n\nMurió en La Mure el 1 de agosto de 1868. Fue declarado venerable en 1908; fue beatificado en 1925 y Juan XXIII lo canonizó el 9 de diciembre de 1962, al comienzo del Concilio Vaticano II, junto con Antonio María Pucci y Francisco María de Camporosso. Su memoria se celebra el 2 de agosto. Su legado es la espiritualidad eucarística: la Eucaristía como fuente de la vida cristiana y como centro de la misión.",
+  "virtues": [
+   "Devoción eucarística",
+   "Celo apostólico",
+   "Perseverancia"
+  ],
+  "context": "Renovación eucarística en la Francia del siglo XIX, tras la Revolución.",
+  "significance": "Impulsor de la adoración eucarística perpetua y de la comunión frecuente.",
+  "iconography": "Sacerdote con una custodia o una hostia en las manos.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Venerable Pierre-Julien Eymard»",
+    "url": "https://www.newadvent.org/cathen/05735b.htm"
+   },
+   {
+    "label": "Juan XXIII, homilía en la canonización de Pedro Julián Eymard, Antonio María Pucci y Francisco María de Camporosso (9-XII-1962)",
+    "url": "https://www.vatican.va/content/john-xxiii/es/homilies/1962/documents/hf_j-xxiii_hom_19621209_canonizzazione-santi.pdf"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La Catholic Encyclopedia (1909) es anterior a su beatificación; las fechas de 1925 y 1962 proceden de la búsqueda en vatican.va; el PDF de la homilía no pudo leerse como texto.",
+  "unverified": true
+ },
+ {
+  "id": "juan-maria-vianney",
+  "name": "San Juan María Vianney",
+  "fullName": "el Cura de Ars",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-04",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Juan María Vianney, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "pastor"
+  ],
+  "born": {
+   "date": "8 de mayo de 1786",
+   "place": "Dardilly (Lyon)"
+  },
+  "died": {
+   "date": "4 de agosto de 1859",
+   "place": "Ars-sur-Formans"
+  },
+  "century": 19,
+  "countries": [
+   "FR"
+  ],
+  "canonization": {
+   "date": "31 de mayo de 1925",
+   "by": "Pío XI"
+  },
+  "summary": "Párroco de Ars durante cuarenta años, confesor incansable que atrajo a multitudes y fue propuesto como modelo del clero parroquial.",
+  "biography": "Jean-Baptiste-Marie Vianney nació el 8 de mayo de 1786 en Dardilly, cerca de Lyon, en una familia campesina. Su infancia transcurrió durante la Revolución francesa, cuando los sacerdotes fieles eran perseguidos y la misa se celebraba a escondidas. Hizo su primera comunión en esas condiciones y sintió pronto el deseo de ser sacerdote, aunque su escasa instrucción retrasó mucho su camino.\n\nEn 1806 entró en la escuela del abate Balley, párroco de Ecully, que lo acompañó con paciencia. El latín le resultaba especialmente difícil, de modo que en el seminario de Verrières tuvo que seguir en francés los cursos de filosofía y fracasó en un primer examen, aunque lo aprobó tres meses más tarde. Su vocación quedó además interrumpida por la conscripción napoleónica: al retirarse la exención a los seminaristas, fue llamado a filas. Perdió la partida de su regimiento, se ocultó durante unos catorce meses en la aldea de Les Noës bajo un nombre falso y trabajó como maestro, hasta que su situación se regularizó con una amnistía y la sustitución de su hermano menor.\n\nFue ordenado sacerdote el 13 de agosto de 1815 y fue vicario de Balley en Ecully. A la muerte de éste, en 1818, fue enviado como párroco a Ars, pequeña aldea cercana a Lyon, donde la práctica religiosa era escasa. Con su predicación sencilla, su oración y una vida de grandes penitencias, ayunos y pobre alimentación, transformó poco a poco la parroquia. Fundó «La Providencia», un hogar para niñas pobres, que debió cerrar en 1847 entre dificultades y que le costó mucho dolor. Daba catequesis diaria y su lenguaje, lleno de imágenes concretas, llegaba a todos.\n\nCon los años, la fama de su discernimiento y de su bondad como confesor atrajo a peregrinos de toda Francia y de otros países: hacia 1855 se calculaban unas veinte mil personas al año. En sus últimos años pasaba entre dieciséis y dieciocho horas diarias en el confesonario. Se le atribuyen además curaciones y un conocimiento sobrenatural de las conciencias, aunque su verdadero milagro, decía la gente, era la conversión de tantos penitentes. Las fuentes recogen su humildad: pensó varias veces en retirarse a la soledad, por sentirse indigno del ministerio.\n\nMurió el 4 de agosto de 1859, a los setenta y tres años. Fue declarado venerable en 1874, beatificado en 1905 por Pío X, que lo propuso como modelo para el clero, y canonizado por Pío XI en 1925. Su ejemplo recuerda que la santidad del sacerdote se juega en la fidelidad cotidiana: la oración, la confesión, la catequesis y la caridad con los pobres.",
+  "virtues": [
+   "Penitencia",
+   "Celo pastoral",
+   "Humildad",
+   "Oración"
+  ],
+  "iconography": "Sacerdote con sotana y bonete, estola y breviario; con el confesonario.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Jean-Baptiste-Marie Vianney, Saint»",
+    "url": "https://www.newadvent.org/cathen/08326c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Francia posterior a la Revolución, con parroquias descristianizadas y escasez de clero formado.",
+  "significance": "Modelo de ministerio sacerdotal centrado en la confesión y la catequesis; propuesto por los papas como ejemplo para el clero diocesano."
+ },
+ {
+  "id": "dedicacion-santa-maria-la-mayor",
+  "name": "Dedicación de la Basílica de Santa María la Mayor",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "08-05",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Dedicación de la basílica de Santa María la Mayor",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "century": 5,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Memoria de la dedicación de la basílica mariana más antigua de Occidente, en el monte Esquilino de Roma.",
+  "biography": "La memoria del 5 de agosto conmemora la dedicación de la basílica de Santa María la Mayor, en el monte Esquilino de Roma. Es la más antigua de las iglesias de Occidente dedicadas a la Virgen y una de las cuatro basílicas mayores.\n\nSegún la Catholic Encyclopedia, el papa Liberio (352-366) edificó el templo original, que se llamó «Basílica Liberiana». El papa Sixto III (432-440) la restauró y la dedicó a la Virgen María, tras el concilio de Éfeso (431), que había proclamado a María «Madre de Dios». Desde el siglo VII se la llamó también «Santa María del Pesebre» (ad Praesepe), porque custodia reliquias de la cuna del Señor en una cripta de la Natividad.\n\nMás tarde surgió la leyenda de la nieve: un patricio romano sin hijos y su esposa habrían prometido sus bienes a la Virgen, y el 5 de agosto cayó nieve en el Esquilino, señalando el lugar donde debía levantarse la iglesia. De ahí el título «Santa María de las Nieves» (ad Nives). La propia Catholic Encyclopedia advierte que esta leyenda parece carecer de base histórica: ninguna fuente antigua la menciona, ni siquiera la inscripción de Sixto III. En 1741, una comisión nombrada por Benedicto XIV propuso quitarla del Oficio y restablecer el nombre original, «Dedicación de Santa María».\n\nLa fiesta empezó en la propia basílica, se extendió a las iglesias de Roma en el siglo XIV y fue hecha universal por san Pío V. Clemente VIII elevó su rango. En la reforma litúrgica posterior al Concilio Vaticano II quedó como memoria libre, con el título actual de «Dedicación de la basílica de Santa María la Mayor».\n\nLa basílica ha sido enriquecida a lo largo de los siglos: se atribuye a Alejandro VI el artesonado del techo y Sixto V levantó la capilla del Pesebre, la del Sacramento, y un obelisco. Contiene también el icono mariano «Salus Populi Romani». Es un lugar de peregrinación mariana y, para los papas modernos, un santuario al que acuden antes y después de sus viajes.\n\nLa celebración recuerda que el culto a María se enraíza en la fe de Éfeso: la Virgen es Madre de Dios porque su Hijo es verdadero Dios y verdadero hombre.",
+  "significance": "Basílica mariana por excelencia de Occidente; recuerda la proclamación de María como Madre de Dios.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «Our Lady of the Snow»",
+    "url": "https://www.newadvent.org/cathen/11361c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "El artículo leído no menciona el concilio de Éfeso: ese vínculo es una asociación histórica habitual (Sixto III dedicó la basílica poco después del 431).",
+  "unverified": true
+ },
+ {
+  "id": "cayetano-de-thiene",
+  "name": "San Cayetano",
+  "fullName": "Gaetano dei Conti di Thiene",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-07",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Cayetano, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "religious"
+  ],
+  "born": {
+   "date": "octubre de 1480",
+   "place": "Vicenza"
+  },
+  "died": {
+   "date": "7 de agosto de 1547",
+   "place": "Nápoles"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Clérigos regulares (teatinos)",
+  "canonization": {
+   "date": "12 de abril de 1671",
+   "by": "Clemente X",
+   "note": "Beatificado en 1629 por Urbano VIII."
+  },
+  "summary": "Jurista vicentino y sacerdote, cofundador de los teatinos y uno de los impulsores de la reforma católica del siglo XVI.",
+  "biography": "Gaetano de Thiene nació en octubre de 1480 en Vicenza, entonces territorio de la República de Venecia, en una familia noble. Estudió derecho en Padua, donde se doctoró en derecho civil y canónico antes de cumplir veinticuatro años. Hacia 1506 pasó a Roma como protonotario apostólico bajo Julio II, y ayudó a reconciliar a la República de Venecia con aquel papa.\n\nEn el ambiente de la Roma renacentista, rica en cultura pero necesitada de reforma, se vinculó al Oratorio del Divino Amor, una asociación de sacerdotes y laicos piadosos que buscaban renovar la vida cristiana por la oración, los sacramentos y las obras de caridad. Fue ordenado sacerdote en 1516. Después de la muerte de su madre, en 1517 fundó en Vicenza un hospital para incurables, y su dedicación a los enfermos fue constante.\n\nEn 1523, con cuatro compañeros, fundó en Roma una congregación de clérigos regulares: sacerdotes que vivían en pobreza, sin pedir limosna y confiados en la Providencia, y que se dedicaban a la predicación, los sacramentos y la reforma del clero. Clemente VII la aprobó en 1524. Uno de los cofundadores fue Giovanni Pietro Carafa, obispo de Chieti (Teate en latín), que fue el primer superior y que sería más tarde el papa Pablo IV; de ahí el nombre de «teatinos».\n\nEn 1527, durante el saqueo de Roma, los doce teatinos fueron maltratados por los invasores y huyeron a Venecia. Allí ayudó a san Jerónimo Emiliani en la fundación de los somascos. En 1533 abrió una casa en Nápoles, para contrarrestar la difusión del luteranismo con una renovación espiritual, y pasó allí sus últimos años, aunque volvió a Venecia en 1540 y extendió la obra a Verona y a Vicenza. Fue un hombre de gran austeridad y de enorme atención a los pobres; la devoción popular lo asocia con la ayuda a quienes necesitan pan y trabajo, aunque esos patronazgos populares no figuran en las fuentes leídas.\n\nMurió en Nápoles el 7 de agosto de 1547. Urbano VIII lo beatificó en 1629 y Clemente X lo canonizó en 1671. Su espiritualidad insiste en que la reforma de la Iglesia comienza por la santidad del clero y por la caridad concreta hacia los necesitados.",
+  "virtues": [
+   "Pobreza",
+   "Caridad con los enfermos",
+   "Confianza en la Providencia"
+  ],
+  "context": "Reforma católica en la Italia del Renacimiento y reacción ante el saqueo de Roma y el luteranismo.",
+  "significance": "Cofundador de los teatinos, que formaron a un clero reformado en el siglo XVI.",
+  "iconography": "Sacerdote con el niño Jesús en brazos, recibido de la Virgen, y con una azucena.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Cajetan»",
+    "url": "https://www.newadvent.org/cathen/03145a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "El artículo leído da la fecha de canonización como 1671 sin día; el día (12 de abril) no fue cotejado y debe tratarse como provisional.",
+  "unverified": true
+ },
+ {
+  "id": "sixto-ii-y-companeros",
+  "name": "San Sixto II y compañeros",
+  "fullName": "Sixto II, papa, y compañeros mártires",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-07",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Sixto II, papa, y compañeros, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "pope",
+   "martyr"
+  ],
+  "born": {
+   "date": "origen desconocido",
+   "place": "Roma (?)"
+  },
+  "died": {
+   "date": "6 de agosto de 258",
+   "place": "Cementerio de Pretextato, Roma"
+  },
+  "century": 3,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Papa elegido en 257, sorprendido por los soldados mientras hablaba a los fieles en el cementerio de Pretextato y martirizado el 6 de agosto de 258 con cuatro diáconos.",
+  "biography": "Sixto II fue elegido papa el 31 de agosto del año 257, en tiempos de la persecución de Valeriano. Su origen es desconocido: el «Liber Pontificalis» lo llama griego, pero la Catholic Encyclopedia considera que se trata probablemente de una confusión con un filósofo del mismo nombre.\n\nSucedió a Esteban I, bajo cuyo pontificado Roma había chocado con las iglesias de África y de Asia Menor a causa del rebautismo de los herejes. Sixto fue más conciliador, un «sacerdote bueno y pacífico», como lo describe el diácono Poncio, y restableció las relaciones amistosas, aunque mantuvo la práctica romana de no rebautizar a los que ya habían sido bautizados por herejes. Gracias a su actitud se evitó una ruptura entre las Iglesias.\n\nEn el verano del 258 el emperador Valeriano publicó un nuevo edicto, más severo, que ordenaba ejecutar a obispos, presbíteros y diáconos. San Cipriano de Cartago lo conoce y lo cita. El 6 de agosto, mientras Sixto estaba sentado en el cementerio de Pretextato, en la vía Apia, dirigiéndose a su comunidad, los soldados lo apresaron. No se sabe con certeza si fue ejecutado en el acto o después de un juicio sumario; los estudiosos se inclinan por lo segundo. Murieron con él cuatro diáconos: Jenaro, Vicente, Magno y Esteban; otros dos diáconos, Felicísimo y Agapito, fueron martirizados el mismo día.\n\nLa tradición posterior, recogida por san Ambrosio y por el poeta Prudencio, cuenta que Lorenzo, su archidiácono, se encontró con Sixto camino del martirio y le dijo: «¿Adónde vas, padre, sin tu hijo?», a lo que el papa le respondió que lo seguiría al cabo de tres días. La Catholic Encyclopedia lo considera probablemente una leyenda, tomada de unas Actas poco fiables. Su cuerpo fue trasladado a la cripta de los papas del cementerio de Calixto, donde el papa Dámaso hizo grabar una inscripción en su honor.\n\nSixto II es, además, uno de los santos nombrados en el Canon Romano. Su celebración, junto con la de sus cuatro compañeros, aparece el 7 de agosto en el calendario actual, para dejar libre el día 6, dedicado a la Transfiguración del Señor; antes se celebraba el 6 de agosto, día de su muerte. Su ejemplo es el de un pastor que no abandona a su rebaño ante la muerte.",
+  "virtues": [
+   "Fortaleza",
+   "Espíritu de paz",
+   "Fidelidad al rebaño"
+  ],
+  "context": "Persecución de Valeriano (257-260) y controversia sobre el rebautismo de los herejes.",
+  "significance": "Papa mártir mencionado en el Canon Romano; ejemplo de pastor fiel hasta la muerte.",
+  "iconography": "Papa con tiara y palma, a veces con la espada del martirio, junto a Lorenzo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Pope St. Sixtus II»",
+    "url": "https://www.newadvent.org/cathen/14031c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La mención en el Canon Romano es conocimiento general, no figura en la fuente leída."
+ },
+ {
+  "id": "domingo-de-guzman",
+  "name": "Santo Domingo de Guzmán",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-08",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santo Domingo, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 1170",
+   "place": "Caleruega (Burgos)"
+  },
+  "died": {
+   "date": "6 de agosto de 1221",
+   "place": "Bolonia"
+  },
+  "century": 13,
+  "countries": [
+   "ES",
+   "FR",
+   "IT"
+  ],
+  "order": "Orden de Predicadores",
+  "canonization": {
+   "date": "3 de julio de 1234",
+   "by": "Gregorio IX",
+   "note": "La Catholic Encyclopedia da 13 de julio de 1234 para la bula; la proclamación se fecha el 3 de julio en Rieti."
+  },
+  "summary": "Canónigo castellano que, al ver la herejía albigense, fundó la Orden de Predicadores para unir estudio, pobreza y predicación del Evangelio.",
+  "biography": "Domingo de Guzmán nació hacia 1170 en Caleruega, en Castilla, hijo de Félix de Guzmán y de Juana de Aza; dos de sus hermanos también fueron religiosos o sacerdotes. Desde 1184 estudió en Palencia durante unos diez años. La tradición cuenta que, durante una hambruna, vendió sus libros anotados para socorrer a los pobres, y que se ofreció a venderse como esclavo para rescatar a un cautivo; son relatos antiguos de su caridad, transmitidos por sus primeros biógrafos.\n\nHacia 1196 fue llamado por el obispo Martín de Bazán al cabildo de Osma, para colaborar en su reforma. Fue subprior y, desde 1201, prior bajo el obispo Diego de Acebes. En 1203 acompañó a Diego en una misión diplomática al norte de Europa y, al pasar por Toulouse, comprobó los estragos de la herejía cátara o albigense. De esa experiencia nació la idea de una predicación itinerante, pobre y bien fundada en la doctrina, capaz de convencer a los herejes por la palabra y el ejemplo.\n\nEn 1206, ya en el Languedoc, fundó en Prouille un monasterio de mujeres convertidas, que sería el origen de las monjas dominicas. Siguió predicando con Diego y con los cistercienses encargados de la misión, y después de la muerte del obispo (1207) continuó casi solo. En 1215, en Toulouse, reunió a sus primeros compañeros con la aprobación del obispo Folquet, y en 1216 Honorio III confirmó la Orden de Predicadores, que adoptó la regla de san Agustín. En 1217 dispersó a los frailes por París, Bolonia y España, un gesto audaz que quería unir predicación y estudio universitario.\n\nLa orden se organizó con capítulos generales y gobierno compartido: el primero se celebró en Bolonia en 1220. Domingo vivió en Roma, fundó el convento de San Sixto y recibió Santa Sabina, y recorrió Italia y Lombardía en intensa actividad apostólica. Murió en Bolonia el 6 de agosto de 1221. Gregorio IX, que lo había conocido personalmente, lo canonizó en 1234.\n\nLa devoción del Rosario le ha sido atribuida desde la Edad Media, pero los historiadores consideran que el vínculo se difundió sobre todo desde el siglo XV, sin que existan documentos de su época; lo que sí es cierto es que su orden fue la gran propagadora de esa oración. Su legado es una espiritualidad de contemplación, estudio y predicación (contemplata aliis tradere), que dio a la Iglesia teólogos como santo Tomás de Aquino.",
+  "virtues": [
+   "Estudio",
+   "Celo apostólico",
+   "Pobreza",
+   "Compasión"
+  ],
+  "iconography": "Dominico con hábito blanco y capa negra, un lirio, una estrella en la frente, un perro con una antorcha (símbolo de la orden) y el rosario.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Dominic»",
+    "url": "https://www.newadvent.org/cathen/05106a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Europa meridional a comienzos del siglo XIII, con la herejía cátara en el Languedoc y la reforma gregoriana de la predicación.",
+  "significance": "Fundador de una de las órdenes mendicantes que renovó la predicación y la vida intelectual de la Iglesia medieval.",
+  "note": "Fecha de canonización: discrepancia entre fuentes (3 vs. 13 de julio de 1234); se mantiene el 3 de julio."
+ },
+ {
+  "id": "edith-stein",
+  "name": "Santa Teresa Benedicta de la Cruz",
+  "fullName": "Edith Stein",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-09",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Teresa Benedicta de la Cruz, virgen y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "martyr",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "12 de octubre de 1891",
+   "place": "Breslau (hoy Wrocław, Polonia)"
+  },
+  "died": {
+   "date": "9 de agosto de 1942",
+   "place": "Auschwitz-Birkenau"
+  },
+  "century": 20,
+  "countries": [
+   "DE",
+   "NL",
+   "PL"
+  ],
+  "order": "Carmelitas Descalzas",
+  "canonization": {
+   "date": "11 de octubre de 1998",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Filósofa alemana de familia judía, discípula de Husserl, convertida al catolicismo y carmelita, murió en Auschwitz; copatrona de Europa.",
+  "biography": "Edith Stein nació el 12 de octubre de 1891 en Breslau, entonces alemana, en una familia judía observante, la menor de once hermanos. Fue su madre quien la educó en la religión judía. Hacia los catorce años dejó de rezar y decidió confiar solo en sí misma, como recuerda el propio Juan Pablo II en la homilía de su canonización. Estudió filosofía con una pasión grande: fue alumna de Edmund Husserl en Gotinga y su asistente en Friburgo, y se contó entre los primeros representantes de la fenomenología.\n\nLa búsqueda de la verdad la llevó a la fe. Leyó la autobiografía de santa Teresa de Ávila y reconoció en ella la verdad que buscaba; se bautizó el 1 de enero de 1922. Durante años enseñó en Espira y en Münster y escribió sobre la mujer, la educación y la relación entre la fenomenología y santo Tomás de Aquino. Las leyes raciales nazis le cerraron la docencia, y en 1933 ingresó en el Carmelo de Colonia, donde recibió el nombre de Teresa Benedicta de la Cruz. En 1938 pasó al Carmelo de Echt, en los Países Bajos, para huir de la persecución.\n\nEn esa clausura escribió «Ser finito y ser eterno» y «Ciencia de la cruz», sobre san Juan de la Cruz. Entendía la cruz no como un adorno sino como una participación en el destino de su pueblo: «Bajo la cruz comprendí el destino del pueblo de Dios», dijo, según recordó el papa. Tras la protesta de los obispos holandeses contra las deportaciones, en 1942 los nazis detuvieron a los judíos conversos. Fue deportada con su hermana Rosa a Auschwitz, donde murió en las cámaras de gas el 9 de agosto de 1942.\n\nJuan Pablo II la beatificó en Colonia el 1 de mayo de 1987 y la canonizó en la plaza de San Pedro el 11 de octubre de 1998, presentándola como «hija eminente de Israel y fiel hija de la Iglesia». El 1 de octubre de 1999, con el motu proprio «Spes aedificandi», la declaró copatrona de Europa junto con santa Brígida de Suecia y santa Catalina de Siena, por haber vivido en varios países europeos, tendido un puente entre sus raíces judías y su compromiso con Cristo, y encarnado la tragedia y la esperanza del continente.\n\nSu testimonio une inteligencia y fe. Como escribió, quien busca la verdad busca a Dios, lo sepa o no. Su memoria invita al diálogo entre judíos y cristianos y a la defensa de la dignidad humana frente a toda forma de odio.",
+  "virtues": [
+   "Búsqueda de la verdad",
+   "Valentía",
+   "Solidaridad con su pueblo"
+  ],
+  "patronages": [
+   "Copatrona de Europa (Juan Pablo II, motu proprio «Spes aedificandi», 1999)"
+  ],
+  "iconography": "Carmelita con hábito pardo y velo, una cruz y la estrella de David amarilla; a veces con un libro.",
+  "works": [
+   {
+    "title": "Ser finito y ser eterno"
+   },
+   {
+    "title": "Ciencia de la cruz"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Juan Pablo II, homilía en la canonización de Edith Stein (11-X-1998)",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/1998/documents/hf_jp-ii_hom_11101998_stein.html"
+   },
+   {
+    "label": "Juan Pablo II, motu proprio «Spes aedificandi» (1-X-1999)",
+    "url": "https://www.vatican.va/content/john-paul-ii/en/motu_proprio/documents/hf_jp-ii_motu-proprio_01101999_co-patronesses-europe.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Alemania de entreguerras y régimen nazi; los católicos de origen judío fueron perseguidos y deportados desde los Países Bajos en 1942.",
+  "significance": "Símbolo del encuentro entre razón y fe y del martirio de la Shoah; copatrona de Europa.",
+  "note": "Datos de nacimiento (12-X-1891), bautismo y muerte (9-VIII-1942) tomados de fuentes secundarias; las fuentes vaticanas leídas confirman beatificación, canonización, copatronazgo y el contexto de su deportación.",
+  "unverified": true
+ },
+ {
+  "id": "lorenzo-de-roma",
+  "name": "San Lorenzo, diácono y mártir",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-10",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "San Lorenzo, diácono y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "deacon",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo III",
+   "place": "Huesca o Valencia (según tradiciones)"
+  },
+  "died": {
+   "date": "10 de agosto de 258",
+   "place": "Roma"
+  },
+  "century": 3,
+  "countries": [
+   "IT",
+   "ES"
+  ],
+  "summary": "Diácono de Roma martirizado en 258 durante la persecución de Valeriano; su culto es antiguo y muy extendido.",
+  "biography": "Lorenzo fue uno de los siete diáconos de la Iglesia de Roma a mediados del siglo III. Los datos históricamente seguros son pocos: fue martirizado el 10 de agosto del año 258 durante la persecución del emperador Valeriano y fue sepultado en el cementerio de Ciriaca, en el Ager Verano, en la vía Tiburtina. Su fiesta figura ya en el calendario romano del año 354, lo que prueba la antigüedad de su culto.\n\nEl contexto es el edicto de Valeriano de 258, que ordenaba ejecutar sin demora a obispos, presbíteros y diáconos, como recuerda san Cipriano. El papa Sixto II fue apresado el 6 de agosto en el cementerio de Pretextato, mientras hablaba a los fieles, y fue ejecutado junto con cuatro diáconos; otros dos diáconos murieron el mismo día. Lorenzo, el último de los siete, murió cuatro días después. Sus orígenes son desconocidos: la tradición posterior lo hace nacer en Huesca o en Valencia, pero no hay documentos que lo apoyen.\n\nSan Ambrosio narra una conversación entre Sixto y Lorenzo cuando el papa iba al martirio: Lorenzo se lamenta de quedarse atrás y Sixto le dice que lo seguirá a los tres días. Según esta tradición, el prefecto exigió a Lorenzo los tesoros de la Iglesia y él, tras pedir un plazo, presentó a los pobres, afirmando que eran el verdadero tesoro. Ambrosio y el poeta Prudencio narran además que murió quemado en una parrilla. La Catholic Encyclopedia advierte que ese encuentro con Sixto choca con las noticias contemporáneas y que la parrilla es discutible, porque estos relatos proceden de la tradición oral y de unas «Actas» legendarias; lo indudable es que Lorenzo existió, fue martirizado en Roma y se le enterró allí.\n\nSu devoción creció enseguida. Constantino levantó un oratorio sobre su tumba; Pelagio II lo amplió y Sixto III construyó una basílica de tres naves, que Honorio III unió con otra para formar la actual San Lorenzo extramuros. El papa Dámaso le dedicó una inscripción en verso y una basílica, hoy San Lorenzo in Damaso, y existe también San Lorenzo in Lucina. Su culto se difundió por toda la Iglesia; en la liturgia se le celebra con rango de fiesta.\n\nLa figura de Lorenzo recuerda dos cosas: el servicio del diácono a los pobres, que son para la Iglesia su riqueza, y la fortaleza del mártir que da testimonio incluso ante la muerte. La iconografía lo muestra con dalmática, palma, bolsa de monedas y parrilla.",
+  "virtues": [
+   "Caridad con los pobres",
+   "Fortaleza",
+   "Fidelidad"
+  ],
+  "iconography": "Diácono joven con dalmática, palma y una parrilla; con una bolsa de monedas o con los pobres.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Lawrence»",
+    "url": "https://www.newadvent.org/cathen/09089a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Persecución de Valeriano (257-260) contra la jerarquía de la Iglesia de Roma.",
+  "significance": "Uno de los mártires romanos más venerados; modelo del diaconado al servicio de los pobres."
+ },
+ {
+  "id": "clara-de-asis",
+  "name": "Santa Clara de Asís",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-11",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa Clara, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "founder",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "16 de julio de 1194 (a veces 1193)",
+   "place": "Asís"
+  },
+  "died": {
+   "date": "11 de agosto de 1253",
+   "place": "San Damián, Asís"
+  },
+  "century": 13,
+  "countries": [
+   "IT"
+  ],
+  "order": "Orden de Santa Clara (clarisas)",
+  "canonization": {
+   "date": "26 de septiembre de 1255",
+   "by": "Alejandro IV"
+  },
+  "summary": "Joven noble de Asís que siguió a san Francisco, fundó las clarisas en San Damián y defendió el «privilegio de la pobreza».",
+  "biography": "Clara nació en Asís el 16 de julio de 1194 (la fecha ha sido discutida y a veces se da 1193) como hija mayor del caballero Favarone de Offreduccio y de Ortolana, que sería también venerada. A los dieciocho años escuchó las predicaciones de Francisco en la iglesia de San Jorge durante una Cuaresma y le pidió que la ayudara a vivir según el Evangelio.\n\nEn la noche del Domingo de Ramos de 1212 abandonó en secreto la casa paterna y marchó a la Porciúncula, donde Francisco le cortó el cabello y la vistió con un hábito tosco. Fue acogida primero por las benedictinas de San Paolo, cerca de Bastia, y luego en Sant'Angelo in Panzo, donde se le unió su hermana Inés. Poco después, Francisco instaló a la comunidad junto a la iglesita de San Damián, en las afueras de Asís. Clara fue abadesa hasta su muerte, durante unos cuarenta años.\n\nLas damas pobres, como se llamaron, vivían de la limosna y del trabajo de sus manos, en clausura y con gran austeridad. Hacia 1219 el cardenal Hugolino, que sería Gregorio IX, quiso darles una regla benedictina que permitía poseer bienes en común. Clara resistió y obtuvo en 1228 el «privilegio de la pobreza», que la dispensaba de poseer propiedades. Cuando el mismo papa le ofreció dispensarla de su voto de pobreza, ella respondió que no quería ser dispensada de seguir a Cristo.\n\nLa tradición recuerda que en 1234, cuando soldados de Federico II asaltaron los muros de San Damián, Clara se presentó ante ellos con la Eucaristía y los invasores se retiraron; es un episodio narrado por sus biógrafos, no documentado con precisión de otro modo. Escribió cartas muy afectuosas a Inés de Bohemia, en las que aparece su espiritualidad de contemplación de Cristo como en un espejo. Su regla definitiva fue aprobada por Inocencio IV con la bula «Solet annuere» el 9 de agosto de 1253, dos días antes de su muerte.\n\nMurió en San Damián, antes del amanecer, el 11 de agosto de 1253. Alejandro IV la canonizó el 26 de septiembre de 1255. Su figura muestra que la pobreza franciscana tuvo también una rama femenina contemplativa; su pobreza no era un ideal sentimental sino una elección que defendió ante papas y cardenales. La Iglesia la venera como fundadora de las clarisas y como una de las grandes místicas medievales.",
+  "virtues": [
+   "Pobreza",
+   "Contemplación",
+   "Perseverancia"
+  ],
+  "iconography": "Abadesa con hábito pardo y velo, custodia en la mano, azucena y báculo.",
+  "works": [
+   {
+    "title": "Regla, Cartas y Testamento"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Clare of Assisi, Saint»",
+    "url": "https://www.newadvent.org/cathen/04004a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Italia central del siglo XIII, con el movimiento franciscano en sus comienzos y la protección del cardenal Hugolino.",
+  "significance": "Fundadora de la rama contemplativa femenina franciscana; defensora de la pobreza radical."
+ },
+ {
+  "id": "juana-francisca-de-chantal",
+  "name": "Santa Juana Francisca de Chantal",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-12",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Juana Francisca de Chantal, religiosa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "married"
+  ],
+  "born": {
+   "date": "28 de enero de 1572",
+   "place": "Dijon"
+  },
+  "died": {
+   "date": "13 de diciembre de 1641",
+   "place": "Moulins"
+  },
+  "century": 17,
+  "countries": [
+   "FR"
+  ],
+  "order": "Orden de la Visitación de Santa María",
+  "canonization": {
+   "date": "1767",
+   "by": "Clemente XIII",
+   "note": "Beatificada en 1751."
+  },
+  "summary": "Baronesa viuda y madre de familia que, con san Francisco de Sales, fundó la Orden de la Visitación.",
+  "biography": "Jeanne-Françoise Frémyot nació en Dijon en 1572 (la fecha del 28 de enero es la tradicional), en una familia de magistrados. En 1592 se casó con el barón Christophe de Rabutin-Chantal, a quien dio varios hijos, y se ocupó con acierto de restablecer el orden y la prosperidad de la hacienda familiar. Era conocida por su generosidad con los pobres.\n\nEn 1601 quedó viuda cuando su marido murió en un accidente de caza, con apenas treinta y tantos años. Ese golpe le produjo una gran pena, pero también la hizo volverse hacia Dios, y se propuso permanecer viuda y consagrarse a la vida de piedad, sin dejar de atender a sus hijos. En la Cuaresma de 1604, durante una visita a su padre en Dijon, conoció al obispo de Ginebra, Francisco de Sales, que predicaba allí, y se puso bajo su dirección espiritual. Entre ambos se estableció una amistad espiritual profunda, que se conserva en una abundante correspondencia.\n\nEl 6 de junio de 1610, domingo de la Trinidad, fundaron en Annecy la Congregación de la Visitación de Santa María, pensada al principio para mujeres que querían la vida religiosa sin las grandes austeridades de otras órdenes, incluidas viudas y mujeres de salud delicada, y que se dedicaban a la oración y a visitar a los pobres. Con el tiempo, la Visitación se convirtió en una orden claustral. Cuando murió san Francisco, en 1622, había trece casas; a la muerte de Juana había ochenta y seis y, cuando fue canonizada, ciento sesenta y cuatro.\n\nJuana viajó mucho para establecer nuevas fundaciones, y recibió el cariño de las gentes por donde pasaba. Su espiritualidad, de inspiración salesiana, insiste en la sencillez, la dulzura y la conformidad con la voluntad de Dios; ella misma atravesó años de sequedad espiritual y pruebas interiores que soportó con perseverancia.\n\nMurió en el convento de la Visitación de Moulins el 13 de diciembre de 1641. Su cuerpo se venera junto con el de san Francisco de Sales en la iglesia de la Visitación de Annecy. Fue beatificada en 1751 y canonizada en 1767. Su memoria se celebra el 12 de agosto, fecha fijada tras la reforma litúrgica de 1969, pues el 21 de agosto, su día tradicional, fue ocupado por san Pío X.",
+  "virtues": [
+   "Dulzura",
+   "Perseverancia",
+   "Confianza en Dios"
+  ],
+  "context": "Francia de la Contrarreforma, con renovación de la vida religiosa femenina.",
+  "significance": "Cofundadora de la Visitación y modelo de santidad para viudas y madres de familia.",
+  "iconography": "Religiosa de la Visitación con velo negro y cruz, con un corazón o con el libro de las Reglas.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Jane Frances de Chantal»",
+    "url": "https://www.newadvent.org/cathen/08282c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La fecha exacta de nacimiento (28 de enero) no figura en la fuente leída, que solo da 1572; el motivo del cambio de fecha litúrgica (12 de agosto) es una explicación del calendario, no tomada de la fuente.",
+  "unverified": true
+ },
+ {
+  "id": "ponciano-e-hipolito",
+  "name": "Santos Ponciano e Hipólito",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-13",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Ponciano, papa, e Hipólito, presbítero, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "pope",
+   "martyr",
+   "priest"
+  ],
+  "born": {
+   "date": "desconocida"
+  },
+  "died": {
+   "date": "c. 235-236",
+   "place": "Cerdeña"
+  },
+  "century": 3,
+  "countries": [
+   "IT"
+  ],
+  "summary": "El papa Ponciano y el presbítero y teólogo Hipólito, antes enfrentados, desterrados juntos a Cerdeña en 235 y venerados como mártires.",
+  "biography": "Ponciano fue obispo de Roma desde el 21 de julio del año 230 hasta 235. Sus fechas de nacimiento y de muerte no son conocidas; el «Liber Pontificalis» lo hace nacer en Roma, hijo de Calpurnio. Su pontificado estuvo marcado por el cisma de Hipólito, que se prolongó desde la época de sus predecesores, y a lo largo de su gobierno un sínodo romano, probablemente bajo su dirección, respaldó la condena de Orígenes decidida en Alejandría.\n\nHipólito fue un presbítero de la Iglesia de Roma, teólogo importante y prolífico, el más grande de la época anterior a Constantino en aquella Iglesia. Defendió contra los monarquianos la distinción real entre el Padre y el Hijo, con una teología que hoy se considera subordinacionista. Criticó al papa Ceferino por no resolver las controversias y acusó a su diácono Calixto de laxitud. Cuando Calixto fue elegido papa (217-218), Hipólito se hizo elegir antipapa por sus partidarios y continuó oponiéndose a Urbano y a Ponciano. Se le atribuye el «Philosophumena», una refutación de herejías. En 1551 se encontró una estatua suya, del siglo III, con la lista de sus escritos, hoy en el Museo Lateranense.\n\nEn 235, bajo el emperador Maximino el Tracio, la persecución alcanzó al clero romano: Ponciano e Hipólito fueron desterrados a la isla de Cerdeña, lugar insalubre donde las condiciones eran muy duras. Allí, según la tradición, se reconciliaron. Ponciano abdicó el 28 de septiembre de 235 para facilitar la elección de un sucesor, Antero; murió poco después en la isla, a causa de los malos tratos. El papa Fabián trasladó sus restos a Roma y los depositó, el 13 de agosto, en la cripta de los papas del cementerio de Calixto. Hipólito fue sepultado aparte. El papa Dámaso compuso una inscripción en la que dice que Hipólito exhortó a sus seguidores a reconciliarse con la Iglesia antes de morir.\n\nAmbos son venerados como mártires, y la Depositio martyrum del año 354 ya los celebra el 13 de agosto. El Martirologio Romano fija a Ponciano en otra fecha, el 19 de noviembre, pero en el calendario actual se celebran juntos el 13 de agosto. No debe confundirse a este Hipólito con Hipólito de Porto, otro mártir que se conmemora el 22 de agosto.\n\nSu historia muestra que la reconciliación es posible incluso después de un grave cisma, y que la comunión con la Iglesia se sella en el sufrimiento compartido.",
+  "virtues": [
+   "Reconciliación",
+   "Fortaleza en el destierro",
+   "Humildad"
+  ],
+  "context": "Persecución de Maximino el Tracio (235) y cisma romano por la disciplina penitencial.",
+  "significance": "Ejemplo de reconciliación tras un cisma; Hipólito es clave para la teología romana del siglo III.",
+  "iconography": "Ponciano con tiara y palma; Hipólito como presbítero con palma, a veces atado a caballos (leyenda tardía, confundida con otro Hipólito).",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Pope St. Pontian»",
+    "url": "https://www.newadvent.org/cathen/12229b.htm"
+   },
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Hippolytus of Rome»",
+    "url": "https://www.newadvent.org/cathen/07360c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La inscripción de Dámaso y la reconciliación de Hipólito son hipótesis que sostiene la Catholic Encyclopedia; la fecha de la fiesta y sus antecedentes litúrgicos son tradición del Cronógrafo del 354."
+ },
+ {
+  "id": "maximiliano-kolbe",
+  "name": "San Maximiliano María Kolbe",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-14",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Maximiliano María Kolbe, presbítero y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "priest",
+   "martyr",
+   "religious",
+   "missionary"
+  ],
+  "born": {
+   "date": "8 de enero de 1894",
+   "place": "Zduńska Wola (Polonia)"
+  },
+  "died": {
+   "date": "14 de agosto de 1941",
+   "place": "Auschwitz"
+  },
+  "century": 20,
+  "countries": [
+   "PL",
+   "JP"
+  ],
+  "order": "Franciscanos conventuales",
+  "canonization": {
+   "date": "10 de octubre de 1982",
+   "by": "Juan Pablo II"
+  },
+  "summary": "Fraile conventual polaco, fundador de la Milicia de la Inmaculada, que en Auschwitz se ofreció a morir en lugar de otro prisionero.",
+  "biography": "Raimundo Kolbe nació el 8 de enero de 1894 en Zduńska Wola, Polonia, y creció en Pabianice en una familia sencilla y piadosa. Desde niño sintió una fuerte devoción a la Virgen. En 1907 ingresó en el seminario menor franciscano de Leópolis (Lwów); inició el noviciado en 1910 con el nombre de Maximiliano y profesó solemnemente en 1914. Fue enviado a Roma, al Colegio Internacional de los franciscanos conventuales, donde obtuvo doctorados en filosofía y teología y fue ordenado sacerdote en 1918.\n\nEn 1917, en Roma, y en un ambiente marcado por los ataques anticlericales, fundó con otros hermanos la Milicia de la Inmaculada, movimiento que pedía consagrarse a María para trabajar por la conversión de los pecadores. Regresó a Polonia en 1919 y desde 1922 publicó la revista «El Caballero de la Inmaculada», cuya tirada creció enormemente. En 1927 fundó cerca de Varsovia la «ciudad de la Inmaculada», Niepokalanów, que llegó a reunir unos ochocientos frailes dedicados a las publicaciones.\n\nEn 1930 viajó a Japón con cuatro hermanos y fundó cerca de Nagasaki otro Niepokalanów, con una revista en japonés. Volvió a Polonia en 1936. Cuando estalló la guerra en 1939, abrió el convento a refugiados, heridos y perseguidos, entre ellos judíos. La Gestapo lo arrestó el 17 de febrero de 1941; pasó por la prisión de Pawiak y el 28 de mayo fue enviado a Auschwitz, donde recibió el número 16670.\n\nA finales de julio de 1941, tras una fuga, el comandante castigó a diez prisioneros a morir de hambre. Cuando uno de ellos, Franciszek Gajowniczek, lamentó que dejaba a su familia, Kolbe se ofreció a ocupar su lugar. Pasó semanas en el búnker de la muerte, animando a los demás con oraciones y cantos, y, al cabo, fue asesinado con una inyección de fenol el 14 de agosto de 1941. Gajowniczek sobrevivió y asistió a su canonización.\n\nPablo VI lo beatificó el 17 de octubre de 1971, como confesor, y Juan Pablo II lo canonizó el 10 de octubre de 1982 como mártir de la caridad. Su vida muestra la fuerza de la entrega total a María y el valor del amor que da la vida por otro; es un testimonio contra la deshumanización y modelo del uso de los medios de comunicación para evangelizar.",
+  "virtues": [
+   "Caridad heroica",
+   "Devoción mariana",
+   "Celo misionero"
+  ],
+  "iconography": "Franciscano con hábito gris y la corona del martirio en blanco y rojo; con el número de prisionero 16670.",
+  "sources": [
+   {
+    "label": "Dicasterio para las Causas de los Santos / Santa Sede, biografía de Maximiliano María Kolbe (canonización, 10-X-1982)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19821010_massimiliano_kolbe_pl.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Polonia ocupada y campos de concentración nazis; apostolado de prensa en el periodo de entreguerras.",
+  "significance": "Mártir de la caridad en Auschwitz; promotor del apostolado mariano y de la prensa católica."
+ },
+ {
+  "id": "asuncion-de-maria",
+  "name": "Asunción de la Virgen María",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "08-15",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "Asunción de la Virgen María",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Solemnidad que celebra que María, concluido el curso de su vida terrena, fue llevada en cuerpo y alma a la gloria celestial, dogma definido por Pío XII en 1950.",
+  "biography": "La Asunción de la Virgen María es una de las solemnidades más antiguas y entrañables del calendario cristiano. Se celebra el 15 de agosto y proclama que la Madre de Dios, «terminado el curso de su vida terrena, fue llevada en cuerpo y alma a la gloria del cielo», según la definición dogmática del papa Pío XII del 1 de noviembre de 1950, en la constitución apostólica «Munificentissimus Deus».\n\nLa Escritura no narra el final de la vida de María; la fe de la Iglesia se apoya en la Tradición. La fiesta comenzó en Oriente con el nombre de «Dormición» (Koímesis), y en Occidente se extendió con el título de Asunción. La constitución de Pío XII recuerda como testimonios litúrgicos las fiestas de la Dormición y de la Asunción, el sacramentario que Adriano I envió a Carlomagno y la práctica de los papas Sergio I, León IV y Nicolás I. Entre los testigos patrísticos y teológicos menciona a san Juan Damasceno, que argumenta que era conveniente que el cuerpo de María, que conservó su virginidad en el parto, quedara incorrupto después de la muerte; a Germán de Constantinopla, a san Alberto Magno, san Buenaventura, santo Tomás de Aquino, san Antonio de Padua, san Roberto Belarmino, san Francisco de Sales y san Alfonso María de Ligorio.\n\nLa definición de 1950 fue precedida de una amplia consulta. El 1 de mayo de 1946, en la carta «Deiparae Virginis Mariae», Pío XII preguntó a los obispos si juzgaban definible el dogma y si el clero y los fieles lo deseaban; la respuesta fue casi unánime. El papa la interpretó como un signo del consentimiento de la Iglesia entera. La fórmula, en el párrafo 44, declara que la Inmaculada Madre de Dios y siempre Virgen fue asunta al cielo en cuerpo y alma, y el párrafo 45 advierte que quien la niegue o ponga en duda voluntariamente se aparta de la fe.\n\nEl sentido de la fiesta es cristológico y esperanzador. La Asunción es la participación plena de María en la resurrección de su Hijo, primicia de lo que espera a todos los fieles. Tras la Inmaculada Concepción, que habla del principio de María, la Asunción habla de su plenitud final: su cuerpo no conoció la corrupción porque había sido morada del Verbo. Su Magnificat, que la liturgia pone en el evangelio de la Misa de la fiesta (Lc 1,39-56), canta las grandes obras de Dios en ella.\n\nEn muchos países, incluido México y gran parte de Europa y América, la fiesta es de precepto y el 15 de agosto se celebra con procesiones y peregrinaciones a santuarios marianos. En la liturgia del Oriente cristiano se mantiene como la Dormición de la Theotokos.",
+  "significance": "Dogma mariano y signo de esperanza para el cuerpo glorificado de los fieles.",
+  "iconography": "La Virgen elevada sobre nubes entre ángeles, con las manos en oración o abiertas hacia el cielo, a veces sobre la luna; el sepulcro vacío con flores.",
+  "sources": [
+   {
+    "label": "Pío XII, constitución apostólica «Munificentissimus Deus» (1-XI-1950)",
+    "url": "https://www.vatican.va/content/pius-xii/en/apost_constitutions/documents/hf_p-xii_apc_19501101_munificentissimus-deus.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "El rango (solemnidad) y la fecha provienen del calendario romano; la fuente leída es el texto en inglés de la constitución. Los datos sobre el evangelio de la Misa y la práctica por países proceden de la liturgia, no de la fuente.",
+  "unverified": true
+ },
+ {
+  "id": "esteban-de-hungria",
+  "name": "San Esteban de Hungría",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-16",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Esteban de Hungría",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "c. 975",
+   "place": "Esztergom (Gran)"
+  },
+  "died": {
+   "date": "15 de agosto de 1038",
+   "place": "Székesfehérvár"
+  },
+  "century": 11,
+  "countries": [
+   "HU"
+  ],
+  "canonization": {
+   "date": "1083",
+   "note": "Canonizado junto con su hijo Emerico."
+  },
+  "summary": "Primer rey cristiano de Hungría, bautizado de niño, coronado en torno al año 1000, que organizó la Iglesia en su reino.",
+  "biography": "Esteban nació hacia el año 975 en Gran (Esztergom), hijo del príncipe húngaro Géza. Fue bautizado con su padre en el 985 por san Adalberto de Praga, que le cambió el nombre pagano de Vaik por el de Esteban. Hungría, pueblo recién asentado en la cuenca del Danubio, vivía entonces un tiempo de transición entre las tradiciones tribales y la integración en la Europa cristiana.\n\nEn el 995 se casó con Gisela, hermana del duque Enrique de Baviera, futuro emperador san Enrique II, lo que reforzó los lazos con Occidente. En el 997 sucedió a su padre. Pidió al papa Silvestre II el título real y la facultad de erigir sedes episcopales. Según la Catholic Encyclopedia fue coronado en Gran el 17 de agosto de 1001 con una corona enviada por el papa; otras fuentes ponen la coronación en el año 1000. La fecha exacta es discutida.\n\nGobernó con firmeza para consolidar su reino y la fe cristiana. Fundó y dotó diócesis y monasterios, entre ellos la abadía de Pannonhalma, y el arzobispado de Gran. Como señala la misma enciclopedia, en su reino hubo resistencias y la nueva fe se impuso a veces por la fuerza. Se le atribuyen unas «Admoniciones» a su hijo, un texto de consejos de gobierno, de autoría dudosa. Fundó un monasterio en Jerusalén y hospederías para peregrinos en Roma, Ravena y Constantinopla.\n\nEl gran dolor de sus últimos años fue la muerte de su único hijo, san Emerico, en una cacería de jabalí, el 2 de septiembre de 1031. Esto abrió una crisis de sucesión y disputas entre sus sobrinos, y se tramó una conspiración contra su vida. Murió el 15 de agosto de 1038, día de la Asunción, que él había puesto bajo la protección de la Virgen: se dice que le ofreció su reino, y por eso la Asunción es fiesta nacional en Hungría. Fue enterrado junto a su hijo en Székesfehérvár.\n\nEsteban y Emerico fueron canonizados juntos en 1083. Su fiesta general se celebra el 16 de agosto como memoria libre, mientras que en Hungría la fiesta nacional es el 20 de agosto, y su mano derecha incorrupta es la reliquia más venerada del país. Se le ha tenido como fundador de la nación húngara cristiana. El título de «majestad apostólica» que se le atribuye se apoya, según la Catholic Encyclopedia, en una bula que se juzga falsificada posteriormente.",
+  "virtues": [
+   "Prudencia de gobierno",
+   "Piedad",
+   "Generosidad con los pobres"
+  ],
+  "context": "Conversión de los pueblos de Europa central en torno al año 1000.",
+  "significance": "Padre de la Hungría cristiana; símbolo de la integración del país en la cristiandad latina.",
+  "iconography": "Rey con corona, cetro y la iglesia que fundó; a veces con una mano alzada.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Stephen» (rey de Hungría)",
+    "url": "https://www.newadvent.org/cathen/14287a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La Catholic Encyclopedia da el 17-VIII-1001 para la coronación y discute otras fechas; hay discrepancia (1000 o 1001). La fiesta general del 16 de agosto (y no el 2 de septiembre ni el 20 de agosto) procede del calendario romano.",
+  "unverified": true
+ },
+ {
+  "id": "alberto-hurtado",
+  "name": "San Alberto Hurtado",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-18",
+    "rank": "memorial",
+    "calendar": "cl",
+    "title": "San Alberto Hurtado, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "religious",
+   "founder"
+  ],
+  "born": {
+   "date": "22 de enero de 1901",
+   "place": "Viña del Mar (Chile)"
+  },
+  "died": {
+   "date": "18 de agosto de 1952",
+   "place": "Santiago de Chile"
+  },
+  "century": 20,
+  "countries": [
+   "CL"
+  ],
+  "order": "Compañía de Jesús",
+  "canonization": {
+   "date": "23 de octubre de 2005",
+   "by": "Benedicto XVI"
+  },
+  "summary": "Jesuita chileno, fundador del Hogar de Cristo, apóstol de los pobres y de los jóvenes, preocupado por la justicia social.",
+  "biography": "Alberto Hurtado Cruchaga nació el 22 de enero de 1901 en Viña del Mar, Chile, y quedó huérfano de padre a los cuatro años. La familia, de la clase media alta, atravesó dificultades económicas, y el muchacho estudió con beca en el Colegio San Ignacio de Santiago, donde se integró a la Congregación Mariana y empezó a trabajar con los pobres. Estudió derecho en la Universidad Católica de Chile.\n\nEn 1923 entró en el noviciado de la Compañía de Jesús en Chillán. Su formación lo llevó a Argentina, España y Bélgica, donde fue ordenado sacerdote en 1933 en Lovaina. Allí se doctoró en pedagogía y se interesó por la educación cristiana y la doctrina social de la Iglesia. Regresó a Chile en 1936 y enseñó religión y pedagogía, escribiendo sobre educación y orden social cristiano. Fue director espiritual de jóvenes y animó a la Acción Católica.\n\nSu preocupación por la situación del país lo llevó a escribir, en 1941, «¿Es Chile un país católico?», un libro que provocó controversia al mostrar la distancia entre la fe profesada y la injusticia social. Predicó a obreros, retiros y jóvenes con un mensaje directo: Cristo está en el pobre. Una noche de 1944, según su biografía, vio a un hombre sin techo bajo la lluvia y decidió acoger a quienes no tenían hogar. Así nació el Hogar de Cristo, una red de albergues para niños y adultos sin hogar, con el apoyo de muchos benefactores, que hoy continúa activa.\n\nEstudió el modelo de las «ciudades de niños» de Estados Unidos, y en 1947 fundó la Acción Sindical Chilena (ASICH), para formar a trabajadores según la doctrina social de la Iglesia. En 1951 creó la revista «Mensaje», aún hoy publicada por los jesuitas chilenos. Su lema fue «el pobre es Cristo» y su estilo de vida, austero y alegre, impresionó a quienes lo trataron.\n\nUn cáncer de páncreas lo llevó a la muerte el 18 de agosto de 1952; incluso en la enfermedad solía decir «Contento, Señor, contento». Juan Pablo II lo beatificó el 16 de octubre de 1994 y Benedicto XVI lo canonizó el 23 de octubre de 2005. Su legado es una Iglesia atenta a las necesidades sociales y una espiritualidad de acción apoyada en la oración. En el calendario de Chile se celebra su memoria el 18 de agosto.",
+  "virtues": [
+   "Caridad social",
+   "Trabajo",
+   "Alegría"
+  ],
+  "iconography": "Sacerdote jesuita con sotana negra, rodeado de niños pobres; con un crucifijo.",
+  "works": [
+   {
+    "title": "¿Es Chile un país católico?"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de Alberto Hurtado Cruchaga (1901-1952), canonización 23-X-2005",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20051023_cruchaga_sp.html"
+   }
+  ],
+  "context": "Chile de la primera mitad del siglo XX, con fuertes desigualdades y nacimiento del movimiento sindical católico.",
+  "significance": "Referente de la doctrina social de la Iglesia en América Latina."
+ },
+ {
+  "id": "juan-eudes",
+  "name": "San Juan Eudes",
+  "fullName": "Jean Eudes",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-19",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Juan Eudes, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "missionary"
+  ],
+  "born": {
+   "date": "14 de noviembre de 1601",
+   "place": "Ri (Normandía)"
+  },
+  "died": {
+   "date": "19 de agosto de 1680",
+   "place": "Caen"
+  },
+  "century": 17,
+  "countries": [
+   "FR"
+  ],
+  "order": "Congregación de Jesús y María (eudistas)",
+  "canonization": {
+   "date": "31 de mayo de 1925",
+   "by": "Pío XI",
+   "note": "Beatificado el 25 de abril de 1909."
+  },
+  "summary": "Misionero normando, fundador de los eudistas y de Nuestra Señora de la Caridad, pionero del culto litúrgico a los corazones de Jesús y de María.",
+  "biography": "Jean Eudes nació el 14 de noviembre de 1601 en Ri, en Normandía, y fue hermano del historiador François Eudes de Mézeray. A los catorce años hizo voto de castidad. Se formó con los jesuitas de Caen y el 25 de marzo de 1623 ingresó en el Oratorio de Francia, donde lo orientaron espiritualmente Pedro de Bérulle y Carlos de Condren. Fue ordenado sacerdote el 20 de diciembre de 1625. Al comienzo de su ministerio atendió a víctimas de la peste.\n\nFue sobre todo misionero popular: predicó más de ciento diez misiones, con tres en París y otras en Versalles y Saint-Germain-en-Laye, aunque su campo principal fue Normandía. Olier lo llamó «el prodigio de su tiempo». Se dio cuenta de que la renovación del pueblo exigía mejores sacerdotes, y por eso se interesó por los seminarios.\n\nEn 1641 fundó en Caen la Congregación de Nuestra Señora de la Caridad del Refugio, para acoger a mujeres que querían dejar una vida desordenada e iniciar un camino de penitencia; Alejandro VII la aprobó el 2 de enero de 1666. Con la aprobación de Richelieu y de otras personas, dejó el Oratorio para fundar el 25 de marzo de 1643, en Caen, la Congregación de Jesús y María, los eudistas, dedicada a formar sacerdotes y a las misiones populares. Dirigió seminarios en Caen y Coutances, cuyas capillas dedicó a los corazones de Jesús y María, y fundó una asociación laica del «Corazón de la Madre Admirable», que llegó a veinte o veinticinco mil miembros.\n\nCompuso la misa y el oficio de la fiesta del Corazón de María, celebrada por primera vez en 1648, y de la fiesta del Corazón de Jesús, en 1672, antes de que santa Margarita María Alacoque iniciara su apostolado. Sus libros más conocidos son «El reino de Jesús», «El buen confesor», «El predicador apostólico» y «El corazón admirable de la Santísima Madre de Dios», considerado el primer libro sobre la devoción a los Sagrados Corazones. León XIII le dio el título de «autor del culto litúrgico» de los corazones de Jesús y de María.\n\nMurió en Caen el 19 de agosto de 1680. Las virtudes heroicas se reconocieron en 1903, Pío X aprobó los milagros en 1908 y fue beatificado el 25 de abril de 1909. Pío XI lo canonizó en 1925. Su espiritualidad invita a vivir el Evangelio centrándose en el amor de Cristo y de María, y destaca la formación del clero y la atención a las mujeres marginadas.",
+  "virtues": [
+   "Celo misionero",
+   "Amor a los corazones de Jesús y María",
+   "Atención a los marginados"
+  ],
+  "context": "Escuela francesa de espiritualidad y reforma de los seminarios en el siglo XVII.",
+  "significance": "Iniciador del culto litúrgico a los Sagrados Corazones y reformador de la formación sacerdotal.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Blessed Jean Eudes»",
+    "url": "https://www.newadvent.org/cathen/05596a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La Catholic Encyclopedia (1909) es anterior a la canonización; el año 1925 figura solo en una nota de edición de New Advent; fecha exacta (31 de mayo) no verificada en fuente leída.",
+  "unverified": true
+ },
+ {
+  "id": "zuniga-flores",
+  "name": "Beatos Pedro de Zúñiga y Luis Flores",
+  "status": "blessed",
+  "celebrations": [
+   {
+    "date": "08-19",
+    "rank": "optional",
+    "calendar": "mx",
+    "title": "Beatos Pedro Zúñiga y Luis Flores, presbíteros y mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "blessed",
+   "martyr",
+   "priest",
+   "missionary"
+  ],
+  "born": {
+   "date": "siglo XVI",
+   "place": "Sevilla (Zúñiga) y Amberes (Flores)"
+  },
+  "died": {
+   "date": "19 de agosto de 1622",
+   "place": "Japón"
+  },
+  "century": 17,
+  "countries": [
+   "MX",
+   "ES",
+   "JP",
+   "BE"
+  ],
+  "canonization": {
+   "date": "7 de mayo de 1867",
+   "by": "Pío IX",
+   "note": "Beatificados dentro del grupo de 205 mártires de Japón."
+  },
+  "summary": "Misioneros, el agustino sevillano Pedro de Zúñiga y el dominico flamenco criado en México Luis Flores, quemados vivos en Japón en 1622.",
+  "biography": "Pedro de Zúñiga y Luis Flores fueron dos misioneros europeos martirizados en Japón el 19 de agosto de 1622, durante la persecución del cristianismo. Su fiesta se celebra el 19 de agosto como memoria libre en el calendario de México.\n\nPedro de Zúñiga era natural de Sevilla y pertenecía a la Orden de San Agustín. Había estado ya en Japón en 1618, donde trabajó unos meses en Nagasaki. Luis Flores, dominico, había nacido en Amberes, en los Países Bajos, y pasó siendo niño con sus padres a México; ingresó en la orden dominicana y sirvió dieciocho años en Filipinas antes de pasar a Japón. Por tanto, su vínculo con México es el de haberse formado allí.\n\nLos dos misioneros zarparon de Manila hacia Japón el 4 de junio de 1620, disfrazados de comerciantes, a bordo de un barco cuyo capitán era el cristiano japonés Joaquín Hirayama Díaz. Piratas holandeses interceptaron la nave y la llevaron al puerto japonés de Hirado, donde las autoridades arrestaron a los dos sacerdotes y a los trece tripulantes. Flores fue torturado, y todos pasaron unos dos años en prisión.\n\nEl 19 de agosto de 1622, los dos sacerdotes y el capitán Hirayama fueron muertos en la hoguera; los demás prisioneros fueron decapitados. Se les considera mártires de la fe en la persecución de los shogunes Tokugawa, que prohibió el cristianismo y expulsó a los misioneros. En el siglo XIX, Pío IX los incluyó entre los 205 mártires beatificados el 7 de mayo de 1867.\n\nLa Iglesia mexicana los recuerda con una memoria propia, a pesar de que su martirio ocurrió en Asia, por ser el México colonial puerta de las misiones del Pacífico, y por el testimonio común de los misioneros que pasaron por Nueva España hacia Filipinas y Japón. Su ejemplo muestra la dimensión misionera universal de la Iglesia y la fidelidad hasta el martirio.",
+  "virtues": [
+   "Celo misionero",
+   "Fortaleza en la prueba",
+   "Fidelidad"
+  ],
+  "context": "Persecución del cristianismo en el Japón de los Tokugawa y misiones españolas desde Manila y Nueva España.",
+  "significance": "Mártires vinculados con las misiones de la Nueva España hacia el Pacífico.",
+  "iconography": "Dos sacerdotes (uno agustino, otro dominico) entre llamas, con palma.",
+  "sources": [
+   {
+    "label": "Santo Sepulcro / Custodia, «Bls. Luis Flores, Pedro de Zuniga, and Companions»",
+    "url": "https://santosepulcro.co.il/en/saints/bls-luis-flores--pedro-de-zuniga--and-companions/"
+   },
+   {
+    "label": "Calendario de México (liturgy-calendars.ts, propio MX, 08-19)"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Fecha y rango proceden del calendario propio de México; la ficha usada para la biografía no da el lugar de la ejecución ni la fecha de beatificación (7-V-1867, de una búsqueda secundaria). Hay discrepancia sobre el lugar de nacimiento de Flores (Gante o Amberes). La explicación del vínculo con México es una inferencia.",
+  "unverified": true
+ },
+ {
+  "id": "bernardo-de-claraval",
+  "name": "San Bernardo de Claraval",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-20",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Bernardo, abad y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "doctor",
+   "religious",
+   "mystic",
+   "pastor"
+  ],
+  "born": {
+   "date": "1090",
+   "place": "Fontaine-lès-Dijon (Borgoña)"
+  },
+  "died": {
+   "date": "20 de agosto de 1153",
+   "place": "Claraval"
+  },
+  "century": 12,
+  "countries": [
+   "FR"
+  ],
+  "order": "Cister",
+  "canonization": {
+   "date": "18 de enero de 1174",
+   "by": "Alejandro III"
+  },
+  "summary": "Abad de Claraval, gran predicador y escritor místico del siglo XII, impulsor de la reforma cisterciense; doctor de la Iglesia.",
+  "biography": "Bernardo nació en 1090 en Fontaine, cerca de Dijon, en una familia de la nobleza borgoñona. Educado por los canónigos de Châtillon, sintió pronto la llamada a la vida monástica. Hacia 1112-1113 ingresó en el joven monasterio de Císter, entonces dirigido por Esteban Harding, y lo hizo acompañado de unos treinta jóvenes nobles, parientes y amigos que él había convencido.\n\nEn 1115 fue enviado a fundar la abadía de Claraval, en un valle de Champaña, y su nombre quedó unido a ella para siempre. Bajo su impulso se multiplicaron las fundaciones: él mismo llegó a fundar ciento sesenta y tres monasterios y, a su muerte, la orden contaba con trescientos cuarenta y tres. La vida en Claraval era dura, de silencio, trabajo y oración, y Bernardo, de salud frágil, la compartía.\n\nFue el gran escritor espiritual de su siglo. Sus «Sermones sobre el Cantar de los Cantares» presentan el amor al Señor como el centro de la vida cristiana, y el tratado «Sobre el amor a Dios» enseña que la medida de amar a Dios es amarlo sin medida. Fue profundamente mariano y cristocéntrico, y su predicación sobre la humildad y la compasión influyó en la devoción medieval.\n\nSu actividad pública fue intensa. Defendió la fe contra las enseñanzas de Pedro Abelardo, que un concilio reunido en Sens condenó; Abelardo se sometió y se retiró a Cluny. Intervino en el cisma de Anacleto II a favor de Inocencio II y aconsejó a obispos y príncipes. Su antiguo monje Bernardo Paganelli fue elegido papa con el nombre de Eugenio III en 1145, y Bernardo le dirigió el tratado «De la consideración», una advertencia sobre las exigencias del ministerio pontificio. En 1146 el papa le encargó predicar la Segunda Cruzada, lo que hizo en Vézelay con gran éxito; el fracaso de la expedición lo afligió profundamente en sus últimos años.\n\nMurió en Claraval el 20 de agosto de 1153 (la Catholic Encyclopedia da el 21 de agosto). Fue canonizado por Alejandro III el 18 de enero de 1174 y declarado doctor de la Iglesia por Pío VIII, en 1830 según la tradición posterior; la Catholic Encyclopedia solo nombra al papa. Se le llama «doctor melifluo» por la dulzura de su estilo.\n\nSu legado consiste en haber unido contemplación y acción, y en haber enseñado que el conocimiento de Dios se alcanza más por el amor que por el solo razonamiento. Dante lo eligió como guía en la última parte del Paraíso.",
+  "virtues": [
+   "Amor a Dios",
+   "Humildad",
+   "Devoción a María"
+  ],
+  "iconography": "Abad cisterciense con hábito blanco, báculo y libro; con una colmena y a veces con los instrumentos de la Pasión.",
+  "works": [
+   {
+    "title": "Sermones sobre el Cantar de los Cantares"
+   },
+   {
+    "title": "Sobre el amor a Dios"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Bernard of Clairvaux, Saint»",
+    "url": "https://www.newadvent.org/cathen/02498d.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Renovación monástica del siglo XII, escuelas urbanas, cisma papal y Segunda Cruzada.",
+  "significance": "Figura central de la Iglesia del siglo XII y maestro de la espiritualidad de amor a Cristo.",
+  "note": "Fecha de muerte: 20 de agosto (Martirologio y calendario) frente al 21 que da la Catholic Encyclopedia; año de proclamación como doctor (1830) no figura en la fuente leída."
+ },
+ {
+  "id": "pio-x",
+  "name": "San Pío X",
+  "fullName": "Giuseppe Melchiorre Sarto",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-21",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Pío X, papa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "pope"
+  ],
+  "born": {
+   "date": "2 de junio de 1835",
+   "place": "Riese (Treviso)"
+  },
+  "died": {
+   "date": "20 de agosto de 1914",
+   "place": "Roma"
+  },
+  "century": 20,
+  "countries": [
+   "IT"
+  ],
+  "canonization": {
+   "date": "29 de mayo de 1954",
+   "by": "Pío XII"
+  },
+  "summary": "Giuseppe Sarto, hijo de una familia humilde del Véneto, fue papa de 1903 a 1914 y promovió la comunión frecuente, la reforma de la Curia y la codificación del derecho canónico.",
+  "biography": "Giuseppe Melchiorre Sarto nació el 2 de junio de 1835 en Riese, en la región de Treviso, en una familia pobre. Fue ordenado sacerdote en 1858 y durante nueve años sirvió como capellán en Tombolo, donde se ocupó de los niños y de los enfermos; luego fue párroco de Salzano y canónigo de Treviso. Se hizo notar por su celo pastoral y por su sencillez.\n\nEl 10 de noviembre de 1884 fue nombrado obispo de Mantua y recibió la consagración el día 20. En 1893 León XIII lo creó cardenal y lo nombró patriarca de Venecia, aunque tardó unos dieciocho meses en tomar posesión porque el gobierno italiano retuvo el exequatur. El 4 de agosto de 1903 fue elegido papa con cincuenta y cinco votos de sesenta; fue coronado el día 9. Tomó el nombre de Pío X y como lema «instaurare omnia in Christo» (Ef 1,10): restaurar todas las cosas en Cristo.\n\nSu pontificado se centró en la renovación de la vida cristiana. Alentó la comunión frecuente y, si era posible, diaria, y relajó las reglas del ayuno para los enfermos. Con el decreto «Quam singulari» (1910) pidió que los niños hicieran la primera comunión al llegar al uso de razón, sin esperar a edades avanzadas. Impulsó la reforma de la música sagrada, el canto gregoriano y la participación de los fieles en la liturgia.\n\nFrente al modernismo, que consideraba una amenaza a la fe, publicó en 1907 el decreto «Lamentabili», que condenaba sesenta y cinco proposiciones, y la encíclica «Pascendi». Esta etapa fue áspera y suscitó discusiones que aún hoy se estudian. En 1904 puso en marcha la codificación del derecho canónico, que se promulgaría bajo su sucesor en 1917, y en 1908 reorganizó la Curia romana. Fue también un pastor atento a la catequesis y a la formación de los sacerdotes.\n\nMurió en Roma el 20 de agosto de 1914, poco después del estallido de la Primera Guerra Mundial, que había afligido profundamente su ánimo. Fue beatificado en 1951 y canonizado el 29 de mayo de 1954 por Pío XII. Se le recuerda por la sencillez de su vida y por haber acercado a los fieles a la Eucaristía; su memoria litúrgica es el 21 de agosto.",
+  "virtues": [
+   "Sencillez",
+   "Celo pastoral",
+   "Pobreza",
+   "Devoción eucarística"
+  ],
+  "iconography": "Papa con mozzetta y estola, rostro sereno y sencillo; a veces con una eucaristía.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Pius X, Pope Saint»",
+    "url": "https://www.newadvent.org/cathen/12137a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Iglesia de comienzos del siglo XX: crisis modernista, cuestión romana y reforma de la disciplina eclesiástica.",
+  "significance": "Impulsó la comunión frecuente, la reforma litúrgica y la codificación canónica.",
+  "note": "La Catholic Encyclopedia (1912) no cubre su muerte ni sus procesos de beatificación y canonización; esas fechas (1914, 1951, 1954) proceden de datos comúnmente aceptados y no de la fuente leída.",
+  "unverified": true
+ },
+ {
+  "id": "santa-maria-reina",
+  "name": "Santa María Reina",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "08-22",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa María Virgen, Reina",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Memoria de la realeza de María, instituida por Pío XII en 1954 y trasladada al 22 de agosto en la reforma de 1969, en la octava de la Asunción.",
+  "biography": "La memoria de Santa María Virgen, Reina, celebra la participación de María en la realeza de su Hijo. El papa Pío XII la instituyó el 11 de octubre de 1954 con la encíclica «Ad caeli reginam», que decretó una fiesta anual de María Reina que debía celebrarse en todo el mundo el 31 de mayo, con una renovación de la consagración del género humano al Corazón Inmaculado de María.\n\nLa encíclica funda esta realeza en tres fuentes: los escritos de los Padres de la Iglesia, la liturgia de Oriente y de Occidente, y el arte cristiano, que desde antiguo ha representado a María como reina. A estos se añaden razones teológicas, sobre todo su maternidad divina y su asociación a la obra de la redención como nueva Eva. El texto precisa que Cristo es rey en sentido estricto y absoluto, mientras que María participa de esa realeza de modo limitado y análogo, por su relación con él.\n\nLa reforma del calendario posterior al Concilio Vaticano II trasladó la celebración al 22 de agosto, en la octava de la Asunción, y la hizo memoria obligatoria. El cambio subraya la relación entre ambos misterios: la que fue elevada en cuerpo y alma a la gloria comparte ahora el reinado de su Hijo. El título conecta además con las letanías lauretanas (Reina de los ángeles, de los patriarcas, de los apóstoles, de la paz...) y con el rezo de la «Salve Regina».\n\nEn la Escritura se mencionan imágenes que la tradición ha leído en clave mariana: la «Reina a tu derecha» del Salmo 45, la «Mujer vestida de sol» del Apocalipsis (cap. 12) y el saludo del ángel, que anuncia que el Hijo recibirá el trono de David. La realeza de María no es dominio sino servicio: reina porque es Madre del Rey y porque su maternidad se extiende a todos los hombres, intercediendo por ellos.\n\nEn el arte, se la representa coronada, con cetro y manto, junto a su Hijo, como en las coronaciones de la Virgen de la pintura medieval y renacentista. La memoria invita a los fieles a confiar su vida a la intercesión de la Reina y Madre.",
+  "significance": "Recuerda la realeza de María y su unión con Cristo Rey.",
+  "iconography": "La Virgen coronada con cetro, a veces entronizada junto a Cristo.",
+  "sources": [
+   {
+    "label": "Pío XII, encíclica «Ad caeli reginam» (11-X-1954)",
+    "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La encíclica leída fija la fiesta el 31 de mayo; el traslado al 22 de agosto y su rango de memoria proceden del calendario romano actual, no de esa fuente. Las referencias bíblicas y litánicas son interpretación tradicional.",
+  "unverified": true
+ },
+ {
+  "id": "rosa-de-lima",
+  "name": "Santa Rosa de Lima",
+  "fullName": "Isabel Flores de Oliva",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-23",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Rosa de Lima, virgen",
+    "color": "white"
+   },
+   {
+    "date": "08-30",
+    "rank": "feast",
+    "calendar": "mx",
+    "title": "Santa Rosa de Lima, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "mystic",
+   "lay"
+  ],
+  "born": {
+   "date": "20 de abril de 1586",
+   "place": "Lima"
+  },
+  "died": {
+   "date": "24 de agosto de 1617",
+   "place": "Lima"
+  },
+  "century": 17,
+  "countries": [
+   "PE"
+  ],
+  "order": "Terciarias dominicas",
+  "canonization": {
+   "date": "12 de abril de 1671",
+   "by": "Clemente X"
+  },
+  "summary": "Terciaria dominica limeña, mística y penitente, primera santa de América canonizada; patrona de América y de Perú.",
+  "biography": "Isabel Flores de Oliva nació en Lima el 20 de abril de 1586, hija de un arcabucero español y de una mujer criolla. Según la tradición, su rostro de niña recordó a una rosa, de ahí que se la llamara Rosa; en su confirmación, en 1597, adoptó ese nombre. Desde joven sintió una fuerte inclinación a la oración y al recogimiento, y se propuso consagrarse a Dios.\n\nSu familia se oponía a que no se casara: durante unos diez años sus padres intentaron convencerla de lo contrario, y en esa etapa soportó burlas y presiones. En su vigésimo año recibió el hábito de santo Domingo como terciaria, lo que le permitió vivir en el mundo una vida consagrada. Con ayuda de un hermano construyó una pequeña ermita en el jardín familiar, donde pasaba muchas horas en oración, y ayudaba a su casa con labores de bordado y cultivo de flores.\n\nSu vida se distinguió por una penitencia extrema, que la Catholic Encyclopedia describe con detalle: ayunos frecuentes, abstinencia de carne, una cadena de hierro y una corona de espinas oculta bajo rosas. Se trata de prácticas propias de la espiritualidad barroca; la Iglesia las ve como signo del amor a Cristo crucificado y no como modelo exacto de imitación. Ella ofrecía esas penitencias por los pecadores, por la conversión de los idólatras de su tierra y por las almas del purgatorio.\n\nLa tradición recoge sus éxtasis y las visitas del Señor, y en su casa acogió a enfermos y niños pobres, a los que cuidaba y alimentaba. Su espiritualidad es profundamente cristocéntrica y se alimentó de la liturgia y de la doctrina dominicana; Lima era entonces una ciudad de rápido crecimiento, colonial y mestiza, que también fue cuna de san Martín de Porres y de san Juan Macías.\n\nMurió en Lima en 1617 (la tradición la sitúa el 24 de agosto; la Catholic Encyclopedia, el 30). Fue beatificada en 1667 por Clemente IX y canonizada en 1671 por Clemente X, la primera persona de las Américas elevada a los altares. Es venerada como patrona de América, y se la representa con corona de rosas. En México su fiesta se celebra el 30 de agosto, mientras que en el calendario general es memoria libre el 23.",
+  "virtues": [
+   "Oración",
+   "Penitencia",
+   "Caridad con los pobres"
+  ],
+  "iconography": "Joven dominica con corona de rosas, ancla o el Niño Jesús en una flor; a veces con un ancla (devoción en Lima).",
+  "novenas": [
+   "santa-rosa-de-lima"
+  ],
+  "art": "novena:santa-rosa-de-lima",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Rose of Lima, Saint»",
+    "url": "https://www.newadvent.org/cathen/13192c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Virreinato del Perú a comienzos del siglo XVII, con auge de la espiritualidad penitencial y de las terciarias dominicas.",
+  "significance": "Primera santa de América; modelo de vida consagrada laica.",
+  "patronages": [
+   "Patrona de América (Catholic Encyclopedia, 1913)"
+  ],
+  "note": "Fecha de muerte: 24 de agosto (tradición habitual) frente a 30 de agosto que indica la Catholic Encyclopedia; se mantiene el 24."
+ },
+ {
+  "id": "bartolome-apostol",
+  "name": "San Bartolomé, apóstol",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-24",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "San Bartolomé, apóstol",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo I",
+   "place": "Caná de Galilea (si se identifica con Natanael)"
+  },
+  "died": {
+   "date": "siglo I (según la tradición)",
+   "place": "Armenia o la India, según la tradición"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "AM",
+   "IN"
+  ],
+  "summary": "Uno de los Doce apóstoles, identificado por muchos con Natanael, de quien las tradiciones posteriores cuentan misiones en Oriente y un martirio por desollamiento.",
+  "biography": "Bartolomé figura en las cuatro listas de apóstoles del Nuevo Testamento: en el sexto lugar en los sinópticos (Mt 10,3; Mc 3,18; Lc 6,14) y en el séptimo en los Hechos (1,13). Su nombre es arameo y significa «hijo de Talmai», lo que sugiere un patronímico más que un nombre propio. Aparece siempre emparejado con Felipe.\n\nMuchos estudiosos lo identifican con Natanael, el personaje del cuarto Evangelio (Jn 1,45-51; 21,2). Felipe lo lleva a Jesús con las palabras «Hemos encontrado a aquel de quien escribió Moisés»; Natanael responde con escepticismo: «¿De Nazaret puede salir algo bueno?», y Jesús lo recibe como «un verdadero israelita, en quien no hay engaño». Natanael confiesa entonces: «Rabbí, tú eres el Hijo de Dios, tú eres el rey de Israel». Juan 21,2 lo sitúa en Caná de Galilea. La identificación es probable pero no está demostrada; la Catholic Encyclopedia la considera bastante firme sin llegar a conclusiva.\n\nDel resto de su vida no hay noticias seguras. Eusebio refiere que el filósofo Panteno halló en la India una comunidad cristiana que conservaba el Evangelio de Mateo en hebreo, dejado allí por Bartolomé. Otras tradiciones lo sitúan en Mesopotamia, Persia, Egipto, Armenia, Licaonia, Frigia y la región del mar Negro. Existió además un «Evangelio de Bartolomé» apócrifo en los primeros siglos, sin valor histórico.\n\nSe dice que murió mártir en Albanópolis, en Armenia, después de convertir al hermano del rey. Los relatos difieren: decapitación, o bien desollamiento y crucifixión cabeza abajo ordenados por el rey Astiages. De ahí viene su iconografía más conocida: el apóstol con su propia piel en la mano, como lo pintó Miguel Ángel en el «Juicio Final», y el cuchillo. Se cree que sus reliquias se conservan en la iglesia de San Bartolomé en la isla Tiberina, de Roma.\n\nEn la liturgia se le celebra el 24 de agosto como apóstol, con rango de fiesta. Lo que de él se puede decir con certeza es poco; sin embargo, el episodio de Natanael ofrece una enseñanza duradera: Jesús reconoce la sinceridad de quien busca la verdad con honradez, aun cuando su primera reacción sea la duda, y lo invita a «ver cosas mayores». La tradición lo ha tenido siempre como patrón de quienes buscan sin doblez y de quienes trabajan la piel y el cuero, aunque estos patronazgos no están documentados en las fuentes consultadas.",
+  "virtues": [
+   "Sinceridad",
+   "Apertura a la verdad"
+  ],
+  "iconography": "Apóstol con un cuchillo y su propia piel desollada, como en el «Juicio Final» de Miguel Ángel.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Bartholomew, Saint»",
+    "url": "https://www.newadvent.org/cathen/02313c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Galilea del siglo I y primeras misiones apostólicas hacia Oriente.",
+  "significance": "Uno de los Doce, testigo de la resurrección; su figura se asocia a la apertura sincera ante Cristo."
+ },
+ {
+  "id": "jose-de-calasanz",
+  "name": "San José de Calasanz",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-25",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San José de Calasanz, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder",
+   "religious"
+  ],
+  "born": {
+   "date": "11 de septiembre de 1556",
+   "place": "Peralta de la Sal (Aragón)"
+  },
+  "died": {
+   "date": "25 de agosto de 1648",
+   "place": "Roma"
+  },
+  "century": 17,
+  "countries": [
+   "ES",
+   "IT"
+  ],
+  "order": "Orden de las Escuelas Pías (escolapios)",
+  "canonization": {
+   "date": "16 de julio de 1767",
+   "by": "Clemente XIII",
+   "note": "Beatificado el 7 de agosto de 1748."
+  },
+  "summary": "Sacerdote aragonés que abrió en Roma la primera escuela pública y gratuita de Europa y fundó los escolapios.",
+  "biography": "José de Calasanz nació el 11 de septiembre de 1556 en Peralta de la Sal, en Aragón. Fue ordenado sacerdote el 17 de diciembre de 1583 por el obispo de Urgel, Hugo Ambrosio de Moncada. En 1592 fue a Roma, donde sirvió al cardenal Marco Antonio Colonna como teólogo y preceptor de su sobrino. Su ministerio en la capital lo puso en contacto con las muchas necesidades de los niños pobres, a quienes nadie ofrecía instrucción.\n\nDurante la peste y otras calamidades colaboró con cofradías de caridad. Comprobó que muchos niños romanos crecían sin escuela y sin posibilidad de aprender un oficio. Viendo que los maestros públicos cobraban y los pobres no podían pagar, decidió educarlos gratuitamente. En noviembre de 1597 abrió, según la Catholic Encyclopedia, «la primera escuela pública gratuita de Europa», con una contribución anual del papa Clemente VIII.\n\nLa escuela creció y necesitó espacio y colaboradores. En 1602 alquiló una casa en San Andrés della Valle y comenzó la vida comunitaria con sus auxiliares: de ahí surgió la Orden de los Pobres de la Madre de Dios de las Escuelas Pías, los escolapios. En 1612 la escuela se trasladó al palacio Torres, junto a San Pantaleón, donde José vivió y se sepultaría. El cuarto voto de los escolapios, la educación de los niños, refleja la dimensión apostólica de su proyecto.\n\nLa fuente leída afirma que, con el tiempo, la envidia y la oposición se levantaron contra José y su instituto, pero fueron vencidas con el paso de los años. Su obra se extendió por Italia y Europa central, y los escolapios fueron especialmente importantes en Polonia, adonde los introdujo el rey Ladislao IV, y en la formación de la juventud.\n\nMurió en Roma el 25 de agosto de 1648. Su cuerpo reposa en San Pantaleón. Fue beatificado el 7 de agosto de 1748 y canonizado por Clemente XIII el 16 de julio de 1767. Su obra, que une piedad y letras, expresa la convicción de que la educación es una obra de misericordia y un medio de reforma de la sociedad. En el calendario romano su memoria es libre y se celebra el 25 de agosto, el día de su muerte, aunque la fuente leída da el 27 de agosto como fecha de su fiesta tradicional.",
+  "virtues": [
+   "Caridad con los niños pobres",
+   "Perseverancia",
+   "Visión pedagógica"
+  ],
+  "context": "Roma de la Contrarreforma, con muchos niños sin escuela.",
+  "significance": "Pionero de la escuela popular gratuita; fundador de una orden dedicada a la educación.",
+  "iconography": "Sacerdote con niños, un libro y un crucifijo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Joseph Calasanctius»",
+    "url": "https://www.newadvent.org/cathen/08518d.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La Catholic Encyclopedia no trata otras dificultades de su vida (procesos y supresión del instituto); se omiten por no estar respaldadas por la fuente leída.",
+  "unverified": true
+ },
+ {
+  "id": "luis-ix-de-francia",
+  "name": "San Luis de Francia",
+  "fullName": "Luis IX, rey de Francia",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-25",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Luis de Francia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "25 de abril de 1214 (la Catholic Encyclopedia da 1215)",
+   "place": "Poissy"
+  },
+  "died": {
+   "date": "25 de agosto de 1270",
+   "place": "cerca de Túnez"
+  },
+  "century": 13,
+  "countries": [
+   "FR",
+   "TN"
+  ],
+  "canonization": {
+   "date": "1297",
+   "by": "Bonifacio VIII",
+   "note": "Proclamado en Orvieto."
+  },
+  "summary": "Rey de Francia de 1226 a 1270, modelo de gobernante cristiano, impulsor de la justicia y cruzado, muerto de peste cerca de Túnez.",
+  "biography": "Luis IX nació el 25 de abril de 1214 o 1215 (las fuentes discrepan; la Catholic Encyclopedia da 1215) en Poissy, hijo de Luis VIII y de Blanca de Castilla. Tenía once años cuando murió su padre y fue coronado rey. Su madre gobernó como regente de 1226 a 1234 y siguió ejerciendo gran influencia aun después, y lo educó en una fe profunda y en un fuerte sentido del deber real.\n\nSu reinado se distinguió por una administración de justicia más regular: el consejo del rey se organizó en una corte con comisiones judiciales, y el soberano atendía en persona las quejas de sus súbditos. La Catholic Encyclopedia puntualiza que no fue un gran legislador, ya que los «Établissements» son una compilación de costumbres redactada por un jurista. Durante su reinado se construyó la Santa Capilla de París para custodiar la corona de espinas, que había adquirido a gran precio.\n\nFue un hombre de oración y de austeridad personal, a pesar de su posición. Se preocupaba por los pobres y los enfermos, y fundó hospitales y casas de caridad. Tuvo diferencias con el papado cuando consideraba que sus derechos de monarca estaban en juego, pero siempre se mostró respetuoso de la Iglesia. Buscó la paz con los reinos vecinos: el tratado de París, firmado el 28 de mayo de 1258 con Enrique III de Inglaterra, supuso la renuncia inglesa a Normandía, Anjou y otras regiones, a cambio de cesiones francesas, y fue muy debatido.\n\nParticipó en dos cruzadas. La primera salió en 1248 y se dirigió a Egipto; la segunda, en 1270, se desvió hacia Túnez. Allí, el rey, que ya no era joven, cayó enfermo, como muchos de sus soldados, y murió el 25 de agosto de 1270 cerca de Túnez. Bonifacio VIII lo canonizó en Orvieto en 1297.\n\nLa «Pragmática Sanción» de 1269 que se le atribuía es, según la Catholic Encyclopedia, una falsificación posterior. San Luis encarna el ideal medieval del rey cristiano al servicio de la justicia y de la paz, y su memoria se celebra el 25 de agosto como memoria libre.",
+  "virtues": [
+   "Justicia",
+   "Piedad",
+   "Caridad con los pobres"
+  ],
+  "context": "Francia capeto del siglo XIII, cruzadas y consolidación del poder real.",
+  "significance": "Modelo de gobernante cristiano; símbolo de la monarquía francesa.",
+  "iconography": "Rey con corona, manto de armiño con flores de lis, la corona de espinas y los clavos de la Pasión.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «St. Louis IX»",
+    "url": "https://www.newadvent.org/cathen/09368a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Se omite el vínculo con la Tercera Orden franciscana, no respaldado por la fuente leída.",
+  "unverified": true
+ },
+ {
+  "id": "monica-de-hipona",
+  "name": "Santa Mónica",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-27",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa Mónica",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "c. 331-333",
+   "place": "Tagaste (Numidia)"
+  },
+  "died": {
+   "date": "387",
+   "place": "Ostia (Italia)"
+  },
+  "century": 4,
+  "countries": [
+   "DZ",
+   "IT"
+  ],
+  "summary": "Madre de san Agustín, cuya constancia en la oración y en las lágrimas acompañó la conversión de su hijo; modelo de las madres cristianas.",
+  "biography": "Mónica nació hacia el año 331-333 en Tagaste, en el norte de África, en una familia cristiana. Se casó joven con Patricio, funcionario pagano de carácter violento y de costumbres poco ordenadas, a cuya madre debía además atender. Mónica soportó esas dificultades con paciencia, limosna y oración, y Patricio, que sentía por ella un respeto particular, se hizo cristiano poco antes de morir.\n\nTuvieron tres hijos: Agustín, Navigio y Perpetua. Cuando Agustín cayó enfermo de niño, Mónica pidió que se le bautizara; Patricio consintió, pero retiró el permiso cuando el muchacho se recuperó. De joven, en Cartago, Agustín abrazó el maniqueísmo, y Mónica, doliéndose de ello, lo apartó de su mesa hasta que una visión la movió a llamarlo de nuevo. Un obispo, a quien ella pedía que lo convenciera, le dijo unas palabras que se hicieron célebres: «Es imposible que se pierda el hijo de tantas lágrimas».\n\nCuando Agustín marchó a Roma y luego a Milán, Mónica lo siguió, aun por mar, con gran valor. En Milán conoció a san Ambrosio, a quien veneraba como a un ángel de Dios, y tuvo parte en la gradual conversión de su hijo: en el otoño del 386, en el huerto de Milán, Agustín recibió la gracia decisiva. Pasaron luego unos meses de retiro en Casicíaco, donde Mónica participó en los coloquios filosóficos y espirituales de aquel pequeño círculo. Agustín fue bautizado por Ambrosio en la Vigilia Pascual del 387.\n\nCuando se disponían a regresar a África, Mónica murió en Ostia, cerca de Roma, en el 387, con unos cincuenta y cinco años. Las «Confesiones» (libro IX) narran la conversación que madre e hijo tuvieron en una ventana de Ostia, poco antes de su muerte, sobre la vida eterna, y su petición de que se la recordara ante el altar del Señor dondequiera que estuvieran. Su cuerpo fue sepultado en Ostia; en el siglo VI fue trasladado a una cripta de la iglesia de San Aurea y en 1430 Martín V mandó llevar sus reliquias a Roma.\n\nEn 1850 se fundó en París una asociación de madres cristianas bajo su patrocinio, para rezar por los hijos y esposos alejados, que fue elevada a archicofradía en 1856. Su memoria litúrgica es el 27 de agosto, víspera de la de su hijo Agustín. Su ejemplo es el de la oración perseverante, sin amargura, y de la esperanza que no se rinde.",
+  "virtues": [
+   "Perseverancia en la oración",
+   "Paciencia",
+   "Amor materno"
+  ],
+  "iconography": "Viuda con velo oscuro y rosario, a veces con un cinturón de cuero; lágrimas; junto a Agustín.",
+  "works": [],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Monica, Saint»",
+    "url": "https://www.newadvent.org/cathen/10482a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "África romana del siglo IV, con el maniqueísmo y la influencia de Ambrosio de Milán.",
+  "significance": "Ejemplo de oración perseverante de la madre cristiana; indispensable para entender la conversión de Agustín.",
+  "patronages": [
+   "Patrona de las madres cristianas (archicofradía de París, 1850-1856)"
+  ]
+ },
+ {
+  "id": "agustin-de-hipona",
+  "name": "San Agustín de Hipona",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "08-28",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Agustín, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father",
+   "mystic"
+  ],
+  "born": {
+   "date": "13 de noviembre de 354",
+   "place": "Tagaste (Numidia)"
+  },
+  "died": {
+   "date": "28 de agosto de 430",
+   "place": "Hipona"
+  },
+  "century": 5,
+  "countries": [
+   "DZ",
+   "IT"
+  ],
+  "order": "Orden de San Agustín (inspiración de la Regla)",
+  "summary": "Obispo de Hipona, convertido tras larga búsqueda, el mayor de los Padres latinos; «doctor de la gracia».",
+  "biography": "Agustín nació el 13 de noviembre de 354 en Tagaste, en Numidia, de Patricio, pagano, y de Mónica, cristiana. Estudió en Madaura y en Cartago, donde se entregó a la retórica y llevó una vida desordenada; con una compañera tuvo un hijo, Adeodato. La lectura del «Hortensio» de Cicerón despertó su amor a la sabiduría. Hacia el 373 abrazó el maniqueísmo, del que se fue alejando por no hallar en él respuesta a sus preguntas.\n\nEnseñó retórica en Cartago, Roma y Milán. En Milán conoció al obispo Ambrosio, cuya predicación le mostró una lectura espiritual de las Escrituras, y leyó a los neoplatónicos. Sus «Confesiones» narran el combate interior que culminó en septiembre del 386, en un huerto de Milán, al oír una voz de niño que decía «toma y lee». Leyó Romanos 13,13-14 y su vida cambió. Fue bautizado por Ambrosio en la Pascua del 387; poco después murió su madre, Mónica, en Ostia.\n\nRegresó a África y organizó una comunidad de vida cenobítica en Tagaste. En 391 fue ordenado presbítero en Hipona, casi a la fuerza por la aclamación del pueblo, y hacia 395-396 fue obispo de esa ciudad (la Catholic Encyclopedia sitúa su episcopado de 396 a 430). Fue pastor, predicador y juez; dedicó parte de su tiempo a resolver pleitos de los fieles y a atender a los pobres. Escribió una regla para sus clérigos que inspiraría a muchas comunidades.\n\nCombatió a los donatistas, que consideraban inválidos los sacramentos de los pecadores, y defendió la unidad de la Iglesia; luchó contra el pelagianismo, que exaltaba las fuerzas de la voluntad, y defendió que la salvación es gracia gratuita de Dios, lo que le valió el título de «doctor de la gracia». En «La ciudad de Dios», escrita tras el saqueo de Roma del 410, ofreció una interpretación de la historia como tensión entre dos amores, el de Dios y el de sí mismo. Otras obras importantes son «Sobre la Trinidad», «Sobre la doctrina cristiana» y sus comentarios a los salmos y al evangelio de Juan.\n\nMurió el 28 de agosto de 430, durante el asedio vándalo de Hipona, a los setenta y cinco años. Su pensamiento marcó la teología, la filosofía y la espiritualidad occidentales. La frase con que comienzan las «Confesiones», «nos hiciste para ti, Señor, y nuestro corazón está inquieto hasta que descanse en ti», resume la búsqueda que lo guió.",
+  "virtues": [
+   "Búsqueda de la verdad",
+   "Humildad",
+   "Amor a la Iglesia"
+  ],
+  "significance": "Uno de los mayores teólogos de la historia; su obra fundamenta gran parte de la teología occidental.",
+  "iconography": "Obispo con un corazón en llamas o atravesado por una flecha, un libro y un niño con una cuchara junto al mar (leyenda del misterio de la Trinidad).",
+  "works": [
+   {
+    "title": "Confesiones",
+    "docId": "doc.confesiones-agustin"
+   },
+   {
+    "title": "La ciudad de Dios"
+   },
+   {
+    "title": "Sobre la Trinidad"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907-1913), «Augustine of Hippo, Saint»",
+    "url": "https://www.newadvent.org/cathen/02084a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Imperio romano tardío: crisis política, polémicas donatista y pelagiana, saqueo de Roma (410) e invasión vándala."
+ }
+]

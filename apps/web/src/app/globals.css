@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 /*
+ * Áreas seguras. `env()` es la fuente estándar; `--safe-area-inset-*` las inyecta el plugin SystemBars de
+ * Capacitor en Android (WebView < 140 o tras recalcular insets, `env()` puede dar 0 y la cabecera quedaba
+ * bajo la barra de estado, interceptando el toque el sistema). Se usa el mayor de los dos. Ver ADR-020.
+ */
+:root {
+  --sat: max(env(safe-area-inset-top, 0px), var(--safe-area-inset-top, 0px));
+  --sab: max(env(safe-area-inset-bottom, 0px), var(--safe-area-inset-bottom, 0px));
+  --sal: max(env(safe-area-inset-left, 0px), var(--safe-area-inset-left, 0px));
+  --sar: max(env(safe-area-inset-right, 0px), var(--safe-area-inset-right, 0px));
+}
+
+/*
  * Paleta «Hallow» (docs/DISENO_V2.md §Color). Oscuro por defecto: fondos casi negros con matiz
  * azul-violeta, texto blanco, secundario gris lavanda, acento violeta-lavanda y oro solo para progreso.
  * Claro: mismo acento (más profundo para AA). Sepia: solo como tema de lectura.
@@ -43,8 +55,8 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   @apply bg-bg text-fg font-sans antialiased;
   overflow-x: hidden;
-  padding-left: env(safe-area-inset-left);
-  padding-right: env(safe-area-inset-right);
+  padding-left: var(--sal);
+  padding-right: var(--sar);
 }
 /* Controles nativos (deslizadores, casillas) con el acento violeta. */
 input, progress { accent-color: rgb(var(--accent-fill)); }
@@ -62,7 +74,7 @@ mark { background: rgb(var(--mark)); color: inherit; border-radius: 2px; padding
   .eyebrow { @apply text-[12px] font-medium text-muted; }
   .card-soft { @apply rounded-2xl border border-line bg-surface p-4; }
   .tap { @apply transition-[transform,background-color,opacity] duration-150 active:scale-[0.985]; }
-  .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+  .pb-safe { padding-bottom: var(--sab); }
 }
 /* Fuera de @layer para que Tailwind no los purgue (se usan con nombres dinámicos). */
 /* Degradados profundos «Hallow» (violeta → azul noche, ámbar → ciruela) por momento del día */

@@ -1,0 +1,135 @@
+{
+  "id": "castidad-santa-maria-goretti",
+  "title": "Novena por la castidad y la pureza de corazón",
+  "group": "virtues",
+  "description": "Nueve días para pedir la castidad propia de cada estado de vida, con santa María Goretti.",
+  "image": {
+    "icon": "heart",
+    "tint": "#9a6b8a"
+  },
+  "introduction": "La castidad es la integración de la sexualidad en la persona y la virtud de quien ama con verdad y libertad; el Catecismo enseña que **todos** estamos llamados a ella, cada uno según su estado de vida: célibes, casados, consagrados (CIC 2337-2359). No es desprecio del cuerpo ni del amor, sino su plenitud. Es fruto de la gracia y de un combate que dura toda la vida.\n\nSanta María Goretti (1890-1902), campesina italiana de once años, murió el 6 de julio de 1902 en Nettuno tras resistir una agresión de Alessandro Serenelli; antes de morir lo perdonó, y él, años después, se arrepintió. Fue beatificada en 1947 y canonizada por Pío XII en 1950. La Iglesia la propone como patrona de los jóvenes y de la pureza, y es también memoria de las víctimas de violencia sexual: su fiesta, el 6 de julio, recuerda el perdón más que la «proeza».",
+  "purpose": "Pedir la gracia de una castidad serena: ni obsesión ni escrúpulo, sino libertad interior. Esta novena es también para quien lucha con la pornografía, con heridas pasadas o con caídas repetidas: la vía es la misericordia de Dios, los sacramentos de la Penitencia y la Eucaristía, el acompañamiento y, si procede, ayuda profesional. Si has sido víctima de abuso, no tienes culpa; busca ayuda y protección, y habla con alguien de confianza.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor Jesús, que amas la verdad en el corazón del hombre: durante estos días quiero pedirte un corazón limpio, libre y agradecido. Por intercesión de santa María Goretti, enséñame a amar como tú amas. No me dejes sola ni solo en la lucha, y cuando caiga, no me dejes huir de tu misericordia. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Un corazón limpio",
+      "reading": "Sal 51,12",
+      "reflection": "«Crea en mí, oh Dios, un corazón puro.» La pureza no se conquista a fuerza de voluntad solitaria: se pide. Hoy comienza con reconocer que el corazón necesita ser renovado y que Dios quiere hacerlo.",
+      "prayer": "Señor, crea en mí un corazón puro. Reconozco mi debilidad y confío en tu gracia. Empiezo estos días con humildad y sin miedo."
+    },
+    {
+      "day": 2,
+      "title": "El cuerpo, templo del Espíritu",
+      "reading": "1 Co 6,19-20",
+      "reflection": "Nuestro cuerpo no es un objeto ni un enemigo: es templo del Espíritu. Cuidarlo y respetarlo (el propio y el ajeno) es honrar a Dios. La castidad nace de reconocer esta dignidad (CIC 2332-2336).",
+      "prayer": "Dios mío, gracias por mi cuerpo. Que lo trate con respeto y que nunca use ni deje usar a otros como cosa. Hazme reconocer mi dignidad y la de los demás."
+    },
+    {
+      "day": 3,
+      "title": "Una llamada para cada estado",
+      "reading": "Ef 5,25-27",
+      "reflection": "Los esposos viven la castidad en la fidelidad; los solteros, en la continencia; los consagrados, en el celibato por el Reino. No es un mismo camino, pero sí la misma meta: amar con libertad (CIC 2348-2350).",
+      "prayer": "Señor, que viva la castidad propia de mi vocación. Bendice a los matrimonios, a los solteros y a los consagrados, y fortalece a quien está en duda."
+    },
+    {
+      "day": 4,
+      "title": "Mirar con pureza",
+      "reading": "Mt 5,27-28",
+      "reflection": "Jesús llega hasta la mirada: el deseo se educa en lo que miramos, leemos y alimentamos. La pureza de corazón es una conquista de la atención. No se trata de miedo, sino de elegir lo que construye.",
+      "prayer": "Jesús, purifica mi mirada. Ayúdame a no alimentar lo que me divide y a mirar a cada persona como te mira a ti el Padre."
+    },
+    {
+      "day": 5,
+      "title": "La tentación no es pecado",
+      "reading": "Hb 4,15-16",
+      "reflection": "Cristo fue tentado «en todo como nosotros, pero sin pecado». Sentir la tentación no es consentirla. Podemos acercarnos «con confianza» al trono de la gracia, sin esconder nuestra debilidad. El escrúpulo no es virtud.",
+      "prayer": "Señor Jesús, tú me comprendes. En la tentación no me dejes ocultarme: dame confianza para pedir ayuda, huir de la ocasión y volver a ti."
+    },
+    {
+      "day": 6,
+      "title": "Caer y levantarse",
+      "reading": "Lc 15,18-20",
+      "reflection": "El hijo que se había ido recibe el abrazo antes de terminar su discurso. Después de una caída, la prisa es volver: la Reconciliación es el camino. La vergüenza paraliza; la misericordia levanta.",
+      "prayer": "Padre, a veces caigo en lo mismo. No me dejes huir de ti. Dame valor para confesarme pronto y para empezar de nuevo sin desesperarme."
+    },
+    {
+      "day": 7,
+      "title": "Amar y no usar",
+      "reading": "1 Co 13,4-7",
+      "reflection": "El amor verdadero es paciente, no busca su interés y no se alegra de la injusticia. Lo contrario de la pureza no es el deseo, sino el egoísmo que usa. Para amar bien hace falta aprender a donarse.",
+      "prayer": "Señor, enséñame a amar de verdad. Que mi cariño sea servicio y respeto. Líbrame del egoísmo que usa a los demás y de la soledad que lo busca."
+    },
+    {
+      "day": 8,
+      "title": "Perdonar y ser perdonado",
+      "reading": "Mt 6,12",
+      "reflection": "María Goretti murió perdonando. El perdón no borra el daño, pero rompe la cadena del odio. Pidamos por quienes han sufrido violencia y por quienes la ejercen, para que Dios los sane y los convierta.",
+      "prayer": "Señor, ten piedad de las víctimas de abusos y de quienes los cometen. Sana lo herido y convierte lo endurecido. Y dame un corazón que perdone."
+    },
+    {
+      "day": 9,
+      "title": "Cristo restaura",
+      "reading": "Is 43,18-19",
+      "reflection": "«Mira que hago algo nuevo.» Cristo puede restaurar lo herido, también la historia afectiva. La gracia no se limita a evitar caídas: sana, reconcilia y da libertad. Termina la novena confiando, pidiendo ayuda y dando gracias.",
+      "prayer": "Gracias, Señor, por estos días. Renuévame y concédeme paz. Santa María Goretti, ruega por mí y por los que luchan. Cristo, restáurame."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Santa María Goretti, que a los once años supiste decir sí a Dios y perdonar a quien te hirió, ruega por nosotros. Alcánzanos un corazón limpio, valentía para vivir la castidad en cada vocación, compasión por quienes sufren violencia y fe en que Cristo restaura lo herido. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Pío XII, canonización de santa María Goretti (24-VI-1950)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 2337-2359"
+    }
+  ],
+  "tags": [
+    "castidad",
+    "pureza",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 7,
+    "day": 6,
+    "label": "Memoria de santa María Goretti, virgen y mártir"
+  },
+  "saints": [
+    "maria-goretti"
+  ]
+}

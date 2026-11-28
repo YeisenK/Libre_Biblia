@@ -1,0 +1,172 @@
+{
+ "id": "historia-de-la-iglesia",
+ "title": "Historia de la Iglesia",
+ "description": "Seis etapas de la historia de la Iglesia, de Pentecostés al Vaticano II, leídas con sentido crítico y fidelidad a la fe.",
+ "level": "inicial",
+ "lessons": [
+  {
+   "title": "Pentecostés y la Iglesia apostólica",
+   "body": [
+    "La Iglesia nace del costado de Cristo y se manifiesta en Pentecostés (CEC 766, 768). Los Hechos de los Apóstoles narran su expansión, el concilio de Jerusalén y la misión a los gentiles. Los apóstoles y sus sucesores garantizan la continuidad de la fe (CEC 857)."
+   ],
+   "ccc": [
+    766,
+    768,
+    857
+   ],
+   "bible": [
+    "Hch 2,1-4",
+    "Hch 15,28"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "748-780",
+     "La Iglesia en el designio de Dios"
+    ],
+    [
+     "bible",
+     "Hch 2,1-13",
+     "Pentecostés"
+    ]
+   ],
+   "questions": [
+    "¿Qué significa que la Iglesia es apostólica?"
+   ]
+  },
+  {
+   "title": "Persecuciones y Padres de la Iglesia",
+   "body": [
+    "Durante tres siglos los cristianos sufrieron persecuciones intermitentes. La sangre de los mártires fue testimonio de fe. Los Padres de la Iglesia defendieron y explicaron la fe frente a las herejías; sus escritos son testigos privilegiados de la Tradición (CEC 688, 2473)."
+   ],
+   "ccc": [
+    688,
+    2473
+   ],
+   "bible": [
+    "Hch 7,59-60"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "2473-2474",
+     "El martirio"
+    ],
+    [
+     "work",
+     "doc.confesiones-agustin",
+     "Confesiones de san Agustín (clásico, no magisterio)"
+    ]
+   ],
+   "questions": [
+    "¿Por qué se consideran los Padres testigos de la Tradición?"
+   ]
+  },
+  {
+   "title": "Concilios cristológicos y trinitarios",
+   "body": [
+    "Entre los siglos IV y VII los concilios ecuménicos fijaron la fe sobre la Trinidad y Cristo: Nicea (325), Constantinopla I (381), Éfeso (431), Calcedonia (451), Constantinopla II y III. De ellos procede el Credo que se reza cada domingo (CEC 195)."
+   ],
+   "ccc": [
+    195
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "church",
+     "in-unitate-fidei",
+     "In unitate fidei"
+    ],
+    [
+     "ccc",
+     "185-197",
+     "Los Símbolos de la fe"
+    ]
+   ],
+   "questions": [
+    "¿Qué herejía enfrentó cada concilio?"
+   ]
+  },
+  {
+   "title": "Monacato, Edad Media y misión",
+   "body": [
+    "El monacato, de san Antonio a san Benito, preservó la oración, el trabajo y la cultura. En la Edad Media nacieron las universidades y las órdenes mendicantes; en estos siglos se produjeron también el cisma de Oriente (1054) y conflictos entre el papado y los poderes civiles. La Iglesia reconoce los pecados de sus hijos (CEC 827)."
+   ],
+   "ccc": [
+    827
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "811-870",
+     "Una, santa, católica y apostólica"
+    ],
+    [
+     "work",
+     "doc.ciudad-de-dios",
+     "La ciudad de Dios, de san Agustín"
+    ]
+   ],
+   "questions": [
+    "¿Qué aportó el monacato a la civilización europea?"
+   ]
+  },
+  {
+   "title": "Reforma protestante y reforma católica",
+   "body": [
+    "En el siglo XVI la ruptura de la unidad occidental dio lugar a las Iglesias reformadas. El Concilio de Trento (1545-1563) respondió definiendo el canon, la justificación y los sacramentos, y creando seminarios. Hoy la Iglesia busca la unidad de los cristianos (CEC 817-822)."
+   ],
+   "ccc": [
+    817,
+    820
+   ],
+   "bible": [
+    "Jn 17,21"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "817-822",
+     "Las divisiones entre cristianos"
+    ],
+    [
+     "church",
+     "unitatis-redintegratio",
+     "Unitatis redintegratio"
+    ]
+   ],
+   "questions": [
+    "¿Qué respondió Trento a la Reforma?"
+   ]
+  },
+  {
+   "title": "De la misión universal al Vaticano II",
+   "body": [
+    "Desde el siglo XVI la misión llegó a América, África y Asia, con luces y sombras. El Vaticano I (1869-1870) definió el primado y la infalibilidad pontificia; el Vaticano II (1962-1965) renovó la liturgia, la eclesiología y el diálogo con el mundo (CEC 849-856)."
+   ],
+   "ccc": [
+    849,
+    851
+   ],
+   "bible": [
+    "Mt 28,19"
+   ],
+   "readings": [
+    [
+     "church",
+     "lumen-gentium",
+     "Lumen gentium"
+    ],
+    [
+     "church",
+     "gaudium-et-spes",
+     "Gaudium et spes"
+    ]
+   ],
+   "questions": [
+    "¿Qué novedades trajo el Vaticano II?"
+   ]
+  }
+ ]
+}

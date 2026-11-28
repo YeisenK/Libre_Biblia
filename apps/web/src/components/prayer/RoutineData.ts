@@ -6,7 +6,7 @@ import { getDb, type NovenaProgressRow, type RoutineRow } from '@/lib/db';
 import { todayIso } from '@/lib/daily/date';
 import { useSettings } from '@/hooks/useSettings';
 import { computeProgress, doneForDate, listRoutines, type DoneMap, type Progress } from '@/lib/prayers/routines';
-import { listInProgress } from '@/lib/prayers/novenas';
+import { listInProgress, listScheduled } from '@/lib/prayers/novenas';
 
 /** Fecha de hoy en la zona del usuario; se refresca al pasar la medianoche. */
 export function useToday(): string {
@@ -43,4 +43,8 @@ export function useNovenasInProgress(): NovenaProgressRow[] | undefined {
 
 export function useNovenaProgress(id: string | null): NovenaProgressRow | null | undefined {
   return useLiveQuery(async () => (id ? ((await getDb().novenaProgress.get(id)) ?? null) : null), [id]);
+}
+
+export function useNovenasScheduled(): NovenaProgressRow[] | undefined {
+  return useLiveQuery(() => listScheduled(getDb()), []);
 }

@@ -66,7 +66,7 @@ describe('Tiempos y días móviles', () => {
   });
   it('opciones nacionales (domingo)', () => {
     const o = { ascensionSunday: true, corpusSunday: true, epiphanySunday: true };
-    expect(L('2026-05-14', o).celebration).toBeNull();
+    expect(L('2026-05-14', o).celebration?.id).toBe('matthias');
     expect(L('2026-05-17', o).celebration?.id).toBe('ascension');
     expect(L('2026-06-07', o).celebration?.id).toBe('corpus-christi');
     expect(L('2026-01-04', o).celebration?.id).toBe('epiphany');

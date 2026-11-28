@@ -1,0 +1,190 @@
+{
+ "id": "examen-adultos",
+ "kind": "examen",
+ "title": "Para adultos",
+ "description": "Para quien vive entre trabajo, familia y responsabilidades: fe, matrimonio, dinero, palabra y comunidad.",
+ "group": "Según tu etapa",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 20,
+ "ccc": [
+  "2052-2557",
+  "1776-1802"
+ ],
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "text",
+   "title": "Antes de empezar",
+   "text": "Ponte en presencia de Dios, que no te examina para condenarte sino para sanarte. Lee las preguntas despacio y quédate solo con las que te hablen. Marcar una pregunta no significa que sea pecado grave: es una ayuda para recordar. Si dudas de la gravedad de algo, díselo con sencillez al sacerdote: él te ayudará.\n\n**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "a1",
+   "kind": "questions",
+   "title": "Dios y la vida de fe",
+   "questions": [
+    {
+     "text": "¿Rezo cada día, aunque sea poco? ¿He dejado crecer mi vida de fe?"
+    },
+    {
+     "text": "¿Participo en la Misa dominical con atención? ¿Comulgo con las debidas disposiciones?"
+    },
+    {
+     "text": "¿Me confieso con regularidad?"
+    },
+    {
+     "text": "¿He caído en rutina, tibieza o indiferencia?"
+    }
+   ],
+   "ccc": "2083-2141"
+  },
+  {
+   "id": "a2",
+   "kind": "questions",
+   "title": "Matrimonio y familia",
+   "questions": [
+    {
+     "text": "¿Cuido a mi cónyuge con atención, diálogo y ternura? ¿He sido fiel de pensamiento y obra?"
+    },
+    {
+     "text": "¿Estamos abiertos a la vida y vivimos con responsabilidad nuestra fecundidad?"
+    },
+    {
+     "text": "¿Educo a mis hijos en la fe con el ejemplo?"
+    },
+    {
+     "text": "¿He dejado que el trabajo, las pantallas o el cansancio me alejen de los míos?"
+    }
+   ],
+   "ccc": "2201-2233",
+   "reading": "Mt 19,6"
+  },
+  {
+   "id": "a3",
+   "kind": "questions",
+   "title": "Trabajo y dinero",
+   "questions": [
+    {
+     "text": "¿Trabajo con honradez y competencia? ¿He engañado, defraudado, abusado de mi cargo o de mis subordinados?"
+    },
+    {
+     "text": "¿Pago lo justo? ¿Cumplo mis deudas?"
+    },
+    {
+     "text": "¿Vivo con codicia, afán de lucro o consumismo?"
+    },
+    {
+     "text": "¿Comparto con quien tiene necesidad?"
+    }
+   ],
+   "ccc": "2427-2436"
+  },
+  {
+   "id": "a4",
+   "kind": "questions",
+   "title": "Palabras y juicios",
+   "questions": [
+    {
+     "text": "¿He mentido, calumniado o difamado?"
+    },
+    {
+     "text": "¿Juzgo con dureza a mi cónyuge, hijos, compañeros o a la Iglesia?"
+    },
+    {
+     "text": "¿Hablo de más de las faltas de otros?"
+    }
+   ],
+   "ccc": "2475-2487"
+  },
+  {
+   "id": "a5",
+   "kind": "questions",
+   "title": "Corazón y afectividad",
+   "questions": [
+    {
+     "text": "¿Cuido la pureza de mi mirada y de mi imaginación?"
+    },
+    {
+     "text": "¿Hay pornografía, infidelidad (incluso virtual) o relaciones desordenadas?"
+    },
+    {
+     "text": "¿Vivo la castidad propia de mi estado?"
+    }
+   ],
+   "ccc": "2331-2400"
+  },
+  {
+   "id": "a6",
+   "kind": "questions",
+   "title": "Salud, vicios y descanso",
+   "questions": [
+    {
+     "text": "¿Me dejo dominar por alcohol, juego, tabaco, pantallas u otras dependencias?"
+    },
+    {
+     "text": "¿Cuido mi salud y mi descanso, o vivo desbordado?"
+    },
+    {
+     "text": "¿Soy iracundo, impaciente o rencoroso en casa?"
+    }
+   ],
+   "ccc": "2288-2291"
+  },
+  {
+   "id": "a7",
+   "kind": "questions",
+   "title": "Comunidad y sociedad",
+   "questions": [
+    {
+     "text": "¿Cumplo mis deberes cívicos (impuestos, leyes justas, voto responsable)?"
+    },
+    {
+     "text": "¿Colaboro con mi parroquia o comunidad, con mi tiempo y mis bienes?"
+    },
+    {
+     "text": "¿Soy indiferente ante pobres, enfermos o ancianos?"
+    }
+   ],
+   "ccc": "2238-2243"
+  },
+  {
+   "id": "a8",
+   "kind": "questions",
+   "title": "Perdón y reconciliación",
+   "questions": [
+    {
+     "text": "¿Hay alguien con quien estoy enemistado y podría dar el primer paso?"
+    },
+    {
+     "text": "¿He pedido perdón cuando he herido a alguien?"
+    },
+    {
+     "text": "¿Guardo rencor del pasado?"
+    }
+   ],
+   "ccc": "2842-2845"
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

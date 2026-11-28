@@ -12,14 +12,19 @@ import { prayerText } from '@/lib/prayers/catalog';
 import { toggleFavorite, useIsFavorite } from '@/lib/prayers/favorites';
 import { recordPrayed } from '@/lib/prayers/history';
 import { markItemDone } from '@/lib/prayers/routines';
+import { prayerShareText } from '@/lib/prayers/share';
 import { shareText } from '@/lib/share';
 import { PrayerAudioButton } from '../audio/PrayerAudio';
 import { HeartIcon } from '../Icons';
 import { CheckIcon } from '../icons/Sacred';
 import { ArtHeader, Chip, EmptyState, IconButton, ListGroup, ListRow, NatureBadge, ScreenHeader, Section, TextSizeControl } from '../ui';
 import { Markdown } from '../Markdown';
+import { PrayerAddToCollection } from './PrayerAddToCollection';
 import { PrayerAddToRoutine } from './PrayerAddToRoutine';
 import { PrayerText } from './PrayerText';
+import { GroupToggle } from './GroupToggle';
+import { hasResponses, useGroupMode } from '@/lib/prayers/groupMode';
+import { relatedFeastNovenas, saintLabel, SAINT_PATRONAGE } from '@/lib/prayers/devotions';
 
 export function PrayerReader() {
   const id = useSearchParams().get('id') ?? '';
@@ -30,6 +35,7 @@ export function PrayerReader() {
   const fav = useIsFavorite(key);
   const [prayed, setPrayed] = useState(false);
   const [note, setNote] = useState<string | null>(null);
+  const [group] = useGroupMode();
 
   const p = cat?.prayerById.get(id);
   const related = useMemo(() => {
@@ -61,7 +67,7 @@ export function PrayerReader() {
     update({ prayerVariants: next });
   };
   const share = async () => {
-    const r = await shareText(`${p.title}\n\n${plainForShare(text)}\n\n— Libre Biblia`, p.title);
+    const r = await shareText(prayerShareText(p, text), p.title);
     setNote(r === 'copied' ? 'Copiada al portapapeles' : r === 'failed' ? 'No se pudo compartir' : null);
   };
   const markPrayed = async () => {
@@ -107,7 +113,10 @@ export function PrayerReader() {
 
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
         <TextSizeControl value={settings.prayerFontScale} onChange={(v) => update({ prayerFontScale: v })} />
-        <PrayerAudioButton clipKey={key} />
+        <div className="flex flex-wrap items-center gap-3">
+          {hasResponses(text) && <GroupToggle />}
+          <PrayerAudioButton clipKey={key} />
+        </div>
       </div>
 
       {p.variants?.length ? (
@@ -123,7 +132,7 @@ export function PrayerReader() {
       ) : null}
 
       <div className="mb-8 max-w-reading">
-        <PrayerText text={text} />
+        <PrayerText text={text} group={group} />
       </div>
 
       {p.latin && (
@@ -141,6 +150,7 @@ export function PrayerReader() {
         </button>
         <PrayerAddToRoutine itemKey={key} title={p.title} />
       </div>
+      <div className="mb-8 flex"><PrayerAddToCollection itemKey={key} title={p.title} /></div>
       <p className="sr-only" role="status">{prayed ? 'Oración registrada como rezada' : ''}</p>
       {note && <p className="-mt-5 mb-6 text-center text-[13px] text-muted" role="status">{note}</p>}
 
@@ -178,6 +188,17 @@ export function PrayerReader() {
         ) : null}
       </Section>
 
+      {p.saints && p.saints.length > 0 && (
+        <Section title="Santo o advocación">
+          <div className="mb-3 flex flex-wrap gap-2">
+            {p.saints.map((sid) => <Link key={sid} href={`/oraciones/santos/?s=${encodeURIComponent(sid)}`} className="tap inline-flex min-h-[44px] items-center rounded-full bg-surface px-4 text-[14px] ring-1 ring-line hover:bg-sunken">{SAINT_PATRONAGE[sid]?.name ?? saintLabel(sid)}</Link>)}
+          </div>
+          {relatedFeastNovenas(cat, p.saints).length > 0 && (
+            <ul className="space-y-1 text-[14px]">{relatedFeastNovenas(cat, p.saints).map((n) => <li key={n.id}><Link className="text-accent underline" href={`/novena/?id=${encodeURIComponent(n.id)}`}>{n.title}</Link>{n.feast ? ` · ${n.feast.label}` : ''}</li>)}</ul>
+          )}
+        </Section>
+      )}
+
       {related.length > 0 && (
         <Section title={category ? `Más de «${category.title}»` : 'Oraciones relacionadas'}>
           <ListGroup>
@@ -193,9 +214,4 @@ export function PrayerReader() {
 
 export function detailOf(nature: keyof typeof NATURE_LABEL, minutes?: number): string {
   return minutes ? `${NATURE_LABEL[nature]} · ${minutes} min` : NATURE_LABEL[nature];
-}
-
-/** Texto plano para compartir (sin marcas de Markdown). */
-function plainForShare(md: string): string {
-  return md.replace(/\*\*|__/g, '').replace(/(^|[\s(])[*_]([^*_\n]+)[*_]/g, '$1$2').replace(/^\s*>\s?/gm, '');
 }

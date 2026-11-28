@@ -1,7 +1,7 @@
 'use client';
 /** Introducción al Santo Rosario: misterios del día, modalidad, ajustes rápidos e intención. */
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { useState } from 'react';
 import { MYSTERY_SET_LABEL, type MysterySet } from '@bc/shared';
 import { useQueryClient } from '@tanstack/react-query';
@@ -23,7 +23,9 @@ export function RosaryIntro() {
   const { settings, update } = useSettings();
   const catalog = usePrayerCatalog();
   const active = useActiveRosary();
-  const [picked, setPicked] = useState<MysterySet | null>(null);
+  // ?set=joyful|luminous|sorrowful|glorious abre directamente esos misterios (p. ej. desde Orar).
+  const setParam = useSearchParams().get('set');
+  const [picked, setPicked] = useState<MysterySet | null>(SET_ORDER.includes(setParam as MysterySet) ? (setParam as MysterySet) : null);
   const [intention, setIntention] = useState('');
   const [busy, setBusy] = useState(false);
   const [confirmNew, setConfirmNew] = useState(false);
@@ -131,8 +133,31 @@ export function RosaryIntro() {
           onChange={(v) => update({ rosaryMode: v })}
         />
         <p className="mt-2 px-1 text-[13px] text-muted">
-          {settings.rosaryMode === 'digital' ? 'Un rosario en pantalla te acompaña cuenta a cuenta.' : 'Sin cuentas en pantalla: te indicamos en qué cuenta de tu rosario vas.'}
+          {settings.rosaryMode === 'digital' ? 'Un rosario en pantalla te acompaña cuenta a cuenta.' : 'Con tu rosario en la mano: cuentas tú las Ave Marías y solo pasas a lo siguiente al terminar cada decena.'}
         </p>
+        {settings.rosaryMode === 'physical' && (
+          <>
+            <ListGroup className="mt-3">
+              <Toggle checked={settings.rosaryPhysicalGuide} onChange={(v) => update({ rosaryPhysicalGuide: v })} label="Guía para usar el rosario" detail="Indica qué cuenta tomar en cada momento" />
+              {settings.prayerVoice !== null && (
+                <Toggle checked={settings.rosaryRepeatAves} onChange={(v) => update({ rosaryRepeatAves: v })} label="Repetir el Ave María en audio" detail="Suena diez veces en cada decena (tres al comienzo)" />
+              )}
+            </ListGroup>
+            {settings.rosaryPhysicalGuide && (
+              <details className="mt-3 rounded-2xl bg-sunken p-4">
+                <summary className="min-h-[44px] cursor-pointer text-[15px] font-medium leading-[44px]">Cómo usar el rosario</summary>
+                <ol className="mt-2 list-decimal space-y-2 pl-5 text-[14px] leading-relaxed text-muted">
+                  <li>Toma el <b className="text-fg">crucifijo</b>: haz la señal de la cruz y reza el Credo.</li>
+                  <li>En la <b className="text-fg">cuenta grande</b> que sigue reza el Padre Nuestro; en las <b className="text-fg">tres cuentas pequeñas</b>, tres Ave Marías (por la fe, la esperanza y la caridad), y después el Gloria.</li>
+                  <li>Llegas a la <b className="text-fg">medalla</b>, donde se unen los dos lados. Desde ahí empiezan las cinco <b className="text-fg">decenas</b>.</li>
+                  <li>En cada decena: anuncia el misterio y reza el Padre Nuestro en la cuenta grande; luego un Ave María en cada una de las <b className="text-fg">diez cuentas pequeñas</b>, contemplando el misterio; termina con el Gloria (y la jaculatoria de Fátima si la rezas).</li>
+                  <li>Tras la quinta decena vuelves a la medalla: reza la Salve y termina con la señal de la cruz.</li>
+                </ol>
+                <p className="mt-3 text-[13px] text-muted">En la pantalla solo pulsas «Siguiente» al terminar cada grupo de Ave Marías, no en cada una.</p>
+              </details>
+            )}
+          </>
+        )}
       </Section>
 
       <Section title="Ajustes del rezo">

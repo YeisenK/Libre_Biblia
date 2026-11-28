@@ -1,7 +1,7 @@
 // @vitest-environment node
 import 'fake-indexeddb/auto';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
-import { buildPlan, type NotifySettings } from './plan';
+import { buildPlan, ROUTINE_MESSAGES, routineMessage, type NotifySettings } from './plan';
 
 const base: NotifySettings = { notifyEnabled: true, notifyVerseTime: '08:00', notifyReading: false, notifyReadingTime: '20:00', notifyPrayer: false, notifyPrayerTime: '07:00', timeZone: 'America/Mexico_City' };
 const verseFor = async (iso: string) => ({ title: `Ref ${iso}`, body: `Texto ${iso}` });
@@ -75,7 +75,7 @@ describe('notificaciones nativas (plugin simulado)', () => {
     const plan = await buildPlan({ now: new Date('2026-11-20T10:00:00Z'), settings: base, verseFor, days: 2 });
     await n.applyPlan(plan);
     expect(plugin.cancel).toHaveBeenCalledWith({ notifications: [{ id: 5 }, { id: 6 }] });
-    expect(plugin.createChannel).toHaveBeenCalledOnce();
+    expect(plugin.createChannel).toHaveBeenCalledTimes(3); // palabra del día, oración y liturgia
     const arg = plugin.schedule.mock.calls[0]![0].notifications;
     expect(arg).toHaveLength(2);
     for (const x of arg) {
@@ -170,17 +170,19 @@ describe('recordatorios de rutinas', () => {
   });
   const now = new Date('2026-11-20T10:00:00Z'); // viernes 04:00 en México
 
-  it('programa solo los días elegidos, con texto y ruta /orar/', async () => {
+  it('programa solo los días elegidos, con un mensaje de ánimo y la ruta de la rutina guiada', async () => {
     const plan = await buildPlan({ now, settings: base, verseFor: async () => null, routines: [routine()], days: 7 });
     expect(plan.map((p) => p.at.toISOString())).toEqual(['2026-11-20T13:00:00.000Z', '2026-11-23T13:00:00.000Z']);
-    expect(plan[0]).toMatchObject({ kind: 'routine', title: 'Tu oración de la mañana', body: 'Mañana: 5 oraciones', path: '/orar/' });
+    expect(plan[0]).toMatchObject({ kind: 'routine', title: 'Buenos días ☀️' });
+    expect(ROUTINE_MESSAGES.morning).toContain(plan[0]!.body);
+    expect(plan[0]!.path).toMatch(/^\/rezar\/\?r=/);
   });
 
   it('funciona con las notificaciones generales desactivadas y sin chocar de ids', async () => {
     const off = { ...base, notifyEnabled: false };
     const plan = await buildPlan({ now, settings: off, verseFor, routines: [routine(), routine({ id: 'r2', moment: 'any', title: 'Mi rutina', items: ['x'], reminder: { enabled: true, time: '21:00', days: [0, 1, 2, 3, 4, 5, 6] } })] });
     expect(plan.every((p) => p.kind === 'routine')).toBe(true);
-    expect(plan.find((p) => p.title === 'Mi rutina')!.body).toBe('1 oración');
+    expect(ROUTINE_MESSAGES.any).toContain(plan.find((p) => p.title === 'Mi rutina')!.body);
     const all = await buildPlan({ now, settings: base, verseFor, routines: [routine()], days: 7 });
     expect(new Set(all.map((p) => p.id)).size).toBe(all.length);
     expect(all.filter((p) => p.kind === 'routine').every((p) => p.id >= 10_000)).toBe(true);
@@ -202,6 +204,15 @@ describe('recordatorios de rutinas', () => {
     plugin.checkPermissions.mockResolvedValue({ display: 'granted' });
     plugin.getPending.mockResolvedValue({ notifications: [] });
     expect(await syncNotifications({ ...DEFAULT_SETTINGS, notifyEnabled: false, timeZone: 'America/Mexico_City' }, now, db)).toBe('scheduled');
-    expect(plugin.schedule.mock.calls.at(-1)![0].notifications[0]).toMatchObject({ title: 'Tu oración de la mañana', extra: { path: '/orar/' } });
+    expect(plugin.schedule.mock.calls.at(-1)![0].notifications[0]).toMatchObject({ title: 'Buenos días ☀️', smallIcon: 'ic_stat_lux' });
+  });
+});
+
+describe('mensaje de los avisos de rutina', () => {
+  it('usa el mensaje propio si existe y, si no, uno de Lux distinto cada día', () => {
+    const r = { title: 'Mañana', moment: 'morning' as const, items: ['prayer:x'], reminder: { enabled: true, time: '07:00', days: [1], message: '  Hora de hablar con Dios  ' } };
+    expect(routineMessage(r).body).toBe('Hora de hablar con Dios');
+    const sin = { ...r, reminder: { ...r.reminder, message: undefined } };
+    expect(routineMessage(sin, 0).body).not.toBe(routineMessage(sin, 1).body);
   });
 });

@@ -1,13 +1,14 @@
 {
   "name": "@bc/mobile",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "build:web": "pnpm --filter @bc/web build",
     "sync": "cap sync android",
     "assets": "node scripts/gen-assets.mjs",
-    "build:android": "node scripts/build-android.mjs"
+    "build:android": "node scripts/build-android.mjs",
+    "sync:ios": "cap sync ios"
   },
   "dependencies": {
     "@capacitor/android": "^8",
@@ -15,6 +16,7 @@
     "@capacitor/browser": "^8",
     "@capacitor/core": "^8",
     "@capacitor/filesystem": "^8",
+    "@capacitor/ios": "^8",
     "@capacitor/local-notifications": "^8",
     "@capacitor/share": "^8",
     "@capacitor/splash-screen": "^8",

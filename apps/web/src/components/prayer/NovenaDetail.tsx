@@ -13,21 +13,30 @@ import { loadMassPassage, spanFor, spanOfPassage } from '@/lib/daily/mass';
 import { readerHref } from '@/lib/links';
 import { prayerText, splitReadings, type PrayerCatalog } from '@/lib/prayers/catalog';
 import { toggleFavorite, useIsFavorite } from '@/lib/prayers/favorites';
+import { novenaShareText } from '@/lib/prayers/share';
+import { shareText } from '@/lib/share';
 import { abandonNovena, calendarDay, currentDay, daysBehind, doneCount, feastTiming, markDayDone, restartNovena, startNovena, unmarkDay } from '@/lib/prayers/novenas';
 import { Markdown } from '../Markdown';
 import { Modal } from '../Modal';
 import { HeartIcon } from '../Icons';
 import { CheckIcon } from '../icons/Sacred';
 import { ArtHeader, EmptyState, HeroCard, IconButton, NatureBadge, ProgressBar, ScreenHeader, Section, TextSizeControl } from '../ui';
+import { PrayerAddToCollection } from './PrayerAddToCollection';
 import { PrayerAddToRoutine } from './PrayerAddToRoutine';
 import { PrayerText } from './PrayerText';
+import { PrayerAudioButton } from '../audio/PrayerAudio';
+import { GroupToggle } from './GroupToggle';
+import { NovenaSchedule } from './NovenaSchedule';
+import { useGroupMode } from '@/lib/prayers/groupMode';
+import { relatedFeastNovenas, saintLabel, SAINT_PATRONAGE } from '@/lib/prayers/devotions';
+import { isScheduled, nextFeastDate } from '@/lib/prayers/schedule';
 import { useNovenaProgress, useToday } from './RoutineData';
 import { plural } from './RoutineItems';
 
 const btnPrimary = 'tap inline-flex min-h-[52px] w-full items-center justify-center gap-2 rounded-full bg-fg px-6 text-[16px] font-medium text-bg disabled:opacity-60';
 const btnGhost = 'tap inline-flex min-h-[48px] items-center justify-center gap-2 rounded-full px-5 text-[15px] font-medium ring-1 ring-line hover:bg-sunken';
 
-function Steps({ steps, cat, variants }: { steps: PrayerStep[]; cat: PrayerCatalog; variants: Record<string, string> }) {
+function Steps({ steps, cat, variants, group }: { steps: PrayerStep[]; cat: PrayerCatalog; variants: Record<string, string>; group?: boolean }) {
   return (
     <div className="space-y-6">
       {steps.map((s, i) => {
@@ -40,14 +49,14 @@ function Steps({ steps, cat, variants }: { steps: PrayerStep[]; cat: PrayerCatal
                 {title}
                 {s.times && s.times > 1 && <span className="rounded-md border border-line px-1.5 py-px font-sans text-[12px] font-medium text-muted">{s.times} veces</span>}
               </h3>
-              {p ? <PrayerText text={prayerText(p, variants)} /> : <p className="text-sm text-muted">Esta oración todavía no está en tu devocionario.</p>}
+              {p ? <PrayerText text={prayerText(p, variants)} group={group} /> : <p className="text-sm text-muted">Esta oración todavía no está en tu devocionario.</p>}
             </div>
           );
         }
         return (
           <div key={i}>
             {s.title && <h3 className="mb-2 font-display text-[1.25rem] font-semibold">{s.title}</h3>}
-            <PrayerText text={s.text} />
+            <PrayerText text={s.text} group={group} />
           </div>
         );
       })}
@@ -118,6 +127,8 @@ export function NovenaDetail() {
   const [intention, setIntention] = useState('');
   const [confirm, setConfirm] = useState<null | 'restart' | 'abandon'>(null);
   const [busy, setBusy] = useState(false);
+  const [schedule, setSchedule] = useState(false);
+  const [group] = useGroupMode();
 
   if (isLoading || progress === undefined) return <div className="h-40 animate-pulse rounded-2xl bg-sunken" aria-hidden />;
   const novena: Novena | undefined = cat?.novenaById.get(id);
@@ -132,7 +143,8 @@ export function NovenaDetail() {
 
   const total = novena.days.length;
   const p = progress ?? undefined;
-  const running = !!p && !p.completedAt;
+  const scheduled = !!p && isScheduled(p, today);
+  const running = !!p && !p.completedAt && !scheduled;
   const finished = !!p?.completedAt;
   const cur = currentDay(p, total);
   const inDay = Number.isInteger(dayParam) && dayParam >= 1 && dayParam <= total;
@@ -148,6 +160,9 @@ export function NovenaDetail() {
   const actions = (
     <>
       <TextSizeControl value={settings.prayerFontScale} onChange={(v) => update({ prayerFontScale: v })} />
+      <IconButton label="Compartir novena" onClick={() => void shareText(novenaShareText(novena, p?.intention), novena.title)}>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden><path d="M12 15V3M8 7l4-4 4 4M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7" /></svg>
+      </IconButton>
       <IconButton label={fav ? 'Quitar de favoritos' : 'Guardar en favoritos'} active={fav} onClick={() => void toggleFavorite(`novena:${id}`, novena.title)}>
         <span className={fav ? '[&_svg]:fill-current' : ''}><HeartIcon /></span>
       </IconButton>
@@ -179,15 +194,20 @@ export function NovenaDetail() {
         {p?.intention && <p className="mb-6 rounded-2xl bg-sunken px-4 py-3 text-[14px]"><span className="eyebrow mr-2">Tu intención</span>{p.intention}</p>}
         {suggested && cur && suggested > cur && !isDone && daysBehind(p!, total, today) > 0 && <p className="mb-6 text-[13px] text-muted" role="status">Por el calendario tocaría el día {suggested}; puedes seguir a tu ritmo.</p>}
 
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
+          <GroupToggle />
+          {/* Audio: clip por día generado en la ola 2 con Juglar (clave `novena:<id>:day:<n>`); no se muestra si no existe */}
+          <PrayerAudioButton clipKey={`novena:${id}:day:${dayParam}`} />
+        </div>
         <article className="space-y-10 pb-4">
           {novena.opening.length > 0 && (
-            <Section title="Oraciones iniciales" className="!mb-0"><Steps steps={novena.opening} cat={cat} variants={settings.prayerVariants} /></Section>
+            <Section title="Oraciones iniciales" className="!mb-0"><Steps steps={novena.opening} cat={cat} variants={settings.prayerVariants} group={group} /></Section>
           )}
           {d.reading && splitReadings(d.reading).map((r) => <Reading key={r} reference={r} />)}
           <Section title="Reflexión" className="!mb-0"><div className="prayer-text"><Markdown text={d.reflection} /></div></Section>
-          <Section title="Oración del día" className="!mb-0"><PrayerText text={d.prayer} /></Section>
+          <Section title="Oración del día" className="!mb-0"><PrayerText text={d.prayer} group={group} /></Section>
           {novena.closing.length > 0 && (
-            <Section title="Oraciones finales" className="!mb-0"><Steps steps={novena.closing} cat={cat} variants={settings.prayerVariants} /></Section>
+            <Section title="Oraciones finales" className="!mb-0"><Steps steps={novena.closing} cat={cat} variants={settings.prayerVariants} group={group} /></Section>
           )}
         </article>
 
@@ -227,7 +247,7 @@ export function NovenaDetail() {
         }
       />
 
-      <HeroCard tone="sacred" eyebrow={finished ? 'Novena completada' : running ? 'En curso' : 'Para empezar'} title={finished ? 'Has terminado la novena' : running ? `Día ${cur ?? total} de ${total}` : 'Nueve días de oración'} subtitle={running && p ? `${doneCount(p)} de ${total} días hechos` : timing && timing.daysUntilStart > 0 ? `Para la fiesta (${novena.feast!.label}) conviene empezar el ${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${timing.startDate}T00:00:00Z`))}.` : undefined} className="mb-6">
+      <HeroCard tone="sacred" eyebrow={finished ? 'Novena completada' : running ? 'En curso' : scheduled ? 'Programada' : 'Para empezar'} title={finished ? 'Has terminado la novena' : running ? `Día ${cur ?? total} de ${total}` : 'Nueve días de oración'} subtitle={scheduled && p ? `Empieza el ${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(p.startedAt))}. Puedes empezarla antes.` : running && p ? `${doneCount(p)} de ${total} días hechos` : timing && timing.daysUntilStart > 0 ? `Para la fiesta (${novena.feast!.label}) conviene empezar el ${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${timing.startDate}T00:00:00Z`))}.` : undefined} className="mb-6">
         {running && p && <ProgressBar value={doneCount(p) / total} className="mb-4 !bg-white/30" />}
         {!running && !finished && (
           <>
@@ -261,6 +281,23 @@ export function NovenaDetail() {
       {novena.introduction && <Section title="Origen e historia"><div className="prayer-text"><Markdown text={novena.introduction} /></div></Section>}
       {novena.purpose && <Section title="Finalidad"><div className="prayer-text"><Markdown text={novena.purpose} /></div></Section>}
 
+      {(() => {
+        const feastDate = novena.feast ? nextFeastDate(novena, today) : null;
+        const related = relatedFeastNovenas(cat, novena.saints, novena.id);
+        if (!feastDate && !novena.saints?.length) return null;
+        return (
+          <Section title="Santo y fiesta">
+            {feastDate && novena.feast && <p className="mb-3 text-[14px]">{novena.feast.label}: <strong>{new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(`${feastDate}T00:00:00Z`))}</strong></p>}
+            {novena.saints && novena.saints.length > 0 && (
+              <div className="mb-3 flex flex-wrap gap-2">
+                {novena.saints.map((sid) => <Link key={sid} href={`/oraciones/santos/?s=${encodeURIComponent(sid)}`} className="tap inline-flex min-h-[44px] items-center rounded-full bg-surface px-4 text-[14px] ring-1 ring-line hover:bg-sunken">{SAINT_PATRONAGE[sid]?.name ?? saintLabel(sid)}</Link>)}
+              </div>
+            )}
+            {related.length > 0 && <ul className="space-y-1 text-[14px]">{related.map((r) => <li key={r.id}><Link className="text-accent underline" href={`/novena/?id=${encodeURIComponent(r.id)}`}>{r.title}</Link>{r.feast ? ` · ${r.feast.label}` : ''}</li>)}</ul>}
+          </Section>
+        );
+      })()}
+
       {(novena.attribution || (novena.sources && novena.sources.length > 0)) && (
         <Section title="Fuentes y atribución">
           {novena.attribution && <p className="mb-2 text-[14px] text-muted">{novena.attribution}</p>}
@@ -274,10 +311,14 @@ export function NovenaDetail() {
 
       <p className="mb-4 text-[13px] leading-relaxed text-muted">{NATURE_HELP[novena.nature]}</p>
       <div className="mb-8 flex flex-wrap gap-3">
+        {!running && !finished && <button type="button" onClick={() => setSchedule(true)} className={btnGhost}>{scheduled ? 'Cambiar fecha' : 'Programar'}</button>}
         <PrayerAddToRoutine itemKey={`novena:${id}`} title={novena.title} />
+        <PrayerAddToCollection itemKey={`novena:${id}`} title={novena.title} />
         {running && <button type="button" onClick={() => setConfirm('restart')} className={btnGhost}>Reiniciar</button>}
         {p && <button type="button" onClick={() => setConfirm('abandon')} className={btnGhost}>{finished ? 'Quitar del progreso' : 'Abandonar'}</button>}
       </div>
+
+      <NovenaSchedule novena={novena} today={today} open={schedule} onClose={() => setSchedule(false)} />
 
       <Modal open={confirm !== null} onClose={() => setConfirm(null)} title={confirm === 'restart' ? '¿Empezar de nuevo?' : '¿Abandonar la novena?'} variant="dialog">
         <p className="mb-4 text-sm text-muted">{confirm === 'restart' ? 'Se borrará el progreso actual y volverás al día 1. Se conserva tu intención.' : 'Se borrará el progreso de esta novena. Podrás empezarla otra vez cuando quieras.'}</p>

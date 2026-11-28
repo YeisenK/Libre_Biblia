@@ -23,7 +23,7 @@ const UA = 'LibreBibliaArt/1.0 (catalogo de arte sacro de dominio publico; uso n
 const API = 'https://commons.wikimedia.org/w/api.php';
 const WIDTH = 720;
 const MAX_HEIGHT = 900; // 4:5 como máximo; el sobrante se recorta alrededor del foco
-const MAX_BYTES = 66 * 1024;
+const DEFAULT_MAX = 66 * 1024;
 const PASSES = 4;
 const META_ONLY = process.argv.includes('--meta');
 const PD = /^(PD|Public domain|CC0)/i;
@@ -103,7 +103,7 @@ async function metadata(files) {
 }
 
 // Recorte entre 4:5 (retrato) y 4:3 (apaisado) alrededor del foco; ancho final 720 px.
-async function encode(buf, focus) {
+async function encode(buf, focus, MAX_BYTES = DEFAULT_MAX) {
   const [fx, fy] = focus.split(' ').map((s) => parseFloat(s) / 100);
   const MIN_HEIGHT = Math.round((WIDTH * 3) / 4);
   const { data, info } = await sharp(buf).rotate().resize({ width: WIDTH }).toBuffer({ resolveWithObject: true });
@@ -167,7 +167,7 @@ for (const c of CATALOG) {
   const raw = join(CACHE, `${name}.jpg`);
   const m = meta.get(c.file);
   if (!(await exists(raw))) { console.error(`PENDIENTE: ${name}`); missing++; continue; }
-  const webp = await encode(await readFile(raw), c.focus);
+  const webp = await encode(await readFile(raw), c.focus, c.max ?? DEFAULT_MAX);
   await writeFile(join(OUT, `${name}.webp`), webp);
   total += webp.length;
   console.log(`${name}.webp ${(webp.length / 1024).toFixed(0)} KB`);

@@ -1,0 +1,834 @@
+{
+ "p1": {
+  "s": "Primera parte: lo que la Iglesia cree. Expone la fe profesada en el Credo: la capacidad del hombre para Dios, la Revelación y su transmisión, la respuesta de la fe y, artículo por artículo, el Símbolo de los Apóstoles.",
+  "b": [
+   "Rm 10,9",
+   "Mt 28,19"
+  ]
+ },
+ "p2": {
+  "s": "Segunda parte: cómo la Iglesia celebra la fe. Trata de la liturgia como obra de la Trinidad, de la economía sacramental y de cada uno de los siete sacramentos, con los sacramentales y las exequias.",
+  "b": [
+   "1 Co 11,26",
+   "Ef 1,3"
+  ]
+ },
+ "p3": {
+  "s": "Tercera parte: cómo se vive la fe. Presenta la dignidad de la persona, la libertad, la conciencia, las virtudes y el pecado, la vida social, la ley y la gracia, y los diez mandamientos como camino de la caridad.",
+  "b": [
+   "Jn 13,34",
+   "Mt 22,37"
+  ]
+ },
+ "p4": {
+  "s": "Cuarta parte: cómo se reza. Explica qué es la oración cristiana, su revelación en la Escritura, su tradición y su vida, y comenta el Padre Nuestro petición por petición.",
+  "b": [
+   "Lc 11,1",
+   "Rm 8,26"
+  ]
+ },
+ "prologo": {
+  "s": "Presenta el fin del Catecismo: ayudar a conocer y amar a Dios, transmitir la fe mediante la catequesis y ofrecer una exposición orgánica de la doctrina católica. Explica su estructura en cuatro partes (credo, sacramentos, vida en Cristo y oración) y cómo usarlo.",
+  "b": [
+   "Mt 28,19",
+   "Jn 17,3"
+  ]
+ },
+ "p1-s1": {
+  "s": "Introduce las dos formas de la fe: «creo» como acto personal y «creemos» como fe de la Iglesia.",
+  "b": [
+   "Hb 11,1"
+  ]
+ },
+ "p1-s1-c1": {
+  "s": "Muestra que el ser humano está hecho para Dios y lo busca; recorre las vías de acceso a Dios (el mundo y la persona humana), el conocimiento de Dios según la Iglesia y los límites del lenguaje humano para hablar de Él.",
+  "b": [
+   "Hch 17,27",
+   "Rm 1,20",
+   "Sal 63,2"
+  ]
+ },
+ "p1-s1-c2": {
+  "s": "Introducción al capítulo sobre la Revelación: Dios sale libremente al encuentro del hombre.",
+  "b": [
+   "Hb 1,1"
+  ]
+ },
+ "p1-s1-c2-a1": {
+  "s": "Dios se revela por amor, de modo progresivo: desde la creación y los patriarcas hasta Cristo, plenitud de la Revelación. En Jesús, Palabra hecha carne, Dios lo ha dicho todo y no cabe esperar otra revelación pública.",
+  "b": [
+   "Hb 1,1-2",
+   "Jn 1,14",
+   "1 Tm 2,4"
+  ]
+ },
+ "p1-s1-c2-a2": {
+  "s": "La Revelación llega a todos los tiempos por la Tradición apostólica y la Escritura, que forman un solo depósito de la fe. El Magisterio vivo interpreta auténticamente ese depósito; el pueblo de Dios participa con el sentido sobrenatural de la fe.",
+  "b": [
+   "Mt 28,19-20",
+   "2 Ts 2,15",
+   "2 Tm 1,14"
+  ]
+ },
+ "p1-s1-c2-a3": {
+  "s": "La Escritura es Palabra de Dios en palabras humanas, inspirada y verdadera en lo que Dios quiso para nuestra salvación. Se interpreta atendiendo a su unidad, a la Tradición viva y a la analogía de la fe. Presenta el canon y el lugar de la Escritura en la vida de la Iglesia.",
+  "b": [
+   "2 Tm 3,16",
+   "2 P 1,20-21",
+   "Lc 24,45"
+  ]
+ },
+ "p1-s1-c3": {
+  "s": "Introducción al capítulo sobre la fe como respuesta del hombre al Dios que se revela.",
+  "b": [
+   "Rm 1,5"
+  ]
+ },
+ "p1-s1-c3-a1": {
+  "s": "Creer es entregarse libremente a Dios y asentir a lo que revela. Abraham y María son modelos. La fe es un don de la gracia, un acto humano razonable, necesaria para la salvación, que busca entender y crece hasta la visión.",
+  "b": [
+   "Hb 11,1",
+   "Rm 10,17",
+   "Lc 1,38"
+  ]
+ },
+ "p1-s1-c3-a2": {
+  "s": "La fe es personal pero no individual: se recibe de la Iglesia y se vive en ella. Se expresa en fórmulas (credos y dogmas) que no son un fin en sí mismas, sino que conducen a Dios; hay una sola fe confesada por todos.",
+  "b": [
+   "Ef 4,4-5",
+   "1 Tm 3,15",
+   "Jds 3"
+  ]
+ },
+ "p1-s2": {
+  "s": "Introduce los Símbolos de la fe: el Credo de los Apóstoles y el Niceno-Constantinopolitano como síntesis de la fe de la Iglesia, y su estructura trinitaria.",
+  "b": [
+   "Mt 28,19",
+   "1 Co 15,3"
+  ]
+ },
+ "p1-s2-c1": {
+  "s": "Apertura del primer capítulo del Credo: la profesión de fe comienza por Dios, principio y fin de todo.",
+  "b": [
+   "Is 44,6"
+  ]
+ },
+ "p1-s2-c1-a1-q1": {
+  "s": "Dios es único: la fe monoteísta de Israel. Se revela como «El que es», fuente del ser, verdad y amor. De esa fe se siguen consecuencias para la vida: reconocer su grandeza, vivir en acción de gracias y confiar solo en Él.",
+  "b": [
+   "Dt 6,4",
+   "Ex 3,14",
+   "1 Jn 4,8"
+  ]
+ },
+ "p1-s2-c1-a1-q2": {
+  "s": "Dios es Padre, Hijo y Espíritu Santo: un solo Dios en tres Personas. Se expone la revelación de la Trinidad, la doctrina de la Iglesia y cómo las tres Personas obran inseparablemente en las obras y misiones divinas.",
+  "b": [
+   "Mt 28,19",
+   "Jn 14,26",
+   "2 Co 13,13"
+  ]
+ },
+ "p1-s2-c1-a1-q3": {
+  "s": "La omnipotencia de Dios es la de un Padre: se muestra en el amor y en el perdón y en la debilidad aparente de la cruz. Dios puede todo y no hace nada que contradiga su bondad; el mal no escapa a su providencia.",
+  "b": [
+   "Lc 1,37",
+   "2 Co 12,9",
+   "Gn 18,14"
+  ]
+ },
+ "p1-s2-c1-a1-q4": {
+  "s": "Dios creó de la nada, libremente y por amor, el mundo ordenado y bueno, con la Trinidad como autora y para su gloria. Aborda el misterio del mal y la divina providencia, que conduce la creación a su perfección.",
+  "b": [
+   "Gn 1,1",
+   "Sal 33,6",
+   "Rm 8,28"
+  ]
+ },
+ "p1-s2-c1-a1-q5": {
+  "s": "Dios creó el mundo invisible y el visible. Trata de los ángeles, criaturas espirituales servidoras de Dios, y de la creación visible, ordenada y buena, con su fin en el hombre.",
+  "b": [
+   "Sal 148,2",
+   "Mt 18,10",
+   "Hb 1,14"
+  ]
+ },
+ "p1-s2-c1-a1-q6": {
+  "s": "El ser humano, creado a imagen de Dios, es unidad de cuerpo y alma espiritual; creado hombre y mujer en igual dignidad, llamado a la comunión con Dios y con los demás. Expone la condición original de santidad y justicia.",
+  "b": [
+   "Gn 1,26-27",
+   "Gn 2,7",
+   "Sal 8,5-6"
+  ]
+ },
+ "p1-s2-c1-a1-q7": {
+  "s": "El pecado original, comprendido a la luz de Cristo: la caída de los ángeles y la del primer hombre, su transmisión a toda la humanidad y sus consecuencias. La revelación del pecado es inseparable de la promesa de redención.",
+  "b": [
+   "Gn 3,1-24",
+   "Rm 5,12",
+   "Rm 5,20"
+  ]
+ },
+ "p1-s2-c2": {
+  "s": "Introducción al segundo capítulo del Credo: Jesucristo, centro del mensaje de la catequesis y de toda la fe.",
+  "b": [
+   "Ga 4,4",
+   "Mc 1,1"
+  ]
+ },
+ "p1-s2-c2-a2": {
+  "s": "Los títulos de Cristo: Jesús (Dios salva), Cristo (Ungido), Hijo único de Dios y Señor. Cada nombre expresa quién es y qué ha hecho para nuestra salvación.",
+  "b": [
+   "Mt 1,21",
+   "Flp 2,9-11",
+   "Hch 4,12"
+  ]
+ },
+ "p1-s2-c2-a3-q1": {
+  "s": "La Encarnación: el Hijo eterno de Dios se hizo hombre para salvarnos, para que conociéramos su amor y fuéramos partícipes de la naturaleza divina. Verdadero Dios y verdadero hombre en una sola Persona, según los concilios cristológicos.",
+  "b": [
+   "Jn 1,14",
+   "1 Jn 4,10",
+   "2 P 1,4"
+  ]
+ },
+ "p1-s2-c2-a3-q2": {
+  "s": "Jesús fue concebido por obra del Espíritu Santo y nació de la Virgen María. Expone la predestinación de María, su concepción inmaculada, su maternidad divina y virginal y su papel en la historia de la salvación.",
+  "b": [
+   "Lc 1,26-38",
+   "Mt 1,18-25",
+   "Ga 4,4"
+  ]
+ },
+ "p1-s2-c2-a3-q3": {
+  "s": "Recorre los misterios de la vida de Cristo: la infancia y la vida oculta, el bautismo, las tentaciones, el anuncio del Reino, los signos y milagros, la Transfiguración y la subida a Jerusalén. Toda su vida es revelación y redención.",
+  "b": [
+   "Lc 2,51-52",
+   "Mc 1,9-11",
+   "Mc 9,2-8"
+  ]
+ },
+ "p1-s2-c2-a4-q1": {
+  "s": "La relación de Jesús con la Ley, el Templo y la fe de Israel; la oposición que provocó y la responsabilidad en su muerte, que no puede atribuirse al pueblo judío en su conjunto.",
+  "b": [
+   "Mt 5,17",
+   "Jn 2,19",
+   "Mc 2,7"
+  ]
+ },
+ "p1-s2-c2-a4-q2": {
+  "s": "Cristo murió por nuestros pecados según el designio de Dios: ofrenda de amor de la que nace nuestra redención. Presenta el sacrificio redentor, la obediencia del Hijo y la participación de la humanidad en él.",
+  "b": [
+   "1 Co 15,3",
+   "Is 53,10-12",
+   "Mc 10,45"
+  ]
+ },
+ "p1-s2-c2-a4-q3": {
+  "s": "La sepultura de Cristo muestra que murió de verdad y que su cuerpo no vio corrupción; el misterio del sábado santo como descanso del Señor antes de la resurrección.",
+  "b": [
+   "Hch 2,27",
+   "Jn 19,41-42",
+   "Hb 2,9"
+  ]
+ },
+ "p1-s2-c2-a5-q1": {
+  "s": "Cristo muerto descendió a los infiernos (el «sheol»), a la morada de los muertos, para liberar a los justos que le precedieron y abrirles las puertas del cielo.",
+  "b": [
+   "1 P 3,18-19",
+   "Hch 2,24",
+   "Ef 4,9"
+  ]
+ },
+ "p1-s2-c2-a5-q2": {
+  "s": "La Resurrección, verdad central de la fe: el acontecimiento histórico y trascendente atestiguado por los apóstoles. Es obra de la Trinidad, confirma la divinidad de Cristo y es principio de nuestra resurrección.",
+  "b": [
+   "1 Co 15,3-5",
+   "Lc 24,1-12",
+   "Rm 6,4"
+  ]
+ },
+ "p1-s2-c2-a6": {
+  "s": "La Ascensión: Cristo glorificado entra en el santuario del cielo, está sentado a la derecha del Padre, intercede por nosotros y nos prepara un lugar.",
+  "b": [
+   "Hch 1,9-11",
+   "Hb 9,24",
+   "Jn 14,2-3"
+  ]
+ },
+ "p1-s2-c2-a7": {
+  "s": "Cristo vendrá en gloria a juzgar a vivos y muertos. Habla de la espera de la Iglesia, de la última prueba, del juicio final y de la esperanza del Reino.",
+  "b": [
+   "Mt 25,31-46",
+   "Hch 1,11",
+   "1 Co 15,28"
+  ]
+ },
+ "p1-s2-c3": {
+  "s": "Introducción al tercer capítulo del Credo: la misión del Espíritu Santo, inseparable de la del Hijo, y la Iglesia como lugar de su acción.",
+  "b": [
+   "1 Co 12,3",
+   "Jn 14,26"
+  ]
+ },
+ "p1-s2-c3-a8": {
+  "s": "Quién es el Espíritu Santo: tercera Persona de la Trinidad, que procede del Padre y del Hijo. Sus nombres y símbolos, su acción en la Antigua Alianza, en María, en Cristo y en la Iglesia, y la vida en el Espíritu.",
+  "b": [
+   "Jn 14,16-17",
+   "Hch 2,1-4",
+   "Rm 8,14-16"
+  ]
+ },
+ "p1-s2-c3-a9": {
+  "s": "Apertura del artículo sobre la Iglesia como objeto de fe: no se cree «en» la Iglesia como en Dios, sino que se cree que existe como obra del Espíritu.",
+  "b": [
+   "Mt 16,18"
+  ]
+ },
+ "p1-s2-c3-a9-q1": {
+  "s": "El designio de Dios sobre la Iglesia: convocada desde el origen, preparada en la Antigua Alianza, fundada por Cristo, manifestada por el Espíritu en Pentecostés y llevada a su plenitud en la gloria. Imágenes bíblicas: rebaño, campo, edificio, esposa.",
+  "b": [
+   "Mt 16,18",
+   "Hch 2,1-4",
+   "Ef 5,25-27"
+  ]
+ },
+ "p1-s2-c3-a9-q2": {
+  "s": "La Iglesia es Pueblo de Dios, Cuerpo de Cristo y Templo del Espíritu Santo. Describe la pertenencia al pueblo de Dios, el sacerdocio común y la misión profética y real de los fieles.",
+  "b": [
+   "1 P 2,9",
+   "1 Co 12,12-27",
+   "1 Co 3,16"
+  ]
+ },
+ "p1-s2-c3-a9-q3": {
+  "s": "Las notas de la Iglesia: una, santa, católica y apostólica. Trata de su unidad y de la división de los cristianos, del ecumenismo, de la santidad, de la catolicidad y la misión, y de la necesidad de la Iglesia para la salvación.",
+  "b": [
+   "Ef 4,4-6",
+   "Jn 17,21",
+   "Mt 28,19-20"
+  ]
+ },
+ "p1-s2-c3-a9-q4": {
+  "s": "Los fieles de Cristo: la jerarquía (obispos, presbíteros y diáconos; el Papa y el colegio episcopal), los laicos con su vocación propia y la vida consagrada en la Iglesia. Incluye el magisterio, la santificación y el gobierno.",
+  "b": [
+   "Lc 22,32",
+   "Mt 16,18-19",
+   "1 Co 7,34"
+  ]
+ },
+ "p1-s2-c3-a9-q5": {
+  "s": "La comunión de los santos: comunión en las cosas santas (fe, sacramentos, carismas, caridad) y entre las personas santas, es decir, entre los fieles de la tierra, las almas del purgatorio y los bienaventurados, que intercede por nosotros.",
+  "b": [
+   "Hch 2,42",
+   "1 Co 12,26",
+   "Hb 12,1"
+  ]
+ },
+ "p1-s2-c3-a9-q6": {
+  "s": "María, Madre de Cristo y Madre de la Iglesia: su maternidad espiritual, su Asunción, su intercesión y su culto; imagen y comienzo de la Iglesia en la gloria.",
+  "b": [
+   "Jn 19,25-27",
+   "Lc 1,48",
+   "Hch 1,14"
+  ]
+ },
+ "p1-s2-c3-a10": {
+  "s": "El perdón de los pecados: Cristo lo da con su Espíritu a los apóstoles. Se concede en el Bautismo y en el sacramento de la Penitencia, y la Iglesia tiene el poder de las llaves.",
+  "b": [
+   "Jn 20,22-23",
+   "Mt 16,19",
+   "Hch 2,38"
+  ]
+ },
+ "p1-s2-c3-a11": {
+  "s": "La resurrección de la carne: Cristo resucitó y nos resucitará. Trata de la muerte cristiana, del cuerpo glorioso y de cómo se vive esta esperanza ya en el Bautismo y la Eucaristía.",
+  "b": [
+   "1 Co 15,12-22",
+   "Jn 6,54",
+   "Rm 8,11"
+  ]
+ },
+ "p1-s2-c3-a12": {
+  "s": "La vida eterna: la muerte, el juicio particular, el cielo, el purgatorio, el infierno, el juicio final y la esperanza de los cielos nuevos y la tierra nueva. Cierra el Credo con el «amén».",
+  "b": [
+   "Ap 21,1-4",
+   "1 Co 13,12",
+   "Mt 25,31-46"
+  ]
+ },
+ "p2-s1": {
+  "s": "Introduce la economía sacramental: cómo el misterio pascual de Cristo se hace presente y se comunica en la liturgia de la Iglesia.",
+  "b": [
+   "1 Co 11,26"
+  ]
+ },
+ "p2-s1-c1-a1": {
+  "s": "La liturgia es obra de la Trinidad: el Padre como fuente y fin de toda bendición, Cristo que actúa en la liturgia y el Espíritu que prepara, recuerda y hace presente el misterio. La Iglesia celebra la liturgia como pueblo de Dios.",
+  "b": [
+   "Ef 1,3-14",
+   "Jn 4,23",
+   "Rm 8,26"
+  ]
+ },
+ "p2-s1-c1-a2": {
+  "s": "Los sacramentos como «fuerzas que brotan» del Cuerpo de Cristo: instituidos por Cristo, sacramentos de la Iglesia, de la fe y de la salvación, y de la vida eterna. Los sacramentos obran por sí mismos (ex opere operato) y requieren la fe.",
+  "b": [
+   "Lc 5,17",
+   "Mc 16,16",
+   "Jn 3,5"
+  ]
+ },
+ "p2-s1-c2": {
+  "s": "Introducción al capítulo sobre cómo se celebran los sacramentos y la liturgia.",
+  "b": [
+   "Hch 2,42"
+  ]
+ },
+ "p2-s1-c2-a1": {
+  "s": "Quién celebra la liturgia (la asamblea con sus ministros), cómo se celebra (signos y símbolos, palabras y acciones, canto y música, imágenes sagradas), cuándo (el año litúrgico, el domingo, la liturgia de las horas) y dónde (el templo).",
+  "b": [
+   "Hch 2,42",
+   "Sal 95,1-2",
+   "Ap 4,2"
+  ]
+ },
+ "p2-s1-c2-a2": {
+  "s": "Diversidad de ritos y tradiciones litúrgicas con una misma fe y unidad en lo esencial; la inculturación legítima de la liturgia.",
+  "b": [
+   "Rm 16,26",
+   "Jn 17,21"
+  ]
+ },
+ "p2-s2": {
+  "s": "Introduce los siete sacramentos de la Iglesia y su agrupación: iniciación, curación y servicio de la comunión y la misión.",
+  "b": [
+   "Mt 28,19"
+  ]
+ },
+ "p2-s2-c1": {
+  "s": "Introducción a los sacramentos de la iniciación cristiana: Bautismo, Confirmación y Eucaristía, que fundan la vida cristiana.",
+  "b": [
+   "Hch 2,38"
+  ]
+ },
+ "p2-s2-c1-a1": {
+  "s": "El Bautismo es la puerta de la vida en el Espíritu y de los demás sacramentos: perdona el pecado original y los personales, hace hijos de Dios e incorpora a la Iglesia. Su rito, ministro, necesidad (también el bautismo de deseo y de sangre) y efectos, y el bautismo de los niños.",
+  "b": [
+   "Jn 3,5",
+   "Mt 28,19",
+   "Rm 6,3-4"
+  ]
+ },
+ "p2-s2-c1-a2": {
+  "s": "La Confirmación perfecciona la gracia bautismal con el don del Espíritu Santo y su sello. Trata de su historia, su signo (la unción con el crisma y la imposición de manos), sus efectos y su ministro ordinario, el obispo.",
+  "b": [
+   "Hch 8,14-17",
+   "Is 11,2",
+   "Ef 1,13"
+  ]
+ },
+ "p2-s2-c1-a3": {
+  "s": "La Eucaristía, fuente y cima de la vida cristiana: el sacrificio y banquete de Cristo, su presencia real, los efectos de la Comunión y la esperanza de la gloria. Explica el rito de la Misa, la transubstanciación y el culto eucarístico.",
+  "b": [
+   "1 Co 11,23-26",
+   "Jn 6,51-58",
+   "Lc 22,19"
+  ]
+ },
+ "p2-s2-c2": {
+  "s": "Introducción a los sacramentos de curación: Penitencia y Unción de los enfermos, para la vida del cuerpo y del alma frágiles.",
+  "b": [
+   "Mc 2,5"
+  ]
+ },
+ "p2-s2-c2-a4": {
+  "s": "El sacramento de la Penitencia: la conversión, el perdón de los pecados por medio de la absolución, los actos del penitente (contrición, confesión, satisfacción), el ministro, los efectos y las indulgencias.",
+  "b": [
+   "Jn 20,22-23",
+   "Lc 15,11-32",
+   "2 Co 5,18-20"
+  ]
+ },
+ "p2-s2-c2-a5": {
+  "s": "La Unción de los enfermos: fundamento bíblico, quiénes la reciben, cómo se celebra, sus efectos y el viático como último sacramento del cristiano.",
+  "b": [
+   "St 5,14-15",
+   "Mc 6,13",
+   "Is 53,4"
+  ]
+ },
+ "p2-s2-c3": {
+  "s": "Introducción a los sacramentos al servicio de la comunión: Orden y Matrimonio, ordenados a la salvación de otros.",
+  "b": [
+   "Hb 5,1"
+  ]
+ },
+ "p2-s2-c3-a6": {
+  "s": "El sacramento del Orden: el sacerdocio de Cristo, común y ministerial; los tres grados (episcopado, presbiterado, diaconado), la celebración, el ministro, quién puede recibirlo y sus efectos.",
+  "b": [
+   "Hb 5,1-4",
+   "Lc 22,19",
+   "2 Tm 1,6"
+  ]
+ },
+ "p2-s2-c3-a7": {
+  "s": "El Matrimonio en el plan de Dios: alianza entre un hombre y una mujer ordenada al bien de los esposos y a la procreación; sacramento entre bautizados. Consentimiento, unidad e indisolubilidad, y la familia como iglesia doméstica.",
+  "b": [
+   "Gn 2,18-24",
+   "Mt 19,4-6",
+   "Ef 5,25-32"
+  ]
+ },
+ "p2-s2-c4-a1": {
+  "s": "Los sacramentales: signos sagrados instituidos por la Iglesia (bendiciones, consagraciones, exorcismos) que preparan para recibir el fruto de los sacramentos. Incluye la religiosidad popular.",
+  "b": [
+   "Gn 12,2",
+   "Lc 6,28"
+  ]
+ },
+ "p2-s2-c4-a2": {
+  "s": "Las exequias cristianas: la última Pascua del cristiano y el sentido de la liturgia por los difuntos y su sepultura.",
+  "b": [
+   "1 Ts 4,13-18",
+   "Jn 11,25"
+  ]
+ },
+ "p3-s1": {
+  "s": "Introduce la vocación del hombre a la bienaventuranza y la vida en el Espíritu.",
+  "b": [
+   "Rm 8,14"
+  ]
+ },
+ "p3-s1-c1": {
+  "s": "Introducción al capítulo sobre la dignidad de la persona humana, creada a imagen de Dios.",
+  "b": [
+   "Lc 15,11-32"
+  ]
+ },
+ "p3-s1-c1-a1": {
+  "s": "El hombre, imagen de Dios, dotado de alma espiritual, razón y libertad, es llamado a conocer y amar a Dios. Trata de la vocación al amor y de cómo la imagen de Dios se restaura en Cristo.",
+  "b": [
+   "Gn 1,27",
+   "Col 1,15",
+   "Ef 4,24"
+  ]
+ },
+ "p3-s1-c1-a2": {
+  "s": "Nuestra vocación a la bienaventuranza: las Bienaventuranzas como camino, el deseo natural de felicidad y la visión de Dios como fin último. Pone a la luz del Reino los deseos del corazón.",
+  "b": [
+   "Mt 5,3-12",
+   "Mt 5,8",
+   "Jn 17,3"
+  ]
+ },
+ "p3-s1-c1-a3": {
+  "s": "La libertad: poder de obrar o no obrar que hace al hombre responsable de sus actos. Crece con el bien, puede perderse con el pecado y es liberada por Cristo. Trata de responsabilidad e imputabilidad.",
+  "b": [
+   "Si 15,14-17",
+   "Ga 5,1",
+   "Jn 8,36"
+  ]
+ },
+ "p3-s1-c1-a4": {
+  "s": "La moralidad de los actos humanos depende de tres fuentes: el objeto, el fin y las circunstancias. Un fin bueno no justifica un medio malo.",
+  "b": [
+   "Mt 7,12",
+   "Rm 3,8"
+  ]
+ },
+ "p3-s1-c1-a5": {
+  "s": "Las pasiones, movimientos de la sensibilidad, no son buenas ni malas en sí; se ordenan por la razón y la virtud. Presenta el amor como pasión principal.",
+  "b": [
+   "Sal 84,3",
+   "Mc 7,21-23"
+  ]
+ },
+ "p3-s1-c1-a6": {
+  "s": "La conciencia moral: juicio de la razón sobre la bondad o malicia de un acto. Se debe formar, seguir y respetar; trata de la conciencia recta, del error invencible y de la responsabilidad en su formación.",
+  "b": [
+   "Rm 2,14-16",
+   "1 Jn 3,19-21"
+  ]
+ },
+ "p3-s1-c1-a7": {
+  "s": "Las virtudes humanas (prudencia, justicia, fortaleza y templanza), las virtudes teologales (fe, esperanza y caridad) y los dones del Espíritu Santo, frutos y carismas.",
+  "b": [
+   "1 Co 13,13",
+   "Ga 5,22-23",
+   "Is 11,2"
+  ]
+ },
+ "p3-s1-c1-a8": {
+  "s": "El pecado: ofensa a Dios, falta contra la razón y el amor. Distingue pecado mortal y venial, los vicios y pecados capitales, y la responsabilidad social del pecado, con la gravedad de cada caso.",
+  "b": [
+   "Rm 5,20",
+   "1 Jn 1,8-9",
+   "Mt 26,28"
+  ]
+ },
+ "p3-s1-c2": {
+  "s": "Introducción al capítulo sobre la comunidad humana: la persona vive en sociedad.",
+  "b": [
+   "Hch 4,32"
+  ]
+ },
+ "p3-s1-c2-a1": {
+  "s": "La persona y la sociedad: el carácter comunitario de la vocación humana, la conversión de las estructuras y el principio de subsidiariedad.",
+  "b": [
+   "Lc 17,33",
+   "Mt 22,39"
+  ]
+ },
+ "p3-s1-c2-a2": {
+  "s": "La participación en la vida social: la autoridad legítima, el bien común, la responsabilidad y la participación de todos en la vida pública.",
+  "b": [
+   "Rm 13,1-7",
+   "Mc 12,17"
+  ]
+ },
+ "p3-s1-c2-a3": {
+  "s": "La justicia social: respeto de la persona, igualdad y diferencias entre las personas, y la solidaridad humana.",
+  "b": [
+   "Mt 25,40",
+   "Ga 6,2"
+  ]
+ },
+ "p3-s1-c3": {
+  "s": "Introducción al capítulo sobre la salvación de Dios: la ley y la gracia como caminos del hombre hacia el bien.",
+  "b": [
+   "Flp 2,12-13"
+  ]
+ },
+ "p3-s1-c3-a1": {
+  "s": "La ley moral: obra de la sabiduría divina, comprende la ley natural, la Ley antigua y la Ley nueva o evangélica, plenitud de la Antigua en Cristo.",
+  "b": [
+   "Rm 10,4",
+   "Mt 5,17",
+   "Rm 13,10"
+  ]
+ },
+ "p3-s1-c3-a2": {
+  "s": "Gracia y justificación: la gracia como don gratuito de Dios que nos hace hijos suyos; la justificación, el mérito y la santidad cristiana. La conversión, la vocación a la vida eterna y el papel de la fe y las obras.",
+  "b": [
+   "Rm 3,22-24",
+   "Ef 2,8-10",
+   "Rm 8,30"
+  ]
+ },
+ "p3-s1-c3-a3": {
+  "s": "La Iglesia, madre y maestra: su magisterio en materia moral, los preceptos de la Iglesia y el compromiso moral de los fieles.",
+  "b": [
+   "Mt 28,19-20",
+   "1 Tm 3,15"
+  ]
+ },
+ "p3-s2": {
+  "s": "Introduce los diez mandamientos como camino de vida: la ley dada a Moisés, el Decálogo a la luz de Cristo y su carácter de ley de amor a Dios y al prójimo.",
+  "b": [
+   "Ex 20,1-17",
+   "Mt 19,16-19"
+  ]
+ },
+ "p3-s2-c1": {
+  "s": "Introducción a los tres primeros mandamientos: el amor a Dios sobre todas las cosas.",
+  "b": [
+   "Dt 6,4-5",
+   "Mt 22,37"
+  ]
+ },
+ "p3-s2-c1-a1": {
+  "s": "El primer mandamiento: adorar al único Dios. Virtudes teologales, adoración, oración y sacrificio; pecados contra la fe, la esperanza y la caridad; la idolatría, la superstición y el ateísmo; las imágenes.",
+  "b": [
+   "Dt 6,13",
+   "Ex 20,2-5",
+   "Mt 4,10"
+  ]
+ },
+ "p3-s2-c1-a2": {
+  "s": "El segundo mandamiento: el respeto al nombre de Dios. Trata del nombre divino, del santo nombre, de la blasfemia, del juramento y de los nombres cristianos.",
+  "b": [
+   "Ex 20,7",
+   "Mt 5,33-37"
+  ]
+ },
+ "p3-s2-c1-a3": {
+  "s": "El tercer mandamiento: santificar las fiestas. El sábado y el domingo, día del Señor; el precepto dominical y el descanso, fundamento de la vida cristiana.",
+  "b": [
+   "Ex 20,8-11",
+   "Mc 2,27-28"
+  ]
+ },
+ "p3-s2-c2": {
+  "s": "Introducción a los siete últimos mandamientos: el amor al prójimo, regla de oro y resumen de la segunda tabla.",
+  "b": [
+   "Mc 12,31",
+   "Rm 13,8-10"
+  ]
+ },
+ "p3-s2-c2-a4": {
+  "s": "El cuarto mandamiento: honrar al padre y a la madre. La familia en el plan de Dios, los deberes de los miembros de la familia y de la autoridad civil, y la sociedad.",
+  "b": [
+   "Ex 20,12",
+   "Ef 6,1-4"
+  ]
+ },
+ "p3-s2-c2-a5": {
+  "s": "El quinto mandamiento: no matarás. El respeto de la vida humana, el homicidio, el aborto, la eutanasia, el suicidio, la legítima defensa, la guerra y la paz, y el cuidado de la salud.",
+  "b": [
+   "Ex 20,13",
+   "Mt 5,21-22",
+   "Gn 9,5-6"
+  ]
+ },
+ "p3-s2-c2-a6": {
+  "s": "El sexto mandamiento: la sexualidad humana, la castidad, la vocación a la castidad de todos y los pecados contra ella; el amor de los esposos, la fecundidad y las ofensas a la dignidad del matrimonio.",
+  "b": [
+   "Ex 20,14",
+   "Mt 5,27-28",
+   "Mc 10,6-9"
+  ]
+ },
+ "p3-s2-c2-a7": {
+  "s": "El séptimo mandamiento: no robarás. El destino universal de los bienes, el respeto de las personas y de los bienes, la doctrina social de la Iglesia, la justicia en el trabajo y el amor a los pobres.",
+  "b": [
+   "Ex 20,15",
+   "Mt 25,40",
+   "St 5,4"
+  ]
+ },
+ "p3-s2-c2-a8": {
+  "s": "El octavo mandamiento: no darás falso testimonio. Vivir en la verdad, el testimonio, la ofensa a la verdad (mentira, calumnia, maledicencia), el respeto de la reputación y el secreto, y los medios de comunicación.",
+  "b": [
+   "Ex 20,16",
+   "Ef 4,25",
+   "Jn 8,32"
+  ]
+ },
+ "p3-s2-c2-a9": {
+  "s": "El noveno mandamiento: no desearás la mujer de tu prójimo. La pureza del corazón, la lucha por la pureza y el pudor.",
+  "b": [
+   "Ex 20,17",
+   "Mt 5,28",
+   "Mt 5,8"
+  ]
+ },
+ "p3-s2-c2-a10": {
+  "s": "El décimo mandamiento: no codiciarás los bienes ajenos. La codicia y la envidia, el desapego y la pobreza de espíritu, el deseo de ver a Dios.",
+  "b": [
+   "Ex 20,17",
+   "Mt 5,3",
+   "1 Tm 6,10"
+  ]
+ },
+ "p4-s1-c1": {
+  "s": "Introducción al capítulo sobre la revelación de la oración: vocación universal a la oración.",
+  "b": [
+   "Hch 17,27",
+   "Sal 8,2"
+  ]
+ },
+ "p4-s1-c1-a1": {
+  "s": "La oración en el Antiguo Testamento: desde la creación, con Abraham, Moisés, David y los profetas, y los salmos como oración de la Iglesia. Dios que se revela y escucha.",
+  "b": [
+   "Gn 18,22-33",
+   "Ex 33,11",
+   "Sal 130,1"
+  ]
+ },
+ "p4-s1-c1-a2": {
+  "s": "La oración de Jesús: su oración filial, su enseñanza y su oración en la cruz; la oración de María, el «fiat» y el Magníficat.",
+  "b": [
+   "Lc 11,1-4",
+   "Jn 17,1-26",
+   "Lc 1,46-55"
+  ]
+ },
+ "p4-s1-c1-a3": {
+  "s": "La oración en el tiempo de la Iglesia: bendición y adoración, petición, intercesión, acción de gracias y alabanza, con las primeras comunidades como ejemplo.",
+  "b": [
+   "Hch 2,42",
+   "Rm 8,26-27",
+   "Ef 1,3"
+  ]
+ },
+ "p4-s1-c2": {
+  "s": "Introducción al capítulo sobre la tradición de la oración: fuentes, camino y maestros.",
+  "b": [
+   "Hch 2,42"
+  ]
+ },
+ "p4-s1-c2-a1": {
+  "s": "Fuentes de la oración: la Palabra de Dios, la liturgia de la Iglesia y las virtudes teologales; el «hoy» de Dios.",
+  "b": [
+   "Jn 4,14",
+   "Mt 7,7-8"
+  ]
+ },
+ "p4-s1-c2-a2": {
+  "s": "El camino de la oración: se reza al Padre, por Cristo y en el Espíritu Santo, con María y los santos, y se aprende en la comunidad.",
+  "b": [
+   "Jn 16,23",
+   "Rm 8,15",
+   "Lc 1,38"
+  ]
+ },
+ "p4-s1-c2-a3": {
+  "s": "Maestros de oración: los testigos (santos y mártires), la familia, los sacerdotes y consagrados, los catequistas, los grupos de oración y la dirección espiritual.",
+  "b": [
+   "Hb 12,1",
+   "Mt 25,21"
+  ]
+ },
+ "p4-s1-c3": {
+  "s": "Introducción al capítulo sobre la vida de oración: el «hoy» de Dios y de la oración.",
+  "b": [
+   "Sal 95,7-8"
+  ]
+ },
+ "p4-s1-c3-a1": {
+  "s": "Expresiones de la oración: la oración vocal, la meditación y la oración mental o contemplativa; la oración como encuentro con Dios.",
+  "b": [
+   "Mt 11,25-27",
+   "Mc 14,36"
+  ]
+ },
+ "p4-s1-c3-a2": {
+  "s": "El combate de la oración: dificultades (distracción, sequedad, acedia), la humildad, la confianza y la perseverancia; la oración de la hora de Jesús.",
+  "b": [
+   "Rm 8,26",
+   "1 Ts 5,17",
+   "Lc 18,1-8"
+  ]
+ },
+ "p4-s2": {
+  "s": "Introduce el Padre Nuestro como oración del Señor y resumen del Evangelio.",
+  "b": [
+   "Lc 11,1-4",
+   "Mt 6,9-13"
+  ]
+ },
+ "p4-s2-a1": {
+  "s": "El Padre Nuestro, «resumen de todo el Evangelio»: en el centro del Sermón de la Montaña; oración del Señor, de la Iglesia y de la liturgia; con la doxología final.",
+  "b": [
+   "Mt 6,9-13",
+   "Lc 11,1-4"
+  ]
+ },
+ "p4-s2-a2": {
+  "s": "«Padre nuestro que estás en el cielo»: acceder con confianza al Padre, orar con el Hijo y el Espíritu, y el sentido de «nuestro» y de «en el cielo».",
+  "b": [
+   "Mt 6,9",
+   "Rm 8,15",
+   "Ga 4,6"
+  ]
+ },
+ "p4-s2-a3": {
+  "s": "Las siete peticiones: santificado sea tu nombre, venga tu Reino, hágase tu voluntad, el pan de cada día, perdona nuestras ofensas, no nos dejes caer en la tentación y líbranos del mal; la doxología y el «amén».",
+  "b": [
+   "Mt 6,9-13",
+   "Jn 17,11",
+   "Jn 13,34"
+  ]
+ }
+}

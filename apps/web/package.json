@@ -1,10 +1,11 @@
 {
   "name": "@bc/web",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build && node scripts/build-sw.mjs",
+    "dev": "node scripts/sync-bundled-packs.mjs && next dev -p 3000",
+    "sync-packs": "node scripts/sync-bundled-packs.mjs",
+    "build": "node scripts/sync-bundled-packs.mjs && node scripts/copy-pdf-worker.mjs && next build && node scripts/build-sw.mjs",
     "start": "node scripts/serve-out.mjs",
     "typecheck": "tsc --noEmit",
     "lint": "next lint",
@@ -45,8 +46,11 @@
     "@tanstack/react-query": "^5.108.2",
     "dexie": "^4.4.7",
     "dexie-react-hooks": "^4.4.0",
+    "epubjs": "0.3.93",
+    "jszip": "3.10.1",
     "minisearch": "^7.2.0",
     "next": "15",
+    "pdfjs-dist": "4.10.38",
     "react": "19",
     "react-dom": "19",
     "serwist": "^9.5.15"

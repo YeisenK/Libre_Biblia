@@ -1,0 +1,1355 @@
+[
+  {
+    "id": "oracion-inicio-de-la-jornada-de-trabajo",
+    "title": "Al empezar el trabajo",
+    "categories": [
+      "trabajo"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "original",
+    "text": "Señor, empiezo mi trabajo en tu presencia.\nQue lo haga con honradez, con orden y con atención a las personas.\nDame fuerzas para lo que me toque hoy\ny paz para lo que no dependa de mí.\nQue mi esfuerzo sea servicio y no solo provecho.\nAmén.",
+    "context": "El trabajo es colaboración con la obra creadora de Dios (Gn 2,15) y camino de santificación. San Pablo pide hacerlo todo «como para el Señor» (Col 3,23). El Catecismo enseña que el trabajo humano procede de personas creadas a imagen de Dios y que puede ofrecerse a Dios (CIC 2427).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Col 3,23-24",
+      "Sal 90,17"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-fin-de-la-jornada-de-trabajo",
+    "title": "Al terminar el trabajo",
+    "categories": [
+      "trabajo",
+      "noche"
+    ],
+    "moments": [
+      "afternoon",
+      "night"
+    ],
+    "nature": "original",
+    "text": "Señor, al cerrar la jornada te doy gracias por lo que pude hacer\ny te pido perdón por lo que dejé de hacer o hice mal.\nDeja en tus manos lo que queda pendiente.\nConfirma la obra de mis manos\ny concédeme descansar sin llevarme el trabajo a casa.\nAmén.",
+    "context": "El descanso forma parte del plan de Dios (Gn 2,2-3) y el Catecismo recuerda que el trabajo debe permitir el descanso y el culto (CIC 2184-2185). La oración pide, con el Salmo 90, que Dios «confirme la obra de nuestras manos».",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 90,17",
+      "Mt 11,28"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-de-quien-busca-trabajo",
+    "title": "Por quien busca trabajo",
+    "categories": [
+      "trabajo",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Padre, tú conoces mi necesidad y la de mi familia.\nDame paciencia en la búsqueda, humildad para aprender\ny valor para llamar a cada puerta.\nQue no pierda la dignidad que me diste ni la esperanza.\nPon a mi lado personas que me ayuden\ny haz que yo ayude a quien está como yo.\nAmén.",
+    "context": "El desempleo es una prueba real y la Iglesia no la minimiza: el Catecismo recuerda el derecho al trabajo y el deber de la sociedad de procurarlo (CIC 2433). Jesús invita a no vivir angustiados (Mt 6,31-33), lo cual no excluye buscar con diligencia: la confianza y el esfuerzo van juntos.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 37,5",
+      "Mt 6,31-33"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-de-quien-dirige",
+    "title": "De quien dirige o tiene autoridad",
+    "categories": [
+      "trabajo"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "original",
+    "text": "Señor, tú diste a Salomón un corazón que sabe escuchar.\nDame a mí discernimiento para decidir con justicia,\npaciencia para escuchar y valentía para corregir.\nQue no abuse de mi cargo ni me deje llevar por el miedo.\nQue quienes dependen de mí encuentren en mí un servidor y no un amo.\nAmén.",
+    "context": "La autoridad cristiana es servicio (Mc 10,42-45). La oración se inspira en la petición de Salomón (1 Re 3,9) y en la de la Sabiduría (Sab 9). El Catecismo enseña que la autoridad debe ejercerse como servicio al bien común (CIC 1897-1899).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "1 Re 3,9",
+      "Mc 10,42-45",
+      "Sab 9,1-4"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-del-estudiante",
+    "title": "Del estudiante",
+    "categories": [
+      "escuela"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "original",
+    "text": "Señor, tú eres la Sabiduría. Dame un corazón dócil\npara aprender con humildad y esforzarme con constancia.\nQue no estudie solo para aprobar,\nsino para conocer la verdad y servir mejor.\nAyúdame a ordenar mi tiempo, a pedir ayuda cuando la necesite\ny a no compararme con los demás.\nAmén.",
+    "context": "Cristo mismo «crecía en sabiduría» (Lc 2,52). La tradición cristiana ha cuidado el estudio como camino hacia la verdad: «Invoqué y vino a mí el espíritu de sabiduría» (Sab 7,7).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Pr 2,3-6",
+      "Sab 7,7",
+      "Lc 2,52"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-antes-del-examen",
+    "title": "Antes de un examen",
+    "categories": [
+      "escuela"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "original",
+    "text": "Señor, me presento a este examen con lo que he podido preparar.\nQuita de mí el nerviosismo que paraliza\ny dame serenidad para recordar y para pensar.\nSea cual sea el resultado, que aprenda de él\ny que mi valor no dependa de una nota.\nAmén.",
+    "context": "La Escritura invita a presentar nuestras peticiones a Dios «con acción de gracias» (Flp 4,6) y promete una paz que guarda el corazón. Esta oración no sustituye al estudio: lo acompaña.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Flp 4,6-7",
+      "Sal 94,19"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-despues-del-estudio",
+    "title": "Al terminar de estudiar",
+    "categories": [
+      "escuela",
+      "noche"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "original",
+    "text": "Gracias, Señor, por lo que hoy he aprendido.\nPerdona mi pereza y mis distracciones.\nGuarda en mi memoria lo que sea útil y dame descanso.\nQue lo que sé me ayude a servir a los demás.\nAmén.",
+    "context": "Cierre sencillo de una sesión de estudio: acción de gracias y petición de perdón por la negligencia, como en el examen de conciencia diario.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Pr 9,10",
+      "Sal 119,18"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-maestros",
+    "title": "Por los maestros y profesores",
+    "categories": [
+      "escuela",
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, bendice a quienes me enseñan y a quienes enseñan a mis hijos.\nDales paciencia, competencia y amor a la verdad.\nSostén a los que se cansan y a los que no son valorados.\nY ayúdame a agradecerles lo que me dan.\nAmén.",
+    "context": "Enseñar es una forma de caridad. Los padres, dice el Catecismo, son los primeros educadores, y los maestros colaboran con ellos (CIC 2223-2226). «Los sabios brillarán como el resplandor del firmamento» (Dn 12,3).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Dn 12,3",
+      "Mt 23,8-10"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-antes-del-deporte",
+    "title": "Antes de hacer deporte",
+    "categories": [
+      "deporte"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, te doy gracias por el cuerpo que me diste.\nQue lo cuide sin idolatrarlo, que juegue limpio\ny que respete a compañeros, rivales y árbitros.\nDame lo mejor de mí sin hacerme daño ni hacerlo a otros.\nQue disfrute de este esfuerzo como un don.\nAmén.",
+    "context": "San Pablo usa la imagen del atleta para hablar del esfuerzo cristiano (1 Co 9,24-27). La Iglesia valora el deporte como escuela de lealtad y templanza; el Catecismo pide cuidar la salud sin convertir el cuerpo ni el rendimiento en un ídolo (CIC 2288-2289).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "1 Co 9,24-27",
+      "1 Co 6,19-20"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-antes-del-gimnasio",
+    "title": "Antes de ir al gimnasio",
+    "categories": [
+      "deporte"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor Jesús, voy a entrenar y te ofrezco este esfuerzo.\nGracias por la salud, la fuerza y el tiempo que me das.\nDame disciplina para ser constante,\nhumildad para aceptar mis límites\ny prudencia para no hacerme daño.\nQue no busque la vanidad ni la comparación,\nsino cuidar el cuerpo que es templo de tu Espíritu,\npara servirte mejor a ti y a los demás.\nY cuando me canse, recuérdame que tú das fuerzas al cansado.\nAmén.",
+    "context": "San Pablo compara la vida cristiana con el entrenamiento del atleta, que se domina en todo (1 Co 9,24-27), y recuerda que el cuerpo es templo del Espíritu Santo (1 Co 6,19-20). El Catecismo pide cuidar razonablemente la salud física, pero advierte contra el culto al cuerpo y la idolatría del rendimiento (CIC 2288-2289). La templanza modera el deseo de los bienes creados (CIC 1809).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "1 Co 9,24-27",
+      "1 Co 6,19-20",
+      "Is 40,29-31"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-despues-del-deporte",
+    "title": "Al terminar el entrenamiento o el partido",
+    "categories": [
+      "deporte"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Gracias, Señor, por esta fuerza y por este rato compartido.\nPerdona mis excesos de orgullo o mal genio.\nSi gané, que no desprecie a nadie; si perdí, que aprenda.\nDescansa mi cuerpo y agradezco poder moverme.\nAmén.",
+    "context": "«El ejercicio corporal es útil para poco; la piedad es útil para todo» (1 Tm 4,8): el deporte es bueno, pero ocupa su lugar en una vida ordenada a Dios.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "1 Tm 4,8",
+      "Sal 139,14"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-del-deportista-tras-una-derrota",
+    "title": "Tras una derrota o una lesión",
+    "categories": [
+      "deporte",
+      "vida-personal"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, hoy no salió como quería, y me duele.\nAyúdame a no hundirme ni a culpar a nadie.\nEnséñame a levantarme, a pedir consejo\ny a dar valor a lo que no se mide en marcadores.\nHe combatido; ayúdame a seguir corriendo.\nAmén.",
+    "context": "«He combatido el buen combate, he terminado la carrera, he guardado la fe» (2 Tm 4,7). «El justo cae siete veces y se levanta» (Pr 24,16). La derrota es ocasión de humildad y de perseverancia.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "2 Tm 4,7",
+      "Pr 24,16"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-padres",
+    "title": "Por mis padres",
+    "categories": [
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, te doy gracias por mis padres, con sus aciertos y sus límites.\nBendícelos, cuídalos y dales salud y paz.\nPerdona lo que haya podido herirlos y concédeme paciencia con ellos.\nSi alguno ha muerto, dale el descanso eterno.\nAmén.",
+    "context": "El cuarto mandamiento pide honrar a los padres (Ex 20,12). El Catecismo enseña que el respeto filial dura toda la vida, también en la edad adulta y en la enfermedad de los padres (CIC 2214-2220).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Ex 20,12",
+      "Eclo 3,2-6"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-un-hijo-alejado",
+    "title": "Por un hijo que se ha alejado de la fe",
+    "categories": [
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Padre, tú esperas al hijo que se va y corres a su encuentro.\nTe encomiendo a mi hijo, que se ha alejado de ti.\nDame paciencia, ternura y coherencia; aparta de mí el reproche vacío.\nPon en su camino a personas que lo acerquen a ti\ny no permitas que yo me canse de amarlo.\nAmén.",
+    "context": "La parábola del hijo pródigo describe al Padre que espera y sale al encuentro (Lc 15,20). Santa Mónica es modelo de esta espera: rezó y lloró años por Agustín, que se convirtió. Rezar no quita la libertad del hijo, pero abre la puerta de la gracia.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Lc 15,20",
+      "Jn 6,37"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-hermanos",
+    "title": "Por mis hermanos",
+    "categories": [
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, tú me diste hermanos para aprender a convivir y a perdonar.\nBendícelos, protégelos y guárdalos de la envidia y el rencor.\nSana las heridas entre nosotros y haz que seamos apoyo unos de otros.\nAmén.",
+    "context": "«¡Qué bueno y agradable es que los hermanos vivan juntos!» (Sal 133,1). San Juan advierte que quien dice amar a Dios y odia a su hermano miente (1 Jn 4,20). La familia es escuela de comunión (CIC 2207).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 133,1",
+      "1 Jn 4,20-21"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-abuelos",
+    "title": "Por los abuelos y los ancianos",
+    "categories": [
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, bendice a mis abuelos y a todos los ancianos.\nGracias por la fe y la vida que transmitieron.\nDales salud, compañía y paz; sostén a los que están solos o enfermos.\nQue sepamos escucharlos, cuidarlos y no dejarlos de lado.\nAmén.",
+    "context": "«No me rechaces en la vejez; cuando me falten las fuerzas, no me abandones» (Sal 71,9). El Catecismo pide atender a los ancianos en la familia (CIC 2218). Los abuelos son, con frecuencia, los primeros transmisores de la fe.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 71,9.18",
+      "Lv 19,32"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-de-los-novios",
+    "title": "De los novios",
+    "categories": [
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, tú has querido el amor del hombre y la mujer.\nAyúdanos a conocernos con verdad, a respetarnos y a rezar juntos.\nDanos luz para discernir si nos llamas al matrimonio\ny valor para aceptar tu respuesta, sea cual sea.\nQue nuestro cariño sea limpio, paciente y abierto a tu voluntad.\nAmén.",
+    "context": "Los novios de Tobías oraron la noche de bodas (Tb 8,5-7). El noviazgo es tiempo de conocimiento y discernimiento; el Catecismo pide vivirlo en castidad y respeto (CIC 1632, 2350).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Tb 8,5-7",
+      "Gn 2,18"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-de-los-esposos-en-una-crisis",
+    "title": "Los esposos en una crisis",
+    "categories": [
+      "relaciones",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, nuestro matrimonio atraviesa un momento difícil.\nDanos humildad para reconocer nuestras faltas y valor para hablar con verdad.\nAyúdanos a escuchar, a perdonar y a pedir ayuda cuando haga falta.\nQue recordemos el amor que nos unió\ny que tu gracia lo renueve.\nAmén.",
+    "context": "Todo matrimonio pasa por pruebas. El Catecismo enseña la unidad y fidelidad del matrimonio (CIC 1643-1645) y, a la vez, que en casos graves, como la violencia, la separación puede ser legítima (CIC 1649). Si hay maltrato, busca protección y ayuda; la oración no pide soportarlo.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Ef 5,25",
+      "Col 3,13-14",
+      "Mt 19,6"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-amigos",
+    "title": "Por mis amigos",
+    "categories": [
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, gracias por mis amigos.\nBendícelos y cuida de ellos.\nHazme amigo leal, sincero y generoso, también en lo difícil.\nQue nuestra amistad nos acerque a ti\ny que no nos dejemos arrastrar a lo que nos aleja de ti.\nAmén.",
+    "context": "«Un amigo fiel es un refugio seguro» (Eclo 6,14). Jesús llama a sus discípulos amigos (Jn 15,15). La amistad verdadera es una forma de caridad.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Eclo 6,14-16",
+      "Jn 15,13-15"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-un-enfermo-querido",
+    "title": "Por un familiar o amigo enfermo",
+    "categories": [
+      "relaciones",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor Jesús, tú te acercabas a los enfermos y los tocabas.\nTe presento a mi querido enfermo: dale alivio, paciencia y esperanza.\nSostén a quienes lo cuidan y dame sabiduría para acompañarlo.\nSi es tu voluntad, devuélvele la salud; y si no, dale tu paz.\nQue no le falten tus sacramentos.\nAmén.",
+    "context": "La Iglesia ofrece la Unción de los enfermos (St 5,14-15; CIC 1499-1532), que no es solo para los moribundos. La oración no promete curación: pide lo que Cristo dio siempre, su cercanía.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Mc 1,40-41",
+      "St 5,14-15"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-un-embarazo",
+    "title": "Por un embarazo y el niño por nacer",
+    "categories": [
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, fuente de toda vida, te doy gracias por este hijo que viene.\nCuida a la madre y al niño; protégelos de todo mal.\nDanos fortaleza ante los miedos y confianza en tu providencia.\nQue lo acojamos como un don y lo eduquemos en tu amor.\nAmén.",
+    "context": "«Tú has formado mis entrañas» (Sal 139,13). La Iglesia enseña que la vida humana debe respetarse desde la concepción (CIC 2270). Santa Isabel bendijo a María y al fruto de su vientre (Lc 1,42).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 139,13-16",
+      "Lc 1,42"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-aniversario-de-boda",
+    "title": "En un aniversario de matrimonio",
+    "categories": [
+      "relaciones",
+      "circunstancias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, gracias por los años que nos has regalado juntos.\nPerdona lo que no supimos ser y bendice lo que hemos vivido.\nRenueva nuestro amor, haznos más fieles y pacientes\ny que nuestro hogar sea signo de tu fidelidad.\nAmén.",
+    "context": "El amor conyugal refleja el amor de Cristo por la Iglesia (Ef 5,25-32; CIC 1641-1642). «Fuerte como la muerte es el amor» (Cant 8,6).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Cant 8,6-7",
+      "1 Co 13,4-7"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-en-la-ansiedad",
+    "title": "En la ansiedad",
+    "categories": [
+      "vida-personal",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, estoy inquieto y no sé cómo calmarme.\nTe entrego mis preocupaciones, una por una.\nHazme volver al presente, donde tú estás, y dame un paso pequeño que pueda dar hoy.\nSi necesito ayuda médica o psicológica, dame la humildad de pedirla.\nTu paz guarde mi corazón.\nAmén.",
+    "context": "La ansiedad no es falta de fe ni pecado; puede requerir ayuda profesional, y buscarla es un acto de prudencia. La Escritura invita a confiar las preocupaciones a Dios (1 P 5,7) y a vivir el día de hoy (Mt 6,34). El Catecismo enseña el abandono filial a la providencia (CIC 305).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Flp 4,6-7",
+      "1 P 5,7",
+      "Mt 6,34"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-en-la-tentacion",
+    "title": "En la tentación",
+    "categories": [
+      "vida-personal"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor Jesús, tú fuiste tentado y venciste.\nAhora estoy en la prueba: dame fuerza para no consentir.\nAyúdame a huir de la ocasión, a pedir ayuda y a no quedarme solo.\nSi caigo, no me dejes desesperar: que vuelva a ti.\nNo nos dejes caer en la tentación y líbranos del mal.\nAmén.",
+    "context": "«Dios es fiel y no permitirá que seáis tentados más allá de vuestras fuerzas» (1 Co 10,13). El Catecismo explica el «no nos dejes caer en la tentación» como petición de discernimiento y fortaleza (CIC 2846-2849). Tener tentaciones no es pecar: pecar es consentir.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "1 Co 10,13",
+      "Mt 26,41",
+      "Mt 4,1-11"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-en-la-tristeza",
+    "title": "En la tristeza",
+    "categories": [
+      "vida-personal",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, hoy tengo el corazón apagado.\nNo te pido que lo niegue, sino que estés conmigo en él.\nConsuélame con tu presencia y con personas que me quieran.\nRecuérdame que no estoy solo y que esto no es para siempre.\nAmén.",
+    "context": "El salmista dialoga con su propia tristeza: «¿Por qué te acongojas, alma mía?» (Sal 42,6). Si la tristeza es persistente, conviene consultar a un médico o a un psicólogo; no sustituye a la oración ni la contradice.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 42,6",
+      "Jn 14,18",
+      "Mt 5,4"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-la-paciencia",
+    "title": "Por la paciencia",
+    "categories": [
+      "vida-personal"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, tú tienes paciencia conmigo.\nDame paciencia con los demás, conmigo mismo y con los tiempos que no controlo.\nQue no responda con enojo ni abandone lo bueno por el cansancio.\nAyúdame a esperar sin amargura.\nAmén.",
+    "context": "«Con vuestra perseverancia salvaréis vuestras almas» (Lc 21,19). La paciencia es fruto del Espíritu (Gal 5,22) y se aprende en lo cotidiano.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "St 5,7-8",
+      "Lc 21,19",
+      "Rm 12,12"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-para-decidir",
+    "title": "Antes de tomar una decisión",
+    "categories": [
+      "vida-personal",
+      "circunstancias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, tengo que decidir y no veo claro.\nDame luz para ver lo que de verdad importa y libertad de apegos que me nublan.\nAyúdame a pedir consejo, a pensar con calma y a actuar con valentía.\nQue lo decida lo que más te agrade y sirva mejor a los demás.\nAmén.",
+    "context": "«Si a alguno le falta sabiduría, que se la pida a Dios» (St 1,5). La tradición ignaciana propone discernir con calma, buscar consejo y atender a la paz profunda. El Catecismo pide formar la conciencia (CIC 1783-1785).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Pr 3,5-6",
+      "St 1,5"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-de-gratitud",
+    "title": "De gratitud",
+    "categories": [
+      "vida-personal",
+      "accion-de-gracias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Gracias, Señor, por la vida, por el aire y el pan de hoy,\npor las personas que me quieren y por las que me soportan.\nGracias por lo que veo y por lo que aún no entiendo.\nEnséñame a reconocer tus dones y a no darlos por supuestos.\nAmén.",
+    "context": "«En todo dad gracias» (1 Ts 5,18). La acción de gracias es una de las formas fundamentales de la oración (CIC 2637-2638).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "1 Ts 5,18",
+      "Sal 103,2"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-para-perdonar",
+    "title": "Para perdonar",
+    "categories": [
+      "vida-personal",
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, tengo una herida y no logro soltar el rencor.\nTú me has perdonado mucho: ayúdame a querer perdonar.\nDame paciencia con mis sentimientos y fuerza para no devolver mal por mal.\nTe encomiendo a quien me hirió y pido justicia y paz.\nAmén.",
+    "context": "Perdonar no es olvidar, ni excusar el daño, ni volver a exponerse a él. Es renunciar a la venganza y desear el bien del otro; a veces es un camino largo. El Catecismo enseña que el perdón es una gracia que viene de Dios (CIC 2842-2845).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Mt 18,21-22",
+      "Col 3,13",
+      "Lc 23,34"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-la-humildad",
+    "title": "Por la humildad",
+    "categories": [
+      "vida-personal"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Jesús, manso y humilde de corazón, enséñame a ser pequeño.\nLíbrame de la vanidad, de la comparación y del orgullo herido.\nDame verdad para reconocer mis dones y mis límites.\nQue sirva sin esperar aplausos.\nAmén.",
+    "context": "La humildad es la base de la oración (CIC 2559) y consiste en la verdad sobre uno mismo. Cristo «se humilló a sí mismo» (Flp 2,8).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Mt 11,29",
+      "Flp 2,3-8"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-de-discernimiento",
+    "title": "Para discernir lo que Dios quiere",
+    "categories": [
+      "vida-personal"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Espíritu Santo, dame un corazón atento.\nAyúdame a distinguir tu voz de mis miedos y deseos.\nQue no confunda lo cómodo con lo bueno.\nDame paz para aceptar y valor para elegir.\nCuando dude, que no me quede solo: guíame con tu Iglesia.\nAmén.",
+    "context": "«Examinadlo todo y quedaos con lo bueno» (1 Ts 5,21). El discernimiento no es adivinar: es escuchar a Dios en la oración, la Escritura, el consejo y la propia conciencia (CIC 1779, 1783).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Rm 12,2",
+      "1 Jn 4,1",
+      "Hch 15,28"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-en-la-soledad",
+    "title": "En la soledad",
+    "categories": [
+      "vida-personal",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, me siento solo.\nTú nunca me abandonas: hazme sentir tu compañía.\nAbre mi corazón para dejarme querer y para acercarme a otros.\nPon a mi lado a quien necesite mi presencia y a quien me acompañe.\nAmén.",
+    "context": "«No os dejaré huérfanos» (Jn 14,18). La soledad puede ser dolorosa; la Iglesia es comunión (CIC 946-948) y ofrece lugares de encuentro.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 25,16",
+      "Jn 14,18"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-del-conductor",
+    "title": "Antes de conducir",
+    "categories": [
+      "circunstancias",
+      "proteccion"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, protégeme en el camino.\nQue conduzca con prudencia, sin prisa ni imprudencia, respetando las normas y a las personas.\nGuarda a mis acompañantes y a quienes me crucen.\nQue llegue con bien y no ponga en peligro a nadie.\nAmén.",
+    "context": "El Catecismo reprueba conducir en estado de embriaguez o con imprudencia, pues se pone en peligro la vida de otros (CIC 2290). El Pontificio Consejo para la Pastoral de los Emigrantes e Itinerantes publicó en 2007 unas orientaciones pastorales sobre la carretera.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 121,7-8",
+      "Pr 3,23"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-nuevo-proyecto",
+    "title": "Al empezar un proyecto",
+    "categories": [
+      "circunstancias",
+      "trabajo"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, pongo en tus manos este proyecto.\nQue sirva al bien de las personas, que lo haga con honradez y constancia\ny que no pierda la paz si no sale como espero.\nBendice a quienes colaboran conmigo.\nQue todo sea para tu gloria.\nAmén.",
+    "context": "«Encomienda tus obras al Señor y tus proyectos se realizarán» (Pr 16,3): la confianza en Dios no dispensa de planificar y esforzarse.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Pr 16,3",
+      "Sal 37,5"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-antes-de-una-conversacion-dificil",
+    "title": "Antes de una conversación importante",
+    "categories": [
+      "circunstancias",
+      "relaciones"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, voy a hablar de algo importante.\nDame las palabras justas y un corazón sereno.\nQue escuche más de lo que hablo, que diga la verdad con caridad\ny que no busque ganar sino entender.\nAbre también el corazón de la otra persona.\nAmén.",
+    "context": "«Que vuestra conversación sea siempre amable, sazonada con sal» (Col 4,6). «La respuesta suave calma el enojo» (Pr 15,1). Prepararla en oración no sustituye a pensar qué se va a decir.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "St 1,19",
+      "Col 4,6",
+      "Pr 15,1"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-buenas-noticias",
+    "title": "Ante una buena noticia",
+    "categories": [
+      "circunstancias",
+      "accion-de-gracias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Gracias, Señor, por esta buena noticia.\nQue la alegría no me haga olvidar de quién viene todo bien.\nAyúdame a compartirla con humildad y a acordarme de los que sufren.\nBendice lo que comienza.\nAmén.",
+    "context": "«Grandes cosas ha hecho el Señor con nosotros» (Sal 126,3). La alegría compartida también es oración.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 126,3",
+      "1 Cro 29,13"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-en-la-incertidumbre",
+    "title": "En la incertidumbre",
+    "categories": [
+      "circunstancias",
+      "vida-personal"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, no sé qué va a pasar y eso me inquieta.\nQue no me ciegue el miedo ni me paralice la duda.\nDame confianza en tu providencia y claridad para el siguiente paso.\nTú eres fiel y vas conmigo.\nAmén.",
+    "context": "«No temas, que yo estoy contigo» (Is 41,10). El Catecismo habla de la confianza filial en la providencia, que no sabe el cómo pero se fía del Padre (CIC 305, 322).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Is 41,10",
+      "Sal 23,4",
+      "Jr 29,11"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-al-despertar",
+    "title": "Al despertar",
+    "categories": [
+      "circunstancias",
+      "manana"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "original",
+    "text": "Gracias, Señor, por este día nuevo.\nTu misericordia se renueva cada mañana.\nDame lo que necesito y hazme atento a quien me necesite.\nQue lo que haga hoy sea por ti.\nAmén.",
+    "context": "«Cada mañana se renuevan [tus misericordias]; grande es tu fidelidad» (Lm 3,22-23). Primera oración breve del día, antes de la oración de la mañana más amplia.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Lm 3,22-23",
+      "Sal 5,4"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-para-dormir",
+    "title": "Antes de dormir",
+    "categories": [
+      "circunstancias",
+      "noche"
+    ],
+    "moments": [
+      "night"
+    ],
+    "nature": "original",
+    "text": "Señor, dejo el día en tus manos: lo bueno, lo malo y lo pendiente.\nPerdona mis faltas y bendice a los que quiero.\nDame un descanso tranquilo y un despertar agradecido.\nEn paz me acuesto y duermo, porque tú me haces vivir seguro.\nAmén.",
+    "context": "«En paz me acuesto y enseguida me duermo» (Sal 4,9). Se une bien al examen de conciencia y a las Completas.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 4,9",
+      "Sal 127,2"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-antes-de-una-operacion",
+    "title": "Antes de una operación o un tratamiento",
+    "categories": [
+      "circunstancias",
+      "momentos-dificiles"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, me pongo en tus manos y en las de quienes me van a atender.\nDa sabiduría y cuidado a los médicos y al personal.\nSerena mi miedo y haz que lo ofrezca por ti.\nQue la gracia sea suficiente para mí, como en san Pablo.\nHágase tu voluntad.\nAmén.",
+    "context": "«Te basta mi gracia» (2 Co 12,9). Si el enfermo lo desea, puede pedir la Unción o la Comunión antes de la intervención. La Iglesia valora la medicina como colaboración con Dios (CIC 2288-2289).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "2 Co 12,9",
+      "Sal 138,3"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-la-nueva-casa",
+    "title": "Al estrenar una casa",
+    "categories": [
+      "circunstancias",
+      "familia"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, bendice esta casa y a quienes vivirán en ella.\nQue haya paz, trabajo, mesa compartida y oración.\nAleja de ella el mal y haz que sea acogedora para el que llegue.\nSi tú no construyes la casa, en vano se cansan los albañiles.\nAmén.",
+    "context": "Es una oración sencilla; si lo deseas, el sacerdote puede bendecir la casa con el rito del *Bendicional*. «Cuando entréis en una casa, decid primero: Paz a esta casa» (Lc 10,5).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 127,1",
+      "Lc 10,5"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-en-un-cumpleanos",
+    "title": "En un cumpleaños",
+    "categories": [
+      "circunstancias",
+      "accion-de-gracias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Gracias, Señor, por un año más de vida.\nPerdona lo que fue ingratitud y bendice lo que viene.\nEnséñame a contar mis días para tener un corazón sabio.\nQue sea más tuyo y de los demás.\nAmén.",
+    "context": "«Enséñanos a contar nuestros días» (Sal 90,12). Cumplir años es oportunidad de acción de gracias y de revisión de vida.",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "Sal 90,12",
+      "Sal 139,13-14"
+    ],
+    "minutes": 1
+  },
+  {
+    "id": "oracion-por-los-gobernantes",
+    "title": "Por los gobernantes y la sociedad",
+    "categories": [
+      "circunstancias"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "original",
+    "text": "Señor, te pido por quienes gobiernan y sirven al bien común.\nDales sabiduría, honradez y valor para servir a todos, sobre todo a los más frágiles.\nQue en nuestra sociedad crezcan la justicia, la paz y la verdad.\nY ayúdame a cumplir mis deberes de ciudadano.\nAmén.",
+    "context": "San Pablo manda rezar «por los reyes y por todos los que ejercen autoridad» (1 Tm 2,1-2). El Catecismo recuerda los deberes del ciudadano (CIC 2238-2243).",
+    "attribution": "Composición de Lux",
+    "rubric": "Composición de Lux: ayuda para orar en esta circunstancia; no es una oración tradicional ni un texto aprobado por la Iglesia. Puedes adaptarla con tus propias palabras.",
+    "sources": [
+      {
+        "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+      },
+      {
+        "label": "Catecismo de la Iglesia Católica",
+        "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+      },
+      {
+        "label": "Sagrada Escritura (referencias indicadas)"
+      }
+    ],
+    "scripture": [
+      "1 Tm 2,1-2",
+      "Jr 29,7"
+    ],
+    "minutes": 1
+  }
+]

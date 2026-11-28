@@ -1,0 +1,127 @@
+{
+  "id": "proyectos-responsabilidades",
+  "title": "Novena por los proyectos y las responsabilidades",
+  "group": "work_vocation",
+  "description": "Para encomendar un proyecto, un cargo o una carga de responsabilidades, trabajando con orden y confianza.",
+  "image": {
+    "icon": "hands",
+    "tint": "#7a6a8a"
+  },
+  "introduction": "Muchas personas cargan con responsabilidades: familia, empresa, comunidad, estudios. La Escritura presenta a Nehemías reconstruyendo las murallas de Jerusalén: oración y trabajo codo a codo («oramos a nuestro Dios y pusimos guardia», Ne 4,3).",
+  "purpose": "Pedir sabiduría, orden y paz para sacar adelante un proyecto o responsabilidades que superan, a veces, nuestras fuerzas. Insiste en priorizar, delegar y descansar, y en servir con rectitud.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, pongo ante ti este proyecto y estas responsabilidades. Que nada se haga sin ti. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Si el Señor no construye",
+      "reading": "Sal 127,1-2",
+      "reflection": "Si el Señor no construye la casa, en vano se cansan los albañiles. Reconozco que mi trabajo es colaboración, no dominio.",
+      "prayer": "Señor, construye tú conmigo."
+    },
+    {
+      "day": 2,
+      "title": "Orar y vigilar",
+      "reading": "Ne 4,3-6",
+      "reflection": "Oramos a nuestro Dios y pusimos guardia. La oración no dispensa del trabajo bien hecho.",
+      "prayer": "Dios mío, que oración y trabajo vayan unidos."
+    },
+    {
+      "day": 3,
+      "title": "Poner prioridades",
+      "reading": "Lc 10,41-42",
+      "reflection": "Marta, te preocupas por muchas cosas, pero una sola es necesaria. Elijo lo esencial de este proyecto.",
+      "prayer": "Jesús, enséñame a distinguir lo urgente de lo importante."
+    },
+    {
+      "day": 4,
+      "title": "Delegar y compartir",
+      "reading": "Ex 18,17-23",
+      "reflection": "Jetró aconseja a Moisés repartir la carga. Compartir responsabilidad es sabiduría, no debilidad.",
+      "prayer": "Señor, dame humildad para pedir y confiar en otros."
+    },
+    {
+      "day": 5,
+      "title": "Trabajo en equipo",
+      "reading": "1 Co 12,12-14",
+      "reflection": "Un solo cuerpo, muchos miembros. Valoro a las personas con las que trabajo y agradezco lo que aportan.",
+      "prayer": "Espíritu Santo, une a los que trabajamos juntos."
+    },
+    {
+      "day": 6,
+      "title": "Obstáculos y fracasos",
+      "reading": "2 Co 4,8-9",
+      "reflection": "Atribulados en todo, pero no angustiados. Los tropiezos forman parte del camino. Aprendo y sigo.",
+      "prayer": "Padre, sostenme cuando las cosas no salgan como esperaba."
+    },
+    {
+      "day": 7,
+      "title": "Justicia y rectitud",
+      "reading": "Mi 6,8",
+      "reflection": "Practicar la justicia, amar la misericordia, caminar humildemente con tu Dios. Revisión de mis métodos: ¿son justos?",
+      "prayer": "Señor, que ninguna meta me haga faltar a la verdad."
+    },
+    {
+      "day": 8,
+      "title": "Descanso necesario",
+      "reading": "Sal 127,2",
+      "reflection": "Dios da a sus amigos el descanso. Programar descanso no es pereza: es reconocer mis límites.",
+      "prayer": "Dios mío, enséñame a descansar en ti."
+    },
+    {
+      "day": 9,
+      "title": "Entregar los frutos",
+      "reading": "Lc 17,10",
+      "reflection": "Somos siervos inútiles: hemos hecho lo que debíamos. Hago lo que me toca y dejo el fruto en manos de Dios.",
+      "prayer": "Gracias, Señor, por confiarme esta tarea. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Señor, bendice la obra de nuestras manos. Que lo hecho sea para el bien de todos y para tu gloria. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "tags": [
+    "proyectos responsabilidades",
+    "novena",
+    "composición de Lux"
+  ]
+}

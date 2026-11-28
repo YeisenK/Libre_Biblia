@@ -1,0 +1,2061 @@
+[
+ {
+  "id": "aeterni-patris",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1879-08-04",
+  "titleLa": "Aeterni Patris",
+  "titleEs": "Sobre la restauración de la filosofía cristiana",
+  "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_04081879_aeterni-patris.html",
+  "urlLang": "es",
+  "themes": [
+   "filosofía",
+   "santo Tomás",
+   "fe y razón"
+  ],
+  "context": "Al comienzo de su pontificado León XIII propuso la filosofía de santo Tomás de Aquino como base de la formación teológica, lo que impulsó el renacimiento del tomismo."
+ },
+ {
+  "id": "immortale-dei",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1885-11-01",
+  "titleLa": "Immortale Dei",
+  "titleEs": "Sobre la constitución cristiana de los Estados",
+  "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_01111885_immortale-dei.html",
+  "urlLang": "es",
+  "themes": [
+   "Iglesia y Estado",
+   "sociedad"
+  ],
+  "context": "Expone la doctrina clásica sobre el origen de la autoridad civil y las relaciones entre la Iglesia y la comunidad política en la Europa del siglo XIX."
+ },
+ {
+  "id": "libertas",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1888-06-20",
+  "titleLa": "Libertas praestantissimum",
+  "titleEs": "Sobre la libertad humana",
+  "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_20061888_libertas.html",
+  "urlLang": "es",
+  "themes": [
+   "libertad",
+   "ley moral",
+   "conciencia"
+  ],
+  "context": "Distingue la verdadera libertad, ordenada al bien y a la ley, de las concepciones liberales de su tiempo."
+ },
+ {
+  "id": "rerum-novarum",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1891-05-15",
+  "titleLa": "Rerum novarum",
+  "titleEs": "Sobre la situación de los obreros",
+  "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+  "urlLang": "es",
+  "themes": [
+   "doctrina social",
+   "trabajo",
+   "justicia"
+  ],
+  "context": "Documento inaugural de la doctrina social moderna: trata de los derechos y deberes de obreros y patronos, la propiedad y el papel del Estado ante la cuestión obrera."
+ },
+ {
+  "id": "providentissimus-deus",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1893-11-18",
+  "titleLa": "Providentissimus Deus",
+  "titleEs": "Sobre los estudios bíblicos",
+  "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_18111893_providentissimus-deus.html",
+  "urlLang": "es",
+  "themes": [
+   "Escritura",
+   "inspiración",
+   "exégesis"
+  ],
+  "context": "Primera gran encíclica bíblica contemporánea: defiende la inspiración y la verdad de la Escritura y orienta el estudio científico de la Biblia en el seno de la Iglesia."
+ },
+ {
+  "id": "satis-cognitum",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1896-06-29",
+  "titleLa": "Satis cognitum",
+  "titleEs": "Sobre la unidad de la Iglesia",
+  "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_29061896_satis-cognitum.html",
+  "urlLang": "es",
+  "themes": [
+   "Iglesia",
+   "unidad",
+   "primado"
+  ],
+  "context": "Presenta la unidad de la Iglesia fundada por Cristo, el papel del episcopado y del primado de Pedro, y la llamada a la unión de los cristianos."
+ },
+ {
+  "id": "divinum-illud-munus",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1897-05-09",
+  "titleLa": "Divinum illud munus",
+  "titleEs": "Sobre el Espíritu Santo",
+  "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_09051897_divinum-illud-munus.html",
+  "urlLang": "es",
+  "themes": [
+   "Espíritu Santo",
+   "gracia",
+   "Iglesia"
+  ],
+  "context": "Una de las primeras encíclicas dedicadas a la persona y la acción del Espíritu Santo en la Iglesia y en las almas."
+ },
+ {
+  "id": "mirae-caritatis",
+  "category": "enciclica",
+  "author": "León XIII",
+  "date": "1902-05-28",
+  "titleLa": "Mirae caritatis",
+  "titleEs": "Sobre la Eucaristía",
+  "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_28051902_mirae-caritatis.html",
+  "urlLang": "en",
+  "themes": [
+   "Eucaristía",
+   "sacrificio",
+   "unidad"
+  ],
+  "context": "Reflexión sobre la Eucaristía como sacramento y sacrificio y su relación con la unidad de la Iglesia."
+ },
+ {
+  "id": "e-supremi",
+  "category": "enciclica",
+  "author": "Pío X",
+  "date": "1903-10-04",
+  "titleLa": "E supremi apostolatus cathedra",
+  "titleEs": "Sobre la restauración de todas las cosas en Cristo",
+  "url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_04101903_e-supremi.html",
+  "urlLang": "en",
+  "themes": [
+   "programa pontificio",
+   "Cristo"
+  ],
+  "context": "Primera encíclica de Pío X, cuyo lema fue «restaurar todas las cosas en Cristo»."
+ },
+ {
+  "id": "acerbo-nimis",
+  "category": "enciclica",
+  "author": "Pío X",
+  "date": "1905-04-15",
+  "titleLa": "Acerbo nimis",
+  "titleEs": "Sobre la enseñanza de la doctrina cristiana",
+  "url": "https://www.vatican.va/content/pius-x/en/encyclicals/documents/hf_p-x_enc_15041905_acerbo-nimis.html",
+  "urlLang": "en",
+  "themes": [
+   "catequesis",
+   "formación"
+  ],
+  "context": "Insiste en la catequesis de niños y adultos como tarea de los párrocos y propone organizar la Cofradía de la Doctrina Cristiana en cada parroquia."
+ },
+ {
+  "id": "pascendi",
+  "category": "enciclica",
+  "author": "Pío X",
+  "date": "1907-09-08",
+  "titleLa": "Pascendi Dominici gregis",
+  "titleEs": "Sobre las doctrinas modernistas",
+  "url": "https://www.vatican.va/content/pius-x/es/encyclicals/documents/hf_p-x_enc_19070908_pascendi-dominici-gregis.html",
+  "urlLang": "es",
+  "themes": [
+   "modernismo",
+   "fe y razón",
+   "teología"
+  ],
+  "context": "Condena como sistema el llamado modernismo y establece medidas de vigilancia en la enseñanza y en las publicaciones de la Iglesia."
+ },
+ {
+  "id": "ad-beatissimi",
+  "category": "enciclica",
+  "author": "Benedicto XV",
+  "date": "1914-11-01",
+  "titleLa": "Ad beatissimi apostolorum principis",
+  "titleEs": "Exhortación a la paz al comienzo del pontificado",
+  "url": "https://www.vatican.va/content/benedict-xv/en/encyclicals/documents/hf_ben-xv_enc_01111914_ad-beatissimi-apostolorum.html",
+  "urlLang": "en",
+  "themes": [
+   "paz",
+   "primera guerra mundial"
+  ],
+  "context": "Primera encíclica del papa, escrita tras el estallido de la Gran Guerra; llama a la paz y a la unidad de los católicos."
+ },
+ {
+  "id": "spiritus-paraclitus",
+  "category": "enciclica",
+  "author": "Benedicto XV",
+  "date": "1920-09-15",
+  "titleLa": "Spiritus Paraclitus",
+  "titleEs": "En el XV centenario de la muerte de san Jerónimo",
+  "url": "https://www.vatican.va/content/benedict-xv/es/encyclicals/documents/hf_ben-xv_enc_15091920_spiritus-paraclitus.html",
+  "urlLang": "es",
+  "themes": [
+   "Escritura",
+   "san Jerónimo"
+  ],
+  "context": "Recuerda el ejemplo de san Jerónimo como estudioso de la Escritura y defiende el valor de la Biblia para la vida cristiana."
+ },
+ {
+  "id": "maximum-illud",
+  "category": "carta-apostolica",
+  "author": "Benedicto XV",
+  "date": "1919-11-30",
+  "titleLa": "Maximum illud",
+  "titleEs": "Sobre la propagación de la fe católica en el mundo",
+  "url": "https://www.vatican.va/content/benedict-xv/es/apost_letters/documents/hf_ben-xv_apl_19191130_maximum-illud.html",
+  "urlLang": "es",
+  "themes": [
+   "misiones",
+   "clero local"
+  ],
+  "context": "Carta fundamental para la misión moderna: pide formar clero autóctono y separar la tarea misionera de los intereses coloniales."
+ },
+ {
+  "id": "quas-primas",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1925-12-11",
+  "titleLa": "Quas primas",
+  "titleEs": "Sobre la fiesta de Cristo Rey",
+  "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_11121925_quas-primas.html",
+  "urlLang": "es",
+  "themes": [
+   "realeza de Cristo",
+   "liturgia"
+  ],
+  "context": "Instituye la fiesta de Cristo Rey y expone el sentido de su realeza sobre las personas y las sociedades."
+ },
+ {
+  "id": "mortalium-animos",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1928-01-06",
+  "titleLa": "Mortalium animos",
+  "titleEs": "Sobre el fomento de la verdadera unidad religiosa",
+  "url": "https://www.vatican.va/content/pius-xi/en/encyclicals/documents/hf_p-xi_enc_19280106_mortalium-animos.html",
+  "urlLang": "en",
+  "themes": [
+   "ecumenismo",
+   "unidad"
+  ],
+  "context": "Refleja la actitud católica anterior al Vaticano II ante los movimientos ecuménicos; debe leerse junto a Unitatis redintegratio."
+ },
+ {
+  "id": "divini-illius-magistri",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1929-12-31",
+  "titleLa": "Divini illius Magistri",
+  "titleEs": "Sobre la educación cristiana de la juventud",
+  "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_31121929_divini-illius-magistri.html",
+  "urlLang": "es",
+  "themes": [
+   "educación",
+   "familia"
+  ],
+  "context": "Trata de los derechos y deberes de la familia, de la Iglesia y del Estado en la educación."
+ },
+ {
+  "id": "casti-connubii",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1930-12-31",
+  "titleLa": "Casti connubii",
+  "titleEs": "Sobre el matrimonio cristiano",
+  "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19301231_casti-connubii.html",
+  "urlLang": "es",
+  "themes": [
+   "matrimonio",
+   "familia",
+   "castidad"
+  ],
+  "context": "Expone la doctrina católica sobre el matrimonio como institución natural elevada a sacramento y responde a las ideas contrarias de su época."
+ },
+ {
+  "id": "quadragesimo-anno",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1931-05-15",
+  "titleLa": "Quadragesimo anno",
+  "titleEs": "Sobre la restauración del orden social",
+  "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+  "urlLang": "es",
+  "themes": [
+   "doctrina social",
+   "subsidiariedad",
+   "justicia social"
+  ],
+  "context": "Cuarenta años después de Rerum novarum, actualiza la doctrina social y formula con claridad el principio de subsidiariedad."
+ },
+ {
+  "id": "ad-catholici-sacerdotii",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1935-12-20",
+  "titleLa": "Ad catholici sacerdotii",
+  "titleEs": "Sobre el sacerdocio católico",
+  "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19351220_ad-catholici-sacerdotii.html",
+  "urlLang": "es",
+  "themes": [
+   "sacerdocio",
+   "formación"
+  ],
+  "context": "Describe la dignidad y las exigencias del sacerdocio ministerial y la formación de los candidatos."
+ },
+ {
+  "id": "mit-brennender-sorge",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1937-03-14",
+  "titleLa": "Mit brennender Sorge",
+  "titleEs": "Sobre la situación de la Iglesia católica en el Reich alemán",
+  "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_14031937_mit-brennender-sorge.html",
+  "urlLang": "es",
+  "themes": [
+   "nazismo",
+   "persecución",
+   "derechos"
+  ],
+  "context": "Escrita en alemán, denuncia las violaciones del concordato por el régimen nacionalsocialista y rechaza la ideología racista."
+ },
+ {
+  "id": "divini-redemptoris",
+  "category": "enciclica",
+  "author": "Pío XI",
+  "date": "1937-03-19",
+  "titleLa": "Divini Redemptoris",
+  "titleEs": "Sobre el comunismo ateo",
+  "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19370319_divini-redemptoris.html",
+  "urlLang": "es",
+  "themes": [
+   "comunismo",
+   "doctrina social"
+  ],
+  "context": "Publicada pocos días después de Mit brennender Sorge, rechaza el comunismo ateo y propone los principios de una sociedad conforme a la justicia."
+ },
+ {
+  "id": "summi-pontificatus",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1939-10-20",
+  "titleLa": "Summi pontificatus",
+  "titleEs": "Sobre la unidad de la sociedad humana",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_20101939_summi-pontificatus.html",
+  "urlLang": "es",
+  "themes": [
+   "unidad del género humano",
+   "guerra"
+  ],
+  "context": "Primera encíclica de Pío XII, aparecida al comenzar la segunda guerra mundial; afirma la unidad del género humano y rechaza el totalitarismo."
+ },
+ {
+  "id": "mystici-corporis",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1943-06-29",
+  "titleLa": "Mystici Corporis Christi",
+  "titleEs": "Sobre el Cuerpo místico de Cristo",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_29061943_mystici-corporis-christi.html",
+  "urlLang": "es",
+  "themes": [
+   "Iglesia",
+   "Cuerpo de Cristo"
+  ],
+  "context": "Presenta a la Iglesia como Cuerpo místico de Cristo y es antecedente directo de la eclesiología de Lumen gentium."
+ },
+ {
+  "id": "divino-afflante-spiritu",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1943-09-30",
+  "titleLa": "Divino afflante Spiritu",
+  "titleEs": "Sobre los estudios bíblicos",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_30091943_divino-afflante-spiritu.html",
+  "urlLang": "es",
+  "themes": [
+   "Escritura",
+   "géneros literarios",
+   "exégesis"
+  ],
+  "context": "Abre el camino al estudio científico de la Biblia: pide partir de los textos originales y atender los géneros literarios."
+ },
+ {
+  "id": "mediator-dei",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1947-11-20",
+  "titleLa": "Mediator Dei",
+  "titleEs": "Sobre la sagrada liturgia",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_20111947_mediator-dei.html",
+  "urlLang": "es",
+  "themes": [
+   "liturgia",
+   "participación"
+  ],
+  "context": "Primera encíclica sobre la liturgia; fundamenta el culto en el sacerdocio de Cristo y precede a la reforma litúrgica."
+ },
+ {
+  "id": "humani-generis",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1950-08-12",
+  "titleLa": "Humani generis",
+  "titleEs": "Sobre algunas falsas opiniones que amenazan la doctrina católica",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_12081950_humani-generis.html",
+  "urlLang": "es",
+  "themes": [
+   "teología",
+   "evolución",
+   "magisterio"
+  ],
+  "context": "Señala errores doctrinales de mediados del siglo XX y fija criterios sobre la relación entre teología y magisterio."
+ },
+ {
+  "id": "munificentissimus-deus",
+  "category": "constitucion-apostolica",
+  "author": "Pío XII",
+  "date": "1950-11-01",
+  "titleLa": "Munificentissimus Deus",
+  "titleEs": "Definición dogmática de la Asunción de la Virgen María",
+  "url": "https://www.vatican.va/content/pius-xii/en/apost_constitutions/documents/hf_p-xii_apc_19501101_munificentissimus-deus.html",
+  "urlLang": "en",
+  "themes": [
+   "María",
+   "Asunción",
+   "dogma"
+  ],
+  "context": "Define como dogma que la Virgen María fue llevada en cuerpo y alma a la gloria celestial."
+ },
+ {
+  "id": "ad-caeli-reginam",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1954-10-11",
+  "titleLa": "Ad caeli Reginam",
+  "titleEs": "Sobre la realeza de María",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_11101954_ad-caeli-reginam.html",
+  "urlLang": "es",
+  "themes": [
+   "María",
+   "realeza"
+  ],
+  "context": "Instituye la fiesta de la Realeza de María y explica su fundamento teológico."
+ },
+ {
+  "id": "musicae-sacrae",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1955-12-25",
+  "titleLa": "Musicae sacrae",
+  "titleEs": "Sobre la música sagrada",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_25121955_musicae-sacrae.html",
+  "urlLang": "es",
+  "themes": [
+   "música",
+   "liturgia"
+  ],
+  "context": "Orienta el uso del canto y la música en la liturgia, con especial atención al canto gregoriano y a la participación del pueblo."
+ },
+ {
+  "id": "haurietis-aquas",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1956-05-15",
+  "titleLa": "Haurietis aquas",
+  "titleEs": "Sobre el culto al Sagrado Corazón de Jesús",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_15051956_haurietis-aquas.html",
+  "urlLang": "es",
+  "themes": [
+   "Sagrado Corazón",
+   "devoción"
+  ],
+  "context": "Fundamenta teológicamente la devoción al Corazón de Cristo en la Escritura y la tradición."
+ },
+ {
+  "id": "fidei-donum",
+  "category": "enciclica",
+  "author": "Pío XII",
+  "date": "1957-04-21",
+  "titleLa": "Fidei donum",
+  "titleEs": "Sobre las misiones, especialmente en África",
+  "url": "https://www.vatican.va/content/pius-xii/es/encyclicals/documents/hf_p-xii_enc_21041957_fidei-donum.html",
+  "urlLang": "es",
+  "themes": [
+   "misiones",
+   "África"
+  ],
+  "context": "Invita a la cooperación misionera entre las Iglesias; de ahí el nombre de «sacerdotes fidei donum»."
+ },
+ {
+  "id": "mater-et-magistra",
+  "category": "enciclica",
+  "author": "Juan XXIII",
+  "date": "1961-05-15",
+  "titleLa": "Mater et magistra",
+  "titleEs": "Sobre la reciente evolución de la cuestión social",
+  "url": "https://www.vatican.va/content/john-xxiii/es/encyclicals/documents/hf_j-xxiii_enc_15051961_mater.html",
+  "urlLang": "es",
+  "themes": [
+   "doctrina social",
+   "desarrollo",
+   "agricultura"
+  ],
+  "context": "Actualiza la doctrina social a los setenta años de Rerum novarum, con atención a la agricultura, los países pobres y la cooperación internacional."
+ },
+ {
+  "id": "pacem-in-terris",
+  "category": "enciclica",
+  "author": "Juan XXIII",
+  "date": "1963-04-11",
+  "titleLa": "Pacem in terris",
+  "titleEs": "Sobre la paz entre todos los pueblos",
+  "url": "https://www.vatican.va/content/john-xxiii/es/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem.html",
+  "urlLang": "es",
+  "themes": [
+   "paz",
+   "derechos humanos"
+  ],
+  "context": "Dirigida a «todos los hombres de buena voluntad», funda la paz en la verdad, la justicia, la caridad y la libertad y enumera los derechos de la persona."
+ },
+ {
+  "id": "ecclesiam-suam",
+  "category": "enciclica",
+  "author": "Pablo VI",
+  "date": "1964-08-06",
+  "titleLa": "Ecclesiam suam",
+  "titleEs": "Sobre los caminos de la Iglesia",
+  "url": "https://www.vatican.va/content/paul-vi/es/encyclicals/documents/hf_p-vi_enc_06081964_ecclesiam.html",
+  "urlLang": "es",
+  "themes": [
+   "diálogo",
+   "Iglesia"
+  ],
+  "context": "Programa de su pontificado: la Iglesia toma conciencia de sí misma y se abre al diálogo con el mundo, con los demás cristianos y con las otras religiones."
+ },
+ {
+  "id": "mysterium-fidei",
+  "category": "enciclica",
+  "author": "Pablo VI",
+  "date": "1965-09-03",
+  "titleLa": "Mysterium fidei",
+  "titleEs": "Sobre la doctrina y el culto de la sagrada Eucaristía",
+  "url": "https://www.vatican.va/content/paul-vi/es/encyclicals/documents/hf_p-vi_enc_03091965_mysterium.html",
+  "urlLang": "es",
+  "themes": [
+   "Eucaristía",
+   "presencia real"
+  ],
+  "context": "Escrita durante el Concilio, recuerda la doctrina sobre la presencia real y el sacrificio eucarístico."
+ },
+ {
+  "id": "populorum-progressio",
+  "category": "enciclica",
+  "author": "Pablo VI",
+  "date": "1967-03-26",
+  "titleLa": "Populorum progressio",
+  "titleEs": "Sobre el desarrollo de los pueblos",
+  "url": "https://www.vatican.va/content/paul-vi/es/encyclicals/documents/hf_p-vi_enc_26031967_populorum.html",
+  "urlLang": "es",
+  "themes": [
+   "desarrollo integral",
+   "justicia internacional"
+  ],
+  "context": "Propone un desarrollo integral de todo el hombre y de todos los hombres y denuncia las desigualdades entre naciones."
+ },
+ {
+  "id": "sacerdotalis-caelibatus",
+  "category": "enciclica",
+  "author": "Pablo VI",
+  "date": "1967-06-24",
+  "titleLa": "Sacerdotalis caelibatus",
+  "titleEs": "Sobre el celibato sacerdotal",
+  "url": "https://www.vatican.va/content/paul-vi/es/encyclicals/documents/hf_p-vi_enc_24061967_sacerdotalis.html",
+  "urlLang": "es",
+  "themes": [
+   "celibato",
+   "sacerdocio"
+  ],
+  "context": "Confirma la disciplina del celibato en la Iglesia latina y expone sus razones cristológicas, eclesiales y escatológicas."
+ },
+ {
+  "id": "humanae-vitae",
+  "category": "enciclica",
+  "author": "Pablo VI",
+  "date": "1968-07-25",
+  "titleLa": "Humanae vitae",
+  "titleEs": "Sobre la regulación de la natalidad",
+  "url": "https://www.vatican.va/content/paul-vi/es/encyclicals/documents/hf_p-vi_enc_25071968_humanae-vitae.html",
+  "urlLang": "es",
+  "themes": [
+   "matrimonio",
+   "vida",
+   "paternidad responsable"
+  ],
+  "context": "Expone la doctrina sobre el amor conyugal y la transmisión de la vida y declara ilícita la contracepción artificial."
+ },
+ {
+  "id": "credo-pueblo-de-dios",
+  "category": "motu-proprio",
+  "author": "Pablo VI",
+  "date": "1968-06-30",
+  "titleLa": "Credo del Pueblo de Dios",
+  "titleEs": "Profesión de fe de Pablo VI",
+  "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19680630_credo.html",
+  "urlLang": "es",
+  "themes": [
+   "Credo",
+   "profesión de fe"
+  ],
+  "context": "Profesión solemne de fe pronunciada al concluir el Año de la Fe, que resume la doctrina del Credo."
+ },
+ {
+  "id": "paenitemini",
+  "category": "constitucion-apostolica",
+  "author": "Pablo VI",
+  "date": "1966-02-17",
+  "titleLa": "Paenitemini",
+  "titleEs": "Sobre la penitencia",
+  "url": "https://www.vatican.va/content/paul-vi/es/apost_constitutions/documents/hf_p-vi_apc_19660217_paenitemini.html",
+  "urlLang": "es",
+  "themes": [
+   "penitencia",
+   "ayuno"
+  ],
+  "context": "Renueva la disciplina penitencial de la Iglesia tras el Concilio."
+ },
+ {
+  "id": "octogesima-adveniens",
+  "category": "carta-apostolica",
+  "author": "Pablo VI",
+  "date": "1971-05-14",
+  "titleLa": "Octogesima adveniens",
+  "titleEs": "En el 80 aniversario de Rerum novarum",
+  "url": "https://www.vatican.va/content/paul-vi/es/apost_letters/documents/hf_p-vi_apl_19710514_octogesima-adveniens.html",
+  "urlLang": "es",
+  "themes": [
+   "doctrina social",
+   "urbanización",
+   "política"
+  ],
+  "context": "Invita a las comunidades locales a discernir los problemas sociales nuevos a la luz del Evangelio."
+ },
+ {
+  "id": "marialis-cultus",
+  "category": "exhortacion",
+  "author": "Pablo VI",
+  "date": "1974-02-02",
+  "titleLa": "Marialis cultus",
+  "titleEs": "Para el recto ordenamiento y desarrollo del culto a la Virgen María",
+  "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html",
+  "urlLang": "es",
+  "themes": [
+   "María",
+   "liturgia",
+   "Rosario"
+  ],
+  "context": "Orienta la devoción mariana según los criterios bíblico, litúrgico, ecuménico y antropológico y valora el Rosario."
+ },
+ {
+  "id": "gaudete-in-domino",
+  "category": "exhortacion",
+  "author": "Pablo VI",
+  "date": "1975-05-09",
+  "titleLa": "Gaudete in Domino",
+  "titleEs": "Sobre la alegría cristiana",
+  "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19750509_gaudete-in-domino.html",
+  "urlLang": "es",
+  "themes": [
+   "alegría",
+   "espiritualidad"
+  ],
+  "context": "Reflexiona sobre la alegría cristiana en sus fuentes: la Encarnación, la Pascua y la esperanza."
+ },
+ {
+  "id": "evangelii-nuntiandi",
+  "category": "exhortacion",
+  "author": "Pablo VI",
+  "date": "1975-12-08",
+  "titleLa": "Evangelii nuntiandi",
+  "titleEs": "Sobre la evangelización en el mundo contemporáneo",
+  "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19751208_evangelii-nuntiandi.html",
+  "urlLang": "es",
+  "themes": [
+   "evangelización",
+   "misión"
+  ],
+  "context": "Referencia mayor sobre la evangelización: la Iglesia existe para evangelizar, y el anuncio comprende testimonio, palabra y promoción humana."
+ },
+ {
+  "id": "redemptor-hominis",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1979-03-04",
+  "titleLa": "Redemptor hominis",
+  "titleEs": "El Redentor del hombre",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis.html",
+  "urlLang": "es",
+  "themes": [
+   "Cristo",
+   "persona humana"
+  ],
+  "context": "Primera encíclica de Juan Pablo II: Cristo revela el hombre al hombre y es el centro de la misión de la Iglesia."
+ },
+ {
+  "id": "dives-in-misericordia",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1980-11-30",
+  "titleLa": "Dives in misericordia",
+  "titleEs": "Sobre la misericordia divina",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia.html",
+  "urlLang": "es",
+  "themes": [
+   "misericordia",
+   "Dios Padre"
+  ],
+  "context": "Medita la misericordia de Dios en la Escritura y en la historia de la salvación."
+ },
+ {
+  "id": "laborem-exercens",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1981-09-14",
+  "titleLa": "Laborem exercens",
+  "titleEs": "Sobre el trabajo humano",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens.html",
+  "urlLang": "es",
+  "themes": [
+   "trabajo",
+   "dignidad",
+   "solidaridad"
+  ],
+  "context": "Presenta el trabajo como clave de la cuestión social y afirma la prioridad del trabajo sobre el capital."
+ },
+ {
+  "id": "slavorum-apostoli",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1985-06-02",
+  "titleLa": "Slavorum apostoli",
+  "titleEs": "Sobre los santos Cirilo y Metodio",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli.html",
+  "urlLang": "es",
+  "themes": [
+   "evangelización",
+   "inculturación"
+  ],
+  "context": "Con motivo del undécimo centenario de la muerte de san Metodio, recuerda a los apóstoles de los eslavos como modelo de inculturación."
+ },
+ {
+  "id": "dominum-et-vivificantem",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1986-05-18",
+  "titleLa": "Dominum et vivificantem",
+  "titleEs": "Sobre el Espíritu Santo en la vida de la Iglesia y del mundo",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem.html",
+  "urlLang": "es",
+  "themes": [
+   "Espíritu Santo",
+   "pecado",
+   "gracia"
+  ],
+  "context": "Tratado sobre el Espíritu Santo, Señor y dador de vida, a las puertas del Jubileo del año 2000."
+ },
+ {
+  "id": "redemptoris-mater",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1987-03-25",
+  "titleLa": "Redemptoris Mater",
+  "titleEs": "Sobre la Bienaventurada Virgen María en la vida de la Iglesia peregrina",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater.html",
+  "urlLang": "es",
+  "themes": [
+   "María",
+   "Iglesia",
+   "Año Mariano"
+  ],
+  "context": "Presenta el misterio de María en relación con Cristo y con la Iglesia, para el Año Mariano."
+ },
+ {
+  "id": "sollicitudo-rei-socialis",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1987-12-30",
+  "titleLa": "Sollicitudo rei socialis",
+  "titleEs": "Sobre la preocupación social de la Iglesia",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis.html",
+  "urlLang": "es",
+  "themes": [
+   "desarrollo",
+   "solidaridad",
+   "estructuras de pecado"
+  ],
+  "context": "Veinte años después de Populorum progressio, examina el desarrollo y propone la solidaridad como virtud."
+ },
+ {
+  "id": "redemptoris-missio",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1990-12-07",
+  "titleLa": "Redemptoris missio",
+  "titleEs": "Sobre la permanente validez del mandato misionero",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio.html",
+  "urlLang": "es",
+  "themes": [
+   "misión",
+   "evangelización"
+  ],
+  "context": "Reafirma la urgencia de la misión ad gentes y la necesidad del anuncio explícito de Cristo."
+ },
+ {
+  "id": "centesimus-annus",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1991-05-01",
+  "titleLa": "Centesimus annus",
+  "titleEs": "En el centenario de Rerum novarum",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus.html",
+  "urlLang": "es",
+  "themes": [
+   "doctrina social",
+   "economía",
+   "dignidad"
+  ],
+  "context": "Relee Rerum novarum tras la caída del comunismo y reflexiona sobre la economía de mercado y los derechos humanos."
+ },
+ {
+  "id": "veritatis-splendor",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1993-08-06",
+  "titleLa": "Veritatis splendor",
+  "titleEs": "Sobre algunas cuestiones fundamentales de la enseñanza moral de la Iglesia",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor.html",
+  "urlLang": "es",
+  "themes": [
+   "moral fundamental",
+   "ley natural",
+   "conciencia"
+  ],
+  "context": "Expone los fundamentos de la moral católica y rechaza el relativismo y el proporcionalismo."
+ },
+ {
+  "id": "evangelium-vitae",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1995-03-25",
+  "titleLa": "Evangelium vitae",
+  "titleEs": "Sobre el valor y el carácter inviolable de la vida humana",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae.html",
+  "urlLang": "es",
+  "themes": [
+   "vida",
+   "aborto",
+   "eutanasia"
+  ],
+  "context": "Afirma el Evangelio de la vida y la inviolabilidad de toda vida humana inocente."
+ },
+ {
+  "id": "ut-unum-sint",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1995-05-25",
+  "titleLa": "Ut unum sint",
+  "titleEs": "Sobre el empeño ecuménico",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint.html",
+  "urlLang": "es",
+  "themes": [
+   "ecumenismo",
+   "primado"
+  ],
+  "context": "Confirma el compromiso irreversible de la Iglesia católica con el ecumenismo e invita a dialogar sobre el ejercicio del primado."
+ },
+ {
+  "id": "fides-et-ratio",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "1998-09-14",
+  "titleLa": "Fides et ratio",
+  "titleEs": "Sobre las relaciones entre fe y razón",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html",
+  "urlLang": "es",
+  "themes": [
+   "fe y razón",
+   "filosofía",
+   "verdad"
+  ],
+  "context": "Sostiene que fe y razón son como dos alas para alcanzar la verdad y anima a la filosofía a abrirse a la sabiduría cristiana."
+ },
+ {
+  "id": "ecclesia-de-eucharistia",
+  "category": "enciclica",
+  "author": "Juan Pablo II",
+  "date": "2003-04-17",
+  "titleLa": "Ecclesia de Eucharistia",
+  "titleEs": "Sobre la Eucaristía en su relación con la Iglesia",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html",
+  "urlLang": "es",
+  "themes": [
+   "Eucaristía",
+   "Iglesia",
+   "comunión"
+  ],
+  "context": "Última encíclica de Juan Pablo II: la Iglesia vive de la Eucaristía y la celebra en comunión con los apóstoles."
+ },
+ {
+  "id": "catechesi-tradendae",
+  "category": "exhortacion",
+  "author": "Juan Pablo II",
+  "date": "1979-10-16",
+  "titleLa": "Catechesi tradendae",
+  "titleEs": "Sobre la catequesis en nuestro tiempo",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_16101979_catechesi-tradendae.html",
+  "urlLang": "es",
+  "themes": [
+   "catequesis",
+   "formación"
+  ],
+  "context": "Fruto del Sínodo de 1977, expone el sentido y los criterios de la catequesis; inspira el Catecismo de la Iglesia Católica."
+ },
+ {
+  "id": "familiaris-consortio",
+  "category": "exhortacion",
+  "author": "Juan Pablo II",
+  "date": "1981-11-22",
+  "titleLa": "Familiaris consortio",
+  "titleEs": "Sobre la misión de la familia cristiana en el mundo actual",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_19811122_familiaris-consortio.html",
+  "urlLang": "es",
+  "themes": [
+   "familia",
+   "matrimonio",
+   "pastoral"
+  ],
+  "context": "Presenta el plan de Dios sobre el matrimonio y la familia y los cuatro cometidos de la familia cristiana."
+ },
+ {
+  "id": "reconciliatio-et-paenitentia",
+  "category": "exhortacion",
+  "author": "Juan Pablo II",
+  "date": "1984-12-02",
+  "titleLa": "Reconciliatio et paenitentia",
+  "titleEs": "Sobre la reconciliación y la penitencia",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_02121984_reconciliatio-et-paenitentia.html",
+  "urlLang": "es",
+  "themes": [
+   "penitencia",
+   "pecado",
+   "reconciliación"
+  ],
+  "context": "Fruto del Sínodo de 1983, trata del pecado, la conversión y el sacramento de la reconciliación."
+ },
+ {
+  "id": "christifideles-laici",
+  "category": "exhortacion",
+  "author": "Juan Pablo II",
+  "date": "1988-12-30",
+  "titleLa": "Christifideles laici",
+  "titleEs": "Sobre vocación y misión de los laicos",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_30121988_christifideles-laici.html",
+  "urlLang": "es",
+  "themes": [
+   "laicos",
+   "vocación",
+   "misión"
+  ],
+  "context": "Desarrolla la identidad y la misión de los fieles laicos en la Iglesia y en el mundo."
+ },
+ {
+  "id": "pastores-dabo-vobis",
+  "category": "exhortacion",
+  "author": "Juan Pablo II",
+  "date": "1992-03-25",
+  "titleLa": "Pastores dabo vobis",
+  "titleEs": "Sobre la formación de los sacerdotes",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_25031992_pastores-dabo-vobis.html",
+  "urlLang": "es",
+  "themes": [
+   "sacerdocio",
+   "seminario"
+  ],
+  "context": "Describe la identidad del sacerdote y las dimensiones de su formación."
+ },
+ {
+  "id": "vita-consecrata",
+  "category": "exhortacion",
+  "author": "Juan Pablo II",
+  "date": "1996-03-25",
+  "titleLa": "Vita consecrata",
+  "titleEs": "Sobre la vida consagrada",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_25031996_vita-consecrata.html",
+  "urlLang": "es",
+  "themes": [
+   "vida consagrada",
+   "consejos evangélicos"
+  ],
+  "context": "Expone la teología de la vida consagrada y su lugar en la misión de la Iglesia."
+ },
+ {
+  "id": "ecclesia-in-america",
+  "category": "exhortacion",
+  "author": "Juan Pablo II",
+  "date": "1999-01-22",
+  "titleLa": "Ecclesia in America",
+  "titleEs": "Sobre el encuentro con Jesucristo vivo, camino para la conversión, la comunión y la solidaridad en América",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_22011999_ecclesia-in-america.html",
+  "urlLang": "es",
+  "themes": [
+   "América",
+   "conversión",
+   "comunión",
+   "solidaridad"
+  ],
+  "context": "Recoge los frutos del Sínodo para América y es documento de referencia para la Iglesia en el continente; fue entregada en la Basílica de Guadalupe."
+ },
+ {
+  "id": "salvifici-doloris",
+  "category": "carta-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1984-02-11",
+  "titleLa": "Salvifici doloris",
+  "titleEs": "Sobre el sentido cristiano del sufrimiento humano",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1984/documents/hf_jp-ii_apl_11021984_salvifici-doloris.html",
+  "urlLang": "es",
+  "themes": [
+   "sufrimiento",
+   "cruz",
+   "enfermos"
+  ],
+  "context": "Medita el sentido salvífico del sufrimiento a la luz de la cruz de Cristo."
+ },
+ {
+  "id": "mulieris-dignitatem",
+  "category": "carta-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1988-08-15",
+  "titleLa": "Mulieris dignitatem",
+  "titleEs": "Sobre la dignidad y la vocación de la mujer",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1988/documents/hf_jp-ii_apl_15081988_mulieris-dignitatem.html",
+  "urlLang": "es",
+  "themes": [
+   "mujer",
+   "dignidad",
+   "María"
+  ],
+  "context": "Reflexiona sobre la dignidad y la vocación de la mujer en el plan de Dios, con María como referencia."
+ },
+ {
+  "id": "ordinatio-sacerdotalis",
+  "category": "carta-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1994-05-22",
+  "titleLa": "Ordinatio sacerdotalis",
+  "titleEs": "Sobre la ordenación sacerdotal reservada solo a los hombres",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1994/documents/hf_jp-ii_apl_19940522_ordinatio-sacerdotalis.html",
+  "urlLang": "es",
+  "themes": [
+   "sacerdocio",
+   "Orden"
+  ],
+  "context": "Declara que la Iglesia no tiene facultad para conferir la ordenación sacerdotal a las mujeres."
+ },
+ {
+  "id": "tertio-millennio-adveniente",
+  "category": "carta-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1994-11-10",
+  "titleLa": "Tertio millennio adveniente",
+  "titleEs": "Preparación del Jubileo del año 2000",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1994/documents/hf_jp-ii_apl_19941110_tertio-millennio-adveniente.html",
+  "urlLang": "es",
+  "themes": [
+   "Jubileo",
+   "historia",
+   "purificación"
+  ],
+  "context": "Traza el camino de preparación del Gran Jubileo del año 2000."
+ },
+ {
+  "id": "dies-domini",
+  "category": "carta-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1998-05-31",
+  "titleLa": "Dies Domini",
+  "titleEs": "Sobre la santificación del domingo",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/1998/documents/hf_jp-ii_apl_05071998_dies-domini.html",
+  "urlLang": "es",
+  "themes": [
+   "domingo",
+   "Eucaristía",
+   "descanso"
+  ],
+  "context": "Presenta el domingo como día del Señor, de la Iglesia, del hombre y de los días."
+ },
+ {
+  "id": "novo-millennio-ineunte",
+  "category": "carta-apostolica",
+  "author": "Juan Pablo II",
+  "date": "2001-01-06",
+  "titleLa": "Novo millennio ineunte",
+  "titleEs": "Al concluir el Gran Jubileo del año 2000",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/2001/documents/hf_jp-ii_apl_20010106_novo-millennio-ineunte.html",
+  "urlLang": "es",
+  "themes": [
+   "santidad",
+   "contemplar el rostro de Cristo",
+   "oración"
+  ],
+  "context": "Propone «remar mar adentro»: contemplar el rostro de Cristo, la santidad como programa y la espiritualidad de comunión."
+ },
+ {
+  "id": "rosarium-virginis-mariae",
+  "category": "carta-apostolica",
+  "author": "Juan Pablo II",
+  "date": "2002-10-16",
+  "titleLa": "Rosarium Virginis Mariae",
+  "titleEs": "Sobre el santo Rosario",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html",
+  "urlLang": "es",
+  "themes": [
+   "Rosario",
+   "María",
+   "oración contemplativa"
+  ],
+  "context": "Valora el Rosario como oración cristocéntrica y añade los misterios luminosos."
+ },
+ {
+  "id": "sacrae-disciplinae-leges",
+  "category": "constitucion-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1983-01-25",
+  "titleLa": "Sacrae disciplinae leges",
+  "titleEs": "Promulgación del Código de Derecho Canónico",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_constitutions/documents/hf_jp-ii_apc_25011983_sacrae-disciplinae-leges.html",
+  "urlLang": "es",
+  "themes": [
+   "derecho canónico",
+   "Código"
+  ],
+  "context": "Promulga el Código de Derecho Canónico de 1983 para la Iglesia latina."
+ },
+ {
+  "id": "ex-corde-ecclesiae",
+  "category": "constitucion-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1990-08-15",
+  "titleLa": "Ex corde Ecclesiae",
+  "titleEs": "Sobre las universidades católicas",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_constitutions/documents/hf_jp-ii_apc_15081990_ex-corde-ecclesiae.html",
+  "urlLang": "es",
+  "themes": [
+   "universidad",
+   "cultura"
+  ],
+  "context": "Define la identidad y la misión de las universidades católicas."
+ },
+ {
+  "id": "fidei-depositum",
+  "category": "constitucion-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1992-10-11",
+  "titleLa": "Fidei depositum",
+  "titleEs": "Para la publicación del Catecismo de la Iglesia Católica",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_constitutions/documents/hf_jp-ii_apc_19921011_fidei-depositum.html",
+  "urlLang": "es",
+  "themes": [
+   "Catecismo",
+   "fe"
+  ],
+  "context": "Presenta el Catecismo de la Iglesia Católica como exposición de la fe de la Iglesia y regla segura para la enseñanza de la fe."
+ },
+ {
+  "id": "universi-dominici-gregis",
+  "category": "constitucion-apostolica",
+  "author": "Juan Pablo II",
+  "date": "1996-02-22",
+  "titleLa": "Universi Dominici gregis",
+  "titleEs": "Sobre la vacante de la Sede apostólica y la elección del Romano Pontífice",
+  "url": "https://www.vatican.va/content/john-paul-ii/es/apost_constitutions/documents/hf_jp-ii_apc_22021996_universi-dominici-gregis.html",
+  "urlLang": "es",
+  "themes": [
+   "sede vacante",
+   "cónclave"
+  ],
+  "context": "Regula la vacante de la sede apostólica y el cónclave para elegir al papa."
+ },
+ {
+  "id": "deus-caritas-est",
+  "category": "enciclica",
+  "author": "Benedicto XVI",
+  "date": "2005-12-25",
+  "titleLa": "Deus caritas est",
+  "titleEs": "Sobre el amor cristiano",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est.html",
+  "urlLang": "es",
+  "themes": [
+   "amor",
+   "caridad",
+   "eros y ágape"
+  ],
+  "context": "Su primera encíclica: «Dios es amor» y la caridad como tarea esencial de la Iglesia."
+ },
+ {
+  "id": "spe-salvi",
+  "category": "enciclica",
+  "author": "Benedicto XVI",
+  "date": "2007-11-30",
+  "titleLa": "Spe salvi",
+  "titleEs": "Sobre la esperanza cristiana",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html",
+  "urlLang": "es",
+  "themes": [
+   "esperanza",
+   "vida eterna",
+   "juicio"
+  ],
+  "context": "Medita la esperanza cristiana frente a la fe en el progreso y trata de la oración, el juicio y el purgatorio."
+ },
+ {
+  "id": "caritas-in-veritate",
+  "category": "enciclica",
+  "author": "Benedicto XVI",
+  "date": "2009-06-29",
+  "titleLa": "Caritas in veritate",
+  "titleEs": "Sobre el desarrollo humano integral en la caridad y en la verdad",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate.html",
+  "urlLang": "es",
+  "themes": [
+   "doctrina social",
+   "economía",
+   "gratuidad"
+  ],
+  "context": "Actualiza la doctrina social ante la globalización y propone la lógica del don en la economía."
+ },
+ {
+  "id": "sacramentum-caritatis",
+  "category": "exhortacion",
+  "author": "Benedicto XVI",
+  "date": "2007-02-22",
+  "titleLa": "Sacramentum caritatis",
+  "titleEs": "Sobre la Eucaristía, fuente y culmen de la vida y de la misión de la Iglesia",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20070222_sacramentum-caritatis.html",
+  "urlLang": "es",
+  "themes": [
+   "Eucaristía",
+   "liturgia",
+   "misión"
+  ],
+  "context": "Recoge el Sínodo de 2005 sobre la Eucaristía."
+ },
+ {
+  "id": "verbum-domini",
+  "category": "exhortacion",
+  "author": "Benedicto XVI",
+  "date": "2010-09-30",
+  "titleLa": "Verbum Domini",
+  "titleEs": "Sobre la Palabra de Dios en la vida y en la misión de la Iglesia",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20100930_verbum-domini.html",
+  "urlLang": "es",
+  "themes": [
+   "Escritura",
+   "lectio divina",
+   "homilía"
+  ],
+  "context": "Recoge el Sínodo de 2008; es el documento magisterial más completo sobre la Palabra de Dios tras Dei Verbum."
+ },
+ {
+  "id": "africae-munus",
+  "category": "exhortacion",
+  "author": "Benedicto XVI",
+  "date": "2011-11-19",
+  "titleLa": "Africae munus",
+  "titleEs": "Sobre la Iglesia en África al servicio de la reconciliación, la justicia y la paz",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20111119_africae-munus.html",
+  "urlLang": "es",
+  "themes": [
+   "África",
+   "reconciliación",
+   "justicia"
+  ],
+  "context": "Recoge el segundo Sínodo para África."
+ },
+ {
+  "id": "ecclesia-in-medio-oriente",
+  "category": "exhortacion",
+  "author": "Benedicto XVI",
+  "date": "2012-09-14",
+  "titleLa": "Ecclesia in Medio Oriente",
+  "titleEs": "Sobre la Iglesia en Oriente Medio",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/apost_exhortations/documents/hf_ben-xvi_exh_20120914_ecclesia-in-medio-oriente.html",
+  "urlLang": "es",
+  "themes": [
+   "Oriente Medio",
+   "comunión",
+   "testimonio"
+  ],
+  "context": "Recoge la asamblea especial del Sínodo para Oriente Medio."
+ },
+ {
+  "id": "summorum-pontificum",
+  "category": "motu-proprio",
+  "author": "Benedicto XVI",
+  "date": "2007-07-07",
+  "titleLa": "Summorum Pontificum",
+  "titleEs": "Sobre el uso de la liturgia romana anterior a la reforma de 1970",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070707_summorum-pontificum.html",
+  "urlLang": "es",
+  "themes": [
+   "liturgia",
+   "forma extraordinaria"
+  ],
+  "context": "Disciplina del uso del Misal de 1962; fue sustituido en parte por Traditionis custodes (2021)."
+ },
+ {
+  "id": "porta-fidei",
+  "category": "motu-proprio",
+  "author": "Benedicto XVI",
+  "date": "2011-10-11",
+  "titleLa": "Porta fidei",
+  "titleEs": "Convocatoria del Año de la Fe",
+  "url": "https://www.vatican.va/content/benedict-xvi/es/motu_proprio/documents/hf_ben-xvi_motu-proprio_20111011_porta-fidei.html",
+  "urlLang": "es",
+  "themes": [
+   "fe",
+   "Año de la Fe"
+  ],
+  "context": "Convoca el Año de la Fe (2012-2013) con ocasión del 50.º aniversario del Concilio Vaticano II y de los veinte años del Catecismo."
+ },
+ {
+  "id": "lumen-fidei",
+  "category": "enciclica",
+  "author": "Francisco",
+  "date": "2013-06-29",
+  "titleLa": "Lumen fidei",
+  "titleEs": "Sobre la fe",
+  "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html",
+  "urlLang": "es",
+  "themes": [
+   "fe",
+   "luz",
+   "verdad"
+  ],
+  "context": "Escrita a cuatro manos, iniciada por Benedicto XVI: la fe como luz que ilumina toda la existencia."
+ },
+ {
+  "id": "evangelii-gaudium",
+  "category": "exhortacion",
+  "author": "Francisco",
+  "date": "2013-11-24",
+  "titleLa": "Evangelii gaudium",
+  "titleEs": "Sobre el anuncio del Evangelio en el mundo actual",
+  "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium.html",
+  "urlLang": "es",
+  "themes": [
+   "evangelización",
+   "alegría",
+   "misión"
+  ],
+  "context": "Documento programático del pontificado, sobre la alegría del Evangelio y una Iglesia «en salida»."
+ },
+ {
+  "id": "laudato-si",
+  "category": "enciclica",
+  "author": "Francisco",
+  "date": "2015-05-24",
+  "titleLa": "Laudato si'",
+  "titleEs": "Sobre el cuidado de la casa común",
+  "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html",
+  "urlLang": "es",
+  "themes": [
+   "ecología integral",
+   "creación"
+  ],
+  "context": "Reflexión sobre el cuidado de la creación y el principio de la ecología integral."
+ },
+ {
+  "id": "amoris-laetitia",
+  "category": "exhortacion",
+  "author": "Francisco",
+  "date": "2016-03-19",
+  "titleLa": "Amoris laetitia",
+  "titleEs": "Sobre el amor en la familia",
+  "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20160319_amoris-laetitia.html",
+  "urlLang": "es",
+  "themes": [
+   "familia",
+   "matrimonio",
+   "discernimiento"
+  ],
+  "context": "Recoge los Sínodos de 2014 y 2015 sobre la familia."
+ },
+ {
+  "id": "misericordia-et-misera",
+  "category": "carta-apostolica",
+  "author": "Francisco",
+  "date": "2016-11-20",
+  "titleLa": "Misericordia et misera",
+  "titleEs": "Carta apostólica al concluir el Jubileo extraordinario de la Misericordia",
+  "url": "https://www.vatican.va/content/francesco/es/apost_letters/documents/papa-francesco-lettera-ap_20161120_misericordia-et-misera.html",
+  "urlLang": "es",
+  "themes": [
+   "misericordia",
+   "reconciliación"
+  ],
+  "context": "Culmina el Jubileo de la Misericordia, con orientaciones pastorales."
+ },
+ {
+  "id": "gaudete-et-exsultate",
+  "category": "exhortacion",
+  "author": "Francisco",
+  "date": "2018-03-19",
+  "titleLa": "Gaudete et exsultate",
+  "titleEs": "Sobre la llamada a la santidad en el mundo actual",
+  "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20180319_gaudete-et-exsultate.html",
+  "urlLang": "es",
+  "themes": [
+   "santidad",
+   "bienaventuranzas"
+  ],
+  "context": "Presenta la llamada universal a la santidad en la vida diaria."
+ },
+ {
+  "id": "christus-vivit",
+  "category": "exhortacion",
+  "author": "Francisco",
+  "date": "2019-03-25",
+  "titleLa": "Christus vivit",
+  "titleEs": "A los jóvenes y a todo el pueblo de Dios",
+  "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20190325_christus-vivit.html",
+  "urlLang": "es",
+  "themes": [
+   "jóvenes",
+   "vocación"
+  ],
+  "context": "Recoge el Sínodo de 2018 sobre los jóvenes."
+ },
+ {
+  "id": "querida-amazonia",
+  "category": "exhortacion",
+  "author": "Francisco",
+  "date": "2020-02-02",
+  "titleLa": "Querida Amazonia",
+  "titleEs": "Sobre la Amazonía",
+  "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/papa-francesco_esortazione-ap_20200202_querida-amazonia.html",
+  "urlLang": "es",
+  "themes": [
+   "Amazonía",
+   "ecología",
+   "inculturación"
+  ],
+  "context": "Responde al Sínodo para la Amazonía y propone cuatro sueños: social, cultural, ecológico y eclesial."
+ },
+ {
+  "id": "fratelli-tutti",
+  "category": "enciclica",
+  "author": "Francisco",
+  "date": "2020-10-03",
+  "titleLa": "Fratelli tutti",
+  "titleEs": "Sobre la fraternidad y la amistad social",
+  "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html",
+  "urlLang": "es",
+  "themes": [
+   "fraternidad",
+   "política",
+   "diálogo"
+  ],
+  "context": "Propone la fraternidad universal y la amistad social, con la parábola del buen samaritano."
+ },
+ {
+  "id": "patris-corde",
+  "category": "carta-apostolica",
+  "author": "Francisco",
+  "date": "2020-12-08",
+  "titleLa": "Patris corde",
+  "titleEs": "Con corazón de padre, sobre san José",
+  "url": "https://www.vatican.va/content/francesco/es/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html",
+  "urlLang": "es",
+  "themes": [
+   "san José",
+   "paternidad"
+  ],
+  "context": "Carta apostólica para el Año de san José."
+ },
+ {
+  "id": "laudate-deum",
+  "category": "exhortacion",
+  "author": "Francisco",
+  "date": "2023-10-04",
+  "titleLa": "Laudate Deum",
+  "titleEs": "Sobre la crisis climática",
+  "url": "https://www.vatican.va/content/francesco/es/apost_exhortations/documents/20231004-laudate-deum.html",
+  "urlLang": "es",
+  "themes": [
+   "ecología",
+   "cambio climático"
+  ],
+  "context": "Complementa Laudato si' sobre la crisis climática."
+ },
+ {
+  "id": "dilexit-nos",
+  "category": "enciclica",
+  "author": "Francisco",
+  "date": "2024-10-24",
+  "titleLa": "Dilexit nos",
+  "titleEs": "Sobre el amor humano y divino del Corazón de Jesucristo",
+  "url": "https://www.vatican.va/content/francesco/es/encyclicals/documents/20241024-enciclica-dilexit-nos.html",
+  "urlLang": "es",
+  "themes": [
+   "Sagrado Corazón",
+   "amor",
+   "devoción"
+  ],
+  "context": "Retoma la tradición de la devoción al Corazón de Cristo, a los 350 años de las apariciones a santa Margarita María."
+ },
+ {
+  "id": "desiderio-desideravi",
+  "category": "carta-apostolica",
+  "author": "Francisco",
+  "date": "2022-06-29",
+  "titleLa": "Desiderio desideravi",
+  "titleEs": "Sobre la formación litúrgica del pueblo de Dios",
+  "url": "https://www.vatican.va/content/francesco/es/apost_letters/documents/20220629-lettera-ap-desiderio-desideravi.html",
+  "urlLang": "es",
+  "themes": [
+   "liturgia",
+   "formación litúrgica"
+  ],
+  "context": "Invita a redescubrir la belleza de la celebración y la formación litúrgica."
+ },
+ {
+  "id": "traditionis-custodes",
+  "category": "motu-proprio",
+  "author": "Francisco",
+  "date": "2021-07-16",
+  "titleLa": "Traditionis custodes",
+  "titleEs": "Sobre el uso de la liturgia romana anterior a la reforma de 1970",
+  "url": "https://www.vatican.va/content/francesco/es/motu_proprio/documents/20210716-motu-proprio-traditionis-custodes.html",
+  "urlLang": "es",
+  "themes": [
+   "liturgia",
+   "unidad"
+  ],
+  "context": "Establece que los libros litúrgicos promulgados tras el Vaticano II son la única expresión de la lex orandi del rito romano."
+ },
+ {
+  "id": "praedicate-evangelium",
+  "category": "constitucion-apostolica",
+  "author": "Francisco",
+  "date": "2022-03-19",
+  "titleLa": "Praedicate Evangelium",
+  "titleEs": "Sobre la Curia Romana y su servicio a la Iglesia en el mundo",
+  "url": "https://www.vatican.va/content/francesco/es/apost_constitutions/documents/20220319-costituzione-ap-praedicate-evangelium.html",
+  "urlLang": "es",
+  "themes": [
+   "Curia romana",
+   "misión"
+  ],
+  "context": "Reorganiza la Curia romana y pone la evangelización en el centro."
+ },
+ {
+  "id": "magnum-principium",
+  "category": "motu-proprio",
+  "author": "Francisco",
+  "date": "2017-09-03",
+  "titleLa": "Magnum principium",
+  "titleEs": "Sobre la traducción de los libros litúrgicos",
+  "url": "https://www.vatican.va/content/francesco/es/motu_proprio/documents/papa-francesco-motu-proprio_20170903_magnum-principium.html",
+  "urlLang": "es",
+  "themes": [
+   "liturgia",
+   "traducciones"
+  ],
+  "context": "Modifica el canon 838 sobre la competencia de las conferencias episcopales en las traducciones litúrgicas."
+ },
+ {
+  "id": "admirabile-signum",
+  "category": "carta-apostolica",
+  "author": "Francisco",
+  "date": "2019-12-01",
+  "titleLa": "Admirabile signum",
+  "titleEs": "Sobre el significado y el valor del belén",
+  "url": "https://www.vatican.va/content/francesco/es/apost_letters/documents/papa-francesco-lettera-ap_20191201_admirabile-signum.html",
+  "urlLang": "es",
+  "themes": [
+   "belén",
+   "Navidad"
+  ],
+  "context": "Recuerda el sentido del belén a partir del de Greccio."
+ },
+ {
+  "id": "dilexi-te",
+  "category": "exhortacion",
+  "author": "León XIV",
+  "date": "2025-10-04",
+  "titleLa": "Dilexi te",
+  "titleEs": "Sobre el amor hacia los pobres",
+  "url": "https://www.vatican.va/content/leo-xiv/es/apost_exhortations/documents/20251004-dilexi-te.html",
+  "urlLang": "es",
+  "themes": [
+   "pobres",
+   "caridad",
+   "doctrina social"
+  ],
+  "context": "Primera exhortación apostólica de León XIV: propone el servicio a los pobres como parte esencial de la fe."
+ },
+ {
+  "id": "in-unitate-fidei",
+  "category": "carta-apostolica",
+  "author": "León XIV",
+  "date": "2025-11-23",
+  "titleLa": "In unitate fidei",
+  "titleEs": "En el 1700 aniversario del Concilio de Nicea",
+  "url": "https://www.vatican.va/content/leo-xiv/es/apost_letters/documents/20251123-in-unitate-fidei.html",
+  "urlLang": "es",
+  "themes": [
+   "Nicea",
+   "Credo",
+   "unidad"
+  ],
+  "context": "Carta apostólica con motivo de los 1700 años del primer Concilio de Nicea."
+ },
+ {
+  "id": "magnifica-humanitas",
+  "category": "enciclica",
+  "author": "León XIV",
+  "date": "2026-05-15",
+  "titleLa": "Magnifica humanitas",
+  "titleEs": "Sobre la custodia de la persona humana en el tiempo de la inteligencia artificial",
+  "url": "https://www.vatican.va/content/leo-xiv/es/encyclicals/documents/20260515-magnifica-humanitas.html",
+  "urlLang": "es",
+  "themes": [
+   "inteligencia artificial",
+   "dignidad",
+   "doctrina social"
+  ],
+  "context": "Primera encíclica de León XIV: discierne el impacto de la inteligencia artificial a la luz de la doctrina social y de la dignidad de la persona."
+ },
+ {
+  "id": "sacrosanctum-concilium",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1963-12-04",
+  "titleLa": "Sacrosanctum Concilium",
+  "titleEs": "Constitución sobre la sagrada liturgia",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19631204_sacrosanctum-concilium_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "liturgia",
+   "participación",
+   "reforma"
+  ],
+  "context": "Primer documento aprobado por el Concilio; funda la renovación litúrgica y la participación activa de los fieles."
+ },
+ {
+  "id": "lumen-gentium",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1964-11-21",
+  "titleLa": "Lumen gentium",
+  "titleEs": "Constitución dogmática sobre la Iglesia",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19641121_lumen-gentium_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "Iglesia",
+   "pueblo de Dios",
+   "colegialidad",
+   "laicos"
+  ],
+  "context": "Principal documento eclesiológico del Concilio: misterio de la Iglesia, pueblo de Dios, jerarquía, laicos, llamada universal a la santidad y María."
+ },
+ {
+  "id": "dei-verbum",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-11-18",
+  "titleLa": "Dei Verbum",
+  "titleEs": "Constitución dogmática sobre la divina Revelación",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651118_dei-verbum_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "Revelación",
+   "Escritura",
+   "Tradición"
+  ],
+  "context": "Expone la Revelación, su transmisión y la inspiración e interpretación de la Escritura."
+ },
+ {
+  "id": "gaudium-et-spes",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-12-07",
+  "titleLa": "Gaudium et spes",
+  "titleEs": "Constitución pastoral sobre la Iglesia en el mundo actual",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_const_19651207_gaudium-et-spes_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "Iglesia y mundo",
+   "persona",
+   "matrimonio",
+   "cultura",
+   "paz"
+  ],
+  "context": "Trata de la dignidad de la persona, la comunidad humana, la actividad humana y los problemas urgentes de la sociedad."
+ },
+ {
+  "id": "inter-mirifica",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1963-12-04",
+  "titleLa": "Inter mirifica",
+  "titleEs": "Decreto sobre los medios de comunicación social",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19631204_inter-mirifica_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "comunicación",
+   "medios"
+  ],
+  "context": "Primer decreto conciliar sobre los medios de comunicación social."
+ },
+ {
+  "id": "orientalium-ecclesiarum",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1964-11-21",
+  "titleLa": "Orientalium Ecclesiarum",
+  "titleEs": "Decreto sobre las Iglesias orientales católicas",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_orientalium-ecclesiarum_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "Iglesias orientales",
+   "ritos"
+  ],
+  "context": "Reconoce el valor de las tradiciones de las Iglesias orientales católicas."
+ },
+ {
+  "id": "unitatis-redintegratio",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1964-11-21",
+  "titleLa": "Unitatis redintegratio",
+  "titleEs": "Decreto sobre el ecumenismo",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_unitatis-redintegratio_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "ecumenismo",
+   "unidad"
+  ],
+  "context": "Establece los principios católicos del ecumenismo."
+ },
+ {
+  "id": "christus-dominus",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-10-28",
+  "titleLa": "Christus Dominus",
+  "titleEs": "Decreto sobre el ministerio pastoral de los obispos",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651028_christus-dominus_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "obispos",
+   "diócesis"
+  ],
+  "context": "Trata de la función pastoral de los obispos y de las conferencias episcopales."
+ },
+ {
+  "id": "perfectae-caritatis",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-10-28",
+  "titleLa": "Perfectae caritatis",
+  "titleEs": "Decreto sobre la adecuada renovación de la vida religiosa",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651028_perfectae-caritatis_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "vida religiosa",
+   "renovación"
+  ],
+  "context": "Orienta la renovación de la vida consagrada."
+ },
+ {
+  "id": "optatam-totius",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-10-28",
+  "titleLa": "Optatam totius",
+  "titleEs": "Decreto sobre la formación sacerdotal",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651028_optatam-totius_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "seminarios",
+   "formación"
+  ],
+  "context": "Fija los criterios de formación de los futuros sacerdotes."
+ },
+ {
+  "id": "gravissimum-educationis",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-10-28",
+  "titleLa": "Gravissimum educationis",
+  "titleEs": "Declaración sobre la educación cristiana",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_gravissimum-educationis_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "educación",
+   "escuelas católicas"
+  ],
+  "context": "Presenta los principios de la educación cristiana y de las escuelas católicas."
+ },
+ {
+  "id": "nostra-aetate",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-10-28",
+  "titleLa": "Nostra aetate",
+  "titleEs": "Declaración sobre las relaciones de la Iglesia con las religiones no cristianas",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651028_nostra-aetate_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "religiones",
+   "judaísmo",
+   "diálogo"
+  ],
+  "context": "Fundamenta el diálogo con las religiones no cristianas y con el judaísmo."
+ },
+ {
+  "id": "apostolicam-actuositatem",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-11-18",
+  "titleLa": "Apostolicam actuositatem",
+  "titleEs": "Decreto sobre el apostolado de los laicos",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651118_apostolicam-actuositatem_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "laicos",
+   "apostolado"
+  ],
+  "context": "Trata de la vocación y el apostolado de los laicos."
+ },
+ {
+  "id": "dignitatis-humanae",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-12-07",
+  "titleLa": "Dignitatis humanae",
+  "titleEs": "Declaración sobre la libertad religiosa",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decl_19651207_dignitatis-humanae_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "libertad religiosa",
+   "conciencia"
+  ],
+  "context": "Afirma el derecho a la libertad religiosa fundado en la dignidad de la persona."
+ },
+ {
+  "id": "ad-gentes",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-12-07",
+  "titleLa": "Ad gentes",
+  "titleEs": "Decreto sobre la actividad misionera de la Iglesia",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651207_ad-gentes_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "misiones",
+   "evangelización"
+  ],
+  "context": "Expone los principios de la actividad misionera."
+ },
+ {
+  "id": "presbyterorum-ordinis",
+  "category": "vaticano-ii",
+  "author": "Concilio Vaticano II",
+  "date": "1965-12-07",
+  "titleLa": "Presbyterorum ordinis",
+  "titleEs": "Decreto sobre el ministerio y la vida de los presbíteros",
+  "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19651207_presbyterorum-ordinis_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "presbíteros",
+   "ministerio"
+  ],
+  "context": "Trata del ministerio y la vida de los sacerdotes."
+ },
+ {
+  "id": "inter-insigniores",
+  "category": "dicasterio",
+  "author": "Congregación para la Doctrina de la Fe",
+  "date": "1976-10-15",
+  "titleLa": "Inter insigniores",
+  "titleEs": "Declaración sobre la admisión de las mujeres al sacerdocio ministerial",
+  "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19761015_inter-insigniores_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "sacerdocio",
+   "Orden"
+  ],
+  "context": "Declaración doctrinal sobre la ordenación sacerdotal; precedente de Ordinatio sacerdotalis."
+ },
+ {
+  "id": "donum-vitae",
+  "category": "dicasterio",
+  "author": "Congregación para la Doctrina de la Fe",
+  "date": "1987-02-22",
+  "titleLa": "Donum vitae",
+  "titleEs": "Instrucción sobre el respeto de la vida humana naciente y la dignidad de la procreación",
+  "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19870222_respect-for-human-life_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "bioética",
+   "procreación"
+  ],
+  "context": "Primera instrucción sobre las técnicas de reproducción asistida."
+ },
+ {
+  "id": "donum-veritatis",
+  "category": "dicasterio",
+  "author": "Congregación para la Doctrina de la Fe",
+  "date": "1990-05-24",
+  "titleLa": "Donum veritatis",
+  "titleEs": "Instrucción sobre la vocación eclesial del teólogo",
+  "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_19900524_theologian-vocation_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "teología",
+   "magisterio"
+  ],
+  "context": "Trata de la misión del teólogo y su relación con el Magisterio."
+ },
+ {
+  "id": "dominus-iesus",
+  "category": "dicasterio",
+  "author": "Congregación para la Doctrina de la Fe",
+  "date": "2000-08-06",
+  "titleLa": "Dominus Iesus",
+  "titleEs": "Declaración sobre la unicidad y universalidad salvífica de Jesucristo y de la Iglesia",
+  "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20000806_dominus-iesus_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "cristología",
+   "eclesiología",
+   "religiones"
+  ],
+  "context": "Recuerda la doctrina sobre la unicidad de Cristo y de la Iglesia ante el pluralismo religioso."
+ },
+ {
+  "id": "dignitas-personae",
+  "category": "dicasterio",
+  "author": "Congregación para la Doctrina de la Fe",
+  "date": "2008-09-08",
+  "titleLa": "Dignitas personae",
+  "titleEs": "Instrucción sobre algunas cuestiones de bioética",
+  "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20081208_dignitas-personae_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "bioética",
+   "embrión"
+  ],
+  "context": "Actualiza Donum vitae ante nuevas técnicas biomédicas. Fecha del documento 8 de septiembre de 2008; se presentó el 12 de diciembre."
+ },
+ {
+  "id": "dignitas-infinita",
+  "category": "dicasterio",
+  "author": "Dicasterio para la Doctrina de la Fe",
+  "date": "2024-04-02",
+  "titleLa": "Dignitas infinita",
+  "titleEs": "Declaración sobre la dignidad humana",
+  "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240402_dignitas-infinita_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "dignidad",
+   "derechos humanos"
+  ],
+  "context": "Reafirma la dignidad inalienable de toda persona y repasa amenazas contemporáneas."
+ },
+ {
+  "id": "antiqua-et-nova",
+  "category": "dicasterio",
+  "author": "Dicasterio para la Doctrina de la Fe y Dicasterio para la Cultura y la Educación",
+  "date": "2025-01-28",
+  "titleLa": "Antiqua et nova",
+  "titleEs": "Nota sobre la relación entre la inteligencia artificial y la inteligencia humana",
+  "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20250128_antiqua-et-nova_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "inteligencia artificial",
+   "antropología"
+  ],
+  "context": "Nota doctrinal sobre la inteligencia artificial y la inteligencia humana."
+ },
+ {
+  "id": "compendio-doctrina-social",
+  "category": "dicasterio",
+  "author": "Pontificio Consejo Justicia y Paz",
+  "date": "2004-04-02",
+  "titleLa": "Compendium doctrinae socialis Ecclesiae",
+  "titleEs": "Compendio de la Doctrina Social de la Iglesia",
+  "url": "https://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "doctrina social"
+  ],
+  "context": "Síntesis de la doctrina social, con prefacio fechado el 2 de abril de 2004; se presentó el 25 de octubre de 2004."
+ },
+ {
+  "id": "redemptionis-sacramentum",
+  "category": "dicasterio",
+  "author": "Congregación para el Culto Divino y la Disciplina de los Sacramentos",
+  "date": "2004-04-23",
+  "titleLa": "Redemptionis sacramentum",
+  "titleEs": "Instrucción sobre algunas cosas que se deben observar o evitar acerca de la Santísima Eucaristía",
+  "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20040423_redemptionis-sacramentum_sp.html",
+  "urlLang": "es",
+  "themes": [
+   "Eucaristía",
+   "disciplina litúrgica"
+  ],
+  "context": "Instrucción disciplinaria sobre la celebración de la Eucaristía. La fecha es la de publicación en vatican.va."
+ },
+ {
+  "id": "documentos-colectivos-cem",
+  "category": "cem",
+  "author": "Conferencia del Episcopado Mexicano",
+  "date": "1965",
+  "titleLa": "Documentos colectivos de la CEM (1965-2024)",
+  "titleEs": "Documentos colectivos de la Conferencia del Episcopado Mexicano",
+  "url": "https://cem.org.mx/documentos-colectivos/",
+  "urlLang": "es",
+  "themes": [
+   "Iglesia en México",
+   "documentos episcopales"
+  ],
+  "context": "Colección oficial de las declaraciones, mensajes y cartas de los obispos mexicanos desde 1965, en varios tomos en PDF."
+ },
+ {
+  "id": "repositorio-celam",
+  "category": "celam",
+  "author": "CELAM",
+  "date": "1955",
+  "titleLa": "Repositorio documental del CELAM",
+  "titleEs": "Repositorio del Consejo Episcopal Latinoamericano y del Caribe",
+  "url": "https://repositorio.celam.org/s/repositorio/page/inicio",
+  "urlLang": "es",
+  "themes": [
+   "Iglesia en América Latina",
+   "Medellín",
+   "Puebla",
+   "Aparecida"
+  ],
+  "context": "Repositorio oficial del CELAM, donde se encuentran los documentos de las Conferencias Generales (Río 1955, Medellín 1968, Puebla 1979, Santo Domingo 1992, Aparecida 2007)."
+ }
+]

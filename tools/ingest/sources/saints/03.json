@@ -1,0 +1,672 @@
+[
+ {
+  "id": "casimiro-de-polonia",
+  "name": "San Casimiro",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-04",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Casimiro",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "lay",
+   "virgin"
+  ],
+  "born": {
+   "date": "3 de octubre de 1458",
+   "place": "Cracovia"
+  },
+  "died": {
+   "date": "4 de marzo de 1484",
+   "place": "Grodno (Lituania)"
+  },
+  "century": 15,
+  "countries": [
+   "PL",
+   "LT"
+  ],
+  "canonization": {
+   "date": "1522",
+   "by": "Adriano VI",
+   "note": "Clemente VIII fijó su fiesta el 4 de marzo (1602)"
+  },
+  "summary": "Príncipe polaco-lituano, hijo del rey Casimiro IV, conocido por su piedad, su castidad y su austeridad; murió joven de enfermedad pulmonar.",
+  "biography": "Casimiro Jagellón nació en el palacio real de Cracovia el 3 de octubre de 1458. Era hijo del rey Casimiro IV de Polonia y de la reina Isabel de Habsburgo, hija del emperador Alberto II, y nieto de Ladislao Jagellón, el soberano que introdujo el cristianismo en Lituania. Fue el segundo de los hijos varones; su hermano mayor, Ladislao, sería rey de Bohemia (1471) y de Hungría (1490). Su formación corrió a cargo del canónigo e historiador Jan Długosz, que fue su preceptor desde los nueve años, y del humanista italiano Filippo Buonaccorsi, llamado Calímaco, que completó la educación de los príncipes.\n\nHacia 1471, cuando contaba unos trece años, un grupo de nobles húngaros descontentos con Matías Corvino le ofreció la corona de Hungría. Casimiro fue a reclamarla, pero la empresa fracasó por falta de apoyos y regresó a Polonia. Según la tradición, volvió con pesar y rehusó en adelante cualquier aventura militar, aunque su padre insistía; esa tradición cuenta además que fue apartado un tiempo en el castillo de Dobzki. El dato de la expedición está documentado, pero la fecha exacta y los pormenores del retiro proceden de biografías posteriores y deben leerse con cautela.\n\nLo que las fuentes antiguas subrayan es el temple espiritual del joven príncipe. Vivía con sobriedad en medio de la corte, practicaba el ayuno y la penitencia, dedicaba largos ratos a la oración nocturna y tenía una devoción especial a la Eucaristía y a la Virgen María. Cuando su padre quiso casarlo con una hija del emperador Federico III, declinó la propuesta y permaneció célibe, lo que explica que se le representara con un lirio.\n\nNo fue, sin embargo, un príncipe ajeno a los asuntos públicos. A partir de 1479, mientras el rey residía largas temporadas en Lituania, Casimiro quedó al frente del gobierno de Polonia, y entre 1481 y 1483 administró el reino con prudencia y justicia, según recoge la Enciclopedia Católica.\n\nAquejado de una grave enfermedad pulmonar, que las fuentes asocian a la tisis y que sus ayunos y mortificaciones agravaron, murió el 4 de marzo de 1484 en Grodno, cuando viajaba hacia Lituania, a los veinticinco años. Fue sepultado en la capilla de la Virgen de la catedral de Vilna, donde hoy se venera su sepulcro en la capilla barroca que lleva su nombre.\n\nSu culto se difundió pronto. A petición del rey Segismundo I, León X encargó una investigación sobre su vida y milagros, concluida en 1520, y Adriano VI lo canonizó en 1522; Clemente VIII fijó después su fiesta el 4 de marzo. Se le considera patrono de Polonia y de Lituania. Durante siglos se le atribuyó el himno mariano «Omni die dic Mariae», pero hoy se tiene por obra de san Bernardo de Claraval.\n\nCasimiro muestra que la santidad puede vivirse en el centro del poder: un joven con todas las razones para buscar el prestigio eligió la sencillez, la castidad y la confianza en Dios, y su breve vida sigue inspirando a los jóvenes de Europa central.",
+  "virtues": [
+   "Castidad",
+   "Devoción mariana y eucarística",
+   "Austeridad",
+   "Rectitud en el gobierno"
+  ],
+  "iconography": "Joven de vestiduras reales, con un lirio, a veces con la corona a sus pies y un libro; en ocasiones con un rosario.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Casimir, Saint»",
+    "url": "https://www.newadvent.org/cathen/03402a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Polonia y Lituania bajo la dinastía Jagellón, en la segunda mitad del siglo XV; rivalidad con Matías Corvino por Hungría.",
+  "significance": "Joven santo de la corte; patrono de Polonia y de Lituania.",
+  "patronages": [
+   "Polonia",
+   "Lituania"
+  ],
+  "note": "Fechas de la expedición húngara (hacia 1471) y del retiro en Dobzki proceden de la tradición; la Enciclopedia Católica no las fecha. La atribución del himno «Omni die» es dudosa."
+ },
+ {
+  "id": "perpetua-y-felicidad",
+  "name": "Santas Perpetua y Felicidad",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-07",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santas Perpetua y Felicidad, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "lay",
+   "married"
+  ],
+  "born": {
+   "date": "hacia 181 (Perpetua, según su edad en la Pasión)",
+   "place": "Cartago"
+  },
+  "died": {
+   "date": "7 de marzo de 203",
+   "place": "Cartago (África romana)"
+  },
+  "century": 3,
+  "countries": [
+   "TN"
+  ],
+  "summary": "Dos jóvenes madres cristianas, una noble y otra esclava, martirizadas en el anfiteatro de Cartago el 7 de marzo del 203; su Pasión conserva fragmentos escritos por ellas mismas.",
+  "biography": "Perpetua y Felicidad fueron martirizadas en Cartago, capital de la provincia romana de África, el 7 de marzo del año 203, durante el reinado de Septimio Severo, junto con Revocato, Saturnino y Sáturo; otro catecúmeno, Segúndulo, murió en la cárcel. Nuestro conocimiento de ellas procede de un texto excepcional, la «Pasión de Perpetua y Felicidad», que conserva el original latino (hay también una versión griega descubierta en 1890) y que incluye fragmentos redactados por los propios mártires.\n\nPerpetua era una joven de buena familia, instruida, de unos veintidós años según el relato, casada y con un hijo de pecho. Felicidad era una esclava, embarazada de unos ocho meses cuando fue arrestada. Eran catecúmenas: recibieron el bautismo estando ya detenidas. La primera parte de la Pasión, atribuida a Perpetua, es una especie de diario de prisión escrito con una sinceridad que conmueve. Cuenta la angustia del encierro en un calabozo oscuro, la preocupación por su niño, que logró tener consigo en la cárcel, y las súplicas de su padre pagano, que le rogaba que renunciara a su fe. Ella le responde con serenidad que no puede llamarse de otro modo que lo que es: cristiana.\n\nEn ese texto aparecen varias visiones: una escalera estrecha hacia el cielo, custodiada por un dragón, que Perpetua sube pisándole la cabeza; la imagen de su hermano difunto, a quien ve liberado de sufrimiento gracias a su oración; y, en la víspera del combate, la sensación de enfrentarse no a las fieras sino al diablo, y de vencer. Sáturo, por su parte, dejó escrita otra visión, la de un jardín celestial donde los mártires son acogidos por los ángeles. Un redactor posterior añadió el relato del final.\n\nFelicidad temía que el embarazo le impidiera morir con sus hermanos, pues la ley romana no permitía ejecutar a una mujer encinta. Sus compañeros rezaron y dio a luz a una niña dos días antes de los juegos; una mujer cristiana la adoptó. Se cuenta que, a los gritos de dolor del parto, un carcelero le preguntó cómo soportaría las fieras, y ella respondió que entonces otro sufriría en ella.\n\nFueron llevados al anfiteatro, donde las mujeres fueron expuestas a una vaca brava y, malheridas, rematadas por la espada. Perpetua, según la Pasión, guió con su propia mano la daga del gladiador hacia su garganta.\n\nLa autoría de la Pasión se ha atribuido a veces a Tertuliano y se ha supuesto que los mártires eran montanistas, pero ambas hipótesis carecen de pruebas. Lo cierto es que su culto fue muy temprano: aparecen el 7 de marzo en el calendario filocaliano del siglo IV, se levantó una basílica sobre su sepulcro en Cartago y sus nombres figuran en el Canon romano de la Misa.\n\nPerpetua y Felicidad muestran, en una Iglesia que ya incluía a nobles y a esclavos, que en Cristo no hay diferencia de condición, y que la fe puede pesar más que los lazos de sangre y de maternidad.",
+  "context": "Persecución en África bajo Septimio Severo; la Iglesia de Cartago a comienzos del siglo III.",
+  "virtues": [
+   "Fortaleza",
+   "Maternidad valiente",
+   "Fe compartida entre clases",
+   "Oración confiada"
+  ],
+  "significance": "La Pasión incluye el diario de Perpetua, uno de los textos cristianos más antiguos escritos por una mujer; sus nombres están en el Canon romano.",
+  "iconography": "Dos mujeres con palma ante una vaca; Perpetua con un niño, Felicidad embarazada.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Felicitas and Perpetua, Saints»",
+    "url": "https://www.newadvent.org/cathen/06029a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "juan-de-dios",
+  "name": "San Juan de Dios",
+  "fullName": "João Cidade Duarte",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-08",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Juan de Dios, religioso",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder"
+  ],
+  "born": {
+   "date": "8 de marzo de 1495",
+   "place": "Montemor-o-Novo (Portugal)"
+  },
+  "died": {
+   "date": "8 de marzo de 1550",
+   "place": "Granada"
+  },
+  "century": 16,
+  "countries": [
+   "PT",
+   "ES"
+  ],
+  "order": "Hospitalarios de San Juan de Dios",
+  "canonization": {
+   "date": "16 de octubre de 1690",
+   "by": "Alejandro VIII",
+   "note": "Beatificado por Urbano VIII el 21 de septiembre de 1638"
+  },
+  "summary": "Soldado, pastor y librero convertido en servidor de los enfermos de Granada; origen de la Orden Hospitalaria de San Juan de Dios.",
+  "biography": "Juan Ciudad Duarte nació el 8 de marzo de 1495 en Montemor-o-Novo, en Portugal, de padres piadosos. Siendo niño, siguió a un clérigo hasta Oropesa, en Castilla, y fue acogido por el mayoral de la localidad, para quien trabajó como pastor. Para evitar casarse con la hija de su patrón se alistó en el ejército de Carlos V y tomó parte en una campaña contra los turcos en Austria. Más tarde fue pastor en Andalucía, intentó rescatar a cautivos cristianos en el norte de África y, ya en Gibraltar y después en Granada, vivió como vendedor de libros y estampas religiosas, procurando que su precio fuese asequible.\n\nEl giro decisivo de su vida llegó en Granada, hacia 1538-1539, tras escuchar un sermón de san Juan de Ávila. Lleno de dolor por sus pecados, se humilló públicamente en las calles, y la gente lo tomó por loco; fue internado en el hospital de enfermos mentales, donde sufrió el trato duro de la época. Juan de Ávila lo visitó y le aconsejó que sirviera a Dios de otro modo, no con gestos escandalosos sino con obras. Según la tradición, peregrinó a Guadalupe, donde sintió que la Virgen aclaraba su vocación, y volvió a Granada decidido a atender a los enfermos y a los pobres.\n\nAlquiló una casa y se dedicó a recoger de las calles a los que no tenían quien los cuidase: enfermos, mendigos, ancianos, huérfanos. Salía a pedir limosna por la ciudad con una frase que quedó como seña de identidad, «Hermanos, haced bien a vosotros mismos». Con el tiempo obtuvo la ayuda de sacerdotes, médicos y vecinos, y el obispo de Tuy, Sebastián Ramírez de Fuenleal, le facilitó un hábito que sería la base del de sus seguidores. Los primeros compañeros, Antonio Martín y Pedro Velasco, formaron el núcleo de la futura Orden Hospitalaria, que se organizó después de su muerte.\n\nSe le atribuye el rescate de los enfermos durante un incendio en el Hospital Real de Granada, a los que sacó sin sufrir daño, episodio que recuerda el oficio de su fiesta. Su tarea de caridad se extendía también a viudas, estudiantes pobres, desempleados y mujeres en peligro. Su innovación fue tratar a cada enfermo de forma individual y humana, sin amontonarlos, lo que anticipa la hospitalidad moderna.\n\nSu última enfermedad comenzó cuando se arrojó al río Genil para salvar a un joven que se ahogaba. Murió en Granada el 8 de marzo de 1550, el día en que cumplía cincuenta y cinco años; las autoridades de la ciudad acompañaron su lecho de muerte y su sepelio fue solemne, con honores de príncipe.\n\nUrbano VIII lo beatificó el 21 de septiembre de 1638 y Alejandro VIII lo canonizó el 16 de octubre de 1690. León XIII lo declaró patrono de los hospitales y de los enfermos. Hoy los Hermanos Hospitalarios de San Juan de Dios continúan su obra en numerosos países.",
+  "virtues": [
+   "Caridad",
+   "Humildad",
+   "Compasión",
+   "Confianza en la Providencia"
+  ],
+  "iconography": "Hombre con hábito oscuro y una granada con una cruz, un enfermo en brazos o un mendigo; a veces con un cántaro.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «John of God, Saint»",
+    "url": "https://www.newadvent.org/cathen/08472c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "España de Carlos V; Granada recién incorporada a la Corona de Castilla; predicación de san Juan de Ávila.",
+  "significance": "Pionero de la hospitalidad moderna, atención individual y digna del enfermo.",
+  "patronages": [
+   "Hospitales y enfermos (León XIII)"
+  ]
+ },
+ {
+  "id": "francisca-romana",
+  "name": "Santa Francisca Romana",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-09",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Francisca Romana, religiosa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "married",
+   "founder",
+   "mystic"
+  ],
+  "born": {
+   "date": "1384",
+   "place": "Roma"
+  },
+  "died": {
+   "date": "9 de marzo de 1440",
+   "place": "Roma"
+  },
+  "century": 15,
+  "countries": [
+   "IT"
+  ],
+  "order": "Oblatas de Tor de' Specchi",
+  "canonization": {
+   "date": "9 de mayo de 1608",
+   "by": "Pablo V"
+  },
+  "summary": "Esposa y madre romana, mística y fundadora de las Oblatas benedictinas de Tor de’ Specchi.",
+  "biography": "Francesca Bussa de' Leoni nació en Roma en 1384 en el seno de una familia noble. Deseaba consagrarse a Dios, pero su padre la comprometió en matrimonio y, hacia los doce años, se casó con Lorenzo de' Ponziani, un caballero romano. Aquel matrimonio, que se prolongó unos cuarenta años, fue considerado ejemplar. Tuvieron varios hijos; de ellos la Enciclopedia Católica menciona a Battista, que continuó el linaje, a Evangelista, que murió en 1411, y a Inés, fallecida en 1413. Perder hijos jóvenes y atravesar los desórdenes de una Roma sacudida por el Cisma de Occidente forman el fondo doloroso de su vida.\n\nMujer de oración, con el consentimiento de su marido llevó con los años una vida de contemplación y de continencia, sin abandonar los deberes de casa. Dedicaba su tiempo y los bienes de la familia a los pobres y a los enfermos, y visitaba hospitales. Las biografías antiguas, redactadas por sus confesores, le atribuyen visiones frecuentes y fenómenos extraordinarios: una singular presencia de su ángel custodio, revelaciones sobre el purgatorio y el infierno, y el don de discernir conciencias. Son testimonios de su fama espiritual, pero pertenecen a la tradición hagiográfica y no pueden contrastarse con fuentes independientes.\n\nSu obra duradera fue reunir a mujeres romanas, algunas de ellas de la nobleza, en una asociación de oblatas vinculada al monasterio benedictino de Santa María la Nueva, en el Foro. Vivían como religiosas, sin clausura estricta ni votos solemnes, dedicadas a la oración y a la caridad. La asociación se convirtió en la Congregación de las Oblatas Benedictinas de Tor de' Specchi, aprobada por Eugenio IV el 4 de julio de 1433. Tras la muerte de Lorenzo, en 1436, Francisca ingresó en la comunidad y fue elegida superiora, de modo que pasó sus últimos años como religiosa.\n\nMurió en Roma el 9 de marzo de 1440, tras enfermar mientras visitaba a uno de sus hijos, en la fecha que ella misma había anunciado, según el relato tradicional. Su fama movió a la Iglesia a abrir tres procesos, en 1440, 1443 y 1451. Pablo V la declaró santa el 9 de mayo de 1608. Su cuerpo reposa en la iglesia de Santa María la Nueva, que hoy lleva su nombre, Santa Francesca Romana, en el Foro romano.\n\nFrancisca resume en una sola vida las tres condiciones de la mujer de su tiempo: esposa, madre y religiosa. Mostró que la oración honda es compatible con las tareas domésticas y que la caridad concreta con los pobres es el fruto verdadero de la contemplación.",
+  "virtues": [
+   "Fidelidad conyugal",
+   "Caridad con los pobres",
+   "Oración",
+   "Humildad"
+  ],
+  "iconography": "Dama romana con hábito de viuda, un ángel a su lado y un libro; a veces repartiendo pan.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Frances of Rome, Saint»",
+    "url": "https://www.newadvent.org/cathen/06205c.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Roma durante el Cisma de Occidente, siglo XV.",
+  "significance": "Modelo de espiritualidad de la mujer casada y de la fundadora laica.",
+  "note": "Visiones y profecías proceden de biografías antiguas, no contrastables; sin patronazgos documentados."
+ },
+ {
+  "id": "luisa-de-marillac",
+  "name": "Santa Luisa de Marillac",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-15",
+    "rank": "none",
+    "calendar": "general",
+    "title": "Santa Luisa de Marillac, religiosa",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder",
+   "married"
+  ],
+  "born": {
+   "date": "12 de agosto de 1591",
+   "place": "París o Ferrières-en-Brie (las fuentes discrepan)"
+  },
+  "died": {
+   "date": "15 de marzo de 1660",
+   "place": "París"
+  },
+  "century": 17,
+  "countries": [
+   "FR"
+  ],
+  "order": "Hijas de la Caridad",
+  "canonization": {
+   "date": "11 de marzo de 1934",
+   "by": "Pío XI",
+   "note": "Beatificada en 1920"
+  },
+  "summary": "Viuda parisina, cofundadora con san Vicente de Paúl de las Hijas de la Caridad.",
+  "biography": "Luisa de Marillac nació el 12 de agosto de 1591; las fuentes discrepan sobre el lugar, París o la zona de Ferrières-en-Brie, cerca de Meux. Fue hija natural de Luis de Marillac, señor de Ferrières, que la reconoció como hija pero no como heredera; su madre murió muy pronto y perdió a su padre a los quince años. Recibió una buena educación, con estudios de letras y de pintura, y sintió deseos de ser religiosa, pero se los desaconsejaron y se casó en 1613 con Antonio Le Gras, secretario de la reina María de Médicis. Ese mismo año, en octubre, nació su único hijo, Miguel.\n\nSu matrimonio fue difícil por la larga enfermedad de su marido, a quien cuidó hasta su muerte, el 21 de diciembre de 1625. En esos años atravesó una crisis espiritual intensa, con dudas y escrúpulos, y fue acompañada por varios directores, entre ellos Francisco de Sales y el obispo de Belley, Jean-Pierre Camus. Poco después de su viudez conoció a Vicente de Paúl, que se convirtió en su director espiritual y la fue implicando en su obra de caridad con los pobres de París.\n\nA partir de 1629 colaboró con las Caridades, asociaciones de mujeres que socorrían a los enfermos pobres en sus casas. Pronto se vio que estas voluntarias, muchas de ellas de buena posición, necesitaban formación y estabilidad, y que se necesitaban también jóvenes campesinas dispuestas a dedicarse por completo. En 1633 Luisa recibió en su casa a las primeras jóvenes, y así nació, con Vicente de Paúl, la compañía de las Hijas de la Caridad, una novedad en la Iglesia: mujeres consagradas que no vivían en clausura sino «en el mundo», con la calle por claustro y el hospital por celda, como decía la fórmula tradicional de la compañía.\n\nLuisa fue su primera superiora durante casi treinta años, redactó con Vicente las reglas, formó a las hermanas y viajó por Francia para abrir casas. Las Hijas de la Caridad atendieron a enfermos, niños abandonados, galeotes, ancianos y soldados heridos. Cuando murió, el 15 de marzo de 1660 en París, la compañía tenía más de cuarenta casas; Vicente de Paúl falleció seis meses después.\n\nFue beatificada en 1920 y canonizada por Pío XI el 11 de marzo de 1934. En 1960 fue declarada patrona de los trabajadores sociales.\n\nSu vida enseña que la oración y el servicio concreto se necesitan mutuamente y que una mujer, con una historia marcada por la pérdida, puede ser fundadora de una obra de caridad que aún perdura.",
+  "context": "Francia del siglo XVII; reforma católica y caridad organizada en París.",
+  "virtues": [
+   "Caridad",
+   "Perseverancia en la prueba",
+   "Capacidad de organización"
+  ],
+  "significance": "Fundó una forma nueva de vida consagrada, sin clausura, al servicio de los pobres.",
+  "patronages": [
+   "Trabajadores sociales (1960)"
+  ],
+  "iconography": "Religiosa con la cofia blanca de las Hijas de la Caridad, a menudo junto a un niño o un enfermo.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Louise de Marillac»",
+    "url": "https://www.newadvent.org/cathen/09133b.htm"
+   },
+   {
+    "label": "DePaul University, «Life and works of Louise de Marillac (1591-1660)»",
+    "url": "https://via.library.depaul.edu/ldm_1591-1660"
+   },
+   {
+    "label": "Franciscan Media, «Saint Louise de Marillac»",
+    "url": "https://www.franciscanmedia.org/?p=15618"
+   }
+  ],
+  "note": "No figura en el Calendario Romano General actual (comprobado en la lista del calendario en Wikipedia); el Martirologio la recuerda el 15 de marzo y la familia vicenciana la celebra el 9 de mayo desde 2016 (dato leído solo en un resumen de búsqueda). Beatificación (1920) y patronazgo (1960) sin fuente leída directamente.",
+  "unverified": true
+ },
+ {
+  "id": "patricio-de-irlanda",
+  "name": "San Patricio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-17",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Patricio, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "missionary"
+  ],
+  "born": {
+   "date": "finales del siglo IV o comienzos del V (incierto)",
+   "place": "Britania romana (Bannavem Taburniae, según la Confesión)"
+  },
+  "died": {
+   "date": "17 de marzo; hacia 461 (hipótesis habitual) o 493 (tradición)",
+   "place": "Saul, cerca de Downpatrick (tradición)"
+  },
+  "century": 5,
+  "countries": [
+   "IE",
+   "GB"
+  ],
+  "summary": "Apóstol de Irlanda, antiguo esclavo que volvió a evangelizar a sus captores; sus únicos escritos auténticos son la «Confesión» y la «Carta a los soldados de Coroticus».",
+  "biography": "Casi todo lo que se puede afirmar con seguridad sobre Patricio procede de dos escritos suyos, la «Confesión» y la «Carta a los soldados de Coroticus», considerados auténticos por la crítica moderna. En ellos se presenta como Patricio, obispo, pecador y «el menos instruido» de los cristianos. Nació en la Britania romana, en un lugar que él llama Bannavem Taburniae, hijo de Calpurnio, diácono, y nieto de Potito, presbítero. Su fecha de nacimiento es incierta: la Enciclopedia Católica propone hacia el 387, mientras que otros estudios lo sitúan a finales del siglo IV o comienzos del V.\n\nA los dieciséis años fue capturado por piratas irlandeses y llevado como esclavo a Irlanda, donde pasó seis años cuidando ganado. En esa soledad, según cuenta, la fe que había descuidado se avivó: rezaba muchas veces al día, en medio del frío y de la nieve. Una voz le anunció que su barco estaba preparado; huyó y, tras un viaje accidentado, volvió a Britania. Más tarde tuvo un sueño en el que un hombre llamado Victorico le entregaba cartas con la «voz de los irlandeses» que le pedían que volviera a caminar entre ellos. Obedeció.\n\nLas fuentes tardías, como la vida de san Germán de Auxerre atribuida a Heric en el siglo IX, lo relacionan con Auxerre, donde habría sido formado y ordenado, y cuentan que el papa Celestino I lo envió a Irlanda después del fracaso de Paladio, hacia el 432-433. Son datos que la tradición transmite, no recogidos por el propio Patricio. Lo documentado es su trabajo misionero: bautizó a miles de personas, ordenó clérigos, fundó iglesias y favoreció la vida monástica y el ingreso de jóvenes, entre ellos hijos de reyes, en la vida religiosa, sin protección alguna y a veces a costa de ser encarcelado.\n\nTambién defendió a los neófitos: en la carta a los soldados de Coroticus, condena a un jefe británico cuyos hombres mataron a recién bautizados y vendieron como esclavas a mujeres cristianas, y lo excomulga con palabras duras.\n\nLa leyenda ha cubierto su figura con numerosos episodios: el trébol con que explicaría la Trinidad, el enfrentamiento con los druidas en Tara, la expulsión de las serpientes, el ayuno de cuarenta días en Croagh Patrick. Son relatos de siglos posteriores que expresan la veneración popular, pero no tienen apoyo en sus escritos. Se le asocia con Armagh, que se convirtió en la sede principal de la Iglesia irlandesa.\n\nSu muerte se sitúa tradicionalmente el 17 de marzo, en Saul, cerca de Downpatrick; el año se discute entre 461, la hipótesis más aceptada hoy, y 493, la fecha de la tradición. La figura de Patricio recuerda que el evangelio puede llegar a un pueblo gracias a un antiguo esclavo que perdonó a sus captores. Se le llama Apóstol de Irlanda, y su fiesta se celebra con gran devoción en todo el mundo.",
+  "virtues": [
+   "Perseverancia",
+   "Celo misionero",
+   "Confianza en Dios",
+   "Humildad"
+  ],
+  "iconography": "Obispo con báculo, trébol y serpientes a sus pies (rasgos legendarios posteriores).",
+  "works": [
+   {
+    "title": "Confesión"
+   },
+   {
+    "title": "Carta a los soldados de Coroticus"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Patrick, Saint»",
+    "url": "https://www.newadvent.org/cathen/11554a.htm"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "context": "Britania romana tardía y la Irlanda gaélica del siglo V; incursiones piráticas y esclavitud.",
+  "significance": "Fundador de la Iglesia de Irlanda; ejemplo de inculturación del Evangelio.",
+  "note": "Fechas de nacimiento y muerte inciertas (461 o 493); trébol, serpientes y episodios de Tara son tradición tardía."
+ },
+ {
+  "id": "cirilo-de-jerusalen",
+  "name": "San Cirilo de Jerusalén",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-18",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Cirilo de Jerusalén, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "church_father"
+  ],
+  "born": {
+   "date": "hacia 313-315 (conjetural)",
+   "place": "Jerusalén o alrededores"
+  },
+  "died": {
+   "date": "18 de marzo de 386 (probable; Sócrates da 385)",
+   "place": "Jerusalén"
+  },
+  "century": 4,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Obispo de Jerusalén, desterrado tres veces, autor de las «Catequesis» sobre la iniciación cristiana del siglo IV; doctor de la Iglesia.",
+  "biography": "Cirilo nació hacia el año 313-315, probablemente en Jerusalén o sus alrededores; la fecha es una conjetura. Se formó en las Escrituras, fue ordenado diácono y luego presbítero por el obispo Máximo, y hacia 348-350 le sucedió en la sede de Jerusalén. Su episcopado se desarrolló en plena crisis arriana, y su vida estuvo marcada por los conflictos con Acacio, obispo de Cesarea, que reclamaba autoridad sobre la sede de Jerusalén.\n\nLas fuentes antiguas, como san Jerónimo, el historiador Sócrates y Sozomeno, lo muestran como figura discutida. Fue desterrado tres veces: hacia 357, bajo la acusación, según se dice, de haber vendido objetos de la iglesia durante una hambruna; en 360, tras el concilio de Seleucia; y en 367 por decreto del emperador Valente, destierro que se prolongó hasta la muerte de este en 378. Regresó una vez bajo Juliano, en 361. Cirilo era próximo a los obispos moderados que evitaban el término «consustancial» por temor a que se entendiese mal, aunque en el concilio de Constantinopla de 381 asistió y aceptó la fórmula nicena. Su ortodoxia, puesta en duda por algunos contemporáneos, fue reconocida finalmente por los Padres del concilio.\n\nSu obra principal son las «Catequesis», pronunciadas en la Cuaresma y la Pascua de hacia 350, en la basílica del Santo Sepulcro, edificada bajo Constantino en los lugares de la Pasión y la Resurrección. Constan de una introducción, dieciocho catequesis prebautismales para los catecúmenos, que explican el Símbolo de la fe artículo por artículo, y cinco «mistagógicas» pronunciadas en la semana de Pascua a los recién bautizados, sobre el bautismo, la crismación y la Eucaristía. Son el testimonio más rico de cómo se iniciaba en la fe a un cristiano en el siglo IV, y su doctrina eucarística es clara: afirma la presencia real de Cristo en el pan y el vino consagrados.\n\nCirilo escribió además una carta al emperador Constancio en la que describe una cruz de luz que apareció en el cielo sobre el Calvario y llegó hasta el monte de los Olivos, un prodigio que sitúa en los comienzos de su episcopado. Es un relato de fuente directa, pero su interpretación pertenece a la tradición.\n\nMurió en Jerusalén, probablemente el 18 de marzo de 386, aunque Sócrates da la fecha de 385. León XIII lo declaró doctor de la Iglesia en 1883.\n\nSu importancia reside en haber hecho de la catequesis un camino de experiencia: explica la fe a quienes la van a vivir en el bautismo, con sencillez, con gran belleza y con una profunda unidad entre la Escritura, la liturgia y la vida de los lugares santos.",
+  "virtues": [
+   "Pastoral catequética",
+   "Perseverancia en el destierro",
+   "Amor a las Escrituras"
+  ],
+  "iconography": "Obispo con libro de las catequesis, a veces con la cruz de Jerusalén.",
+  "works": [
+   {
+    "title": "Catequesis"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Cyril of Jerusalem, Saint»",
+    "url": "https://www.newadvent.org/cathen/04595b.htm"
+   },
+   {
+    "label": "Wikipedia en español, «Cirilo de Jerusalén» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://es.wikipedia.org/wiki/Cirilo_de_Jerusal%C3%A9n"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "canonization": {
+   "date": "28 de julio de 1883",
+   "by": "León XIII",
+   "note": "Declarado doctor de la Iglesia"
+  },
+  "context": "Crisis arriana del siglo IV; Jerusalén tras la construcción de la basílica del Santo Sepulcro bajo Constantino.",
+  "significance": "Sus Catequesis son el testimonio más completo de la catequesis bautismal y mistagógica antigua; defendió la presencia real eucarística."
+ },
+ {
+  "id": "san-jose",
+  "name": "San José",
+  "fullName": "José, esposo de la Virgen María",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-19",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "San José, esposo de la Bienaventurada Virgen María",
+    "color": "white"
+   },
+   {
+    "date": "05-01",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San José Obrero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "married",
+   "lay"
+  ],
+  "born": {
+   "date": "siglo I a. C. (sin fecha)",
+   "place": "Belén o Nazaret (según los evangelios, de la casa de David)"
+  },
+  "died": {
+   "date": "sin fecha (antes del ministerio público de Jesús, según la tradición)",
+   "place": "Nazaret"
+  },
+  "century": 1,
+  "countries": [
+   "IL"
+  ],
+  "summary": "Esposo de María y padre legal de Jesús, carpintero de Nazaret, custodio de la Sagrada Familia y patrono de la Iglesia universal.",
+  "biography": "Las únicas fuentes directas sobre José de Nazaret son los evangelios de Mateo y Lucas, que lo presentan con sobriedad: no recogen ni una sola palabra suya. Era un artesano, un «tekton» que trabajaba la madera y quizá otros materiales, descendiente de la casa de David, prometido en matrimonio a María. Mateo lo llama «hombre justo»: al saber que María esperaba un hijo, decidió dejarla en secreto sin exponerla a la infamia, hasta que un ángel le reveló en sueños que lo concebido era obra del Espíritu Santo y le pidió que pusiera al niño el nombre de Jesús, es decir, «Dios salva». José obedeció y recibió a María en su casa. Al aceptar ese nombre, asumió legalmente la paternidad de Jesús y lo insertó en la estirpe davídica.\n\nLos evangelios lo muestran siempre en acción discreta: lleva a María a Belén para el censo, donde nace Jesús; lo circuncida y le impone el nombre; lo presenta en el templo; y, avisado de nuevo en sueños, huye a Egipto para proteger al niño de Herodes y regresa después a Nazaret, siguiendo cada indicación divina. Lucas lo cita por última vez cuando, con María, encuentra a Jesús, de doce años, en el templo tras tres días de búsqueda. Después desaparece del relato. La tradición supone que murió antes del comienzo de la vida pública de Jesús, pero no hay datos históricos sobre su muerte, y todo lo que cuentan los apócrifos sobre su edad o su fin debe considerarse leyenda piadosa.\n\nSu figura ha ido ganando espacio en la liturgia y en la devoción cristiana con el tiempo. Pío IX lo proclamó Patrono de la Iglesia católica el 8 de diciembre de 1870 con el decreto «Quemadmodum Deus». Pío XII instituyó en 1955 la memoria de San José Obrero, el 1 de mayo. Juan Pablo II le dedicó en 1989 la exhortación «Redemptoris custos», que lo llama «Custodio del Redentor», y Francisco, en 2020, la carta «Patris corde», que lo describe como padre amado, tierno, obediente, que acoge, de valentía creativa, trabajador y padre «en la sombra».\n\nEstas dimensiones resumen lo que enseña su silencio. José no es un personaje secundario, sino quien hace posible, con su fe concreta, que la Encarnación se desarrolle en una familia humana: educa a Jesús en un oficio y en la ley de Israel, defiende a la Sagrada Familia de la amenaza y vive sin reclamar nada para sí. Teresa de Jesús lo tuvo por intercesor, y el pueblo cristiano lo invoca como patrono de los trabajadores, de los padres de familia y de la buena muerte, esta última por la tradición de que murió asistido por Jesús y María.\n\nEl Calendario Romano General celebra su solemnidad el 19 de marzo, y su memoria como obrero el 1 de mayo. Su modelo recuerda que la santidad no exige hazañas extraordinarias, sino la fidelidad cotidiana, el trabajo bien hecho y la confianza en los planes de Dios.",
+  "context": "Judea bajo dominio romano y Herodes; vida de artesanos en Galilea.",
+  "virtues": [
+   "Justicia",
+   "Obediencia",
+   "Silencio",
+   "Castidad",
+   "Trabajo"
+  ],
+  "significance": "Custodio del Redentor y de la Sagrada Familia; modelo de los padres y de los trabajadores.",
+  "patronages": [
+   "Patrono de la Iglesia universal (Pío IX, «Quemadmodum Deus», 1870)"
+  ],
+  "iconography": "Hombre maduro con vara florida (de azucenas) y el Niño en brazos, o con herramientas de carpintero.",
+  "prayers": [
+   "san-jose",
+   "san-jose-buena-muerte"
+  ],
+  "novenas": [
+   "san-jose"
+  ],
+  "art": "novena:san-jose",
+  "sources": [
+   {
+    "label": "Francisco, carta apostólica «Patris corde» (8-XII-2020)",
+    "url": "https://www.vatican.va/content/francesco/es/apost_letters/documents/papa-francesco-lettera-ap_20201208_patris-corde.html"
+   },
+   {
+    "label": "Juan Pablo II, exhortación apostólica «Redemptoris custos» (15-VIII-1989)",
+    "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "Sobre su muerte y edad solo hay tradición (apócrifos); la memoria de San José Obrero (1 de mayo) la instituyó Pío XII en 1955 (dato no leído en fuente directa). Ficha compartida con la memoria de mayo."
+ },
+ {
+  "id": "toribio-de-mogrovejo",
+  "name": "Santo Toribio de Mogrovejo",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-23",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santo Toribio de Mogrovejo, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "missionary"
+  ],
+  "born": {
+   "date": "16 de noviembre de 1538",
+   "place": "Mayorga (Valladolid)"
+  },
+  "died": {
+   "date": "23 de marzo de 1606",
+   "place": "Zaña (Perú)"
+  },
+  "century": 16,
+  "countries": [
+   "ES",
+   "PE"
+  ],
+  "canonization": {
+   "date": "10 de diciembre de 1726",
+   "by": "Benedicto XIII",
+   "note": "Beatificado por Inocencio XI en 1679"
+  },
+  "summary": "Arzobispo de Lima, jurista y misionero incansable, organizador de la Iglesia en la América del Sur hispana.",
+  "biography": "Toribio Alfonso de Mogrovejo nació en Mayorga, en tierras de Valladolid, el 16 de noviembre de 1538, en una familia de la pequeña nobleza. Estudió leyes en Valladolid y en Salamanca, donde llegó a ser profesor, y ejerció cargos judiciales, entre ellos el de inquisidor en el tribunal de Granada. Felipe II, que lo conocía por su rectitud y sus estudios, lo propuso para la sede de Lima, vacante tras la muerte del primer arzobispo, Jerónimo de Loaysa. Siendo laico, Toribio recibió las órdenes sagradas, y fue consagrado obispo en Sevilla en 1580, tras ser nombrado por Gregorio XIII en 1579.\n\nDesembarcó en Paita en mayo de 1581 y llegó a Lima, capital de un virreinato inmenso. Su arquidiócesis abarcaba miles de kilómetros de costa, desiertos y cordilleras. Convencido de que un obispo debe conocer a su rebaño, la recorrió tres veces, a menudo a pie y soportando grandes penalidades, según la Enciclopedia Católica, en una diócesis de unas dieciocho mil millas de recorrido, y bautizó y confirmó a cientos de miles de personas. Entre los confirmados figura santa Rosa de Lima; la tradición añade a san Martín de Porres.\n\nSu labor de organización eclesial fue de primera magnitud. Presidió el III Concilio Limense (1582-1583), que aplicó las reformas del Concilio de Trento a América y dio normas para la evangelización de los indígenas: predicar en sus lenguas, formar catequistas y publicar un catecismo en castellano, quechua y aimara. Celebró numerosos sínodos diocesanos y varios concilios provinciales, y fundó en 1591 el seminario de Lima, uno de los primeros de América según los estándares tridentinos. Se enfrentó a veces con los poderes civiles y con el clero relajado, y defendió a los indígenas frente a los abusos de los encomenderos.\n\nAprendió él mismo las lenguas nativas para poder predicar a sus gentes. Se le recuerda también por su caridad con los pobres, por su vida austera y por la insistencia en la formación del clero.\n\nMurió el 23 de marzo de 1606 en Zaña, en el norte del Perú, durante una de sus visitas pastorales, a los sesenta y siete años. Fue beatificado por Inocencio XI en 1679 y canonizado por Benedicto XIII el 10 de diciembre de 1726. Juan Pablo II lo proclamó en 1983 patrono del episcopado latinoamericano. En Lima su fiesta se celebra tradicionalmente el 27 de abril.\n\nToribio es un modelo de obispo pastor: un jurista que dejó la cátedra para cruzar los Andes, que subordinó el prestigio a la presencia entre sus fieles y que supo convertir las normas del Concilio en una Iglesia viva, enraizada en el pueblo americano.",
+  "context": "Virreinato del Perú y aplicación del Concilio de Trento en América; III Concilio Limense (1582-1583).",
+  "virtues": [
+   "Celo pastoral",
+   "Trabajo incansable",
+   "Defensa de los indígenas",
+   "Austeridad"
+  ],
+  "significance": "Gran organizador de la Iglesia en la América hispana; patrono del episcopado latinoamericano.",
+  "patronages": [
+   "Episcopado latinoamericano (Juan Pablo II, 1983)"
+  ],
+  "iconography": "Obispo con báculo y mitra, a menudo con indios del Perú y un libro (catecismo); a veces con una cruz de caminante.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), «Toribio Alfonso Mogrovejo, Saint»",
+    "url": "https://www.newadvent.org/cathen/14781a.htm"
+   },
+   {
+    "label": "Wikipedia en español, «Toribio de Mogrovejo» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://es.wikipedia.org/wiki/Toribio_de_Mogrovejo"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ],
+  "note": "La Enciclopedia Católica data la beatificación en 1697 y la fecha del patronazgo no figura en ella; se sigue 1679 (Wikipedia). El cargo previo fue inquisidor en Granada (no Gran Inquisidor de España). El patronazgo (1983) se cotejó solo con fuentes secundarias."
+ },
+ {
+  "id": "anunciacion-del-senor",
+  "name": "Anunciación del Señor",
+  "status": "mystery",
+  "celebrations": [
+   {
+    "date": "03-25",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "Anunciación del Señor",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Solemnidad que recuerda el anuncio del ángel Gabriel a María y el comienzo de la Encarnación del Hijo de Dios.",
+  "biography": "La Anunciación del Señor celebra el momento en que, según el evangelio de Lucas (1,26-38), el ángel Gabriel fue enviado por Dios a una joven de Nazaret, en Galilea, llamada María, prometida a un hombre de la casa de David llamado José. El ángel la saluda como «llena de gracia», le anuncia que concebirá y dará a luz un hijo a quien pondrá el nombre de Jesús, que será llamado Hijo del Altísimo y heredará el trono de David. A su pregunta, «¿cómo será esto, pues no conozco varón?», responde que el Espíritu Santo vendrá sobre ella y que nada es imposible para Dios. María contesta con las palabras que dieron nombre a su respuesta: «He aquí la esclava del Señor; hágase en mí según tu palabra».\n\nLa tradición cristiana ha visto en este pasaje el cumplimiento de la profecía de Isaías sobre la virgen que concebirá al Emmanuel (Is 7,14) y el comienzo de la Encarnación. La carta a los Hebreos pone en labios de Cristo, al entrar en el mundo, la palabra «aquí vengo para hacer tu voluntad» (Hb 10,5-7). Pablo VI, en la exhortación «Marialis cultus» (1974), explica que la solemnidad celebra a la vez el «fiat» salvador del Verbo encarnado y el libre consentimiento de la Virgen, nueva Eva, fiel y obediente, que al aceptar se convierte en Madre de Dios, Arca de la Alianza y Templo de Dios. Por eso es una fiesta conjunta de Cristo y de María.\n\nLa fecha, el 25 de marzo, se fija nueve meses antes de la Navidad. Su celebración está atestiguada en Oriente y Occidente desde los primeros siglos de la Iglesia, entre los siglos IV y VII, con nombres distintos: fiesta de la Anunciación, de la Encarnación, de la Concepción de Cristo. En la reforma del calendario de 1969 recuperó el nombre de «Anunciación del Señor» y quedó como solemnidad. Se celebra casi siempre dentro de la Cuaresma, y las normas del año litúrgico establecen que, si coincide con el domingo o cae en la Semana Santa o en la octava de Pascua, se traslada a otro día.\n\nEl misterio recuerda que Dios no impone su salvación: pide una respuesta libre. María aparece aquí como el modelo de la fe que escucha, discierne y acepta, y como la primera discípula de su Hijo. La liturgia sitúa además el Ángelus, la oración que la Iglesia reza tres veces al día, en torno a este diálogo.\n\nLa solemnidad abre la mirada hacia la Navidad en pleno tiempo cuaresmal: en el centro de la Cuaresma, la Iglesia celebra al Verbo hecho carne, que viene a obedecer hasta la cruz. Allí donde se proclama el evangelio de la Anunciación se renueva la confianza en que lo imposible para los hombres es posible para Dios.",
+  "context": "Galilea bajo dominio romano; evangelio de Lucas.",
+  "virtues": [
+   "Fe",
+   "Obediencia",
+   "Humildad",
+   "Disponibilidad"
+  ],
+  "significance": "Inicio de la Encarnación y modelo del «sí» de María a Dios.",
+  "iconography": "El arcángel Gabriel ante María, con un lirio; la paloma del Espíritu Santo y un libro abierto.",
+  "sources": [
+   {
+    "label": "Pablo VI, exhortación apostólica «Marialis cultus» (2-II-1974), n. 6",
+    "url": "https://www.vatican.va/content/paul-vi/es/apost_exhortations/documents/hf_p-vi_exh_19740202_marialis-cultus.html"
+   },
+   {
+    "label": "Pablo VI, motu proprio «Mysterii paschalis» (14-II-1969): Normas universales y Calendario Romano General (rango de la celebración, con las inscripciones posteriores de la Congregación para el Culto Divino)",
+    "url": "https://www.vatican.va/content/paul-vi/es/motu_proprio/documents/hf_p-vi_motu-proprio_19690214_mysterii-paschalis.html"
+   }
+  ]
+ },
+ {
+  "id": "oscar-romero",
+  "name": "San Óscar Arnulfo Romero",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "03-24",
+    "rank": "optional",
+    "calendar": "sv",
+    "title": "San Óscar Arnulfo Romero, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr"
+  ],
+  "born": {
+   "date": "15 de agosto de 1917",
+   "place": "Ciudad Barrios (El Salvador)"
+  },
+  "died": {
+   "date": "24 de marzo de 1980",
+   "place": "San Salvador"
+  },
+  "century": 20,
+  "countries": [
+   "SV"
+  ],
+  "canonization": {
+   "date": "14 de octubre de 2018",
+   "by": "Francisco",
+   "note": "Martirio aprobado el 3-II-2015; beatificado el 23-V-2015"
+  },
+  "summary": "Arzobispo de San Salvador asesinado mientras celebraba misa, por defender a los pobres y denunciar la violencia; santo y mártir.",
+  "biography": "Óscar Arnulfo Romero nació el 15 de agosto de 1917 en Ciudad Barrios, al oriente de El Salvador, en una familia humilde. De joven fue aprendiz de carpintero antes de ingresar en el seminario, y continuó sus estudios en Roma, donde fue ordenado sacerdote el 4 de abril de 1942. Volvió a su país y durante más de veinte años sirvió como párroco y secretario del obispo en San Miguel, con fama de sacerdote piadoso, trabajador y de talante conservador. Fue nombrado obispo auxiliar de San Salvador en 1970, obispo de Santiago de María en 1974 y arzobispo de San Salvador en febrero de 1977.\n\nEl país vivía una grave crisis: desigualdad extrema, represión contra los campesinos y una violencia política creciente. Pocas semanas después de su nombramiento, el 12 de marzo de 1977, fue asesinado el jesuita Rutilio Grande, amigo suyo, que trabajaba con los campesinos de Aguilares. Ese hecho marcó una conversión pastoral en Romero: desde entonces se puso sin reservas del lado de las víctimas. Sus homilías dominicales en la catedral, transmitidas por radio, se convirtieron en una voz que daba esperanza al pueblo y denunciaba los asesinatos, las desapariciones y la injusticia, siempre con la insistencia de que hablaba como pastor, desde el Evangelio y no desde una ideología.\n\nEsa postura le valió elogios, pero también el rechazo de sectores poderosos y las críticas de algunos de sus hermanos obispos. Fue calumniado, amenazado y vigilado. En su última homilía, el 23 de marzo de 1980, pidió con firmeza a los soldados que no obedecieran las órdenes de matar a sus propios hermanos campesinos, porque la ley de Dios está por encima de cualquier mandato.\n\nAl día siguiente, 24 de marzo de 1980, fue asesinado de un disparo mientras celebraba la misa en la capilla del hospital de la Divina Providencia, en San Salvador. Las investigaciones posteriores señalaron como responsables a grupos de extrema derecha vinculados a estructuras del Estado, aunque la justicia penal nunca llegó a esclarecer del todo el crimen. Su funeral, multitudinario, fue a su vez reprimido a tiros.\n\nEl papa Francisco aprobó el decreto de martirio el 3 de febrero de 2015, reconociendo que fue asesinado «por odio a la fe». Fue beatificado en San Salvador el 23 de mayo de 2015 y canonizado por el mismo papa en Roma el 14 de octubre de 2018, junto con Pablo VI y otros cinco santos. En la homilía de la canonización Francisco recordó a quienes dejan la seguridad del mundo, incluso la propia, para dar la vida según el Evangelio, cercanos a los pobres y a su pueblo. El Salvador, América Central y Cáritas lo veneran como patrono.\n\nSu celebración no figura en el Calendario Romano General; se recuerda el 24 de marzo en el calendario salvadoreño y en otras Iglesias. Su legado es la certeza de que la defensa de la dignidad humana pertenece al corazón del Evangelio.",
+  "virtues": [
+   "Valentía profética",
+   "Cercanía a los pobres",
+   "Fidelidad al Evangelio"
+  ],
+  "iconography": "Arzobispo con mitra y báculo, estola, a menudo ante un altar con una mancha de sangre; a veces con campesinos.",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Wikipedia en español, «Óscar Romero» (CC BY-SA 4.0; solo para cotejar datos, redacción propia)",
+    "url": "https://es.wikipedia.org/wiki/%C3%93scar_Romero"
+   },
+   {
+    "label": "Francisco, homilía en la canonización (14-X-2018)",
+    "url": "https://www.vatican.va/content/francesco/es/homilies/2018/documents/papa-francesco_20181014_omelia-canonizzazione.html"
+   },
+   {
+    "label": "Infovaticana, «El Vaticano confirma a san Óscar Romero como patrono de los obispos de América Central» (19-XI-2026)",
+    "url": "https://infovaticana.com/2026/11/19/romero-patrono-obispos-america-central/"
+   }
+  ],
+  "context": "Guerra civil y represión en El Salvador, 1977-1980.",
+  "significance": "Símbolo de la Iglesia de los pobres y del martirio por la justicia; modelo de pastor.",
+  "patronages": [
+   "Obispos de América Central (decreto del Dicasterio para el Culto Divino, 14-IX-2026)"
+  ],
+  "note": "Su memoria (24-III) no figura en el Calendario Romano General (comprobado con la lista del calendario en Wikipedia); el rango en el calendario de El Salvador (marcado como memoria libre) no se pudo confirmar con fuente oficial."
+ }
+]

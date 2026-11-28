@@ -16,8 +16,13 @@ interface Props {
 /** Diálogo accesible: Escape, clic fuera, foco inicial y retorno de foco. */
 export function Modal({ open, onClose, title, children, variant = 'sheet', wide }: Props) {
   const ref = useRef<HTMLDivElement>(null);
+  // onClose suele ser una función nueva en cada render: se guarda en una ref para que el efecto
+  // (enfoque inicial, trampa de foco) no se repita al escribir y no robe el foco del campo activo.
+  const closeRef = useRef(onClose);
+  closeRef.current = onClose;
   useEffect(() => {
     if (!open) return;
+    const onClose = () => closeRef.current();
     const prev = document.activeElement as HTMLElement | null;
     const el = ref.current;
     const focusable = () => Array.from(el?.querySelectorAll<HTMLElement>('input,button,select,textarea,a[href],[tabindex]:not([tabindex="-1"])') ?? []).filter((n) => !n.hasAttribute('disabled'));
@@ -40,7 +45,7 @@ export function Modal({ open, onClose, title, children, variant = 'sheet', wide 
       document.body.style.overflow = '';
       prev?.focus?.();
     };
-  }, [open, onClose]);
+  }, [open]);
 
   if (!open) return null;
   const pos = variant === 'sheet' ? 'items-end md:items-center' : 'items-center';

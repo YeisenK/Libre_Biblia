@@ -80,6 +80,8 @@ export function lectionaryLookup(date: string, options: LiturgyOptions = {}): Le
   if (cel) {
     if (strong || MOVABLE_MEMORIALS.has(cel.id)) keys.push(`cel:${cel.id}:${cyc}`, `cel:${cel.id}`);
     else keys.push(`cel:${cel.id}`);
+    // Fiestas de fecha fija (apóstoles, evangelistas, san Lorenzo…): sus lecturas propias están por fecha.
+    if (strong && cel.type === 'feast' && !day.isSunday) keys.push(`d:${md}`);
   }
   let dateKey: string | null = null;
   if (!strong) {

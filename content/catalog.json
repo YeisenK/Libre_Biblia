@@ -2,7 +2,7 @@
   "format": 1,
   "name": "Libre Biblia — repositorio oficial",
   "homepage": "https://github.com/YeisenK/Libre_Biblia",
-  "updatedAt": "2026-11-23T05:15:21.008Z",
+  "updatedAt": "2026-11-27T00:00:00.000Z",
   "packs": [
     {
       "id": "audio.oraciones.fraile",
@@ -187,6 +187,32 @@
       }
     },
     {
+      "id": "bible.TA",
+      "kind": "bible",
+      "version": "2026.11.26",
+      "title": "Torres Amat (Nuevo Testamento, parcial)",
+      "description": "Félix Torres Amat, «La Sagrada Biblia, nuevamente traducida de la Vulgata latina al español», París, Librería de los SS. D. Vicente Salvá é Hijo, 1836 (tomos XIII-XV: Nuevo Testamento); transcripción corregida de es.wikisource. Primera edición: Madrid, 1823-1825. Traducción católica clásica de la Vulgata (Torres Amat, 1823-1836) con las licencias eclesiásticas de su época; no es texto litúrgico vigente. PARCIAL: solo 15 de 27 libros del NT (Evangelios, Hechos, Romanos, 1 Corintios, Santiago, 1-2 Pedro, 1-3 Juan, Judas y Apocalipsis); el resto de la Biblia no está disponible en una transcripción corregida.",
+      "language": "es",
+      "url": "packs/bible.TA.json.gz",
+      "bytes": 313510,
+      "sha256": "dbe5d78df354adf2f4fe37ee485b161fc6a6d1f5792608157da1e3681300cb43",
+      "authority": "scripture",
+      "collection": "Biblias",
+      "source": {
+        "name": "Torres Amat (Nuevo Testamento, parcial)",
+        "license": "Public Domain (texto original, † 1847, ed. 1836); transcripción de Wikisource con contribuciones bajo CC BY-SA 4.0",
+        "licenseUrl": "https://es.wikisource.org/wiki/Wikisource:Derechos_de_autor",
+        "provenanceUrl": "https://es.wikisource.org/wiki/La_Sagrada_Biblia_(XIII)",
+        "downloadUrl": "https://es.wikisource.org/wiki/La_Sagrada_Biblia_(XIII)",
+        "originalSha256": "9376f221b9620d2832f5ceb7a64f0255b5409d00c85c8543205026e9e82f2c94",
+        "retrievedAt": "2026-11-26T03:28:40.894Z",
+        "notes": "Páginas del escaneo (Internet Archive lasagradabiblian13torr y lasagradabiblian1415torr) transcritas y corregidas (ProofreadPage nivel 3-4) en es.wikisource. Se omiten las notas al pie (el formato de paquete no las admite), cabeceras, sumarios, números de página y guiones; las cursivas (palabras añadidas al original) se pasan a texto llano. Faltan 2 Corintios, Gálatas, Efesios, Filipenses, Colosenses, 1-2 Tesalonicenses, 1-2 Timoteo, Tito, Filemón, Hebreos y todo el Antiguo Testamento (en Wikisource sin transcribir o sin corregir). Errata de la edición de 1836: Mt 14,11 está truncado y falta el v. 12."
+      },
+      "translationStatus": "final",
+      "ecclesiasticalApproval": true,
+      "notice": "Traducción católica clásica de la Vulgata (Torres Amat, 1823-1836) con las licencias eclesiásticas de su época; no es texto litúrgico vigente. PARCIAL: solo 15 de 27 libros del NT (Evangelios, Hechos, Romanos, 1 Corintios, Santiago, 1-2 Pedro, 1-3 Juan, Judas y Apocalipsis); el resto de la Biblia no está disponible en una transcripción corregida."
+    },
+    {
       "id": "bible.VULG",
       "kind": "bible",
       "version": "2026.11.20",
@@ -229,6 +255,28 @@
         "originalSha256": "8f668ee23301c2c96bdde4b19a31c9b8a6890e7eff9e601f342f3e798a441c10",
         "retrievedAt": "2026-11-20T16:15:56.665Z",
         "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Azul...&action=history). 97 de 216 páginas del escaneo sin revisar. Páginas en blanco (139, 179, 227) no existen en Wikisource y no contienen texto."
+      }
+    },
+    {
+      "id": "doc.ciudad-de-dios",
+      "kind": "document",
+      "version": "2026.11.26",
+      "title": "La ciudad de Dios",
+      "language": "es",
+      "url": "packs/doc.ciudad-de-dios.json.gz",
+      "bytes": 872274,
+      "sha256": "2fb568619da610a78628dbd2a81b6297246ef8be3062802ee040f54ca803e1b8",
+      "authority": "patristic",
+      "collection": "Padres de la Iglesia",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=La_ciudad_de_Dios&oldid=1378414",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "35457c330ef5e4c3e41306530ca44962d01303712cba762a0e939e840ceb296c",
+        "retrievedAt": "2026-11-26T03:23:22.263Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=La_ciudad_de_Dios&action=history). Cada libro se divide en capítulos por los rótulos «CAPÍTULO N» del texto; el índice de capítulos que antecede a cada libro se omite (los argumentos se conservan como primera línea de cada capítulo). Se conserva la ortografía modernizada de la transcripción, con sus erratas ocasionales. Se descartan los rótulos y el prólogo de estilo moderno que la transcripción intercala (títulos de libro, «Prólogo» del libro I: no pertenecen a la traducción de Díaz de Beyral y pueden proceder de una traducción con derechos)."
       }
     },
     {
@@ -295,6 +343,50 @@
         "originalSha256": "ee6ddeabc2e4ae1ab5fe1e3b36dc62f08f6fa874a9e26741a642f7d11fdee799",
         "retrievedAt": "2026-11-20T00:00:00.000Z",
         "notes": "Idioma principal español, con fragmentos en latín. No es texto litúrgico oficial."
+      }
+    },
+    {
+      "id": "doc.el-criterio-balmes",
+      "kind": "document",
+      "version": "2026.11.26",
+      "title": "El Criterio",
+      "language": "es",
+      "url": "packs/doc.el-criterio-balmes.json.gz",
+      "bytes": 187028,
+      "sha256": "8fd5b33ef0e324e5abcf11f43f72d8a08146799dc40b09c8e25a4a49155ebd3a",
+      "authority": "literary",
+      "collection": "Apologética y pensamiento católico",
+      "source": {
+        "name": "Project Gutenberg",
+        "license": "Dominio público en EE. UU. (Project Gutenberg); autor fallecido en 1848; sin traductor (original en español)",
+        "licenseUrl": "https://www.gutenberg.org/policy/permission.html",
+        "provenanceUrl": "https://www.gutenberg.org/ebooks/28929",
+        "downloadUrl": "https://gutenberg.pglaf.org/2/8/9/2/28929/28929-8.txt",
+        "originalSha256": "f6310c2c1fa6e0ee30920ca3b471a81737781e1b616a1682e518689801d55ea7",
+        "retrievedAt": "2026-11-26T17:38:00.866Z",
+        "notes": "Project Gutenberg ebook #28929, publicado el May 22, 2009. Produced by PM Spanish, Héctor Cancela and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by the Bibliothèque nationale de France (BnF/Gallica) at http://gallica.bnf.fr) Se eliminan la cabecera y las condiciones de licencia de Project Gutenberg, el marcado de cursiva y los índices; el texto se reajusta en párrafos. Balmes † 1848 (sin traductor). Se conservan los apartados «§» y las notas finales; se omite el índice de materias. Ensayo de lógica práctica de un presbítero; no es texto del magisterio."
+      }
+    },
+    {
+      "id": "doc.exclamaciones-teresa",
+      "kind": "document",
+      "version": "2026.11.26",
+      "title": "Exclamaciones del alma a Dios",
+      "language": "es",
+      "url": "packs/doc.exclamaciones-teresa.json.gz",
+      "bytes": 16226,
+      "sha256": "9d76d876478e2b4d8bb5d2676146655a1c1d73df0f4fe903caba8e2aca653d0f",
+      "authority": "spiritual_classic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=Exclamaciones_o_meditaciones_del_alma_a_su_Dios&oldid=1482748",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "c0c0f0bdc89341171cedd166b6da387088ef0123c6ad10d325e13af2487311af",
+        "retrievedAt": "2026-11-26T03:22:23.251Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Exclamaciones_o_meditaciones_del_alma_a_su_Dios&action=history). 1 de 1 páginas del escaneo sin revisar. "
       }
     },
     {
@@ -386,6 +478,28 @@
       }
     },
     {
+      "id": "doc.perfecta-casada",
+      "kind": "document",
+      "version": "2026.11.26",
+      "title": "La perfecta casada",
+      "language": "es",
+      "url": "packs/doc.perfecta-casada.json.gz",
+      "bytes": 79836,
+      "sha256": "a37cf5ca9bcc9edae8fe3b3077268b1d2a907af3892f6cc1572abc658146266c",
+      "authority": "spiritual_classic",
+      "collection": "Espiritualidad clásica",
+      "source": {
+        "name": "Wikisource en español",
+        "license": "Obra original en dominio público; transcripción de Wikisource bajo CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://es.wikisource.org/w/index.php?title=La_perfecta_casada&oldid=1578611",
+        "downloadUrl": "https://es.wikisource.org/w/api.php",
+        "originalSha256": "e1ddb9cf6a7773572db41b0d03116236501d9556f2831c17b7c0d7ecbef22c19",
+        "retrievedAt": "2026-11-26T03:21:54.740Z",
+        "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=La_perfecta_casada&action=history). "
+      }
+    },
+    {
       "id": "doc.poesias-san-juan-de-la-cruz",
       "kind": "document",
       "version": "2026.11.20",
@@ -449,6 +563,28 @@
         "originalSha256": "60bf286f6c73407c4b4cb54253a7aa817746fcb8b6b935c53f92bdc61ce90ec5",
         "retrievedAt": "2026-11-20T16:16:40.030Z",
         "notes": "Autores de la transcripción: historial de la página (https://es.wikisource.org/w/index.php?title=Autor%3ASor_Juana_In%C3%A9s_de_la_Cruz&action=history). "
+      }
+    },
+    {
+      "id": "doc.protestantismo-catolicismo-balmes",
+      "kind": "document",
+      "version": "2026.11.26",
+      "title": "El Protestantismo comparado con el Catolicismo en sus relaciones con la civilización europea",
+      "language": "es",
+      "url": "packs/doc.protestantismo-catolicismo-balmes.json.gz",
+      "bytes": 377444,
+      "sha256": "f5769c3b04bbf12b8614479d9caba7cb45bd7e4ef577a771701a3d5cfcac8258",
+      "authority": "theological_opinion",
+      "collection": "Apologética y pensamiento católico",
+      "source": {
+        "name": "Project Gutenberg",
+        "license": "Dominio público en EE. UU. (Project Gutenberg); autor fallecido en 1848; sin traductor (original en español)",
+        "licenseUrl": "https://www.gutenberg.org/policy/permission.html",
+        "provenanceUrl": "https://www.gutenberg.org/ebooks/59797",
+        "downloadUrl": "https://gutenberg.pglaf.org/5/9/7/9/59797/59797-8.txt",
+        "originalSha256": "59ed406ef5911b6d5cdb311e32eff25d9fd9b915f342eb3468ae505ff93e210e",
+        "retrievedAt": "2026-11-26T17:38:00.476Z",
+        "notes": "Project Gutenberg ebook #59797, publicado el June 23, 2019. Produced by Carlos Colon, Josep Cols Canals and the Online Distributed Proofreading Team at http://www.pgdp.net (This file was produced from images generously made available by The Internet Archive/Canadian Libraries) Se eliminan la cabecera y las condiciones de licencia de Project Gutenberg, el marcado de cursiva y los índices; el texto se reajusta en párrafos. Balmes † 1848 (autor y obra en español: sin traductor). Cada tomo termina con sus «Notas», que se conservan; se omiten los índices de capítulos y de notas."
       }
     },
     {
@@ -519,15 +655,57 @@
       }
     },
     {
+      "id": "formation.es",
+      "kind": "formation",
+      "version": "2026.11.27",
+      "title": "Formación: Catecismo, documentos, diccionario y latín",
+      "description": "Índice del Catecismo y del Compendio, fichas de documentos de la Iglesia y de los concilios, áreas de estudio, itinerarios, diccionario católico y curso de latín eclesiástico. Sin texto íntegro: enlaces a vatican.va.",
+      "language": "es",
+      "url": "packs/formation.es.json.gz",
+      "bytes": 92976,
+      "sha256": "f36ba48b283325c59a0b5634f0a7e6b01f7c44d4d2f1d6d589ee5c2bbeac289c",
+      "authority": "magisterium",
+      "collection": "Formación",
+      "source": {
+        "name": "Lux — índices y fichas de formación (estructura y números oficiales; resúmenes y textos propios)",
+        "license": "Estructura y numeración: datos factuales del Catecismo y del Compendio (© Libreria Editrice Vaticana, no se incluye su texto). Resúmenes, fichas, áreas, itinerarios, diccionario y curso de latín: CC BY-SA 4.0 (redacción propia).",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+        "retrievedAt": "2026-11-27T00:00:00.000Z",
+        "notes": "Títulos y rangos verificados contra vatican.va/archive/catechism_sp y compendium_ccc. Enlaces comprobados el 26-11-2026."
+      }
+    },
+    {
+      "id": "hours.es",
+      "kind": "hours",
+      "version": "2026.11.26",
+      "title": "Oración de las Horas",
+      "description": "Estructura de la Liturgia de las Horas (salterio de cuatro semanas, propio del tiempo, Completas) con textos de dominio público. Salmos, cánticos y lecturas se toman de tu Biblia instalada.",
+      "language": "es",
+      "url": "packs/hours.es.json.gz",
+      "bytes": 34783,
+      "sha256": "22657fbfa799e543008ce05e6f9b337f09aee0747b8db5f7bc90fa8f0b9bec26",
+      "authority": "devotional",
+      "collection": "Oración de las Horas",
+      "source": {
+        "name": "Lux: estructura de la Liturgia de las Horas con textos de dominio público",
+        "license": "Distribución del salterio y tablas: datos de hecho (no protegidos). Himnos y colectas latinos: dominio público. Traducciones, invocaciones y rótulos: Composición de Lux, CC BY-SA 4.0. No contiene el texto oficial de la Liturgia de las Horas.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/blob/main/docs/HORAS.md",
+        "retrievedAt": "2026-11-26T00:00:00.000Z",
+        "notes": "Ver docs/HORAS.md y docs/SOURCES_AND_LICENSES.md."
+      }
+    },
+    {
       "id": "prayers.es",
       "kind": "prayers",
-      "version": "2026.11.22",
+      "version": "2026.11.26.1",
       "title": "Oraciones y Rosario",
       "description": "Oraciones tradicionales de la Iglesia, devociones, novenas, Santo Rosario con sus veinte misterios y rutinas de oración, en español.",
       "language": "es",
       "url": "packs/prayers.es.json.gz",
-      "bytes": 138811,
-      "sha256": "3c8be084a4a82f80134048bbc67510d4e148a66c04312e4c0ca7a751135f45da",
+      "bytes": 231849,
+      "sha256": "e17dfa107819a573be147e7ae96ea33f75e0f0e468297d916eb38efb389c1f2a",
       "authority": "devotional",
       "collection": "Oraciones",
       "source": {
@@ -535,8 +713,29 @@
         "license": "CC BY-SA 4.0 (recopilación y textos propios); oraciones tradicionales de dominio público. No incluye textos litúrgicos oficiales con derechos de autor.",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
         "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/prayers",
-        "retrievedAt": "2026-11-22T00:00:00.000Z",
+        "retrievedAt": "2026-11-26-1T00:00:00.000Z",
         "notes": "Cada texto declara su naturaleza (litúrgica, oración de la Iglesia, devoción privada o piedad popular). No es texto litúrgico oficial."
+      }
+    },
+    {
+      "id": "saints.es",
+      "kind": "saints",
+      "version": "2026.11.27.1",
+      "title": "Santoral",
+      "description": "Santos del Calendario Romano General, del Propio de México y santos hispanos y latinoamericanos, con biografías y fuentes, en español.",
+      "language": "es",
+      "url": "packs/saints.es.json.gz",
+      "bytes": 335714,
+      "sha256": "fb33b7c6b1bb6dcfe4ecced415e37e61ba74015485870acc0108a1a0f126c40f",
+      "authority": "devotional",
+      "collection": "Santoral",
+      "source": {
+        "name": "Libre Biblia — santoral (textos propios con fuentes citadas)",
+        "license": "CC BY-SA 4.0 (textos propios); datos históricos de dominio público o de fuentes citadas en cada ficha.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.es",
+        "provenanceUrl": "https://github.com/YeisenK/Libre_Biblia/tree/main/tools/ingest/sources/saints",
+        "retrievedAt": "2026-11-27-1T00:00:00.000Z",
+        "notes": "Biografías redactadas a partir de las fuentes de cada santo; las fichas con unverified muestran un aviso. No es texto litúrgico oficial."
       }
     }
   ]

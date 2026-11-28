@@ -93,7 +93,7 @@ function Option({ checked, onSelect, title, detail, trailing }: { checked: boole
         </span>
         <span className="min-w-0">
           <span className="block font-medium">{title}</span>
-          {detail && <span className="line-clamp-2 block text-[13px] text-muted">{detail}</span>}
+          {detail && <span className="line-clamp-2 text-[13px] text-muted">{detail}</span>}
         </span>
       </button>
       {trailing}

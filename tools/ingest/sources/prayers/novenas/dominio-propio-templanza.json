@@ -1,0 +1,127 @@
+{
+  "id": "dominio-propio-templanza",
+  "title": "Novena por el dominio propio",
+  "group": "virtues",
+  "description": "Nueve días para crecer en templanza y dominio de las pasiones, impulsos y hábitos.",
+  "image": {
+    "icon": "shield",
+    "tint": "#5f7d6e"
+  },
+  "introduction": "El dominio propio (enkráteia) figura entre los frutos del Espíritu (Gál 5,22-23). El Catecismo enseña que la templanza modera la atracción de los placeres y procura el equilibrio en el uso de los bienes creados (CIC 1809). No es represión, sino libertad.",
+  "purpose": "Pedir serenidad ante la ira, la gula, las pantallas, el dinero o cualquier impulso que se nos escapa. Si se trata de una adicción o de un trastorno, la oración debe ir unida a ayuda profesional y acompañamiento.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Espíritu Santo, dueño de toda gracia, enséñame a gobernarme para amar mejor. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Libertad para amar",
+      "reading": "Gál 5,1.13",
+      "reflection": "Cristo nos libertó para ser libres, y la libertad se vive sirviendo por amor. Dominarme no es perder libertad, sino ganarla.",
+      "prayer": "Señor, quiero ser libre para amar. Ayúdame a elegir."
+    },
+    {
+      "day": 2,
+      "title": "Fruto del Espíritu",
+      "reading": "Gál 5,22-23",
+      "reflection": "El dominio propio es fruto del Espíritu, no solo logro personal. Se pide y se cultiva.",
+      "prayer": "Espíritu Santo, haz crecer en mí tus frutos."
+    },
+    {
+      "day": 3,
+      "title": "El impulso y la pausa",
+      "reading": "Pr 16,32",
+      "reflection": "Más vale el lento a la ira que el valiente; el que domina su ánimo, que quien conquista una ciudad. Entre el impulso y la respuesta cabe una oración breve.",
+      "prayer": "Jesús, enséñame a hacer una pausa antes de responder."
+    },
+    {
+      "day": 4,
+      "title": "La lengua",
+      "reading": "St 3,2-5",
+      "reflection": "Quien no falla en palabras es un hombre perfecto. Hoy cuido lo que digo, y cuando lo olvide, pido perdón.",
+      "prayer": "Señor, pon guarda a mi boca y custodia mis labios."
+    },
+    {
+      "day": 5,
+      "title": "Comer y beber con medida",
+      "reading": "1 Co 10,31",
+      "reflection": "Ya comáis, ya bebáis, hacedlo todo para gloria de Dios. La templanza agradece los bienes sin esclavizarse.",
+      "prayer": "Padre, que reciba tus dones con gratitud y moderación."
+    },
+    {
+      "day": 6,
+      "title": "Los ojos y las pantallas",
+      "reading": "Sal 119,37",
+      "reflection": "«Aparta mis ojos de ver vanidades.» Examino cuánto tiempo y atención dedico a lo que me dispersa y fijo un límite razonable.",
+      "prayer": "Señor, dame un corazón atento y unos ojos sencillos."
+    },
+    {
+      "day": 7,
+      "title": "Dinero y deseos",
+      "reading": "Mt 6,19-21",
+      "reflection": "Donde está tu tesoro, allí estará tu corazón. Ordenar los deseos es ordenar el amor.",
+      "prayer": "Dios mío, que mi tesoro seas tú."
+    },
+    {
+      "day": 8,
+      "title": "Ayuda y acompañamiento",
+      "reading": "Hb 12,12-13",
+      "reflection": "Fortalezcamos las manos débiles y las rodillas vacilantes. Pedir ayuda a un amigo, a un sacerdote o a un profesional es acto de fortaleza.",
+      "prayer": "Señor, dame humildad para pedir ayuda cuando no puedo solo."
+    },
+    {
+      "day": 9,
+      "title": "Cada día, de nuevo",
+      "reading": "Lm 3,22-23",
+      "reflection": "Las misericordias del Señor se renuevan cada mañana. Un tropiezo no borra el camino recorrido.",
+      "prayer": "Padre, gracias porque cada mañana puedo empezar otra vez."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Señor, que mi libertad se apoye en ti y sea servicio a los demás. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "tags": [
+    "dominio propio templanza",
+    "novena",
+    "composición de Lux"
+  ]
+}

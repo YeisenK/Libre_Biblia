@@ -1,0 +1,2280 @@
+{
+"advent:0": {
+"lauds": [
+"Rom 13,11-12"
+],
+"none": [
+"2 Thess 1,6",
+"2 Thess 1,7",
+"2 Thess 1,10"
+],
+"sext": [
+"1 Thess 3,12-13"
+],
+"terce": [
+"Rom 13,13-14"
+],
+"vespers1": [
+"1 Thess 5,23-24"
+],
+"vespers2": [
+"Phil 4,4-5"
+]
+},
+"advent:1": {
+"lauds": [
+"Isa 2,3"
+],
+"none": [
+"Isa 13,22-14,1"
+],
+"sext": [
+"Isa 10,24",
+"Isa 10,27"
+],
+"terce": [
+"Isa 10,20-21"
+],
+"vespers": [
+"Phil 3,20-21"
+]
+},
+"advent:2": {
+"lauds": [
+"Gen 49,10"
+],
+"none": [
+"Ezek 34,15-16"
+],
+"sext": [
+"Jer 23,6"
+],
+"terce": [
+"Jer 23,5"
+],
+"vespers": [
+"1 Cor 1,7-9"
+]
+},
+"advent:3": {
+"lauds": [
+"Isa 7,14-15"
+],
+"none": [
+"Dan 9,19"
+],
+"sext": [
+"Isa 12,2"
+],
+"terce": [
+"Isa 2,11-12"
+],
+"vespers": [
+"1 Cor 4,5"
+]
+},
+"advent:4": {
+"lauds": [
+"Isa 45,8"
+],
+"none": [
+"Mal 3,20"
+],
+"sext": [
+"Hag 2,6",
+"Hag 2,9"
+],
+"terce": [
+"Mic 5,3-4"
+],
+"vespers": [
+"Jas 5,7-8",
+"Jas 5,9"
+]
+},
+"advent:5": {
+"lauds": [
+"Jer 30,21",
+"Jer 30,22"
+],
+"none": [
+"Bar 3,5-6"
+],
+"sext": [
+"Jer 30,18"
+],
+"terce": [
+"Jer 29,11",
+"Jer 29,13"
+],
+"vespers": [
+"2 Pet 3,8-9"
+]
+},
+"advent:6": {
+"lauds": [
+"Isa 11,1-3"
+],
+"none": [
+"Isa 61,11"
+],
+"sext": [
+"Isa 4,3"
+],
+"terce": [
+"Isa 4,2"
+]
+},
+"ascension": {
+"lauds": [
+"Heb 10,12-14"
+],
+"none": [
+"Col 3,1-2"
+],
+"sext": [
+"Heb 8,1-3"
+],
+"terce": [
+"Rev 1,17-18"
+],
+"vespers1": [
+"Eph 2,4-6"
+],
+"vespers2": [
+"1 Pet 3,18",
+"1 Pet 3,22"
+]
+},
+"baptism": {
+"lauds": [
+"Isa 61,1-2"
+],
+"none": [
+"Isa 49,6"
+],
+"sext": [
+"Isa 42,1"
+],
+"terce": [
+"Isa 11,1-3"
+],
+"vespers1": [
+"Acts 10,37-38"
+],
+"vespers2": [
+"Acts 10,37-38"
+]
+},
+"common:common-of-apostles": {
+"lauds": [
+"Eph 2,19-20"
+],
+"none": [
+"Acts 5,41-42"
+],
+"sext": [
+"Acts 5,12",
+"Acts 5,14"
+],
+"terce": [
+"2 Cor 5,19-20"
+],
+"vespers1": [
+"Acts 2,42-45"
+],
+"vespers2": [
+"Eph 4,11-13"
+]
+},
+"common:common-of-doctors-of-the-church": {
+"lauds": [
+"Wis 7,13-14"
+],
+"vespers1": [
+"Jas 3,17-18"
+],
+"vespers2": [
+"Jas 3,17-18"
+]
+},
+"common:common-of-holy-men-common-of-holy-women": {
+"lauds": [
+"Rom 12,1-2"
+],
+"none": [
+"Phil 4,8",
+"Phil 4,9"
+],
+"sext": [
+"1 Cor 9,26-27"
+],
+"terce": [
+"Gal 6,7-8"
+],
+"vespers1": [
+"Phil 3,7-8"
+],
+"vespers2": [
+"Rom 8,28-30"
+]
+},
+"common:common-of-one-martyr": {
+"sext": [
+"Jas 1,12"
+]
+},
+"common:common-of-pastors": {
+"lauds": [
+"Heb 13,7-9"
+],
+"none": [
+"1 Tim 3,13"
+],
+"sext": [
+"1 Tim 1,12"
+],
+"terce": [
+"1 Tim 4,16"
+],
+"vespers1": [
+"1 Pet 5,1-4"
+],
+"vespers2": [
+"1 Pet 5,1-4"
+]
+},
+"common:common-of-several-martyrs": {
+"sext": [
+"Heb 11,33"
+]
+},
+"common:common-of-several-martyrs-common-of-one-martyr": {
+"lauds": [
+"2 Cor 1,3-5"
+],
+"none": [
+"Wis 3,1-2",
+"Wis 3,3"
+],
+"terce": [
+"1 Pet 5,10-11"
+],
+"vespers1": [
+"Rom 8,35",
+"Rom 8,37-39"
+],
+"vespers2": [
+"1 Pet 4,13-14"
+]
+},
+"common:common-of-the-blessed-virgin-mary": {
+"lauds": [
+"Isa 61,10"
+],
+"none": [
+"Jdt 13,31"
+],
+"sext": [
+"Zech 9,9"
+],
+"terce": [
+"Zeph 3,14",
+"Zeph 3,15"
+],
+"vespers1": [
+"Gal 4,4-5"
+]
+},
+"common:common-of-the-dedication-of-a-church": {
+"lauds": [
+"Isa 56,7"
+],
+"none": [
+"Jer 7,2",
+"Jer 7,4-5",
+"Jer 7,7"
+],
+"sext": [
+"2 Cor 6,16"
+],
+"terce": [
+"1 Cor 3,16-17"
+],
+"vespers1": [
+"Rev 21,2-3",
+"Rev 21,22",
+"Rev 21,27"
+],
+"vespers2": [
+"Rev 21,2-3",
+"Rev 21,22",
+"Rev 21,27"
+]
+},
+"common:common-of-virgins": {
+"lauds": [
+"Song 8,7"
+],
+"none": [
+"Rev 19,6",
+"Rev 19,7"
+],
+"sext": [
+"1 Cor 7,25"
+],
+"terce": [
+"Wis 8,21"
+],
+"vespers1": [
+"1 Cor 7,32",
+"1 Cor 7,34"
+],
+"vespers2": [
+"1 Cor 7,32",
+"1 Cor 7,34"
+]
+},
+"common:memorial-of-the-blessed-virgin-mary-on-saturday": {
+"lauds": [
+"Gal 4,4-5"
+],
+"lauds-alt": [
+"Rev 12,1"
+]
+},
+"common:office-for-the-dead": {
+"lauds": [
+"1 Thess 4,14"
+],
+"none": [
+"Isa 25,8"
+],
+"sext": [
+"Wis 1,13-14",
+"Wis 1,15"
+],
+"terce": [
+"Job 19,25-26"
+],
+"vespers": [
+"1 Cor 15,55-57"
+]
+},
+"date:01-01": {
+"lauds": [
+"Mic 5,2-3",
+"Mic 5,4"
+],
+"none": [
+"Bar 5,3-4"
+],
+"sext": [
+"Zech 9,9"
+],
+"terce": [
+"Zeph 3,14",
+"Zeph 3,15"
+],
+"vespers": [
+"Gal 4,4-5"
+]
+},
+"date:01-21": {
+"lauds": [
+"2 Cor 1,3-5"
+],
+"vespers": [
+"1 Pet 4,13-14"
+]
+},
+"date:02-22": {
+"lauds": [
+"Acts 15,7-9"
+],
+"none": [
+"2 Pet 1,16-17"
+],
+"sext": [
+"1 Pet 5,1-2"
+],
+"terce": [
+"Isa 22,22"
+],
+"vespers": [
+"1 Pet 1,3-5"
+]
+},
+"date:03-19": {
+"lauds": [
+"2 Sam 7,28-29"
+],
+"none": [
+"Sir 2,15-16"
+],
+"sext": [
+"Wis 10,10"
+],
+"terce": [
+"Prov 2,7-8"
+],
+"vespers1": [
+"Col 3,23-24"
+],
+"vespers2": [
+"Col 3,23-24"
+]
+},
+"date:03-25": {
+"lauds": [
+"Phil 2,6-7"
+],
+"none": [
+"1 Tim 2,5-6"
+],
+"sext": [
+"1 John 4,10"
+],
+"terce": [
+"Eph 1,9-10"
+],
+"vespers1": [
+"1 John 1,1-2"
+],
+"vespers2": [
+"1 John 1,1-2"
+]
+},
+"date:04-25": {
+"lauds": [
+"1 Cor 15,1-2",
+"1 Cor 15,3-4"
+],
+"none": [
+"2 Tim 1,8-9"
+],
+"sext": [
+"1 Thess 2,2-4"
+],
+"terce": [
+"Rom 1,16-17"
+],
+"vespers": [
+"Col 1,3-6"
+]
+},
+"date:05-01": {
+"lauds": [
+"2 Sam 7,28-29"
+],
+"vespers": [
+"Col 3,23-24"
+]
+},
+"date:05-03": {
+"lauds": [
+"Eph 2,19-22"
+],
+"vespers": [
+"Eph 4,11-13"
+]
+},
+"date:05-31": {
+"lauds": [
+"Joel 2,27-3,1"
+],
+"none": [
+"Wis 7,27-28"
+],
+"sext": [
+"Tob 12,6"
+],
+"terce": [
+"Jdt 14,7"
+],
+"vespers": [
+"1 Pet 5,5-7"
+]
+},
+"date:06-11": {
+"lauds": [
+"1 Cor 15,1-2",
+"1 Cor 15,3-4"
+],
+"none": [
+"2 Tim 1,8-9"
+],
+"sext": [
+"1 Thess 2,2-4"
+],
+"terce": [
+"Rom 1,16-17"
+],
+"vespers": [
+"Col 1,3-6"
+]
+},
+"date:06-24": {
+"lauds": [
+"Mal 3,23-24"
+],
+"none": [
+"Isa 49,7"
+],
+"sext": [
+"Isa 49,5-6"
+],
+"terce": [
+"Isa 49,1"
+],
+"vespers1": [
+"Acts 13,23-25"
+],
+"vespers2": [
+"Acts 13,23-25"
+]
+},
+"date:06-29": {
+"lauds": [
+"1 Pet 4,13-14"
+],
+"none": [
+"2 Cor 4,13-14"
+],
+"sext": [
+"Gal 1,15-16",
+"Gal 1,17-18"
+],
+"terce": [
+"Acts 15,7-9"
+],
+"vespers1": [
+"Rom 1,1-2",
+"Rom 1,7"
+],
+"vespers2": [
+"1 Cor 15,3-5",
+"1 Cor 15,8"
+]
+},
+"date:07-03": {
+"lauds": [
+"Eph 2,19-22"
+],
+"vespers": [
+"Eph 3,11-13"
+]
+},
+"date:07-22": {
+"lauds": [
+"Rom 12,1-2"
+],
+"vespers": [
+"Rom 8,28-30"
+]
+},
+"date:07-25": {
+"lauds": [
+"Eph 2,19-22"
+],
+"vespers": [
+"Eph 4,11-13"
+]
+},
+"date:07-26": {
+"lauds": [
+"Isa 55,3"
+],
+"vespers": [
+"Rom 9,4-5"
+]
+},
+"date:08-06": {
+"lauds": [
+"Rev 21,10",
+"Rev 21,23"
+],
+"none": [
+"2 Cor 3,18"
+],
+"sext": [
+"Exod 33,9",
+"Exod 33,11"
+],
+"terce": [
+"Exod 19,9"
+],
+"vespers1": [
+"Phil 3,20-21"
+],
+"vespers2": [
+"Rom 8,16-17"
+]
+},
+"date:08-10": {
+"lauds": [
+"2 Cor 1,3-5"
+],
+"vespers": [
+"1 Pet 4,13-14"
+]
+},
+"date:08-15": {
+"lauds": [
+"Isa 61,10"
+],
+"none": [
+"2 Cor 5,1"
+],
+"sext": [
+"Rev 12,1"
+],
+"terce": [
+"Jdt 13,17",
+"Jdt 13,18"
+],
+"vespers1": [
+"Rom 8,30"
+],
+"vespers2": [
+"1 Cor 15,22-23"
+]
+},
+"date:08-29": {
+"lauds": [
+"Isa 49,1-2"
+],
+"vespers": [
+"Acts 13,23-25"
+]
+},
+"date:09-08": {
+"lauds": [
+"Isa 11,1-3"
+],
+"none": [
+"Rev 21,3"
+],
+"sext": [
+"Jdt 13,24",
+"Jdt 13,25"
+],
+"terce": [
+"Song 6,10"
+],
+"vespers": [
+"Rom 9,4-5"
+]
+},
+"date:09-14": {
+"lauds": [
+"Heb 2,9-10"
+],
+"none": [
+"1 Pet 1,18-19"
+],
+"sext": [
+"Eph 1,7-8"
+],
+"terce": [
+"Heb 5,7-9"
+],
+"vespers1": [
+"1 Cor 1,23-24"
+],
+"vespers2": [
+"1 Cor 1,23-24"
+]
+},
+"date:09-15": {
+"lauds": [
+"Col 1,24-25"
+],
+"vespers": [
+"2 Tim 2,10-12"
+]
+},
+"date:09-29": {
+"lauds": [
+"Gen 28,12-13"
+],
+"none": [
+"Tob 12,15",
+"Tob 12,18",
+"Tob 12,20"
+],
+"sext": [
+"Dan 9,22-23"
+],
+"terce": [
+"Dan 12,1"
+],
+"vespers": [
+"Rev 1,4-5"
+]
+},
+"date:10-02": {
+"lauds": [
+"Exod 23,20-21"
+],
+"none": [
+"Acts 10,3-5"
+],
+"sext": [
+"Acts 12,7"
+],
+"terce": [
+"Acts 5,17-20"
+],
+"vespers": [
+"Rev 8,3-4"
+]
+},
+"date:10-07": {
+"lauds": [
+"Isa 61,10"
+],
+"vespers": [
+"Gal 4,4-5"
+]
+},
+"date:10-18": {
+"lauds": [
+"1 Cor 15,1-2",
+"1 Cor 15,3-4"
+],
+"none": [
+"2 Tim 1,8-9"
+],
+"sext": [
+"1 Thess 2,2-4"
+],
+"terce": [
+"Rom 1,16-17"
+],
+"vespers": [
+"Col 1,3-6"
+]
+},
+"date:11-01": {
+"lauds": [
+"Eph 1,17-18"
+],
+"none": [
+"Rev 21,10-11",
+"Rev 22,3-4"
+],
+"sext": [
+"1 Pet 1,15-16"
+],
+"terce": [
+"Isa 65,18-19"
+],
+"vespers1": [
+"Heb 12,22-24"
+],
+"vespers2": [
+"2 Cor 6,16",
+"2 Cor 7,1"
+]
+},
+"date:11-11": {
+"lauds": [
+"Heb 13,7-8"
+],
+"vespers": [
+"1 Pet 5,1-4"
+]
+},
+"date:11-30": {
+"lauds": [
+"Eph 2,19-22"
+],
+"vespers": [
+"Eph 4,11-13"
+]
+},
+"date:12-08": {
+"lauds": [
+"Isa 43,1"
+],
+"none": [
+"Eph 5,25-27"
+],
+"sext": [
+"Eph 1,11-12"
+],
+"terce": [
+"Eph 1,4"
+],
+"vespers1": [
+"Rom 8,29-30"
+],
+"vespers2": [
+"Rom 5,20-21"
+]
+},
+"date:12-25": {
+"lauds": [
+"Heb 1,1-2"
+],
+"none": [
+"Acts 10,36"
+],
+"sext": [
+"1 John 4,9"
+],
+"terce": [
+"Titus 2,11-12"
+],
+"vespers1": [
+"Gal 4,4-5"
+],
+"vespers2": [
+"1 John 1,1-3"
+]
+},
+"date:12-26": {
+"lauds": [
+"Acts 6,2-5"
+],
+"none": [
+"Wis 3,1-2",
+"Wis 3,3"
+],
+"sext": [
+"Jas 1,12"
+],
+"terce": [
+"1 Pet 5,10-11"
+],
+"vespers": [
+"1 John 1,5",
+"1 John 1,7"
+]
+},
+"date:12-27": {
+"lauds": [
+"Acts 4,19-20"
+],
+"none": [
+"Acts 5,41-42"
+],
+"sext": [
+"Acts 5,12",
+"Acts 5,14"
+],
+"terce": [
+"2 Cor 5,19-20"
+],
+"vespers": [
+"Rom 8,3-4"
+]
+},
+"date:12-28": {
+"lauds": [
+"Jer 31,15"
+],
+"none": [
+"Jer 31,16",
+"Jer 31,17"
+],
+"sext": [
+"Lam 2,11"
+],
+"terce": [
+"Lam 1,16"
+],
+"vespers": [
+"Eph 2,3-5"
+]
+},
+"date:12-29": {
+"lauds": [
+"Heb 1,1-2"
+],
+"none": [
+"Acts 10,36"
+],
+"sext": [
+"1 John 4,9"
+],
+"terce": [
+"Titus 2,11-12"
+],
+"vespers2": [
+"1 John 1,1-3"
+]
+},
+"date:12-30": {
+"lauds": [
+"Isa 9,6"
+],
+"none": [
+"Tob 14,6-7"
+],
+"sext": [
+"Isa 12,5-6"
+],
+"terce": [
+"Deut 4,7"
+],
+"vespers": [
+"2 Pet 1,3-4"
+]
+},
+"date:12-31": {
+"lauds": [
+"Isa 4,2-3"
+],
+"none": [
+"Isa 65,1"
+],
+"sext": [
+"Isa 48,20"
+],
+"terce": [
+"Isa 45,13"
+]
+},
+"date:ash": {
+"lauds": [
+"Deut 7,6",
+"Deut 7,8-9"
+],
+"none": [
+"Dan 4,24"
+],
+"sext": [
+"Zech 1,3-4"
+],
+"terce": [
+"Ezek 18,30-32"
+],
+"vespers": [
+"Phil 2,12-15"
+]
+},
+"dec:second-sunday": {
+"lauds": [
+"Heb 1,1-2"
+],
+"none": [
+"Acts 10,36"
+],
+"sext": [
+"1 John 4,9"
+],
+"terce": [
+"Titus 2,11-12"
+],
+"vespers1": [
+"1 John 5,20"
+],
+"vespers2": [
+"1 John 1,1-3"
+]
+},
+"easter:1-6:1": {
+"vespers": [
+"Heb 8,1-3"
+]
+},
+"easter:1-6:2": {
+"vespers": [
+"1 Pet 2,4-5"
+]
+},
+"easter:1-6:3": {
+"vespers": [
+"Heb 7,24-27"
+]
+},
+"easter:1-6:4": {
+"vespers": [
+"1 Pet 3,18",
+"1 Pet 3,22"
+]
+},
+"easter:1-6:5": {
+"vespers": [
+"Heb 5,8-10"
+]
+},
+"easter:1-7:0": {
+"lauds": [
+"Acts 10,40-43"
+],
+"none": [
+"Rom 6,4"
+],
+"sext": [
+"Eph 2,4-6"
+],
+"terce": [
+"1 Cor 15,3-5"
+],
+"vespers2": [
+"Heb 10,12-14"
+]
+},
+"easter:1-7:1": {
+"lauds": [
+"Rom 10,8-10"
+],
+"none": [
+"2 Tim 2,8",
+"2 Tim 2,11"
+],
+"sext": [
+"Col 2,9",
+"Col 2,12"
+],
+"terce": [
+"Rev 1,17-18"
+]
+},
+"easter:1-7:2": {
+"lauds": [
+"Acts 13,30-33"
+],
+"none": [
+"Acts 4,11-12"
+],
+"sext": [
+"1 Pet 3,21-22"
+],
+"terce": [
+"Col 3,1-2"
+]
+},
+"easter:1-7:3": {
+"lauds": [
+"Rom 6,8-11"
+],
+"none": [
+"Eph 4,23-24"
+],
+"sext": [
+"1 John 5,5-6"
+],
+"terce": [
+"Rom 4,24-25"
+]
+},
+"easter:1-7:4": {
+"lauds": [
+"Rom 8,10-11"
+],
+"none": [
+"Col 1,12-14"
+],
+"sext": [
+"Titus 3,5-7"
+],
+"terce": [
+"1 Cor 12,13"
+]
+},
+"easter:1-7:5": {
+"lauds": [
+"Acts 5,30-32"
+],
+"none": [
+"1 Cor 5,7-8"
+],
+"sext": [
+"Gal 3,27-28"
+],
+"terce": [
+"Acts 2,32",
+"Acts 2,36"
+]
+},
+"easter:1-7:6": {
+"lauds": [
+"Rom 14,7-9"
+],
+"none": [
+"2 Cor 5,14-15"
+],
+"sext": [
+"1 Cor 15,20-22"
+],
+"terce": [
+"Rom 5,10-11"
+]
+},
+"easter:2-7:0": {
+"vespers1": [
+"1 Pet 2,9-10"
+]
+},
+"easter:7:1": {
+"vespers": [
+"Rom 8,14-17"
+]
+},
+"easter:7:2": {
+"vespers": [
+"Rom 8,26-27"
+]
+},
+"easter:7:3": {
+"vespers": [
+"1 Cor 2,9-10"
+]
+},
+"easter:7:4": {
+"vespers": [
+"1 Cor 6,19-20"
+]
+},
+"easter:7:5": {
+"vespers": [
+"Gal 5,16",
+"Gal 5,22-23",
+"Gal 5,25"
+]
+},
+"epiphany": {
+"lauds": [
+"Isa 52,7-10"
+],
+"none": [
+"Zech 2,11"
+],
+"sext": [
+"Isa 49,6"
+],
+"terce": [
+"Rev 15,4"
+],
+"vespers1": [
+"2 Tim 1,9-10"
+],
+"vespers2": [
+"Titus 3,4-5"
+]
+},
+"goodfriday": {
+"lauds": [
+"Isa 52,13-15"
+],
+"none": [
+"Isa 53,6-7"
+],
+"sext": [
+"Isa 53,4-5"
+],
+"terce": [
+"Isa 53,2-3"
+],
+"vespers": [
+"1 Pet 2,21-24"
+]
+},
+"holy-family": {
+"lauds": [
+"Deut 5,16"
+],
+"none": [
+"Col 3,17"
+],
+"sext": [
+"Col 3,14-15"
+],
+"terce": [
+"Col 3,12-13"
+],
+"vespers1": [
+"2 Cor 8,9"
+],
+"vespers2": [
+"Phil 2,6-7"
+]
+},
+"holysaturday": {
+"lauds": [
+"Hos 5,15-6,2"
+],
+"none": [
+"1 John 2,8-10"
+],
+"sext": [
+"1 John 2,1-2"
+],
+"terce": [
+"1 John 1,8-9"
+],
+"vespers": [
+"1 Pet 1,18-21"
+]
+},
+"holythursday": {
+"vespers": [
+"Heb 13,12-15"
+]
+},
+"jan2:1": {
+"lauds": [
+"Isa 49,8-9"
+],
+"none": [
+"1 John 1,5"
+],
+"sext": [
+"Rev 21,23-24"
+],
+"terce": [
+"1 Tim 1,15"
+],
+"vespers": [
+"Col 1,13-15"
+]
+},
+"jan2:2": {
+"lauds": [
+"Isa 62,11-12"
+],
+"none": [
+"Isa 60,4-5"
+],
+"sext": [
+"Isa 9,1"
+],
+"terce": [
+"Isa 2,3-4"
+],
+"vespers": [
+"1 John 1,5",
+"1 John 1,7"
+]
+},
+"jan2:3": {
+"lauds": [
+"Isa 45,22-23"
+],
+"none": [
+"Zech 8,7-8"
+],
+"sext": [
+"Jer 31,11-12"
+],
+"terce": [
+"Jer 31,7-8"
+],
+"vespers": [
+"Rom 8,3-4"
+]
+},
+"jan2:4": {
+"lauds": [
+"Wis 7,26-27"
+],
+"none": [
+"Mic 2,12"
+],
+"sext": [
+"Ezek 34,11-12"
+],
+"terce": [
+"Ezek 20,41-42"
+],
+"vespers": [
+"1 John 5,20"
+]
+},
+"jan2:5": {
+"lauds": [
+"Isa 61,1-2"
+],
+"none": [
+"Isa 49,6"
+],
+"sext": [
+"Isa 42,1"
+],
+"terce": [
+"Isa 11,1-3"
+],
+"vespers": [
+"Acts 10,37-38"
+]
+},
+"jan2:6": {
+"lauds": [
+"Isa 9,5"
+],
+"none": [
+"Tob 14,6-7"
+],
+"sext": [
+"Isa 12,5-6"
+],
+"terce": [
+"Deut 4,7"
+]
+},
+"lent0:4": {
+"lauds": [
+"1 Kgs 8,51-53"
+],
+"none": [
+"Heb 10,35-36"
+],
+"sext": [
+"Deut 30,2-3"
+],
+"terce": [
+"Isa 55,6-7"
+],
+"vespers": [
+"Jas 4,7-8",
+"Jas 4,10"
+]
+},
+"lent0:5": {
+"lauds": [
+"Isa 53,11-12"
+],
+"none": [
+"Jas 1,27"
+],
+"sext": [
+"Jer 3,12",
+"Jer 3,14"
+],
+"terce": [
+"Isa 55,3"
+],
+"vespers": [
+"Jas 5,16",
+"Jas 5,19-20"
+]
+},
+"lent0:6": {
+"lauds": [
+"Isa 1,16-18"
+],
+"none": [
+"Gal 6,7-8"
+],
+"sext": [
+"Isa 44,21-22"
+],
+"terce": [
+"Rev 3,19-20"
+]
+},
+"lent5:0": {
+"lauds": [
+"Lev 23,4-7"
+],
+"none": [
+"1 Pet 5,10-11"
+],
+"sext": [
+"1 Pet 4,13-14"
+],
+"terce": [
+"2 Cor 4,10-11"
+],
+"vespers1": [
+"1 Pet 1,18-21"
+],
+"vespers2": [
+"Acts 13,26-30"
+]
+},
+"lent5:1": {
+"lauds": [
+"Jer 11,19-20"
+],
+"none": [
+"Jer 31,2",
+"Jer 31,3",
+"Jer 31,4"
+],
+"sext": [
+"Jer 18,20"
+],
+"terce": [
+"Ezek 33,10",
+"Ezek 33,11"
+],
+"vespers": [
+"Rom 5,8-9"
+]
+},
+"lent5:2": {
+"lauds": [
+"Zech 12,10-11"
+],
+"none": [
+"1 Cor 1,25",
+"1 Cor 1,27"
+],
+"sext": [
+"1 Cor 1,22-24"
+],
+"terce": [
+"1 Cor 1,18-19"
+],
+"vespers": [
+"1 Cor 1,27-30"
+]
+},
+"lent5:3": {
+"lauds": [
+"Isa 50,4-7"
+],
+"none": [
+"Heb 9,28"
+],
+"sext": [
+"Rom 15,3"
+],
+"terce": [
+"1 Tim 2,4-6"
+],
+"vespers": [
+"Eph 4,32-5,2"
+]
+},
+"lent5:4": {
+"lauds": [
+"Heb 2,9-10"
+],
+"none": [
+"Heb 9,11-12"
+],
+"sext": [
+"Heb 7,26-27"
+],
+"terce": [
+"Heb 4,14-15"
+],
+"vespers": [
+"Heb 13,12-15"
+]
+},
+"lent5:5": {
+"lauds": [
+"Isa 52,13-15"
+],
+"none": [
+"Isa 53,6-7"
+],
+"sext": [
+"Isa 53,4-5"
+],
+"terce": [
+"Isa 53,2-3"
+],
+"vespers": [
+"1 Pet 2,21-24"
+]
+},
+"lent5:6": {
+"lauds": [
+"Isa 65,1-3"
+],
+"none": [
+"1 John 2,8-10"
+],
+"sext": [
+"1 John 2,1-2"
+],
+"terce": [
+"1 John 1,8-9"
+]
+},
+"lent:0": {
+"lauds": [
+"Neh 8,9",
+"Neh 8,10"
+],
+"none": [
+"Deut 4,29-31"
+],
+"sext": [
+"Isa 30,15",
+"Isa 30,18"
+],
+"terce": [
+"1 Thess 4,1",
+"1 Thess 4,7"
+],
+"vespers1": [
+"2 Cor 6,1-4"
+],
+"vespers2": [
+"1 Cor 9,24-25"
+]
+},
+"lent:1": {
+"lauds": [
+"Exod 19,4-6"
+],
+"none": [
+"Isa 58,7"
+],
+"sext": [
+"Ezek 18,23"
+],
+"terce": [
+"Wis 11,23-24"
+],
+"vespers": [
+"Rom 12,1-2"
+]
+},
+"lent:2": {
+"lauds": [
+"Joel 2,12-13"
+],
+"none": [
+"Isa 58,1-2"
+],
+"sext": [
+"Jer 3,25"
+],
+"terce": [
+"Joel 2,17"
+],
+"vespers": [
+"Jas 2,14",
+"Jas 2,17",
+"Jas 2,18"
+]
+},
+"lent:3": {
+"lauds": [
+"Deut 7,6",
+"Deut 7,8-9"
+],
+"none": [
+"Dan 4,24"
+],
+"sext": [
+"Zech 1,3-4"
+],
+"terce": [
+"Ezek 18,30-32"
+],
+"vespers": [
+"Phil 2,12-15"
+]
+},
+"lent:4": {
+"lauds": [
+"1 Kgs 8,51-53"
+],
+"none": [
+"Heb 10,35-36"
+],
+"sext": [
+"Deut 30,2-3"
+],
+"terce": [
+"Isa 55,6-7"
+],
+"vespers": [
+"Jas 4,7-8",
+"Jas 4,10"
+]
+},
+"lent:5": {
+"lauds": [
+"Isa 53,11-12"
+],
+"none": [
+"Jas 1,27"
+],
+"sext": [
+"Jer 3,12",
+"Jer 3,14"
+],
+"terce": [
+"Isa 55,3"
+],
+"vespers": [
+"Jas 5,16",
+"Jas 5,19-20"
+]
+},
+"lent:6": {
+"lauds": [
+"Isa 1,16-18"
+],
+"none": [
+"Gal 6,7-8"
+],
+"sext": [
+"Isa 44,21-22"
+],
+"terce": [
+"Rev 3,19-20"
+]
+},
+"night:1": {
+"compline": [
+"1 Thess 5,9-10"
+]
+},
+"night:2": {
+"compline": [
+"1 Pet 5,8-9"
+]
+},
+"night:3": {
+"compline": [
+"Eph 4,26-27"
+]
+},
+"night:4": {
+"compline": [
+"1 Thess 5,23"
+]
+},
+"night:5": {
+"compline": [
+"Jer 14,9"
+]
+},
+"night:6": {
+"compline": [
+"Rev 22,4-5"
+]
+},
+"ord:1:0": {
+"lauds": [
+"Rev 7,10",
+"Rev 7,12"
+],
+"none": [
+"Gal 6,9-10"
+],
+"sext": [
+"Gal 6,7-8"
+],
+"terce": [
+"1 John 4,16"
+],
+"vespers1": [
+"Rom 11,33-36"
+],
+"vespers2": [
+"2 Cor 1,3-4"
+]
+},
+"ord:1:1": {
+"lauds": [
+"1 Thess 3,10-13"
+],
+"none": [
+"1 Pet 1,17-19"
+],
+"sext": [
+"Jas 1,19-20",
+"Jas 1,26"
+],
+"terce": [
+"Rom 13,8",
+"Rom 13,10"
+],
+"vespers": [
+"Col 1,9-11"
+]
+},
+"ord:1:2": {
+"lauds": [
+"Rom 13,11",
+"Rom 13,12-13"
+],
+"none": [
+"Job 5,17-18"
+],
+"sext": [
+"Prov 3,13-15"
+],
+"terce": [
+"Jer 17,7-8"
+],
+"vespers": [
+"1 John 3,1",
+"1 John 3,2"
+]
+},
+"ord:1:3": {
+"lauds": [
+"Tob 4,15",
+"Tob 4,16",
+"Tob 4,18",
+"Tob 4,19"
+],
+"none": [
+"Jas 4,7-8",
+"Jas 4,10"
+],
+"sext": [
+"1 Pet 1,15-16"
+],
+"terce": [
+"1 Pet 1,13-14"
+],
+"vespers": [
+"Jas 1,22",
+"Jas 1,25"
+]
+},
+"ord:1:4": {
+"lauds": [
+"Isa 66,1-2"
+],
+"none": [
+"Amos 9,6"
+],
+"sext": [
+"Amos 5,8",
+"Amos 5,9"
+],
+"terce": [
+"Amos 4,13"
+],
+"vespers": [
+"1 Pet 1,6-9"
+]
+},
+"ord:1:5": {
+"lauds": [
+"Eph 4,29-32"
+],
+"none": [
+"Col 3,12-14"
+],
+"sext": [
+"2 Cor 13,4"
+],
+"terce": [
+"Phil 2,2-4"
+],
+"vespers": [
+"Rom 15,1-3"
+]
+},
+"ord:1:6": {
+"lauds": [
+"2 Pet 1,10-11"
+],
+"none": [
+"Wis 7,27",
+"Wis 8,1"
+],
+"sext": [
+"Jer 17,9-10"
+],
+"terce": [
+"1 Kgs 8,60-61"
+]
+},
+"ord:2:0": {
+"lauds": [
+"Ezek 36,25-27"
+],
+"none": [
+"2 Cor 1,21-22"
+],
+"sext": [
+"Rom 8,26"
+],
+"terce": [
+"Rom 5,1-2",
+"Rom 5,5"
+],
+"vespers1": [
+"Col 1,2-6"
+],
+"vespers2": [
+"2 Thess 2,13-14"
+]
+},
+"ord:2:1": {
+"lauds": [
+"Jer 15,16"
+],
+"none": [
+"Ezek 34,31"
+],
+"sext": [
+"Jer 32,40"
+],
+"terce": [
+"Jer 31,33"
+],
+"vespers": [
+"1 Thess 2,13"
+]
+},
+"ord:2:2": {
+"lauds": [
+"1 Thess 5,4-5"
+],
+"none": [
+"1 Cor 12,24",
+"1 Cor 12,25-26"
+],
+"sext": [
+"1 Cor 12,12-13"
+],
+"terce": [
+"1 Cor 12,4-6"
+],
+"vespers": [
+"Rom 3,23-25"
+]
+},
+"ord:2:3": {
+"lauds": [
+"Rom 8,35",
+"Rom 8,37"
+],
+"none": [
+"1 Sam 16,7"
+],
+"sext": [
+"Isa 55,8-9"
+],
+"terce": [
+"Deut 1,16-17"
+],
+"vespers": [
+"1 Pet 5,5-7"
+]
+},
+"ord:2:4": {
+"lauds": [
+"Rom 14,17-19"
+],
+"none": [
+"Gal 5,22",
+"Gal 5,23",
+"Gal 5,25"
+],
+"sext": [
+"Gal 5,16-17"
+],
+"terce": [
+"Gal 5,13-14"
+],
+"vespers": [
+"1 Pet 1,22-23"
+]
+},
+"ord:2:5": {
+"lauds": [
+"Eph 2,13-16"
+],
+"none": [
+"Wis 1,13-15"
+],
+"sext": [
+"Bar 4,28-29"
+],
+"terce": [
+"Deut 1,31"
+],
+"vespers": [
+"1 Cor 2,7-10"
+]
+},
+"ord:2:6": {
+"lauds": [
+"Rom 12,14-16"
+],
+"none": [
+"Jer 6,16"
+],
+"sext": [
+"1 Kgs 2,2-3"
+],
+"terce": [
+"Deut 8,5-6"
+]
+},
+"ord:3:0": {
+"lauds": [
+"Ezek 37,12-14"
+],
+"none": [
+"2 Tim 1,9"
+],
+"sext": [
+"Rom 8,22-23"
+],
+"terce": [
+"Rom 8,15-16"
+],
+"vespers1": [
+"Heb 13,20-21"
+],
+"vespers2": [
+"1 Pet 1,3-5"
+]
+},
+"ord:3:1": {
+"lauds": [
+"Jas 2,12-13"
+],
+"none": [
+"Col 1,21-22"
+],
+"sext": [
+"Rom 6,22"
+],
+"terce": [
+"2 Cor 13,11"
+],
+"vespers": [
+"Jas 4,11-12"
+]
+},
+"ord:3:2": {
+"lauds": [
+"1 John 4,14-15"
+],
+"none": [
+"Prov 22,22-23"
+],
+"sext": [
+"Deut 15,7-8"
+],
+"terce": [
+"Jer 22,3"
+],
+"vespers": [
+"Rom 12,9-12"
+]
+},
+"ord:3:3": {
+"lauds": [
+"Job 1,21",
+"Job 2,10"
+],
+"none": [
+"Col 3,14-15"
+],
+"sext": [
+"1 Cor 13,8-9",
+"1 Cor 13,13"
+],
+"terce": [
+"1 Cor 13,4-7"
+],
+"vespers": [
+"Eph 3,20-21"
+]
+},
+"ord:3:4": {
+"lauds": [
+"1 Pet 4,10-11"
+],
+"none": [
+"Est 10,6"
+],
+"sext": [
+"Deut 4,7"
+],
+"terce": [
+"Wis 19,22"
+],
+"vespers": [
+"1 Pet 3,8-9"
+]
+},
+"ord:3:5": {
+"lauds": [
+"2 Cor 12,9-10"
+],
+"none": [
+"Eph 2,8-9"
+],
+"sext": [
+"Rom 3,21-22"
+],
+"terce": [
+"Rom 1,16-17"
+],
+"vespers": [
+"Jas 1,2-4"
+]
+},
+"ord:3:6": {
+"lauds": [
+"Phil 2,14-15"
+],
+"none": [
+"Mic 6,8"
+],
+"sext": [
+"Gal 5,26",
+"Gal 6,2"
+],
+"terce": [
+"1 Sam 15,22"
+]
+},
+"ord:4:0": {
+"lauds": [
+"2 Tim 2,8",
+"2 Tim 2,11-13"
+],
+"none": [
+"Song 8,6-7"
+],
+"sext": [
+"Deut 10,12"
+],
+"terce": [
+"1 Cor 6,19-20"
+],
+"vespers1": [
+"2 Pet 1,19-21"
+],
+"vespers2": [
+"Heb 12,22-24"
+]
+},
+"ord:4:1": {
+"lauds": [
+"Jdt 8,25-27"
+],
+"none": [
+"Bar 4,21-22"
+],
+"sext": [
+"Wis 15,1",
+"Wis 15,3"
+],
+"terce": [
+"Lev 20,26"
+],
+"vespers": [
+"1 Thess 3,12-13"
+]
+},
+"ord:4:2": {
+"lauds": [
+"Isa 55,1"
+],
+"none": [
+"Isa 55,10-11"
+],
+"sext": [
+"Deut 30,11",
+"Deut 30,14"
+],
+"terce": [
+"1 John 3,17-18"
+],
+"vespers": [
+"Col 3,16"
+]
+},
+"ord:4:3": {
+"lauds": [
+"Deut 4,39-40"
+],
+"none": [
+"Col 3,23-24"
+],
+"sext": [
+"Col 3,17"
+],
+"terce": [
+"1 Cor 10,24",
+"1 Cor 10,31"
+],
+"vespers": [
+"1 John 2,3-6"
+]
+},
+"ord:4:4": {
+"lauds": [
+"Rom 8,18-21"
+],
+"none": [
+"Heb 12,1-2"
+],
+"sext": [
+"Wis 1,1-2"
+],
+"terce": [
+"1 John 3,23-24"
+],
+"vespers": [
+"Col 1,23"
+]
+},
+"ord:4:5": {
+"lauds": [
+"Gal 2,19-20"
+],
+"none": [
+"1 John 3,9-11"
+],
+"sext": [
+"1 John 3,16"
+],
+"terce": [
+"Rom 12,17",
+"Rom 12,19",
+"Rom 12,20",
+"Rom 12,21"
+],
+"vespers": [
+"Rom 8,1-2"
+]
+},
+"ord:4:6": {
+"lauds": [
+"2 Pet 3,13-15"
+],
+"none": [
+"Phil 4,8",
+"Phil 4,9"
+],
+"sext": [
+"Rom 15,5-7"
+],
+"terce": [
+"Dan 6,27-28"
+]
+},
+"palm": {
+"lauds": [
+"Zech 9,9"
+]
+},
+"pentecost": {
+"lauds": [
+"Acts 5,30-32"
+],
+"none": [
+"2 Cor 1,21-22"
+],
+"sext": [
+"Titus 3,5-7"
+],
+"terce": [
+"1 Cor 12,13"
+],
+"vespers1": [
+"Rom 8,11"
+],
+"vespers2": [
+"Eph 4,3-6"
+]
+},
+"postepi:1": {
+"lauds": [
+"Isa 9,5"
+],
+"none": [
+"Tob 14,6-7"
+],
+"sext": [
+"Isa 12,5-6"
+],
+"terce": [
+"Deut 4,7"
+],
+"vespers": [
+"2 Pet 1,3-4"
+]
+},
+"postepi:2": {
+"lauds": [
+"Isa 4,2-3"
+],
+"none": [
+"Isa 65,1"
+],
+"sext": [
+"Isa 48,20"
+],
+"terce": [
+"Isa 45,13"
+],
+"vespers": [
+"Eph 2,3-5"
+]
+},
+"postepi:3": {
+"lauds": [
+"Isa 49,8-9"
+],
+"none": [
+"1 John 1,5"
+],
+"sext": [
+"Rev 21,23-24"
+],
+"terce": [
+"1 Tim 1,15"
+],
+"vespers": [
+"Col 1,13-15"
+]
+},
+"postepi:4": {
+"lauds": [
+"Isa 62,11-12"
+],
+"none": [
+"Isa 60,4-5"
+],
+"sext": [
+"Isa 9,1"
+],
+"terce": [
+"Isa 2,3-4"
+],
+"vespers": [
+"1 John 1,5",
+"1 John 1,7"
+]
+},
+"postepi:5": {
+"lauds": [
+"Isa 45,22-23"
+],
+"none": [
+"Zech 8,7-8"
+],
+"sext": [
+"Jer 31,11-12"
+],
+"terce": [
+"Jer 31,7-8"
+],
+"vespers": [
+"Rom 8,3-4"
+]
+},
+"postepi:6": {
+"lauds": [
+"Wis 7,26-27"
+],
+"none": [
+"Mic 2,12"
+],
+"sext": [
+"Ezek 34,11-12"
+],
+"terce": [
+"Ezek 20,41-42"
+]
+}
+}

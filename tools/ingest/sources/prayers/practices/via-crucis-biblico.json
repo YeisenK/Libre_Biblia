@@ -1,0 +1,139 @@
+{
+ "id": "via-crucis-biblico",
+ "kind": "stations",
+ "title": "Vía Crucis bíblico",
+ "group": "Camino",
+ "description": "La forma bíblica del Vía Crucis: catorce escenas tomadas de los Evangelios, de Getsemaní al sepulcro.",
+ "nature": "popular_piety",
+ "attribution": "Composición de Lux: las meditaciones son propias. La lista de estaciones es la tradicional; las lecturas se toman de la Biblia instalada por referencia.",
+ "rubric": "Piedad popular. Forma bíblica propuesta por san Juan Pablo II a partir de 1991; no sustituye a la forma tradicional.",
+ "sources": [
+  {
+   "label": "Vía Crucis presidido por Juan Pablo II, Coliseo, 2002: libreto vaticano (lista de estaciones)",
+   "url": "https://www.vatican.va/news_services/liturgy/2002/documents/ns_lit_doc_20020329_via-crucis_sp.html"
+  },
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  }
+ ],
+ "minutes": 30,
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "prayer",
+   "title": "Acto de contrición",
+   "prayer": "acto-de-contricion"
+  },
+  {
+   "id": "introduccion",
+   "kind": "text",
+   "title": "Cómo hacerlo",
+   "text": "Esta forma del Vía Crucis, introducida por san Juan Pablo II en el Coliseo en 1991 y usada desde entonces, sigue las escenas que narran los Evangelios (sin las caídas, la Verónica ni el encuentro con la Madre en el camino, que son de la tradición). La lista de estaciones es la del libreto vaticano de 2002; las meditaciones son propias de Lux. En cada una: **V.** Te adoramos, Cristo, y te bendecimos. **R.** Que por tu santa cruz redimiste al mundo."
+  },
+  {
+   "id": "e01",
+   "kind": "station",
+   "title": "1.ª estación: Jesús en el Huerto de los Olivos",
+   "reading": "Mc 14,32-36",
+   "text": "Jesús siente tristeza y angustia, y reza: «Padre, todo es posible para ti; aparta de mí este cáliz, pero no sea lo que yo quiero, sino lo que quieras tú». Orar es entregar la voluntad."
+  },
+  {
+   "id": "e02",
+   "kind": "station",
+   "title": "2.ª estación: Jesús, traicionado por Judas, es arrestado",
+   "reading": "Mc 14,43.45-46",
+   "text": "Un beso de amistad se convierte en señal de traición. Jesús sigue amando al que le entrega: la fidelidad de Dios supera nuestra infidelidad."
+  },
+  {
+   "id": "e03",
+   "kind": "station",
+   "title": "3.ª estación: Jesús es condenado por el Sanedrín",
+   "reading": "Mc 14,55.60-62.64",
+   "text": "Ante acusaciones falsas, Jesús calla, y cuando habla es para decir quién es. La verdad le cuesta la vida."
+  },
+  {
+   "id": "e04",
+   "kind": "station",
+   "title": "4.ª estación: Jesús es negado por Pedro",
+   "reading": "Mc 14,72",
+   "text": "Pedro llora al recordar la palabra del Señor. Sus lágrimas muestran que no ha terminado la amistad: el arrepentimiento abre camino al perdón."
+  },
+  {
+   "id": "e05",
+   "kind": "station",
+   "title": "5.ª estación: Jesús es juzgado por Pilato",
+   "reading": "Mc 15,14-15",
+   "text": "Pilato sabe que es inocente, pero cede ante la presión. Quien no defiende la verdad se hace cómplice del mal."
+  },
+  {
+   "id": "e06",
+   "kind": "station",
+   "title": "6.ª estación: Jesús es flagelado y coronado de espinas",
+   "reading": "Mc 15,17-19",
+   "text": "Se burlan de él con una corona de espinas y un manto. Se rinden honores falsos al verdadero Rey, que reina desde el sufrimiento."
+  },
+  {
+   "id": "e07",
+   "kind": "station",
+   "title": "7.ª estación: Jesús es cargado con la Cruz",
+   "reading": "Mc 15,20",
+   "text": "Lo visten de nuevo y lo sacan para crucificarlo. El Hijo de Dios toma sobre sí el peso del pecado del mundo."
+  },
+  {
+   "id": "e08",
+   "kind": "station",
+   "title": "8.ª estación: Jesús es ayudado por el Cirineo a llevar la Cruz",
+   "reading": "Mc 15,21",
+   "text": "Un hombre que volvía del campo es obligado a cargar la cruz. Se encuentra con Cristo sin buscarlo. A veces la ayuda al prójimo nos lleva al encuentro con Dios."
+  },
+  {
+   "id": "e09",
+   "kind": "station",
+   "title": "9.ª estación: Jesús encuentra a las mujeres de Jerusalén",
+   "reading": "Lc 23,27-28.31",
+   "text": "Algunas mujeres lloran por él. Jesús las mira y les habla del futuro. En medio de su dolor se preocupa de los demás."
+  },
+  {
+   "id": "e10",
+   "kind": "station",
+   "title": "10.ª estación: Jesús es crucificado",
+   "reading": "Mc 15,24",
+   "text": "Lo clavan y se reparten sus ropas. La cruz, signo de vergüenza, se convierte en trono de amor."
+  },
+  {
+   "id": "e11",
+   "kind": "station",
+   "title": "11.ª estación: Jesús promete su Reino al buen ladrón",
+   "reading": "Lc 23,39-43",
+   "text": "«Hoy estarás conmigo en el paraíso.» A quien se vuelve a Él en el último instante, Jesús le abre la puerta. Nunca es demasiado tarde para pedir perdón."
+  },
+  {
+   "id": "e12",
+   "kind": "station",
+   "title": "12.ª estación: Jesús en la Cruz, la Madre y el Discípulo",
+   "reading": "Jn 19,26-27",
+   "text": "«Ahí tienes a tu hijo… Ahí tienes a tu madre.» Jesús nos confía a María y nos confía a ella. En la cruz nace la familia de la Iglesia."
+  },
+  {
+   "id": "e13",
+   "kind": "station",
+   "title": "13.ª estación: Jesús muere en la Cruz",
+   "reading": "Mc 15,34.36-37",
+   "text": "El grito del salmo 22 revela el abandono que Jesús hace suyo. Muere con un grito: la entrega total de quien ama hasta el extremo."
+  },
+  {
+   "id": "e14",
+   "kind": "station",
+   "title": "14.ª estación: Jesús es puesto en el sepulcro",
+   "reading": "Mc 15,46",
+   "text": "Lo envuelven en una sábana y lo depositan en un sepulcro excavado en la roca. Es el silencio que precede a la Pascua."
+  },
+  {
+   "id": "final",
+   "kind": "prayer",
+   "title": "Padre Nuestro",
+   "prayer": "padre-nuestro"
+  }
+ ]
+}

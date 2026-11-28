@@ -1,0 +1,249 @@
+{
+ "id": "hora-santa",
+ "kind": "adoration",
+ "title": "Hora Santa y adoración eucarística",
+ "description": "Una hora (o 15 o 30 minutos) ante el Señor: oraciones, Palabra, silencios y actos de adoración. También sirve en silencio.",
+ "nature": "original",
+ "attribution": "Composición de Lux (reflexiones y guía), a partir del Catecismo de la Iglesia Católica y la Sagrada Escritura. Los himnos y oraciones tienen su propia atribución en su ficha.",
+ "rubric": "La adoración eucarística es una devoción (piedad eucarística): no sustituye la Misa ni la comunión. Se hace ante el Santísimo expuesto, ante el sagrario o, en su defecto, con fe viva.",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Directorio sobre la piedad popular y la liturgia (2001) (apartado sobre la piedad eucarística)"
+  },
+  {
+   "label": "Escritura: Mt 11,28-30; Jn 6,51-58; Jn 15,9-17"
+  }
+ ],
+ "minutes": 60,
+ "ccc": [
+  "1373-1381"
+ ],
+ "steps": [
+  {
+   "id": "entrada",
+   "kind": "text",
+   "title": "Ponte en su presencia",
+   "text": "Cristo está realmente presente en la Eucaristía, con su Cuerpo, su Sangre, su alma y su divinidad (CIC 1374). Por eso le adoramos en la Misa y fuera de ella (CIC 1378-1381). Siéntate o arrodíllate donde estés cómodo; si no estás ante el Santísimo expuesto o el sagrario, puedes hacerlo con la fe, mirando un crucifijo o una imagen.\n\n*Nota de disciplina:* la bendición con el Santísimo la da solo el sacerdote o el diácono; en una Hora Santa en casa o sin ministro no hay bendición eucarística.",
+   "seconds": 40,
+   "ccc": "1374; 1378-1381"
+  },
+  {
+   "id": "cruz",
+   "kind": "prayer",
+   "title": "Señal de la cruz",
+   "prayer": "senal-de-la-cruz",
+   "seconds": 20
+  },
+  {
+   "id": "adoracion",
+   "kind": "prayer",
+   "title": "Acto de adoración",
+   "prayer": "acto-de-adoracion",
+   "seconds": 40
+  },
+  {
+   "id": "angel",
+   "kind": "prayer",
+   "title": "Oración del Ángel de Fátima",
+   "prayer": "oracion-angel-de-fatima",
+   "seconds": 60
+  },
+  {
+   "id": "silencio-1",
+   "kind": "silence",
+   "title": "Silencio de llegada",
+   "text": "Deja que se aquieten los pensamientos. Respira con calma. Basta decir: «Jesús, aquí estoy».",
+   "seconds": 120,
+   "weight": 2
+  },
+  {
+   "id": "lectura-1",
+   "kind": "reading",
+   "title": "Palabra: «Vengan a mí»",
+   "text": "Lee despacio y deja que la Palabra te hable.",
+   "reading": "Mt 11,28-30",
+   "seconds": 60
+  },
+  {
+   "id": "reflexion-1",
+   "kind": "reflection",
+   "title": "Reflexión",
+   "text": "Jesús no te pide que llegues arreglado, sino cansado y cargado. En la adoración no tienes que rendir ni quedar bien: puedes poner delante de Él tu cansancio, sin discursos. Su yugo es suave porque lo lleva contigo. Deja que sea Él quien te mire.",
+   "seconds": 45
+  },
+  {
+   "id": "silencio-2",
+   "kind": "silence",
+   "title": "Silencio",
+   "text": "Presenta al Señor lo que llevas encima: preocupaciones, personas, tu propio cansancio.",
+   "seconds": 120,
+   "weight": 3
+  },
+  {
+   "id": "adoro",
+   "kind": "prayer",
+   "title": "Adoro te devote",
+   "prayer": "adoro-te-devote",
+   "seconds": 150,
+   "minDuration": 30
+  },
+  {
+   "id": "silencio-3",
+   "kind": "silence",
+   "title": "Silencio",
+   "text": "Quédate con una frase del himno que te haya tocado.",
+   "seconds": 120,
+   "weight": 2,
+   "minDuration": 30
+  },
+  {
+   "id": "lectura-2",
+   "kind": "reading",
+   "title": "Palabra: el pan de vida",
+   "text": "Lee despacio y deja que la Palabra te hable.",
+   "reading": "Jn 6,51-58",
+   "seconds": 80,
+   "minDuration": 30
+  },
+  {
+   "id": "reflexion-2",
+   "kind": "reflection",
+   "title": "Reflexión",
+   "text": "Jesús habla de comer su carne y beber su sangre, y muchos se marcharon (Jn 6,66). La Iglesia ha creído siempre en la presencia real del Señor en el pan consagrado (CIC 1373-1377). Adorar es decirle, como Pedro: «Señor, ¿a quién iremos? Tú tienes palabras de vida eterna» (Jn 6,68).",
+   "seconds": 45,
+   "minDuration": 30
+  },
+  {
+   "id": "silencio-4",
+   "kind": "silence",
+   "title": "Silencio",
+   "text": "Habla con Jesús de lo que necesitas. Escucha, sin prisa.",
+   "seconds": 180,
+   "weight": 3,
+   "minDuration": 30
+  },
+  {
+   "id": "intenciones",
+   "kind": "text",
+   "title": "Intenciones",
+   "text": "Presenta al Señor, con tus palabras o en silencio: la Iglesia y el Papa; los gobernantes; los enfermos y los que sufren; los difuntos; tu familia y quienes te han pedido oración; las vocaciones. Puedes ofrecer esta hora por alguien en concreto.",
+   "seconds": 90,
+   "minDuration": 30
+  },
+  {
+   "id": "silencio-5",
+   "kind": "silence",
+   "title": "Silencio de intercesión",
+   "text": "Nombra en tu corazón, uno a uno, a quienes quieres presentar al Señor.",
+   "seconds": 180,
+   "weight": 3,
+   "minDuration": 30
+  },
+  {
+   "id": "lectura-3",
+   "kind": "reading",
+   "title": "Palabra: permaneced en mi amor",
+   "text": "Lee despacio y deja que la Palabra te hable.",
+   "reading": "Jn 15,9-17",
+   "seconds": 100,
+   "minDuration": 60
+  },
+  {
+   "id": "reflexion-3",
+   "kind": "reflection",
+   "title": "Reflexión",
+   "text": "«Permanezcan en mi amor»: la adoración es una manera de permanecer. No se mide por lo que sentimos, sino por la fidelidad de estar. Cristo te ha llamado «amigo». Un amigo no mide el tiempo cuando está con quien ama; esta hora no es tiempo perdido, es el tiempo en el que más recibes.",
+   "seconds": 60,
+   "minDuration": 60
+  },
+  {
+   "id": "silencio-6",
+   "kind": "silence",
+   "title": "Silencio contemplativo",
+   "text": "Contempla sin palabras. Si te distraes, vuelve con suavidad: «Señor, estoy aquí».",
+   "seconds": 300,
+   "weight": 4,
+   "minDuration": 60
+  },
+  {
+   "id": "fe",
+   "kind": "prayer",
+   "title": "Acto de fe",
+   "prayer": "acto-de-fe",
+   "seconds": 30,
+   "minDuration": 60
+  },
+  {
+   "id": "esperanza",
+   "kind": "prayer",
+   "title": "Acto de esperanza",
+   "prayer": "acto-de-esperanza",
+   "seconds": 30,
+   "minDuration": 60
+  },
+  {
+   "id": "caridad",
+   "kind": "prayer",
+   "title": "Acto de caridad",
+   "prayer": "acto-de-caridad",
+   "seconds": 30,
+   "minDuration": 60
+  },
+  {
+   "id": "silencio-7",
+   "kind": "silence",
+   "title": "Silencio",
+   "text": "Quédate con el Señor unos minutos más.",
+   "seconds": 240,
+   "weight": 3,
+   "minDuration": 60
+  },
+  {
+   "id": "anima",
+   "kind": "prayer",
+   "title": "Alma de Cristo",
+   "prayer": "anima-christi",
+   "seconds": 60,
+   "minDuration": 30
+  },
+  {
+   "id": "gracias",
+   "kind": "text",
+   "title": "Acción de gracias",
+   "text": "Da gracias por esta hora y por lo que Dios ha hecho en ti. Pídele un propósito concreto y pequeño para hoy: una palabra, un gesto, una reconciliación.",
+   "seconds": 60
+  },
+  {
+   "id": "tantum",
+   "kind": "prayer",
+   "title": "Tantum ergo",
+   "prayer": "tantum-ergo",
+   "seconds": 90
+  },
+  {
+   "id": "alabanzas",
+   "kind": "prayer",
+   "title": "Alabanzas de desagravio: «Bendito sea Dios»",
+   "prayer": "bendito-sea-dios",
+   "seconds": 100
+  },
+  {
+   "id": "padre",
+   "kind": "prayer",
+   "title": "Padre Nuestro",
+   "prayer": "padre-nuestro",
+   "seconds": 40
+  },
+  {
+   "id": "gloria",
+   "kind": "prayer",
+   "title": "Gloria",
+   "prayer": "gloria",
+   "seconds": 20
+  }
+ ]
+}

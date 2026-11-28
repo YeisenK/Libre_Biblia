@@ -1,0 +1,143 @@
+{
+ "id": "examen-tiempo-sin-confesarse",
+ "kind": "examen",
+ "title": "Si hace mucho que no me confieso",
+ "description": "Acompañamiento sencillo para quien vuelve tras años: sin miedo, sin memoria perfecta, con lo esencial.",
+ "group": "Para empezar",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 10,
+ "ccc": [
+  "1451-1456",
+  "1465-1467"
+ ],
+ "steps": [
+  {
+   "id": "privacidad",
+   "kind": "text",
+   "title": "Tu examen es privado",
+   "text": "**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "empezar",
+   "kind": "reflection",
+   "title": "No tengas miedo de volver",
+   "text": "Quizá hace años, quizá muchos. Lo único que importa es que has dado el paso. En la parábola del hijo pródigo, el padre corre al encuentro de su hijo antes de que termine su discurso (Lc 15,20). El sacerdote no está ahí para juzgarte, sino para acogerte en nombre de Cristo (CIC 1465-1466).\n\n**No hace falta recordarlo todo.** Dios no te pide una memoria perfecta, sino sinceridad. Di lo que recuerdes de los pecados graves, con su número aproximado y las circunstancias que cambien su naturaleza (CIC 1456). Lo que olvides sin culpa queda perdonado con lo demás, y si más tarde lo recuerdas, lo dirás en la siguiente confesión.\n\n**Puedes empezar diciendo:** «Hace mucho tiempo que no me confieso». El sacerdote te guiará con preguntas; no tienes que preparar un discurso. El sacerdote está obligado al secreto absoluto del sigilo sacramental (CIC 1467)."
+  },
+  {
+   "id": "l1",
+   "kind": "questions",
+   "title": "Lo más importante: Dios y la fe",
+   "questions": [
+    {
+     "text": "¿Cuánto hace que no me confieso, aproximadamente? ¿Qué me alejó de Dios?"
+    },
+    {
+     "text": "¿He dejado la Misa dominical por completo o por temporadas?"
+    },
+    {
+     "text": "¿He abandonado la fe, la he negado o practicado cosas contrarias a ella?"
+    },
+    {
+     "text": "¿He comulgado sin confesarme teniendo conciencia de pecado grave?"
+    }
+   ],
+   "ccc": "2083-2141",
+   "reading": "Mc 2,17"
+  },
+  {
+   "id": "l2",
+   "kind": "questions",
+   "title": "La vida y el prójimo",
+   "questions": [
+    {
+     "text": "¿He dañado gravemente a alguien: golpes, abusos, odio duradero? ¿He participado en un aborto o lo he aconsejado? (Hay un camino de perdón y de esperanza: el sacerdote te acompañará, CIC 1465-1466.)"
+    },
+    {
+     "text": "¿Debo pedir perdón o reparar algún daño importante?"
+    },
+    {
+     "text": "¿He robado o defraudado de forma notable?"
+    }
+   ],
+   "ccc": "2258-2330"
+  },
+  {
+   "id": "l3",
+   "kind": "questions",
+   "title": "La verdad y la fidelidad",
+   "questions": [
+    {
+     "text": "¿He mentido gravemente o calumniado?"
+    },
+    {
+     "text": "¿He sido infiel a mis promesas o a mi cónyuge?"
+    },
+    {
+     "text": "¿Hay alguna situación de mi vida (convivencia, nueva unión, trabajo injusto) que debería hablar con el sacerdote?"
+    }
+   ],
+   "ccc": "2464-2513"
+  },
+  {
+   "id": "l4",
+   "kind": "questions",
+   "title": "El corazón y la afectividad",
+   "questions": [
+    {
+     "text": "¿Hay hábitos de impureza que me dominan? Se confiesan con sencillez y sin detalles innecesarios."
+    },
+    {
+     "text": "¿Me siento atrapado en alguna adicción? También eso se puede decir, y hay ayuda."
+    }
+   ],
+   "ccc": "2331-2400"
+  },
+  {
+   "id": "l5",
+   "kind": "questions",
+   "title": "Lo que me frena",
+   "questions": [
+    {
+     "text": "¿Qué me da más miedo de confesarme: la vergüenza, el qué dirán, no ser perdonado?"
+    },
+    {
+     "text": "¿Siento verdadero dolor de haber ofendido a Dios, aunque no lo sienta con emoción? El dolor es un acto de la voluntad, no de los sentimientos."
+    },
+    {
+     "text": "¿Estoy dispuesto a intentar cambiar, con la ayuda de la gracia, y a reparar lo que pueda?"
+    }
+   ],
+   "ccc": "1451-1453",
+   "reading": "Sal 51,3-4"
+  },
+  {
+   "id": "final",
+   "kind": "reflection",
+   "title": "Lo que viene",
+   "text": "Dios te espera. Después de la absolución, cumple la penitencia que te den y deja que la alegría de estar reconciliado te acompañe (CIC 1468-1470). Si el miedo te frena, puedes pedir una cita con un sacerdote para hablar con calma, y no hace falta esperar al horario general de confesiones."
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+[
+ {
+  "id": "adoro-te-devote",
+  "title": "Adoro te devote",
+  "altTitles": [
+   "Te adoro devotamente"
+  ],
+  "categories": [
+   "devociones"
+  ],
+  "moments": [
+   "any"
+  ],
+  "nature": "saint",
+  "text": "Te adoro con devoción, Dios escondido,\nque bajo estas apariencias verdaderamente te ocultas:\na ti se somete todo mi corazón,\nporque al contemplarte todo él desfallece.\n\nLa vista, el tacto, el gusto se engañan en ti,\npero solo con el oído se cree con seguridad:\ncreo todo lo que dijo el Hijo de Dios;\nnada más verdadero que esta palabra de la Verdad.\n\nEn la cruz se ocultaba solo la divinidad,\npero aquí se oculta también la humanidad:\ncreyendo y confesando ambas cosas,\npido lo que pidió el ladrón arrepentido.\n\nNo veo las llagas como las vio Tomás,\npero te confieso mi Dios:\nhaz que yo crea en ti cada vez más,\nque en ti espere, que te ame.\n\nOh memorial de la muerte del Señor,\npan vivo que das la vida al hombre:\nconcede a mi alma que de ti viva\ny que siempre guste tu dulzura.\n\nSeñor Jesús, pelícano piadoso,\nlímpiame a mí, que soy impuro, con tu sangre,\nde la cual una sola gota puede salvar\na todo el mundo de todo pecado.\n\nJesús, a quien ahora veo velado,\nte ruego que se cumpla lo que tanto deseo:\nque, contemplándote con el rostro descubierto,\nsea yo feliz con la visión de tu gloria. Amén.",
+  "latin": "Adoro te devote, latens Deitas,\nQuae sub his figuris vere latitas:\nTibi se cor meum totum subiicit,\nQuia te contemplans totum deficit.\n\nVisus, tactus, gustus in te fallitur,\nSed auditu solo tuto creditur.\nCredo quidquid dixit Dei Filius:\nNil hoc verbo Veritatis verius.\n\nIn cruce latebat sola Deitas,\nAt hic latet simul et humanitas:\nAmbo tamen credens atque confitens,\nPeto quod petivit latro poenitens.\n\nPlagas, sicut Thomas, non intueor:\nDeum tamen meum te confiteor.\nFac me tibi semper magis credere,\nIn te spem habere, te diligere.\n\nO memoriale mortis Domini,\nPanis vivus vitam praestans homini,\nPraesta meae menti de te vivere,\nEt te illi semper dulce sapere.\n\nPie pellicane, Iesu Domine,\nMe immundum munda tuo sanguine,\nCuius una stilla salvum facere\nTotum mundum quit ab omni scelere.\n\nIesu, quem velatum nunc aspicio,\nOro fiat illud quod tam sitio:\nUt te revelata cernens facie,\nVisu sim beatus tuae gloriae. Amen.",
+  "context": "Himno eucarístico atribuido a santo Tomás de Aquino (siglo XIII). Texto latino de dominio público. La traducción española es propia de Lux, literal y fiel al original; no es una versión litúrgica aprobada. Expresa la fe en la presencia real de Cristo en la Eucaristía (CIC 1373-1381).",
+  "attribution": "Atribuido a santo Tomás de Aquino. Traducción española de Lux (propia).",
+  "sources": [
+   {
+    "label": "Catecismo de la Iglesia Católica",
+    "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+   },
+   {
+    "label": "Adoro te devote (texto latino, dominio público)",
+    "url": "https://es.wikipedia.org/wiki/Adoro_te_devote"
+   }
+  ],
+  "minutes": 3
+ },
+ {
+  "id": "tantum-ergo",
+  "title": "Tantum ergo",
+  "altTitles": [
+   "Pange lingua (estrofas finales)"
+  ],
+  "categories": [
+   "devociones"
+  ],
+  "moments": [
+   "any"
+  ],
+  "nature": "liturgical",
+  "text": "Veneremos, pues, inclinados\ntan gran Sacramento,\ny que el rito antiguo\nceda ante el nuevo rito;\nque la fe supla\nla falta de los sentidos.\n\nAl Padre y al Hijo\nalabanza y júbilo,\nsalvación, honor, poder\ny bendición;\ny al que procede de ambos\nsea dada igual alabanza. Amén.",
+  "latin": "Tantum ergo Sacramentum\nVeneremur cernui:\nEt antiquum documentum\nNovo cedat ritui:\nPraestet fides supplementum\nSensuum defectui.\n\nGenitori, Genitoque\nLaus et iubilatio,\nSalus, honor, virtus quoque\nSit et benedictio:\nProcedenti ab utroque\nCompar sit laudatio. Amen.",
+  "context": "Las dos últimas estrofas del himno «Pange lingua gloriosi Corporis mysterium», de santo Tomás de Aquino, para la fiesta del Corpus Christi. Se canta tradicionalmente ante el Santísimo expuesto y en la bendición eucarística. Texto latino de dominio público; la traducción española es propia de Lux (la versión litúrgica oficial no se reproduce).",
+  "attribution": "Santo Tomás de Aquino. Traducción española de Lux (propia).",
+  "sources": [
+   {
+    "label": "Catecismo de la Iglesia Católica",
+    "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+   },
+   {
+    "label": "Pange lingua gloriosi Corporis mysterium (texto latino, dominio público)",
+    "url": "https://es.wikipedia.org/wiki/Pange_lingua"
+   }
+  ],
+  "minutes": 2
+ },
+ {
+  "id": "bendito-sea-dios",
+  "title": "Bendito sea Dios (Alabanzas de desagravio)",
+  "altTitles": [
+   "Alabanzas divinas"
+  ],
+  "categories": [
+   "devociones"
+  ],
+  "moments": [
+   "any"
+  ],
+  "nature": "devotion",
+  "text": "V. Bendito sea Dios.\nR. Bendito sea su santo nombre.\n\nBendito sea Jesucristo, verdadero Dios y verdadero hombre.\nBendito sea el nombre de Jesús.\nBendito sea su sacratísimo Corazón.\nBendita sea su preciosísima Sangre.\nBendito sea Jesús en el santísimo Sacramento del altar.\nBendito sea el Espíritu Santo, el Paráclito.\nBendita sea la excelsa Madre de Dios, la santísima Virgen María.\nBendita sea su santa e inmaculada Concepción.\nBendita sea su gloriosa Asunción.\nBendito sea el nombre de María, Virgen y Madre.\nBendito sea san José, su castísimo esposo.\nBendito sea Dios en sus ángeles y en sus santos.",
+  "context": "Letanía de alabanza que se reza tradicionalmente como desagravio por las blasfemias, y al final de la bendición con el Santísimo. Según la tradición, la compuso el jesuita Luigi Felici en 1797. Hay variantes de redacción según países; esta es una forma habitual en castellano.",
+  "attribution": "Tradición; atribuida al P. Luigi Felici, S. I. (1797).",
+  "sources": [
+   {
+    "label": "Catecismo de la Iglesia Católica",
+    "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+   },
+   {
+    "label": "Alabanzas divinas (Divine Praises): tradición católica"
+   }
+  ],
+  "minutes": 2
+ },
+ {
+  "id": "oracion-angel-de-fatima",
+  "title": "Oración del Ángel de Fátima",
+  "altTitles": [
+   "Dios mío, yo creo, adoro, espero y te amo"
+  ],
+  "categories": [
+   "devociones"
+  ],
+  "moments": [
+   "any"
+  ],
+  "nature": "devotion",
+  "text": "Dios mío, yo creo, adoro, espero y te amo.\nTe pido perdón por los que no creen, no adoran, no esperan y no te aman.\n\n*Y, tras la aparición eucarística del ángel:*\n\nSantísima Trinidad, Padre, Hijo y Espíritu Santo,\nte adoro profundamente y te ofrezco\nel preciosísimo Cuerpo, Sangre, Alma y Divinidad\nde Jesucristo, presente en todos los sagrarios de la tierra,\nen reparación de los ultrajes, sacrilegios e indiferencias\ncon que Él mismo es ofendido.\nY por los méritos infinitos de su Santísimo Corazón\ny del Inmaculado Corazón de María,\nte pido la conversión de los pobres pecadores.",
+  "context": "Según las *Memorias* de sor Lucía de Fátima, el ángel de la paz enseñó estas oraciones a los tres pastorcillos en 1916, antes de las apariciones de la Virgen. Es una devoción privada: no es obligatoria, y las fórmulas varían ligeramente según las traducciones.",
+  "attribution": "Tradición de Fátima (Memorias de sor Lucía); versión castellana de uso común.",
+  "sources": [
+   {
+    "label": "Memorias de sor Lucía de Fátima (relato de las apariciones del Ángel, 1916)"
+   }
+  ],
+  "minutes": 2
+ }
+]

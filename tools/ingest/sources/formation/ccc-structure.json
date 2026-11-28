@@ -1,0 +1,1616 @@
+{
+ "source": "https://www.vatican.va/archive/catechism_sp/index_sp.html",
+ "retrievedAt": "2026-11-26",
+ "nodes": [
+  {
+   "id": "prologo",
+   "level": "P",
+   "label": "Prólogo",
+   "title": "Prólogo",
+   "from": 1,
+   "to": 25,
+   "file": "prologue_sp.html",
+   "bible": [
+    "Mt 28,19",
+    "Mc 16,20",
+    "Hch 2,42"
+   ]
+  },
+  {
+   "id": "p1",
+   "level": "P",
+   "label": "Primera parte",
+   "title": "La profesión de la fe",
+   "children": [
+    {
+     "id": "p1-s1",
+     "level": "S",
+     "label": "Primera sección",
+     "title": "«Creo» - «Creemos»",
+     "from": 26,
+     "to": 26,
+     "file": "p1s1c1_sp.html",
+     "children": [
+      {
+       "id": "p1-s1-c1",
+       "level": "C",
+       "label": "Capítulo primero",
+       "title": "El hombre es «capaz» de Dios",
+       "from": 27,
+       "to": 49,
+       "file": "p1s1c1_sp.html",
+       "bible": [
+        "Hch 17,26",
+        "Mt 13,22",
+        "Gn 3,8"
+       ]
+      },
+      {
+       "id": "p1-s1-c2",
+       "level": "C",
+       "label": "Capítulo segundo",
+       "title": "Dios al encuentro del hombre",
+       "from": 50,
+       "to": 50,
+       "file": "p1s1c2a1_sp.html",
+       "children": [
+        {
+         "id": "p1-s1-c2-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "La Revelación de Dios",
+         "from": 51,
+         "to": 73,
+         "file": "p1s1c2a1_sp.html",
+         "bible": [
+          "Jn 11,52",
+          "Hb 1,1",
+          "1 Tm 6,16"
+         ]
+        },
+        {
+         "id": "p1-s1-c2-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "La transmisión de la Revelación divina",
+         "from": 74,
+         "to": 100,
+         "file": "p1s1c2a2_sp.html",
+         "bible": [
+          "Jn 14,6",
+          "Mt 28,20",
+          "1 Tm 6,20"
+         ]
+        },
+        {
+         "id": "p1-s1-c2-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "La Sagrada Escritura",
+         "from": 101,
+         "to": 141,
+         "file": "p1s1c2a3_sp.html",
+         "bible": [
+          "Hb 1,1",
+          "1 Ts 2,13",
+          "Lc 24,45"
+         ]
+        }
+       ],
+       "bible": []
+      },
+      {
+       "id": "p1-s1-c3",
+       "level": "C",
+       "label": "Capítulo tercero",
+       "title": "La respuesta del hombre a Dios",
+       "from": 142,
+       "to": 143,
+       "file": "p1s1c3a1_sp.html",
+       "children": [
+        {
+         "id": "p1-s1-c3-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "Creo",
+         "from": 144,
+         "to": 165,
+         "file": "p1s1c3a1_sp.html",
+         "bible": [
+          "1 Co 13,12",
+          "Hb 11,8",
+          "Gn 12,1"
+         ]
+        },
+        {
+         "id": "p1-s1-c3-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "Creemos",
+         "from": 166,
+         "to": 184,
+         "file": "p1s1c3a2_sp.html",
+         "bible": [
+          "1 Tm 3,15",
+          "Ef 4,4",
+          "Mc 16,16"
+         ]
+        }
+       ],
+       "bible": [
+        "Rm 1,5"
+       ]
+      }
+     ],
+     "bible": []
+    },
+    {
+     "id": "p1-s2",
+     "level": "S",
+     "label": "Segunda sección",
+     "title": "La profesión de la fe cristiana (los Símbolos de la fe)",
+     "from": 185,
+     "to": 197,
+     "file": "p1s2_sp.html",
+     "children": [
+      {
+       "id": "p1-s2-c1",
+       "level": "C",
+       "label": "Capítulo primero",
+       "title": "Creo en Dios Padre",
+       "from": 198,
+       "to": 198,
+       "file": "p1s2c1p1_sp.html",
+       "children": [
+        {
+         "id": "p1-s2-c1-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "«Creo en Dios, Padre todopoderoso, creador del cielo y de la tierra»",
+         "children": [
+          {
+           "id": "p1-s2-c1-a1-q1",
+           "level": "Q",
+           "label": "Párrafo 1",
+           "title": "Creo en Dios",
+           "from": 199,
+           "to": 231,
+           "file": "p1s2c1p1_sp.html",
+           "bible": [
+            "Dt 6,4",
+            "Mc 12,29",
+            "Ex 3,6"
+           ]
+          },
+          {
+           "id": "p1-s2-c1-a1-q2",
+           "level": "Q",
+           "label": "Párrafo 2",
+           "title": "El Padre",
+           "from": 232,
+           "to": 267,
+           "file": "p1s2c1p2_sp.html",
+           "bible": [
+            "Mt 28,19",
+            "Jn 14,26",
+            "Jn 15,26"
+           ]
+          },
+          {
+           "id": "p1-s2-c1-a1-q3",
+           "level": "Q",
+           "label": "Párrafo 3",
+           "title": "El Todopoderoso",
+           "from": 268,
+           "to": 278,
+           "file": "p1s2c1p3_sp.html",
+           "bible": [
+            "Lc 1,37",
+            "2 Co 12,9",
+            "Gn 1,1"
+           ]
+          },
+          {
+           "id": "p1-s2-c1-a1-q4",
+           "level": "Q",
+           "label": "Párrafo 4",
+           "title": "El Creador",
+           "from": 279,
+           "to": 324,
+           "file": "p1s2c1p4_sp.html",
+           "bible": [
+            "Gn 1,1",
+            "Gn 1,26",
+            "Rm 8,18"
+           ]
+          },
+          {
+           "id": "p1-s2-c1-a1-q5",
+           "level": "Q",
+           "label": "Párrafo 5",
+           "title": "El cielo y la tierra",
+           "from": 325,
+           "to": 354,
+           "file": "p1s2c1p5_sp.html",
+           "bible": [
+            "Sal 115,16",
+            "Mt 18,10",
+            "Sal 19,2"
+           ]
+          },
+          {
+           "id": "p1-s2-c1-a1-q6",
+           "level": "Q",
+           "label": "Párrafo 6",
+           "title": "El hombre",
+           "from": 355,
+           "to": 384,
+           "file": "p1s2c1p6_sp.html",
+           "bible": [
+            "Gn 1,27",
+            "Gn 2,7",
+            "Gn 1,28"
+           ]
+          },
+          {
+           "id": "p1-s2-c1-a1-q7",
+           "level": "Q",
+           "label": "Párrafo 7",
+           "title": "La caída",
+           "from": 385,
+           "to": 421,
+           "file": "p1s2c1p7_sp.html",
+           "bible": [
+            "Rm 5,20",
+            "1 Jn 3,8",
+            "Rm 5,12"
+           ]
+          }
+         ]
+        }
+       ],
+       "bible": [
+        "Is 44,6"
+       ]
+      },
+      {
+       "id": "p1-s2-c2",
+       "level": "C",
+       "label": "Capítulo segundo",
+       "title": "Creo en Jesucristo, Hijo único de Dios",
+       "from": 422,
+       "to": 429,
+       "file": "p1s2c2_sp.html",
+       "children": [
+        {
+         "id": "p1-s2-c2-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "«Y en Jesucristo, su único Hijo, Nuestro Señor»",
+         "from": 430,
+         "to": 455,
+         "file": "p1s2c2a2_sp.html",
+         "bible": [
+          "Mt 1,21",
+          "Jn 3,18",
+          "Hch 4,12"
+         ]
+        },
+        {
+         "id": "p1-s2-c2-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "«Jesucristo fue concebido por obra y gracia del Espíritu Santo y nació de Santa María Virgen»",
+         "children": [
+          {
+           "id": "p1-s2-c2-a3-q1",
+           "level": "Q",
+           "label": "Párrafo 1",
+           "title": "El Hijo de Dios se hizo hombre",
+           "from": 456,
+           "to": 483,
+           "file": "p1s2a3p1_sp.html",
+           "bible": [
+            "1 Jn 4,2",
+            "1 Jn 4,10",
+            "1 Jn 4,14"
+           ]
+          },
+          {
+           "id": "p1-s2-c2-a3-q2",
+           "level": "Q",
+           "label": "Párrafo 2",
+           "title": "«…Concebido por obra y gracia del Espíritu Santo, nació de Santa María Virgen»",
+           "from": 484,
+           "to": 511,
+           "file": "p1s2a3p2_sp.html",
+           "bible": [
+            "Lc 1,34",
+            "Lc 1,28",
+            "Ga 4,4"
+           ]
+          },
+          {
+           "id": "p1-s2-c2-a3-q3",
+           "level": "Q",
+           "label": "Párrafo 3",
+           "title": "Los misterios de la vida de Cristo",
+           "from": 512,
+           "to": 570,
+           "file": "p122a3p3_sp.html",
+           "bible": [
+            "Lc 9,35",
+            "Lc 2,51",
+            "Rm 4,25"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "p1-s2-c2-a4",
+         "level": "A",
+         "label": "Artículo 4",
+         "title": "«Jesucristo padeció bajo Poncio Pilato, fue crucificado, muerto y sepultado»",
+         "children": [
+          {
+           "id": "p1-s2-c2-a4-q1",
+           "level": "Q",
+           "label": "Párrafo 1",
+           "title": "Jesús e Israel",
+           "from": 571,
+           "to": 594,
+           "file": "p122a4p1_sp.html",
+           "bible": [
+            "Mc 2,7",
+            "Hb 9,15",
+            "Mc 3,6"
+           ]
+          },
+          {
+           "id": "p1-s2-c2-a4-q2",
+           "level": "Q",
+           "label": "Párrafo 2",
+           "title": "Jesús murió crucificado",
+           "from": 595,
+           "to": 623,
+           "file": "p122a4p2_sp.html",
+           "bible": [
+            "Is 53,11",
+            "Mt 20,28",
+            "1 Jn 4,10"
+           ]
+          },
+          {
+           "id": "p1-s2-c2-a4-q3",
+           "level": "Q",
+           "label": "Párrafo 3",
+           "title": "Jesucristo fue sepultado",
+           "from": 624,
+           "to": 630,
+           "file": "p122a4p3_sp.html",
+           "bible": [
+            "Hb 2,9",
+            "1 Co 15,3",
+            "Jn 19,42"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "p1-s2-c2-a5",
+         "level": "A",
+         "label": "Artículo 5",
+         "title": "«Jesucristo descendió a los infiernos, al tercer día resucitó de entre los muertos»",
+         "children": [
+          {
+           "id": "p1-s2-c2-a5-q1",
+           "level": "Q",
+           "label": "Párrafo 1",
+           "title": "Cristo descendió a los infiernos",
+           "from": 631,
+           "to": 637,
+           "file": "p122a5p1_sp.html",
+           "bible": [
+            "Ef 4,9",
+            "Hch 3,15",
+            "Flp 2,10"
+           ]
+          },
+          {
+           "id": "p1-s2-c2-a5-q2",
+           "level": "Q",
+           "label": "Párrafo 2",
+           "title": "Al tercer día resucitó de entre los muertos",
+           "from": 638,
+           "to": 658,
+           "file": "p122a5p2_sp.html",
+           "bible": [
+            "Lc 24,39",
+            "Jn 20,14",
+            "Rm 6,4"
+           ]
+          }
+         ]
+        },
+        {
+         "id": "p1-s2-c2-a6",
+         "level": "A",
+         "label": "Artículo 6",
+         "title": "«Jesucristo subió a los cielos, y está sentado a la derecha de Dios, Padre Todopoderoso»",
+         "from": 659,
+         "to": 667,
+         "file": "p1s2c2a6_sp.html",
+         "bible": [
+          "Mc 16,19",
+          "Lc 24,31",
+          "Jn 20,19"
+         ]
+        },
+        {
+         "id": "p1-s2-c2-a7",
+         "level": "A",
+         "label": "Artículo 7",
+         "title": "«Desde allí ha de venir a juzgar a vivos y a muertos»",
+         "from": 668,
+         "to": 682,
+         "file": "p1s2c2a7_sp.html",
+         "bible": [
+          "1 Jn 2,18",
+          "Mt 25,31",
+          "1 Co 15,28"
+         ]
+        }
+       ],
+       "bible": [
+        "Ga 4,4",
+        "Mc 1,1",
+        "Lc 1,68"
+       ]
+      },
+      {
+       "id": "p1-s2-c3",
+       "level": "C",
+       "label": "Capítulo tercero",
+       "title": "Creo en el Espíritu Santo",
+       "from": 683,
+       "to": 686,
+       "file": "p1s2c3_sp.html",
+       "children": [
+        {
+         "id": "p1-s2-c3-a8",
+         "level": "A",
+         "label": "Artículo 8",
+         "title": "«Creo en el Espíritu Santo»",
+         "from": 687,
+         "to": 747,
+         "file": "p1s2c3a8_sp.html",
+         "bible": [
+          "Ga 4,6",
+          "Jn 3,5",
+          "Ef 1,13"
+         ]
+        },
+        {
+         "id": "p1-s2-c3-a9",
+         "level": "A",
+         "label": "Artículo 9",
+         "title": "«Creo en la Santa Iglesia Católica»",
+         "from": 748,
+         "to": 750,
+         "file": "p1s2c3a9_sp.html",
+         "children": [
+          {
+           "id": "p1-s2-c3-a9-q1",
+           "level": "Q",
+           "label": "Párrafo 1",
+           "title": "La Iglesia en el designio de Dios",
+           "from": 751,
+           "to": 780,
+           "file": "p123a9p1_sp.html",
+           "bible": [
+            "Jn 10,1",
+            "Jn 10,11",
+            "1 Co 3,9"
+           ]
+          },
+          {
+           "id": "p1-s2-c3-a9-q2",
+           "level": "Q",
+           "label": "Párrafo 2",
+           "title": "La Iglesia, Pueblo de Dios, Cuerpo de Cristo, Templo del Espíritu Santo",
+           "from": 781,
+           "to": 810,
+           "file": "p123a9p2_sp.html",
+           "bible": [
+            "1 Co 12,13",
+            "Col 1,18",
+            "Jn 3,3"
+           ]
+          },
+          {
+           "id": "p1-s2-c3-a9-q3",
+           "level": "Q",
+           "label": "Párrafo 3",
+           "title": "La Iglesia es una, santa, católica y apostólica",
+           "from": 811,
+           "to": 870,
+           "file": "p123a9p3_sp.html",
+           "bible": [
+            "Ef 4,3",
+            "Mt 28,19",
+            "Jn 15,5"
+           ]
+          },
+          {
+           "id": "p1-s2-c3-a9-q4",
+           "level": "Q",
+           "label": "Párrafo 4",
+           "title": "Los fieles de Cristo: jerarquía, laicos, vida consagrada",
+           "from": 871,
+           "to": 945,
+           "file": "p123a9p4_sp.html",
+           "bible": [
+            "1 Co 7,34",
+            "Rm 10,14",
+            "Rm 10,17"
+           ]
+          },
+          {
+           "id": "p1-s2-c3-a9-q5",
+           "level": "Q",
+           "label": "Párrafo 5",
+           "title": "La comunión de los santos",
+           "from": 946,
+           "to": 962,
+           "file": "p123a9p5_sp.html",
+           "bible": [
+            "Hch 2,42",
+            "1 Co 12,7",
+            "Hch 4,32"
+           ]
+          },
+          {
+           "id": "p1-s2-c3-a9-q6",
+           "level": "Q",
+           "label": "Párrafo 6",
+           "title": "María, Madre de Cristo, Madre de la Iglesia",
+           "from": 963,
+           "to": 975,
+           "file": "p123a9p6_sp.html",
+           "bible": [
+            "Jn 19,26",
+            "Lc 1,48"
+           ]
+          }
+         ],
+         "bible": []
+        },
+        {
+         "id": "p1-s2-c3-a10",
+         "level": "A",
+         "label": "Artículo 10",
+         "title": "«Creo en el perdón de los pecados»",
+         "from": 976,
+         "to": 987,
+         "file": "p123a10_sp.html",
+         "bible": [
+          "Jn 20,22",
+          "Mc 16,15",
+          "Rm 4,25"
+         ]
+        },
+        {
+         "id": "p1-s2-c3-a11",
+         "level": "A",
+         "label": "Artículo 11",
+         "title": "«Creo en la resurrección de la carne»",
+         "from": 988,
+         "to": 1019,
+         "file": "p123a11_sp.html",
+         "bible": [
+          "Jn 6,39",
+          "Rm 8,11",
+          "Flp 3,10"
+         ]
+        },
+        {
+         "id": "p1-s2-c3-a12",
+         "level": "A",
+         "label": "Artículo 12",
+         "title": "«Creo en la vida eterna»",
+         "from": 1020,
+         "to": 1065,
+         "file": "p123a12_sp.html",
+         "bible": [
+          "Flp 1,23",
+          "Mt 25,31",
+          "2 Tm 1,9"
+         ]
+        }
+       ],
+       "bible": [
+        "1 Co 12,3",
+        "Ga 4,6",
+        "Jn 17,3"
+       ]
+      }
+     ],
+     "bible": [
+      "Rm 10,9",
+      "1 Co 15,3",
+      "Mt 28,19"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "level": "P",
+   "label": "Segunda parte",
+   "title": "La celebración del misterio cristiano",
+   "from": 1066,
+   "to": 1075,
+   "file": "p2_sp.html",
+   "children": [
+    {
+     "id": "p2-s1",
+     "level": "S",
+     "label": "Primera sección",
+     "title": "La economía sacramental",
+     "from": 1076,
+     "to": 1076,
+     "file": "p2s1_sp.html",
+     "children": [
+      {
+       "id": "p2-s1-c1",
+       "level": "C",
+       "label": "Capítulo primero",
+       "title": "El misterio pascual en el tiempo de la Iglesia",
+       "children": [
+        {
+         "id": "p2-s1-c1-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "La liturgia, obra de la Santísima Trinidad",
+         "from": 1077,
+         "to": 1112,
+         "file": "p2s1c1a1_sp.html",
+         "bible": [
+          "Ef 1,3",
+          "Lc 10,21",
+          "2 Co 9,15"
+         ]
+        },
+        {
+         "id": "p2-s1-c1-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "El misterio pascual en los sacramentos de la Iglesia",
+         "from": 1113,
+         "to": 1134,
+         "file": "p2s1c1a2_sp.html",
+         "bible": [
+          "Lc 24,47",
+          "Lc 5,17",
+          "Jn 16,13"
+         ]
+        }
+       ]
+      },
+      {
+       "id": "p2-s1-c2",
+       "level": "C",
+       "label": "Capítulo segundo",
+       "title": "La celebración sacramental del misterio pascual",
+       "from": 1135,
+       "to": 1135,
+       "file": "p2s1c2_sp.html",
+       "children": [
+        {
+         "id": "p2-s1-c2-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "Celebrar la Liturgia de la Iglesia",
+         "from": 1136,
+         "to": 1199,
+         "file": "p2s1c2a1_sp.html",
+         "bible": [
+          "Ap 4,2",
+          "Is 6,1",
+          "Ez 1,26"
+         ]
+        },
+        {
+         "id": "p2-s1-c2-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "Diversidad litúrgica y unidad del misterio",
+         "from": 1200,
+         "to": 1209,
+         "file": "p2s1c2a2_sp.html",
+         "bible": [
+          "2 Tm 1,14",
+          "Rm 16,26"
+         ]
+        }
+       ],
+       "bible": []
+      }
+     ],
+     "bible": [
+      "1 Co 11,26"
+     ]
+    },
+    {
+     "id": "p2-s2",
+     "level": "S",
+     "label": "Segunda sección",
+     "title": "«Los siete sacramentos de la Iglesia»",
+     "from": 1210,
+     "to": 1211,
+     "file": "p2s2_sp.html",
+     "children": [
+      {
+       "id": "p2-s2-c1",
+       "level": "C",
+       "label": "Capítulo primero",
+       "title": "Los sacramentos de la iniciación cristiana",
+       "from": 1212,
+       "to": 1212,
+       "file": "p2s2c1_sp.html",
+       "children": [
+        {
+         "id": "p2-s2-c1-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "El sacramento del Bautismo",
+         "from": 1213,
+         "to": 1284,
+         "file": "p2s2c1a1_sp.html",
+         "bible": [
+          "Jn 3,5",
+          "Mt 28,19",
+          "Mc 16,16"
+         ]
+        },
+        {
+         "id": "p2-s2-c1-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "El sacramento de la Confirmación",
+         "from": 1285,
+         "to": 1321,
+         "file": "p2s2c1a2_sp.html",
+         "bible": [
+          "Is 11,2",
+          "Lc 4,16",
+          "Is 61,1"
+         ]
+        },
+        {
+         "id": "p2-s2-c1-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "El sacramento de la Eucaristía",
+         "from": 1322,
+         "to": 1419,
+         "file": "p2s2c1a3_sp.html",
+         "bible": [
+          "1 Co 10,16",
+          "1 Co 11,24",
+          "1 Co 11,23"
+         ]
+        }
+       ],
+       "bible": []
+      },
+      {
+       "id": "p2-s2-c2",
+       "level": "C",
+       "label": "Capítulo segundo",
+       "title": "Los sacramentos de curación",
+       "from": 1420,
+       "to": 1421,
+       "file": "p2s2c2_sp.html",
+       "children": [
+        {
+         "id": "p2-s2-c2-a4",
+         "level": "A",
+         "label": "Artículo 4",
+         "title": "El sacramento de la Penitencia y de la Reconciliación",
+         "from": 1422,
+         "to": 1498,
+         "file": "p2s2c2a4_sp.html",
+         "bible": [
+          "Mc 1,15",
+          "2 Co 5,20",
+          "Mt 6,1"
+         ]
+        },
+        {
+         "id": "p2-s2-c2-a5",
+         "level": "A",
+         "label": "Artículo 5",
+         "title": "La Unción de los enfermos",
+         "from": 1499,
+         "to": 1532,
+         "file": "p2s2c2a5_sp.html",
+         "bible": [
+          "St 5,14",
+          "Mc 2,5",
+          "Is 53,4"
+         ]
+        }
+       ],
+       "bible": [
+        "2 Co 4,7",
+        "Col 3,3",
+        "2 Co 5,1"
+       ]
+      },
+      {
+       "id": "p2-s2-c3",
+       "level": "C",
+       "label": "Capítulo tercero",
+       "title": "Los sacramentos al servicio de la comunidad",
+       "from": 1533,
+       "to": 1535,
+       "file": "p2s2c3_sp.html",
+       "children": [
+        {
+         "id": "p2-s2-c3-a6",
+         "level": "A",
+         "label": "Artículo 6",
+         "title": "El sacramento del Orden",
+         "from": 1536,
+         "to": 1600,
+         "file": "p2s2c3a6_sp.html",
+         "bible": [
+          "Hb 5,1",
+          "1 Tm 3,1",
+          "2 Tm 1,6"
+         ]
+        },
+        {
+         "id": "p2-s2-c3-a7",
+         "level": "A",
+         "label": "Artículo 7",
+         "title": "El sacramento del Matrimonio",
+         "from": 1601,
+         "to": 1666,
+         "file": "p2s2c3a7_sp.html",
+         "bible": [
+          "Gn 2,18",
+          "Gn 1,28",
+          "Mt 19,6"
+         ]
+        }
+       ],
+       "bible": []
+      },
+      {
+       "id": "p2-s2-c4",
+       "level": "C",
+       "label": "Capítulo cuarto",
+       "title": "Otras celebraciones litúrgicas",
+       "children": [
+        {
+         "id": "p2-s2-c4-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "Los sacramentales",
+         "from": 1667,
+         "to": 1679,
+         "file": "p2s2c4a1_sp.html",
+         "bible": [
+          "Gn 12,2",
+          "Lc 6,28",
+          "Rm 12,14"
+         ]
+        },
+        {
+         "id": "p2-s2-c4-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "Las exequias cristianas",
+         "from": 1680,
+         "to": 1690,
+         "file": "p2s2c4a2_sp.html",
+         "bible": [
+          "2 Co 5,8",
+          "1 Co 15,42",
+          "1 Ts 4,18"
+         ]
+        }
+       ]
+      }
+     ],
+     "bible": []
+    }
+   ],
+   "bible": [
+    "Ef 1,9",
+    "Ef 3,4",
+    "Ef 3,9"
+   ]
+  },
+  {
+   "id": "p3",
+   "level": "P",
+   "label": "Tercera parte",
+   "title": "La vida en Cristo",
+   "from": 1691,
+   "to": 1698,
+   "file": "p3_sp.html",
+   "children": [
+    {
+     "id": "p3-s1",
+     "level": "S",
+     "label": "Primera sección",
+     "title": "La vocación del hombre: la vida en el Espíritu",
+     "from": 1699,
+     "to": 1699,
+     "file": "p3s1_sp.html",
+     "children": [
+      {
+       "id": "p3-s1-c1",
+       "level": "C",
+       "label": "Capítulo primero",
+       "title": "La dignidad de la persona humana",
+       "from": 1700,
+       "to": 1700,
+       "file": "p3s1c1_sp.html",
+       "children": [
+        {
+         "id": "p3-s1-c1-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "El hombre, imagen de Dios",
+         "from": 1701,
+         "to": 1715,
+         "file": "p3s1c1a1_sp.html",
+         "bible": [
+          "Col 1,15",
+          "2 Co 4,4"
+         ]
+        },
+        {
+         "id": "p3-s1-c1-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "Nuestra vocación a la bienaventuranza",
+         "from": 1716,
+         "to": 1729,
+         "file": "p3s1c1a2_sp.html",
+         "bible": [
+          "Mt 5,3",
+          "Mt 4,17",
+          "Mt 5,8"
+         ]
+        },
+        {
+         "id": "p3-s1-c1-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "La libertad del hombre",
+         "from": 1730,
+         "to": 1748,
+         "file": "p3s1c1a3_sp.html",
+         "bible": [
+          "Si 15,14",
+          "Ga 5,1",
+          "Rm 6,17"
+         ]
+        },
+        {
+         "id": "p3-s1-c1-a4",
+         "level": "A",
+         "label": "Artículo 4",
+         "title": "La moralidad de los actos humanos",
+         "from": 1749,
+         "to": 1761,
+         "file": "p3s1c1a4_sp.html",
+         "bible": [
+          "Mt 6,2"
+         ]
+        },
+        {
+         "id": "p3-s1-c1-a5",
+         "level": "A",
+         "label": "Artículo 5",
+         "title": "La moralidad de las pasiones",
+         "from": 1762,
+         "to": 1775,
+         "file": "p3s1c1a5_sp.html",
+         "bible": [
+          "Mc 7,21",
+          "Sal 84,3"
+         ]
+        },
+        {
+         "id": "p3-s1-c1-a6",
+         "level": "A",
+         "label": "Artículo 6",
+         "title": "La conciencia moral",
+         "from": 1776,
+         "to": 1802,
+         "file": "p3s1c1a6_sp.html",
+         "bible": [
+          "Rm 2,14",
+          "Rm 1,32",
+          "1 Jn 3,19"
+         ]
+        },
+        {
+         "id": "p3-s1-c1-a7",
+         "level": "A",
+         "label": "Artículo 7",
+         "title": "Las virtudes",
+         "from": 1803,
+         "to": 1845,
+         "file": "p3s1c1a7_sp.html",
+         "bible": [
+          "1 Co 13,13",
+          "Jn 15,9",
+          "Col 3,14"
+         ]
+        },
+        {
+         "id": "p3-s1-c1-a8",
+         "level": "A",
+         "label": "Artículo 8",
+         "title": "El pecado",
+         "from": 1846,
+         "to": 1876,
+         "file": "p3s1c1a8_sp.html",
+         "bible": [
+          "Rm 5,20",
+          "Mt 1,21",
+          "Mt 26,28"
+         ]
+        }
+       ],
+       "bible": [
+        "Lc 15,11"
+       ]
+      },
+      {
+       "id": "p3-s1-c2",
+       "level": "C",
+       "label": "Capítulo segundo",
+       "title": "La comunidad humana",
+       "from": 1877,
+       "to": 1877,
+       "file": "p3s1c2_sp.html",
+       "children": [
+        {
+         "id": "p3-s1-c2-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "La persona y la sociedad",
+         "from": 1878,
+         "to": 1896,
+         "file": "p3s1c2a1_sp.html",
+         "bible": [
+          "Lc 19,13",
+          "Lc 17,33"
+         ]
+        },
+        {
+         "id": "p3-s1-c2-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "La participación en la vida social",
+         "from": 1897,
+         "to": 1927,
+         "file": "p3s1c2a2_sp.html",
+         "bible": [
+          "Rm 13,1"
+         ]
+        },
+        {
+         "id": "p3-s1-c2-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "La justicia social",
+         "from": 1928,
+         "to": 1948,
+         "file": "p3s1c2a3_sp.html",
+         "bible": [
+          "Mt 25,40",
+          "Mt 5,43",
+          "Mt 25,14"
+         ]
+        }
+       ],
+       "bible": []
+      },
+      {
+       "id": "p3-s1-c3",
+       "level": "C",
+       "label": "Capítulo tercero",
+       "title": "La salvación de Dios: la ley y la gracia",
+       "from": 1949,
+       "to": 1949,
+       "file": "p3s1c3_sp.html",
+       "children": [
+        {
+         "id": "p3-s1-c3-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "La ley moral",
+         "from": 1950,
+         "to": 1986,
+         "file": "p3s1c3a1_sp.html",
+         "bible": [
+          "Rm 10,4",
+          "Rm 7,12",
+          "Rm 7,14"
+         ]
+        },
+        {
+         "id": "p3-s1-c3-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "Gracia y justificación",
+         "from": 1987,
+         "to": 2029,
+         "file": "p3s1c3a2_sp.html",
+         "bible": [
+          "Rm 3,22",
+          "Rm 6,3",
+          "Rm 6,8"
+         ]
+        },
+        {
+         "id": "p3-s1-c3-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "La Iglesia, madre y maestra",
+         "from": 2030,
+         "to": 2051,
+         "file": "p3s1c3a3_sp.html",
+         "bible": [
+          "Ga 6,2",
+          "Rm 12,1",
+          "1 Tm 3,15"
+         ]
+        }
+       ],
+       "bible": [
+        "Flp 2,12"
+       ]
+      }
+     ],
+     "bible": []
+    },
+    {
+     "id": "p3-s2",
+     "level": "S",
+     "label": "Segunda sección",
+     "title": "Los diez mandamientos",
+     "from": 2052,
+     "to": 2082,
+     "file": "p3s2_sp.html",
+     "children": [
+      {
+       "id": "p3-s2-c1",
+       "level": "C",
+       "label": "Capítulo primero",
+       "title": "«Amarás al Señor tu Dios con todo tu corazón, con toda tu alma y con todas tus fuerzas»",
+       "from": 2083,
+       "to": 2083,
+       "file": "p3s2c1_sp.html",
+       "children": [
+        {
+         "id": "p3-s2-c1-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "El primer mandamiento",
+         "from": 2084,
+         "to": 2141,
+         "file": "p3s2c1a1_sp.html",
+         "bible": [
+          "Rm 1,18",
+          "Dt 6,13",
+          "Ex 19,16"
+         ]
+        },
+        {
+         "id": "p3-s2-c1-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "El segundo mandamiento",
+         "from": 2142,
+         "to": 2167,
+         "file": "p3s2c1a2_sp.html",
+         "bible": [
+          "Is 43,1",
+          "Za 2,17",
+          "Sal 29,2"
+         ]
+        },
+        {
+         "id": "p3-s2-c1-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "El tercer mandamiento",
+         "from": 2168,
+         "to": 2195,
+         "file": "p3s2c1a3_sp.html",
+         "bible": [
+          "Ex 31,15",
+          "Mt 28,1",
+          "Ex 20,11"
+         ]
+        }
+       ],
+       "bible": [
+        "Mt 22,37",
+        "Lc 10,27",
+        "Dt 6,4"
+       ]
+      },
+      {
+       "id": "p3-s2-c2",
+       "level": "C",
+       "label": "Capítulo segundo",
+       "title": "«Amarás a tu prójimo como a ti mismo»",
+       "from": 2196,
+       "to": 2196,
+       "file": "p3s2c2_sp.html",
+       "children": [
+        {
+         "id": "p3-s2-c2-a4",
+         "level": "A",
+         "label": "Artículo 4",
+         "title": "El cuarto mandamiento",
+         "from": 2197,
+         "to": 2257,
+         "file": "p3s2c2a4_sp.html",
+         "bible": [
+          "Ex 20,12",
+          "Dt 5,16",
+          "Mc 7,10"
+         ]
+        },
+        {
+         "id": "p3-s2-c2-a5",
+         "level": "A",
+         "label": "Artículo 5",
+         "title": "El quinto mandamiento",
+         "from": 2258,
+         "to": 2330,
+         "file": "p3s2c2a5_sp.html",
+         "bible": [
+          "Gn 4,10",
+          "Mt 5,21",
+          "Mt 5,22"
+         ]
+        },
+        {
+         "id": "p3-s2-c2-a6",
+         "level": "A",
+         "label": "Artículo 6",
+         "title": "El sexto mandamiento",
+         "from": 2331,
+         "to": 2400,
+         "file": "p3s2c2a6_sp.html",
+         "bible": [
+          "Mt 5,27",
+          "Mc 10,9",
+          "1 Co 7,10"
+         ]
+        },
+        {
+         "id": "p3-s2-c2-a7",
+         "level": "A",
+         "label": "Artículo 7",
+         "title": "El séptimo mandamiento",
+         "from": 2401,
+         "to": 2463,
+         "file": "p3s2c2a7_sp.html",
+         "bible": [
+          "Dt 24,14",
+          "St 5,4",
+          "Gn 1,28"
+         ]
+        },
+        {
+         "id": "p3-s2-c2-a8",
+         "level": "A",
+         "label": "Artículo 8",
+         "title": "El octavo mandamiento",
+         "from": 2464,
+         "to": 2513,
+         "file": "p3s2c2a8_sp.html",
+         "bible": [
+          "2 Tm 1,8",
+          "Ef 4,24",
+          "Pr 8,7"
+         ]
+        },
+        {
+         "id": "p3-s2-c2-a9",
+         "level": "A",
+         "label": "Artículo 9",
+         "title": "El noveno mandamiento",
+         "from": 2514,
+         "to": 2533,
+         "file": "p3s2c2a9_sp.html",
+         "bible": [
+          "1 Jn 2,16",
+          "Ga 5,16",
+          "Ef 2,3"
+         ]
+        },
+        {
+         "id": "p3-s2-c2-a10",
+         "level": "A",
+         "label": "Artículo 10",
+         "title": "El décimo mandamiento",
+         "from": 2534,
+         "to": 2557,
+         "file": "p3s2c2a0_sp.html",
+         "bible": [
+          "Ga 5,24",
+          "Mt 5,3",
+          "1 Jn 2,16"
+         ]
+        }
+       ],
+       "bible": [
+        "Mc 12,29",
+        "Rm 13,8"
+       ]
+      }
+     ],
+     "bible": [
+      "Mt 19,16",
+      "Ex 31,18",
+      "Dt 5,6"
+     ]
+    }
+   ],
+   "bible": [
+    "Jn 1,12",
+    "1 Jn 3,1",
+    "Flp 1,27"
+   ]
+  },
+  {
+   "id": "p4",
+   "level": "P",
+   "label": "Cuarta parte",
+   "title": "La oración cristiana",
+   "from": 2558,
+   "to": 2565,
+   "file": "p4s1_sp.html",
+   "children": [
+    {
+     "id": "p4-s1",
+     "level": "S",
+     "label": "Primera sección",
+     "title": "La oración en la vida cristiana",
+     "children": [
+      {
+       "id": "p4-s1-c1",
+       "level": "C",
+       "label": "Capítulo primero",
+       "title": "La revelación de la oración",
+       "from": 2566,
+       "to": 2567,
+       "file": "p4s1c1_sp.html",
+       "children": [
+        {
+         "id": "p4-s1-c1-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "En el Antiguo Testamento",
+         "from": 2568,
+         "to": 2597,
+         "file": "p4s1c1a1_sp.html",
+         "bible": [
+          "St 5,16",
+          "Gn 3,9",
+          "Hb 10,7"
+         ]
+        },
+        {
+         "id": "p4-s1-c1-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "En la plenitud de los tiempos",
+         "from": 2598,
+         "to": 2622,
+         "file": "p4s1c1a2_sp.html",
+         "bible": [
+          "Mt 6,21",
+          "Jn 19,30",
+          "Jn 14,13"
+         ]
+        },
+        {
+         "id": "p4-s1-c1-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "En el tiempo de la Iglesia",
+         "from": 2623,
+         "to": 2649,
+         "file": "p4s1c1a3_sp.html",
+         "bible": [
+          "Ef 1,3",
+          "Rm 8,26",
+          "Rm 10,1"
+         ]
+        }
+       ],
+       "bible": [
+        "Sal 8,6",
+        "Sal 8,2",
+        "Hch 17,27"
+       ]
+      },
+      {
+       "id": "p4-s1-c2",
+       "level": "C",
+       "label": "Capítulo segundo",
+       "title": "La tradición de la oración",
+       "from": 2650,
+       "to": 2651,
+       "file": "p4s1c2_sp.html",
+       "children": [
+        {
+         "id": "p4-s1-c2-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "Fuentes de la oración",
+         "from": 2652,
+         "to": 2662,
+         "file": "p4s1c2a1_sp.html",
+         "bible": [
+          "Jn 4,14",
+          "Flp 3,8",
+          "Mt 7,7"
+         ]
+        },
+        {
+         "id": "p4-s1-c2-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "El camino de la oración",
+         "from": 2663,
+         "to": 2682,
+         "file": "p4s1c2a2_sp.html",
+         "bible": [
+          "1 Co 12,3",
+          "Lc 1,48",
+          "Jn 19,27"
+         ]
+        },
+        {
+         "id": "p4-s1-c2-a3",
+         "level": "A",
+         "label": "Artículo 3",
+         "title": "Maestros de oración",
+         "from": 2683,
+         "to": 2696,
+         "file": "p4s1c2a3_sp.html",
+         "bible": [
+          "Hb 12,1",
+          "Mt 25,21",
+          "Lc 1,17"
+         ]
+        }
+       ],
+       "bible": []
+      },
+      {
+       "id": "p4-s1-c3",
+       "level": "C",
+       "label": "Capítulo tercero",
+       "title": "La vida de oración",
+       "from": 2697,
+       "to": 2699,
+       "file": "p4s1c3_sp.html",
+       "children": [
+        {
+         "id": "p4-s1-c3-a1",
+         "level": "A",
+         "label": "Artículo 1",
+         "title": "Expresiones de la oración",
+         "from": 2700,
+         "to": 2724,
+         "file": "p4s1c3a1_sp.html",
+         "bible": [
+          "Mt 11,25",
+          "Mc 14,36",
+          "Mc 4,4"
+         ]
+        },
+        {
+         "id": "p4-s1-c3-a2",
+         "level": "A",
+         "label": "Artículo 2",
+         "title": "El combate de la oración",
+         "from": 2725,
+         "to": 2758,
+         "file": "p4s1c3a2_sp.html",
+         "bible": [
+          "Rm 8,26",
+          "1 Ts 5,17",
+          "Jn 17,11"
+         ]
+        }
+       ],
+       "bible": []
+      }
+     ]
+    },
+    {
+     "id": "p4-s2",
+     "level": "S",
+     "label": "Segunda sección",
+     "title": "La oración del Señor: «Padre nuestro»",
+     "from": 2759,
+     "to": 2760,
+     "file": "p4s2_sp.html",
+     "children": [
+      {
+       "id": "p4-s2-a1",
+       "level": "A",
+       "label": "Artículo 1",
+       "title": "«Resumen de todo el Evangelio»",
+       "from": 2761,
+       "to": 2776,
+       "file": "p4s2a1_sp.html",
+       "bible": [
+        "1 Co 11,26",
+        "Lc 11,9",
+        "Lc 24,44"
+       ]
+      },
+      {
+       "id": "p4-s2-a2",
+       "level": "A",
+       "label": "Artículo 2",
+       "title": "«Padre nuestro que estás en el cielo»",
+       "from": 2777,
+       "to": 2802,
+       "file": "p4s2a2_sp.html",
+       "bible": [
+        "Hb 1,3",
+        "Mt 11,25",
+        "1 Jn 5,1"
+       ]
+      },
+      {
+       "id": "p4-s2-a3",
+       "level": "A",
+       "label": "Artículo 3",
+       "title": "Las siete peticiones",
+       "from": 2803,
+       "to": 2865,
+       "file": "p4s2a3_sp.html",
+       "bible": [
+        "Ef 1,9",
+        "Jn 17,11",
+        "Jn 13,34"
+       ]
+      }
+     ],
+     "bible": [
+      "Lc 11,1",
+      "Lc 11,2",
+      "Mt 6,9"
+     ]
+    }
+   ],
+   "bible": [
+    "Jn 4,10",
+    "Sal 130,1",
+    "Lc 18,9"
+   ]
+  }
+ ]
+}

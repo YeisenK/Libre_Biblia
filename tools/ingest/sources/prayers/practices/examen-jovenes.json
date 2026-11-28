@@ -1,0 +1,206 @@
+{
+ "id": "examen-jovenes",
+ "kind": "examen",
+ "title": "Para jóvenes",
+ "description": "Preguntas pensadas para la vida de un joven: familia, amigos, pureza, estudios, redes y fiestas.",
+ "group": "Según tu etapa",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 15,
+ "ccc": [
+  "1776-1802",
+  "2052-2557"
+ ],
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "text",
+   "title": "Antes de empezar",
+   "text": "Ponte en presencia de Dios, que no te examina para condenarte sino para sanarte. Lee las preguntas despacio y quédate solo con las que te hablen. Marcar una pregunta no significa que sea pecado grave: es una ayuda para recordar. Si dudas de la gravedad de algo, díselo con sencillez al sacerdote: él te ayudará.\n\n**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "j1",
+   "kind": "questions",
+   "title": "Dios y mi fe",
+   "questions": [
+    {
+     "text": "¿He rezado esta semana? ¿Hablo con Dios con sinceridad?"
+    },
+    {
+     "text": "¿Voy a Misa los domingos porque quiero o solo por cumplir?"
+    },
+    {
+     "text": "¿Me da vergüenza mostrar que soy católico?"
+    },
+    {
+     "text": "¿Hay alguna idea, práctica o grupo que me aleje de Dios (ocultismo, horóscopos)?"
+    }
+   ],
+   "ccc": "2083-2141"
+  },
+  {
+   "id": "j2",
+   "kind": "questions",
+   "title": "Mi familia",
+   "questions": [
+    {
+     "text": "¿Trato bien a mis padres y hermanos, o solo les hablo cuando necesito algo?"
+    },
+    {
+     "text": "¿Obedezco y ayudo en casa?"
+    },
+    {
+     "text": "¿Les he mentido o escondido cosas importantes?"
+    }
+   ],
+   "ccc": "2196-2257"
+  },
+  {
+   "id": "j3",
+   "kind": "questions",
+   "title": "Amigos y relaciones",
+   "questions": [
+    {
+     "text": "¿Soy leal con mis amigos o hablo mal a sus espaldas?"
+    },
+    {
+     "text": "¿Me he burlado, excluido o hecho bullying a alguien?"
+    },
+    {
+     "text": "¿Dejo que el grupo me lleve a hacer lo que sé que está mal?"
+    },
+    {
+     "text": "¿Cuido a quien está solo o sufre?"
+    }
+   ],
+   "ccc": "2477-2478"
+  },
+  {
+   "id": "j4",
+   "kind": "questions",
+   "title": "Afectividad y pureza",
+   "questions": [
+    {
+     "text": "¿Cuido la pureza de mi mirada y mis pensamientos?"
+    },
+    {
+     "text": "¿Veo pornografía o cosas que me hacen daño? Si me cuesta salir, también eso se puede decir en confesión sin miedo."
+    },
+    {
+     "text": "¿Respeto mi cuerpo y el de los demás en mis relaciones?"
+    },
+    {
+     "text": "¿Pido ayuda a Dios, y a una persona de confianza, cuando me siento débil?"
+    }
+   ],
+   "ccc": "2331-2400"
+  },
+  {
+   "id": "j5",
+   "kind": "questions",
+   "title": "Estudio y responsabilidades",
+   "questions": [
+    {
+     "text": "¿Estudio con esfuerzo o me escabullo? ¿Copio en los exámenes?"
+    },
+    {
+     "text": "¿Cumplo lo que prometo?"
+    },
+    {
+     "text": "¿Soy perezoso o dejo para después lo importante?"
+    }
+   ],
+   "ccc": "2427-2428"
+  },
+  {
+   "id": "j6",
+   "kind": "questions",
+   "title": "Redes, móvil y pantallas",
+   "questions": [
+    {
+     "text": "¿Paso horas en redes y descuido estudio, familia, oración o descanso?"
+    },
+    {
+     "text": "¿He publicado o reenviado algo que hiere, miente o expone a otros?"
+    },
+    {
+     "text": "¿Comparo mi vida con la de otros hasta sentir envidia o tristeza?"
+    }
+   ],
+   "ccc": "2284-2287"
+  },
+  {
+   "id": "j7",
+   "kind": "questions",
+   "title": "Fiestas, alcohol y drogas",
+   "questions": [
+    {
+     "text": "¿He bebido hasta perder el control o consumido drogas?"
+    },
+    {
+     "text": "¿Pongo en riesgo mi vida o la de otros (conducir, retos)?"
+    },
+    {
+     "text": "¿He ido a lugares o ambientes que sé que me hacen caer?"
+    }
+   ],
+   "ccc": "2288-2291"
+  },
+  {
+   "id": "j8",
+   "kind": "questions",
+   "title": "Honestidad y generosidad",
+   "questions": [
+    {
+     "text": "¿Soy honesto o hago trampas, robo, miento por conveniencia?"
+    },
+    {
+     "text": "¿Soy agradecido con lo que tengo?"
+    },
+    {
+     "text": "¿He ayudado a alguien sin esperar nada a cambio?"
+    }
+   ],
+   "ccc": "2401-2463"
+  },
+  {
+   "id": "j9",
+   "kind": "questions",
+   "title": "Mi interior",
+   "questions": [
+    {
+     "text": "¿Me dejo llevar por la ira, el orgullo o la envidia?"
+    },
+    {
+     "text": "¿Me cuido en cuerpo y mente? Si estás pasando por ansiedad o tristeza profunda, habla con alguien de confianza o un profesional; no es un pecado."
+    },
+    {
+     "text": "¿Qué quiere Dios de mí ahora?"
+    }
+   ],
+   "ccc": "1776-1802"
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

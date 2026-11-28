@@ -8,11 +8,11 @@ const sans = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap
 const serif = Source_Serif_4({ subsets: ['latin'], variable: '--font-serif', display: 'swap' });
 
 export const metadata: Metadata = {
-  title: { default: 'Libre Biblia', template: '%s · Libre Biblia' },
+  title: { default: 'Lux', template: '%s · Lux' },
   description: 'Biblia, oración, Rosario y novenas: lectura, comparación de versiones, búsqueda y vida de oración católica.',
   manifest: '/manifest.webmanifest',
   icons: { icon: '/icons/icon.svg', apple: '/icons/apple-touch-icon.png' },
-  appleWebApp: { capable: true, title: 'Libre Biblia', statusBarStyle: 'black-translucent' },
+  appleWebApp: { capable: true, title: 'Lux', statusBarStyle: 'black-translucent' },
 };
 export const viewport: Viewport = { themeColor: '#0b0b12', width: 'device-width', initialScale: 1, viewportFit: 'cover' };
 

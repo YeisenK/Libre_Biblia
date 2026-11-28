@@ -4,7 +4,7 @@ export interface SourceSpec {
   name: string;
   language: string;
   edition: string;
-  format: 'usfm' | 'sword-ztext';
+  format: 'usfm' | 'sword-ztext' | 'wikisource-pages';
   files: string[];
   license: string;
   licenseUrl: string;

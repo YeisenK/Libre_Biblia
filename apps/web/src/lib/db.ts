@@ -1,11 +1,11 @@
 import Dexie, { type Table } from 'dexie';
-import type { Authority, CatalogEntry, DailyEntry, MysterySet, PackSource, PrayerMoment, PrayersPack } from '@bc/shared';
+import type { Authority, CatalogEntry, DailyEntry, MysterySet, PackSource, PrayerMoment, PrayersPack, SaintsPack } from '@bc/shared';
 import type { UserSettings } from './settings';
 import type { ChapterIndex } from './chapters';
 
 export interface InstalledPack {
   id: string;
-  kind: 'bible' | 'document' | 'daily' | 'prayers' | 'audio';
+  kind: 'bible' | 'document' | 'daily' | 'prayers' | 'audio' | 'saints' | 'hours' | 'formation';
   version: string;
   title: string;
   description?: string;
@@ -169,7 +169,8 @@ export interface RoutineRow {
   moment: PrayerMoment;
   items: RoutineItemKey[];
   /** Recordatorio local */
-  reminder: { enabled: boolean; time: string; days: number[] } | null;
+  /** `message`: texto propio del aviso; si falta, se usa uno de los mensajes de Lux (rotan cada día). */
+  reminder: { enabled: boolean; time: string; days: number[]; message?: string } | null;
   order: number;
   createdAt: string;
   updatedAt: string;
@@ -220,6 +221,74 @@ export interface PrayerHistoryRow {
   at: string;
 }
 
+// ── Lux v0.5: biblioteca personal, colecciones y diario (esquema v4, docs/PLAN_LUX.md) ──
+
+/** Libro importado por el usuario (EPUB, PDF, TXT, Markdown…). El archivo va en `bookFiles`. */
+export interface ImportedBookRow {
+  id: string; // "user:<uuid>"
+  format: 'epub' | 'pdf' | 'txt' | 'md' | 'html' | 'fb2' | 'other';
+  title: string;
+  author?: string;
+  language?: string;
+  description?: string;
+  coverBlob?: Blob;
+  bytes: number;
+  fileName: string;
+  addedAt: string;
+  updatedAt: string;
+  /** Última posición: CFI (EPUB), página (PDF) o desplazamiento (texto) */
+  position?: string;
+  progress?: number; // 0..1
+}
+export interface BookFileRow {
+  bookId: string;
+  blob: Blob;
+}
+/** Marcador, subrayado o nota en un libro importado o un documento del catálogo. */
+export interface AnnotationRow {
+  id: string;
+  /** "user:<uuid>" (importado) o id de paquete `doc.*` */
+  bookId: string;
+  kind: 'bookmark' | 'highlight' | 'note';
+  /** Localizador: CFI, "p:<n>", "s:<path>:<offset>" */
+  locator: string;
+  text?: string;
+  note?: string;
+  color?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+/** Colección personal genérica (oraciones, obras de arte, libros, santos…). */
+export interface UserCollectionRow {
+  id: string;
+  kind: 'prayers' | 'art' | 'books' | 'saints' | 'mixed';
+  title: string;
+  /** Claves estables: "prayer:<id>", "novena:<id>", "art:<id>", "book:<id>", "saint:<id>"… */
+  items: string[];
+  createdAt: string;
+  updatedAt: string;
+}
+/** Entrada del diario espiritual (privada, local). */
+export interface DiaryEntryRow {
+  id: string;
+  date: string; // YYYY-MM-DD local
+  kind: 'reflection' | 'purpose' | 'intention' | 'gratitude' | 'quote' | 'reading' | 'retreat' | 'note';
+  title?: string;
+  text: string;
+  /** Referencias opcionales: "bible:<ref>", "saint:<id>", "prayer:<id>"… */
+  refs?: string[];
+  /** Solo para intenciones de oración: estado opcional, sin puntuación. */
+  status?: 'encomendada' | 'atendida';
+  createdAt: string;
+  updatedAt: string;
+}
+/** Favorito genérico de contenido de Lux (santos, obras de arte, documentos, piezas musicales…). */
+export interface LuxFavoriteRow {
+  key: string; // "saint:<id>", "art:<id>", "music:<id>", "doc:<id>", "ccc:<n>"…
+  title: string;
+  savedAt: string;
+}
+
 export interface RepositoryRow {
   url: string;
   name?: string;
@@ -252,6 +321,13 @@ export class AppDb extends Dexie {
   novenaProgress!: Table<NovenaProgressRow, string>;
   rosarySessions!: Table<RosarySessionRow, string>;
   prayerHistory!: Table<PrayerHistoryRow, number>;
+  importedBooks!: Table<ImportedBookRow, string>;
+  bookFiles!: Table<BookFileRow, string>;
+  annotations!: Table<AnnotationRow, string>;
+  userCollections!: Table<UserCollectionRow, string>;
+  diaryEntries!: Table<DiaryEntryRow, string>;
+  luxFavorites!: Table<LuxFavoriteRow, string>;
+  saintPacks!: Table<{ id: string; pack: SaintsPack }, string>;
 
   constructor(name = 'bc-local') {
     super(name);
@@ -284,6 +360,16 @@ export class AppDb extends Dexie {
       novenaProgress: 'novenaId, updatedAt',
       rosarySessions: 'id, updatedAt, completedAt',
       prayerHistory: '++id, at, key',
+    });
+    // v4 (Lux 0.5): biblioteca personal, anotaciones, colecciones, diario y favoritos generales.
+    this.version(4).stores({
+      importedBooks: 'id, format, addedAt, updatedAt',
+      bookFiles: 'bookId',
+      annotations: 'id, bookId, [bookId+kind], updatedAt',
+      userCollections: 'id, kind, updatedAt',
+      diaryEntries: 'id, date, kind, updatedAt',
+      luxFavorites: 'key, savedAt',
+      saintPacks: 'id',
     });
   }
 }

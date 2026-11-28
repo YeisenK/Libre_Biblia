@@ -1,0 +1,180 @@
+[
+  {
+    "id": "ante-studium",
+    "title": "Oración de santo Tomás de Aquino antes del estudio",
+    "categories": [
+      "escuela",
+      "santos"
+    ],
+    "moments": [
+      "morning"
+    ],
+    "nature": "saint",
+    "text": "Creador inefable, que de los tesoros de tu sabiduría\nestableciste tres jerarquías de ángeles\ny las dispusiste con admirable orden sobre el cielo empíreo,\ny distribuiste con elegancia las partes del universo:\ntú, que eres la verdadera fuente de luz y de sabiduría\ny el principio supremo,\nderrama sobre las tinieblas de mi inteligencia\nun rayo de tu claridad,\nalejando de mí la doble oscuridad en que nací:\nel pecado y la ignorancia.\n\nTú, que haces elocuentes las lenguas de los niños,\ninstruye mi lengua\ny derrama en mis labios la gracia de tu bendición.\nDame agudeza para entender, capacidad para retener,\nmétodo y facilidad para aprender,\nsutileza para interpretar y gracia abundante para expresarme.\nAl empezar, instrúyeme; al avanzar, dirígeme;\nal terminar, llévame a la plenitud.\nTú, que eres verdadero Dios y hombre,\nque vives y reinas por los siglos de los siglos. Amén.",
+    "context": "Oración atribuida tradicionalmente a santo Tomás de Aquino (1225-1274), que la rezaba antes de estudiar, escribir o predicar. Se conoce por sus primeras palabras latinas, *Ineffabilis Creator* (o *Creator ineffabilis*) y suele titularse *Ante studium*. Pío XI la recordó en la encíclica *Studiorum Ducem* (1923) al celebrar el sexto centenario de su canonización. La autoría tomista se sostiene por la tradición; como ocurre con otras oraciones antiguas, algunos estudiosos discuten su atribución. Traducción española propia del latín, fiel y de uso libre.",
+    "sources": [
+      {
+        "label": "Pío XI, encíclica Studiorum Ducem (29-VI-1923)"
+      },
+      {
+        "label": "Oración «Ante studium» (Creator ineffabilis), atribuida a santo Tomás de Aquino. Referencia: Wikipedia, «Creator ineffabilis»",
+        "url": "https://en.wikipedia.org/wiki/Creator_ineffabilis"
+      },
+      {
+        "label": "Traducción española propia (CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1,
+    "attribution": "Santo Tomás de Aquino (atribución tradicional)",
+    "scripture": [
+      "Pr 2,6",
+      "Sab 7,7"
+    ],
+    "latin": "Ineffabilis Creator, qui de thesauris sapientiae tuae tres angelorum hierarchias designasti et eas super caelum empyreum miro ordine collocasti atque universi partes elegantissime distribuisti: Tu, inquam, qui verus fons luminis et sapientiae diceris ac supereminens principium, infundere digneris super intellectus mei tenebras tuae radium claritatis, duplices in quibus natus sum a me removens tenebras, peccatum scilicet et ignorantiam.\n\nTu, qui linguas infantium facis disertas, linguam meam erudias atque in labiis meis gratiam tuae benedictionis infundas. Da mihi intelligendi acumen, retinendi capacitatem, addiscendi modum et facilitatem, interpretandi subtilitatem, loquendi gratiam copiosam. Ingressum instruas, progressum dirigas, egressum compleas. Tu, qui es verus Deus et homo, qui vivis et regnas in saecula saeculorum. Amen.",
+    "altTitles": [
+      "Ante studium",
+      "Creator ineffabilis"
+    ]
+  },
+  {
+    "id": "nada-te-turbe",
+    "title": "Nada te turbe",
+    "categories": [
+      "vida-personal",
+      "santos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "saint",
+    "text": "Nada te turbe,\nnada te espante,\ntodo se pasa,\nDios no se muda,\nla paciencia\ntodo lo alcanza;\nquien a Dios tiene\nnada le falta:\nsolo Dios basta.",
+    "context": "Poesía de santa Teresa de Jesús (1515-1582), hallada escrita de su mano en su breviario. Es una de sus composiciones más conocidas y se reza como oración de confianza en la prueba. Texto en castellano del siglo XVI, de dominio público.",
+    "sources": [
+      {
+        "label": "Santa Teresa de Jesús, Poesías (poema «Nada te turbe»), dominio público"
+      }
+    ],
+    "minutes": 1,
+    "attribution": "Santa Teresa de Jesús",
+    "scripture": [
+      "Jn 14,27",
+      "Sal 23,4"
+    ],
+    "altTitles": [
+      "Poesía de santa Teresa"
+    ]
+  },
+  {
+    "id": "suscipe-san-ignacio",
+    "title": "Tomad, Señor, y recibid",
+    "categories": [
+      "vida-personal",
+      "santos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "saint",
+    "text": "Tomad, Señor, y recibid\ntoda mi libertad,\nmi memoria, mi entendimiento\ny toda mi voluntad,\ntodo mi haber y mi poseer.\nVos me lo disteis,\na Vos, Señor, lo torno.\nTodo es vuestro:\ndisponed a toda vuestra voluntad.\nDadme vuestro amor y gracia,\nque ésta me basta.",
+    "context": "Oración de ofrecimiento (*Suscipe*) con que san Ignacio de Loyola (1491-1556) concluye los *Ejercicios Espirituales* (n. 234), al final de la «Contemplación para alcanzar amor». Texto castellano original, de dominio público.",
+    "sources": [
+      {
+        "label": "San Ignacio de Loyola, Ejercicios Espirituales, 234 (dominio público)"
+      }
+    ],
+    "minutes": 1,
+    "attribution": "San Ignacio de Loyola",
+    "scripture": [
+      "2 Co 12,9"
+    ],
+    "altTitles": [
+      "Suscipe"
+    ]
+  },
+  {
+    "id": "oracion-de-abandono-foucauld",
+    "title": "Oración de abandono",
+    "categories": [
+      "vida-personal",
+      "santos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "saint",
+    "text": "Padre mío, me abandono a ti,\nhaz de mí lo que quieras.\nLo que hagas de mí te lo agradezco;\nestoy dispuesto a todo, lo acepto todo.\nCon tal de que tu voluntad se cumpla en mí\ny en todas tus criaturas,\nno deseo nada más, Dios mío.\nPongo mi vida en tus manos.\nTe la doy, Dios mío,\ncon todo el amor de mi corazón,\nporque te amo\ny necesito darme,\nponerme en tus manos sin medida,\ncon infinita confianza,\nporque tú eres mi Padre.",
+    "context": "Oración de Charles de Foucauld (1858-1916), canonizado el 15 de mayo de 2022, fechada hacia 1896 en sus meditaciones sobre el Evangelio, a partir de las últimas palabras de Jesús en la cruz (Lc 23,46). Es una de las oraciones de abandono más difundidas. Traducción española propia del texto francés; se ofrece en su forma breve y se aconseja rezarla despacio. Se invita a leerla como ofrecimiento libre y no como resignación pasiva ante el mal injusto.",
+    "sources": [
+      {
+        "label": "Charles de Foucauld, Meditaciones sobre el Evangelio (1896); texto francés «Père, je m'abandonne à toi»"
+      },
+      {
+        "label": "Traducción española propia (CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1,
+    "attribution": "San Carlos de Foucauld (traducción propia)",
+    "scripture": [
+      "Lc 23,46"
+    ]
+  },
+  {
+    "id": "tarde-te-ame",
+    "title": "Tarde te amé",
+    "categories": [
+      "vida-personal",
+      "santos"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "saint",
+    "text": "¡Tarde te amé, belleza tan antigua y tan nueva,\ntarde te amé!\nTú estabas dentro de mí y yo fuera,\ny por fuera te buscaba.\nTú estabas conmigo, y yo no estaba contigo.\nMe llamaste, gritaste y rompiste mi sordera;\nbrillaste, resplandeciste y ahuyentaste mi ceguera;\nexhalaste tu perfume, y respiré, y suspiro por ti;\nte gusté, y tengo hambre y sed;\nme tocaste, y ardí en deseos de tu paz.",
+    "context": "Pasaje célebre de las *Confesiones* de san Agustín (354-430), libro X, 27, escrito hacia el año 400. Expresa la alegría de haber encontrado a Dios tras buscarlo fuera de sí. Traducción española propia del latín (*Sero te amavi*).",
+    "sources": [
+      {
+        "label": "San Agustín, Confesiones, X, 27 (siglo IV-V); traducción española propia (CC BY-SA 4.0)"
+      }
+    ],
+    "minutes": 1,
+    "attribution": "San Agustín de Hipona",
+    "scripture": [
+      "Sal 63,2"
+    ],
+    "altTitles": [
+      "Sero te amavi"
+    ]
+  },
+  {
+    "id": "itinerarium",
+    "title": "Itinerarium: oración del viaje",
+    "categories": [
+      "circunstancias",
+      "proteccion"
+    ],
+    "moments": [
+      "any"
+    ],
+    "nature": "prayer",
+    "text": "V. Por camino de paz nos guíe el Dios todopoderoso y misericordioso.\nR. Y el ángel Rafael nos acompañe en el camino, para que lleguemos en paz, salud y alegría.\n\nV. Muéstranos, Señor, tu misericordia.\nR. Y danos tu salvación.\nV. Señor, escucha mi oración.\nR. Y llegue a ti mi clamor.\n\nV. Guarda a tus siervos.\nR. Que esperan en ti, Dios mío.\nV. Sé para nosotros, Señor, torre fuerte.\nR. Frente al enemigo.\nV. Muéstranos, Señor, tus caminos.\nR. Y enséñanos tus senderos.\n\n**Oremos.** Dios nuestro, que sacaste a Abrahán de Ur de los caldeos y lo guardaste en todos sus caminos: concédenos tu protección en este viaje, sé para nosotros defensa en el camino y refugio en el cansancio, y llévanos al destino con bien. Por Cristo, nuestro Señor. Amén.",
+    "context": "El *Itinerarium* es la oración tradicional de la Iglesia latina para quien se pone en camino. Se recogía en el Breviario Romano y reúne el cántico de Zacarías (*Benedictus*, Lc 1,68-79) con una antífona, versículos de los Salmos y una oración final. Aquí se ofrece una **forma abreviada y de traducción propia**: versículos y antífona libres de los textos bíblicos, sin el *Benedictus*, que puedes rezar completo en el Oficio. No es el texto íntegro del Breviario; la oración final es una redacción nuestra, rotulada como tal, inspirada en las oraciones por los viajeros. Para un viaje largo puede completarse con el Padrenuestro y el Ave María.",
+    "sources": [
+      {
+        "label": "Breviario Romano, Ordo itinerantium («Itinerarium»); forma abreviada con traducción propia (CC BY-SA 4.0)"
+      },
+      {
+        "label": "Libro de Tobías 5-12 (ángel Rafael, acompañante de camino)"
+      }
+    ],
+    "minutes": 1,
+    "attribution": "Tradición del Breviario Romano; forma abreviada y traducción propias",
+    "scripture": [
+      "Lc 1,68-79",
+      "Tb 5,4-6",
+      "Sal 25,4"
+    ],
+    "altTitles": [
+      "Oración del viajero"
+    ]
+  }
+]

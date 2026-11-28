@@ -1,4 +1,4 @@
-Libre Biblia es una aplicación para leer y estudiar la Biblia católica, con una pequeña biblioteca de cultura hispánica y textos espirituales. Es software libre, no tiene cuentas, no muestra anuncios y no recoge ningún dato tuyo.
+Lux es una aplicación para leer y estudiar la Biblia católica, con una pequeña biblioteca de cultura hispánica y textos espirituales. Es software libre, no tiene cuentas, no muestra anuncios y no recoge ningún dato tuyo.
 
 CONTENIDO QUE PUEDES DESCARGAR
 La aplicación no trae textos de terceros incrustados: tú eliges qué descargar desde la sección «Contenido», y todo queda guardado en tu dispositivo para leerlo sin conexión. El repositorio oficial incluye, entre otros:

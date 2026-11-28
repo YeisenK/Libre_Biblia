@@ -28,7 +28,7 @@ function languageName(code?: string): string {
     return code;
   }
 }
-const KIND_LABEL = { bible: 'Biblias', document: 'Documentos', daily: 'Versículo del día', prayers: 'Oraciones', audio: 'Voces de oración' } as const;
+const KIND_LABEL = { bible: 'Biblias', document: 'Documentos', daily: 'Versículo del día', prayers: 'Oraciones', audio: 'Voces de oración', saints: 'Santoral', formation: 'Formación', hours: 'Oración de las Horas' } as const;
 
 export default function Page() {
   const qc = useQueryClient();
@@ -193,7 +193,7 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-3xl">
       {toast && (
-        <div role="status" className="fixed inset-x-4 bottom-[calc(5rem+env(safe-area-inset-bottom))] z-50 mx-auto max-w-md rounded-xl border border-line bg-surface p-3 text-sm shadow-xl md:bottom-6">
+        <div role="status" className="fixed inset-x-4 bottom-[calc(5rem+var(--sab))] z-50 mx-auto max-w-md rounded-xl border border-line bg-surface p-3 text-sm shadow-xl md:bottom-6">
           La instalación sigue en curso. Espera a que termine antes de salir.
         </div>
       )}

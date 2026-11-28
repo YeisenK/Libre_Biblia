@@ -2,10 +2,26 @@
 import Link from 'next/link';
 import { formatReference, tryParseReference } from '@bc/shared';
 import { refHref } from '@/lib/links';
+import { splitReadings } from '@/lib/prayers/catalog';
 import { usePassage } from './hooks';
 
-/** Pasaje bíblico del misterio: texto de la Biblia instalada preferida y enlace al lector. */
+/**
+ * Pasaje bíblico del misterio: texto de la Biblia instalada preferida y enlace al lector.
+ * Admite referencias compuestas de varios libros («Jn 19,16-17; Lc 23,26-32»).
+ */
 export function PassagePanel({ reference, compact }: { reference: string; compact?: boolean }) {
+  const parts = splitReadings(reference);
+  if (parts.length <= 1) return <SinglePassage reference={reference} compact={compact} />;
+  return (
+    <div className="flex flex-col gap-5">
+      {parts.map((r) => (
+        <SinglePassage key={r} reference={r} compact={compact} />
+      ))}
+    </div>
+  );
+}
+
+function SinglePassage({ reference, compact }: { reference: string; compact?: boolean }) {
   const q = usePassage(reference);
   const parsed = tryParseReference(reference);
   const r = q.data;

@@ -1,0 +1,135 @@
+{
+  "id": "encontrar-trabajo-san-jose",
+  "title": "Novena para encontrar trabajo",
+  "group": "work_vocation",
+  "description": "Nueve días de esperanza y de acción para quien busca empleo, con san José.",
+  "image": {
+    "icon": "family",
+    "tint": "#8a6a3b"
+  },
+  "introduction": "San José trabajó con sus manos para sostener a la Sagrada Familia. Para quien busca empleo, la tradición cristiana le ha encomendado desde antiguo la necesidad de ganar el pan honradamente. El Catecismo recuerda que el trabajo es un derecho y un deber, y que la sociedad debe ayudar a los ciudadanos a encontrar trabajo (CIC 2433).",
+  "purpose": "Acompañar con oración la búsqueda de empleo: paciencia, claridad, humildad para pedir ayuda y confianza. No promete resultados en nueve días; invita a unir la oración con acciones concretas (currículum, contactos, formación). Si tu situación es urgente, acude también a los servicios sociales y a la Cáritas parroquial.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "San José, hombre justo y trabajador, ayúdame en esta búsqueda. Dame paciencia y buen criterio. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Poner la situación ante Dios",
+      "reading": "Sal 37,5",
+      "reflection": "Encomienda tu camino al Señor, confía en él y él actuará. Empiezo diciéndole con sinceridad cómo me siento ante esta etapa.",
+      "prayer": "Señor, aquí está mi búsqueda. Ponla bajo tu cuidado."
+    },
+    {
+      "day": 2,
+      "title": "El trabajo es digno",
+      "reading": "Gn 2,15",
+      "reflection": "El trabajo no es solo un medio de sustento, sino colaboración en la obra del Creador. Mi valor no depende de tener empleo.",
+      "prayer": "Dios Creador, que no pierda mi dignidad en la espera."
+    },
+    {
+      "day": 3,
+      "title": "San José, el carpintero",
+      "reading": "Mt 13,55",
+      "reflection": "José ejerció un oficio humilde. Ninguna tarea honrada es pequeña a tus ojos. Hoy estoy dispuesto a considerar opciones que no había pensado.",
+      "prayer": "San José, enséñame a no despreciar ningún trabajo honrado."
+    },
+    {
+      "day": 4,
+      "title": "Prepararme y formarme",
+      "reading": "Pr 22,29",
+      "reflection": "Quien es diestro en su trabajo estará ante reyes. Dedico un rato a mejorar mi currículum, aprender algo o actualizar mi perfil.",
+      "prayer": "Señor, hazme constante en prepararme mientras espero."
+    },
+    {
+      "day": 5,
+      "title": "Pedir ayuda y contactar",
+      "reading": "Qo 4,9-10",
+      "reflection": "Dos valen más que uno. Hoy escribo a alguien que pueda orientarme y acepto la ayuda de otros sin vergüenza.",
+      "prayer": "Dios mío, quita mi orgullo y abre puertas por medio de otros."
+    },
+    {
+      "day": 6,
+      "title": "Paciencia en la espera",
+      "reading": "Sal 27,14",
+      "reflection": "Espera en el Señor, sé valiente y firme de corazón. La espera no es tiempo perdido si se vive con confianza.",
+      "prayer": "Señor, dame paciencia sin resignación pasiva."
+    },
+    {
+      "day": 7,
+      "title": "Los lirios y las aves",
+      "reading": "Mt 6,26-33",
+      "reflection": "Mirad las aves del cielo: el Padre las alimenta. Jesús no pide pasividad, sino confianza libre de angustia.",
+      "prayer": "Padre, que busque primero tu Reino y no me consuma la ansiedad."
+    },
+    {
+      "day": 8,
+      "title": "Honradez en todo",
+      "reading": "Ef 4,28",
+      "reflection": "Trabaje con sus manos para tener qué compartir. Rechazo atajos deshonestos y quiero un trabajo limpio.",
+      "prayer": "Señor, que no haga nada contrario a la justicia por necesidad."
+    },
+    {
+      "day": 9,
+      "title": "Agradecer y entregar",
+      "reading": "Flp 4,6-7",
+      "reflection": "Presentad vuestras peticiones a Dios con acción de gracias; su paz custodiará vuestros corazones. Entrego el resultado y agradezco lo ya recibido.",
+      "prayer": "San José, intercede por mí. Hágase la voluntad del Padre."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San José, patrono de los trabajadores, ruega por mí y por todos los que buscan trabajo. Que encuentre una ocupación digna, y mientras tanto, esperanza y paz. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-jose"
+  ],
+  "tags": [
+    "encontrar trabajo san jose",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 5,
+    "day": 1,
+    "label": "Memoria de san José Obrero"
+  }
+}

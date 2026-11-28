@@ -1,0 +1,115 @@
+{
+ "opening": {
+  "es": "Señor, ven en mi auxilio.\nSeñor, date prisa en socorrerme.\n\nGloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre, y por los siglos de los siglos. Amén.",
+  "la": "Deus, in adiutorium meum intende.\nDomine, ad adiuvandum me festina.\n\nGloria Patri, et Filio, et Spiritui Sancto.\nSicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen.",
+  "note": "Sal 70,2 (Vulgata 69,2); doxología tradicional."
+ },
+ "invitatory-opening": {
+  "es": "Señor, ábreme los labios.\nY mi boca proclamará tu alabanza.",
+  "la": "Domine, labia mea aperies.\nEt os meum annuntiabit laudem tuam.",
+  "note": "Sal 51,17 (Vulgata 50,17)."
+ },
+ "glory": {
+  "es": "Gloria al Padre, y al Hijo, y al Espíritu Santo.\nComo era en el principio, ahora y siempre, y por los siglos de los siglos. Amén.",
+  "la": "Gloria Patri, et Filio, et Spiritui Sancto.\nSicut erat in principio, et nunc et semper, et in saecula saeculorum. Amen."
+ },
+ "our-father": {
+  "es": "Padre nuestro, que estás en el cielo,\nsantificado sea tu nombre;\nvenga a nosotros tu reino;\nhágase tu voluntad\nen la tierra como en el cielo.\nDanos hoy nuestro pan de cada día;\nperdona nuestras ofensas,\ncomo también nosotros perdonamos a los que nos ofenden;\nno nos dejes caer en la tentación,\ny líbranos del mal. Amén.",
+  "la": "Pater noster, qui es in caelis,\nsanctificetur nomen tuum;\nadveniat regnum tuum;\nfiat voluntas tua,\nsicut in caelo et in terra.\nPanem nostrum cotidianum da nobis hodie;\net dimitte nobis debita nostra,\nsicut et nos dimittimus debitoribus nostris;\net ne nos inducas in tentationem,\nsed libera nos a malo. Amen.",
+  "note": "Mt 6,9-13; texto tradicional."
+ },
+ "dismissal": {
+  "es": "El Señor nos bendiga, nos guarde de todo mal y nos lleve a la vida eterna. Amén.\n\nBendigamos al Señor.\nDemos gracias a Dios.",
+  "la": "Benedicamus Domino.\nDeo gratias.",
+  "note": "Bendición: Composición de Lux. Despedida: fórmula latina tradicional."
+ },
+ "day-dismissal": {
+  "es": "Bendigamos al Señor.\nDemos gracias a Dios.",
+  "la": "Benedicamus Domino.\nDeo gratias."
+ },
+ "compline-blessing": {
+  "es": "Que el Señor todopoderoso nos conceda una noche tranquila y un final santo. Amén.",
+  "la": "Noctem quietam et finem perfectum concedat nobis Dominus omnipotens. Amen.",
+  "note": "Fórmula latina tradicional de Completas; traducción: Composición de Lux."
+ },
+ "examen": {
+  "es": "Examen de conciencia breve\n\nEn silencio, repasa el día: ¿qué he recibido?, ¿en qué he amado?, ¿en qué he fallado?\n\nSeñor, me reconozco pecador ante ti y ante mis hermanos. Perdóname lo que he hecho y lo que he dejado de hacer, y renueva en mí tu paz. Amén.",
+  "note": "Composición de Lux."
+ },
+ "gospel-canticle-benedictus": {
+  "es": "Cántico evangélico de Zacarías",
+  "la": "Canticum Zachariae",
+  "ref": "Lc 1,68-79"
+ },
+ "gospel-canticle-magnificat": {
+  "es": "Cántico evangélico de la Virgen María",
+  "la": "Canticum Mariae",
+  "ref": "Lc 1,46-55"
+ },
+ "gospel-canticle-nunc": {
+  "es": "Cántico evangélico de Simeón",
+  "la": "Canticum Simeonis",
+  "ref": "Lc 2,29-32"
+ },
+ "marian-salve": {
+  "title": "Salve Regina",
+  "la": "Salve, Regina, mater misericordiae;\nvita, dulcedo et spes nostra, salve.\nAd te clamamus, exsules filii Evae.\nAd te suspiramus, gementes et flentes in hac lacrimarum valle.\nEia ergo, advocata nostra, illos tuos misericordes oculos ad nos converte.\nEt Iesum, benedictum fructum ventris tui, nobis post hoc exsilium ostende.\nO clemens, o pia, o dulcis Virgo Maria.",
+  "es": "Dios te salve, Reina y Madre de misericordia;\nvida, dulzura y esperanza nuestra, Dios te salve.\nA ti clamamos los desterrados hijos de Eva;\na ti suspiramos, gimiendo y llorando en este valle de lágrimas.\nEa, pues, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos;\ny, después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre.\nOh clementísima, oh piadosa, oh dulce Virgen María.",
+  "note": "Antífona mariana (s. XI); tiempo ordinario."
+ },
+ "marian-alma": {
+  "title": "Alma Redemptoris Mater",
+  "la": "Alma Redemptoris Mater, quae pervia caeli\nporta manes, et stella maris, succurre cadenti,\nsurgere qui curat, populo: tu quae genuisti,\nnatura mirante, tuum sanctum Genitorem,\nVirgo prius ac posterius, Gabrielis ab ore\nsumens illud Ave, peccatorum miserere.",
+  "es": "Madre bondadosa del Redentor, que permaneces puerta abierta del cielo\ny estrella del mar, socorre al pueblo que cae y se afana por levantarse:\ntú que engendraste, con asombro de la naturaleza,\na tu santo Creador, Virgen antes y después,\nque recibiste aquel «Ave» de labios de Gabriel,\nten piedad de los pecadores.",
+  "note": "Antífona mariana (s. XI); de Adviento a la Presentación."
+ },
+ "marian-ave-regina": {
+  "title": "Ave, Regina caelorum",
+  "la": "Ave, Regina caelorum,\nave, Domina angelorum:\nsalve, radix, salve, porta,\nex qua mundo lux est orta:\ngaude, Virgo gloriosa,\nsuper omnes speciosa;\nvale, o valde decora,\net pro nobis Christum exora.",
+  "es": "Salve, Reina de los cielos;\nsalve, Señora de los ángeles;\nsalve, raíz; salve, puerta,\nde la que nació la luz para el mundo.\nAlégrate, Virgen gloriosa,\nhermosa sobre todas;\nadiós, oh bellísima,\ny ruega por nosotros a Cristo.",
+  "note": "Antífona mariana (s. XII); Cuaresma."
+ },
+ "marian-regina-caeli": {
+  "title": "Regina caeli",
+  "la": "Regina caeli, laetare, alleluia:\nquia quem meruisti portare, alleluia,\nresurrexit, sicut dixit, alleluia:\nora pro nobis Deum, alleluia.",
+  "es": "Reina del cielo, alégrate, aleluya,\nporque el que mereciste llevar en tu seno, aleluya,\nha resucitado como dijo, aleluya;\nruega por nosotros a Dios, aleluya.",
+  "note": "Antífona mariana (s. XII); Pascua."
+ },
+ "o-antiphons": {
+  "12-17": {
+   "title": "O Sapientia",
+   "la": "O Sapientia, quae ex ore Altissimi prodisti, attingens a fine usque ad finem, fortiter suaviterque disponens omnia: veni ad docendum nos viam prudentiae.",
+   "es": "Oh Sabiduría, que brotaste de la boca del Altísimo, que alcanzas de un extremo al otro y todo lo dispones con fuerza y suavidad: ven a enseñarnos el camino de la prudencia."
+  },
+  "12-18": {
+   "title": "O Adonai",
+   "la": "O Adonai, et dux domus Israel, qui Moysi in igne flammae rubi apparuisti, et ei in Sina legem dedisti: veni ad redimendum nos in brachio extento.",
+   "es": "Oh Adonai, jefe de la casa de Israel, que te apareciste a Moisés en el fuego de la zarza y le diste en el Sinaí la ley: ven a redimirnos con brazo poderoso."
+  },
+  "12-19": {
+   "title": "O Radix Iesse",
+   "la": "O Radix Iesse, qui stas in signum populorum, super quem continebunt reges os suum, quem gentes deprecabuntur: veni ad liberandum nos, iam noli tardare.",
+   "es": "Oh Raíz de Jesé, que te alzas como señal para los pueblos, ante quien los reyes callarán y a quien las naciones invocarán: ven a librarnos, no tardes más."
+  },
+  "12-20": {
+   "title": "O Clavis David",
+   "la": "O Clavis David, et sceptrum domus Israel; qui aperis, et nemo claudit; claudis, et nemo aperit: veni, et educ vinctum de domo carceris, sedentem in tenebris et umbra mortis.",
+   "es": "Oh Llave de David y cetro de la casa de Israel, que abres y nadie cierra, cierras y nadie abre: ven y saca de la cárcel al cautivo, que habita en tinieblas y sombra de muerte."
+  },
+  "12-21": {
+   "title": "O Oriens",
+   "la": "O Oriens, splendor lucis aeternae, et sol iustitiae: veni, et illumina sedentes in tenebris et umbra mortis.",
+   "es": "Oh Sol naciente, resplandor de la luz eterna y sol de justicia: ven e ilumina a los que habitan en tinieblas y sombra de muerte."
+  },
+  "12-22": {
+   "title": "O Rex gentium",
+   "la": "O Rex gentium, et desideratus earum, lapisque angularis, qui facis utraque unum: veni, et salva hominem, quem de limo formasti.",
+   "es": "Oh Rey de las naciones y deseado de ellas, piedra angular que haces de dos pueblos uno: ven y salva al hombre que formaste del barro."
+  },
+  "12-23": {
+   "title": "O Emmanuel",
+   "la": "O Emmanuel, Rex et legifer noster, exspectatio gentium, et Salvator earum: veni ad salvandum nos, Domine Deus noster.",
+   "es": "Oh Emmanuel, Rey y legislador nuestro, esperanza de las naciones y salvador suyo: ven a salvarnos, Señor Dios nuestro."
+  }
+ }
+}

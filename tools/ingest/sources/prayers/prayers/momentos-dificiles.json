@@ -3,7 +3,8 @@
     "id": "oracion-en-tiempos-de-dificultad",
     "title": "En tiempos de dificultad",
     "categories": [
-      "momentos-dificiles"
+      "momentos-dificiles",
+      "vida-personal"
     ],
     "moments": [
       "any"
@@ -22,7 +23,8 @@
     "title": "Por los enfermos",
     "categories": [
       "momentos-dificiles",
-      "sacramentos"
+      "sacramentos",
+      "relaciones"
     ],
     "moments": [
       "any"
@@ -70,7 +72,8 @@
     "title": "En la angustia",
     "categories": [
       "momentos-dificiles",
-      "proteccion"
+      "proteccion",
+      "vida-personal"
     ],
     "moments": [
       "any"
@@ -148,7 +151,8 @@
     "id": "hagase-tu-voluntad",
     "title": "«Hágase tu voluntad»",
     "categories": [
-      "momentos-dificiles"
+      "momentos-dificiles",
+      "vida-personal"
     ],
     "moments": [
       "any"

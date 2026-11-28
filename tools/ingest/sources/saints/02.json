@@ -1,0 +1,1117 @@
+[
+ {
+  "id": "presentacion-del-senor",
+  "name": "La Presentación del Señor",
+  "status": "mystery",
+  "celebrations": [
+   {
+    "date": "02-02",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "La Presentación del Señor",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "summary": "Fiesta del Señor que recuerda el momento en que María y José presentan al niño Jesús en el Templo de Jerusalén, cuarenta días después de su nacimiento, y Simeón lo proclama «luz para alumbrar a las naciones».",
+  "context": "Judaísmo del Segundo Templo: la ley de Moisés prescribía la purificación de la madre y la presentación y rescate del primogénito.",
+  "virtues": [
+   "Obediencia a la ley",
+   "Humildad de los pobres",
+   "Espera esperanzada"
+  ],
+  "significance": "Fiesta del Señor con fuerte dimensión mariana, llamada popularmente «la Candelaria» por la procesión con velas; en ella se celebra la Jornada de la Vida Consagrada.",
+  "iconography": "María y José llevan al niño al Templo; Simeón lo recibe en brazos y Ana la profetisa mira; el cordero o las dos tórtolas o palomas ofrecidos; velas encendidas.",
+  "sources": [
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "unverified": true,
+  "note": "Pendiente: no se leyó ninguna fuente litúrgica oficial (Normas universales sobre el año litúrgico, Directorio) ni estudio; el texto se apoya en Lucas 2,22-40 y en la lista de GCatholic (fiesta del Señor, 2 de febrero, blanco). Añadir enlace al Evangelio o al Calendario Romano General.",
+  "biography": "La fiesta de la Presentación del Señor se celebra el 2 de febrero, cuarenta días después de la Navidad, y es una de las celebraciones del Señor que, por su fecha, caen en el santoral. Su fundamento es el relato del evangelio de Lucas (2,22-40). Según la ley de Moisés, una mujer era considerada ritualmente impura durante un período tras el parto y debía presentar en el Templo una ofrenda de purificación; al primogénito varón, consagrado a Dios, se le «rescataba» con un sacrificio. María y José, como pobres, ofrecieron «un par de tórtolas o dos pichones».\n\nLucas destaca dos testigos, Simeón y Ana. Simeón, hombre justo y piadoso que esperaba «el consuelo de Israel» y a quien el Espíritu Santo había anunciado que no vería la muerte antes de ver al Mesías, tomó al niño en brazos y bendijo a Dios con las palabras que la Iglesia reza cada noche en Completas: «Ahora, Señor, puedes dejar a tu siervo irse en paz... porque mis ojos han visto a tu Salvador, luz para alumbrar a las naciones y gloria de tu pueblo Israel». Anunció también a María que una espada atravesaría su alma: es la primera alusión del Evangelio al sufrimiento de la Madre. Ana, anciana profetisa que vivía en el Templo en ayuno y oración, alabó a Dios y habló del niño a quienes esperaban la redención de Jerusalén.\n\nEn Oriente la fiesta se celebró desde la Antigüedad, con el nombre de «Encuentro» (Hypapante), y llegó a Roma más tarde; en Occidente se le dio durante siglos el nombre de «Purificación de la Santísima Virgen María», hasta que la reforma litúrgica de 1969 devolvió el acento a su sentido cristológico y la llamó Presentación del Señor. Recibe popularmente el nombre de «Candelaria», porque en ella se bendicen las velas y se hace una procesión, signo de Cristo, luz de las naciones.\n\nEl sentido de la fiesta es doble. Por un lado, Jesús se somete, como cualquier israelita, a la ley, y se ofrece al Padre; es ya el comienzo de su ofrenda que culminará en la cruz. Por otro, es un «encuentro» entre el Señor que llega a su casa y el pueblo, representado por los ancianos Simeón y Ana, que esperaban. Desde 1997, Juan Pablo II la asoció con la Jornada Mundial de la Vida Consagrada, porque la ofrenda del niño al Padre es también el modelo de toda vida entregada a Dios.\n\nEn muchos países de tradición hispana, el 2 de febrero se celebra con bendición de velas y con la presentación de los niños pequeños en la iglesia, y en México y otras regiones, con el nombre de Candelaria, se vincula a costumbres populares como las de la bendición del Niño Dios del nacimiento. Estos usos, más que adornos, reflejan lo que la fiesta quiere decir: que Jesús es la luz que llega a todos y que se deja recibir por los humildes."
+ },
+ {
+  "id": "blas-de-sebaste",
+  "name": "San Blas",
+  "fullName": "Blas de Sebaste",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-03",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Blas, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo III (fecha desconocida)",
+   "place": "Sebaste (Armenia Menor)"
+  },
+  "died": {
+   "date": "hacia 316 (según las actas legendarias)",
+   "place": "Sebaste"
+  },
+  "century": 4,
+  "countries": [
+   "AM",
+   "TR"
+  ],
+  "summary": "Obispo de Sebaste, mártir a comienzos del siglo IV; casi todo lo que se cuenta de él procede de actas legendarias, pero su culto es antiquísimo y de él nace la bendición de las gargantas.",
+  "biography": "Blas (en latín Blasius) fue obispo de Sebaste, en la Armenia Menor, y murió mártir. Eso es prácticamente todo lo que la historia puede afirmar con seguridad. La Enciclopedia Católica señala que la mayoría de los relatos sitúan su martirio bajo el emperador Licinio, hacia el año 316, y que «se puede suponer» que murió a comienzos del siglo IV. No figura en la recensión más antigua del Martirologio Jeronimiano, sino solo en catálogos ampliados posteriores, y su fiesta se fijaba en fechas distintas: el 15 de febrero en martirologios europeos del siglo IX, el 11 en los sinaxarios griegos y el 3 en la Iglesia latina.\n\nLos pormenores de su vida proceden de unas Actas redactadas mucho después y conservadas en varias versiones. Según ellas, Blas era médico antes de ser elegido obispo; durante la persecución se retiró a una cueva, donde las fieras acudían a él, hasta que unos cazadores del gobernador Agrícola lo apresaron. En la cárcel, según la tradición, curó a un niño que se ahogaba con una espina de pescado clavada en la garganta. Fue desgarrado con peines de hierro y finalmente decapitado; las mismas actas hablan de siete mujeres martirizadas con él. La propia Enciclopedia Católica juzga «puramente legendarios» estos detalles, aunque advierte que no conviene rechazarlos del todo, porque pueden conservar tradiciones antiguas ligadas a su culto.\n\nLo que sí es histórico es la extraordinaria difusión de su veneración. Llegó pronto a Europa y fue uno de los santos más populares de la Edad Media, con numerosas iglesias y altares dedicados a él y un lugar entre los Catorce Santos Auxiliadores. La razón de tanta fama no está clara; la más probable es su condición, atribuida por la leyenda, de médico, que movía a los fieles a pedirle su intercesión en la enfermedad. Varias ciudades (Tarento, Ragusa, la abadía de la Selva Negra que lleva su nombre) han afirmado poseer reliquias suyas.\n\nDe ahí procede la bendición de san Blas, que se da el 3 de febrero en muchos lugares: el sacerdote cruza dos velas bendecidas sobre la cabeza o la garganta de los fieles, o les toca la garganta con la mecha de una vela mojada en aceite bendito, e invoca la intercesión del santo para que Dios libre de los males de garganta «y de cualquier otro mal». Es un sacramental, es decir, un signo de oración confiada de la Iglesia, no una garantía de curación.\n\nLo que enseña la figura de Blas, más allá de la leyenda, es la fidelidad del pastor que acepta el riesgo de su pueblo en tiempos de persecución y la ternura de una Iglesia que ve en el cuidado de los enfermos una forma concreta de caridad. En la iconografía se le representa como obispo con dos velas cruzadas, con el peine de hierro de su suplicio o en la cueva rodeado de animales.",
+  "context": "Persecución de Licinio en Oriente (hacia 316), cuando el emperador, ya enfrentado con Constantino, hostigó a los cristianos de sus provincias.",
+  "virtues": [
+   "Caridad con los enfermos",
+   "Fidelidad"
+  ],
+  "significance": "Obispo mártir de enorme devoción popular en Oriente y Occidente; origen de la bendición de las gargantas en su fiesta.",
+  "iconography": "Obispo con dos velas cruzadas, peine de cardador de hierro y, a veces, un cerdo o un niño.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907), «St. Blaise» (J. P. Kirsch)",
+    "url": "https://www.newadvent.org/cathen/02592a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "anscario",
+  "name": "San Anscario (Óscar)",
+  "fullName": "Anscario (Ansgar, Óscar) de Hamburgo-Bremen",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-03",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Óscar, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "missionary",
+   "religious"
+  ],
+  "born": {
+   "date": "8 de septiembre de 801",
+   "place": "Picardía (Francia)"
+  },
+  "died": {
+   "date": "3 de febrero de 865",
+   "place": "Bremen"
+  },
+  "century": 9,
+  "countries": [
+   "DE",
+   "DK",
+   "SE",
+   "FR"
+  ],
+  "order": "Benedictinos (Corbie y Corvey)",
+  "summary": "Monje benedictino de Corbie, llamado «apóstol del Norte»: evangelizó Dinamarca y Suecia y fue primer arzobispo de Hamburgo-Bremen.",
+  "context": "Imperio carolingio y expansión vikinga en el siglo IX; los ataques normandos destruyeron Hamburgo en 845.",
+  "virtues": [
+   "Celo misionero",
+   "Caridad con los pobres",
+   "Austeridad",
+   "Perseverancia ante el fracaso"
+  ],
+  "significance": "Pionero de la evangelización de Escandinavia; su vida, escrita por su discípulo Rimberto, es una fuente fundamental.",
+  "iconography": "Obispo con la maqueta de una iglesia o el báculo, a veces con un barco vikingo; en Escandinavia, con la cruz misionera.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907), «St. Anschar»",
+    "url": "https://www.newadvent.org/cathen/01544c.htm"
+   },
+   {
+    "label": "Rimberto, «Vida de Anscario» (Fordham University, Internet Medieval Sourcebook)",
+    "url": "https://sourcebooks.fordham.edu/basis/anskar.asp"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "La Enciclopedia Católica da 5 de febrero para su muerte; la «Vida» de Rimberto y el martirologio, 3 de febrero (fecha litúrgica); se sigue esta última.",
+  "biography": "Anscario (Ansgar, en español también Óscar) nació el 8 de septiembre de 801 en Picardía y se educó en el antiguo monasterio de Corbie, cerca de Amiens, donde se hizo benedictino. Cuando se fundó el nuevo monasterio de Corbie (Corvey), junto al río Weser, en 822, se trasladó allí con otros monjes y dirigió su escuela. Su biografía fue escrita por su discípulo y sucesor Rimberto, y es nuestra fuente principal, aunque con la inclinación edificante propia del género.\n\nEn 826, el rey danés Harald, derrocado, se bautizó en Ingelheim, y Anscario lo acompañó a Dinamarca como misionero. Fundó en Hedeby (Schleswig) una escuela para formar jóvenes daneses como evangelizadores. El celo de Harald provocó una reacción, y los misioneros fueron expulsados; Anscario regresó varias veces a Dinamarca y llegó a ganarse al rey Erico, con quien logró, según la Enciclopedia Católica, introducir las campanas y moderar el comercio de esclavos.\n\nHacia 829, cuando unos embajadores suecos pidieron maestros cristianos, Anscario viajó a Suecia. En Birka, el rey Björn le permitió predicar y un consejero real, Herigar, se bautizó y construyó la primera iglesia del país. Anscario volvió a Suecia en 853 y pudo seguir predicando después de una asamblea pública. En 831, Luis el Piadoso erigió el arzobispado de Hamburgo y Anscario fue su primer prelado, además de legado pontificio para los pueblos del Norte bajo Gregorio IV. En 845, el vikingo Erico de Jutlandia asaltó Hamburgo y destruyó sus iglesias; Anscario fue por un tiempo un fugitivo. En 847 un sínodo de Maguncia unió Hamburgo a Bremen, y desde esa sede continuó su trabajo; el papa lo confirmó en 857. Carlos el Calvo le privó de sus propiedades flamencas hasta que Luis el Germánico restituyó su sede.\n\nRimberto lo describe viviendo con gran austeridad, con cilicio y riguroso ayuno, cantando salmos y celebrando la misa varias veces al día; daba la décima parte de sus ingresos a los pobres, alimentaba a los pobres antes de comer él y en cuaresma les lavaba los pies. Edificó hospitales, rescató cautivos, envió limosnas al extranjero y escribió la vida de san Willehad, primer obispo de Bremen; quedan pocas cartas suyas. Murió el 3 de febrero de 865, a los sesenta y cuatro años, según Rimberto.\n\nLa misión de Anscario no consiguió un éxito inmediato. Tras su muerte, el cristianismo escandinavo retrocedió, y sería evangelizado de forma sólida solo siglos después. Pero fue él quien abrió el camino: es el primer misionero de los pueblos del Norte, de ahí el título de «apóstol del Norte». Su vida enseña la paciencia del sembrador, que sigue adelante tras la ruina de su obra (Hamburgo, destruida) y confía en que fructifique más tarde. En Alemania se le conoce como «Scharies», y una colegiata de Bremen lleva su nombre. Su memoria se celebra el 3 de febrero, como memoria libre, en el Calendario Romano."
+ },
+ {
+  "id": "agueda-de-catania",
+  "name": "Santa Águeda",
+  "fullName": "Águeda de Catania",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-05",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa Águeda, virgen y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "martyr"
+  ],
+  "born": {
+   "date": "siglo III (fecha desconocida)",
+   "place": "Catania o Palermo (Sicilia)"
+  },
+  "died": {
+   "date": "hacia 251 (según la tradición, bajo Decio)",
+   "place": "Catania"
+  },
+  "century": 3,
+  "countries": [
+   "IT"
+  ],
+  "summary": "Virgen y mártir siciliana de la que solo es seguro el martirio y un culto muy antiguo, extendido desde Catania a Roma; sus actas, tardías, son legendarias.",
+  "biography": "Águeda (Ágata) es una de las mártires más antiguas y populares de la Iglesia, pero casi nada de su vida está documentado. La Enciclopedia Católica lo dice con claridad: lo históricamente cierto es su martirio y el culto público que se le rindió desde los primeros siglos. Su fiesta del 5 de febrero ya aparece en el Martirologio Jeronimiano y en el cartaginés. Catania y Palermo se disputan su cuna; Catania la venera como patrona.\n\nLas Actas, en versión latina y griega, no son anteriores al siglo VI en su forma actual y su autor buscaba edificar más que informar. Según ellas, Águeda era una joven de familia distinguida y gran belleza que rechazó las proposiciones del senador Quintiano. Este la confió a una mujer corrompida que no logró quebrar su fe; después la sometió a diversos tormentos, entre ellos la mutilación de los pechos, rasgo que marcó para siempre su iconografía. Según el relato, san Pedro se le apareció en la cárcel y la curó, y murió a consecuencia de los suplicios. La tradición sitúa los hechos en la persecución de Decio, hacia el año 251, pero nada permite afirmarlo con seguridad.\n\nLa fama de la santa se hizo pronto universal. El poeta Venancio Fortunato la nombra entre las vírgenes y mártires célebres; una carta del papa Gelasio (492-496) menciona una basílica suya en una finca llamada Caclano; en Roma existía una iglesia de Santa Águeda en la Subura, enriquecida con un mosaico en el siglo V por Ricimero, quien después la entregó a los godos arrianos, hasta que Gregorio Magno (590-604) la devolvió al culto católico. Un himno que corrió bajo el nombre del papa Dámaso fue en realidad compuesto por un autor posterior para la liturgia.\n\nLa devoción popular le atribuyó protección contra el fuego y, en torno al Etna, contra las erupciones. En muchos lugares se bendicen en su fiesta panes y agua, llamados «pan de santa Águeda». Su nombre figura en el Canon romano entre las mártires que acompañan a la Virgen María en la memoria de los santos.\n\nMás allá de las leyendas, Águeda enseña algo esencial: la libertad de quien pertenece a Cristo y no puede ser poseída ni forzada por el poder. Los fieles de todas las épocas la sintieron cercana precisamente porque su testimonio es el de una mujer joven que, ante la violencia, no cedió. Cuando el relato se llena de prodigios, conviene recordar que lo que la Iglesia ha custodiado durante diecisiete siglos es, sobre todo, la memoria de su fidelidad.",
+  "context": "Persecución de Decio (249-251), a la que la tradición atribuye su martirio; las actas actuales datan del siglo VI.",
+  "virtues": [
+   "Fortaleza",
+   "Pureza",
+   "Fidelidad"
+  ],
+  "significance": "Una de las mártires más veneradas de la Antigüedad; figura en el Canon romano y es patrona de Catania.",
+  "iconography": "Joven con una bandeja con los pechos o tenazas, palma y a veces una antorcha.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907), «St. Agatha of Catania»",
+    "url": "https://www.newadvent.org/cathen/01203c.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "patronages": [
+   "Catania (patrona de la ciudad)"
+  ],
+  "note": "En el calendario de México la celebración aparece el 4 de febrero (GCatholic 2026), porque el 5 es fiesta de san Felipe de Jesús; ver informe al coordinador."
+ },
+ {
+  "id": "felipe-de-jesus",
+  "name": "San Felipe de Jesús",
+  "fullName": "Felipe de las Casas Ruiz",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-05",
+    "rank": "feast",
+    "calendar": "mx",
+    "title": "San Felipe de Jesús, mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "religious",
+   "missionary"
+  ],
+  "born": {
+   "date": "1572 (la fecha tradicional del 1 de mayo no está confirmada)",
+   "place": "Ciudad de México"
+  },
+  "died": {
+   "date": "5 de febrero de 1597",
+   "place": "Nagasaki (Japón)"
+  },
+  "century": 16,
+  "countries": [
+   "MX",
+   "PH",
+   "JP"
+  ],
+  "order": "Franciscanos descalzos (Provincia de San Diego)",
+  "canonization": {
+   "date": "8 de junio de 1862",
+   "by": "Pío IX"
+  },
+  "summary": "Primer santo nacido en México: joven franciscano descalzo, naufragado camino de México y martirizado en Nagasaki el 5 de febrero de 1597 con otros veinticinco cristianos.",
+  "biography": "Felipe de las Casas nació en la Ciudad de México en 1572, hijo de padres españoles recién emigrados a la Nueva España; la fecha tradicional del 1 de mayo no está confirmada. Fue el primer mexicano llevado a los altares. Su vida, antes del martirio, fue la de un joven inquieto. Ingresó en los franciscanos descalzos, la Provincia de San Diego de México, pero abandonó el convento tras pocos meses, y marchó a Filipinas, donde entró en el comercio y llevó una vida alejada de la vida religiosa. En Manila volvió a solicitar el hábito, que recibió con el nombre de Felipe de Jesús; las fuentes modernas sitúan este reingreso hacia 1590.\n\nComo la sede episcopal de Manila estaba vacante, sus superiores decidieron enviarlo a México para recibir allí la ordenación sacerdotal. Zarpó en el galeón San Felipe el 12 de julio de 1596. Una tormenta arrastró la nave hasta la costa de Japón, donde fue confiscada. Poco después, Toyotomi Hideyoshi, ya receloso de los misioneros españoles, mandó arrestar a los franciscanos de Miyako (Kioto); Felipe, que se hallaba en el país por el naufragio, fue detenido con ellos el 8 de diciembre de 1596.\n\nCon los demás prisioneros se le cortó parte de la oreja izquierda y emprendió, a pie y en pleno invierno, el camino hasta Nagasaki, adonde llegó el 5 de febrero de 1597. Allí fue atado a una cruz y traspasado con lanzas, en la colina que después se llamó de los Mártires. Murió con unos veinticuatro o veinticinco años, sin haber llegado a ordenarse sacerdote. Según la tradición, se cuenta que sus labios invocaron los nombres de Jesús y María, aunque los testimonios primarios que lo atestiguan no son del todo precisos. Sus restos fueron llevados a México en 1598.\n\nFue beatificado por Urbano VIII el 14 de septiembre de 1627 y canonizado por Pío IX el 8 de junio de 1862 con sus compañeros. En México se celebra su fiesta el 5 de febrero, con rango de fiesta en el calendario propio del país; en el calendario universal queda incluido en la memoria de Pablo Miki y compañeros el día 6.\n\nLa vida de Felipe enseña que la santidad no depende de un comienzo irreprochable: un joven que había dejado el convento y buscado fortuna encontró, tras el naufragio, la fidelidad hasta el final. Su figura une tres mundos, México, Filipinas y Japón, dentro del gran movimiento misionero de la monarquía española en el Pacífico, y recuerda que la Iglesia mexicana nació también como Iglesia misionera.",
+  "context": "Imperio español en el Pacífico: el galeón de Manila y las misiones franciscanas en Japón.",
+  "virtues": [
+   "Conversión",
+   "Fortaleza",
+   "Fidelidad hasta la muerte"
+  ],
+  "significance": "Primer santo mexicano; símbolo del vínculo entre México, Filipinas y Japón.",
+  "iconography": "Joven franciscano con hábito pardo y cuerda, atado a una cruz y traspasado por dos lanzas, con palma.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1913), mártires del Japón en 1597",
+    "url": "https://www.newadvent.org/cathen/09744a.htm"
+   },
+   {
+    "label": "Wikipedia en inglés, «Philip of Jesus» (CC BY-SA; solo para cotejar fechas, redacción propia)",
+    "url": "https://en.wikipedia.org/wiki/Philip_of_Jesus"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "unverified": true,
+  "note": "Nombre completo (Casas Ruiz vs. Casas Martínez), fecha exacta de nacimiento (1 de mayo de 1572 es tradicional) y año de su reingreso en Manila (1590 según Wikipedia; la ficha anterior decía 1594) no se pudieron contrastar en fuente primaria o de orden religiosa. Pendiente: Dicasterio o Franciscanos."
+ },
+ {
+  "id": "pablo-miki-y-companeros",
+  "name": "San Pablo Miki y compañeros",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-06",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Pablo Miki y compañeros, mártires",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "missionary",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 1564",
+   "place": "cerca de Osaka (Japón)"
+  },
+  "died": {
+   "date": "5 de febrero de 1597",
+   "place": "Nagasaki (Japón)"
+  },
+  "century": 16,
+  "countries": [
+   "JP",
+   "ES",
+   "MX"
+  ],
+  "canonization": {
+   "date": "8 de junio de 1862",
+   "by": "Pío IX"
+  },
+  "summary": "Veintiséis cristianos —seis franciscanos, tres jesuitas y diecisiete laicos japoneses— crucificados en Nagasaki el 5 de febrero de 1597 por orden de Toyotomi Hideyoshi.",
+  "biography": "El 5 de febrero de 1597 fueron crucificados en una colina de Nagasaki veintiséis cristianos: seis misioneros franciscanos, tres jesuitas japoneses y diecisiete laicos, entre ellos niños de doce y trece años. Son los primeros mártires del Extremo Oriente canonizados (Pío IX, 8 de junio de 1862; su beatificación había sido en 1627, por Urbano VIII). La memoria litúrgica se celebra el 6 de febrero.\n\nEl contexto fue político y misionero a la vez. Tras décadas de rápido crecimiento de la Iglesia en Japón, el regente Toyotomi Hideyoshi había decretado la expulsión de los misioneros en 1587, aunque sin aplicarla con rigor. A los jesuitas portugueses se habían sumado hacia 1593 franciscanos llegados de Filipinas. La Enciclopedia Católica recuerda que la nave española «San Felipe» naufragó en la costa japonesa; su cargamento fue confiscado y surgió el temor de que los españoles pretendieran anexionar el país. Hideyoshi ordenó entonces registrar a los cristianos de Miyako (Kioto) y Osaka.\n\nPablo Miki, el más conocido del grupo, nació hacia 1564 en una familia acomodada cercana a Osaka, convertida al cristianismo. Entró a los veinte años en el seminario jesuita de Azuchi y dos años más tarde en la Compañía de Jesús. Era un orador elocuente que atraía a muchos budistas. Fue detenido el 9 de diciembre de 1596 junto con Santiago Kisai y Juan de Goto, también jesuitas. Los prisioneros fueron llevados a Miyako, donde se les cortó una parte de la oreja izquierda como signo de infamia, y obligados a caminar durante un mes, en pleno invierno, hasta Nagasaki. Según los relatos, Miki predicó a la multitud durante el camino pese a los insultos.\n\nCerca del término del viaje, el padre Pasio acogió a los tres jóvenes jesuitas en una capilla; Pablo renovó sus votos y los otros dos hicieron los primeros. En la colina, los reos cantaron el Te Deum al ver las cruces, fueron atados con argollas de hierro y alzados; Miki, según la tradición, predicó desde la cruz invitando a sus oyentes a la conversión y a perdonar. Después los soldados les atravesaron el pecho con lanzas. El lugar se conoce hoy como la Colina de los Mártires.\n\nUn misionero jesuita escribió que el sacrificio fortaleció a los fieles y que hasta los curiosos quedaron impresionados por la alegría de los condenados. La Iglesia japonesa, privada de sacerdotes durante siglos de persecución, conservó la fe en comunidades clandestinas; el testimonio de Nagasaki fue una de sus raíces. Para la Iglesia universal, estos mártires muestran que el Evangelio puede ser asumido por una cultura muy distinta y que el amor a los enemigos no depende de la lengua ni de la nación.",
+  "context": "Japón en el período Azuchi-Momoyama; llegada de misioneros portugueses y españoles; sospechas políticas del régimen de Hideyoshi.",
+  "virtues": [
+   "Fortaleza",
+   "Perdón de los enemigos",
+   "Fe misionera"
+  ],
+  "significance": "Primeros mártires del Extremo Oriente reconocidos por la Iglesia universal; semilla del cristianismo japonés.",
+  "iconography": "Grupo de veintiséis hombres en cruces alineadas, con lanzas; Pablo Miki predica desde la cruz.",
+  "sources": [
+   {
+    "label": "Jesuitas (jesuits.global), «Saint Paul Miki»",
+    "url": "https://www.jesuits.global/saint-blessed/saint-paul-miki/"
+   },
+   {
+    "label": "Catholic Encyclopedia (1913), «Japan» / Mártires del Japón (martirio de 1597)",
+    "url": "https://www.newadvent.org/cathen/09744a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "jeronimo-emiliani",
+  "name": "San Jerónimo Emiliani",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-08",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Jerónimo Emiliani, presbítero",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "priest",
+   "founder"
+  ],
+  "born": {
+   "date": "1481 (según la Enciclopedia Católica; otras fuentes, 1486)",
+   "place": "Venecia"
+  },
+  "died": {
+   "date": "8 de febrero de 1537",
+   "place": "Somasca (Bérgamo)"
+  },
+  "century": 16,
+  "countries": [
+   "IT"
+  ],
+  "order": "Clérigos Regulares de Somasca (somascos)",
+  "canonization": {
+   "date": "1767",
+   "by": "Clemente XIII",
+   "note": "Beatificado por Benedicto XIV en 1747"
+  },
+  "summary": "Antiguo militar veneciano que, tras ser prisionero de guerra y ordenarse sacerdote, se entregó a los huérfanos durante la peste y el hambre de 1528 y fundó la congregación de los somascos.",
+  "biography": "Jerónimo Emiliani (Girolamo Miani) nació en Venecia, de familia patricia; la Enciclopedia Católica da el año 1481, aunque otras fuentes lo retrasan a 1486. Siguió la carrera de las armas y en 1508, durante la guerra de la Liga de Cambrai, defendió la fortaleza de Castelnuovo, en la región de Treviso. Cayó prisionero y, según la tradición, fue liberado de forma milagrosa; en cumplimiento de un voto peregrinó al santuario de Nuestra Señora de Treviso. Más tarde fue nombrado podestà de Castelnuovo, pero pronto volvió a Venecia para ocuparse de la educación de sus sobrinos y comenzó a dedicar su tiempo libre a la teología y a las obras de caridad. Recibió la ordenación sacerdotal en 1518 y frecuentaba hospitales y casas de pobres.\n\nEl punto de inflexión fue la peste y la hambruna de 1528. Jerónimo se volcó en el cuidado de los huérfanos: alquiló una casa cerca de la iglesia de Santa Rosa y, con la ayuda de laicos piadosos, los alimentó y educó. Asumió además la dirección del hospital de incurables fundado por san Cayetano. En 1531 persuadió a los ciudadanos de Verona de que construyeran un hospital; fundó un orfanato en Brescia, otros dos, para niños y niñas, en Bérgamo, y en esta ciudad la primera casa para mujeres arrepentidas que querían salir de una vida de miseria.\n\nEn 1532 fundó una sociedad religiosa con dos sacerdotes, Alessandro Besuzio y Agostino Bariso, cuya casa madre fue Somasca, aldea aislada entre Milán y Bérgamo, de donde procede el nombre de «somascos». Su regla ponía en el centro el cuidado de los huérfanos, los pobres y los enfermos, con vida de pobreza religiosa. La congregación recibió aprobación de Pablo III en 1540, tras la muerte del fundador; Pío IV la aprobó en 1563 y Pío V la hizo orden religiosa bajo la regla de san Agustín. San Carlos Borromeo les confió en Pavía la iglesia de San Mayolo, que dio nombre oficial a la orden. A los trabajos con huérfanos se añadió luego la educación de los jóvenes, con colegios en Roma y Pavía.\n\nJerónimo murió el 8 de febrero de 1537 en Somasca, de una enfermedad contraída en Bérgamo mientras atendía a enfermos de la peste, por lo que la Enciclopedia Católica lo llama mártir de su celo. Benedicto XIV lo beatificó en 1747 y Clemente XIII lo canonizó en 1767. Su memoria se celebraba el 20 de julio y hoy se celebra, como memoria libre, el 8 de febrero.\n\nSu mensaje es sencillo y exigente: ver a Cristo en el niño abandonado y hacerse cargo de él de manera concreta. Antes que fundar una gran institución, Jerónimo empezó por dar techo, pan e instrucción cristiana a unos pocos huérfanos, y esa fidelidad en lo pequeño dio origen a una familia religiosa. Su vida muestra también que la conversión puede nacer de la derrota y de la cárcel: el soldado vencido se hizo servidor de los más débiles.",
+  "context": "Guerras de Italia y epidemias de peste en el norte de Italia; reforma católica anterior a Trento.",
+  "virtues": [
+   "Conversión",
+   "Caridad con los huérfanos",
+   "Humildad"
+  ],
+  "significance": "Precursor de las instituciones católicas de acogida de menores abandonados.",
+  "iconography": "Sacerdote con sotana rodeado de niños; cadenas rotas a sus pies.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1910), «St. Jerome Emiliani»",
+    "url": "https://www.newadvent.org/cathen/08343a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "josefina-bakhita",
+  "name": "Santa Josefina Bakhita",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-08",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santa Josefina Bakhita, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 1869",
+   "place": "Darfur (Sudán)"
+  },
+  "died": {
+   "date": "8 de febrero de 1947",
+   "place": "Schio (Vicenza, Italia)"
+  },
+  "century": 20,
+  "countries": [
+   "SD",
+   "IT"
+  ],
+  "order": "Hijas de la Caridad (Canosianas)",
+  "canonization": {
+   "date": "1 de octubre de 2000",
+   "by": "Juan Pablo II",
+   "note": "Beatificada el 17 de mayo de 1992"
+  },
+  "summary": "Sudanesa raptada y vendida como esclava siendo niña, encontró en Italia la libertad y la fe; fue religiosa canosiana en Schio durante unos cincuenta años.",
+  "biography": "Bakhita nació hacia 1869 en la región de Darfur, en el actual Sudán; ni ella misma conocía la fecha exacta. Siendo niña, a los nueve años según lo cuenta Benedicto XVI en la encíclica «Spe salvi», fue secuestrada por traficantes de esclavos. «Bakhita» («afortunada») es el nombre que le dieron sus captores; ella olvidó el suyo. Fue vendida y revendida cinco veces en los mercados de El Obeid y Jartum. En el servicio de un general sufrió azotes diarios que le dejaron en el cuerpo 144 cicatrices que conservó toda su vida.\n\nHacia 1882 fue comprada por el cónsul italiano Callisto Legnani, con el que conoció por primera vez un trato humano. Cuando la situación política obligó al cónsul a abandonar el país, Bakhita viajó a Italia y fue confiada a la familia de Augusto Michieli, en Zianigo (Mirano Véneto), donde cuidó a la hija de la casa, Mimmina. Al acompañar a la niña al instituto de las Hermanas Canosianas de Venecia, descubrió, según su propio relato, «un Dueño distinto», el Dios de Jesucristo, al que llamaba con la palabra veneciana «paron». Cuando la familia quiso llevarla de nuevo a África, Bakhita se negó a separarse de ese «paron».\n\nEl 9 de enero de 1890 recibió el bautismo, la confirmación y la primera comunión de manos del patriarca de Venecia y tomó el nombre de Josefina. El 8 de diciembre de 1896 se consagró a Dios en la congregación de las Hijas de la Caridad (Canosianas). Pasó unos cincuenta años en la comunidad de Schio, en el Véneto, donde trabajó como cocinera, costurera, bordadora y portera; allí era conocida por su dulzura y su sonrisa. Viajó también por Italia para dar a conocer las misiones. En su relato, recogido en «Storia meravigliosa», se muestra libre de rencor: según una expresión que se le atribuye, si volviera a encontrar a sus raptores les besaría las manos, porque sin ellos no habría llegado a ser cristiana.\n\nSoportó con paciencia una larga y dolorosa enfermedad. Murió en Schio el 8 de febrero de 1947. Su proceso de canonización comenzó doce años después; el 1 de diciembre de 1978 se proclamó el decreto sobre la heroicidad de sus virtudes. Juan Pablo II la beatificó el 17 de mayo de 1992 y la canonizó el 1 de octubre de 2000.\n\nSu importancia para la Iglesia es doble. Es un signo de esperanza para las víctimas de la esclavitud y de la trata, que aún existen, y muestra cómo el encuentro con Cristo cura las heridas más profundas: Benedicto XVI la presenta como ejemplo de la «esperanza» cristiana, porque en ella la fe significó pasar de la servidumbre a la libertad de los hijos de Dios. Su memoria se celebra el 8 de febrero y es especialmente querida en África.",
+  "context": "Esclavitud en el Sudán del siglo XIX y vida religiosa en la Italia posterior a la unificación.",
+  "virtues": [
+   "Perdón",
+   "Esperanza",
+   "Humildad",
+   "Servicio alegre"
+  ],
+  "significance": "Símbolo de la dignidad de las víctimas de la esclavitud y de la trata.",
+  "iconography": "Religiosa canosiana de piel oscura, con hábito negro y una cruz; a veces con cadenas rotas.",
+  "works": [
+   {
+    "title": "Storia meravigliosa (1910)"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Benedicto XVI, encíclica «Spe salvi» (30-XI-2007), n. 3",
+    "url": "https://www.vatican.va/content/benedict-xvi/es/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi.html"
+   },
+   {
+    "label": "Santa Sede, biografía de santa Josefina Bakhita (canonización 1-X-2000)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20001001_giuseppina-bakhita_en.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "escolastica",
+  "name": "Santa Escolástica",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-10",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santa Escolástica, virgen",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 480 (según la tradición)",
+   "place": "Nursia (Umbría), según la tradición"
+  },
+  "died": {
+   "date": "c. 543 (fecha incierta)",
+   "place": "cerca de Monte Casino"
+  },
+  "century": 6,
+  "countries": [
+   "IT"
+  ],
+  "order": "Orden de San Benito",
+  "summary": "Hermana de san Benito, consagrada a Dios desde la infancia; solo la conocemos por un episodio de los «Diálogos» de san Gregorio Magno, el de la tormenta que obtuvo con su oración.",
+  "biography": "De santa Escolástica sabemos muy poco, y casi todo procede de una sola fuente: el libro segundo de los «Diálogos» de san Gregorio Magno, que es, según la Enciclopedia Católica, la única biografía auténtica de san Benito. Gregorio se basó en el testimonio de discípulos de Benito, como Constantino, su sucesor en Monte Casino, y Honorato, abad de Subiaco. Escolástica aparece en el relato solo al final de la vida de su hermano. Una tradición, que aceptó Beda, la presenta como hermana gemela de Benito; la fecha (hacia 480) y el lugar (Nursia) de su nacimiento pertenecen a esa tradición, no a Gregorio.\n\nGregorio dice que estaba consagrada al Señor desde la infancia y que visitaba a su hermano una vez al año. Como a Benito no le era posible dejar la clausura, se encontraban en una casa perteneciente a la abadía, fuera de la puerta del monasterio, y pasaban el día entre oraciones y conversaciones espirituales. En el último de esos encuentros, cuando ya anochecía, Escolástica le pidió que se quedara hasta el día siguiente para seguir hablando de la vida del cielo. Benito se negó, alegando que no podía pasar la noche fuera de la abadía. Entonces ella apoyó las manos juntas sobre la mesa, inclinó la cabeza y rezó. Al levantarla, estalló una tormenta de truenos, rayos y lluvia tan violenta que ni Benito ni los monjes que lo acompañaban pudieron salir. «Que Dios te perdone, hermana», dijo Benito, y pasaron la noche en coloquio.\n\nTres días después, según el relato, Benito vio desde su celda el alma de su hermana subir al cielo en forma de paloma. Dio gracias a Dios con himnos y mandó que trajeran su cuerpo al monasterio. Escolástica fue sepultada en el sepulcro que Benito había preparado para sí mismo, en el oratorio de san Juan Bautista; allí fue sepultado también él algunos años después. Gregorio comenta el episodio con una frase célebre: pudo más quien más amaba. La fecha de su muerte es incierta: se suele situar hacia 543 y se coloca la celebración el 10 de febrero.\n\nEscolástica no dejó escritos ni fundó nada que conozcamos, pero su figura tiene un lugar importante en la tradición benedictina: muestra que el amor y la oración confiada tienen un poder que no se somete a la regla del horario, y que la amistad espiritual entre hermano y hermana es parte de la santidad. Desde la Edad Media, su culto se vinculó a Monte Casino y a numerosos monasterios femeninos benedictinos. Se la representa con hábito de monja, paloma y libro, a veces con rayos o una tormenta que recuerdan el episodio de Gregorio.",
+  "context": "Italia ostrogoda del siglo VI y comienzo del monacato benedictino.",
+  "virtues": [
+   "Amor contemplativo",
+   "Confianza en la oración",
+   "Amistad fraterna"
+  ],
+  "significance": "Figura femenina del monacato benedictino primitivo y ejemplo de la fuerza de la oración.",
+  "iconography": "Monja benedictina con paloma y libro; a veces con rayos y una tormenta.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1907), «St. Benedict of Nursia» (con el relato de Gregorio Magno, Diálogos II)",
+    "url": "https://www.newadvent.org/cathen/02467b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "jose-sanchez-del-rio",
+  "name": "San José Luis Sánchez del Río",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-10",
+    "rank": "optional",
+    "calendar": "mx",
+    "title": "San José Luis Sánchez del Río, mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "lay"
+  ],
+  "born": {
+   "date": "28 de marzo de 1913",
+   "place": "Sahuayo, Michoacán"
+  },
+  "died": {
+   "date": "10 de febrero de 1928",
+   "place": "Sahuayo, Michoacán"
+  },
+  "century": 20,
+  "countries": [
+   "MX"
+  ],
+  "canonization": {
+   "date": "16 de octubre de 2016",
+   "by": "Francisco",
+   "note": "Beatificado el 20 de noviembre de 2005 (Benedicto XVI)"
+  },
+  "summary": "Adolescente de catorce años que se unió a los cristeros y fue torturado y asesinado en Sahuayo el 10 de febrero de 1928 por no renegar de Cristo Rey.",
+  "biography": "José Luis Sánchez del Río nació el 28 de marzo de 1913 en Sahuayo, Michoacán, hijo de Macario Sánchez y María del Río. Creció en una familia católica, en una época de enfrentamiento entre el gobierno federal y la Iglesia. La Constitución de 1917 contenía disposiciones anticlericales que el presidente Plutarco Elías Calles endureció con su «Ley Calles» de 1926. Se suspendió el culto público en el país y comenzó la guerra cristera (1926-1929), en la que muchos católicos tomaron las armas bajo el grito de «¡Viva Cristo Rey!».\n\nUn año antes de su martirio, siendo todavía un niño, José se unió a las fuerzas cristeras del general Prudencio Mendoza, que tenían su base en Cotija, Michoacán. Fue capturado por tropas del gobierno que buscaban escarmentar a la población que apoyaba a los cristeros. No conocemos con precisión la fecha y las circunstancias de su captura; según los relatos, fue retenido varios días en Sahuayo, en el templo parroquial convertido en prisión.\n\nSe le exigió que renegara de su fe a cambio de la vida, y se negó. Según el testimonio recogido en los procesos, lo sometieron a torturas: le cortaron la piel de las plantas de los pies y lo obligaron a caminar por las calles del pueblo hasta el cementerio. Durante el trayecto le ofrecieron perdonarle la vida si gritaba «¡Muera Cristo Rey!», y él respondió «¡Viva Cristo Rey!». El 10 de febrero de 1928, en el cementerio, tras un último intento de que renegara, fue asesinado a tiros, mientras seguía gritando esa aclamación. Tenía catorce años.\n\nDos niños presenciaron el martirio; uno de ellos, Enrique Amezcua Medina, fundó después la Confraternidad Sacerdotal de los Operarios del Reino de Cristo, y contó que ese encuentro influyó en su vocación. Los restos de José descansan en la iglesia del Sagrado Corazón de Jesús, en Sahuayo.\n\nLa Iglesia lo beatificó el 20 de noviembre de 2005 en Guadalajara, durante el pontificado de Benedicto XVI, junto con otros mártires mexicanos, y el papa Francisco lo canonizó el 16 de octubre de 2016, con otros seis beatos. En esa homilía, el papa Francisco dijo de ellos que habían «combatido con la oración la buena batalla de la fe y del amor». En México su memoria es libre el 10 de febrero.\n\nJosé Luis enseña la fortaleza de quien, siendo casi un niño, antepone la fidelidad a Cristo a su vida; su testimonio es particularmente actual para los jóvenes y para los cristianos perseguidos. Conviene recordar también que su santidad no justifica la violencia de la guerra: la Iglesia lo reconoce como mártir porque murió por no renegar de la fe, no por haber empuñado armas.",
+  "context": "Guerra Cristera (1926-1929) tras las leyes anticlericales de la Constitución de 1917 y la «Ley Calles».",
+  "virtues": [
+   "Valentía juvenil",
+   "Fidelidad a Cristo",
+   "Amor a la Virgen de Guadalupe"
+  ],
+  "significance": "Uno de los santos más jóvenes de México; testigo de la libertad religiosa.",
+  "iconography": "Adolescente con sombrero y palma del martirio, con los pies heridos y la bandera de Cristo Rey.",
+  "sources": [
+   {
+    "label": "Catholic.net, «José Sánchez del Río, santo» (biografía)",
+    "url": "https://www.es.catholic.net/op/articulos/36372/jos-snchez-del-ro-beato.html"
+   },
+   {
+    "label": "Francisco, homilía de canonización de siete beatos (16-X-2016)",
+    "url": "https://www.vatican.va/content/francesco/es/homilies/2016/documents/papa-francesco_20161016_omelia-canonizzazione.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "fullName": "José Luis Sánchez del Río"
+ },
+ {
+  "id": "nuestra-senora-de-lourdes",
+  "name": "Nuestra Señora de Lourdes",
+  "status": "marian",
+  "celebrations": [
+   {
+    "date": "02-11",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Nuestra Señora de Lourdes",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "virgin_mary"
+  ],
+  "century": 19,
+  "countries": [
+   "FR"
+  ],
+  "summary": "Memoria de las dieciocho apariciones de la Virgen a Bernadette Soubirous en la gruta de Massabielle (Lourdes, 11 de febrero a 16 de julio de 1858).",
+  "context": "Francia del Segundo Imperio; cuatro años antes, en 1854, Pío IX había definido el dogma de la Inmaculada Concepción.",
+  "virtues": [
+   "Oración y penitencia",
+   "Sencillez de los humildes",
+   "Caridad con los enfermos"
+  ],
+  "significance": "Lourdes es uno de los grandes santuarios del mundo, centro de peregrinación y de atención a los enfermos; la memoria se celebra el Día Mundial del Enfermo.",
+  "iconography": "La Virgen vestida de blanco con cinta azul y rosario, de pie sobre la roca de Massabielle, y Bernadette arrodillada.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «Notre-Dame de Lourdes»",
+    "url": "https://www.newadvent.org/cathen/09389b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "unverified": true,
+  "note": "Pendiente de contrastar en fuente oficial del santuario o de la Santa Sede: la frase «Yo soy la Inmaculada Concepción» (25 de marzo de 1858), los años de nacimiento y muerte de Bernadette (1844-1879) y su canonización (1933) proceden de conocimiento general, no de la fuente leída. Verificados en la Enciclopedia Católica: fechas de las apariciones, aprobación episcopal de 1862, basílica y fiesta.",
+  "biography": "Lourdes es una pequeña ciudad de los Pirineos franceses, y su nombre se ha convertido en el de un gran santuario mariano. Todo comenzó el 11 de febrero de 1858, cuando Bernadette Soubirous, una niña pobre de catorce años, hija de un molinero arruinado, fue a recoger leña con su hermana y una amiga a orillas del río Gave. En una gruta de la roca de Massabielle vio a «una señora joven y hermosa», a la que describió como «más hermosa que cuanto he visto». Solo ella la veía y escuchaba, aunque otras personas la acompañaran con frecuencia.\n\nLas apariciones fueron dieciocho en total, entre el 11 de febrero y el 16 de julio de 1858. La Enciclopedia Católica cuenta que Bernadette quedaba en éxtasis durante ellas. La señora le pidió que bebiera de una fuente que no se conocía en la gruta, y de la cual brotó agua en seguida; le pidió también que se construyera allí una capilla y que se hicieran procesiones. Según el relato difundido desde entonces, en una de las apariciones, el 25 de marzo, la señora se identificó diciendo «Yo soy la Inmaculada Concepción», título que cuatro años antes Pío IX había proclamado como dogma.\n\nAl principio el clero local se mostró incrédulo y las autoridades civiles recelosas. Tras examinar los hechos, el obispo de la diócesis declaró en 1862 que los fieles estaban «justificados en creer en la realidad de la aparición». Bernadette, que más tarde ingresó en las Hermanas de la Caridad de Nevers, no buscó fama: vivió con humildad y enfermedad hasta su muerte, y fue canonizada en 1933 (datos de conocimiento general, por contrastar).\n\nEl párroco Peyramale hizo construir una basílica sobre la roca de Massabielle. En 1873 comenzaron las grandes peregrinaciones nacionales francesas; en 1876 se consagró la basílica y la estatua de la Virgen fue coronada solemnemente; en 1883 se puso la primera piedra de una segunda iglesia, consagrada en 1901 como iglesia del Rosario. León XIII autorizó un oficio y una misa propios, y en 1907 Pío X extendió la fiesta a toda la Iglesia, el 11 de febrero. Desde 1867 se registran las peregrinaciones: a finales de 1908 se habían contabilizado más de cinco mil peregrinaciones y unos cinco millones de peregrinos.\n\nEl Bureau des Constatations Médicales, abierto a médicos de cualquier nacionalidad o creencia, registra y examina los casos de curaciones. La Iglesia es cautelosa: reconoce como milagrosos solo los casos tras un riguroso examen, y la mayor parte de los curados no recibe esa declaración. Lo más constante en Lourdes, más que las curaciones físicas, es la conversión de los corazones y la atención a los enfermos, que ocupan el primer lugar en las procesiones.\n\nEl mensaje que la tradición ha leído en Lourdes es el de la oración, la penitencia y la conversión, y el valor de los pobres y pequeños ante Dios. La Virgen se muestra, ante todo, madre que consuela. En el calendario, esta memoria libre se celebra el 11 de febrero y va unida a la Jornada Mundial del Enfermo."
+ },
+ {
+  "id": "cirilo-y-metodio",
+  "name": "Santos Cirilo y Metodio",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-14",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "Santos Cirilo, monje, y Metodio, obispo",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "missionary",
+   "religious"
+  ],
+  "born": {
+   "date": "c. 815-827 (las fuentes difieren)",
+   "place": "Tesalónica"
+  },
+  "died": {
+   "date": "14 de febrero de 869 (Cirilo) y 6 de abril de 885 (Metodio)",
+   "place": "Roma (Cirilo) y Gran Moravia (Metodio)"
+  },
+  "century": 9,
+  "countries": [
+   "GR",
+   "CZ",
+   "SK",
+   "IT"
+  ],
+  "summary": "Hermanos de Tesalónica, apóstoles de los eslavos: dieron a los pueblos eslavos escritura y liturgia en su propia lengua y defendieron esta obra ante Roma.",
+  "biography": "Cirilo y Metodio, hermanos, nacieron en Tesalónica en el siglo IX, en una familia de rango senatorial. Cirilo (llamado Constantino antes de ser monje) recibió una excelente formación en Constantinopla; Metodio dejó la carrera civil y entró en un monasterio a orillas del Bósforo. La Enciclopedia Católica da como fechas de nacimiento 826 y 827, pero otras fuentes consideran a Metodio el mayor, nacido hacia 815; las dos cosas son inciertas.\n\nSu primer destino misionero fue el de los jázaros, que pidieron a Constantinopla un maestro cristiano; Constantino fue elegido, y Metodio lo acompañó. Pero su obra decisiva comenzó en 863, cuando el príncipe de Moravia solicitó un predicador que enseñara en lengua eslava, pues los misioneros germánicos no habían tenido éxito. Cirilo inventó un alfabeto para el eslavo (la tradición lo identifica con el glagolítico) y, con su hermano, tradujo los evangelios y los libros litúrgicos. Trabajaron en Moravia unos cuatro años y medio. Los clérigos germánicos recelaban de ellos, porque venían de Constantinopla y celebraban el culto en eslavo.\n\nConvocados a Roma por Nicolás I, que murió antes de que llegaran, fueron recibidos amablemente por su sucesor Adriano II, quien aprobó su ortodoxia y la liturgia eslava y ordenó obispos a los dos hermanos. Cirilo, ya enfermo, tomó el hábito monástico y murió en Roma el 14 de febrero de 869, según la tradición eslava; la Enciclopedia Católica lo sitúa el 4 de febrero. Está sepultado en la basílica de San Clemente.\n\nMetodio, nombrado arzobispo de Moravia y Panonia, directamente dependiente de Roma, fue depuesto en 870 por el rey Luis y los obispos germánicos en un sínodo de Ratisbona y encarcelado. Tras tres años de prisión, Juan VIII ordenó su liberación y lo restituyó. Enfrentó nuevas acusaciones del presbítero Wiching, que presentó cartas pontificias falsas. El papa investigó y confirmó la liturgia eslava, con la condición de que el evangelio se leyera primero en latín y después en eslavo. Metodio viajó a Constantinopla y, según la tradición, tradujo la mayor parte de la Escritura y un código de derecho canónico. Murió el 6 de abril de 885 y propuso como sucesor a su discípulo Gorazd.\n\nSu importancia es enorme. Fueron pioneros de la inculturación: sostuvieron que la Palabra de Dios debía proclamarse en la lengua de cada pueblo, y sentaron las bases de la cultura literaria de los eslavos. Su empeño por mantener la comunión con Roma sin renunciar a Constantinopla los convierte en símbolo de unidad entre Oriente y Occidente. León XIII extendió su fiesta a toda la Iglesia en 1880 y hoy se celebra el 14 de febrero; Juan Pablo II los proclamó copatronos de Europa en 1980.",
+  "context": "Imperio bizantino y reino franco del siglo IX; competencia entre Constantinopla y los obispos germánicos por la evangelización de los eslavos.",
+  "virtues": [
+   "Inculturación",
+   "Perseverancia",
+   "Celo misionero"
+  ],
+  "significance": "Evangelizadores de los eslavos; copatronos de Europa.",
+  "patronages": [
+   "Copatronos de Europa (Juan Pablo II, 1980)"
+  ],
+  "iconography": "Dos hombres con vestiduras eslavas, uno monje, otro obispo, con un libro de los Evangelios y el alfabeto glagolítico.",
+  "works": [
+   {
+    "title": "Traducción de los Evangelios al eslavo antiguo"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1908), «Sts. Cyril and Methodius»",
+    "url": "https://www.newadvent.org/cathen/04592a.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Pendiente de respaldar con fuente leída: el patronazgo de copatronos de Europa (Juan Pablo II, 1980, «Egregiae virtutis») y la identificación del alfabeto con el glagolítico; la Enciclopedia Católica da 4 de febrero para la muerte de Cirilo, mientras que la liturgia romana lo celebra el 14."
+ },
+ {
+  "id": "siete-fundadores-servitas",
+  "name": "Los siete santos fundadores de la Orden de los Siervos de María",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-17",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "Santos Siete Fundadores de la Orden de los Servitas",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "founder"
+  ],
+  "born": {
+   "date": "fines del siglo XII",
+   "place": "Florencia"
+  },
+  "died": {
+   "date": "siglos XIII-XIV (el último, Alejo Falconieri, el 17 de febrero de 1310)",
+   "place": "Monte Senario (Toscana)"
+  },
+  "century": 13,
+  "countries": [
+   "IT"
+  ],
+  "order": "Orden de los Siervos de María (servitas)",
+  "canonization": {
+   "date": "1888",
+   "by": "León XIII"
+  },
+  "summary": "Siete patricios florentinos, miembros de una cofradía mariana, que desde 1233 se retiraron a una vida de oración y penitencia y dieron origen a la Orden de los Siervos de María (servitas).",
+  "biography": "A comienzos del siglo XIII, Florencia era una ciudad próspera y agitada por las luchas entre facciones y por herejías. En ella vivían siete jóvenes de familias patricias, miembros de una cofradía de alabanza a la Virgen llamada de los «Laudesi»: Buonfiglio dei Monaldi, Giovanni di Buonagiunta, Bartolomeo degli Amidei, Ricovero dei Lippi-Ugguccioni, Benedetto dell'Antella, Gherardino di Sostegno y Alessio de' Falconieri. Según la tradición, en la fiesta de la Asunción de 1233 la Virgen se les apareció e hizo comprender su llamado. Dejaron sus negocios y familias, repartieron sus bienes entre los pobres y se retiraron primero a una casa en la ciudad y después a las afueras, junto a los franciscanos, en La Camarzia.\n\nBuscando mayor soledad, se establecieron en las alturas de Monte Senario, a unos 18 kilómetros de Florencia; el obispo Ardingo les cedió el terreno. La Enciclopedia Católica sitúa este traslado en 1240, otras fuentes en 1234. Allí construyeron una pequeña iglesia dedicada a María sobre las ruinas de un viejo castillo. La tradición cuenta que la Virgen les dio un hábito negro, en señal del dolor por la Pasión de su Hijo, y que adoptaron la Regla de san Agustín. Su nombre, Siervos de María, expresaba el programa: servir a Nuestra Señora y, con ella, a los pobres y a los fieles.\n\nLa vida de la nueva orden fue difícil. Pedro de Verona la recomendó a la Santa Sede en 1243; en 1249 obtuvo su primera aprobación del cardenal legado Raniero Capocci. El Segundo Concilio de Lyon (1274) ordenó suprimir las órdenes mendicantes no aprobadas, y los servitas estuvieron a punto de desaparecer; en 1276 se decretó su supresión, que Juan XXI revocó. Fue san Felipe Benizi, elegido general en 1267, quien consolidó la orden. La aprobación definitiva llegó el 11 de febrero de 1304 con la bula «Dum levamus» (la Enciclopedia Católica la atribuye por error a Benedicto IX; fue Benedicto XI). Alejo Falconieri, el único fundador que vio la aprobación, murió el 17 de febrero de 1310, y la tradición lo hace vivir casi ciento diez años.\n\nLos siete fundadores fueron canonizados juntos por León XIII en 1888. Sus restos reposan en un mismo sepulcro en Monte Senario. Su espiritualidad mariana se expresa en la meditación de los Dolores de María, particularmente de su compañía a Cristo en la Pasión, con devociones como el rosario de los Siete Dolores y la «Vía Matris».\n\nLos siete fundadores enseñan que la santidad comunitaria no es la suma de vocaciones individuales, sino un camino hecho en fraternidad. Su historia muestra cómo una cofradía laica, con una fuerte devoción mariana, puede convertirse en un movimiento que la Iglesia reconoce como orden. Alejo Falconieri, el «hermano» sencillo que nunca quiso ser sacerdote, es un ejemplo de humildad; su sobrina santa Juliana Falconieri fundó las Mantelatas.",
+  "context": "Italia comunal del siglo XIII; auge de las órdenes mendicantes y de las cofradías laicas marianas.",
+  "virtues": [
+   "Vida fraterna",
+   "Devoción mariana",
+   "Desprendimiento"
+  ],
+  "significance": "Fundadores de una orden mendicante dedicada a la devoción de María y al servicio de los fieles.",
+  "iconography": "Siete frailes con hábito negro; a veces con una paloma o la Virgen de los Dolores.",
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1912), «Order of Servants of Mary (Servites)»",
+    "url": "https://www.newadvent.org/cathen/13736a.htm"
+   },
+   {
+    "label": "Vatican News, «Santos Siete Fundadores de la Orden de los Siervos de María»",
+    "url": "https://vaticannews.va/en/saints/02/17/sts--seven-fonders-of-the-order-of-the-servants-of-mary-among-wh.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Las fuentes difieren en detalles de la cronología inicial (llegada a Monte Senario: 1234 según Vatican News, 1240 según la Enciclopedia Católica) y en los nombres; se han usado los de la Enciclopedia Católica. El 17 de febrero es la fecha actual de la memoria (la Enciclopedia Católica, de 1912, daba el 12)."
+ },
+ {
+  "id": "pedro-damian",
+  "name": "San Pedro Damián",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-21",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Pedro Damián, obispo y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "doctor",
+   "religious"
+  ],
+  "born": {
+   "date": "1007",
+   "place": "Ravena"
+  },
+  "died": {
+   "date": "21-22 de febrero de 1072 (la noche anterior a la fiesta de la Cátedra de Pedro)",
+   "place": "Faenza"
+  },
+  "century": 11,
+  "countries": [
+   "IT"
+  ],
+  "order": "Camaldulenses (Fonte Avellana)",
+  "summary": "Monje eremita de Fonte Avellana, cardenal obispo de Ostia, escritor y gran impulsor de la reforma de la Iglesia en el siglo XI; doctor de la Iglesia desde 1828.",
+  "biography": "Pedro Damián nació en Ravena hacia 1007, el menor de una familia numerosa, noble pero pobre. Según la Enciclopedia Católica, un hermano mayor lo tuvo como porquerizo hasta que otro hermano, el arcipreste Damián, se ocupó de su educación; en agradecimiento Pedro tomó su nombre. Estudió en Ravena, Faenza y Parma y fue pronto un maestro apreciado. Hacia 1035 dejó el mundo y entró en el eremitorio camaldulense de Fonte Avellana, del que fue prior desde 1043 hasta su muerte. Escribió la vida de san Romualdo, promovió la práctica penitencial de la disciplina, fundó ermitas dependientes y se distinguió por su austeridad.\n\nSu celo por la reforma de la Iglesia lo convirtió en un escritor combativo. Hacia 1051 compuso el «Liber Gomorrhianus», que denunciaba los vicios del clero y causó gran revuelo; hacia 1053, el «Liber Gratissimus», en que defendía la validez de las ordenaciones hechas por clérigos simoníacos. Frente a la simonía y la incontinencia clerical propuso una renovación fundada en la vida común del clero y en la austeridad. En 1057, el papa Esteban IX lo llamó a Roma y lo hizo cardenal y obispo de Ostia, cargo que aceptó con reluctancia; consagrado el 30 de noviembre, administró también la diócesis de Gubbio.\n\nSirvió como legado pontificio en diversas misiones difíciles: en Milán (hacia 1059), donde atendió las disputas sobre simonía; en Francia (1063), donde zanjó un conflicto entre Cluny y el obispo de Mâcon; en Florencia (1067), sin éxito; en Alemania (1069), donde disuadió al rey Enrique IV de repudiar a su esposa Berta; y en Ravena (1072), donde reconcilió a la ciudad con la Santa Sede. Volviendo de esta última misión, enfermó y murió en Faenza, durante los laudes de la noche anterior a la fiesta de la Cátedra de san Pedro. La Enciclopedia Católica fija el día 21 de febrero de 1072; las fuentes más tardías dicen el 22.\n\nPedro Damián nunca fue canonizado formalmente: su culto surgió espontáneamente en torno a su tumba. En 1828, el papa León XII extendió su fiesta a toda la Iglesia y lo declaró doctor de la Iglesia (la Enciclopedia Católica indica 1823 por error). Entre sus escritos figuran, además de los citados, cartas, sermones, vidas de santos y tratados ascéticos, como «De divina omnipotentia».\n\nSu importancia radica en haber unido dos mundos: el de la soledad monástica y el del gobierno de la Iglesia. Creía que la reforma empieza por la conversión personal, y su mensaje, con frecuencia severo, está atravesado por un profundo amor a la Iglesia y a la Eucaristía. A la vez reconocía, al aceptar los encargos papales, que la obediencia puede ser más exigente que la penitencia elegida por uno mismo. Se le representa con capelo cardenalicio y hábito camaldulense, con un látigo.",
+  "context": "Reforma gregoriana del siglo XI: lucha contra simonía y nicolaísmo, y reforma del papado.",
+  "virtues": [
+   "Austeridad",
+   "Celo reformador",
+   "Humildad"
+  ],
+  "significance": "Figura de la reforma eclesiástica del siglo XI; enlace entre eremitismo y gobierno de la Iglesia.",
+  "iconography": "Cardenal con capelo rojo y hábito benedictino, a veces con un látigo (disciplina) o un libro.",
+  "works": [
+   {
+    "title": "Liber Gomorrhianus"
+   },
+   {
+    "title": "De divina omnipotentia"
+   },
+   {
+    "title": "Cartas"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «St. Peter Damian»",
+    "url": "https://www.newadvent.org/cathen/11764a.htm"
+   },
+   {
+    "label": "Vatican News, «San Pedro Damián, obispo de Ostia, cardenal y doctor de la Iglesia»",
+    "url": "https://www.vaticannews.va/en/saints/02/21/st-peter-damian--bishop-of-ostia-and-cardinal--doctor-of-the-chu.print.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "canonization": {
+   "date": "1828",
+   "by": "León XII",
+   "note": "Declarado doctor de la Iglesia en 1828; no hubo canonización formal, sino culto inmemorial"
+  },
+  "note": "La Enciclopedia Católica da 1823 para su proclamación como doctor, pero Vatican News y la mayoría de las fuentes dan 1828 (León XII); se usa 1828."
+ },
+ {
+  "id": "pedro-apostol",
+  "name": "San Pedro, apóstol",
+  "fullName": "Simón Pedro",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-22",
+    "rank": "feast",
+    "calendar": "general",
+    "title": "Cátedra de san Pedro, apóstol",
+    "color": "white"
+   },
+   {
+    "date": "06-29",
+    "rank": "solemnity",
+    "calendar": "general",
+    "title": "Santos Pedro y Pablo, apóstoles",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "apostle",
+   "martyr",
+   "pope"
+  ],
+  "born": {
+   "date": "finales del siglo I a. C. (fecha desconocida)",
+   "place": "Betsaida (Galilea)"
+  },
+  "died": {
+   "date": "entre 64 y 68 (fecha discutida)",
+   "place": "Roma"
+  },
+  "century": 1,
+  "countries": [
+   "IL",
+   "IT"
+  ],
+  "summary": "Pescador de Betsaida, primero de los doce apóstoles, a quien Cristo confió las llaves del Reino; la fiesta de su Cátedra (22 de febrero) celebra su ministerio de unidad en la Iglesia.",
+  "biography": "Simón, hijo de Jonás, nació en Betsaida, a orillas del lago de Genesaret, y se estableció en Cafarnaúm, donde vivía con su suegra y trabajaba como pescador. Su hermano Andrés lo llevó a Jesús, que le dio el nombre de Cefas, «roca» en arameo, traducido al griego como Pedro. En Cesarea de Filipo, tras la confesión de fe de Pedro, Jesús le prometió edificar sobre él su Iglesia y le entregó las llaves del Reino de los cielos (Mt 16,13-19). Con Santiago y Juan, Pedro formó el círculo íntimo de los apóstoles, presente en la resurrección de la hija de Jairo, en la Transfiguración y en Getsemaní. Negó a su Maestro tres veces en el patio del sumo sacerdote y lloró amargamente. En la orilla del lago, Cristo resucitado le preguntó tres veces si lo amaba y le encomendó apacentar a sus ovejas (Jn 21).\n\nDespués de Pentecostés, Pedro aparece como cabeza de la comunidad de Jerusalén. Es seguro que estuvo en Antioquía, donde, según Gálatas, se retiró de la mesa con los gentiles convertidos y fue corregido públicamente por Pablo; la tradición posterior lo considera fundador de esa Iglesia. La residencia de Pedro en Roma y su muerte allí están atestiguadas desde fines del siglo I y a lo largo del II: la primera carta de Pedro habla de «Babilonia», Clemente de Roma, Ignacio, Dionisio de Corinto, Ireneo y Tertuliano dan testimonio. Orígenes cuenta que murió crucificado cabeza abajo. Probablemente sufrió el martirio en los jardines de Nerón, junto al Vaticano, entre los años 64 y 68, aunque no es posible precisar la fecha. Fue enterrado en la colina vaticana, donde Constantino levantó una basílica y donde hoy se alza San Pedro.\n\nLa fiesta de la Cátedra de san Pedro, el 22 de febrero, es antiquísima. El calendario de Filócalo, del año 354, la recoge ya con el nombre de «natale Petri de cathedra». Roma celebró durante siglos dos fiestas de la cátedra: la del 22 de febrero y otra el 18 de enero. En la Edad Media, algunos manuscritos asociaron la primera con Antioquía y la segunda con Roma. San Juan XXIII las unió en una sola, el 22 de febrero, y suprimió la del 18 de enero. Lo que se celebra no es un mueble, sino el ministerio: la cátedra es el asiento del obispo en la iglesia madre de la diócesis, símbolo de su magisterio y de su servicio de unidad. En la basílica vaticana se conserva, dentro de un relicario de bronce obra de Bernini (hacia 1650), una antigua silla de roble.\n\nLa fiesta se fundamenta en el texto de Mateo 16: la fe en Jesús como Mesías e Hijo de Dios y el servicio de Pedro y sus sucesores como «signo visible y principal de unidad» van juntos. La memoria del 29 de junio, en cambio, recuerda el martirio de Pedro y Pablo.\n\nLa figura de Pedro enseña que la autoridad en la Iglesia nace de una confesión de fe y de un amor probado después del fracaso: es el pecador perdonado el que recibe el encargo de confirmar a sus hermanos. Esa combinación de debilidad humana y de gracia es, quizá, lo que lo hace tan cercano a los fieles de todos los tiempos.",
+  "context": "Judaísmo galileo del siglo I y primera comunidad cristiana de Jerusalén, Antioquía y Roma.",
+  "virtues": [
+   "Generosidad",
+   "Arrepentimiento",
+   "Liderazgo humilde"
+  ],
+  "significance": "Primer entre los apóstoles; los obispos de Roma son sus sucesores.",
+  "iconography": "Anciano de barba corta y cabellos rizados, con llaves, y a veces un gallo, un libro o una barca.",
+  "works": [
+   {
+    "title": "Primera y segunda carta de Pedro"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «St. Peter»",
+    "url": "https://www.newadvent.org/cathen/11744a.htm"
+   },
+   {
+    "label": "Catholic Encyclopedia (1908), «Chair of Peter» (historia de las fiestas del 18 de enero y 22 de febrero)",
+    "url": "https://www.newadvent.org/cathen/03551e.htm"
+   },
+   {
+    "label": "Vatican News, «Fiesta de la Cátedra de san Pedro apóstol» (22 de febrero)",
+    "url": "https://www.vaticannews.va/en/liturgical-holidays/feast-of-the-chair-of-saint-peter-the-apostle.print.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Ficha doble: la Cátedra (22-II) y Pedro y Pablo (29-VI). El rango de la solemnidad del 29 de junio no se ha cotejado en este mes (corresponde al agente de junio)."
+ },
+ {
+  "id": "policarpo-de-esmirna",
+  "name": "San Policarpo de Esmirna",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-23",
+    "rank": "memorial",
+    "calendar": "general",
+    "title": "San Policarpo, obispo y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "bishop",
+   "martyr",
+   "church_father"
+  ],
+  "born": {
+   "date": "c. 69",
+   "place": "Asia Menor"
+  },
+  "died": {
+   "date": "23 de febrero de 155 (otros, 156 o 167)",
+   "place": "Esmirna (actual Izmir, Turquía)"
+  },
+  "century": 2,
+  "countries": [
+   "TR"
+  ],
+  "summary": "Obispo de Esmirna, discípulo de los apóstoles según Ireneo; su martirio, narrado en una carta de la Iglesia de Esmirna, es el relato conservado más antiguo de un mártir cristiano concreto.",
+  "biography": "Policarpo fue obispo de Esmirna, en Asia Menor, y uno de los padres apostólicos. La Enciclopedia Católica se apoya en cuatro fuentes principales: las cartas de Ignacio de Antioquía, su propia Carta a los filipenses, los testimonios de Ireneo y la carta de la Iglesia de Esmirna sobre su martirio. Ireneo, que lo conoció en su juventud, dice que fue instruido por los apóstoles, que trató con quienes habían visto al Señor y que fue constituido obispo de Esmirna por los apóstoles; la tradición sugiere que fue Juan. Su larga vida prolongó hasta mediados del siglo II la época subapostólica en Asia.\n\nIgnacio escribió desde Esmirna cuatro de sus siete cartas auténticas, en dos de las cuales menciona a Policarpo, y una más está dirigida a él. Policarpo, por su parte, escribió a los filipenses, que le pedían una exhortación, que reenviara su carta a la Iglesia de Antioquía y que les enviara las cartas de Ignacio que tuviera. La carta, saturada de citas de los evangelios y de otros escritos apostólicos, pone el acento en la fidelidad a la tradición recibida. Ireneo cuenta que cuando Marción lo interpeló, le respondió llamándolo «primogénito de Satanás», y que Policarpo repetía lo que había oído de Juan y de los demás testigos del Señor.\n\nEn tiempos del papa Aniceto visitó Roma para tratar sobre la fecha de la Pascua: las Iglesias de Asia la celebraban el 14 de nisán y el resto el domingo. No se pusieron de acuerdo, pero se separaron en paz, y Aniceto le cedió la celebración de la eucaristía en señal de respeto. Ireneo contrastó esa actitud con la excomunión que más tarde pronunció el papa Víctor.\n\nEl relato del martirio procede de una carta de la Iglesia de Esmirna dirigida a la de Filomelio. Policarpo, anciano, se retiró a una granja por consejo de sus amigos y soñó con su almohada ardiendo, de lo que dedujo que moriría quemado. Un joven esclavo, bajo tortura, reveló su escondite y el jefe de policía Herodes lo arrestó un viernes por la tarde. Policarpo ofreció comida a sus captores y rezó largamente por todos y por la Iglesia universal. En el estadio, el procónsul Estacio Cuadrato le pidió que maldijera a Cristo; Policarpo respondió que lo servía desde hacía ochenta y seis años y que nunca le había hecho daño. La carta dice que las llamas formaron una especie de bóveda alrededor de su cuerpo sin dañarlo, y que un verdugo lo atravesó con una daga, con tanta sangre que apagó el fuego. Se trata del relato tradicional; los estudiosos discuten qué hay en él de adorno. Los cristianos recogieron sus huesos y los sepultaron. La carta fecha su muerte un sábado 23 de febrero; estudiosos como Waddington y Lightfoot defienden el año 155.\n\nPolicarpo es testigo de la continuidad entre los apóstoles y los siglos siguientes, y modelo de serenidad ante la persecución. Su respuesta al procónsul sigue siendo uno de los testimonios más hermosos de fidelidad cristiana. Su memoria se celebra el 23 de febrero, y a menudo se le representa con la pira de fuego y la palma.",
+  "context": "Cristianismo de Asia Menor en el siglo II; controversias sobre el gnosticismo y la Pascua.",
+  "virtues": [
+   "Fidelidad",
+   "Serenidad",
+   "Defensa de la fe apostólica"
+  ],
+  "significance": "Testigo de la tradición apostólica y modelo del martirio cristiano primitivo.",
+  "iconography": "Obispo anciano con pira de fuego y palma, o con una espada.",
+  "works": [
+   {
+    "title": "Carta a los filipenses"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Catholic Encyclopedia (1911), «St. Polycarp»",
+    "url": "https://www.newadvent.org/cathen/12219b.htm"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ]
+ },
+ {
+  "id": "sebastian-de-aparicio",
+  "name": "Beato Sebastián de Aparicio",
+  "status": "blessed",
+  "celebrations": [
+   {
+    "date": "02-25",
+    "rank": "optional",
+    "calendar": "mx",
+    "title": "Beato Sebastián de Aparicio, religioso",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "religious",
+   "blessed",
+   "lay"
+  ],
+  "born": {
+   "date": "20 de enero de 1502 (fecha por confirmar)",
+   "place": "A Gudiña (Orense, Galicia)"
+  },
+  "died": {
+   "date": "25 de febrero de 1600",
+   "place": "Puebla de los Ángeles (México)"
+  },
+  "century": 16,
+  "countries": [
+   "ES",
+   "MX"
+  ],
+  "order": "Franciscanos",
+  "canonization": {
+   "date": "1789 (beatificación)",
+   "by": "Pío VI"
+  },
+  "summary": "Campesino gallego que se hizo ganadero y constructor de caminos en la Nueva España y, ya viudo, ingresó como hermano lego franciscano en Puebla.",
+  "biography": "Sebastián de Aparicio nació en 1502 en A Gudiña, en Galicia (noroeste de España), en una familia pobre. Salió de casa como jornalero para reunir dote para sus hermanas. Navegó hacia la Nueva España, donde llegó en 1533 y se estableció en la recién fundada ciudad de Puebla. Trabajó como peón agrícola y después se dedicó a la ganadería. Notó el mal estado de los caminos y se hizo constructor de caminos y carretero: según los relatos, domesticó bueyes y organizó un servicio regular de carretas, y su obra más conocida unió las minas de Zacatecas con la ciudad de México.\n\nSebastián llegó a ser rico, pero seguía viviendo de forma sencilla. Se instaló en una hacienda cerca de Zacatecas, donde cultivaba y criaba ganado y se distinguía por su oración y su caridad con los pobres. Enseñó a los indígenas métodos europeos de cultivo y a domesticar caballos y reses, y a menudo medió en sus disputas con los colonos españoles. Contrajo matrimonio, según las fuentes, dos veces, y enviudó; no tenemos nombres ni fechas de esas uniones. En 1573, tras la muerte de su segunda esposa, donó gran parte de lo que le quedaba a un monasterio de clarisas, donde trabajó al principio como sirviente. En 1574 pidió ser admitido entre los frailes menores.\n\nLa mayor parte de sus años de fraile los pasó como limosnero («cuestor») del gran convento franciscano de Puebla. Recorría la región en su carreta de bueyes, recogiendo limosnas para los frailes y para los pobres, y el pueblo lo veneraba. Conservó buena salud casi hasta el fin y murió, tras una breve enfermedad, a los noventa y ocho años, el 25 de febrero de 1600. Después de su muerte se le atribuyeron milagros, y fue beatificado en 1789 por Pío VI. Su cuerpo, incorrupto, se venera en una urna de cristal, en una capilla de la iglesia de San Francisco de Puebla, construida entre 1743 y 1767.\n\nEn su pueblo natal, A Gudiña, su fiesta del 25 de febrero incluye la bendición de vehículos, en memoria de su oficio de carretero. En México la devoción popular lo asocia con el transporte y los caminos, aunque no hemos podido documentar un patronazgo oficial.\n\nLa figura de Sebastián de Aparicio enseña que el trabajo cotidiano, la prosperidad honrada y el servicio a los demás pueden ser camino de santidad, y que la conversión no tiene edad: pasó de empresario próspero y viudo a mendigo de caridad para sus hermanos. Aparece en la iconografía como franciscano con hábito pardo, junto a una carreta con bueyes o a un yugo, a veces con el arado, símbolo de su vida de campesino.",
+  "context": "Nueva España del siglo XVI: caminos, minería y evangelización franciscana.",
+  "virtues": [
+   "Trabajo",
+   "Generosidad con los pobres",
+   "Humildad"
+  ],
+  "significance": "Ejemplo de santidad laical en la vida económica de la Nueva España.",
+  "iconography": "Franciscano lego con yunta de bueyes y carreta; a veces con un arado.",
+  "unverified": true,
+  "sources": [
+   {
+    "label": "Franciscan Tradition, «Blessed Sebastian de Aparicio, devout layman and Franciscan friar»",
+    "url": "https://www.franciscantradition.org/blog/blessed-sebastian-de-aparicio-devout-layman-and-franciscan-friar/"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "note": "Pendiente: fecha exacta de nacimiento (20-I-1502), fecha de beatificación (1789; 17 de mayo según Wikipedia, 1790 según otra fuente) y las fechas de sus matrimonios, que no se pudieron confirmar en fuente primaria (DBE, Vaticano u OFM). En el calendario mexicano (liturgy-calendars.ts) no está publicado como memoria; GCatholic lo lista como conmemoración facultativa."
+ },
+ {
+  "id": "toribio-romo-gonzalez",
+  "name": "Santo Toribio Romo González",
+  "fullName": "Toribio Romo González",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-25",
+    "rank": "none",
+    "calendar": "mx",
+    "title": "Santo Toribio Romo González, presbítero y mártir",
+    "color": "red"
+   }
+  ],
+  "categories": [
+   "martyr",
+   "priest"
+  ],
+  "born": {
+   "date": "16 de abril de 1900",
+   "place": "Santa Ana de Guadalupe, Jalostotitlán (Jalisco)"
+  },
+  "died": {
+   "date": "25 de febrero de 1928",
+   "place": "Agua Caliente, Tequila (Jalisco)"
+  },
+  "century": 20,
+  "countries": [
+   "MX"
+  ],
+  "canonization": {
+   "date": "21 de mayo de 2000",
+   "by": "Juan Pablo II",
+   "note": "Beatificado el 22 de noviembre de 1992; canonizado con otros 24 mártires de la persecución religiosa en México"
+  },
+  "summary": "Joven sacerdote jalisciense asesinado el 25 de febrero de 1928 en la persecución religiosa; canonizado en 2000 con Cristóbal Magallanes y compañeros.",
+  "context": "Guerra Cristera (1926-1929), con el culto público suspendido y el clero perseguido.",
+  "virtues": [
+   "Entrega pastoral",
+   "Devoción eucarística",
+   "Fortaleza"
+  ],
+  "significance": "Uno de los veinticinco mártires mexicanos canonizados en 2000; su tumba y su santuario en Santa Ana de Guadalupe son meta de peregrinos y migrantes.",
+  "iconography": "Joven sacerdote con sotana y bonete, a veces con la palma del martirio y el cáliz.",
+  "sources": [
+   {
+    "label": "Santa Sede, biografía de Toribio Romo González (canonización 21-V-2000)",
+    "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20000521_romo-gonzalez_it.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "unverified": true,
+  "note": "Pendiente: el rango y fecha litúrgica de Toribio Romo no aparecen en liturgy-calendars.ts ni en GCatholic (donde no figura el 25 de febrero); su culto oficial es con el grupo de Cristóbal Magallanes (21-V, memoria en México). Se deja 02-25 con rango 'none' (aniversario) hasta verificar el calendario diocesano de Guadalajara o San Juan de los Lagos. También sin verificar: el patronazgo popular de los migrantes y el año de su ordenación.",
+  "biography": "Toribio Romo González nació el 16 de abril de 1900 en Santa Ana de Guadalupe, en la parroquia de Jalostotitlán (Jalisco), en la diócesis de San Juan de los Lagos. Creció en una familia profundamente católica, en una región, los Altos de Jalisco, de fuerte arraigo religioso. Entró al seminario auxiliar de San Juan de los Lagos en 1912 y después pasó al seminario de Guadalajara. Fue ordenado sacerdote, todavía muy joven, en la década de 1920; los detalles de sus estudios y la fecha de su ordenación no figuran en la breve biografía de la Santa Sede que hemos leído.\n\nSu ministerio se desarrolló en la arquidiócesis de Guadalajara, como vicario con funciones de párroco en Tequila, en el momento más difícil de la persecución religiosa. Las leyes anticlericales habían sido endurecidas en 1926, el culto público estaba suspendido y la guerra cristera enfrentaba al gobierno con grupos católicos armados. Según la biografía vaticana, Toribio era un sacerdote de corazón sensible y de intensa oración, con una profunda devoción a la eucaristía. El pueblo de Agua Caliente, en el municipio de Tequila, le sirvió de refugio y de centro de su apostolado, y allí atendía a los fieles en secreto.\n\nEl sábado 25 de febrero de 1928, hacia las cinco de la mañana, Toribio fue muerto en esa zona. Había pasado la noche trabajando en el arreglo de los registros parroquiales y se durmió antes de poder celebrar la misa. Un grupo de campesinos y soldados irrumpió en su habitación; uno de ellos lo señaló como sacerdote y ordenó matarlo. Al incorporarse recibió disparos; herido, caminó unos pasos, y otro disparo por la espalda le dio muerte. Tenía veintisiete años.\n\nFue beatificado el 22 de noviembre de 1992 y canonizado el 21 de mayo de 2000 por Juan Pablo II, con Cristóbal Magallanes y otros 24 compañeros, entre los que figuran sacerdotes y laicos que murieron por la fe entre 1915 y 1937. En el calendario mexicano la celebración colectiva es el 21 de mayo, con rango de memoria; la fecha de su martirio, el 25 de febrero, se recuerda en su santuario y en las diócesis de Jalisco, pero no hemos podido confirmar su rango litúrgico oficial.\n\nUna devoción popular, no oficial, lo ha convertido en protector de los migrantes, que en gran número visitan su santuario de Santa Ana de Guadalupe: se cuentan relatos de ayuda a quienes cruzaban la frontera. Estos relatos no son parte de las actas de su causa, y se refieren a la fe del pueblo, no al juicio de la Iglesia sobre su santidad.\n\nToribio Romo enseña la fidelidad de un pastor joven que no abandona a su pueblo cuando se prohíbe el culto, y la centralidad de la eucaristía en la vida sacerdotal: murió, como quien se dispone a celebrar la misa, entregando su vida antes de poder ofrecerla en el altar."
+ },
+ {
+  "id": "gregorio-de-narek",
+  "name": "San Gregorio de Narek",
+  "status": "saint",
+  "celebrations": [
+   {
+    "date": "02-27",
+    "rank": "optional",
+    "calendar": "general",
+    "title": "San Gregorio de Narek, abad y doctor de la Iglesia",
+    "color": "white"
+   }
+  ],
+  "categories": [
+   "doctor",
+   "religious",
+   "mystic"
+  ],
+  "born": {
+   "date": "c. 950 (fecha incierta, entre 945 y 951)",
+   "place": "Andzevatsik (Vaspurakán, Armenia), según la tradición"
+  },
+  "died": {
+   "date": "c. 1003-1005",
+   "place": "Narek (Armenia)"
+  },
+  "century": 10,
+  "countries": [
+   "AM"
+  ],
+  "summary": "Monje, poeta y teólogo armenio del siglo X, autor del «Libro de las Lamentaciones»; doctor de la Iglesia desde 2015 y con memoria libre en el Calendario Romano desde 2021.",
+  "biography": "Gregorio de Narek (Grigor Narekatsí) es una de las grandes figuras de la espiritualidad armenia. Se sabe poco de su vida: la mayoría de las fuentes lo hacen nacer hacia 950 en la región de Vaspurakán, junto al lago Van, y lo hacen morir entre 1003 y 1005. Pasó casi toda su vida como monje, sacerdote y maestro en el monasterio de Narek, de donde toma su nombre, y de ahí que sepamos tan poco de él más allá de lo que dejó escrito.\n\nSu obra más célebre es el «Libro de las Lamentaciones» o «Libro de la oración» (Matean Voghbergutyan), compuesto hacia el año 1002 y formado por unas noventa oraciones, cada una de ellas un diálogo íntimo y a veces desgarrado entre el alma pecadora y Dios. Para Gregorio, la oración parte del reconocimiento sincero de la propia miseria, sin disimulos, pero no se detiene allí: la confianza en la misericordia divina hace cantar a quien reza. Este libro se utilizaba, y se sigue utilizando, como libro de oración en muchos hogares armenios, y ha sido traducido a numerosos idiomas. Gregorio escribió también un comentario al Cantar de los Cantares, himnos y panegíricos.\n\nEs venerado desde antiguo como santo por la Iglesia armenia. El papa Francisco lo proclamó doctor de la Iglesia el 12 de abril de 2015, durante la misa por el centenario del genocidio armenio, y fue el primer armenio en recibir este título. El decreto del 25 de enero de 2021 de la Congregación para el Culto Divino lo inscribió, con el título de «San Gregorio de Narek, abad y doctor de la Iglesia», en el Calendario Romano General y en todos los libros litúrgicos, el 27 de febrero, como memoria libre. El decreto lo vincula con las declaraciones recientes de otros doctores de Oriente y de Occidente.\n\nLa teología de Gregorio es una teología orante: no discute conceptos, sino que se dirige a Dios con las palabras del corazón. Por eso es a menudo llamado «doctor de la paz» y «compañero de los que sufren»: en un pueblo marcado por la persecución y por el exilio, su voz expresa la experiencia de la debilidad humana abierta a la ternura de Dios. Para los católicos de rito latino, su inclusión en el calendario es un signo del reconocimiento de la riqueza de las tradiciones orientales.\n\nSe le representa como monje armenio con hábito oscuro, con un libro y, a veces, una pluma; su libro, escrito «desde lo hondo del corazón», se considera un tesoro espiritual y literario del cristianismo armenio.",
+  "context": "Armenia del siglo X, reino de Vaspurakán, con tensiones religiosas internas y con Bizancio.",
+  "virtues": [
+   "Humildad",
+   "Oración contemplativa",
+   "Confianza en la misericordia"
+  ],
+  "significance": "Doctor de la Iglesia (2015); representa la rica tradición espiritual armenia.",
+  "iconography": "Monje armenio con hábito oscuro y libro; a veces con una pluma.",
+  "works": [
+   {
+    "title": "Libro de las Lamentaciones (Narek)"
+   },
+   {
+    "title": "Comentario al Cantar de los Cantares"
+   }
+  ],
+  "sources": [
+   {
+    "label": "Congregación para el Culto Divino, decreto del 25 de enero de 2021 (inscripción de san Gregorio de Narek en el Calendario Romano General)",
+    "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20210125_decreto-dottori_en.html"
+   },
+   {
+    "label": "GCatholic, Calendario litúrgico de México 2026 (febrero): fechas, rangos y títulos de las celebraciones",
+    "url": "https://gcatholic.org/calendar/2026/MX-es"
+   }
+  ],
+  "canonization": {
+   "date": "12 de abril de 2015 (declarado doctor de la Iglesia)",
+   "by": "Francisco",
+   "note": "Memoria libre en el Calendario Romano General por decreto del 25 de enero de 2021"
+  },
+  "unverified": true,
+  "note": "Rango y fecha litúrgica verificados en el decreto de 2021. Los datos biográficos (nacimiento hacia 950, muerte 1003-1005, lugar de origen, composición del Libro de las Lamentaciones hacia 1002) provienen de resúmenes enciclopédicos y difieren entre fuentes; sin lectura directa de una fuente armenia o del texto de la proclamación de doctor. Pendiente de contraste."
+ }
+]

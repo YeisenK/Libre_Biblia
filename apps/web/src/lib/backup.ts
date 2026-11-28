@@ -1,10 +1,19 @@
-import type { AppDb, BookmarkRow, DailyFavoriteRow, DailyHistoryRow, HistoryRow, NovenaProgressRow, PositionRow, PrayerFavoriteRow, PrayerHistoryRow, RoutineLogRow, RoutineRow, RosarySessionRow } from './db';
+import type { AnnotationRow, AppDb, BookmarkRow, DiaryEntryRow, ImportedBookRow, UserCollectionRow, DailyFavoriteRow, DailyHistoryRow, HistoryRow, NovenaProgressRow, PositionRow, PrayerFavoriteRow, PrayerHistoryRow, RoutineLogRow, RoutineRow, RosarySessionRow } from './db';
 import type { UserSettings } from './settings';
 import { DEFAULT_SETTINGS, mergeSettings } from './settings';
 import { getPosition, getSettings } from './personal';
+import { decryptDiary, encryptDiary, isDiaryEnvelope, type DiaryEnvelope } from './diary/crypto';
 
 export const BACKUP_APP = 'biblia-catolica';
 export const BACKUP_FORMAT = 1;
+
+/** Libro importado en la copia: la portada va como data URL y el archivo (opcional) aparte, en base64. */
+export type BackupBook = Omit<ImportedBookRow, 'coverBlob'> & { cover?: string };
+export interface BackupBookFile {
+  bookId: string;
+  mime: string;
+  data: string;
+}
 
 export interface Backup {
   app: typeof BACKUP_APP;
@@ -25,10 +34,41 @@ export interface Backup {
   novenaProgress?: NovenaProgressRow[];
   rosarySessions?: RosarySessionRow[];
   prayerHistory?: PrayerHistoryRow[];
+  /** Biblioteca personal (Lux 0.5): fichas, anotaciones y colecciones de libros; los archivos solo si se pide */
+  importedBooks?: BackupBook[];
+  annotations?: AnnotationRow[];
+  bookCollections?: UserCollectionRow[];
+  bookFiles?: BackupBookFile[];
+  /** Diario espiritual: SOLO si el usuario lo incluyó, cifrado con su contraseña (ver lib/diary/crypto.ts). */
+  diary?: DiaryEnvelope;
 }
 
-export async function exportBackup(db: AppDb): Promise<Backup> {
-  const [bookmarks, history, position, settings, repos, dailyFavorites, dailyHistory, routines, routineLog, prayerFavorites, novenaProgress, rosarySessions, prayerHistory] = await Promise.all([
+const blobToDataUrl = async (b: Blob) => {
+  const bytes = new Uint8Array(await b.arrayBuffer());
+  let bin = '';
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+  return `data:${b.type || 'application/octet-stream'};base64,${btoa(bin)}`;
+};
+const dataUrlToBlob = (u: string): Blob | undefined => {
+  const m = /^data:([^;,]*)(;base64)?,(.*)$/s.exec(u);
+  if (!m || !m[2]) return undefined;
+  try {
+    const bin = atob(m[3]!);
+    return new Blob([Uint8Array.from(bin, (c) => c.charCodeAt(0))], { type: m[1] || 'application/octet-stream' });
+  } catch {
+    return undefined;
+  }
+};
+
+export interface ExportOptions {
+  /** Incluir los archivos de los libros importados (base64: la copia puede pesar mucho). Por defecto no. */
+  includeBookFiles?: boolean;
+  /** Si se indica, el diario se incluye cifrado con esta contraseña. Si no, el diario no sale de la app. */
+  diaryPassword?: string;
+}
+
+export async function exportBackup(db: AppDb, opts: ExportOptions = {}): Promise<Backup> {
+  const [bookmarks, history, position, settings, repos, dailyFavorites, dailyHistory, routines, routineLog, prayerFavorites, novenaProgress, rosarySessions, prayerHistory, books, annotations, bookCollections] = await Promise.all([
     db.bookmarks.toArray(),
     db.history.toArray(),
     getPosition(db),
@@ -42,7 +82,19 @@ export async function exportBackup(db: AppDb): Promise<Backup> {
     db.novenaProgress.toArray(),
     db.rosarySessions.toArray(),
     db.prayerHistory.toArray(),
+    db.importedBooks.toArray(),
+    db.annotations.toArray(),
+    db.userCollections.where('kind').equals('books').toArray(),
   ]);
+  const importedBooks: BackupBook[] = [];
+  for (const { coverBlob, ...rest } of books) importedBooks.push({ ...rest, ...(coverBlob ? { cover: await blobToDataUrl(coverBlob) } : {}) });
+  const bookFiles: BackupBookFile[] = [];
+  if (opts.includeBookFiles) {
+    for (const f of await db.bookFiles.toArray()) {
+      const url = await blobToDataUrl(f.blob);
+      bookFiles.push({ bookId: f.bookId, mime: f.blob.type, data: url.slice(url.indexOf(',') + 1) });
+    }
+  }
   return {
     app: BACKUP_APP,
     format: BACKUP_FORMAT,
@@ -60,6 +112,11 @@ export async function exportBackup(db: AppDb): Promise<Backup> {
     novenaProgress,
     rosarySessions,
     prayerHistory: prayerHistory.map(({ id: _id, ...h }) => h),
+    importedBooks,
+    annotations,
+    bookCollections,
+    ...(opts.includeBookFiles ? { bookFiles } : {}),
+    ...(opts.diaryPassword ? { diary: await encryptDiary(await db.diaryEntries.toArray(), opts.diaryPassword) } : {}),
   };
 }
 
@@ -77,6 +134,13 @@ export interface ImportSummary {
   novenaProgress: number;
   rosarySessions: number;
   prayerHistory: number;
+  books: number;
+  annotations: number;
+  bookCollections: number;
+  bookFiles: number;
+  diaryEntries: number;
+  /** Hay diario en la copia pero no se indicó contraseña: no se restauró. */
+  diarySkipped: boolean;
 }
 
 const isStr = (x: unknown): x is string => typeof x === 'string' && x.length > 0;
@@ -133,6 +197,51 @@ export function parsePrayerLife(raw: Record<string, unknown>): Required<Pick<Bac
   return { routines, routineLog, prayerFavorites, novenaProgress, rosarySessions, prayerHistory };
 }
 
+const FORMATS = ['epub', 'pdf', 'txt', 'md', 'html', 'fb2', 'other'] as const;
+const ANN_KINDS = ['bookmark', 'highlight', 'note'] as const;
+
+/** Valida la biblioteca personal de la copia; descarta lo que no tenga la forma esperada. */
+export function parseLibrary(raw: Record<string, unknown>): Required<Pick<Backup, 'importedBooks' | 'annotations' | 'bookCollections' | 'bookFiles'>> {
+  const arr = (x: unknown): Record<string, unknown>[] => (Array.isArray(x) ? x.filter(isObj) : []);
+  const epoch = new Date(0).toISOString();
+  const importedBooks: BackupBook[] = arr(raw.importedBooks).filter((b) => isStr(b.id) && (b.id as string).startsWith('user:') && isStr(b.title)).map((b) => ({
+    id: b.id as string,
+    format: (FORMATS as readonly unknown[]).includes(b.format) ? (b.format as BackupBook['format']) : 'other',
+    title: b.title as string,
+    ...(isStr(b.author) ? { author: b.author } : {}),
+    ...(isStr(b.language) ? { language: b.language } : {}),
+    ...(isStr(b.description) ? { description: b.description } : {}),
+    ...(isStr(b.cover) && (b.cover as string).startsWith('data:image/') ? { cover: b.cover as string } : {}),
+    bytes: isNum(b.bytes) ? b.bytes : 0,
+    fileName: typeof b.fileName === 'string' ? b.fileName : '',
+    addedAt: isoOr(b.addedAt, epoch),
+    updatedAt: isoOr(b.updatedAt, epoch),
+    ...(isStr(b.position) ? { position: b.position } : {}),
+    ...(isNum(b.progress) ? { progress: Math.max(0, Math.min(1, b.progress)) } : {}),
+  }));
+  const annotations: AnnotationRow[] = arr(raw.annotations).filter((a) => isStr(a.id) && isStr(a.bookId) && isStr(a.locator) && (ANN_KINDS as readonly unknown[]).includes(a.kind)).map((a) => ({
+    id: a.id as string,
+    bookId: a.bookId as string,
+    kind: a.kind as AnnotationRow['kind'],
+    locator: a.locator as string,
+    ...(isStr(a.text) ? { text: a.text } : {}),
+    ...(isStr(a.note) ? { note: a.note } : {}),
+    ...(isStr(a.color) ? { color: a.color } : {}),
+    createdAt: isoOr(a.createdAt, epoch),
+    updatedAt: isoOr(a.updatedAt, isoOr(a.createdAt, epoch)),
+  }));
+  const bookCollections: UserCollectionRow[] = arr(raw.bookCollections).filter((c) => isStr(c.id) && isStr(c.title) && Array.isArray(c.items)).map((c) => ({
+    id: c.id as string,
+    kind: 'books',
+    title: c.title as string,
+    items: (c.items as unknown[]).filter(isStr).filter((k) => k.startsWith('book:')),
+    createdAt: isoOr(c.createdAt, epoch),
+    updatedAt: isoOr(c.updatedAt, epoch),
+  }));
+  const bookFiles: BackupBookFile[] = arr(raw.bookFiles).filter((f) => isStr(f.bookId) && isStr(f.data)).map((f) => ({ bookId: f.bookId as string, mime: typeof f.mime === 'string' ? f.mime : '', data: f.data as string }));
+  return { importedBooks, annotations, bookCollections, bookFiles };
+}
+
 export function parseBackup(text: string): Backup {
   let raw: unknown;
   try {
@@ -183,15 +292,32 @@ export function parseBackup(text: string): Backup {
     packId: isStr(x.packId) ? x.packId : null,
     seenAt: isStr(x.seenAt) ? x.seenAt : new Date().toISOString(),
   }));
-  return { app: BACKUP_APP, format: BACKUP_FORMAT, exportedAt: isStr(raw.exportedAt) ? raw.exportedAt : '', bookmarks, history, position, settings, repositories, dailyFavorites, dailyHistory, ...parsePrayerLife(raw) };
+  return { app: BACKUP_APP, format: BACKUP_FORMAT, exportedAt: isStr(raw.exportedAt) ? raw.exportedAt : '', bookmarks, history, position, settings, repositories, dailyFavorites, dailyHistory, ...parsePrayerLife(raw), ...parseLibrary(raw), ...(isDiaryEnvelope(raw.diary) ? { diary: raw.diary } : {}) };
 }
 
 const bmKey = (b: { version: string | null; book: string; chapter: number; verse: number | null }) => `${b.version ?? ''}|${b.book}|${b.chapter}|${b.verse ?? ''}`;
 
 /** Fusiona la copia con los datos actuales sin perder nada de lo existente. */
-export async function importBackup(db: AppDb, text: string): Promise<ImportSummary> {
+/** ¿La copia trae el diario cifrado? (para pedir la contraseña antes de restaurar). */
+export function hasEncryptedDiary(text: string): boolean {
+  try {
+    return isDiaryEnvelope((JSON.parse(text) as { diary?: unknown })?.diary);
+  } catch {
+    return false;
+  }
+}
+
+export interface ImportOptions {
+  /** Contraseña del diario cifrado de la copia. Sin ella el diario se omite. Se valida antes de escribir nada. */
+  diaryPassword?: string;
+}
+
+export async function importBackup(db: AppDb, text: string, opts: ImportOptions = {}): Promise<ImportSummary> {
   const b = parseBackup(text);
-  const sum: ImportSummary = { bookmarks: 0, history: 0, position: false, settings: false, repositories: 0, dailyFavorites: 0, dailyHistory: 0, routines: 0, routineLog: 0, prayerFavorites: 0, novenaProgress: 0, rosarySessions: 0, prayerHistory: 0 };
+  // Descifrar primero: una contraseña incorrecta falla limpio, sin restaurar a medias.
+  let diary: DiaryEntryRow[] | null = null;
+  if (b.diary && opts.diaryPassword) diary = await decryptDiary(b.diary, opts.diaryPassword);
+  const sum: ImportSummary = { bookmarks: 0, history: 0, position: false, settings: false, repositories: 0, dailyFavorites: 0, dailyHistory: 0, routines: 0, routineLog: 0, prayerFavorites: 0, novenaProgress: 0, rosarySessions: 0, prayerHistory: 0, books: 0, annotations: 0, bookCollections: 0, bookFiles: 0, diaryEntries: 0, diarySkipped: !!b.diary && !diary };
 
   const existing = await db.bookmarks.toArray();
   const keys = new Set(existing.map(bmKey));
@@ -246,6 +372,47 @@ export async function importBackup(db: AppDb, text: string): Promise<ImportSumma
   const newPh = await have(b.prayerHistory ?? [], (x) => `${x.at}|${x.key}`, db.prayerHistory.toArray());
   await db.prayerHistory.bulkAdd(newPh);
   sum.prayerHistory = newPh.length;
+
+  // Biblioteca personal: libros ausentes se añaden (sin pisar la posición local); anotaciones por id (gana la más reciente).
+  const haveBooks = new Set(await db.importedBooks.toCollection().primaryKeys());
+  const newBooks = (b.importedBooks ?? []).filter((x) => !haveBooks.has(x.id));
+  await db.importedBooks.bulkPut(newBooks.map(({ cover, ...row }) => ({ ...row, ...(cover ? { coverBlob: dataUrlToBlob(cover) } : {}) })));
+  sum.books = newBooks.length;
+  const curAnn = new Map((await db.annotations.toArray()).map((x) => [x.id, x]));
+  const newAnn = (b.annotations ?? []).filter((x) => {
+    const c = curAnn.get(x.id);
+    return !c || c.updatedAt < x.updatedAt;
+  });
+  await db.annotations.bulkPut(newAnn);
+  sum.annotations = newAnn.length;
+  const curCol = new Map((await db.userCollections.toArray()).map((x) => [x.id, x]));
+  const mergedCols = (b.bookCollections ?? []).map((x) => {
+    const c = curCol.get(x.id);
+    return c ? { ...c, items: [...new Set([...c.items, ...x.items])], updatedAt: c.updatedAt < x.updatedAt ? x.updatedAt : c.updatedAt } : x;
+  }).filter((x) => { const c = curCol.get(x.id); return !c || x.items.length !== c.items.length; });
+  await db.userCollections.bulkPut(mergedCols);
+  sum.bookCollections = mergedCols.length;
+  const haveFiles = new Set(await db.bookFiles.toCollection().primaryKeys());
+  const known = new Set([...haveBooks, ...newBooks.map((x) => x.id)]);
+  for (const f of b.bookFiles ?? []) {
+    if (haveFiles.has(f.bookId) || !known.has(f.bookId)) continue;
+    const blob = dataUrlToBlob(`data:${f.mime};base64,${f.data}`);
+    if (blob) {
+      await db.bookFiles.put({ bookId: f.bookId, blob });
+      sum.bookFiles++;
+    }
+  }
+
+  // Diario: se añade lo que falta; si una entrada existe, gana la más reciente.
+  if (diary) {
+    const curDiary = new Map((await db.diaryEntries.toArray()).map((x) => [x.id, x]));
+    const newDiary = diary.filter((x) => {
+      const c = curDiary.get(x.id);
+      return !c || c.updatedAt < x.updatedAt;
+    });
+    await db.diaryEntries.bulkPut(newDiary);
+    sum.diaryEntries = newDiary.length;
+  }
 
   if (b.position) {
     const cur = await getPosition(db);

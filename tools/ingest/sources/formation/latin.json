@@ -1,0 +1,1419 @@
+[
+ {
+  "id": "alfabeto-y-pronunciacion",
+  "title": "Alfabeto y pronunciación eclesiástica",
+  "intro": [
+   "El latín de la Iglesia se pronuncia habitualmente a la manera romana o «italiana», la que se canta en la liturgia desde hace siglos. Se distingue de la pronunciación restituta o clásica, que intenta reconstruir cómo hablaban los romanos de Cicerón (por ejemplo, c siempre como k: «kaelum»). Aquí usamos la eclesiástica, que a un hispanohablante le resulta muy cercana.",
+   "El alfabeto latino tiene las mismas letras que el nuestro, sin ñ ni w. Las cinco vocales (a, e, i, o, u) suenan casi como en español y no se reducen nunca. Cada letra se pronuncia: no hay letras mudas salvo la h."
+  ],
+  "vocab": [
+   {
+    "la": "c ante e, i, ae, oe",
+    "es": "suena «ch» como en «chico»",
+    "note": "caelum se dice «chélum»; ante a, o, u suena k: caritas = «káritas»"
+   },
+   {
+    "la": "g ante e, i, ae, oe",
+    "es": "suena como «y» o «dy» ligera, como en el italiano «gente»",
+    "note": "Regina = «redyína»; ante a, o, u suena como la g de «gato»: gratia"
+   },
+   {
+    "la": "sc ante e, i, ae, oe",
+    "es": "suena «sh» como en «shock»",
+    "note": "descendit = «deshéndit»; ante a, o, u suena sk: scandalum"
+   },
+   {
+    "la": "ti + vocal",
+    "es": "suena «tsi» como en «gratsia»",
+    "note": "gratia, oratio; pero no tras s, t o x: hostia, Christus"
+   },
+   {
+    "la": "j / i consonántica",
+    "es": "suena como nuestra «y»",
+    "note": "Iesus = «Yésus», Iustitia = «Yustítsia»"
+   },
+   {
+    "la": "h",
+    "es": "no se pronuncia",
+    "note": "hodie = «ódie»; en mihi y nihil se oye una «k»: «miki», «nikil»"
+   },
+   {
+    "la": "ae, oe",
+    "es": "suena como una «e» larga",
+    "note": "Maria, saecula = «sékula»; caelum"
+   },
+   {
+    "la": "z",
+    "es": "suena «dz»",
+    "note": "zelus = «dzélus»"
+   },
+   {
+    "la": "gn",
+    "es": "suena «ñ»",
+    "note": "agnus = «áñus»; Agnus Dei"
+   },
+   {
+    "la": "qu, gu, su ante vocal",
+    "es": "la u suena como una «w» muy breve",
+    "note": "qui = «kwi»; sanguis; suavis"
+   },
+   {
+    "la": "v",
+    "es": "suena como una v suave (labiodental)",
+    "note": "vita; la pronunciación restituta la haría «w»"
+   },
+   {
+    "la": "ph, th, ch",
+    "es": "suenan «f», «t», «k»",
+    "note": "Philippus, Thomas, Christus = «Krístus»"
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "choose",
+    "prompt": "En pronunciación eclesiástica, ¿cómo suena «caelum» (cielo)?",
+    "options": [
+     "kaelum",
+     "chéelum",
+     "séelum",
+     "cáelum con h aspirada"
+    ],
+    "answer": 1
+   },
+   {
+    "kind": "choose",
+    "prompt": "¿Cómo suena «gratia»?",
+    "options": [
+     "gráxia",
+     "grátsia",
+     "gráchia",
+     "grátia"
+    ],
+    "answer": 1
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada grupo de letras con su sonido eclesiástico.",
+    "pairs": [
+     [
+      "sc ante e",
+      "sh"
+     ],
+     [
+      "gn",
+      "ñ"
+     ],
+     [
+      "j / i consonántica",
+      "y"
+     ],
+     [
+      "z",
+      "dz"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "acento-y-silabas",
+  "title": "Sílabas, acento y lectura en voz alta",
+  "intro": [
+   "Una palabra latina tiene tantas sílabas como vocales o diptongos (ae, au, oe). Si tiene dos sílabas, el acento cae en la primera: Pá-ter. Si tiene tres o más, el acento va en la penúltima sílaba cuando es larga (por naturaleza o porque la siguen dos consonantes) y en la antepenúltima cuando es breve: Dó-mi-nus.",
+   "Los libros litúrgicos marcan el acento con una tilde para facilitar la lectura. Lee siempre en voz alta y despacio: el latín litúrgico se canta, y las vocales se pronuncian con claridad. Las consonantes dobles se articulan dos veces: «Alleluia» = «al-le-lú-ia»."
+  ],
+  "vocab": [
+   {
+    "la": "Pá-ter",
+    "es": "padre",
+    "note": "dos sílabas: acento en la primera"
+   },
+   {
+    "la": "Ma-rí-a",
+    "es": "María",
+    "note": "la i es tónica: i y a se leen en sílabas separadas"
+   },
+   {
+    "la": "Dó-mi-nus",
+    "es": "Señor",
+    "note": "acento en la antepenúltima: la penúltima es breve"
+   },
+   {
+    "la": "Ec-clé-si-a",
+    "es": "Iglesia",
+    "note": "la doble c se lee con fuerza: «ek-klé-si-a»"
+   },
+   {
+    "la": "re-sur-rec-ti-ó-nem",
+    "es": "resurrección (acusativo)",
+    "note": "cinco sílabas, acento en la penúltima, que es larga"
+   },
+   {
+    "la": "Al-le-lú-ia",
+    "es": "aleluya",
+    "note": "consonantes dobles: se oyen las dos"
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "choose",
+    "prompt": "En «Pater» (dos sílabas), ¿dónde cae el acento?",
+    "options": [
+     "En la primera: Pá-ter",
+     "En la segunda: Pa-tér"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "fill",
+    "prompt": "Completa: el diptongo ae se pronuncia como una ___.",
+    "text": "El diptongo ae suena como una ___ larga.",
+    "options": [
+     "a",
+     "e",
+     "i",
+     "o"
+    ],
+    "answer": 1
+   },
+   {
+    "kind": "match",
+    "prompt": "Une la palabra con su separación en sílabas.",
+    "pairs": [
+     [
+      "Dominus",
+      "Dó-mi-nus"
+     ],
+     [
+      "Maria",
+      "Ma-rí-a"
+     ],
+     [
+      "Alleluia",
+      "Al-le-lú-ia"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "vocabulario-religioso",
+  "title": "Vocabulario religioso básico",
+  "intro": [
+   "Estas palabras aparecen una y otra vez en las oraciones y en la liturgia. Aprenderlas de memoria desbloquea la mitad del Misal. Observa que el latín no tiene artículos: «Deus» puede traducirse «Dios» o «un dios» según el contexto. Las terminaciones indican la función en la frase: Deus (sujeto), Dei (de Dios), Deo (a Dios), Deum (a Dios, complemento directo)."
+  ],
+  "vocab": [
+   {
+    "la": "Deus, Dei",
+    "es": "Dios",
+    "pron": "Dé-us, Dé-i"
+   },
+   {
+    "la": "Dominus, Domini",
+    "es": "Señor",
+    "pron": "Dó-mi-nus"
+   },
+   {
+    "la": "Iesus Christus",
+    "es": "Jesucristo",
+    "pron": "Yé-sus Krís-tus"
+   },
+   {
+    "la": "Pater, Patris",
+    "es": "Padre",
+    "pron": "Pá-ter"
+   },
+   {
+    "la": "Filius, Filii",
+    "es": "Hijo",
+    "pron": "Fí-li-us"
+   },
+   {
+    "la": "Spiritus Sanctus",
+    "es": "Espíritu Santo",
+    "pron": "Spí-ri-tus Sánk-tus"
+   },
+   {
+    "la": "Mater, Matris",
+    "es": "Madre",
+    "pron": "Má-ter"
+   },
+   {
+    "la": "Maria",
+    "es": "María",
+    "pron": "Ma-rí-a"
+   },
+   {
+    "la": "Ecclesia",
+    "es": "Iglesia",
+    "pron": "Ek-klé-si-a"
+   },
+   {
+    "la": "sanctus, sancta",
+    "es": "santo, santa",
+    "pron": "sánk-tus"
+   },
+   {
+    "la": "angelus",
+    "es": "ángel",
+    "pron": "án-dye-lus"
+   },
+   {
+    "la": "caelum",
+    "es": "cielo",
+    "pron": "ché-lum"
+   },
+   {
+    "la": "terra",
+    "es": "tierra",
+    "pron": "tér-ra"
+   },
+   {
+    "la": "pax",
+    "es": "paz",
+    "pron": "paks"
+   },
+   {
+    "la": "gratia",
+    "es": "gracia",
+    "pron": "grá-tsi-a"
+   },
+   {
+    "la": "gloria",
+    "es": "gloria",
+    "pron": "gló-ri-a"
+   },
+   {
+    "la": "vita",
+    "es": "vida",
+    "pron": "ví-ta"
+   },
+   {
+    "la": "mors",
+    "es": "muerte",
+    "pron": "mors"
+   },
+   {
+    "la": "amen",
+    "es": "así sea",
+    "pron": "a-men"
+   },
+   {
+    "la": "oratio",
+    "es": "oración",
+    "pron": "o-rá-tsi-o"
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "match",
+    "prompt": "Une cada palabra latina con su significado.",
+    "pairs": [
+     [
+      "Deus",
+      "Dios"
+     ],
+     [
+      "Ecclesia",
+      "Iglesia"
+     ],
+     [
+      "pax",
+      "paz"
+     ],
+     [
+      "caelum",
+      "cielo"
+     ],
+     [
+      "vita",
+      "vida"
+     ]
+    ]
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada palabra latina con su significado.",
+    "pairs": [
+     [
+      "Filius",
+      "Hijo"
+     ],
+     [
+      "Mater",
+      "Madre"
+     ],
+     [
+      "terra",
+      "tierra"
+     ],
+     [
+      "gratia",
+      "gracia"
+     ]
+    ]
+   },
+   {
+    "kind": "choose",
+    "prompt": "¿Qué significa «Spiritus Sanctus»?",
+    "options": [
+     "Espíritu Santo",
+     "Santo Padre",
+     "Santa Iglesia",
+     "Hijo de Dios"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "senal-de-la-cruz-y-gloria",
+  "title": "Señal de la cruz y Gloria al Padre",
+  "intro": [
+   "Empezamos con dos fórmulas breves que se rezan a diario. El latín usa declinaciones: la terminación de cada palabra indica su función. En «in nomine Patris» (en el nombre del Padre), Patris es genitivo: «del Padre». En «Gloria Patri» (gloria al Padre), Patri es dativo: «al Padre». Fíjate cómo cambia la terminación aunque la palabra sea la misma.",
+   "El texto del Gloria Patri se reza al final de los salmos y en el Rosario. La lectura interlineal pone debajo de cada palabra latina su traducción literal."
+  ],
+  "texts": [
+   {
+    "id": "senal-de-la-cruz",
+    "title": "Señal de la cruz",
+    "prayer": "senal-de-la-cruz",
+    "lines": [
+     {
+      "w": "In=En|nomine=el nombre|Patris=del Padre",
+      "es": "En el nombre del Padre,"
+     },
+     {
+      "w": "et=y|Filii=del Hijo",
+      "es": "y del Hijo"
+     },
+     {
+      "w": "et=y|Spiritus=del Espíritu|Sancti=Santo",
+      "es": "y del Espíritu Santo."
+     },
+     {
+      "w": "Amen=Así sea",
+      "es": "Amén."
+     }
+    ]
+   },
+   {
+    "id": "gloria-patri",
+    "title": "Gloria Patri",
+    "prayer": "gloria",
+    "lines": [
+     {
+      "w": "Gloria=Gloria|Patri=al Padre|et=y|Filio=al Hijo|et=y|Spiritui=al Espíritu|Sancto=Santo",
+      "es": "Gloria al Padre, y al Hijo, y al Espíritu Santo."
+     },
+     {
+      "w": "Sicut=Como|erat=era|in=en|principio=el principio|et=y|nunc=ahora|et=y|semper=siempre",
+      "es": "Como era en el principio, ahora y siempre,"
+     },
+     {
+      "w": "et=y|in=por|saecula=los siglos|saeculorum=de los siglos|Amen=así sea",
+      "es": "y por los siglos de los siglos. Amén."
+     }
+    ]
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "fill",
+    "prompt": "Completa la fórmula.",
+    "text": "In nomine ___, et Filii, et Spiritus Sancti.",
+    "options": [
+     "Patris",
+     "Patri",
+     "Pater",
+     "Patrem"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada palabra con su traducción.",
+    "pairs": [
+     [
+      "nomine",
+      "nombre"
+     ],
+     [
+      "et",
+      "y"
+     ],
+     [
+      "semper",
+      "siempre"
+     ],
+     [
+      "nunc",
+      "ahora"
+     ],
+     [
+      "principio",
+      "principio"
+     ]
+    ]
+   },
+   {
+    "kind": "choose",
+    "prompt": "«Gloria Patri»: ¿qué caso es «Patri»?",
+    "options": [
+     "Dativo: al Padre",
+     "Genitivo: del Padre",
+     "Nominativo: el Padre"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "pater-noster",
+  "title": "Pater noster",
+  "intro": [
+   "El Padrenuestro, enseñado por el Señor (Mt 6,9-13; Lc 11,2-4), es la oración fundamental. En latín es muy corto y es la mejor primera oración para aprender. Observa los verbos en subjuntivo con valor de deseo: sanctificetur, adveniat, fiat («sea santificado», «venga», «hágase»)."
+  ],
+  "texts": [
+   {
+    "id": "pater-noster",
+    "title": "Pater noster",
+    "prayer": "padre-nuestro",
+    "lines": [
+     {
+      "w": "Pater=Padre|noster=nuestro|qui=que|es=estás|in=en|caelis=los cielos",
+      "es": "Padre nuestro, que estás en el cielo,"
+     },
+     {
+      "w": "sanctificetur=sea santificado|nomen=nombre|tuum=tu",
+      "es": "santificado sea tu nombre;"
+     },
+     {
+      "w": "adveniat=venga|regnum=reino|tuum=tu",
+      "es": "venga a nosotros tu reino;"
+     },
+     {
+      "w": "fiat=hágase|voluntas=voluntad|tua=tu",
+      "es": "hágase tu voluntad"
+     },
+     {
+      "w": "sicut=como|in=en|caelo=el cielo|et=y|in=en|terra=la tierra",
+      "es": "en la tierra como en el cielo."
+     },
+     {
+      "w": "Panem=pan|nostrum=nuestro|quotidianum=de cada día|da=da|nobis=a nosotros|hodie=hoy",
+      "es": "Danos hoy nuestro pan de cada día;"
+     },
+     {
+      "w": "et=y|dimitte=perdona|nobis=a nosotros|debita=deudas|nostra=nuestras",
+      "es": "y perdona nuestras ofensas,"
+     },
+     {
+      "w": "sicut=como|et=también|nos=nosotros|dimittimus=perdonamos|debitoribus=a los deudores|nostris=nuestros",
+      "es": "como también nosotros perdonamos a los que nos ofenden;"
+     },
+     {
+      "w": "et=y|ne=no|nos=nos|inducas=lleves|in=a|tentationem=la tentación",
+      "es": "y no nos dejes caer en la tentación,"
+     },
+     {
+      "w": "sed=sino|libera=libra|nos=nos|a=de|malo=el mal|Amen=así sea",
+      "es": "mas líbranos del mal. Amén."
+     }
+    ]
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "fill",
+    "prompt": "Completa el texto.",
+    "text": "Pater noster, qui es in ___.",
+    "options": [
+     "caelis",
+     "terra",
+     "Ecclesia",
+     "vita"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "fill",
+    "prompt": "Completa el texto.",
+    "text": "Panem nostrum quotidianum da ___ hodie.",
+    "options": [
+     "nobis",
+     "tibi",
+     "nos",
+     "eis"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada forma verbal con su traducción.",
+    "pairs": [
+     [
+      "sanctificetur",
+      "sea santificado"
+     ],
+     [
+      "adveniat",
+      "venga"
+     ],
+     [
+      "fiat",
+      "hágase"
+     ],
+     [
+      "libera",
+      "libra"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ave-maria",
+  "title": "Ave Maria",
+  "intro": [
+   "La Salutación angélica reúne las palabras del ángel Gabriel (Lc 1,28), las de Isabel (Lc 1,42) y la súplica final de la Iglesia. «Ave» es el saludo latino, equivalente al griego chaire: «alégrate» o «salve». «Dominus tecum» une Dominus y tecum (te + cum, «contigo»): en latín, cum se pospone a los pronombres personales."
+  ],
+  "texts": [
+   {
+    "id": "ave-maria",
+    "title": "Ave Maria",
+    "prayer": "ave-maria",
+    "lines": [
+     {
+      "w": "Ave=Salve|Maria=María|gratia=de gracia|plena=llena|Dominus=el Señor|tecum=contigo",
+      "es": "Dios te salve, María, llena eres de gracia, el Señor es contigo;"
+     },
+     {
+      "w": "benedicta=bendita|tu=tú|in=entre|mulieribus=las mujeres",
+      "es": "bendita tú eres entre todas las mujeres"
+     },
+     {
+      "w": "et=y|benedictus=bendito|fructus=el fruto|ventris=del vientre|tui=tuyo|Iesus=Jesús",
+      "es": "y bendito es el fruto de tu vientre, Jesús."
+     },
+     {
+      "w": "Sancta=Santa|Maria=María|Mater=Madre|Dei=de Dios",
+      "es": "Santa María, Madre de Dios,"
+     },
+     {
+      "w": "ora=ruega|pro=por|nobis=nosotros|peccatoribus=pecadores",
+      "es": "ruega por nosotros, pecadores,"
+     },
+     {
+      "w": "nunc=ahora|et=y|in=en|hora=la hora|mortis=de la muerte|nostrae=nuestra|Amen=así sea",
+      "es": "ahora y en la hora de nuestra muerte. Amén."
+     }
+    ]
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "fill",
+    "prompt": "Completa el saludo del ángel.",
+    "text": "Ave Maria, gratia ___, Dominus tecum.",
+    "options": [
+     "plena",
+     "sancta",
+     "benedicta",
+     "mater"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada palabra con su traducción.",
+    "pairs": [
+     [
+      "ora",
+      "ruega"
+     ],
+     [
+      "pro",
+      "por"
+     ],
+     [
+      "hora",
+      "hora"
+     ],
+     [
+      "mortis",
+      "de la muerte"
+     ],
+     [
+      "peccatoribus",
+      "pecadores"
+     ]
+    ]
+   },
+   {
+    "kind": "choose",
+    "prompt": "¿Qué significa «tecum»?",
+    "options": [
+     "contigo",
+     "con ellos",
+     "con nosotros",
+     "después"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "credo-de-los-apostoles",
+  "title": "Credo de los Apóstoles",
+  "intro": [
+   "El Símbolo de los Apóstoles es la profesión de fe más antigua de la Iglesia de Roma. En latín comienza con Credo («creo»), de donde viene la palabra «credo». Verás que los artículos de la fe se enumeran con verbos en pasado (natus est, passus, crucifixus, mortuus, resurrexit) y con la fórmula «in + acusativo» para creer en alguien: «Credo in Deum». Es un texto largo; léelo por tramos."
+  ],
+  "texts": [
+   {
+    "id": "credo-apostoles",
+    "title": "Credo (Símbolo de los Apóstoles)",
+    "prayer": "credo-apostoles",
+    "lines": [
+     {
+      "w": "Credo=Creo|in=en|Deum=Dios|Patrem=Padre|omnipotentem=todopoderoso|Creatorem=Creador|caeli=del cielo|et=y|terrae=de la tierra",
+      "es": "Creo en Dios, Padre todopoderoso, Creador del cielo y de la tierra,"
+     },
+     {
+      "w": "et=y|in=en|Iesum=Jesús|Christum=Cristo|Filium=Hijo|eius=suyo|unicum=único|Dominum=Señor|nostrum=nuestro",
+      "es": "y en Jesucristo, su único Hijo, nuestro Señor,"
+     },
+     {
+      "w": "qui=que|conceptus=concebido|est=fue|de=por obra de|Spiritu=el Espíritu|Sancto=Santo|natus=nacido|ex=de|Maria=María|Virgine=la Virgen",
+      "es": "que fue concebido por obra del Espíritu Santo, nació de santa María Virgen,"
+     },
+     {
+      "w": "passus=padeció|sub=bajo|Pontio=Poncio|Pilato=Pilato|crucifixus=crucificado|mortuus=muerto|et=y|sepultus=sepultado",
+      "es": "padeció bajo el poder de Poncio Pilato, fue crucificado, muerto y sepultado,"
+     },
+     {
+      "w": "descendit=descendió|ad=a|inferos=los infiernos|tertia=al tercer|die=día|resurrexit=resucitó|a=de|mortuis=los muertos",
+      "es": "descendió a los infiernos, al tercer día resucitó de entre los muertos,"
+     },
+     {
+      "w": "ascendit=subió|ad=a|caelos=los cielos|sedet=está sentado|ad=a|dexteram=la derecha|Dei=de Dios|Patris=Padre|omnipotentis=todopoderoso",
+      "es": "subió a los cielos y está sentado a la derecha de Dios, Padre todopoderoso,"
+     },
+     {
+      "w": "inde=de allí|venturus=ha de venir|est=es|iudicare=a juzgar|vivos=vivos|et=y|mortuos=muertos",
+      "es": "desde allí ha de venir a juzgar a vivos y muertos."
+     },
+     {
+      "w": "Credo=Creo|in=en|Spiritum=el Espíritu|Sanctum=Santo",
+      "es": "Creo en el Espíritu Santo,"
+     },
+     {
+      "w": "sanctam=santa|Ecclesiam=Iglesia|catholicam=católica",
+      "es": "la santa Iglesia católica,"
+     },
+     {
+      "w": "Sanctorum=de los santos|communionem=la comunión",
+      "es": "la comunión de los santos,"
+     },
+     {
+      "w": "remissionem=el perdón|peccatorum=de los pecados",
+      "es": "el perdón de los pecados,"
+     },
+     {
+      "w": "carnis=de la carne|resurrectionem=la resurrección",
+      "es": "la resurrección de la carne"
+     },
+     {
+      "w": "vitam=la vida|aeternam=eterna|Amen=así sea",
+      "es": "y la vida eterna. Amén."
+     }
+    ]
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "fill",
+    "prompt": "Completa el Credo.",
+    "text": "Credo in Deum Patrem ___.",
+    "options": [
+     "omnipotentem",
+     "sanctam",
+     "aeternam",
+     "catholicam"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada palabra con su traducción.",
+    "pairs": [
+     [
+      "vitam aeternam",
+      "vida eterna"
+     ],
+     [
+      "remissionem peccatorum",
+      "perdón de los pecados"
+     ],
+     [
+      "carnis resurrectionem",
+      "resurrección de la carne"
+     ],
+     [
+      "sanctam Ecclesiam",
+      "santa Iglesia"
+     ]
+    ]
+   },
+   {
+    "kind": "choose",
+    "prompt": "¿Qué significa «tertia die resurrexit»?",
+    "options": [
+     "al tercer día resucitó",
+     "el tercer día murió",
+     "subió a los cielos",
+     "fue sepultado"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "salve-regina",
+  "title": "Salve Regina",
+  "intro": [
+   "La Salve es una antífona mariana que se canta al final de las Completas. Se atribuye tradicionalmente a Hermann el Contrato, monje de Reichenau (siglo XI); los versos finales «O clemens, o pia, o dulcis» son tradicionalmente atribuidos a san Bernardo. El vocativo, el caso con que se llama a alguien, es frecuente: Regina, Virgo, advocata."
+  ],
+  "texts": [
+   {
+    "id": "salve-regina",
+    "title": "Salve Regina",
+    "prayer": "salve",
+    "lines": [
+     {
+      "w": "Salve=Salve|Regina=Reina|mater=madre|misericordiae=de misericordia",
+      "es": "Dios te salve, Reina y Madre de misericordia;"
+     },
+     {
+      "w": "vita=vida|dulcedo=dulzura|et=y|spes=esperanza|nostra=nuestra|salve=salve",
+      "es": "vida, dulzura y esperanza nuestra, Dios te salve."
+     },
+     {
+      "w": "Ad=A|te=ti|clamamus=clamamos|exsules=desterrados|filii=hijos|Hevae=de Eva",
+      "es": "A ti llamamos los desterrados hijos de Eva;"
+     },
+     {
+      "w": "Ad=A|te=ti|suspiramus=suspiramos|gementes=gimiendo|et=y|flentes=llorando",
+      "es": "a ti suspiramos, gimiendo y llorando"
+     },
+     {
+      "w": "in=en|hac=este|lacrimarum=de lágrimas|valle=valle",
+      "es": "en este valle de lágrimas."
+     },
+     {
+      "w": "Eia=Ea|ergo=pues|advocata=abogada|nostra=nuestra",
+      "es": "Ea, pues, abogada nuestra,"
+     },
+     {
+      "w": "illos=esos|tuos=tus|misericordes=misericordiosos|oculos=ojos|ad=hacia|nos=nosotros|converte=vuelve",
+      "es": "vuelve a nosotros esos tus ojos misericordiosos;"
+     },
+     {
+      "w": "Et=Y|Iesum=a Jesús|benedictum=bendito|fructum=fruto|ventris=del vientre|tui=tuyo",
+      "es": "y a Jesús, fruto bendito de tu vientre,"
+     },
+     {
+      "w": "nobis=a nosotros|post=después de|hoc=este|exsilium=destierro|ostende=muestra",
+      "es": "muéstranoslo después de este destierro."
+     },
+     {
+      "w": "O=Oh|clemens=clemente|o=oh|pia=piadosa|o=oh|dulcis=dulce|Virgo=Virgen|Maria=María",
+      "es": "¡Oh clementísima, oh piadosa, oh dulce Virgen María!"
+     }
+    ]
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "fill",
+    "prompt": "Completa la antífona.",
+    "text": "Ad te clamamus, exsules ___ Hevae.",
+    "options": [
+     "filii",
+     "filiae",
+     "Regina",
+     "mater"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada palabra con su traducción.",
+    "pairs": [
+     [
+      "lacrimarum",
+      "de lágrimas"
+     ],
+     [
+      "valle",
+      "valle"
+     ],
+     [
+      "spes",
+      "esperanza"
+     ],
+     [
+      "oculos",
+      "ojos"
+     ],
+     [
+      "converte",
+      "vuelve"
+     ]
+    ]
+   },
+   {
+    "kind": "choose",
+    "prompt": "«Salve, Regina» es un saludo. ¿Qué significa «salve»?",
+    "options": [
+     "Dios te salve; salud",
+     "sálvanos",
+     "salida",
+     "sé santa"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "expresiones-liturgicas",
+  "title": "Expresiones litúrgicas",
+  "intro": [
+   "La misa romana conserva diálogos breves en latín entre el sacerdote y el pueblo, muchos de ellos ya presentes en los primeros siglos. Estas expresiones se entienden sin demasiada gramática: conviene aprenderlas como frases hechas. En la liturgia en lengua vernácula se traducen, pero el latín sigue siendo la lengua propia del Misal romano y de los libros litúrgicos oficiales."
+  ],
+  "vocab": [
+   {
+    "la": "Dominus vobiscum. / Et cum spiritu tuo.",
+    "es": "El Señor esté con vosotros. / Y con tu espíritu.",
+    "pron": "Dó-mi-nus vo-bís-kum"
+   },
+   {
+    "la": "Sursum corda. / Habemus ad Dominum.",
+    "es": "Levantemos el corazón. / Lo tenemos levantado hacia el Señor.",
+    "pron": "Súr-sum kór-da"
+   },
+   {
+    "la": "Gratias agamus Domino Deo nostro. / Dignum et iustum est.",
+    "es": "Demos gracias al Señor, nuestro Dios. / Es justo y necesario.",
+    "pron": "Grá-tsi-as a-gá-mus"
+   },
+   {
+    "la": "Per ipsum, et cum ipso, et in ipso",
+    "es": "Por Cristo, con él y en él (doxología final)",
+    "pron": "per íp-sum"
+   },
+   {
+    "la": "Agnus Dei, qui tollis peccata mundi, miserere nobis.",
+    "es": "Cordero de Dios, que quitas el pecado del mundo, ten piedad de nosotros.",
+    "pron": "Á-ñus Dé-i"
+   },
+   {
+    "la": "Ecce Agnus Dei.",
+    "es": "Este es el Cordero de Dios.",
+    "pron": "Éch-che Á-ñus Dé-i"
+   },
+   {
+    "la": "Domine, non sum dignus ut intres sub tectum meum.",
+    "es": "Señor, no soy digno de que entres en mi casa.",
+    "pron": "Dó-mi-ne, non sum díñ-nus"
+   },
+   {
+    "la": "Pax Domini sit semper vobiscum.",
+    "es": "La paz del Señor esté siempre con vosotros.",
+    "pron": "Paks Dó-mi-ni"
+   },
+   {
+    "la": "Ite, missa est. / Deo gratias.",
+    "es": "Podéis ir en paz. / Demos gracias a Dios.",
+    "pron": "Í-te, mís-sa est"
+   },
+   {
+    "la": "Kyrie, eleison. Christe, eleison.",
+    "es": "Señor, ten piedad. Cristo, ten piedad.",
+    "pron": "Kí-ri-e e-lé-i-son"
+   },
+   {
+    "la": "Sanctus, Sanctus, Sanctus Dominus Deus Sabaoth.",
+    "es": "Santo, Santo, Santo es el Señor, Dios del universo.",
+    "pron": "Sánk-tus"
+   },
+   {
+    "la": "Oremus",
+    "es": "Oremos",
+    "pron": "o-ré-mus"
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "match",
+    "prompt": "Une la expresión latina con su sentido.",
+    "pairs": [
+     [
+      "Dominus vobiscum",
+      "El Señor esté con vosotros"
+     ],
+     [
+      "Sursum corda",
+      "Levantemos el corazón"
+     ],
+     [
+      "Ite, missa est",
+      "Podéis ir en paz"
+     ],
+     [
+      "Deo gratias",
+      "Demos gracias a Dios"
+     ],
+     [
+      "Agnus Dei",
+      "Cordero de Dios"
+     ]
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Completa la respuesta del pueblo.",
+    "text": "Dominus vobiscum. — Et cum ___ tuo.",
+    "options": [
+     "spiritu",
+     "corde",
+     "nomine",
+     "Deo"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "choose",
+    "prompt": "¿Qué responde el pueblo a «Sursum corda»?",
+    "options": [
+     "Habemus ad Dominum",
+     "Deo gratias",
+     "Amen",
+     "Dignum et iustum est"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "himnos-eucaristicos-y-del-espiritu",
+  "title": "Himnos: Veni Creator, Tantum ergo, Adoro te",
+  "intro": [
+   "Los himnos están en verso y su sintaxis es más libre: el orden de las palabras cambia. Esto hace más difícil la lectura interlineal, pero aprenderás mucho vocabulario poético. El Veni Creator se canta en ordenaciones, confirmaciones y en Pentecostés. El Tantum ergo es la parte final del Pange lingua, de santo Tomás de Aquino, que se canta en la bendición eucarística. El Adoro te devote se atribuye a santo Tomás de Aquino."
+  ],
+  "texts": [
+   {
+    "id": "veni-creator",
+    "title": "Veni Creator (primera estrofa)",
+    "prayer": "veni-creator",
+    "lines": [
+     {
+      "w": "Veni=Ven|Creator=Creador|Spiritus=Espíritu",
+      "es": "Ven, Espíritu Creador,"
+     },
+     {
+      "w": "mentes=las mentes|tuorum=de los tuyos|visita=visita",
+      "es": "visita las almas de tus fieles;"
+     },
+     {
+      "w": "imple=llena|superna=celestial|gratia=con gracia",
+      "es": "llena de gracia celestial"
+     },
+     {
+      "w": "quae=que|tu=tú|creasti=creaste|pectora=los corazones",
+      "es": "los corazones que tú creaste."
+     }
+    ]
+   },
+   {
+    "id": "tantum-ergo",
+    "title": "Tantum ergo (primera estrofa)",
+    "prayer": "tantum-ergo",
+    "lines": [
+     {
+      "w": "Tantum=Tan grande|ergo=pues|Sacramentum=Sacramento",
+      "es": "Por tanto, tan gran Sacramento"
+     },
+     {
+      "w": "Veneremur=veneremos|cernui=inclinados",
+      "es": "veneremos inclinados;"
+     },
+     {
+      "w": "Et=Y|antiquum=antiguo|documentum=documento",
+      "es": "y el antiguo documento"
+     },
+     {
+      "w": "Novo=nuevo|cedat=ceda|ritui=ante el rito",
+      "es": "ceda ante el nuevo rito;"
+     },
+     {
+      "w": "Praestet=supla|fides=la fe|supplementum=complemento",
+      "es": "que la fe supla"
+     },
+     {
+      "w": "Sensuum=de los sentidos|defectui=el defecto",
+      "es": "el defecto de los sentidos."
+     }
+    ]
+   },
+   {
+    "id": "adoro-te-devote",
+    "title": "Adoro te devote (primera estrofa)",
+    "prayer": "adoro-te-devote",
+    "lines": [
+     {
+      "w": "Adoro=Adoro|te=a ti|devote=devotamente|latens=oculta|Deitas=Divinidad",
+      "es": "Te adoro con devoción, Divinidad escondida,"
+     },
+     {
+      "w": "Quae=que|sub=bajo|his=estas|figuris=figuras|vere=verdaderamente|latitas=te ocultas",
+      "es": "que bajo estas figuras verdaderamente te ocultas:"
+     },
+     {
+      "w": "Tibi=A ti|se=se|cor=corazón|meum=mi|totum=todo|subiicit=somete",
+      "es": "a ti mi corazón se somete por entero,"
+     },
+     {
+      "w": "Quia=porque|te=a ti|contemplans=contemplando|totum=del todo|deficit=desfallece",
+      "es": "porque al contemplarte desfallece por completo."
+     }
+    ]
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "match",
+    "prompt": "Une cada palabra con su traducción.",
+    "pairs": [
+     [
+      "Veni",
+      "ven"
+     ],
+     [
+      "Creator",
+      "Creador"
+     ],
+     [
+      "gratia",
+      "gracia"
+     ],
+     [
+      "fides",
+      "la fe"
+     ],
+     [
+      "adoro",
+      "adoro"
+     ]
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Completa el himno.",
+    "text": "Veni, Creator ___.",
+    "options": [
+     "Spiritus",
+     "Filius",
+     "Pater",
+     "Maria"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "choose",
+    "prompt": "«Praestet fides supplementum»: ¿qué hace la fe?",
+    "options": [
+     "Suple lo que falta a los sentidos",
+     "Sustituye al sacramento",
+     "Cede ante el rito",
+     "Contempla el cielo"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "terminologia-teologica",
+  "title": "Terminología teológica",
+  "intro": [
+   "Muchos términos de nuestra teología son latinismos directos: reconocerás la mayoría. Conviene conocer la forma latina original porque el Catecismo, los concilios y los textos clásicos la usan con frecuencia. La terminología también ayuda a ver familias de palabras: salus (salud, salvación), salvator (Salvador), salvare (salvar)."
+  ],
+  "vocab": [
+   {
+    "la": "fides",
+    "es": "fe",
+    "pron": "fí-des"
+   },
+   {
+    "la": "spes",
+    "es": "esperanza",
+    "pron": "spes"
+   },
+   {
+    "la": "caritas",
+    "es": "caridad, amor",
+    "pron": "ká-ri-tas"
+   },
+   {
+    "la": "gratia",
+    "es": "gracia, favor",
+    "pron": "grá-tsi-a"
+   },
+   {
+    "la": "peccatum",
+    "es": "pecado",
+    "pron": "pek-ká-tum"
+   },
+   {
+    "la": "salus, salutis",
+    "es": "salvación, salud",
+    "pron": "sá-lus"
+   },
+   {
+    "la": "redemptio",
+    "es": "redención, rescate",
+    "pron": "re-démp-tsi-o"
+   },
+   {
+    "la": "resurrectio",
+    "es": "resurrección",
+    "pron": "re-sur-rék-tsi-o"
+   },
+   {
+    "la": "incarnatio",
+    "es": "encarnación",
+    "pron": "in-kar-ná-tsi-o"
+   },
+   {
+    "la": "sacramentum",
+    "es": "sacramento, signo sagrado",
+    "pron": "sa-kra-mén-tum"
+   },
+   {
+    "la": "Eucharistia",
+    "es": "Eucaristía, acción de gracias",
+    "pron": "Eu-ka-rís-ti-a"
+   },
+   {
+    "la": "Trinitas",
+    "es": "Trinidad",
+    "pron": "Trí-ni-tas"
+   },
+   {
+    "la": "anima",
+    "es": "alma",
+    "pron": "á-ni-ma"
+   },
+   {
+    "la": "corpus",
+    "es": "cuerpo",
+    "pron": "kór-pus"
+   },
+   {
+    "la": "sanguis",
+    "es": "sangre",
+    "pron": "sán-gwis"
+   },
+   {
+    "la": "veritas",
+    "es": "verdad",
+    "pron": "vé-ri-tas"
+   },
+   {
+    "la": "iustitia",
+    "es": "justicia",
+    "pron": "yus-tí-tsi-a"
+   },
+   {
+    "la": "misericordia",
+    "es": "misericordia",
+    "pron": "mi-se-ri-kór-di-a"
+   },
+   {
+    "la": "ecclesia catholica",
+    "es": "Iglesia católica",
+    "pron": "ek-klé-si-a ka-tó-li-ka"
+   },
+   {
+    "la": "communio sanctorum",
+    "es": "comunión de los santos",
+    "pron": "ko-mmú-ni-o sank-tó-rum"
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "match",
+    "prompt": "Une cada término latino con su significado.",
+    "pairs": [
+     [
+      "fides",
+      "fe"
+     ],
+     [
+      "spes",
+      "esperanza"
+     ],
+     [
+      "caritas",
+      "caridad"
+     ],
+     [
+      "salus",
+      "salvación"
+     ],
+     [
+      "peccatum",
+      "pecado"
+     ]
+    ]
+   },
+   {
+    "kind": "match",
+    "prompt": "Une cada término latino con su significado.",
+    "pairs": [
+     [
+      "corpus",
+      "cuerpo"
+     ],
+     [
+      "sanguis",
+      "sangre"
+     ],
+     [
+      "anima",
+      "alma"
+     ],
+     [
+      "veritas",
+      "verdad"
+     ]
+    ]
+   },
+   {
+    "kind": "choose",
+    "prompt": "Las tres virtudes teologales en latín son…",
+    "options": [
+     "fides, spes, caritas",
+     "gratia, pax, vita",
+     "iustitia, fortitudo, temperantia",
+     "fides, veritas, salus"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "frases-de-los-padres",
+  "title": "Frases de los Padres de la Iglesia",
+  "intro": [
+   "Algunas frases de los Padres se han hecho proverbiales y se citan en latín. Aquí figuran con su fuente. Lee cada frase despacio, identifica las palabras que ya conoces y fíjate en lo breve y densa que es la prosa patrística."
+  ],
+  "sayings": [
+   {
+    "la": "Fecisti nos ad te, et inquietum est cor nostrum donec requiescat in te.",
+    "es": "Nos hiciste para ti, y nuestro corazón está inquieto hasta que descanse en ti.",
+    "author": "San Agustín",
+    "ref": "Confesiones I, 1,1"
+   },
+   {
+    "la": "Dilige, et quod vis fac.",
+    "es": "Ama y haz lo que quieras.",
+    "author": "San Agustín",
+    "ref": "Comentario a la primera carta de san Juan, 7, 8"
+   },
+   {
+    "la": "Semen est sanguis christianorum.",
+    "es": "La sangre de los cristianos es semilla.",
+    "author": "Tertuliano",
+    "ref": "Apologético 50, 13"
+   },
+   {
+    "la": "Gloria Dei vivens homo.",
+    "es": "La gloria de Dios es el hombre viviente.",
+    "author": "San Ireneo de Lyon",
+    "ref": "Contra las herejías IV, 20, 7"
+   },
+   {
+    "la": "Habere non potest Deum patrem qui ecclesiam non habet matrem.",
+    "es": "No puede tener a Dios por Padre quien no tiene a la Iglesia por madre.",
+    "author": "San Cipriano de Cartago",
+    "ref": "La unidad de la Iglesia católica 6"
+   },
+   {
+    "la": "Ignoratio Scripturarum ignoratio Christi est.",
+    "es": "Desconocer las Escrituras es desconocer a Cristo.",
+    "author": "San Jerónimo",
+    "ref": "Comentario a Isaías, prólogo"
+   },
+   {
+    "la": "Quod ubique, quod semper, quod ab omnibus creditum est.",
+    "es": "Lo que se ha creído en todas partes, siempre y por todos.",
+    "author": "San Vicente de Lerins",
+    "ref": "Conmonitorio 2"
+   },
+   {
+    "la": "Ut legem credendi lex statuat supplicandi.",
+    "es": "Que la ley de la oración establezca la ley de la fe.",
+    "author": "Indículo (atribuido a san Próspero de Aquitania)",
+    "ref": "Capítulo 8 (Denzinger 246)"
+   }
+  ],
+  "exercises": [
+   {
+    "kind": "match",
+    "prompt": "Une cada autor con su frase.",
+    "pairs": [
+     [
+      "San Agustín",
+      "Fecisti nos ad te"
+     ],
+     [
+      "Tertuliano",
+      "Semen est sanguis christianorum"
+     ],
+     [
+      "San Ireneo",
+      "Gloria Dei vivens homo"
+     ],
+     [
+      "San Jerónimo",
+      "Ignoratio Scripturarum ignoratio Christi est"
+     ]
+    ]
+   },
+   {
+    "kind": "fill",
+    "prompt": "Completa la frase de san Agustín.",
+    "text": "Dilige, et quod vis ___.",
+    "options": [
+     "fac",
+     "dic",
+     "crede",
+     "ora"
+    ],
+    "answer": 0
+   },
+   {
+    "kind": "choose",
+    "prompt": "¿De qué obra de san Agustín procede «Fecisti nos ad te»?",
+    "options": [
+     "Confesiones",
+     "La ciudad de Dios",
+     "De Trinitate",
+     "Enchiridion"
+    ],
+    "answer": 0
+   }
+  ]
+ }
+]

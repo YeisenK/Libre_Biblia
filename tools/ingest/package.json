@@ -15,7 +15,11 @@
     "markdown": "tsx src/cli.ts markdown",
     "daily": "tsx src/cli.ts daily",
     "prayers": "tsx src/cli.ts prayers",
-    "versification": "tsx src/cli.ts versification"
+    "saints": "tsx src/cli.ts saints",
+    "formation": "tsx src/cli.ts formation",
+    "hours": "tsx src/cli.ts hours",
+    "versification": "tsx src/cli.ts versification",
+    "validate-content": "tsx src/cli.ts validate-content"
   },
   "dependencies": {
     "@bc/shared": "workspace:*"

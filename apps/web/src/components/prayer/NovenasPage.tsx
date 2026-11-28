@@ -5,7 +5,9 @@ import { NOVENA_GROUP_LABEL, type Novena, type NovenaGroup } from '@bc/shared';
 import { usePrayerCatalog } from '@/hooks/usePrayers';
 import { currentDay, doneCount, feastHint, startingSoon } from '@/lib/prayers/novenas';
 import { ArtCard, Chip, EmptyState, ScreenHeader, Section } from '../ui';
-import { useNovenasInProgress, useToday } from './RoutineData';
+import Link from 'next/link';
+import { useFavorites } from '@/lib/prayers/favorites';
+import { useNovenasInProgress, useNovenasScheduled, useToday } from './RoutineData';
 
 const GROUPS = Object.keys(NOVENA_GROUP_LABEL) as NovenaGroup[];
 
@@ -13,9 +15,14 @@ export function NovenasPage() {
   const { data: cat, isLoading } = usePrayerCatalog();
   const progress = useNovenasInProgress();
   const today = useToday();
+  const scheduledRows = useNovenasScheduled();
+  const favs = useFavorites();
+  const [onlyFav, setOnlyFav] = useState(false);
+  const favIds = new Set((favs ?? []).filter((f) => f.key.startsWith('novena:')).map((f) => f.key.slice(7)));
   const [group, setGroup] = useState<NovenaGroup | null>(null);
 
-  const novenas = cat?.novenas ?? [];
+  const all = cat?.novenas ?? [];
+  const novenas = onlyFav ? all.filter((n) => favIds.has(n.id)) : all;
   const running = new Map((progress ?? []).map((p) => [p.novenaId, p]));
   const present = GROUPS.filter((g) => novenas.some((n) => n.group === g));
   const soon = startingSoon(novenas.filter((n) => !running.has(n.id)), today);
@@ -30,7 +37,7 @@ export function NovenasPage() {
 
       {isLoading || !cat ? (
         <div className="h-40 animate-pulse rounded-2xl bg-sunken" aria-hidden />
-      ) : novenas.length === 0 ? (
+      ) : all.length === 0 ? (
         <EmptyState icon="candle" title="Aún no hay novenas">El devocionario todavía se está instalando o no incluye novenas. Vuelve en unos instantes.</EmptyState>
       ) : (
         <>
@@ -48,6 +55,18 @@ export function NovenasPage() {
             </Section>
           )}
 
+          {scheduledRows && scheduledRows.length > 0 && (
+            <Section title="Programadas">
+              <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+                {scheduledRows.map((p) => {
+                  const n = cat.novenaById.get(p.novenaId);
+                  if (!n) return null;
+                  return <ArtCard key={p.novenaId} fluid artKey={`novena:${n.id}`} href={`/novena/?id=${encodeURIComponent(n.id)}`} title={n.title} subtitle={`Empieza el ${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long', timeZone: 'UTC' }).format(new Date(p.startedAt))}`} label="Programada" />;
+                })}
+              </div>
+            </Section>
+          )}
+
           {soon.length > 0 && (
             <Section title="Conviene empezar pronto">
               <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
@@ -59,7 +78,9 @@ export function NovenasPage() {
           )}
 
           <div className="-mx-4 mb-6 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] md:mx-0 md:px-0" role="group" aria-label="Filtrar por grupo">
-            <Chip active={!group} onClick={() => setGroup(null)}>Todas</Chip>
+            <Chip active={!group && !onlyFav} onClick={() => { setGroup(null); setOnlyFav(false); }}>Todas</Chip>
+            <Chip active={onlyFav} onClick={() => setOnlyFav(!onlyFav)}>Favoritas{favIds.size ? ` (${favIds.size})` : ''}</Chip>
+            <Link href="/oraciones/santos/" className="tap inline-flex min-h-[36px] shrink-0 items-center rounded-full border border-line px-4 text-[14px] font-medium hover:bg-sunken">Por santo</Link>
             {present.map((g) => <Chip key={g} active={group === g} onClick={() => setGroup(g)}>{NOVENA_GROUP_LABEL[g]}</Chip>)}
           </div>
 

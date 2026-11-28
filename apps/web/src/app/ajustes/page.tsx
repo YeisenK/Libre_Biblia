@@ -9,7 +9,8 @@ import { Modal } from '@/components/Modal';
 import { StorageUsage } from '@/components/StorageUsage';
 import { useVersions } from '@/hooks/useBible';
 import { useSettings } from '@/hooks/useSettings';
-import { exportBackup, importBackup } from '@/lib/backup';
+import { exportBackup, hasEncryptedDiary, importBackup } from '@/lib/backup';
+import { DiaryExportOption, DiaryRestoreDialog, NO_DIARY_EXPORT, diaryExportPassword, type DiaryExportChoice } from '@/components/diary/DiaryBackup';
 import { getDb } from '@/lib/db';
 import { clearAll } from '@/lib/personal';
 import { type UserSettings, DEFAULT_SETTINGS } from '@/lib/settings';
@@ -39,6 +40,11 @@ export default function Page() {
   const [wipe, setWipe] = useState(false);
   const [wipePacks, setWipePacks] = useState(false);
   const [usageKey, setUsageKey] = useState(0);
+  const [withBookFiles, setWithBookFiles] = useState(false);
+  const [diaryChoice, setDiaryChoice] = useState<DiaryExportChoice>(NO_DIARY_EXPORT);
+  const [restoreText, setRestoreText] = useState<string | null>(null);
+  const [restoreErr, setRestoreErr] = useState<string | null>(null);
+  const [restoreBusy, setRestoreBusy] = useState(false);
 
   const toggleParallel = (code: string) => {
     const on = s.parallelVersions.includes(code);
@@ -46,7 +52,12 @@ export default function Page() {
   };
 
   async function doExport() {
-    const b = await exportBackup(getDb());
+    const diaryPassword = diaryExportPassword(diaryChoice);
+    if (diaryPassword === null) {
+      setMsg({ ok: false, text: 'Para incluir el diario, escribe la misma contraseña dos veces (mínimo 8 caracteres).' });
+      return;
+    }
+    const b = await exportBackup(getDb(), { includeBookFiles: withBookFiles, diaryPassword });
     try {
       const how = await downloadText(`biblia-copia-${new Date().toISOString().slice(0, 10)}.json`, JSON.stringify(b, null, 2));
       setMsg({ ok: true, text: how === 'shared' ? 'Copia de seguridad lista: elige dónde guardarla.' : 'Copia de seguridad descargada.' });
@@ -54,17 +65,40 @@ export default function Page() {
       setMsg({ ok: false, text: e instanceof Error ? e.message : 'No se pudo exportar' });
     }
   }
+  async function applyImport(text: string, diaryPassword?: string) {
+    const r = await importBackup(getDb(), text, { diaryPassword });
+    await qc.invalidateQueries();
+    const stored = await getDb().settings.get('main');
+    if (stored) update(stored.value);
+    const diaryNote = r.diarySkipped ? ' El diario no se restauró (no se indicó contraseña).' : r.diaryEntries ? `, ${r.diaryEntries} entradas del diario` : '';
+    setMsg({ ok: true, text: `Importado: ${r.bookmarks} marcadores, ${r.history} entradas de historial${r.position ? ', posición de lectura' : ''}${r.settings ? ', ajustes' : ''}${r.repositories ? `, ${r.repositories} repositorios` : ''}${r.dailyFavorites || r.dailyHistory ? `, ${r.dailyFavorites} favoritos y ${r.dailyHistory} días del versículo` : ''}${r.books || r.annotations ? `, ${r.books} libros importados y ${r.annotations} anotaciones` : ''}${diaryNote}.` });
+  }
   async function doImport(file: File) {
     try {
-      const r = await importBackup(getDb(), await file.text());
-      await qc.invalidateQueries();
-      const stored = await getDb().settings.get('main');
-      if (stored) update(stored.value);
-      setMsg({ ok: true, text: `Importado: ${r.bookmarks} marcadores, ${r.history} entradas de historial${r.position ? ', posición de lectura' : ''}${r.settings ? ', ajustes' : ''}${r.repositories ? `, ${r.repositories} repositorios` : ''}${r.dailyFavorites || r.dailyHistory ? `, ${r.dailyFavorites} favoritos y ${r.dailyHistory} días del versículo` : ''}.` });
+      const text = await file.text();
+      if (hasEncryptedDiary(text)) {
+        setRestoreErr(null);
+        setRestoreText(text);
+        return;
+      }
+      await applyImport(text);
     } catch (e) {
       setMsg({ ok: false, text: e instanceof Error ? e.message : 'No se pudo importar' });
     } finally {
       if (fileRef.current) fileRef.current.value = '';
+    }
+  }
+  async function doRestoreWithPassword(password: string | undefined) {
+    if (!restoreText) return;
+    setRestoreBusy(true);
+    setRestoreErr(null);
+    try {
+      await applyImport(restoreText, password);
+      setRestoreText(null);
+    } catch (e) {
+      setRestoreErr(e instanceof Error ? e.message : 'No se pudo importar');
+    } finally {
+      setRestoreBusy(false);
     }
   }
   async function doWipe() {
@@ -99,7 +133,7 @@ export default function Page() {
         </label>
         <Seg<UserSettings['margin']> label="Márgenes" value={s.margin} onChange={(margin) => update({ margin })} options={[{ id: 'narrow', label: 'Estrechos' }, { id: 'normal', label: 'Normales' }, { id: 'wide', label: 'Amplios' }]} />
         <Seg<UserSettings['readingMode']> label="Modo de lectura" value={s.readingMode} onChange={(readingMode) => update({ readingMode })} options={[{ id: 'chapter', label: 'Capítulo' }, { id: 'verse', label: 'Versículo' }, { id: 'continuous', label: 'Continuo' }]} />
-        <p className="reading mt-2 rounded-2xl bg-sunken p-4 !text-base">
+        <p className="reading mt-2 rounded-2xl bg-sunken p-4">
           <sup className="verse-num">1</sup>Vista previa del texto de lectura con el tamaño e interlineado elegidos.
         </p>
       </section>
@@ -142,13 +176,20 @@ export default function Page() {
 
       <section className="card-soft mb-5" aria-labelledby="bk">
         <h2 id="bk" className="mb-1 font-display text-[1.15rem]">Copia de seguridad</h2>
-        <p className="mb-3 text-sm text-muted">Marcadores, historial, posición de lectura, ajustes y favoritos e historial del versículo del día (no incluye el contenido descargado).</p>
+        <p className="mb-3 text-sm text-muted">Marcadores, historial, posición de lectura, ajustes y favoritos e historial del versículo del día (no incluye el contenido descargado). El diario solo se incluye si lo marcas, cifrado.</p>
         <div className="flex flex-wrap gap-2">
           <button className="btn" onClick={() => void doExport()}>Exportar copia (JSON)</button>
           <label className="btn cursor-pointer">
             Importar copia
             <input ref={fileRef} type="file" accept=".json,application/json" className="sr-only" onChange={(e) => e.target.files?.[0] && void doImport(e.target.files[0])} />
           </label>
+        </div>
+        <label className="mt-3 flex items-start gap-2 text-sm text-muted">
+          <input type="checkbox" className="mt-1" checked={withBookFiles} onChange={(e) => setWithBookFiles(e.target.checked)} />
+          <span>Incluir también los archivos de mis libros importados (la copia puede pesar mucho). Las fichas, anotaciones y colecciones siempre se incluyen.</span>
+        </label>
+        <div className="mt-3">
+          <DiaryExportOption value={diaryChoice} onChange={setDiaryChoice} />
         </div>
         {msg && <Banner tone={msg.ok ? 'ok' : 'error'} className="mt-3">{msg.text}</Banner>}
       </section>
@@ -163,6 +204,14 @@ export default function Page() {
         <li><Link className="text-accent underline" href="/descargas/">Contenido y repositorios</Link></li>
         <li><Link className="text-accent underline" href="/fuentes/">Fuentes y licencias</Link></li>
       </ul>
+
+      <DiaryRestoreDialog
+        open={restoreText !== null}
+        busy={restoreBusy}
+        error={restoreErr}
+        onCancel={() => setRestoreText(null)}
+        onRestore={(pw) => void doRestoreWithPassword(pw)}
+      />
 
       <Modal open={wipe} onClose={() => setWipe(false)} title="Borrar todos los datos" variant="dialog">
         <p className="mb-3 text-sm">Se borrarán marcadores, historial, posición de lectura, ajustes y repositorios añadidos de este dispositivo. No se puede deshacer; considera exportar una copia antes.</p>

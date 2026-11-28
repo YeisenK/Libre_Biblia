@@ -1,0 +1,159 @@
+{
+ "id": "mariologia",
+ "title": "Mariología",
+ "description": "María en el misterio de Cristo y de la Iglesia: los cuatro dogmas, la intercesión y la devoción, con distinción entre doctrina y piedad popular.",
+ "level": "inicial",
+ "lessons": [
+  {
+   "title": "María en la Escritura",
+   "body": [
+    "María aparece en la anunciación, la visitación, el nacimiento, Caná y la cruz. El Catecismo comenta su fe y su «fiat» (CEC 494, 148-149). Su papel se entiende siempre en relación con Cristo."
+   ],
+   "ccc": [
+    148,
+    494
+   ],
+   "bible": [
+    "Lc 1,26-38",
+    "Jn 2,1-11",
+    "Jn 19,25-27"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "484-511",
+     "María en el misterio de Cristo"
+    ]
+   ],
+   "questions": [
+    "¿Qué enseña el «fiat» de María?"
+   ]
+  },
+  {
+   "title": "Madre de Dios (Theotokos)",
+   "body": [
+    "El Concilio de Éfeso (431) proclamó que María es Madre de Dios, porque la persona que nació de ella es el Hijo de Dios (CEC 495). Es dogma cristológico antes que mariano."
+   ],
+   "ccc": [
+    495
+   ],
+   "bible": [
+    "Lc 1,43"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "495",
+     "Maternidad divina"
+    ]
+   ],
+   "questions": [
+    "¿Por qué se dice que Theotokos protege la fe en Cristo?"
+   ]
+  },
+  {
+   "title": "Virginidad perpetua",
+   "body": [
+    "La Iglesia confiesa a María virgen antes, durante y después del parto (CEC 496-507). La virginidad es signo de la iniciativa de Dios y de la entrega total a Cristo."
+   ],
+   "ccc": [
+    496,
+    499,
+    506
+   ],
+   "bible": [
+    "Mt 1,18-25"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "496-507",
+     "La virginidad de María"
+    ]
+   ],
+   "questions": [
+    "¿Qué significa «siempre virgen»?"
+   ]
+  },
+  {
+   "title": "Inmaculada Concepción",
+   "body": [
+    "Pío IX definió en 1854 que María, desde el primer instante de su concepción, fue preservada de toda mancha de pecado original por gracia de Dios, en previsión de los méritos de Cristo (CEC 491)."
+   ],
+   "ccc": [
+    490,
+    491,
+    492
+   ],
+   "bible": [
+    "Lc 1,28"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "490-493",
+     "La Inmaculada"
+    ]
+   ],
+   "questions": [
+    "¿Por qué es la Inmaculada fruto de la redención?"
+   ]
+  },
+  {
+   "title": "Asunción",
+   "body": [
+    "Pío XII definió en 1950 que María fue llevada en cuerpo y alma a la gloria celestial (CEC 966). Es anticipo de nuestra resurrección."
+   ],
+   "ccc": [
+    966,
+    974
+   ],
+   "bible": [
+    "Ap 12,1"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "963-975",
+     "María, Madre de la Iglesia"
+    ],
+    [
+     "church",
+     "munificentissimus-deus",
+     "Munificentissimus Deus"
+    ]
+   ],
+   "questions": [
+    "¿Qué significa la Asunción para la esperanza cristiana?"
+   ]
+  },
+  {
+   "title": "Devoción mariana y Rosario",
+   "body": [
+    "La devoción a María, que no es adoración, brota del culto a Cristo (CEC 971). El Rosario es una oración contemplativa de los misterios de Cristo con María; es devoción, no dogma. Marialis cultus y Rosarium Virginis Mariae ofrecen criterios."
+   ],
+   "ccc": [
+    971,
+    2678
+   ],
+   "bible": [
+    "Lc 1,48"
+   ],
+   "readings": [
+    [
+     "church",
+     "marialis-cultus",
+     "Marialis cultus"
+    ],
+    [
+     "church",
+     "rosarium-virginis-mariae",
+     "Rosarium Virginis Mariae"
+    ]
+   ],
+   "questions": [
+    "¿En qué se distingue la veneración de María de la adoración a Dios?"
+   ]
+  }
+ ]
+}

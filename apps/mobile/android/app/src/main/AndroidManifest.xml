@@ -40,6 +40,8 @@
     <!-- Permissions -->
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Android 13+: permiso en ejecución para avisos (versículo, oración, rutinas, liturgia). Lo declara también el plugin. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <!-- Notificaciones locales (el plugin añade POST_NOTIFICATIONS, RECEIVE_BOOT_COMPLETED y WAKE_LOCK).
          Sin alarmas exactas: se elimina el permiso que declara el plugin. -->
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" tools:node="remove" />

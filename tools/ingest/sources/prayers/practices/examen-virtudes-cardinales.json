@@ -1,0 +1,123 @@
+{
+ "id": "examen-virtudes-cardinales",
+ "kind": "examen",
+ "title": "Según las virtudes cardinales",
+ "description": "Prudencia, justicia, fortaleza y templanza: las cuatro virtudes humanas sobre las que gira toda la vida moral.",
+ "group": "Según las virtudes",
+ "nature": "original",
+ "attribution": "Composición de Lux, elaborada a partir del Catecismo de la Iglesia Católica (los números se indican en cada apartado).",
+ "rubric": "Distingue doctrina, disciplina y devoción: las preguntas se apoyan en el Catecismo (doctrina) y en los preceptos de la Iglesia (disciplina). No es una lista exhaustiva ni sustituye al confesor. Para que un pecado sea mortal hacen falta materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857).",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Escritura: Ex 20,1-17; Dt 5,6-21; Mt 5,3-12"
+  }
+ ],
+ "minutes": 10,
+ "ccc": [
+  "1803-1811"
+ ],
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "text",
+   "title": "Antes de empezar",
+   "text": "Ponte en presencia de Dios, que no te examina para condenarte sino para sanarte. Lee las preguntas despacio y quédate solo con las que te hablen. Marcar una pregunta no significa que sea pecado grave: es una ayuda para recordar. Si dudas de la gravedad de algo, díselo con sencillez al sacerdote: él te ayudará.\n\n**Tu examen es privado.** Lux no guarda nada de lo que marques aquí: al salir de esta pantalla todo se borra. Si quieres apuntar algo para no olvidarlo, puedes escribir una nota voluntaria, que se queda solo en este dispositivo y puedes borrar cuando quieras."
+  },
+  {
+   "id": "oracion",
+   "kind": "prayer",
+   "title": "Pide luz al Espíritu Santo",
+   "prayer": "ven-espiritu-santo"
+  },
+  {
+   "id": "prudencia",
+   "kind": "questions",
+   "title": "Prudencia",
+   "questions": [
+    {
+     "text": "¿Pido consejo y pienso antes de decidir cosas importantes?"
+    },
+    {
+     "text": "¿Me dejo llevar por impulsos, prisas o lo que dicen los demás?"
+    },
+    {
+     "text": "¿Evito las ocasiones que sé que me hacen caer?"
+    },
+    {
+     "text": "¿Juzgo con realismo mis capacidades y mis responsabilidades?"
+    }
+   ],
+   "ccc": "1806"
+  },
+  {
+   "id": "justicia",
+   "kind": "questions",
+   "title": "Justicia",
+   "questions": [
+    {
+     "text": "¿Doy a Dios el culto y el tiempo que le debo?"
+    },
+    {
+     "text": "¿Doy a cada uno lo suyo: salario justo, deudas pagadas, buen trato?"
+    },
+    {
+     "text": "¿He hecho acepción de personas o favorecido a quien me cae bien?"
+    },
+    {
+     "text": "¿He reparado el daño causado a otros?"
+    }
+   ],
+   "ccc": "1807"
+  },
+  {
+   "id": "fortaleza",
+   "kind": "questions",
+   "title": "Fortaleza",
+   "questions": [
+    {
+     "text": "¿Cedo al miedo o a la comodidad cuando debo hacer el bien?"
+    },
+    {
+     "text": "¿Persevero en lo que he prometido, aunque cueste?"
+    },
+    {
+     "text": "¿Soy constante en la oración y en mis deberes?"
+    },
+    {
+     "text": "¿Defiendo la verdad con caridad, sin cobardía ni dureza?"
+    }
+   ],
+   "ccc": "1808"
+  },
+  {
+   "id": "templanza",
+   "kind": "questions",
+   "title": "Templanza",
+   "questions": [
+    {
+     "text": "¿Domino el apetito en comida, bebida, descanso y diversión?"
+    },
+    {
+     "text": "¿Uso con moderación pantallas, redes y consumo?"
+    },
+    {
+     "text": "¿Vivo la sobriedad o me dejo llevar por caprichos?"
+    },
+    {
+     "text": "¿Me dejo dominar por la ira, la pereza o la gula?"
+    }
+   ],
+   "ccc": "1809"
+  },
+  {
+   "id": "cierre",
+   "kind": "text",
+   "title": "Has terminado",
+   "text": "Has terminado el examen. Dios no se cansa de perdonar (cf. Mt 18,21-22). Si hay algo grave, preséntalo en el sacramento de la Penitencia tal como lo recuerdes, con su número aproximado y circunstancias que cambien su naturaleza (CIC 1456). Lo venial se puede confesar y es muy recomendable (CIC 1458), pero no es lo que hay que temer. Después, abre la guía de la confesión para saber qué sigue."
+  }
+ ]
+}

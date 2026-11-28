@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
-import { Loading } from './ui';
+import { Loading, TextSizeControl } from './ui';
 import { LicenseBadge } from './PackSource';
 import { Markdown } from './Markdown';
 import { MARGIN_CLASS } from '@/lib/settings';
@@ -10,11 +10,12 @@ import { useSettings } from '@/hooks/useSettings';
 import { getDb } from '@/lib/db';
 import { documentHref } from '@/lib/links';
 import { artForAny, bookArtKeys } from '@/lib/art';
+import { SectionNotes } from './library/SectionNotes';
 
 export function DocumentReader() {
   const sp = useSearchParams();
   const router = useRouter();
-  const { settings } = useSettings();
+  const { settings, update } = useSettings();
   const id = sp.get('id');
   const path = sp.get('s');
 
@@ -69,8 +70,12 @@ export function DocumentReader() {
           toc
         ) : (
           <>
+            <div className="mb-2 flex justify-end">
+              <TextSizeControl value={settings.fontScale} min={0.8} max={1.8} onChange={(fontScale) => update({ fontScale })} />
+            </div>
             <h2 className="mb-4 mt-2 font-display text-[1.75rem] font-semibold leading-tight">{cur.title ?? `Sección ${cur.path}`}</h2>
             {doc.data.textFormat === 'markdown' ? <Markdown text={cur.text} /> : <div className="reading whitespace-pre-line">{cur.text}</div>}
+            <SectionNotes docId={id} path={cur.path} title={cur.title ?? `Sección ${cur.path}`} />
             <div className="mt-10 flex justify-between gap-2 border-t border-line/70 pt-4">
               <button className="btn" disabled={idx <= 0} onClick={() => router.push(documentHref(id, list[idx - 1]?.path))}>← Anterior</button>
               <Link className="btn lg:hidden" href={documentHref(id)}>Índice</Link>

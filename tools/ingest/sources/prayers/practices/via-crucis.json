@@ -1,0 +1,139 @@
+{
+ "id": "via-crucis",
+ "kind": "stations",
+ "title": "Vía Crucis",
+ "group": "Camino",
+ "description": "Las catorce estaciones tradicionales del camino de Jesús hacia el Calvario, con meditaciones propias y las lecturas de tu Biblia.",
+ "nature": "popular_piety",
+ "attribution": "Composición de Lux: las meditaciones son propias. La lista de estaciones es la tradicional; las lecturas se toman de la Biblia instalada por referencia.",
+ "rubric": "Piedad popular (Directorio sobre la piedad popular y la liturgia, 2001): ejercicio libre, especialmente en Cuaresma y los viernes. Se gana indulgencia según las normas vigentes.",
+ "sources": [
+  {
+   "label": "Directorio sobre la piedad popular y la liturgia (2001), Congregación para el Culto Divino",
+   "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+  },
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  }
+ ],
+ "minutes": 30,
+ "steps": [
+  {
+   "id": "inicio",
+   "kind": "prayer",
+   "title": "Acto de contrición",
+   "prayer": "acto-de-contricion"
+  },
+  {
+   "id": "introduccion",
+   "kind": "text",
+   "title": "Cómo hacerlo",
+   "text": "El Vía Crucis acompaña a Jesús en su camino hacia el Calvario. En cada estación se dice: **V.** Te adoramos, Cristo, y te bendecimos. **R.** Que por tu santa cruz redimiste al mundo. Se lee el pasaje, se medita, y tradicionalmente se reza un Padre nuestro, un Ave María y un Gloria. Las estaciones 3, 4, 6, 7, 9 y 13 proceden de la tradición piadosa, no de los Evangelios; lo señalamos en cada una."
+  },
+  {
+   "id": "e01",
+   "kind": "station",
+   "title": "1.ª estación: Jesús es condenado a muerte",
+   "reading": "Mc 15,12-15",
+   "text": "Pilato, por contentar a la multitud, entrega a un inocente. Jesús calla: no se defiende, porque ha venido a dar la vida. Cuántas veces yo también me dejo llevar por lo que dicen los demás y callo cuando debería defender lo justo.\n\n*Señor, dame valentía para no condenar a nadie y para ser fiel a la verdad aunque me cueste.*"
+  },
+  {
+   "id": "e02",
+   "kind": "station",
+   "title": "2.ª estación: Jesús carga con la cruz",
+   "reading": "Jn 19,16-17",
+   "text": "Jesús abraza la cruz sin quejarse. Se carga con lo que nos aplastaba: nuestros pecados y miserias. Toda cruz, acompañada por Él, pierde la amargura.\n\n*Señor, ayúdame a llevar mi cruz de cada día contigo, sin huir de ella ni cargarla con amargura.*"
+  },
+  {
+   "id": "e03",
+   "kind": "station",
+   "title": "3.ª estación: Jesús cae por primera vez",
+   "reading": "Is 53,4-6",
+   "text": "La tradición recuerda tres caídas de Jesús camino del Calvario. No consta en los Evangelios, pero expresa una verdad: el Señor conoce nuestra debilidad desde dentro. «Soportó nuestros sufrimientos» (Is 53,4).\n\n*Jesús, cuando caiga, levántame. Que no me desanime de volver a empezar.*"
+  },
+  {
+   "id": "e04",
+   "kind": "station",
+   "title": "4.ª estación: Jesús encuentra a su Madre",
+   "reading": "Lc 2,34-35",
+   "text": "Un encuentro que la tradición cristiana imagina con ternura, y que los Evangelios no narran; recuerda la profecía de Simeón: «una espada atravesará tu alma». María acompaña a su Hijo sin apartarse, con fe firme y en silencio.\n\n*Madre, enséñame a permanecer junto a la cruz de quienes sufren.*"
+  },
+  {
+   "id": "e05",
+   "kind": "station",
+   "title": "5.ª estación: El Cireneo ayuda a Jesús a llevar la cruz",
+   "reading": "Lc 23,26",
+   "text": "Simón de Cirene es obligado a ayudar, y sin saberlo comparte la cruz del Señor. Quien carga con la cruz de otro carga con Cristo.\n\n*Señor, que sepa ayudar a quien lo necesita, también cuando no me lo pida y me cueste.*"
+  },
+  {
+   "id": "e06",
+   "kind": "station",
+   "title": "6.ª estación: La Verónica enjuga el rostro de Jesús",
+   "reading": "Is 53,2-3",
+   "text": "La Verónica es una tradición piadosa, no un dato evangélico: una mujer que se atreve a salir de la multitud y consolar al Señor. Pequeños gestos de ternura ante el dolor ajeno tocan el corazón de Dios.\n\n*Jesús, imprime tu rostro en mi corazón para que lo reconozca en cada persona que sufre.*"
+  },
+  {
+   "id": "e07",
+   "kind": "station",
+   "title": "7.ª estación: Jesús cae por segunda vez",
+   "reading": "Sal 22,7-9",
+   "text": "Cae otra vez, y otra vez se levanta. «Yo soy un gusano, no un hombre», dice el salmo que Jesús reza en la cruz. Dios nos acompaña en la humillación y en el fracaso.\n\n*Señor, cuando me sienta sin fuerzas, recuérdame que tú has pasado por ahí.*"
+  },
+  {
+   "id": "e08",
+   "kind": "station",
+   "title": "8.ª estación: Jesús consuela a las mujeres de Jerusalén",
+   "reading": "Lc 23,27-31",
+   "text": "Camino de la muerte, Jesús se preocupa por los demás: «No lloren por mí, lloren por ustedes». Incluso en su dolor, nos mira con compasión y nos llama a la conversión.\n\n*Señor, convierte mi corazón y dame lágrimas de verdadero arrepentimiento.*"
+  },
+  {
+   "id": "e09",
+   "kind": "station",
+   "title": "9.ª estación: Jesús cae por tercera vez",
+   "reading": "Hb 12,1-3",
+   "text": "Está agotado, y aun así llega al final. «Fijos los ojos en Jesús, que soporta la cruz» (Hb 12,2). La perseverancia no es fuerza propia, sino confiar en Él.\n\n*Jesús, dame constancia para no abandonar el camino cuando todo me parezca demasiado.*"
+  },
+  {
+   "id": "e10",
+   "kind": "station",
+   "title": "10.ª estación: Jesús es despojado de sus vestiduras",
+   "reading": "Jn 19,23-24",
+   "text": "Lo desnudan y se reparten su túnica. Jesús lo ha dado todo, hasta lo último. Nada le queda sino el amor. Despojarse es aprender a confiar solo en Dios.\n\n*Señor, libérame de todo lo que me ata y me impide entregarme del todo.*"
+  },
+  {
+   "id": "e11",
+   "kind": "station",
+   "title": "11.ª estación: Jesús es clavado en la cruz",
+   "reading": "Lc 23,33-34",
+   "text": "En el momento más duro, no maldice: «Padre, perdónalos, porque no saben lo que hacen». El amor llega a perdonar a quienes le hacen daño.\n\n*Señor, dame la gracia de perdonar a quien me ha ofendido, como tú perdonas.*"
+  },
+  {
+   "id": "e12",
+   "kind": "station",
+   "title": "12.ª estación: Jesús muere en la cruz",
+   "reading": "Lc 23,44-46",
+   "text": "«Padre, en tus manos encomiendo mi espíritu.» Jesús entrega su vida con confianza total. Su muerte es la fuente de nuestra salvación.\n\n*Jesús, gracias por tu cruz. Que mi vida y mi muerte estén en tus manos.*"
+  },
+  {
+   "id": "e13",
+   "kind": "station",
+   "title": "13.ª estación: Jesús es bajado de la cruz y entregado a su Madre",
+   "reading": "Mc 15,42-46",
+   "text": "Que el cuerpo de Jesús se pusiera en brazos de su Madre es una tradición piadosa (la «Piedad»), no un relato evangélico. José de Arimatea pide el cuerpo y lo recibe con respeto. María acoge en sus brazos al Hijo que dio al mundo.\n\n*Madre de los dolores, acompáñanos en nuestros duelos y consuélanos con tu fe.*"
+  },
+  {
+   "id": "e14",
+   "kind": "station",
+   "title": "14.ª estación: Jesús es puesto en el sepulcro",
+   "reading": "Jn 19,40-42",
+   "text": "Lo envuelven en lienzos y lo colocan en un sepulcro nuevo. Parece que todo ha terminado, pero el grano que cae en tierra da fruto (Jn 12,24). El sepulcro es lugar de espera.\n\n*Señor, ayúdame a esperar en ti en los silencios de Dios, seguro de que la cruz desemboca en la Pascua.*"
+  },
+  {
+   "id": "final",
+   "kind": "prayer",
+   "title": "Padre Nuestro",
+   "prayer": "padre-nuestro"
+  }
+ ]
+}

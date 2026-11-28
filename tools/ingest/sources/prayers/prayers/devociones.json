@@ -27,7 +27,10 @@
         "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
       }
     ],
-    "minutes": 1
+    "minutes": 1,
+    "saints": [
+      "margarita-maria-alacoque"
+    ]
   },
   {
     "id": "acto-de-reparacion-sagrado-corazon",
@@ -123,7 +126,7 @@
       "Jn 14,9"
     ],
     "saints": [
-      "Teresa del Niño Jesús"
+      "teresa-del-nino-jesus"
     ],
     "sources": [
       {

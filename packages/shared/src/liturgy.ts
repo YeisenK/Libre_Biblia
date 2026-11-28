@@ -1,3 +1,6 @@
+import { getCalendar, type CalendarDefaults } from './liturgy-calendars';
+export { getCalendar, listCalendars, registerCalendar, GENERAL_CALENDAR, type ParticularCalendar, type ProperCelebration, type CalendarDefaults } from './liturgy-calendars';
+
 /**
  * Calendario litúrgico del rito romano (calendario general), puro y sin datos externos.
  *
@@ -22,6 +25,8 @@ export interface Celebration {
 }
 
 export interface LiturgyOptions {
+  /** Calendario: 'general' (por defecto) o un propio registrado en `liturgy-calendars.ts` ('mx'…). Las opciones no indicadas toman los valores por defecto de ese calendario. */
+  calendar?: string;
   /** Epifanía el domingo entre el 2 y el 8 de enero (por defecto el 6) */
   epiphanySunday?: boolean;
   /** Ascensión el domingo (por defecto el jueves) */
@@ -48,6 +53,12 @@ export interface LiturgicalDay {
   liturgicalYear: number;
   /** Celebración de mayor rango; null en una feria sin celebración */
   celebration: Celebration | null;
+  /** Calendario aplicado */
+  calendar: string;
+  /** Rango del día litúrgico sin santos (12 feria; 9 Cuaresma/Adviento tardío; 6 domingo ordinario; 1-2 días mayores) */
+  baseRank: number;
+  /** Otras celebraciones fijas o móviles de ese día que no se celebran por precedencia (memorias omitidas, etc.) */
+  others: Celebration[];
   /** Título para mostrar: la celebración o, si no hay, el nombre del día */
   title: string;
 }
@@ -137,27 +148,36 @@ const FIXED: Fixed[] = [
   f('03-25', 'annunciation', 'Anunciación del Señor', 'solemnity', 3, 'white'),
   f('04-25', 'mark', 'San Marcos, evangelista', 'feast', 7, 'red'),
   f('05-01', 'joseph-worker', 'San José obrero', 'optional', 11, 'white'),
+  f('05-03', 'philip-james', 'Santos Felipe y Santiago, apóstoles', 'feast', 7, 'red'),
+  f('05-14', 'matthias', 'San Matías, apóstol', 'feast', 7, 'red'),
   f('05-31', 'visitation', 'Visitación de la Virgen María', 'feast', 7, 'white'),
   f('06-24', 'john-baptist', 'Natividad de san Juan Bautista', 'solemnity', 3, 'white'),
   f('06-29', 'peter-paul', 'San Pedro y san Pablo, apóstoles', 'solemnity', 3, 'red'),
+  f('07-03', 'thomas', 'Santo Tomás, apóstol', 'feast', 7, 'red'),
   f('07-22', 'mary-magdalene', 'Santa María Magdalena', 'feast', 7, 'white'),
   f('07-25', 'james', 'Santiago, apóstol', 'feast', 7, 'red'),
   f('07-26', 'joachim-anne', 'San Joaquín y santa Ana, padres de la Virgen María', 'memorial', 10, 'white'),
   f('08-06', 'transfiguration', 'Transfiguración del Señor', 'feast', 5, 'white'),
+  f('08-10', 'lawrence', 'San Lorenzo, diácono y mártir', 'feast', 7, 'red'),
   f('08-15', 'assumption', 'Asunción de la Virgen María', 'solemnity', 3, 'white'),
   f('08-22', 'queenship', 'Santa María Reina', 'memorial', 10, 'white'),
+  f('08-24', 'bartholomew', 'San Bartolomé, apóstol', 'feast', 7, 'red'),
   f('09-08', 'nativity-mary', 'Natividad de la Virgen María', 'feast', 7, 'white'),
   f('09-14', 'holy-cross', 'Exaltación de la Santa Cruz', 'feast', 5, 'red'),
   f('09-15', 'sorrows', 'Nuestra Señora de los Dolores', 'memorial', 10, 'white'),
+  f('09-21', 'matthew', 'San Mateo, apóstol y evangelista', 'feast', 7, 'red'),
   f('09-29', 'archangels', 'Santos arcángeles Miguel, Gabriel y Rafael', 'feast', 7, 'white'),
   f('10-02', 'guardian-angels', 'Santos ángeles custodios', 'memorial', 10, 'white'),
   f('10-04', 'francis', 'San Francisco de Asís', 'memorial', 10, 'white'),
   f('10-07', 'rosary', 'Nuestra Señora del Rosario', 'memorial', 10, 'white'),
   f('10-12', 'pilar', 'Nuestra Señora del Pilar', 'memorial', 10, 'white'),
   f('10-15', 'teresa', 'Santa Teresa de Jesús', 'memorial', 10, 'white'),
+  f('10-18', 'luke', 'San Lucas, evangelista', 'feast', 7, 'red'),
+  f('10-28', 'simon-jude', 'San Simón y san Judas, apóstoles', 'feast', 7, 'red'),
   f('11-01', 'all-saints', 'Todos los Santos', 'solemnity', 3, 'white'),
   f('11-02', 'all-souls', 'Conmemoración de todos los fieles difuntos', 'solemnity', 3, 'violet'),
   f('11-09', 'lateran', 'Dedicación de la basílica de Letrán', 'feast', 5, 'white'),
+  f('11-30', 'andrew', 'San Andrés, apóstol', 'feast', 7, 'red'),
   f('12-08', 'immaculate-conception', 'Inmaculada Concepción de la Virgen María', 'solemnity', 3, 'white'),
   f('12-12', 'guadalupe', 'Nuestra Señora de Guadalupe', 'optional', 11, 'white'),
   f('12-14', 'john-cross', 'San Juan de la Cruz', 'memorial', 10, 'white'),
@@ -170,7 +190,7 @@ const FIXED: Fixed[] = [
 /** Rango y datos de la jornada «base» (sin santos), calculados desde Pascua/Adviento. */
 interface YearCtx {
   y: number;
-  opts: Required<LiturgyOptions>;
+  opts: ResolvedOptions;
   easter: number;
   adventThis: number;
   baptism: number;
@@ -282,7 +302,19 @@ function ordinary(week: number, w: number): Base {
   return { season: 'ordinary', week, name: `${WEEKDAY[w]} de la ${week}.ª semana del Tiempo Ordinario`, rank: 12, color: 'green', celebration: null };
 }
 
-function buildCtx(y: number, opts: Required<LiturgyOptions>): YearCtx {
+export type ResolvedOptions = CalendarDefaults & { calendar: string };
+/** Completa las opciones con los valores por defecto del calendario elegido. */
+export function resolveLiturgyOptions(o: LiturgyOptions = {}): ResolvedOptions {
+  const cal = getCalendar(o.calendar);
+  return {
+    calendar: cal.id,
+    epiphanySunday: o.epiphanySunday ?? cal.defaults.epiphanySunday,
+    ascensionSunday: o.ascensionSunday ?? cal.defaults.ascensionSunday,
+    corpusSunday: o.corpusSunday ?? cal.defaults.corpusSunday,
+  };
+}
+
+function buildCtx(y: number, opts: ResolvedOptions): YearCtx {
   const easter = easterDn(y);
   const baptism = baptismDn(y, opts.epiphanySunday);
   const c: YearCtx = {
@@ -319,25 +351,33 @@ function buildCtx(y: number, opts: Required<LiturgyOptions>): YearCtx {
   add(sacredHeart + 1, cel('immaculate-heart', 'Inmaculado Corazón de la Virgen María', 'memorial', 10));
   add(c.adventThis - 7, cel('christ-king', 'Nuestro Señor Jesucristo, Rey del Universo', 'solemnity', 3));
 
+  // Calendario particular: se quitan las del general que no se celebran y se añaden las propias
+  const cal = getCalendar(opts.calendar);
+  const fixed: Fixed[] = FIXED.filter((x) => !cal.remove.includes(x.id) && !cal.proper.some((q) => q.md && q.id === x.id));
+  for (const q of cal.proper) {
+    if (q.easterOffset !== undefined) add(easter + q.easterOffset, cel(q.id, q.name, q.type, q.rank, q.color));
+    else if (q.md) fixed.push(f(q.md, q.id, q.name, q.type, q.rank, q.color));
+  }
+
   // Fijas, con traslado de solemnidades
-  for (const fx of FIXED) {
+  for (const fx of fixed) {
     const [mm, dd] = fx.md.split('-').map(Number) as [number, number];
     let n = toDn(y, mm, dd);
     const celx: Celebration = { id: fx.id, name: fx.name, type: fx.type, rank: fx.rank, color: fx.color };
-    if (fx.type === 'solemnity' && fx.rank === 3) {
+    if (fx.type === 'solemnity' && fx.rank <= 4) {
       const palm = easter - 7;
       if (fx.id === 'joseph' && n >= palm && n < easter) n = easter - 8;
       else if (fx.id === 'annunciation' && n >= palm && n < easter + 8) n = easter + 8;
       else if (fx.id === 'john-baptist' && n === sacredHeart) n -= 1;
-      while (baseOf(n, c).rank <= 2 || (c.cands.get(n) ?? []).some((x) => x.rank <= 3)) n++;
+      while (baseOf(n, c).rank <= 2 || (c.cands.get(n) ?? []).some((x) => x.rank <= fx.rank)) n++;
     }
     add(n, celx);
   }
   return c;
 }
 
-function ctxFor(y: number, opts: Required<LiturgyOptions>) {
-  const key = `${y}|${+opts.epiphanySunday}${+opts.ascensionSunday}${+opts.corpusSunday}`;
+function ctxFor(y: number, opts: ResolvedOptions) {
+  const key = `${y}|${opts.calendar}|${+opts.epiphanySunday}${+opts.ascensionSunday}${+opts.corpusSunday}`;
   let c = ctxCache.get(key);
   if (!c) {
     c = buildCtx(y, opts);
@@ -348,7 +388,7 @@ function ctxFor(y: number, opts: Required<LiturgyOptions>) {
 
 export function liturgicalDay(date: string, options: LiturgyOptions = {}): LiturgicalDay {
   const { y, m, d } = parseIsoDate(date);
-  const opts = { epiphanySunday: !!options.epiphanySunday, ascensionSunday: !!options.ascensionSunday, corpusSunday: !!options.corpusSunday };
+  const opts = resolveLiturgyOptions(options);
   const n = toDn(y, m, d);
   const c = ctxFor(y, opts);
   const base = baseOf(n, c);
@@ -380,13 +420,16 @@ export function liturgicalDay(date: string, options: LiturgyOptions = {}): Litur
     weekdayCycle: weekdayCycleOf(adventYear),
     liturgicalYear: adventYear,
     celebration: winner,
+    calendar: opts.calendar,
+    baseRank: base.rank,
+    others: (c.cands.get(n) ?? []).filter((x) => x !== winner),
     title,
   };
 }
 
 /** Todas las celebraciones candidatas de un año civil (para pruebas y listados). */
 export function celebrationsOfYear(year: number, options: LiturgyOptions = {}): { date: string; celebration: Celebration }[] {
-  const opts = { epiphanySunday: !!options.epiphanySunday, ascensionSunday: !!options.ascensionSunday, corpusSunday: !!options.corpusSunday };
+  const opts = resolveLiturgyOptions(options);
   const c = ctxFor(year, opts);
   const out: { date: string; celebration: Celebration }[] = [];
   for (const [n, l] of c.cands) for (const cel of l) out.push({ date: toIso(n), celebration: cel });

@@ -1,0 +1,30 @@
+[
+ {
+  "id": "oracion-del-hijo-prodigo",
+  "title": "Oración del hijo pródigo",
+  "categories": [
+   "sacramentos",
+   "noche"
+  ],
+  "moments": [
+   "any"
+  ],
+  "nature": "original",
+  "text": "Padre bueno,\nme he alejado de ti y he gastado mis dones sin pensar en tu casa.\nHoy vuelvo con lo poco que soy.\nNo merezco ser llamado hijo tuyo,\npero tú sales a mi encuentro antes de que termine de hablar.\nRecíbeme, devuélveme la dignidad de hijo\ny enséñame a vivir de nuevo en tu casa. Amén.",
+  "context": "Breve oración para volver a Dios antes de confesarse, inspirada en la parábola del hijo pródigo (Lc 15,11-32). Compuesta para Lux; no es una fórmula tradicional ni aprobada por la Iglesia.",
+  "attribution": "Composición de Lux, basada en Lc 15,11-32.",
+  "scripture": [
+   "Lc 15,11-32"
+  ],
+  "sources": [
+   {
+    "label": "Lc 15,11-32 (Biblia)"
+   },
+   {
+    "label": "Catecismo de la Iglesia Católica",
+    "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+   }
+  ],
+  "minutes": 1
+ }
+]

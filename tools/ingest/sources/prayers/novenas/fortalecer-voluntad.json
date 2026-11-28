@@ -1,0 +1,135 @@
+{
+  "id": "fortalecer-voluntad",
+  "title": "Novena para fortalecer la voluntad",
+  "group": "virtues",
+  "description": "Nueve días para pedir constancia en el bien y una voluntad educada, con la ayuda de la gracia.",
+  "image": {
+    "icon": "shield",
+    "tint": "#5b6b8a"
+  },
+  "introduction": "Los Ejercicios espirituales de san Ignacio de Loyola nacen de una convicción: ordenar la propia vida y vencerse a sí mismo exige decisiones concretas, sostenidas día a día. El Catecismo recuerda que la voluntad se educa y que la virtud es una disposición habitual y firme a hacer el bien (CIC 1803-1804).",
+  "purpose": "Pedir perseverancia en los buenos propósitos, orden en lo pequeño y confianza en que Dios sostiene el esfuerzo. No sustituye el trabajo personal: lo acompaña.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, tú conoces mi debilidad y mis buenos deseos. Durante estos nueve días quiero poner en tus manos mi voluntad para que la fortalezcas y la orientes al bien. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Querer lo que Dios quiere",
+      "reading": "Flp 2,13",
+      "reflection": "Es Dios quien obra en nosotros el querer y el actuar. Empezar es ya gracia: quien desea mejorar ha sido movido antes por Dios. Hoy agradezco el deseo y concreto un propósito pequeño y posible.",
+      "prayer": "Señor, tú pones en mí el deseo del bien. Dame también la fuerza para realizarlo."
+    },
+    {
+      "day": 2,
+      "title": "Conocer mis debilidades",
+      "reading": "Rm 7,18-19",
+      "reflection": "Pablo describe la lucha entre lo que quiere y lo que hace. Conocerse sin dramatismo es el principio de la fortaleza: sé en qué momentos y lugares me cuesta más.",
+      "prayer": "Jesús, ilumina mis flancos débiles para que no me sorprendan. Dame humildad para reconocerlos."
+    },
+    {
+      "day": 3,
+      "title": "Empezar por lo pequeño",
+      "reading": "Lc 16,10",
+      "reflection": "Quien es fiel en lo poco lo será en lo mucho. La voluntad se educa con actos pequeños repetidos: levantarme a la hora, cumplir un encargo, callar una queja.",
+      "prayer": "Señor, enséñame a valorar lo pequeño. Que mi fidelidad cotidiana sea mi oración."
+    },
+    {
+      "day": 4,
+      "title": "Orden y plan",
+      "reading": "Pr 21,5",
+      "reflection": "Los planes del diligente llevan a la abundancia. Un propósito sin un plan concreto se queda en deseo: ¿qué haré, cuándo, y qué haré si falla?",
+      "prayer": "Dios de la sabiduría, ayúdame a ordenar mi tiempo y mis prioridades con sensatez."
+    },
+    {
+      "day": 5,
+      "title": "Vigilar y orar",
+      "reading": "Mt 26,41",
+      "reflection": "«El espíritu está pronto, pero la carne es débil.» Vigilar no es obsesionarse, sino estar despierto; orar es reconocer que solo no puedo.",
+      "prayer": "Jesús, vela conmigo. Que la oración sostenga lo que mi voluntad sola no alcanza."
+    },
+    {
+      "day": 6,
+      "title": "Caer y levantarse",
+      "reading": "Pr 24,16",
+      "reflection": "El justo cae siete veces y se levanta. El fracaso no cancela el camino; lo cancela quedarse en el suelo. Hoy recuerdo una caída y decido el siguiente paso, sin acusarme sin medida.",
+      "prayer": "Padre, no permitas que el desánimo me paralice. Levántame con tu misericordia."
+    },
+    {
+      "day": 7,
+      "title": "Sacrificio con sentido",
+      "reading": "Hb 12,11",
+      "reflection": "Toda disciplina parece al principio motivo de tristeza, pero da después fruto de paz. Renunciar a algo bueno por algo mejor no es amargura, sino libertad.",
+      "prayer": "Señor, que mis renuncias sean amor y no amargura. Dame alegría en el esfuerzo."
+    },
+    {
+      "day": 8,
+      "title": "La ayuda de los demás",
+      "reading": "Qo 4,9-10",
+      "reflection": "Más valen dos que uno. Pedir consejo, compartir un propósito o buscar acompañamiento espiritual no es debilidad: es sabiduría.",
+      "prayer": "Dios, envíame personas que me animen y me corrijan con caridad, y hazme yo ese apoyo para otros."
+    },
+    {
+      "day": 9,
+      "title": "Perseverar hasta el final",
+      "reading": "Gál 6,9",
+      "reflection": "No nos cansemos de hacer el bien, que a su tiempo cosecharemos. La constancia no es perfección: es volver a empezar con paz tantas veces como haga falta.",
+      "prayer": "Señor, concédeme perseverancia. Que dentro de un año pueda dar gracias por haber seguido."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios mío, afianza lo que has comenzado en mí. Que mi «sí» de cada día se apoye en tu gracia y no en mis fuerzas solas. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "ignacio-de-loyola"
+  ],
+  "tags": [
+    "fortalecer voluntad",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 7,
+    "day": 31,
+    "label": "Memoria de san Ignacio de Loyola, presbítero"
+  }
+}

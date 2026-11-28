@@ -1,0 +1,96 @@
+#!/usr/bin/env bash
+# libre-biblia — abre la app Libre Biblia en el navegador del PC y la gestiona.
+# Uso: libre-biblia [orden]   (sin orden = abrir)
+set -euo pipefail
+
+REPO="${LIBRE_BIBLIA_REPO:-$HOME/BibliaCatolica}"
+WEB="$REPO/apps/web"
+PORT="${LIBRE_BIBLIA_PORT:-4321}"
+DEV_PORT="${LIBRE_BIBLIA_DEV_PORT:-4322}"
+STATE="${XDG_CACHE_HOME:-$HOME/.cache}/libre-biblia"
+PID="$STATE/servidor.pid"
+DEV_PID="$STATE/dev.pid"
+LOG="$STATE/servidor.log"
+DEV_LOG="$STATE/dev.log"
+ADB="${ADB:-$HOME/Android/Sdk/platform-tools/adb}"
+mkdir -p "$STATE"
+
+vivo() { [[ -f "$1" ]] && kill -0 "$(cat "$1")" 2>/dev/null; }
+url() { echo "http://localhost:$PORT/${1:-}"; }
+
+navegador() {
+  if command -v google-chrome >/dev/null; then
+    # Ventana tipo app (sin barra de pestañas), tamaño de teléfono.
+    nohup google-chrome --app="$1" --window-size=430,930 >/dev/null 2>&1 &
+  else
+    xdg-open "$1" >/dev/null 2>&1 &
+  fi
+}
+
+compilar() {
+  echo "Compilando la web…"
+  (cd "$REPO" && pnpm --filter web build) >"$STATE/compilacion.log" 2>&1 \
+    || { echo "Falló la compilación; mira $STATE/compilacion.log"; exit 1; }
+  echo "Compilada."
+}
+
+iniciar() {
+  if vivo "$PID"; then echo "El servidor ya está en marcha: $(url)"; return; fi
+  [[ -f "$WEB/out/index.html" ]] || compilar
+  PORT="$PORT" nohup node "$WEB/scripts/serve-out.mjs" >"$LOG" 2>&1 &
+  echo $! >"$PID"
+  for _ in $(seq 1 50); do curl -fs -o /dev/null "$(url)" && break; read -rt 0.1 <> <(:) || true; done
+  echo "Servidor en $(url)"
+}
+
+parar() {
+  local hubo=0
+  for f in "$PID" "$DEV_PID"; do
+    if vivo "$f"; then kill "$(cat "$f")" 2>/dev/null || true; hubo=1; fi
+    rm -f "$f"
+  done
+  ((hubo)) && echo "Libre Biblia cerrada." || echo "No había nada abierto."
+}
+
+ayuda() {
+  cat <<EOF
+libre-biblia — Libre Biblia en el navegador del PC
+
+  libre-biblia                abrir (arranca el servidor si hace falta y abre la ventana)
+  libre-biblia abrir [ruta]   abrir en una ruta, p. ej.: libre-biblia abrir orar/
+  libre-biblia cerrar         parar el servidor (y el modo desarrollo)
+  libre-biblia reiniciar      cerrar y volver a abrir
+  libre-biblia actualizar     recompilar la web y reabrir (tras cambiar el código)
+  libre-biblia dev            modo desarrollo con recarga automática (puerto $DEV_PORT)
+  libre-biblia estado         ver si está en marcha
+  libre-biblia log            ver el registro del servidor
+  libre-biblia apk            compilar el APK de Android
+  libre-biblia instalar       compilar el APK e instalarlo en el teléfono (USB)
+  libre-biblia ayuda          esta ayuda
+
+Puerto: $PORT (cámbialo con LIBRE_BIBLIA_PORT). Repo: $REPO
+EOF
+}
+
+orden="${1:-abrir}"; shift || true
+case "$orden" in
+  abrir|open|"") iniciar; navegador "$(url "${1:-}")" ;;
+  cerrar|parar|close|stop) parar ;;
+  reiniciar|restart) parar; iniciar; navegador "$(url)" ;;
+  actualizar|update) parar; compilar; iniciar; navegador "$(url)" ;;
+  dev)
+    if vivo "$DEV_PID"; then echo "Modo desarrollo ya activo: http://localhost:$DEV_PORT/"; else
+      (cd "$WEB" && nohup npx next dev -p "$DEV_PORT" >"$DEV_LOG" 2>&1 & echo $! >"$DEV_PID")
+      echo "Arrancando modo desarrollo (tarda unos segundos)…"
+      for _ in $(seq 1 120); do curl -fs -o /dev/null "http://localhost:$DEV_PORT/" && break; read -rt 0.5 <> <(:) || true; done
+    fi
+    navegador "http://localhost:$DEV_PORT/" ;;
+  estado|status)
+    vivo "$PID" && echo "Servidor: en marcha en $(url) (PID $(cat "$PID"))" || echo "Servidor: parado"
+    vivo "$DEV_PID" && echo "Desarrollo: en marcha en http://localhost:$DEV_PORT/" || echo "Desarrollo: parado" ;;
+  log|logs) tail -n 50 "$LOG" 2>/dev/null; [[ -f "$DEV_LOG" ]] && tail -n 30 "$DEV_LOG" || true ;;
+  apk) (cd "$REPO" && PATH="$(dirname "$ADB"):$PATH" scripts/build-apk.sh) ;;
+  instalar|install) (cd "$REPO" && PATH="$(dirname "$ADB"):$PATH" scripts/build-apk.sh --install) ;;
+  ayuda|help|-h|--help) ayuda ;;
+  *) echo "Orden desconocida: $orden"; echo; ayuda; exit 1 ;;
+esac

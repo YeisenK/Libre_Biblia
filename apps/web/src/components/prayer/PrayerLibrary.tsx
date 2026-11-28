@@ -1,5 +1,6 @@
 'use client';
 /** Biblioteca de oraciones: /oraciones/?cat=<id> (una categoría) o todas agrupadas por categoría. */
+import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { useState } from 'react';
 import type { Prayer, PrayerMoment } from '@bc/shared';
@@ -18,7 +19,7 @@ export function PrayerLibrary() {
   if (!cat || cat.empty) {
     return (
       <div className="mx-auto max-w-2xl">
-        <ScreenHeader back="/orar/" title="Oraciones" />
+        <ScreenHeader back="/orar/" title="Oraciones" actions={<Link href="/oraciones/santos/" className="tap inline-flex min-h-[44px] items-center rounded-full px-4 text-[14px] ring-1 ring-line hover:bg-sunken">Por santo</Link>} />
         <EmptyState icon="candle" title="Preparando el devocionario…">Las oraciones aún no están disponibles. Vuelve en unos instantes.</EmptyState>
       </div>
     );

@@ -18,6 +18,7 @@ import { GoToBox } from './GoToBox';
 import { VerseActions } from './VerseActions';
 import { VerseText } from './VerseText';
 import { VersionSelect } from './VersionSelect';
+import { TextSizeControl } from './ui';
 import { NoBibles } from './NoBibles';
 import { Notice, StatusBadges, statusSuffix } from './StatusBadges';
 import { Loading } from './ui';
@@ -153,7 +154,9 @@ function ReaderInner() {
     <div onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
       <header
         data-testid="reader-bar-mobile"
-        className={`sticky top-0 z-30 -mx-5 border-b border-line bg-bg/95 px-3 pb-1 pt-[max(0.25rem,env(safe-area-inset-top))] backdrop-blur-xl transition-transform duration-200 md:hidden ${barHidden ? '-translate-y-full' : ''}`}
+        // Fondo sólido (sin backdrop-blur: en WebView de Android las capas con filtro compuestas pueden perder el toque) y
+        // `touch-manipulation`; al ocultarse deja de recibir eventos. Ver docs/ANDROID.md «Cabecera del lector».
+        className={`sticky top-0 z-30 -mx-5 touch-manipulation border-b border-line bg-bg px-3 pb-1 pt-[max(0.25rem,var(--sat))] transition-transform duration-200 md:hidden ${barHidden ? 'pointer-events-none -translate-y-full' : ''}`}
       >
         <div className="flex items-center gap-1">
           <button type="button" className="tap flex min-h-[44px] min-w-0 flex-1 items-center gap-1 rounded-xl px-2 text-left hover:bg-sunken" onClick={() => setPickerOpen(true)} disabled={!version || !booksQ.data} aria-haspopup="dialog">
@@ -294,6 +297,10 @@ function ReaderInner() {
       </Modal>
       <Modal open={menuOpen} onClose={() => setMenuOpen(false)} title="Opciones de lectura">
         <div className="flex flex-col gap-4">
+          <div className="flex items-center justify-between gap-3">
+            <p className="text-sm font-medium text-muted">Tamaño de letra ({Math.round(settings.fontScale * 100)} %)</p>
+            <TextSizeControl value={settings.fontScale} min={0.8} max={1.8} onChange={(fontScale) => update({ fontScale })} />
+          </div>
           <div>
             <p className="mb-1 text-sm font-medium text-muted">Modo de lectura</p>
             <div role="group" aria-label="Modo de lectura" className="grid grid-cols-3 rounded-full bg-sunken p-1">

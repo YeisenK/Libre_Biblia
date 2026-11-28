@@ -1,0 +1,88 @@
+{
+  "id": "triduo-sagrado-corazon",
+  "title": "Triduo al Sagrado Corazón de Jesús",
+  "group": "christ",
+  "description": "Tres días de oración ante el Corazón de Cristo: su amor, su misericordia y la respuesta del nuestro.",
+  "image": {
+    "icon": "heart",
+    "tint": "#a03a3a"
+  },
+  "introduction": "El Corazón de Jesús, traspasado en la cruz (Jn 19,34), es símbolo del amor de Dios. La devoción se difundió con las visiones de santa Margarita María Alacoque en Paray-le-Monial (siglo XVII), y la Iglesia celebra la solemnidad del Sagrado Corazón el viernes posterior al segundo domingo después de Pentecostés. Un triduo es una preparación breve de tres días a una fiesta.",
+  "purpose": "Prepararse en tres días a la solemnidad del Sagrado Corazón (o a cualquier primer viernes). Es piedad popular libre, sin promesas de resultados.\n\n**Criterios para rezarla.** Un triduo es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Corazón de Jesús, enciende en mí el fuego de tu amor. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El amor que se entrega",
+      "reading": "Jn 19,34-37",
+      "reflection": "Del costado abierto de Cristo brotan sangre y agua. Contemplo el amor de Dios que se da hasta el extremo y me dejo amar.",
+      "prayer": "Jesús, gracias por tu amor sin medida."
+    },
+    {
+      "day": 2,
+      "title": "El Corazón misericordioso",
+      "reading": "Lc 15,20",
+      "reflection": "El padre ve al hijo de lejos y se conmueve. El Corazón de Jesús es refugio de los pecadores y de los que sufren. Pienso en la confesión y en el perdón.",
+      "prayer": "Corazón compasivo de Jesús, ten misericordia de mí."
+    },
+    {
+      "day": 3,
+      "title": "Responder con amor",
+      "reading": "Jn 15,9-12",
+      "reflection": "«Permaneced en mi amor.» Responder al amor es amar a los demás como él nos ama. Decido un gesto concreto de caridad.",
+      "prayer": "Jesús manso y humilde de corazón, haz mi corazón semejante al tuyo."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Corazón de Jesús, en ti confío. Haz mi corazón semejante al tuyo. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: triduo redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "margarita-maria-alacoque"
+  ],
+  "tags": [
+    "triduo sagrado corazon",
+    "triduo",
+    "composición de Lux"
+  ]
+}

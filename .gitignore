@@ -24,3 +24,8 @@ apps/mobile/dist/
 .idea/
 tools/audio/.cache/
 tools/art/.cache/
+
+# Paquetes incluidos generados por scripts/sync-bundled-packs.mjs (prayers.es.pack sí se versiona)
+apps/web/public/packs/bundled.json
+apps/web/public/packs/bible.*.pack
+apps/web/public/packs/audio.*.pack

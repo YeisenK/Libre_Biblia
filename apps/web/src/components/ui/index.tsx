@@ -403,8 +403,9 @@ export function ArtCard({ artKey, title, subtitle, label, progress, size = 'tile
       <span className={`absolute inset-0 bg-gradient-to-t ${veil}`} aria-hidden />
       {label && <span className="absolute left-3 top-3 rounded-full bg-black/45 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-sm">{label}</span>}
       <span className={`absolute inset-x-0 bottom-0 block text-left text-white ${big ? 'p-4' : 'p-3'}`}>
-        <span className={`block font-display leading-tight ${big ? 'text-[1.45rem]' : 'text-[1.02rem]'}`}>{title}</span>
-        {subtitle && <span className={`mt-0.5 block text-white/75 ${big ? 'line-clamp-2 text-[14px]' : 'line-clamp-2 text-[12px] leading-snug'}`}>{subtitle}</span>}
+        {/* line-clamp necesita display:-webkit-box: no combinar con `block` (lo anularía y el texto taparía la etiqueta). */}
+        <span className={`line-clamp-2 font-display leading-tight ${big ? 'text-[1.45rem]' : 'text-[1.02rem]'}`}>{title}</span>
+        {subtitle && <span className={`mt-0.5 text-white/75 ${big ? 'line-clamp-2 text-[14px]' : 'line-clamp-2 text-[12px] leading-snug'}`}>{subtitle}</span>}
         {children}
         {progress !== undefined && (
           <span className="mt-2.5 block h-1 overflow-hidden rounded-full bg-white/25" role="progressbar" aria-valuemin={0} aria-valuemax={100} aria-valuenow={Math.round(progress * 100)}>
@@ -436,7 +437,7 @@ export function ArtHeader({ artKey, title, subtitle, eyebrow, meta, back, action
   const router = useRouter();
   const backCls = 'flex min-h-[44px] items-center gap-0.5 rounded-full pr-2 text-[15px] text-white/80 hover:text-white';
   return (
-    <header className={`theme-prayer relative -mx-5 -mt-[max(1.25rem,env(safe-area-inset-top))] mb-6 overflow-hidden bg-transparent px-5 pb-6 pt-[max(1.25rem,env(safe-area-inset-top))] text-white md:-mx-10 md:-mt-10 md:px-10 md:pt-10 ${className}`}>
+    <header className={`theme-prayer relative -mx-5 -mt-[max(1.25rem,var(--sat))] mb-6 overflow-hidden bg-transparent px-5 pb-6 pt-[max(1.25rem,var(--sat))] text-white md:-mx-10 md:-mt-10 md:px-10 md:pt-10 ${className}`}>
       <div className="absolute inset-0 opacity-60" aria-hidden>
         <ArtImage artKey={artKey} blur />
       </div>
@@ -473,7 +474,7 @@ export function ArtHeader({ artKey, title, subtitle, eyebrow, meta, back, action
 /** Contenedor oscuro inmersivo para superficies de oración: fuerza la paleta oscura y sangra hasta los bordes. */
 export function PrayerScreen({ children, artKey, className = '' }: { children: ReactNode; artKey?: ArtKey; className?: string }) {
   return (
-    <div className={`theme-prayer relative -mx-5 -mb-[calc(7rem+env(safe-area-inset-bottom))] -mt-[max(1.25rem,env(safe-area-inset-top))] min-h-dvh overflow-hidden px-5 pb-[calc(7rem+env(safe-area-inset-bottom))] pt-[max(1.25rem,env(safe-area-inset-top))] md:-mx-10 md:-mb-16 md:-mt-10 md:px-10 md:pb-16 md:pt-10 ${className}`}>
+    <div className={`theme-prayer relative -mx-5 -mb-[calc(7rem+var(--sab))] -mt-[max(1.25rem,var(--sat))] min-h-dvh overflow-hidden px-5 pb-[calc(7rem+var(--sab))] pt-[max(1.25rem,var(--sat))] md:-mx-10 md:-mb-16 md:-mt-10 md:px-10 md:pb-16 md:pt-10 ${className}`}>
       {artKey && (
         <div className="pointer-events-none absolute inset-x-0 top-0 h-80 opacity-40" aria-hidden>
           <ArtImage artKey={artKey} blur />

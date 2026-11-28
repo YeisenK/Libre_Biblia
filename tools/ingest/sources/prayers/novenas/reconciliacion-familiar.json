@@ -1,0 +1,135 @@
+{
+  "id": "reconciliacion-familiar",
+  "title": "Novena por la reconciliación familiar",
+  "group": "family",
+  "description": "Para sanar rupturas y tensiones familiares, con el perdón como camino y la prudencia como límite.",
+  "image": {
+    "icon": "family",
+    "tint": "#7a5b8a"
+  },
+  "introduction": "Jesús enseña el perdón de manera radical (Mt 18,21-22) y la parábola del hijo pródigo (Lc 15) es el relato por excelencia de la reconciliación familiar. El Catecismo recuerda que el perdón es esencial para la oración (CIC 2838-2845). Santa Rita de Casia es invocada como patrona de la paz en familia.",
+  "purpose": "Pedir un corazón dispuesto a perdonar y a reconciliar. Perdonar no es olvidar ni tolerar abusos: cuando hay violencia o maltrato, la prioridad es la seguridad, y la reconciliación, si llega, ha de ser verdadera y gradual. Busca acompañamiento si es necesario.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Padre, tú que reúnes a tus hijos dispersos, sana las heridas de mi familia y ablanda mi corazón. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Nombrar la herida",
+      "reading": "Sal 38,10",
+      "reflection": "Señor, todo mi deseo está ante ti. Pongo ante Dios, sin adornos, qué me duele y con quién.",
+      "prayer": "Señor, tú sabes lo que ha pasado. Cúrame."
+    },
+    {
+      "day": 2,
+      "title": "Pedir luz",
+      "reading": "Sal 139,23-24",
+      "reflection": "Examíname, Dios mío. Reviso con honestidad qué parte me corresponde, sin cargar más de lo debido.",
+      "prayer": "Dios mío, dame verdad sobre mí."
+    },
+    {
+      "day": 3,
+      "title": "Parábola del hijo pródigo",
+      "reading": "Lc 15,11-24",
+      "reflection": "El padre sale a recibir al hijo. La reconciliación comienza con un corazón que espera y que sale al encuentro.",
+      "prayer": "Padre, que sea capaz de dar el primer paso."
+    },
+    {
+      "day": 4,
+      "title": "El hermano mayor",
+      "reading": "Lc 15,25-32",
+      "reflection": "El hijo mayor también necesita conversión: el resentimiento encierra. Examino mis rencores.",
+      "prayer": "Señor, líbrame del resentimiento."
+    },
+    {
+      "day": 5,
+      "title": "Setenta veces siete",
+      "reading": "Mt 18,21-22",
+      "reflection": "El perdón es proceso. Puedo querer perdonar aunque aún no sienta. La voluntad de perdonar ya es gracia.",
+      "prayer": "Jesús, dame tu corazón para perdonar."
+    },
+    {
+      "day": 6,
+      "title": "Prudencia y límites",
+      "reading": "Pr 22,3",
+      "reflection": "El prudente ve el mal y se esconde. Perdonar no excluye proteger a quien está en peligro ni poner límites sanos.",
+      "prayer": "Señor, dame sabiduría para perdonar sin exponerme a daño."
+    },
+    {
+      "day": 7,
+      "title": "Un gesto concreto",
+      "reading": "Mt 5,23-24",
+      "reflection": "Deja tu ofrenda ante el altar y ve primero a reconciliarte. Decido un gesto posible: una llamada, un mensaje, una oración por la persona.",
+      "prayer": "Dios mío, dame valor para dar un paso."
+    },
+    {
+      "day": 8,
+      "title": "Paciencia con los tiempos",
+      "reading": "Ecl 3,1-4",
+      "reflection": "Hay tiempo de sanar y tiempo de abrazar. No todo se arregla pronto; algunos procesos son largos.",
+      "prayer": "Señor, dame paciencia con los tiempos de los demás."
+    },
+    {
+      "day": 9,
+      "title": "Paz en Cristo",
+      "reading": "Col 3,13-15",
+      "reflection": "Perdonaos mutuamente; sobre todo, vivid el amor. Que la paz de Cristo reine. Aun si la reconciliación no llega, puedo vivir en paz.",
+      "prayer": "Santa Rita, ruega por nuestras familias. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios de paz, reúne a los que están distanciados y concede a mi familia un nuevo comienzo. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "santa-rita-de-casia"
+  ],
+  "tags": [
+    "reconciliacion familiar",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 5,
+    "day": 22,
+    "label": "Memoria de santa Rita de Casia"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "id": "trabajo-san-jose-obrero",
+  "title": "Novena por el trabajo, con san José obrero",
+  "group": "work_vocation",
+  "description": "Nueve días para encomendar el trabajo, el empleo y la vocación profesional a san José obrero.",
+  "image": {
+    "icon": "family",
+    "tint": "#8a6a3b"
+  },
+  "introduction": "San José, carpintero de Nazaret, es modelo de trabajo honrado y discreto. Pío XII instituyó el 1 de mayo de 1955 la fiesta de san José Obrero (hoy memoria libre) para dar sentido cristiano a la jornada del trabajador. Francisco, en *Patris corde* (2020), lo presenta como «padre trabajador» y recuerda que el trabajo es participación en la obra de la creación y en la redención.\n\nEl Catecismo enseña que el trabajo es un deber y un derecho, que procede de la dignidad humana y que debe permitir sustentar a la familia y servir a la sociedad (CIC 2427-2434).",
+  "purpose": "Pedir trabajo digno para quien lo busca, serenidad para quien lo tiene en tensión, justicia en el ámbito laboral y sentido cristiano de la tarea cotidiana. No promete encontrar empleo en nueve días: acompaña la búsqueda con oración, humildad y esperanza. Si tu situación es urgente, acude también a los servicios de ayuda de tu parroquia y de tu comunidad.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "San José, hombre justo y trabajador, ante ti pongo mi trabajo y el de quienes amo. Durante estos nueve días quiero aprender a trabajar con rectitud y con confianza. Enséñame a servir, a esperar y a no perder la esperanza. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El trabajo, don y tarea",
+      "reading": "Gn 2,15",
+      "reflection": "Dios puso al hombre en el jardín «para que lo cultivara y lo cuidara». El trabajo no es castigo, sino colaboración. Hoy agradezco el trabajo que tengo o pido el que busco.",
+      "prayer": "Dios Creador, gracias por el don de trabajar. Que mi esfuerzo sea servicio."
+    },
+    {
+      "day": 2,
+      "title": "Jesús, el hijo del carpintero",
+      "reading": "Mt 13,55",
+      "reflection": "Jesús creció en un taller de pueblo. La tarea ordinaria fue camino de santidad en Nazaret. Nada es demasiado pequeño para Dios.",
+      "prayer": "Jesús, tú trabajaste con tus manos. Santifica mi trabajo cotidiano."
+    },
+    {
+      "day": 3,
+      "title": "Trabajar con honradez",
+      "reading": "Col 3,23",
+      "reflection": "«Lo que hagáis, hacedlo de corazón, como para el Señor.» La honradez es la forma cristiana de la profesionalidad: hacer bien, sin trampas y sin dañar.",
+      "prayer": "Señor, hazme honrado y competente. Líbrame de la deslealtad y de la pereza."
+    },
+    {
+      "day": 4,
+      "title": "El descanso y la familia",
+      "reading": "Mc 6,31",
+      "reflection": "Jesús invita a los apóstoles a descansar. El trabajo no debe devorar la familia, la oración ni el descanso. Pido equilibrio.",
+      "prayer": "Señor, ordena mi tiempo. Que sepa trabajar y que sepa parar."
+    },
+    {
+      "day": 5,
+      "title": "Quien busca empleo",
+      "reading": "Sal 37,3-5",
+      "reflection": "«Confía en el Señor y haz el bien... encomienda tu camino al Señor.» La confianza no excluye mover los medios: enviar el currículum, pedir ayuda, formarse. Rezo por quienes no tienen trabajo.",
+      "prayer": "Señor, protege a los desempleados. Que no pierdan la dignidad ni la esperanza, y que encuentren una puerta abierta."
+    },
+    {
+      "day": 6,
+      "title": "Justicia en el trabajo",
+      "reading": "St 5,4",
+      "reflection": "Santiago denuncia el salario retenido. La justicia laboral es deber de conciencia: salario justo, trato digno y seguridad (CIC 2434). Pido por los empleadores y por los trabajadores.",
+      "prayer": "Señor, que haya justicia en el trabajo. Convierte la codicia en servicio y protege a los más vulnerables."
+    },
+    {
+      "day": 7,
+      "title": "Servir, no dominar",
+      "reading": "Mc 10,42-45",
+      "reflection": "Quien dirige debe servir. Cristo lavó los pies. Rezo por quienes tienen responsabilidades, para que sean justos y humanos.",
+      "prayer": "Jesús, que quienes mandan lo hagan como servicio. Dame a mí humildad si dirijo."
+    },
+    {
+      "day": 8,
+      "title": "Trabajo y cansancio",
+      "reading": "Mt 11,28",
+      "reflection": "«Venid a mí los que estáis cansados y agobiados, y yo os aliviaré.» Pongo ante Él el agotamiento, las tensiones, los conflictos.",
+      "prayer": "Señor, alivia mi cansancio y mis conflictos. Dame paz en el trabajo."
+    },
+    {
+      "day": 9,
+      "title": "Ofrecer la jornada",
+      "reading": "1 Co 10,31",
+      "reflection": "«Ya comáis, ya bebáis, o hagáis lo que hagáis, hacedlo todo para gloria de Dios.» Termino la novena con un propósito: empezar cada jornada con una oración breve y ofrecer lo que haga.",
+      "prayer": "Gracias, Señor. Te ofrezco mi trabajo. San José, ruega por mí y por mi familia."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San José, patrono de los trabajadores, ruega por nosotros. Que haya trabajo digno para todos, justicia para quienes lo realizan y paz en cada hogar. Enséñanos a trabajar para el bien de los demás y para la gloria de Dios. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Pío XII, institución de san José Obrero (1-V-1955)"
+    },
+    {
+      "label": "Francisco, Patris corde (2020), n. 6"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 2427-2434"
+    }
+  ],
+  "tags": [
+    "trabajo",
+    "san José obrero",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 5,
+    "day": 1,
+    "label": "Memoria de san José Obrero"
+  },
+  "saints": [
+    "san-jose"
+  ]
+}

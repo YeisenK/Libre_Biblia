@@ -3,8 +3,11 @@ import Link from 'next/link';
 import { useQuery } from '@tanstack/react-query';
 import { useEffect, useMemo, useState } from 'react';
 import { CANON, MYSTERY_SET_LABEL } from '@bc/shared';
+import { LuxMark } from '@/components/brand/LuxLogo';
 import { GoToBox } from '@/components/GoToBox';
 import { TodayCard } from '@/components/TodayCard';
+import { SaintOfDayCard } from '@/components/saints/SaintOfDayCard';
+import { SeasonHighlight } from '@/components/seasons/SeasonHighlight';
 import { FavoritePrayers } from '@/components/prayer/FavoritePrayers';
 import { useNovenasInProgress } from '@/components/prayer/RoutineData';
 import { TodayAgenda } from '@/components/prayer/TodayAgenda';
@@ -89,20 +92,31 @@ export default function Home() {
 
   return (
     <div className="mx-auto max-w-2xl">
-      <header className="mb-5">
-        <p className="eyebrow mb-1" aria-live="polite">{longDate(today) || ' '}</p>
-        <h1 className="h-page">{MOMENT_GREETING[moment]}</h1>
+      <header className="mb-5 flex items-start justify-between gap-3">
+        <div>
+          <p className="eyebrow mb-1" aria-live="polite">{longDate(today) || ' '}</p>
+          <h1 className="h-page">{MOMENT_GREETING[moment]}</h1>
+        </div>
+        <Link href="/mas/" aria-label="Lux, Mi espacio" className="tap mt-1 text-accent">
+          <LuxMark size={30} />
+        </Link>
       </header>
+
+      {/* Orden: fecha y saludo · celebración/temporada · santo del día · rutina · novena en curso · Rosario · lectura. */}
+      <TodayCard />
+
+      <SeasonHighlight className="mb-8" />
+      <SaintOfDayCard className="mb-8" />
+
+      <TodayAgenda />
+
+      <FavoritePrayers home />
+
+      <NovenasRail today={today} />
 
       <div className="mb-8">
         <ArtCard artKey={`set:${set}`} size="hero" label="Rosario de hoy" title={MYSTERY_SET_LABEL[set]} subtitle="Santo Rosario" href="/rosario/" />
       </div>
-
-      <TodayAgenda />
-
-      <TodayCard />
-
-      <NovenasRail today={today} />
 
       {!empty && (
         <Section title="Biblia">
@@ -118,8 +132,6 @@ export default function Home() {
           </div>
         </Section>
       )}
-
-      <FavoritePrayers />
 
       {empty && (
         <Link href="/descargas/" className="tap card-soft mb-8 block">

@@ -89,5 +89,38 @@
       "prayer:pausa-del-mediodia",
       "prayer:angelus"
     ]
+  },
+  {
+    "id": "jornada-de-trabajo",
+    "title": "Jornada de trabajo",
+    "moment": "morning",
+    "description": "Empezar y terminar la jornada laboral en presencia de Dios.",
+    "items": [
+      "prayer:oracion-al-despertar",
+      "prayer:oracion-inicio-de-la-jornada-de-trabajo",
+      "prayer:oracion-fin-de-la-jornada-de-trabajo"
+    ]
+  },
+  {
+    "id": "estudio",
+    "title": "Sesión de estudio",
+    "moment": "afternoon",
+    "description": "Antes y después de estudiar.",
+    "items": [
+      "prayer:ante-studium",
+      "prayer:oracion-del-estudiante",
+      "prayer:oracion-despues-del-estudio"
+    ]
+  },
+  {
+    "id": "antes-de-dormir-sereno",
+    "title": "Dormir en paz",
+    "moment": "night",
+    "description": "Soltar el día con calma.",
+    "items": [
+      "prayer:oracion-de-gratitud",
+      "prayer:oracion-para-dormir",
+      "prayer:en-tus-manos"
+    ]
   }
 ]

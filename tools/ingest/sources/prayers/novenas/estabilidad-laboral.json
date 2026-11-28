@@ -1,0 +1,135 @@
+{
+  "id": "estabilidad-laboral",
+  "title": "Novena por la estabilidad laboral",
+  "group": "work_vocation",
+  "description": "Para conservar el empleo y afrontar con serenidad las dificultades laborales: presión, conflictos, injusticias.",
+  "image": {
+    "icon": "family",
+    "tint": "#8a6a3b"
+  },
+  "introduction": "El trabajo, además de sustento, es lugar de santificación y de conflictos. La Doctrina social de la Iglesia pide un trabajo digno, un salario justo y relaciones laborales respetuosas (CIC 2434; *Laborem exercens*). San José es modelo del trabajador fiel y discreto.",
+  "purpose": "Pedir serenidad, prudencia y rectitud ante la inseguridad laboral, los conflictos con compañeros o jefes, la sobrecarga y la injusticia. Si sufres acoso o abusos, la oración no sustituye acudir a quien corresponda (sindicato, asesoría, autoridades): defender tu dignidad también es responsabilidad cristiana.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, tú conoces mi trabajo y mis preocupaciones. Dame paz, prudencia y fortaleza. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Presentar mi trabajo",
+      "reading": "Col 3,23",
+      "reflection": "Todo lo que hagáis, hacedlo de corazón, como para el Señor. Ofrezco hoy mi jornada con sus tensiones.",
+      "prayer": "Señor, bendice mi trabajo y a quienes trabajan conmigo."
+    },
+    {
+      "day": 2,
+      "title": "Miedo a perder el empleo",
+      "reading": "Is 43,1-2",
+      "reflection": "«No temas, porque yo te he redimido.» El miedo es humano; no tiene la última palabra. Lo nombro ante Dios.",
+      "prayer": "Dios mío, que el miedo no me haga actuar con injusticia ni angustia."
+    },
+    {
+      "day": 3,
+      "title": "Hacer bien lo que depende de mí",
+      "reading": "Pr 14,23",
+      "reflection": "En todo esfuerzo hay provecho. Hago lo mejor que puedo, sin perfeccionismo y sin descuidos.",
+      "prayer": "Señor, dame diligencia y orden."
+    },
+    {
+      "day": 4,
+      "title": "Conflictos con compañeros",
+      "reading": "Rm 12,17-18",
+      "reflection": "Si es posible, y en cuanto de vosotros dependa, vivid en paz con todos. Busco hoy un gesto que ayude a rebajar la tensión.",
+      "prayer": "Jesús, haz de mí un artífice de paz en mi entorno laboral."
+    },
+    {
+      "day": 5,
+      "title": "Jefes y autoridad",
+      "reading": "1 Tm 2,1-2",
+      "reflection": "Pido por quienes dirigen. Rezar por quien nos resulta difícil cambia primero nuestro corazón.",
+      "prayer": "Señor, ilumina a quienes toman decisiones y dales justicia."
+    },
+    {
+      "day": 6,
+      "title": "Cuando hay injusticia",
+      "reading": "Dt 24,14-15",
+      "reflection": "No explotarás al jornalero pobre. La Escritura defiende al trabajador. Orar no excluye defender mis derechos por vías legítimas.",
+      "prayer": "Dios justo, dame valentía y prudencia para defender lo justo."
+    },
+    {
+      "day": 7,
+      "title": "Descanso y límites",
+      "reading": "Mc 6,31",
+      "reflection": "Venid aparte a un lugar solitario y descansad un poco. El descanso es parte de un trabajo sano.",
+      "prayer": "Señor, que sepa poner límites y cuidar mi descanso y mi familia."
+    },
+    {
+      "day": 8,
+      "title": "Si hay que cambiar",
+      "reading": "Jr 29,11",
+      "reflection": "«Planes de paz y no de desgracia, para daros un porvenir de esperanza.» Si el empleo termina, Dios no termina conmigo.",
+      "prayer": "Padre, sea cual sea el resultado, confío en tu providencia."
+    },
+    {
+      "day": 9,
+      "title": "Trabajar con sentido",
+      "reading": "1 Co 15,58",
+      "reflection": "Vuestro trabajo en el Señor no es vano. Doy gracias por el empleo que tengo o por la fuerza para seguir.",
+      "prayer": "San José, ruega por todos los trabajadores."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San José, custodio fiel, guarda mi trabajo y mi paz; y haz que sirva con honradez, venga lo que venga. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-jose"
+  ],
+  "tags": [
+    "estabilidad laboral",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 5,
+    "day": 1,
+    "label": "Memoria de san José Obrero"
+  }
+}

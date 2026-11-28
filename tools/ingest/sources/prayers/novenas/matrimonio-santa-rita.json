@@ -1,0 +1,136 @@
+{
+  "id": "matrimonio-santa-rita",
+  "title": "Novena por el matrimonio y la reconciliación familiar, con santa Rita",
+  "group": "family",
+  "description": "Nueve días con santa Rita de Casia para los matrimonios en dificultad y las familias heridas.",
+  "image": {
+    "icon": "heart",
+    "tint": "#8a5a6a"
+  },
+  "introduction": "Santa Rita de Casia (hacia 1381-1457), italiana, fue esposa y madre, se quedó viuda y luego ingresó en un monasterio agustino de Cascia. La tradición cuenta que su esposo era violento y que ella lo acompañó con paciencia hasta su conversión; las fuentes biográficas son tardías, por lo que conviene leer esa narración como tradición piadosa. Fue canonizada por León XIII en 1900. Su memoria se celebra el 22 de mayo. La devoción popular la invoca como intercesora en los casos difíciles.\n\nEl Catecismo enseña que el matrimonio es una alianza indisoluble por voluntad de Cristo (CIC 1638-1640, 1643-1645) y que, en casos graves, la separación puede ser legítima, sobre todo si hay violencia (CIC 1649).",
+  "purpose": "Orar por los matrimonios en crisis, por la reconciliación familiar, por las familias heridas y por quienes han sufrido separación. **Importante:** esta novena no pide a nadie que soporte violencia, maltrato ni humillaciones. Si vives en una relación con miedo, busca protección, ayuda profesional y consejo pastoral. La oración y la seguridad van juntas.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, tú bendijiste el matrimonio en Caná. Durante estos nueve días te presento las heridas de mi familia. Dame humildad, verdad y valor. Por intercesión de santa Rita, ayúdame a pedir perdón, a perdonar y a buscar la ayuda que necesito. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Cristo en Caná",
+      "reading": "Jn 2,1-11",
+      "reflection": "Jesús estuvo en una boda en la que faltó el vino. Presento hoy mi matrimonio o mi familia: lo que falta, lo que se agotó. Él sabe transformar.",
+      "prayer": "Señor Jesús, entra en mi hogar como entraste en Caná. Pon el vino que falta."
+    },
+    {
+      "day": 2,
+      "title": "Reconocer la verdad",
+      "reading": "Sal 139,23-24",
+      "reflection": "«Sondéame, oh Dios, y conoce mi corazón.» Pido humildad para ver mi parte en los conflictos, sin culparme en exceso ni culpar al otro.",
+      "prayer": "Dios mío, muéstrame mi parte. Dame valor para reconocerla y verdad para decirla."
+    },
+    {
+      "day": 3,
+      "title": "Escuchar",
+      "reading": "St 1,19",
+      "reflection": "«Que cada uno sea pronto para escuchar, lento para hablar, lento para la ira.» La comunicación sana es una escuela de amor. Pido capacidad de escuchar.",
+      "prayer": "Señor, abre mis oídos. Que escuche sin interrumpir ni juzgar."
+    },
+    {
+      "day": 4,
+      "title": "Pedir perdón",
+      "reading": "Mt 5,23-24",
+      "reflection": "Jesús pide reconciliarse antes de presentar la ofrenda. Pedir perdón no es perder, sino construir. Pienso en qué perdón debo pedir.",
+      "prayer": "Señor, dame humildad para pedir perdón. Que no espere a que el otro dé el primer paso."
+    },
+    {
+      "day": 5,
+      "title": "Perdonar",
+      "reading": "Col 3,13",
+      "reflection": "«Perdonaos mutuamente como el Señor os perdonó.» Perdonar es un proceso. No obliga a volver a una situación de peligro, pero libera del rencor (CIC 2843).",
+      "prayer": "Señor, ayúdame a perdonar. Sana mi rencor y dame paciencia con mis tiempos."
+    },
+    {
+      "day": 6,
+      "title": "Protección y verdad",
+      "reading": "Sal 82,3-4",
+      "reflection": "«Defended al débil y al huérfano... salvadlos de la mano del malvado.» La Iglesia pide proteger a quien sufre violencia. Pido por quien vive con miedo y por quien daña.",
+      "prayer": "Señor, protege a quienes sufren violencia. Convierte a quienes la ejercen y dame valor para buscar ayuda."
+    },
+    {
+      "day": 7,
+      "title": "Pedir ayuda",
+      "reading": "Qo 4,9-10",
+      "reflection": "«Más valen dos que uno... si uno cae, el otro lo levanta.» Pedir ayuda (sacerdote, consejero matrimonial, psicólogo) es un acto de sensatez, no de debilidad.",
+      "prayer": "Señor, que no me avergüence de pedir ayuda. Guíame hacia quien pueda acompañarme."
+    },
+    {
+      "day": 8,
+      "title": "Por los hijos",
+      "reading": "Mt 18,5-6",
+      "reflection": "Los hijos sufren las tensiones familiares. Pido por ellos, para que se sientan queridos y no sean usados en los conflictos.",
+      "prayer": "Señor, cuida a los hijos de las familias heridas. Que encuentren paz y adultos que los amen."
+    },
+    {
+      "day": 9,
+      "title": "Esperanza",
+      "reading": "Is 43,19",
+      "reflection": "«Mira que hago algo nuevo.» Dios puede abrir caminos donde parecía no haberlos, aunque no siempre sean los que imaginamos. Termino confiando en su gracia.",
+      "prayer": "Gracias, Señor. Confío en tu gracia para mi familia. Santa Rita, ruega por nosotros."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Santa Rita de Casia, esposa, madre y religiosa, ruega por nosotros. Alcánzanos reconciliación donde sea posible, paz donde haya heridas y protección donde haya peligro. Que nuestros hogares sean lugares de amor y verdad. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactada para Lux, con una meditación y una lectura bíblica distintas cada día. No es una novena tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "León XIII, canonización de santa Rita de Casia (24-V-1900)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica, 1638-1651 (especialmente 1649)"
+    }
+  ],
+  "tags": [
+    "matrimonio",
+    "santa Rita",
+    "reconciliación",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 5,
+    "day": 22,
+    "label": "Memoria de santa Rita de Casia"
+  },
+  "saints": [
+    "santa-rita-de-casia"
+  ]
+}

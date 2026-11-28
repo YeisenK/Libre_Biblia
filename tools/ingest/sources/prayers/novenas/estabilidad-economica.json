@@ -1,0 +1,130 @@
+{
+  "id": "estabilidad-economica",
+  "title": "Novena por la estabilidad económica",
+  "group": "work_vocation",
+  "description": "Para quien vive dificultades económicas: deudas, escasez, incertidumbre. Oración, sobriedad y confianza, con acciones concretas.",
+  "image": {
+    "icon": "bread",
+    "tint": "#6f7a4a"
+  },
+  "introduction": "Jesús conoció la pobreza de Belén y de Nazaret y enseñó a pedir «el pan de cada día». La Iglesia reconoce que la escasez es una carga real y llama a la solidaridad con los necesitados (CIC 2443-2446). San José, que sostuvo con su trabajo a la Sagrada Familia, es patrono de las familias en apuros.",
+  "purpose": "Pedir paz, sensatez y ayuda ante las dificultades económicas. No promete prosperidad ni «soluciones mágicas»: invita a ordenar los gastos, pedir ayuda cuando haga falta (familia, parroquia, servicios sociales, asesoría de deudas) y evitar la desesperación. Dios no abandona, pero actúa también por medio de las personas.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Padre, tú sabes de qué tengo necesidad antes de que te lo pida. Dame paz y claridad. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El pan de cada día",
+      "reading": "Mt 6,11",
+      "reflection": "Jesús enseña a pedir lo necesario para hoy. No pide abundancia, sino lo que hace falta. Empiezo por decir con confianza mi necesidad.",
+      "prayer": "Padre, danos hoy nuestro pan. Y haz que no me falte la esperanza."
+    },
+    {
+      "day": 2,
+      "title": "Mirar la realidad con verdad",
+      "reading": "Lc 14,28",
+      "reflection": "¿Quién, queriendo edificar una torre, no se sienta antes a calcular los gastos? Hago hoy una lista honesta de ingresos, gastos y deudas.",
+      "prayer": "Señor, dame claridad para mirar mis cuentas sin miedo."
+    },
+    {
+      "day": 3,
+      "title": "La viuda de Sarepta",
+      "reading": "1 Re 17,10-16",
+      "reflection": "La harina de la viuda no se acabó. Dios sostiene en lo cotidiano. A veces lo que tenemos, compartido y bien administrado, alcanza más de lo que creemos.",
+      "prayer": "Dios mío, enséñame a administrar con sabiduría lo que tengo."
+    },
+    {
+      "day": 4,
+      "title": "No esclavos del dinero",
+      "reading": "Mt 6,24",
+      "reflection": "No podéis servir a Dios y al dinero. La angustia económica puede esclavizar tanto como la codicia. Pido libertad interior.",
+      "prayer": "Señor, que el dinero no gobierne mi corazón."
+    },
+    {
+      "day": 5,
+      "title": "Sobriedad y orden",
+      "reading": "Pr 21,20",
+      "reflection": "En casa del sabio hay tesoro precioso y aceite; el necio lo devora. Identifico un gasto que puedo recortar sin dañar lo esencial.",
+      "prayer": "Señor, dame disciplina y alegría en lo sencillo."
+    },
+    {
+      "day": 6,
+      "title": "Pedir ayuda sin vergüenza",
+      "reading": "Hch 4,34-35",
+      "reflection": "Entre los primeros cristianos nadie pasaba necesidad: se repartía según la necesidad de cada uno. Aceptar ayuda es dejar que la comunidad sea comunidad.",
+      "prayer": "Dios mío, quita mi orgullo y ayúdame a pedir y a agradecer."
+    },
+    {
+      "day": 7,
+      "title": "Trabajo y ahorro",
+      "reading": "Pr 6,6-8",
+      "reflection": "Observa a la hormiga y aprende. Busco oportunidades, formación o ingresos honestos, y construyo poco a poco.",
+      "prayer": "Señor, bendice mi esfuerzo y abre caminos honrados."
+    },
+    {
+      "day": 8,
+      "title": "Generosidad en la escasez",
+      "reading": "2 Co 8,2-4",
+      "reflection": "Las comunidades de Macedonia dieron con generosidad en su extrema pobreza. Dar, aunque sea poco, libera el corazón.",
+      "prayer": "Jesús, que aprenda a compartir lo que tengo, sea mucho o poco."
+    },
+    {
+      "day": 9,
+      "title": "Confianza activa",
+      "reading": "Sal 23,1-4",
+      "reflection": "El Señor es mi pastor, nada me falta. Aun pasando por valle oscuro, no temo. Confiar no es cruzarse de brazos, sino caminar sin angustia.",
+      "prayer": "San José, ruega por mi familia. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Dios providente, da el pan de cada día a mi casa y a cuantos pasan necesidad. Enséñame a compartir y a confiar. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-jose"
+  ],
+  "tags": [
+    "estabilidad economica",
+    "novena",
+    "composición de Lux"
+  ]
+}

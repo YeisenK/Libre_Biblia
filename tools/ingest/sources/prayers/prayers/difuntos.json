@@ -35,7 +35,8 @@
     "id": "oracion-por-un-difunto",
     "title": "Por un difunto",
     "categories": [
-      "difuntos"
+      "difuntos",
+      "relaciones"
     ],
     "moments": [
       "any"
@@ -60,7 +61,8 @@
     "categories": [
       "difuntos",
       "familia",
-      "momentos-dificiles"
+      "momentos-dificiles",
+      "relaciones"
     ],
     "moments": [
       "any"

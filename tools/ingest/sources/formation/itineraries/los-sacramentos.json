@@ -1,0 +1,180 @@
+{
+ "id": "los-sacramentos",
+ "title": "Los sacramentos",
+ "description": "Los siete sacramentos de la Iglesia, uno por lección y una introducción general.",
+ "level": "inicial",
+ "lessons": [
+  {
+   "title": "Qué es un sacramento",
+   "body": [
+    "Los sacramentos son signos eficaces de la gracia, instituidos por Cristo y confiados a la Iglesia (CEC 1131). Obran por la acción de Cristo (ex opere operato) y requieren fe y disposición para dar fruto (CEC 1128, 1131)."
+   ],
+   "ccc": [
+    1128,
+    1131
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "1113-1134",
+     "Los sacramentos de la Iglesia"
+    ],
+    [
+     "church",
+     "sacrosanctum-concilium",
+     "Sacrosanctum Concilium"
+    ]
+   ],
+   "questions": [
+    "¿Qué significa «signo eficaz»?"
+   ]
+  },
+  {
+   "title": "Bautismo y Confirmación",
+   "body": [
+    "El Bautismo es la puerta de la vida cristiana: perdona el pecado original y los personales, hace hijos de Dios e incorpora a la Iglesia (CEC 1213, 1263). La Confirmación completa la gracia bautismal con el don del Espíritu (CEC 1285, 1302)."
+   ],
+   "ccc": [
+    1213,
+    1263,
+    1285
+   ],
+   "bible": [
+    "Mt 28,19",
+    "Hch 8,14-17"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "1213-1284",
+     "El Bautismo"
+    ],
+    [
+     "ccc",
+     "1285-1321",
+     "La Confirmación"
+    ]
+   ],
+   "questions": [
+    "¿Qué efectos tiene el Bautismo?"
+   ]
+  },
+  {
+   "title": "Eucaristía",
+   "body": [
+    "La Eucaristía es «fuente y cima de toda la vida cristiana» (CEC 1324). En ella Cristo está presente real y sustancialmente bajo las especies del pan y del vino (CEC 1374) y se hace presente el sacrificio de la cruz (CEC 1366)."
+   ],
+   "ccc": [
+    1324,
+    1366,
+    1374
+   ],
+   "bible": [
+    "Lc 22,19",
+    "Jn 6,51-58"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "1322-1419",
+     "La Eucaristía"
+    ],
+    [
+     "church",
+     "sacramentum-caritatis",
+     "Sacramentum caritatis"
+    ]
+   ],
+   "questions": [
+    "¿Qué es la presencia real?"
+   ]
+  },
+  {
+   "title": "Penitencia y Unción de los enfermos",
+   "body": [
+    "En la Penitencia, Dios perdona los pecados por el ministerio del sacerdote tras la contrición, la confesión y la satisfacción (CEC 1448, 1491). La Unción da fortaleza y consuelo al enfermo (CEC 1520)."
+   ],
+   "ccc": [
+    1448,
+    1491,
+    1520
+   ],
+   "bible": [
+    "Jn 20,22-23",
+    "St 5,14-15"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "1422-1498",
+     "Penitencia"
+    ],
+    [
+     "ccc",
+     "1499-1532",
+     "Unción de los enfermos"
+    ]
+   ],
+   "questions": [
+    "¿Qué actos pide el penitente?"
+   ]
+  },
+  {
+   "title": "Orden y Matrimonio",
+   "body": [
+    "El Orden confiere el ministerio en tres grados: obispo, presbítero y diácono (CEC 1554). El Matrimonio es la alianza entre un hombre y una mujer, elevada por Cristo a sacramento entre bautizados (CEC 1601, 1639)."
+   ],
+   "ccc": [
+    1554,
+    1601,
+    1639
+   ],
+   "bible": [
+    "Mt 19,4-6",
+    "Ef 5,25-32"
+   ],
+   "readings": [
+    [
+     "ccc",
+     "1536-1600",
+     "Orden"
+    ],
+    [
+     "ccc",
+     "1601-1666",
+     "Matrimonio"
+    ]
+   ],
+   "questions": [
+    "¿Qué grados tiene el sacramento del Orden?"
+   ]
+  },
+  {
+   "title": "Sacramentales y vida litúrgica",
+   "body": [
+    "Los sacramentales son signos sagrados instituidos por la Iglesia, no por Cristo, que santifican situaciones de la vida (CEC 1667-1670). La religiosidad popular es valiosa si se ordena a la liturgia."
+   ],
+   "ccc": [
+    1667,
+    1670
+   ],
+   "bible": [],
+   "readings": [
+    [
+     "ccc",
+     "1667-1679",
+     "Los sacramentales"
+    ],
+    [
+     "church",
+     "desiderio-desideravi",
+     "Desiderio desideravi"
+    ]
+   ],
+   "questions": [
+    "¿Qué diferencia hay entre sacramento y sacramental?"
+   ]
+  }
+ ]
+}

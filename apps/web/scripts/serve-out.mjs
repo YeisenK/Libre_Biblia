@@ -12,4 +12,4 @@ createServer(async (req, res) => {
   try { if ((await stat(file)).isDirectory()) file = join(file, 'index.html'); } catch { file = join(root, p + '.html'); }
   try { const b = await readFile(file); res.writeHead(200, { 'Content-Type': types[extname(file)] ?? 'application/octet-stream' }); res.end(b); }
   catch { res.writeHead(404); res.end('No encontrado'); }
-}).listen(3000, () => console.log('http://localhost:3000'));
+}).listen(Number(process.env.PORT) || 3000, () => console.log(`http://localhost:${Number(process.env.PORT) || 3000}`));

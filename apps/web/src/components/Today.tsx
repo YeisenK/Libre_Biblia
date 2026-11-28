@@ -20,6 +20,7 @@ import type { BibleVersion } from '@/lib/types';
 import { ChevronLeft, ChevronRight, HeartIcon } from './Icons';
 import { Loading } from './ui';
 import { LiturgyHeader } from './LiturgyHeader';
+import { SaintOfDayCard } from './saints/SaintOfDayCard';
 import { Markdown } from './Markdown';
 import { StatusBadges } from './StatusBadges';
 
@@ -124,6 +125,7 @@ function TodayInner({ date, today }: { date: string; today: string }) {
       </nav>
 
       <LiturgyHeader day={liturgy} />
+      <SaintOfDayCard date={date} className="mt-4" backTo={`/hoy/?d=${date}`} />
       {mass ? <MassReadingsSection mass={mass} versions={versionsQ.data ?? []} preferred={preferred} /> : <p className="mt-2 text-sm text-muted" data-testid="honest-line">{HONEST_LINE}</p>}
 
       {mode === 'gospel' && gospel && (

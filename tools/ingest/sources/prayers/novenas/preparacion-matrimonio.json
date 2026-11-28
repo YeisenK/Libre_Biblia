@@ -1,0 +1,130 @@
+{
+  "id": "preparacion-matrimonio",
+  "title": "Novena de preparación al matrimonio",
+  "group": "family",
+  "description": "Para novios que se preparan a casarse: oración, entrega, diálogo y fe, con la Sagrada Familia.",
+  "image": {
+    "icon": "family",
+    "tint": "#a05a6a"
+  },
+  "introduction": "El matrimonio es sacramento: los esposos son ministros de su propia alianza (CIC 1623). La Iglesia ofrece cursos de preparación; esta novena es un complemento de oración. La Sagrada Familia de Nazaret, con san José y la Virgen María, es modelo de hogar cristiano.",
+  "purpose": "Pedir luz y gracia para la boda y la vida común: fidelidad, apertura a la vida, diálogo, perdón y fe compartida. Puede rezarse por separado o juntos.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, nos preparamos a un compromiso para toda la vida. Bendícenos y enséñanos a amarnos como tú nos amas. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "El sacramento del amor",
+      "reading": "Ef 5,31-32",
+      "reflection": "Este misterio es grande. El matrimonio refleja la unión de Cristo con su Iglesia. Hoy doy gracias por la persona con la que me casaré.",
+      "prayer": "Señor, gracias por este amor. Hazlo santo."
+    },
+    {
+      "day": 2,
+      "title": "Alianza y no contrato",
+      "reading": "Mal 2,14",
+      "reflection": "La alianza no es un trato por intereses, sino un compromiso de fidelidad. Reflexiono sobre lo que significa decir «para siempre».",
+      "prayer": "Dios fiel, haz que nuestro amor sea fiel."
+    },
+    {
+      "day": 3,
+      "title": "Entrega total",
+      "reading": "Gn 2,24",
+      "reflection": "Dejará el hombre a su padre y a su madre y se unirá a su mujer. Hay renuncias necesarias; las reconocemos con serenidad.",
+      "prayer": "Señor, enséñanos a dar sin reservas."
+    },
+    {
+      "day": 4,
+      "title": "Diálogo y escucha",
+      "reading": "St 1,19",
+      "reflection": "Que cada uno sea pronto para escuchar y tardío para hablar. Hablamos hoy de algo importante con calma: dinero, hijos, familia, fe.",
+      "prayer": "Espíritu Santo, ayúdanos a escucharnos."
+    },
+    {
+      "day": 5,
+      "title": "Apertura a la vida",
+      "reading": "Sal 127,3-5",
+      "reflection": "Los hijos son un don del Señor. Rezo por una paternidad y maternidad responsables, y por el discernimiento común.",
+      "prayer": "Dios de la vida, prepáranos para recibir con amor lo que nos des."
+    },
+    {
+      "day": 6,
+      "title": "Perdonar y pedir perdón",
+      "reading": "Ef 4,32",
+      "reflection": "Sed bondadosos y compasivos, perdonándoos unos a otros. El hogar necesita la práctica diaria del perdón.",
+      "prayer": "Señor, haz de nosotros personas que saben perdonar."
+    },
+    {
+      "day": 7,
+      "title": "Rezar en pareja",
+      "reading": "Mt 18,19-20",
+      "reflection": "Donde dos o tres se reúnen en mi nombre, allí estoy. Decidimos un momento de oración breve común.",
+      "prayer": "Jesús, quédate en nuestro hogar."
+    },
+    {
+      "day": 8,
+      "title": "Las familias de ambos",
+      "reading": "Rt 1,16",
+      "reflection": "Un matrimonio no se aísla: acoge a la familia del otro. Pido paz y respeto entre ambas familias.",
+      "prayer": "Señor, une a nuestras familias."
+    },
+    {
+      "day": 9,
+      "title": "La boda en Caná",
+      "reading": "Jn 2,1-11",
+      "reflection": "Jesús y María están en la boda. Que lo estén también en la nuestra y en cada día después.",
+      "prayer": "María, di a Jesús que no nos falte el vino del amor. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "Sagrada Familia de Nazaret, ruega por nosotros. Que nuestro hogar sea escuela de amor, de fe y de servicio. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "san-jose"
+  ],
+  "tags": [
+    "preparacion matrimonio",
+    "novena",
+    "composición de Lux"
+  ]
+}

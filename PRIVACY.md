@@ -4,7 +4,7 @@
 
 ## Español
 
-**Libre Biblia** (`io.github.yeisenk.librebiblia`) no recoge, transmite ni comparte datos personales.
+**Lux** (`io.github.yeisenk.librebiblia`) no recoge, transmite ni comparte datos personales.
 
 - **No hay cuentas, ni servidor propio, ni anuncios, ni analítica, ni rastreadores.**
 - Todo lo que generas (marcadores, historial de lectura, posición, ajustes, paquetes de contenido descargados) se guarda **únicamente en tu dispositivo**, en el almacenamiento local de la aplicación. Los desarrolladores no tenemos acceso a esos datos.
@@ -19,7 +19,7 @@ Contacto: abre una incidencia en https://github.com/YeisenK/Libre_Biblia/issues
 
 ## English
 
-**Libre Biblia** (`io.github.yeisenk.librebiblia`) does not collect, transmit or share personal data.
+**Lux** (`io.github.yeisenk.librebiblia`) does not collect, transmit or share personal data.
 
 - **No accounts, no backend server, no ads, no analytics, no trackers.**
 - Everything you create (bookmarks, reading history, position, settings, downloaded content packs) is stored **only on your device**, in the app's local storage. The developers have no access to it.

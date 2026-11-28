@@ -1,0 +1,135 @@
+{
+  "id": "padres-y-abuelos",
+  "title": "Novena por los padres y los abuelos",
+  "group": "family",
+  "description": "Para agradecer, cuidar y encomendar a los padres y abuelos, vivos o difuntos, con san Joaquín y santa Ana.",
+  "image": {
+    "icon": "family",
+    "tint": "#8a6a5b"
+  },
+  "introduction": "El cuarto mandamiento pide honrar al padre y a la madre (Ex 20,12; CIC 2214-2220). La tradición venera a san Joaquín y a santa Ana, padres de la Virgen María y abuelos de Jesús; la Iglesia los celebra el 26 de julio. En 2021 el papa Francisco instituyó la Jornada Mundial de los Abuelos y de los Mayores, en torno a esta memoria.",
+  "purpose": "Dar gracias por los padres y abuelos, pedir por su salud y su compañía, sanar relaciones difíciles y encomendar a los difuntos. Respetuosa con quienes tuvieron padres ausentes o dañinos: perdonar es un camino propio, sin prisa ni obligación de idealizar.\n\n**Criterios para rezarla.** Una novena es piedad popular: libre, voluntaria y sin garantías de resultado. No es un «mecanismo» que obliga a Dios, sino un tiempo para pedir con perseverancia y para dejarse cambiar. Pon también de tu parte lo que depende de ti (consejo, esfuerzo, medios sensatos) y acude a los sacramentos y, si hace falta, a un sacerdote, un médico o un profesional. Si te saltas un día, retómala sin escrúpulos: Dios no lleva cuentas de ese modo.",
+  "nature": "original",
+  "opening": [
+    {
+      "prayer": "senal-de-la-cruz"
+    },
+    {
+      "title": "Oración inicial",
+      "text": "Señor, te doy gracias por quienes me dieron la vida y me transmitieron la fe y la historia de mi familia. Amén."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "title": "Honra a tu padre y a tu madre",
+      "reading": "Ex 20,12",
+      "reflection": "El mandamiento tiene promesa de vida. Honrar no es idealizar, sino reconocer el don de la vida recibida.",
+      "prayer": "Señor, gracias por mis padres, con sus luces y sus sombras."
+    },
+    {
+      "day": 2,
+      "title": "Gratitud",
+      "reading": "Pr 23,22",
+      "reflection": "Escucha a tu padre, que te engendró, y no desprecies a tu madre cuando envejezca. Hago memoria de algo concreto por lo que agradezco.",
+      "prayer": "Dios mío, bendice a quienes me cuidaron."
+    },
+    {
+      "day": 3,
+      "title": "Los abuelos, memoria viva",
+      "reading": "Sal 71,17-18",
+      "reflection": "Ahora que soy viejo, no me abandones, oh Dios, hasta que anuncie tu poder a la nueva generación. Los abuelos transmiten la fe.",
+      "prayer": "Señor, que valore la sabiduría de los mayores."
+    },
+    {
+      "day": 4,
+      "title": "Joaquín y Ana",
+      "reading": "Lc 1,5-7",
+      "reflection": "La tradición los recuerda como esposos justos, que esperaron un hijo. Rezo por quienes esperan y por los matrimonios de edad.",
+      "prayer": "San Joaquín y santa Ana, enseñadme a esperar con fe."
+    },
+    {
+      "day": 5,
+      "title": "Cuidar en la vejez",
+      "reading": "Si 3,12-14",
+      "reflection": "Hijo, cuida de tu padre en su vejez; la compasión hacia él no será olvidada. Pienso en gestos concretos: una visita, una llamada.",
+      "prayer": "Jesús, dame paciencia y ternura con los mayores."
+    },
+    {
+      "day": 6,
+      "title": "Sanar heridas",
+      "reading": "Col 3,13",
+      "reflection": "Perdonaos mutuamente. Si hay heridas, encomiendo la historia a Dios; perdonar es proceso y puede necesitar acompañamiento.",
+      "prayer": "Padre, cura lo que duele en mi historia familiar."
+    },
+    {
+      "day": 7,
+      "title": "Por la salud de los mayores",
+      "reading": "Is 46,4",
+      "reflection": "«Hasta vuestra vejez yo seré el mismo; hasta las canas os llevaré.» Pido por la salud y la compañía de padres y abuelos.",
+      "prayer": "Señor, sostén a quienes sufren enfermedad o soledad."
+    },
+    {
+      "day": 8,
+      "title": "Por los difuntos",
+      "reading": "Sab 3,1-3",
+      "reflection": "Las almas de los justos están en manos de Dios. Encomiendo a mis padres y abuelos difuntos.",
+      "prayer": "Dales, Señor, el descanso eterno."
+    },
+    {
+      "day": 9,
+      "title": "Familia que transmite la fe",
+      "reading": "Dt 6,6-7",
+      "reflection": "Las palabras que hoy te mando estarán en tu corazón; las repetirás a tus hijos. Rezo por la transmisión de la fe en mi familia.",
+      "prayer": "San Joaquín y santa Ana, rogad por nosotros. Amén."
+    }
+  ],
+  "closing": [
+    {
+      "title": "Oración final",
+      "text": "San Joaquín y santa Ana, ruegen por nuestros mayores. Que ninguno se sienta solo y que todos sean honrados. Amén."
+    },
+    {
+      "prayer": "padre-nuestro"
+    },
+    {
+      "prayer": "ave-maria"
+    },
+    {
+      "prayer": "gloria"
+    },
+    {
+      "prayer": "senal-de-la-cruz"
+    }
+  ],
+  "attribution": "Composición de Lux: novena redactado para Lux, con una meditación y una lectura bíblica distintas cada día. No es una devoción tradicional ni está aprobada por la Iglesia; se apoya en la Escritura y en el Catecismo.",
+  "sources": [
+    {
+      "label": "Composición de Lux (texto propio, CC BY-SA 4.0)"
+    },
+    {
+      "label": "Sagrada Escritura (referencias bíblicas indicadas en cada día)"
+    },
+    {
+      "label": "Catecismo de la Iglesia Católica",
+      "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+    },
+    {
+      "label": "Directorio sobre la piedad popular y la liturgia (2001)",
+      "url": "https://www.vatican.va/roman_curia/congregations/ccdds/documents/rc_con_ccdds_doc_20020513_vers-direttorio_sp.html"
+    }
+  ],
+  "saints": [
+    "joaquin-y-ana"
+  ],
+  "tags": [
+    "padres y abuelos",
+    "novena",
+    "composición de Lux"
+  ],
+  "feast": {
+    "month": 7,
+    "day": 26,
+    "label": "Memoria de san Joaquín y santa Ana, padres de la Virgen María"
+  }
+}

@@ -25,7 +25,7 @@ import { TextSizeControl, momentOf } from '../ui';
 import { useDone, useNovenaProgress, useToday } from '../prayer/RoutineData';
 import { DailyStepBody, NovenaStepBody, PrayerStepBody, RosaryStepBody } from './RoutineSteps';
 
-const SAFE = { paddingTop: 'env(safe-area-inset-top)', paddingBottom: 'env(safe-area-inset-bottom)' } as const;
+const SAFE = { paddingTop: 'var(--sat)', paddingBottom: 'var(--sab)' } as const;
 
 export function RoutinePlayer({ routine, initial }: { routine: RoutineRow; initial: number }) {
   const router = useRouter();

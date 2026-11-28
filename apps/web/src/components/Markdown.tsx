@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
 import { parseMarkdown, type Block, type Inline } from '@/lib/markdown';
 
 function inline(nodes: Inline[]): ReactNode[] {
@@ -36,6 +36,8 @@ function block(b: Block, i: number): ReactNode {
   }
 }
 
-export function Markdown({ text }: { text: string }) {
-  return <div className="reading">{parseMarkdown(text).map(block)}</div>;
+/** `wrap` (opcional) envuelve cada bloque de primer nivel: lo usa el lector de libros para anotar por bloque. */
+export function Markdown({ text, wrap, style }: { text: string; wrap?: (node: ReactNode, index: number, b: Block) => ReactNode; style?: CSSProperties }) {
+  const blocks = parseMarkdown(text);
+  return <div className="reading" style={style}>{blocks.map((b, i) => (wrap ? wrap(block(b, i), i, b) : block(b, i)))}</div>;
 }

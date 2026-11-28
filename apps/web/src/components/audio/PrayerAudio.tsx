@@ -13,13 +13,31 @@ import { hasClip } from '@/lib/audio/clips';
 import { clipId, player } from '@/lib/audio/player';
 import { useAudioState } from '@/lib/audio/useAudio';
 
-export function PrayerAudioButton({ clipKey, autoPlay, onEnded, className = '' }: { clipKey: string; autoPlay?: boolean; onEnded?: () => void; className?: string }) {
+/**
+ * `repeat`: número de veces que suena el clip seguido (p. ej. 10 Ave Marías de una decena
+ * con rosario físico); `onEnded` se llama solo al terminar la última repetición.
+ */
+export function PrayerAudioButton({ clipKey, autoPlay, onEnded, repeat = 1, className = '' }: { clipKey: string; autoPlay?: boolean; onEnded?: () => void; repeat?: number; className?: string }) {
   const { settings } = useSettings();
   const voice = settings.prayerVoice;
   const exists = useLiveQuery(() => hasClip(voice, clipKey), [voice, clipKey]);
   const audio = useAudioState();
-  const endedRef = useRef(onEnded);
-  endedRef.current = onEnded;
+  const doneRef = useRef(onEnded);
+  doneRef.current = onEnded;
+  const playsRef = useRef(0);
+  useEffect(() => {
+    playsRef.current = 0;
+  }, [clipKey, repeat]);
+  const endedRef = useRef<() => void>(() => undefined);
+  endedRef.current = () => {
+    playsRef.current += 1;
+    if (voice && playsRef.current < repeat) {
+      void player.play(voice, clipKey, { onEnded: () => endedRef.current() });
+      return;
+    }
+    playsRef.current = 0;
+    doneRef.current?.();
+  };
   const id = voice ? clipId(voice, clipKey) : null;
   const mine = !!id && audio.id === id;
 

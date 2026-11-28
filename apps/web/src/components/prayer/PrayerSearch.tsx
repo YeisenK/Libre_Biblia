@@ -65,7 +65,7 @@ export function PrayerSearch({ value, onChange, onActiveChange, placeholder = 'B
                       <span className="block text-[15px] font-medium">{r.title}</span>
                       <span className="block text-[12px] text-muted">{r.subtitle}</span>
                       {/* snippetHtml ya viene escapado (renderSnippet) */}
-                      <span className="mt-0.5 block line-clamp-2 text-[13px] leading-snug text-muted [&_mark]:rounded [&_mark]:bg-mark/55 [&_mark]:text-fg" dangerouslySetInnerHTML={{ __html: r.snippetHtml }} />
+                      <span className="mt-0.5 line-clamp-2 text-[13px] leading-snug text-muted [&_mark]:rounded [&_mark]:bg-mark/55 [&_mark]:text-fg" dangerouslySetInnerHTML={{ __html: r.snippetHtml }} />
                     </span>
                   </Link>
                 ))}

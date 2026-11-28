@@ -1,0 +1,121 @@
+{
+ "id": "guia-confesion",
+ "kind": "confession",
+ "title": "Guía de la confesión",
+ "description": "Preparación, examen, arrepentimiento, confesión de los pecados, absolución y penitencia, con los requisitos del sacramento. Sin fórmulas con derechos.",
+ "nature": "original",
+ "attribution": "Composición de Lux, a partir del Catecismo de la Iglesia Católica y del Ritual de la Penitencia (los números se indican en cada paso). No reproduce textos del Ritual.",
+ "rubric": "Doctrina, disciplina y devoción están señaladas por separado. La fórmula de absolución del Ritual no se reproduce.",
+ "sources": [
+  {
+   "label": "Catecismo de la Iglesia Católica",
+   "url": "https://www.vatican.va/archive/catechism_sp/index_sp.html"
+  },
+  {
+   "label": "Ritual de la Penitencia (Ordo Paenitentiae, 1973), n. 46: fórmula de la absolución (citado en CIC 1449; no se reproduce el texto oficial)"
+  },
+  {
+   "label": "Código de Derecho Canónico, cc. 976 y 989"
+  }
+ ],
+ "minutes": 15,
+ "ccc": [
+  "1422-1498"
+ ],
+ "steps": [
+  {
+   "id": "que-es",
+   "kind": "reflection",
+   "title": "Qué es este sacramento",
+   "text": "El sacramento de la Penitencia (también llamado Reconciliación o Confesión) es el sacramento en que Cristo, por medio de un sacerdote, perdona los pecados cometidos después del Bautismo y nos reconcilia con Dios y con la Iglesia (CIC 1422-1424). Lo instituyó el Señor resucitado cuando dio a los apóstoles el poder de perdonar (Jn 20,21-23). Se llama también *sacramento de la conversión*, porque realiza la llamada de Jesús a volver al Padre (CIC 1423).\n\n**Doctrina, disciplina y devoción.** Es doctrina de fe que los pecados graves cometidos tras el Bautismo se perdonan por este sacramento (CIC 1446-1449). Es disciplina de la Iglesia confesar los pecados graves al menos una vez al año (CIC 2042; Código de Derecho Canónico, c. 989) y no comulgar con pecado grave sin confesarse antes (CIC 1385). Confesarse con frecuencia aunque solo haya pecados veniales es una práctica muy recomendada (CIC 1458), pero no obligatoria.",
+   "ccc": "1422-1424"
+  },
+  {
+   "id": "lectura",
+   "kind": "reading",
+   "title": "Una palabra de misericordia",
+   "text": "Antes de prepararte, deja que la Palabra de Dios te sitúe: eres el hijo que vuelve a casa.",
+   "reading": "Lc 15,11-24"
+  },
+  {
+   "id": "antes",
+   "kind": "prayer",
+   "title": "Oración antes de confesarse",
+   "prayer": "oracion-antes-de-confesarse"
+  },
+  {
+   "id": "hijo-prodigo",
+   "kind": "prayer",
+   "title": "Volver al Padre",
+   "prayer": "oracion-del-hijo-prodigo"
+  },
+  {
+   "id": "examen",
+   "kind": "text",
+   "title": "1. Examen de conciencia",
+   "text": "Examinar la conciencia es mirar la propia vida a la luz de la Palabra de Dios y de los mandamientos (CIC 1454). Hazlo con calma, sin escrúpulos: no se trata de torturarte, sino de reconocer con sinceridad lo que te aleja de Dios. En Lux tienes modalidades distintas (mandamientos, bienaventuranzas, virtudes, para jóvenes, para adultos, o si hace mucho que no te confiesas). **Lux no guarda nada de tu examen.**\n\nPara que un pecado sea mortal se necesitan tres cosas a la vez: materia grave, pleno conocimiento y consentimiento deliberado (CIC 1857). Los pecados veniales dañan menos la amistad con Dios pero también hieren la caridad (CIC 1862-1863).",
+   "ccc": "1454; 1854-1864"
+  },
+  {
+   "id": "arrepentimiento",
+   "kind": "text",
+   "title": "2. Arrepentimiento (contrición)",
+   "text": "La contrición es «el dolor del alma y la detestación del pecado cometido, con la resolución de no volver a pecar» (CIC 1451). Es el primero de los actos del penitente y no es lo mismo que un sentimiento: es sobre todo un acto de la voluntad.\n\n- **Contrición perfecta:** nace del amor a Dios amado sobre todas las cosas. Perdona los pecados veniales, y también los mortales si incluye la firme resolución de confesarse cuanto antes (CIC 1452).\n- **Contrición imperfecta (atrición):** nace de la fealdad del pecado o del temor de la condenación. No basta por sí sola para el perdón de los pecados mortales, pero es un don del Espíritu Santo y dispone a recibir la gracia en el sacramento (CIC 1453).\n\nIncluye el **propósito de enmienda**: la decisión sincera de cambiar, con la ayuda de la gracia, y de evitar las ocasiones de pecado. No exige tener la certeza de no volver a caer, sino querer de verdad no caer (CIC 1451).",
+   "ccc": "1451-1454"
+  },
+  {
+   "id": "contricion",
+   "kind": "prayer",
+   "title": "Acto de contrición",
+   "prayer": "acto-de-contricion"
+  },
+  {
+   "id": "confesion",
+   "kind": "text",
+   "title": "3. Confesión de los pecados",
+   "text": "Confesar los pecados es decirlos al sacerdote, que actúa en nombre de Cristo. No es un trámite humillante: es liberador, porque nos pone ante la verdad de lo que somos (CIC 1455).\n\n**Qué se confiesa.** Los pecados mortales, uno por uno, con su especie y su número, y las circunstancias que cambien su gravedad (CIC 1456). Confesar los veniales no es obligatorio, pero es muy recomendable (CIC 1458). Si olvidas un pecado grave sin culpa, queda perdonado, pero debes confesarlo en la próxima ocasión (CIC 1456).\n\n**Cómo se desarrolla (forma habitual, no obligatoria en sus detalles).** Saludo y señal de la cruz; puede que el sacerdote lea un pasaje de la Escritura; dices desde cuándo no te confiesas y tus pecados, con sencillez y sin rodeos; el sacerdote puede aconsejarte; lo que dices queda protegido por el sigilo sacramental, absoluto e inviolable (CIC 1467). Si te cuesta, dile al sacerdote que es difícil: él te ayudará con preguntas.\n\n**Cosas que puedes decir al empezar:** cuánto hace de tu última confesión, tu estado de vida (casado, soltero…) y qué te pesa más.",
+   "ccc": "1455-1458; 1467"
+  },
+  {
+   "id": "penitencia",
+   "kind": "text",
+   "title": "4. Consejo y penitencia",
+   "text": "El sacerdote te propondrá una penitencia (oración, una obra de misericordia, un acto de reparación) como satisfacción por tus pecados (CIC 1459-1460). No «paga» el perdón, que es gratuito, sino que ayuda a sanar las heridas que el pecado deja y a restablecer la rectitud. Si hay daños que reparar (restituir lo robado, pedir perdón, restablecer la fama de alguien) la penitencia incluirá o acompañará esa reparación (CIC 1459).\n\nSi no entiendes o no puedes cumplir la penitencia propuesta, díselo al sacerdote antes de irte.",
+   "ccc": "1459-1460"
+  },
+  {
+   "id": "absolucion",
+   "kind": "text",
+   "title": "5. La absolución",
+   "text": "El sacerdote, con poder recibido de Cristo, te absuelve en el nombre de Dios Padre, del Hijo y del Espíritu Santo (CIC 1441-1449; 1461-1467). Mientras tanto extiende las manos (o la mano derecha) sobre tu cabeza y traza la señal de la cruz.\n\n**Lux no reproduce la fórmula de absolución**, porque su traducción oficial en español pertenece al Ritual de la Penitencia (*Ordo Paenitentiae*, 1973) y tiene derechos reservados. Puedes leerla en tu misal o ritual, o en la edición oficial de tu país. La fórmula, que citan el Catecismo (CIC 1449) y el Ritual (n. 46), expresa que el perdón viene del Padre misericordioso, por la muerte y resurrección de su Hijo y el don del Espíritu Santo, y se concede por el ministerio de la Iglesia, con la paz como fruto.\n\n**Qué ocurre:** en ese momento tus pecados quedan realmente perdonados. Se te restituye la amistad con Dios, la gracia santificante y, si hacía falta, la posibilidad de comulgar (CIC 1468-1470).",
+   "ccc": "1449; 1461-1470"
+  },
+  {
+   "id": "despues",
+   "kind": "prayer",
+   "title": "Acción de gracias tras la confesión",
+   "prayer": "oracion-despues-de-la-confesion"
+  },
+  {
+   "id": "requisitos",
+   "kind": "text",
+   "title": "Requisitos del sacramento",
+   "text": "**Lo necesario para recibirlo bien** (CIC 1450-1460):\n\n1. **Examen de conciencia** hecho con honradez.\n2. **Contrición** (dolor de los pecados) con **propósito de enmienda**.\n3. **Confesión** de los pecados mortales al sacerdote, con su especie y número.\n4. **Absolución** dada por el sacerdote con la facultad de absolver.\n5. **Satisfacción** (cumplir la penitencia y reparar el daño).\n\n**Lo que enseña la Iglesia sobre la gravedad y el ministro:**\n- Solo un sacerdote (u obispo) válidamente ordenado, con facultad para absolver, puede dar la absolución (CIC 1461-1466). En peligro de muerte cualquier sacerdote puede absolver (Código de Derecho Canónico, c. 976).\n- El sigilo sacramental es inviolable: el confesor nunca puede revelar lo que oye en confesión (CIC 1467).\n- La absolución colectiva, sin confesión individual previa, solo es posible en casos excepcionales de grave necesidad (CIC 1483).\n\n**Disciplina de la Iglesia:** confesar los pecados graves al menos una vez al año (CIC 2042) y recibir la Eucaristía por Pascua (CIC 2042). No se debe comulgar con conciencia de pecado grave sin confesarse antes (CIC 1385; salvo imposibilidad grave con acto de contrición perfecta y propósito de confesarse).\n\n**Devoción:** confesarse con frecuencia (mensual, por ejemplo) y tener un confesor estable ayuda a crecer; no es obligación.",
+   "ccc": "1450-1467; 2042"
+  },
+  {
+   "id": "cuando-no-puedes",
+   "kind": "text",
+   "title": "Si no puedes confesarte pronto",
+   "text": "Si estás en pecado grave y no puedes llegar a un sacerdote, puedes recurrir a la contrición perfecta, que nace del amor a Dios, y que perdona también los pecados mortales con la condición de que incluya el propósito firme de confesarse en cuanto sea posible (CIC 1452). Reza el acto de contrición con el corazón y busca cuanto antes un sacerdote.",
+   "ccc": "1452"
+  },
+  {
+   "id": "despues-de-confesar",
+   "kind": "reflection",
+   "title": "Después de confesarte",
+   "text": "Cumple la penitencia cuanto antes, da gracias a Dios y cuida el propósito: pide ayuda a Dios cada día, frecuenta los sacramentos y evita las ocasiones de pecado. Si recuerdas después un pecado grave olvidado sin culpa, no te angusties: está perdonado y lo dirás en la próxima confesión (CIC 1456). Recuerda que la alegría de ser perdonado es parte del sacramento (cf. Lc 15,32).",
+   "ccc": "1456; 1468-1470"
+  }
+ ]
+}
